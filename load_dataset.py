@@ -1,4 +1,3 @@
-"""Load and inspect the TruthfulQA dataset (generation config)."""
 
 from datasets import load_dataset
 
