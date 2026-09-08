@@ -1,0 +1,22 @@
+{
+  "model": "qwen2.5-1.5b-instruct",
+  "dataset": "truthfulqa",
+  "calibration_proposed": {
+    "ece": 0.014300188138033501,
+    "brier_score": 0.24393450588993915
+  },
+  "confidence_vs_correctness": {
+    "grounded_mean_logprob_mean": -0.4662301208463318,
+    "hallucinated_mean_logprob_mean": -0.4499672148428042,
+    "grounded_mean_logprob_std": 0.18552491707790797,
+    "hallucinated_mean_logprob_std": 0.19570034721289603,
+    "point_biserial_corr_mean_logprob_vs_label": 0.04191932457265209
+  },
+  "error_analysis": {
+    "overall_accuracy": 0.5833333333333334,
+    "n_false_positives": 25,
+    "n_false_negatives": 0,
+    "n_categories": 23
+  },
+  "token_viz_report": "C:\\Stuff\\Hallucination\\results\\qwen2.5-1.5b-instruct\\truthfulqa\\analysis\\token_uncertainty_examples.html"
+}

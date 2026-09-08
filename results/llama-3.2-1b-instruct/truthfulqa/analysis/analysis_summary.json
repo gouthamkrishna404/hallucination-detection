@@ -1,0 +1,22 @@
+{
+  "model": "llama-3.2-1b-instruct",
+  "dataset": "truthfulqa",
+  "calibration_proposed": {
+    "ece": 0.06778496962383883,
+    "brier_score": 0.255582549105117
+  },
+  "confidence_vs_correctness": {
+    "grounded_mean_logprob_mean": -0.41489735001684697,
+    "hallucinated_mean_logprob_mean": -0.405088436236309,
+    "grounded_mean_logprob_std": 0.13659458682693804,
+    "hallucinated_mean_logprob_std": 0.1514377200661752,
+    "point_biserial_corr_mean_logprob_vs_label": 0.0340303673565529
+  },
+  "error_analysis": {
+    "overall_accuracy": 0.5166666666666667,
+    "n_false_positives": 19,
+    "n_false_negatives": 10,
+    "n_categories": 29
+  },
+  "token_viz_report": "C:\\Stuff\\Hallucination\\results\\llama-3.2-1b-instruct\\truthfulqa\\analysis\\token_uncertainty_examples.html"
+}
