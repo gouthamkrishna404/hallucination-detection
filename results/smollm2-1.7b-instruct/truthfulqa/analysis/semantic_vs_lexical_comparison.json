@@ -1,0 +1,52 @@
+{
+  "semantic_self_consistency": {
+    "accuracy": 0.5666666666666667,
+    "precision": 0.5666666666666667,
+    "recall": 1.0,
+    "f1": 0.723404255319149,
+    "auroc": 0.576923076923077,
+    "confusion_matrix": [
+      [
+        0,
+        26
+      ],
+      [
+        0,
+        34
+      ]
+    ],
+    "n": 60,
+    "n_positive": 34,
+    "calls_per_question": 5,
+    "feature_cols": [
+      "semantic_entropy"
+    ]
+  },
+  "lexical_self_consistency": {
+    "accuracy": 0.5666666666666667,
+    "precision": 0.5666666666666667,
+    "recall": 1.0,
+    "f1": 0.723404255319149,
+    "auroc": 0.5599547511312216,
+    "confusion_matrix": [
+      [
+        0,
+        26
+      ],
+      [
+        0,
+        34
+      ]
+    ],
+    "n": 60,
+    "n_positive": 34,
+    "calls_per_question": 5,
+    "feature_cols": [
+      "agreement_score"
+    ],
+    "coefficients": {
+      "agreement_score": 0.6842119637125249
+    },
+    "intercept": -0.07031761075209797
+  }
+}

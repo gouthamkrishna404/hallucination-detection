@@ -12,6 +12,7 @@
     "self_consistency_auroc":0.4606345476,
     "self_consistency_accuracy":0.5666666667,
     "self_consistency_f1":0.7234042553,
+    "semantic_self_consistency_auroc":0.4700352526,
     "calls_proposed":200,
     "calls_self_consistency":1000
   },
@@ -28,6 +29,7 @@
     "self_consistency_auroc":0.4766666667,
     "self_consistency_accuracy":0.5,
     "self_consistency_f1":0.6590909091,
+    "semantic_self_consistency_auroc":0.5277777778,
     "calls_proposed":200,
     "calls_self_consistency":1000
   }

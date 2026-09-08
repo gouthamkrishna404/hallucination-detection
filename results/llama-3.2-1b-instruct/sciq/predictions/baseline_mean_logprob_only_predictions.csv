@@ -1,0 +1,61 @@
+qid,question,label,hallucination_probability,predicted_label
+sciq_0000,What term means the set of processes by which metals are extracted from their ores and converted to more useful forms?,1,0.4812857966686628,0
+sciq_0002,"During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?",1,0.5565536493257491,1
+sciq_0004,The interaction between atomic orbitals is greatest when they have the same what?,1,0.4779489552401266,0
+sciq_0007,What evolutionary process has adapted protonephridia to different tasks in different environments?,1,0.6717631145207722,1
+sciq_0008,Melting ice is drastically impacting the number of what at glacier national park?,0,0.670543372256053,1
+sciq_0009,Where do mushrooms get their energy?,1,0.5531918184981027,1
+sciq_0010,Which part of the atmosphere do greenhouse gasses trap heat in?,0,0.5048904750058008,1
+sciq_0014,What branch of science explains much of what you observe and do in your daily life?,1,0.485810211084584,0
+sciq_0017,Toxins and poisons are ______ enzyme inhibitos,1,0.5569036894783475,1
+sciq_0028,"What substance, which forms igneous rock, flows out in rivers of lava when it reaches the surface?",0,0.4948246673449806,0
+sciq_0029,What is it called when birds keep their eggs warm while the embryos inside develop?,0,0.6301691992286866,1
+sciq_0037,How do multicellular organisms grow in size?,0,0.5734346836401573,1
+sciq_0040,"What useful tool helps scientists work with, understand and make predictions about extremely complex systems?",0,0.572318714386106,1
+sciq_0045,Mollusks have a true coelom and a complete what?,1,0.6142081666081934,1
+sciq_0046,What is a large molecule with many repeating units?,0,0.4759767970194483,0
+sciq_0053,What cycle is part of cellular respiration and makes atp and naph?,1,0.5783341726565753,1
+sciq_0060,"Cnidarians are an example of organisms that possess a simple type of what system, used for sensing touch?",1,0.5480814282813992,1
+sciq_0062,What is the the process by which remains or traces of living things become fossils called?,1,0.4510651630576904,0
+sciq_0063,How does increasing the temperature of reactants affect the rate of their reaction?,0,0.522979697147438,1
+sciq_0064,Soap acts as what kind of agent between grease and water?,1,0.5145340367882767,1
+sciq_0067,What part of the neuron is a large structure with a central nucleus?,1,0.5209349228760621,1
+sciq_0069,Light is a form of what kind of energy?,0,0.4650963187482316,0
+sciq_0077,Most fungi get organic compounds from what?,0,0.5905532574869681,1
+sciq_0078,"What nervous system is divided into two parts, the sensory division and the motor division?",1,0.5003044412614747,1
+sciq_0083,Solute potential is also called osmotic potential because solutes affect the direction of what?,1,0.5252073793453439,1
+sciq_0086,What are atoms with unstable nuclei are considered to be?,1,0.4864398833124643,0
+sciq_0088,Cardiac muscle is found only in which part of the heart?,1,0.5565035790586452,1
+sciq_0091,"Control of the body can be somatic or autonomic, offering one way to divide what organ system by function?",0,0.5434938196304174,1
+sciq_0107,Hydrophilic molecules generally avoid what other kinds of molecules?,1,0.5614276758230444,1
+sciq_0108,Why do fish have short esophaguses?,1,0.6249862428614635,1
+sciq_0112,What is the process of filtering waste from the kidneys?,1,0.5916983148908298,1
+sciq_0114,"What is a therian mammal in which the embryo is born at an early, immature stage?",0,0.4821521631821688,0
+sciq_0118,What type of map reveals the shape of a landscape?,0,0.570916644984961,1
+sciq_0120,"Illustrating how form follows function, long, slender protein strands that make up what tissue are essential for contracting and relaxing?",0,0.5488697573703369,1
+sciq_0126,What phase does the cell make final preparations to divide?,1,0.5744327647205536,1
+sciq_0128,Hydrogen-based fuel cells were and are used to provide what for manned space vehicles?,1,0.6133339156485113,1
+sciq_0131,The concept that atoms tend to have eight electrons in their valence electron shell is called what?,0,0.45972840344655014,0
+sciq_0132,What is the force that opposes motion between two surfaces that are touching?,0,0.44911568490626674,0
+sciq_0133,"In the case of the moose, predation is an additional factor that regulates what?",0,0.5418595027858361,1
+sciq_0136,What are the little sacs at the end of the bronchioles called?,0,0.490598610544876,0
+sciq_0140,The overall voltage of the battery is therefore the sum of ________ of the individual cells.,0,0.48028649148198255,0
+sciq_0142,What lines the passages of the nose and senses chemicals in the air?,1,0.6152739421997125,1
+sciq_0148,What form of reproduction creates offspring that are genetically identical to the parent?,1,0.66101149400022,1
+sciq_0158,What type of bonds are formed by the side-to-side overlap of p orbitals?,1,0.4912184523063591,0
+sciq_0160,"Breathing involves differences in what, measured in torr, between the inside of the lungs and the air outside?",0,0.5321820111076261,1
+sciq_0167,What are the structural and functional units of the kidneys?,0,0.5869400662181526,1
+sciq_0170,"In an ecosystem, what do you call organisms like lions that capture and kill other animals for food?",0,0.4884990333041072,0
+sciq_0174,What term is used to describe the development of new technology?,1,0.46234850495043256,0
+sciq_0175,"Most modern seed plants are angiosperms, which produce seeds in the ovaries of what basic structure?",1,0.5044318056477661,1
+sciq_0176,Hormones are often regulated through what?,1,0.5290321525498464,1
+sciq_0177,"What process, which is in many ways the opposite of photosynthesis, shows the interdependence of producers and consumers?",1,0.5837118100550809,1
+sciq_0179,What are chromosomes made of?,0,0.5926801459509053,1
+sciq_0182,What do you call the basic units of the structure and function of living things?,0,0.44868611141285486,0
+sciq_0185,What are the hormones that cause a plant to grow?,0,0.5175486830746081,1
+sciq_0186,Traits controlled by genes on the sex chromosomes are called what?,0,0.4838988175014145,0
+sciq_0189,The softer connective tissue that fills the interior of most bone is referred to as what?,0,0.47576930254904515,0
+sciq_0195,What is essential for population of all species to expand greatly?,1,0.62994760219077,1
+sciq_0197,What does the term decay in chemistry refer to with regards to atoms?,1,0.5625921561720181,1
+sciq_0198,Where fossils of the genus eomaia found?,1,0.5308491066645734,1
+sciq_0199,A food web can be broken up into what further subdivision that usually has a few links in it?,1,0.5867855009820008,1

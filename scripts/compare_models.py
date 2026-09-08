@@ -47,6 +47,7 @@ def build_table(models: list[str], dataset_key: str) -> pd.DataFrame:
             "self_consistency_auroc": m["baseline_self_consistency"]["auroc"],
             "self_consistency_accuracy": m["baseline_self_consistency"]["accuracy"],
             "self_consistency_f1": m["baseline_self_consistency"]["f1"],
+            "semantic_self_consistency_auroc": m.get("semantic_self_consistency", {}).get("auroc"),
             "calls_proposed": m["efficiency_summary"]["proposed_total_llm_calls"],
             "calls_self_consistency": m["efficiency_summary"]["self_consistency_total_llm_calls"],
         }
@@ -56,9 +57,9 @@ def build_table(models: list[str], dataset_key: str) -> pd.DataFrame:
 
 def plot_comparison(df: pd.DataFrame, dataset_key: str, out_path: Path):
     metrics = ["mean_logprob_only_auroc", "min_logprob_only_auroc", "entropy_only_auroc",
-               "proposed_3feat_auroc", "self_consistency_auroc"]
+               "proposed_3feat_auroc", "self_consistency_auroc", "semantic_self_consistency_auroc"]
     labels = ["mean-logprob\nonly", "min-logprob\nonly", "entropy\nonly",
-              "proposed\n(3-feat)", "self-consistency\n(5 calls)"]
+              "proposed\n(3-feat)", "lexical self-\nconsistency (5c)", "semantic self-\nconsistency (5c)"]
 
     n_models = len(df)
     n_metrics = len(metrics)
@@ -67,7 +68,7 @@ def plot_comparison(df: pd.DataFrame, dataset_key: str, out_path: Path):
 
     fig, ax = plt.subplots(figsize=(10, 6))
     for i, (_, row) in enumerate(df.iterrows()):
-        vals = [row[m] for m in metrics]
+        vals = [row[m] if row[m] is not None else np.nan for m in metrics]
         ax.bar(x + i * width, vals, width, label=row["model"])
 
     ax.axhline(0.5, linestyle="--", color="gray", label="Chance (AUROC=0.5)")

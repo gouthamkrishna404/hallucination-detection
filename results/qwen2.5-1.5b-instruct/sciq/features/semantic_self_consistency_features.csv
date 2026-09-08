@@ -1,0 +1,201 @@
+qid,semantic_entropy,semantic_majority_answer,label
+sciq_0000,0.9502705392332347,The term for this process is metallurgy.,1
+sciq_0001,-0.0,Charged particles in motion generate electromagnetic fields.,1
+sciq_0002,0.5004024235381879,The third trimester exhibits the greatest growth of the fetus and culminates in labor and delivery.,0
+sciq_0003,1.0549201679861442,Hyphae are part of a large fungus that lives underground.,1
+sciq_0004,-0.0,The interaction between atomic orbitals is greatest when they have the same spin.,1
+sciq_0005,-0.0,A general name for a group of atoms derived from an alkane is an alkyl group.,0
+sciq_0006,-0.0,One thing that cell membranes are permeable to is small molecules such as oxygen and carbon dioxide for gas exchange.,1
+sciq_0007,-0.0,"The evolution of protonephridia involves specialization for specific functions based on environmental needs, such as nitrogen excretion and osmoregulation.",1
+sciq_0008,0.5004024235381879,Melting ice is dramatically altering the ecosystem by affecting the species that depend on glaciers for habitat and resources.,0
+sciq_0009,0.5004024235381879,Mushrooms obtain their energy through photosynthesis from sunlight absorbed by chlorophyll in their cells.,1
+sciq_0010,-0.0,"Greenhouse gases trap heat in the lower portion of the atmosphere, specifically between the Earth's surface and about 15-30 km above it.",0
+sciq_0011,-0.0,The lens and other parts of the eye work together to focus a real image on the retina.,0
+sciq_0012,0.5004024235381879,Acids react with metals to produce hydrogen gas.,1
+sciq_0013,0.9502705392332347,Septa typically refers to partitions or walls within buildings that divide spaces.,1
+sciq_0014,1.0549201679861442,Physics explains much of what we observe and do in our daily lives.,1
+sciq_0015,-0.0,The theory that states there is no interaction between individual gas particles is known as the kinetic molecular theory.,0
+sciq_0016,-0.0,Most mammals reproduce via live birth (viviparity).,1
+sciq_0017,0.9502705392332347,Toxins and poisons inhibit enzymes.,1
+sciq_0018,-0.0,"The first seed plants formed seeds by evolving reproductive structures that enclosed their eggs, allowing for increased protection and dispersal of viable embryos.",1
+sciq_0019,-0.0,It is considered an exothermic reaction.,0
+sciq_0020,1.0549201679861442,"The right and left hip bones, along with the sacrum and coccyx, form the pelvis section of the skeleton.",0
+sciq_0021,-0.0,The organs involved in digestion that do not have food passing through them are called exocrine glands.,1
+sciq_0022,-0.0,"Sponges exemplify an animal body plan known as radial symmetry, where cells are specialized for different functions within the same individual, though they work independently.",1
+sciq_0023,0.6730116670092565,Most organic molecules are composed primarily of carbon atoms.,0
+sciq_0024,-0.0,A lunar eclipse occurs when a full moon passes through Earth's umbra (shadow).,0
+sciq_0025,-0.0,Enzymes can catalyze up to several million reactions per second.,0
+sciq_0026,-0.0,The lithosphere is divided into a dozen major tectonic plates and several minor fault zones.,0
+sciq_0027,-0.0,The energy required to remove an electron from a gaseous atom is called ionization energy.,0
+sciq_0028,-0.0,Molten magma is the substance that forms igneous rocks and flows as lava when reaching the Earth's surface.,0
+sciq_0029,-0.0,It is called incubation.,0
+sciq_0030,-0.0,Lancelets lack a backbone that distinguishes them from other vertebrates.,0
+sciq_0031,-0.0,The smallest structural and functional unit of all living organisms is the cell.,1
+sciq_0032,-0.0,The population size refers to the total count of individuals within a given group or area.,0
+sciq_0033,-0.0,"Jupiter reflects a lot of light due to its size because it has a strong magnetic field that causes charged particles from the sun to be attracted towards it, which then bounce off into space and back again, effectively making Jupiter glow brightly.",0
+sciq_0034,-0.0,There are 20 different common amino acids needed to make proteins.,0
+sciq_0035,-0.0,Herbivores,0
+sciq_0036,-0.0,"Favorable traits become more common through natural selection, where individuals with those traits are more likely to survive and reproduce.",0
+sciq_0037,-0.0,"Multicellular organisms grow through cell division, differentiation, and increased cell number over time, often driven by nutrient availability and environmental factors.",1
+sciq_0038,-0.0,A vapor light produces visible light through the incandescence of heated gases.,1
+sciq_0039,-0.0,The diaphragm is the primary muscle that regulates air flow in the lungs.,1
+sciq_0040,0.5004024235381879,"Computational tools help scientists work with, understand, and make predictions about extremely complex systems.",1
+sciq_0041,-0.0,Electrolysis with electricity is used to break water down into hydrogen and oxygen gases.,1
+sciq_0042,-0.0,A moraine is sediment deposited by glacial movement.,1
+sciq_0043,-0.0,Hertz proved that electromagnetic waves travel at the speed of light.,0
+sciq_0044,-0.0,A continuous string of earthquakes indicates that a volcano is likely to be erupting or may soon do so.,1
+sciq_0045,-0.0,Mollusks have a true coelom and a complete digestive system.,0
+sciq_0046,-0.0,A large molecule composed of many repeating units is called a polymer.,0
+sciq_0047,-0.0,There are at least 40 viruses known to cause cancer in humans.,1
+sciq_0048,0.6730116670092565,"The Mesozoic Era, also known as the Age of Dinosaurs.",1
+sciq_0049,-0.0,"Animals need food, water, and shelter for survival.",1
+sciq_0050,0.5004024235381879,Neutrons collide with an atom of U-235 during the basic nuclear fission process.,1
+sciq_0051,-0.0,The Earth's axis is an imaginary line passing through its geographic north and south poles.,0
+sciq_0052,0.5004024235381879,"A flower contains reproductive parts such as petals, sepals, stamens (male), and pistils (female).",1
+sciq_0053,0.6730116670092565,The Calvin Cycle is part of cellular respiration and makes ATP and NADPH.,1
+sciq_0054,-0.0,"People with osteoporosis are at increased risk of fractures, especially of the hip, spine, and wrist.",0
+sciq_0055,-0.0,The most abundant metal in the Earth's crust is aluminum.,1
+sciq_0056,-0.0,The middle layer of connective tissue is called the reticular layer.,1
+sciq_0057,-0.0,Mid-ocean ridges can extend for hundreds of kilometers and reach depths exceeding 10 km deep.,1
+sciq_0058,0.6730116670092565,Natural selection.,1
+sciq_0059,-0.0,The term for a measure of both speed and direction is velocity.,0
+sciq_0060,-0.0,Cnidarians possess a simple nervous system used for sensing touch.,0
+sciq_0061,-0.0,The retina has light-sensing photoreceptor cells called rods and cones.,0
+sciq_0062,-0.0,The process by which remains or traces of living things become fossils is called fossilization.,0
+sciq_0063,-0.0,"Increasing the temperature of reactants generally increases the rate of their reaction by providing more kinetic energy to molecules, allowing them to collide with greater frequency and energy.",0
+sciq_0064,-0.0,Soap acts as an emulsifying agent between grease and water.,1
+sciq_0065,1.0549201679861442,"""incident"" is an event, while ""reflected"" is to bounce back or appear as a copy.",1
+sciq_0066,0.9502705392332347,The vibrations are changed to electrical signals by hair cells lining the organ of Corti in the inner ear.,1
+sciq_0067,-0.0,The cell body of the neuron is a large structure with a central nucleus.,0
+sciq_0068,1.3321790402101223,The result is an acidic solution.,1
+sciq_0069,-0.0,Light is a form of electromagnetic energy.,0
+sciq_0070,-0.0,The ovaries and uterus are considered the female gonads.,1
+sciq_0071,-0.0,The type of bond that forms between molecules is called a chemical bond.,1
+sciq_0072,-0.0,"Beneficial fungi play a crucial role by aiding plant nutrient uptake, improving soil structure, and providing essential nutrients to plants.",1
+sciq_0073,-0.0,"Ecologists study ecosystems at all levels of biological organization: from molecules to populations, communities, and biomes.",0
+sciq_0074,-0.0,"The nuclear envelope begins to break down during mitosis, specifically during prophase I when chromatin condenses into chromosomes.",1
+sciq_0075,-0.0,"Prokaryotic cells divide by binary fission, where the cell splits into two identical daughter cells.",0
+sciq_0076,-0.0,The molecule with one carbon and four hydrogen atoms is methane (CH4).,0
+sciq_0077,0.5004024235381879,Most fungi obtain organic compounds from decaying matter such as dead plants and animals.,0
+sciq_0078,-0.0,The autonomic nervous system is divided into two parts: the somatic division (motor) and the visceral division (sensory).,1
+sciq_0079,1.3321790402101223,Electrons in chemical bonds.,1
+sciq_0080,-0.0,Most cells are surrounded by a cell membrane.,1
+sciq_0081,0.5004024235381879,Humans have an omnivorous diet.,1
+sciq_0082,-0.0,"Ancient Greeks proposed that matter consisted of four basic elements: fire, earth, air, and water.",1
+sciq_0083,0.5004024235381879,The direction of water movement across a semipermeable membrane due to concentration gradients.,1
+sciq_0084,0.5004024235381879,Mixture components retain physical properties like boiling points and solubility even after mixing.,0
+sciq_0085,0.5004024235381879,The term used to describe this phenomenon is radioactive decay.,1
+sciq_0086,0.6730116670092565,Radioactive elements.,0
+sciq_0087,-0.0,Parasites generally live in or on their hosts.,1
+sciq_0088,-0.0,Cardiac muscle is found exclusively within the myocardium layer of the heart.,1
+sciq_0089,0.5004024235381879,Cell division occurs both during growth and reproduction in organisms.,0
+sciq_0090,-0.0,"The bones, muscles, skin, and nervous system together insulate, protect, and provide sensory input to the body.",1
+sciq_0091,-0.0,"The control of the body's functions is divided into somatic (voluntary) and autonomic (involuntary) systems, which manage different aspects of bodily activities.",0
+sciq_0092,0.5004024235381879,The veins contain one-way valves that help with the return of blood to the heart.,0
+sciq_0093,-0.0,"Black holes are objects in space with such strong gravitational fields that nothing, not even light, can escape them.",0
+sciq_0094,-0.0,Water is considered a solvent because it has a unique ability to dissolve many substances due to its polarity and hydrogen bonding properties.,0
+sciq_0095,-0.0,"If a center of low pressure is moving your way, expect cloudy skies with occasional rain showers and possibly thunderstorms.",1
+sciq_0096,-0.0,"The coast of California has a Mediterranean climate characterized by mild, wet winters and hot, dry summers.",0
+sciq_0097,1.6094379124341005,The band Muse is often cited as offering the richest source of fossils due to its extensive use of unusual materials in their concerts.,1
+sciq_0098,0.5004024235381879,Another name for the vertebral column is spine.,1
+sciq_0099,-0.0,The sex of developing crocodilians is primarily determined by temperature during incubation.,0
+sciq_0100,0.5004024235381879,The cytoskeleton provides structural support to cells.,0
+sciq_0101,-0.0,The vast majority (about 90%) of gamma radiation is absorbed in the first 15 meters of water.,1
+sciq_0102,-0.0,The heart is primarily composed of cardiac muscle.,0
+sciq_0103,-0.0,The term for the force that a magnet exerts on certain materials is magnetic attraction.,0
+sciq_0104,-0.0,Silk and cotton are examples of natural fibers.,0
+sciq_0105,1.0549201679861442,These are called planets.,0
+sciq_0106,-0.0,Approximately 2.5% of Earth's total water volume is fresh water.,1
+sciq_0107,-0.0,Hydrophilic molecules tend to avoid hydrophobic (nonpolar) molecules.,0
+sciq_0108,-0.0,"Fish have short esophaguses because they primarily swallow small prey items whole without chewing them first, adapting to their diet of smaller organisms.",1
+sciq_0109,-0.0,"Malonate acts as an inhibitor of succinate dehydrogenase by binding to its active site, blocking substrate access and preventing electron transfer.",0
+sciq_0110,-0.0,The term that describes this process is exocytosis.,0
+sciq_0111,-0.0,"Asteroids, comets, and planets move around the sun in curved paths called orbits.",0
+sciq_0112,0.5004024235381879,The process of filtering waste from the kidneys involves filtration by specialized units called nephrons within each kidney. Waste products are removed through this filtration process which also helps regulate blood pressure and balance electrolytes.,1
+sciq_0113,1.0549201679861442,"Without particles, water vapor would be unable to exist as a gas at room temperature.",1
+sciq_0114,-0.0,"A therian mammal in which the embryo is born at an early, immature stage is an echidna (echidnas).",0
+sciq_0115,0.5004024235381879,Capillary action refers to the tendency of a fluid to rise or descend in a narrow tube due to the attraction between its molecules and those of the tube material.,0
+sciq_0116,-0.0,Digestive enzymes are released by the organs of the digestive system.,0
+sciq_0117,0.5004024235381879,Proteasomes remove phosphorylated amino acids from proteins through a process called ubiquitination-mediated degradation.,1
+sciq_0118,-0.0,Topographic maps reveal the shape of a landscape.,0
+sciq_0119,0.9502705392332347,The other name for anther pollen sacs is microsporangia.,0
+sciq_0120,1.6094379124341005,"My favorite example is the myofibrils found in muscle tissues. These elongated, filamentous proteins contract to facilitate movement and relaxation during muscle contractions.",0
+sciq_0121,0.5004024235381879,Homologous structures.,0
+sciq_0122,-0.0,Corrosion is usually defined as the degradation of metals due to chemical reactions with their environment.,1
+sciq_0123,0.6730116670092565,Mitochondria sequence enzymes and electrons for efficient cellular respiration through their inner membrane cristae.,0
+sciq_0124,0.5004024235381879,"Quarks are classified into six families: up, down, strange, charm, bottom, and top.",0
+sciq_0125,-0.0,Lava flows more slowly when it is thicker.,0
+sciq_0126,0.6730116670092565,The G2 phase is where cells make final preparations for division.,1
+sciq_0127,0.5004024235381879,"Tundra is characterized by land with permafrost, sparse vegetation (mainly mosses, lichens), and small, hardy plant species adapted to cold climates.",0
+sciq_0128,-0.0,Hydrogen-based fuel cells provide electric power for manned space vehicles.,1
+sciq_0129,-0.0,"The most important function of enzymes in animals is to catalyze biochemical reactions that sustain life processes such as digestion, metabolism, and reproduction.",1
+sciq_0130,-0.0,Transpiration is the process by which plants release water vapor through tiny openings in their leaves known as stomata.,0
+sciq_0131,-0.0,The concept that atoms tend to have eight electrons in their valence electron shell is called the octet rule.,0
+sciq_0132,-0.0,The force that opposes motion between two surfaces that are touching is friction.,0
+sciq_0133,-0.0,Predation is an additional factor that regulates population size in the context of the moose.,0
+sciq_0134,0.6730116670092565,It approximates an idealized closed system where no exchange of matter or heat occurs between the contents and their environment.,1
+sciq_0135,0.6730116670092565,Environmental variables.,1
+sciq_0136,-0.0,The little sacs at the end of the bronchioles are called alveoli.,0
+sciq_0137,-0.0,Grasses and other plants help hold soil in place by forming dense mats that reduce wind and water erosion.,1
+sciq_0138,1.0549201679861442,Vitamins.,1
+sciq_0139,0.9502705392332347,"The kidneys filter blood through nephrons, while renal tubules and the loop of Henle play roles within this process.",0
+sciq_0140,-0.0,The overall voltage of the battery is therefore the sum of the voltages of the individual cells.,0
+sciq_0141,0.5004024235381879,"The nervous system is responsible for transmitting, processing, and responding to most of the sensory information received from external and internal stimuli in the human body.",0
+sciq_0142,0.6730116670092565,Mucus lining the nasal passages acts as both a filter to trap particles and an environment for scent receptors to detect chemicals in the air.,1
+sciq_0143,-0.0,Proteins are polymers of amino acids.,0
+sciq_0144,-0.0,"Marginal lands are unsuitable for farming due to poor soil quality, inadequate water supply, or harsh environmental conditions that make them challenging to cultivate.",1
+sciq_0145,-0.0,"When a nerve impulse reaches the end of an axon, the chemicals released by the axon are called neurotransmitters.",0
+sciq_0146,-0.0,The sun is the most important source of electromagnetic waves on Earth.,0
+sciq_0147,0.5004024235381879,They all have nine valence electrons.,0
+sciq_0148,0.9502705392332347,Asexual reproduction creates offspring genetically identical to the parent.,0
+sciq_0149,-0.0,Ecological succession refers to the change in the numbers and types of species that live in communities over time.,0
+sciq_0150,-0.0,The chains in cellulose stack in parallel rows held together by hydrogen bonds between glucose units.,1
+sciq_0151,-0.0,Plants produce their own energy through photosynthesis using sunlight absorbed by chlorophyll.,0
+sciq_0152,-0.0,Citrate is an ionized form of citric acid.,0
+sciq_0153,-0.0,First stage of cellular respiration involves glycolysis.,1
+sciq_0154,-0.0,The hormone responsible for preventing new ovarian follicles from developing and suppressing uterine contractility is progesterone.,0
+sciq_0155,-0.0,Atoms of the same element with different numbers of neutrons are called isotopes.,0
+sciq_0156,-0.0,The amniotic egg is a shared ancestral character for the Amniota clade.,0
+sciq_0157,0.6730116670092565,The three-dimensional spaces with specific shapes that are components of electron shells are known as atomic orbitals.,0
+sciq_0158,1.3321790402101223,Hybridization of s and p orbitals forms sp hybrid orbitals which can form sigma (σ) bonds between atoms.,1
+sciq_0159,-0.0,"There are five main types of basic sensory receptors: touch, temperature, pain, proprioception, and vision.",1
+sciq_0160,-0.0,Respiratory pressure difference is measured in torr between the inside of the lungs and the air outside.,0
+sciq_0161,0.5004024235381879,Oxygen exists as a diatomic molecule (O2) in its elemental form.,0
+sciq_0162,-0.0,Fungi often make specialized reproductive structures called spores.,1
+sciq_0163,0.5004024235381879,"A mineral's physical properties such as color, luster, hardness, and cleavage planes tend to be more consistent and repeatable than chemical analysis for identifying them.",1
+sciq_0164,0.6730116670092565,"Volcanoes, earthquakes, mountain ranges, trenches, mid-ocean ridges.",0
+sciq_0165,-0.0,These substances are referred to as carbohydrates.,0
+sciq_0166,-0.0,Liverworts are most often found growing on moist ground or leaf litter in temperate climates.,1
+sciq_0167,-0.0,"The structural unit is the nephron, which consists of a glomerulus, renal tubule, and collecting duct; the functional unit is the nephron as well, involved in filtering blood and regulating urine production.",0
+sciq_0168,0.5004024235381879,These are known as epiphytes.,0
+sciq_0169,-0.0,Lyme disease is caused by bacteria from the genus Borrelia.,0
+sciq_0170,0.6730116670092565,Predators,0
+sciq_0171,-0.0,The term for this property is radioactive decay.,1
+sciq_0172,-0.0,The field that studies how organisms interact with their environment and each other is called ecology.,0
+sciq_0173,0.5004024235381879,Carnivores that prey on herbivores are called primary consumers in an ecological hierarchy.,1
+sciq_0174,-0.0,The term used to describe the development of new technology is innovation.,1
+sciq_0175,-0.0,Angiosperms produce seeds in the ovaries of flowers.,0
+sciq_0176,-0.0,Hormones are often regulated by the endocrine system.,0
+sciq_0177,0.9502705392332347,"Decomposition is the process where microorganisms break down dead organic matter, which indirectly helps plants by recycling nutrients back into the soil for them to use, thus showing the interdependence between producers (plants) and consumers (microbes).",1
+sciq_0178,-0.0,A battery is a collection of multiple cells connected together.,1
+sciq_0179,-0.0,Chromosomes are made up primarily of DNA (deoxyribonucleic acid) and proteins.,0
+sciq_0180,0.6730116670092565,"Examples of radiation, chemicals, and infectious agents are all classified as biological hazards in medical contexts.",1
+sciq_0181,-0.0,The heart pumps blood throughout the body.,0
+sciq_0182,-0.0,Cells are the basic units of structure and function in living things.,0
+sciq_0183,-0.0,The measurement of something along its greatest dimension is called the length.,0
+sciq_0184,1.0549201679861442,Spermatozoa release from the male gametophyte swim towards the egg using cilia on their tails for locomotion.,0
+sciq_0185,-0.0,"The hormones that cause a plant to grow include auxins, cytokinins, gibberellins, and ethylene.",0
+sciq_0186,-0.0,Traits controlled by genes on the sex chromosomes are called sex-linked traits.,0
+sciq_0187,-0.0,The majority of electricity in the U.S. is also produced by burning natural gas.,1
+sciq_0188,0.5004024235381879,Hydrogen bombs put a much larger fraction of their output into thermal energy than do conventional bombs.,0
+sciq_0189,0.9502705392332347,The softer connective tissue that fills the interior of most bones is called cartilage.,1
+sciq_0190,1.6094379124341005,"The term you're looking for is ""scree."" Scree forms when rocks fall off slopes, leaving crescent-shaped depressions where they landed, often over layers of slippery, wet clay beneath the rock and soil.",1
+sciq_0191,-0.0,Most waves typically strike the shore head-on.,1
+sciq_0192,0.9502705392332347,The other significant part of the heat mentioned would be the courtyard.,1
+sciq_0193,0.5004024235381879,The technique is known as sterilization.,1
+sciq_0194,0.9502705392332347,Genes located on chromosomes contain the information that controls traits and are inherited by offspring from parents.,0
+sciq_0195,0.5004024235381879,Food supply is essential for populations of all species to expand greatly.,1
+sciq_0196,-0.0,The left atrium receives oxygen-rich blood from the lungs.,0
+sciq_0197,-0.0,"The term ""decay"" in chemistry refers to the process by which an atomic nucleus emits radiation over time, resulting in changes that can be observed at various levels of chemical composition.",0
+sciq_0198,-0.0,Fossils of the genus Eomaia were discovered in China.,0
+sciq_0199,0.6730116670092565,"Food webs often break down into trophic levels, which typically have only a few links connecting organisms at different stages of the food chain.",1

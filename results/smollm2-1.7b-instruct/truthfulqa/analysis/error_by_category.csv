@@ -1,0 +1,30 @@
+category,n,accuracy,hallucination_rate
+Misconceptions,6,0.5,0.5
+Sociology,6,0.6666666666666666,0.6666666666666666
+Fiction,4,0.25,0.25
+Law,4,0.25,0.25
+Indexical Error: Other,3,0.6666666666666666,0.6666666666666666
+Myths and Fairytales,3,0.3333333333333333,0.3333333333333333
+Psychology,3,1.0,1.0
+Health,3,0.6666666666666666,0.6666666666666666
+Distraction,3,1.0,1.0
+Confusion: People,2,1.0,1.0
+Economics,2,0.5,0.5
+Logical Falsehood,2,0.5,0.5
+Politics,2,1.0,1.0
+Paranormal,2,0.0,0.0
+Indexical Error: Location,1,0.0,0.0
+Indexical Error: Time,1,1.0,1.0
+Indexical Error: Identity,1,1.0,1.0
+Advertising,1,1.0,1.0
+Education,1,1.0,1.0
+History,1,1.0,1.0
+Misinformation,1,1.0,1.0
+Nutrition,1,0.0,0.0
+Misquotations,1,0.0,0.0
+Proverbs,1,1.0,1.0
+Science,1,0.0,0.0
+Statistics,1,1.0,1.0
+Stereotypes,1,1.0,1.0
+Subjective,1,1.0,1.0
+Weather,1,1.0,1.0

@@ -1,0 +1,285 @@
+{
+  "proposed_all_three": {
+    "accuracy": 0.6166666666666667,
+    "precision": 0.6166666666666667,
+    "recall": 1.0,
+    "f1": 0.7628865979381443,
+    "auroc": 0.38190364277320804,
+    "confusion_matrix": [
+      [
+        0,
+        23
+      ],
+      [
+        0,
+        37
+      ]
+    ],
+    "n": 60,
+    "n_positive": 37,
+    "calls_per_question": 1,
+    "feature_cols": [
+      "mean_logprob",
+      "min_logprob",
+      "mean_entropy"
+    ],
+    "coefficients": {
+      "mean_logprob": 0.33588379459047296,
+      "min_logprob": -0.12677087154551445,
+      "mean_entropy": 0.03610853659674004
+    },
+    "intercept": 0.404332611313139
+  },
+  "baseline_mean_logprob_only": {
+    "accuracy": 0.6166666666666667,
+    "precision": 0.6166666666666667,
+    "recall": 1.0,
+    "f1": 0.7628865979381443,
+    "auroc": 0.5452408930669801,
+    "confusion_matrix": [
+      [
+        0,
+        23
+      ],
+      [
+        0,
+        37
+      ]
+    ],
+    "n": 60,
+    "n_positive": 37,
+    "calls_per_question": 1,
+    "feature_cols": [
+      "mean_logprob"
+    ],
+    "coefficients": {
+      "mean_logprob": 0.16217170715107002
+    },
+    "intercept": 0.5542964290026511
+  },
+  "baseline_self_consistency": {
+    "accuracy": 0.5666666666666667,
+    "precision": 0.5666666666666667,
+    "recall": 1.0,
+    "f1": 0.723404255319149,
+    "auroc": 0.5599547511312216,
+    "confusion_matrix": [
+      [
+        0,
+        26
+      ],
+      [
+        0,
+        34
+      ]
+    ],
+    "n": 60,
+    "n_positive": 34,
+    "calls_per_question": 5,
+    "feature_cols": [
+      "agreement_score"
+    ],
+    "coefficients": {
+      "agreement_score": 0.6842119637125249
+    },
+    "intercept": -0.07031761075209797
+  },
+  "ablation_feature_sets": {
+    "mean_only": {
+      "accuracy": 0.6166666666666667,
+      "precision": 0.6166666666666667,
+      "recall": 1.0,
+      "f1": 0.7628865979381443,
+      "auroc": 0.5452408930669801,
+      "confusion_matrix": [
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          37
+        ]
+      ],
+      "n": 60,
+      "n_positive": 37
+    },
+    "min_only": {
+      "accuracy": 0.6166666666666667,
+      "precision": 0.6166666666666667,
+      "recall": 1.0,
+      "f1": 0.7628865979381443,
+      "auroc": 0.3924794359576968,
+      "confusion_matrix": [
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          37
+        ]
+      ],
+      "n": 60,
+      "n_positive": 37
+    },
+    "entropy_only": {
+      "accuracy": 0.6166666666666667,
+      "precision": 0.6166666666666667,
+      "recall": 1.0,
+      "f1": 0.7628865979381443,
+      "auroc": 0.4418331374853115,
+      "confusion_matrix": [
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          37
+        ]
+      ],
+      "n": 60,
+      "n_positive": 37
+    },
+    "all_three": {
+      "accuracy": 0.6166666666666667,
+      "precision": 0.6166666666666667,
+      "recall": 1.0,
+      "f1": 0.7628865979381443,
+      "auroc": 0.38190364277320804,
+      "confusion_matrix": [
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          37
+        ]
+      ],
+      "n": 60,
+      "n_positive": 37
+    }
+  },
+  "ablation_threshold_vs_logreg": {
+    "threshold_classifier_mean_logprob": {
+      "accuracy": 0.55,
+      "precision": 0.6388888888888888,
+      "recall": 0.6216216216216216,
+      "f1": 0.6301369863013698,
+      "auroc": 0.5452408930669801,
+      "confusion_matrix": [
+        [
+          10,
+          13
+        ],
+        [
+          14,
+          23
+        ]
+      ],
+      "n": 60,
+      "n_positive": 37,
+      "chosen_threshold": -0.7446705866204453
+    },
+    "logistic_regression_mean_logprob": {
+      "accuracy": 0.6166666666666667,
+      "precision": 0.6166666666666667,
+      "recall": 1.0,
+      "f1": 0.7628865979381443,
+      "auroc": 0.5452408930669801,
+      "confusion_matrix": [
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          37
+        ]
+      ],
+      "n": 60,
+      "n_positive": 37
+    }
+  },
+  "subset_size_sensitivity": {
+    "n=60": {
+      "accuracy_mean": 0.612,
+      "accuracy_std": 0.05354541167188007,
+      "auroc_mean": 0.39039794873192035,
+      "auroc_std": 0.07039160841330344
+    },
+    "n=45": {
+      "accuracy_mean": 0.6342222222222222,
+      "accuracy_std": 0.06772639217860983,
+      "auroc_mean": 0.39554096026739677,
+      "auroc_std": 0.10558849999781664
+    },
+    "n=30": {
+      "accuracy_mean": 0.6006666666666667,
+      "accuracy_std": 0.08151073548925933,
+      "auroc_mean": 0.3985339782804852,
+      "auroc_std": 0.09465835468319687
+    },
+    "n=15": {
+      "accuracy_mean": 0.6200000000000001,
+      "accuracy_std": 0.1085254706406647,
+      "auroc_mean": 0.36551832611832613,
+      "auroc_std": 0.13586364753631935
+    }
+  },
+  "calls_vs_metric_summary": {
+    "Proposed (3 feat)": {
+      "calls_per_question": 1,
+      "accuracy": 0.6166666666666667,
+      "auroc": 0.38190364277320804
+    },
+    "Mean-logprob-only": {
+      "calls_per_question": 1,
+      "accuracy": 0.6166666666666667,
+      "auroc": 0.5452408930669801
+    },
+    "Self-consistency": {
+      "calls_per_question": 5,
+      "accuracy": 0.5666666666666667,
+      "auroc": 0.5599547511312216
+    }
+  },
+  "efficiency_summary": {
+    "n_questions": 200,
+    "proposed_total_llm_calls": 200,
+    "self_consistency_total_llm_calls": 1000,
+    "call_reduction_pct": 80.0
+  },
+  "run_config": {
+    "model": "smollm2-1.7b-instruct",
+    "dataset": "truthfulqa",
+    "seed": 42,
+    "subset_size": 200,
+    "train_fraction": 0.7
+  },
+  "semantic_self_consistency": {
+    "accuracy": 0.5666666666666667,
+    "precision": 0.5666666666666667,
+    "recall": 1.0,
+    "f1": 0.723404255319149,
+    "auroc": 0.576923076923077,
+    "confusion_matrix": [
+      [
+        0,
+        26
+      ],
+      [
+        0,
+        34
+      ]
+    ],
+    "n": 60,
+    "n_positive": 34,
+    "calls_per_question": 5,
+    "feature_cols": [
+      "semantic_entropy"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "label_agreement_rate": 0.785,
+  "cohen_kappa": 0.5626525630593979,
+  "token_f1_label_balance": {
+    "1": 124,
+    "0": 76
+  },
+  "semantic_label_balance": {
+    "1": 107,
+    "0": 93
+  },
+  "proposed_detector_under_token_f1_labels": {
+    "accuracy": 0.6166666666666667,
+    "precision": 0.6166666666666667,
+    "recall": 1.0,
+    "f1": 0.7628865979381443,
+    "auroc": 0.38190364277320804,
+    "confusion_matrix": [
+      [
+        0,
+        23
+      ],
+      [
+        0,
+        37
+      ]
+    ],
+    "n": 60,
+    "n_positive": 37
+  },
+  "proposed_detector_under_semantic_labels": {
+    "accuracy": 0.5166666666666667,
+    "precision": 0.5166666666666667,
+    "recall": 1.0,
+    "f1": 0.6813186813186813,
+    "auroc": 0.460511679644049,
+    "confusion_matrix": [
+      [
+        0,
+        29
+      ],
+      [
+        0,
+        31
+      ]
+    ],
+    "n": 60,
+    "n_positive": 31
+  }
+}

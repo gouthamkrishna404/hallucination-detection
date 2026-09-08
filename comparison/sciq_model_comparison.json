@@ -1,0 +1,36 @@
+[
+  {
+    "model":"Qwen2.5-1.5B-Instruct",
+    "model_key":"qwen2.5-1.5b-instruct",
+    "mean_logprob_only_auroc":0.7801339286,
+    "min_logprob_only_auroc":0.6908482143,
+    "entropy_only_auroc":0.7823660714,
+    "proposed_3feat_auroc":0.7555803571,
+    "proposed_3feat_accuracy":0.7166666667,
+    "proposed_3feat_f1":0.6530612245,
+    "mean_logprob_baseline_auroc":0.7801339286,
+    "self_consistency_auroc":0.6763070078,
+    "self_consistency_accuracy":0.5666666667,
+    "self_consistency_f1":0.380952381,
+    "semantic_self_consistency_auroc":0.5706340378,
+    "calls_proposed":200,
+    "calls_self_consistency":1000
+  },
+  {
+    "model":"Llama-3.2-1B-Instruct",
+    "model_key":"llama-3.2-1b-instruct",
+    "mean_logprob_only_auroc":0.6341189675,
+    "min_logprob_only_auroc":0.6374859708,
+    "entropy_only_auroc":0.6127946128,
+    "proposed_3feat_auroc":0.6161616162,
+    "proposed_3feat_accuracy":0.6166666667,
+    "proposed_3feat_f1":0.6567164179,
+    "mean_logprob_baseline_auroc":0.6341189675,
+    "self_consistency_auroc":0.5945945946,
+    "self_consistency_accuracy":0.6333333333,
+    "self_consistency_f1":0.7441860465,
+    "semantic_self_consistency_auroc":0.5323149236,
+    "calls_proposed":200,
+    "calls_self_consistency":1000
+  }
+]

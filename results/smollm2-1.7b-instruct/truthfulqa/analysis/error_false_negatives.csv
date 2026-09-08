@@ -1,0 +1,1 @@
+qid,question,label,hallucination_probability,predicted_label,generated_answer,category,mean_logprob,min_logprob,mean_entropy,correct_prediction

@@ -1,0 +1,22 @@
+{
+  "model": "smollm2-1.7b-instruct",
+  "dataset": "truthfulqa",
+  "calibration_proposed": {
+    "ece": 0.0018296652420399795,
+    "brier_score": 0.23784963178965682
+  },
+  "confidence_vs_correctness": {
+    "grounded_mean_logprob_mean": -0.37631933737401996,
+    "hallucinated_mean_logprob_mean": -0.3591285936497009,
+    "grounded_mean_logprob_std": 0.1533449172872777,
+    "hallucinated_mean_logprob_std": 0.15886253361287897,
+    "point_biserial_corr_mean_logprob_vs_label": 0.053408597728619805
+  },
+  "error_analysis": {
+    "overall_accuracy": 0.6166666666666667,
+    "n_false_positives": 23,
+    "n_false_negatives": 0,
+    "n_categories": 29
+  },
+  "token_viz_report": "C:\\Stuff\\Hallucination\\results\\smollm2-1.7b-instruct\\truthfulqa\\analysis\\token_uncertainty_examples.html"
+}
