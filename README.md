@@ -9,10 +9,21 @@ This started as a DA1 assignment (BCSE306L, Natural Language Processing)
 comparing a 1-call logprob-based detector against a 5-call self-consistency
 baseline on Qwen2.5-1.5B-Instruct + TruthfulQA. It has since been extended
 into a full, multi-model, multi-dataset hallucination-detection pipeline
-with an interactive demo. **The DA1 result and the expanded project's
-results are both reported honestly below, including where the detector
-does not work well** — this project does not optimize for good-looking
-numbers.
+with an interactive demo. **Every result below is reported honestly,
+including where the detector does not work** — this project does not
+optimize for good-looking numbers.
+
+**Bottom line** (full evidence and caveats in the sections below):
+single-generation logprob/entropy features are **not reliable on
+TruthfulQA** (AUROC ≈ chance, on *two* different model families —
+Qwen2.5-1.5B-Instruct and Llama-3.2-1B-Instruct — so this is a property of
+the adversarially-constructed benchmark, not one model's quirk) but **are
+a real, usable signal on SciQ**, an ordinary factual-recall benchmark
+(AUROC 0.75–0.78, and there the 1-call detector outright *beats* the
+5-call self-consistency baseline). The honest, dataset-dependent answer:
+1 call can match — or beat — 5 calls when the task rewards genuine
+uncertainty; it cannot when the task is specifically built to make the
+model confidently wrong.
 
 ## Pipeline
 
@@ -312,7 +323,54 @@ not evidence the detector "works" at reduced cost.
 
 ## Multi-dataset check: TruthfulQA vs. SciQ
 
-<!-- SCIQ_PLACEHOLDER -->
+Same model (Qwen2.5-1.5B-Instruct), same pipeline, same seed, same split
+ratio, same features/classifiers — the only thing that changed is the
+dataset: SciQ (ordinary crowd-sourced science exam questions with one
+correct answer + three wrong-but-plausible distractors) instead of
+TruthfulQA (questions adversarially built from common misconceptions).
+
+| Method | TruthfulQA AUROC | SciQ AUROC |
+|---|---|---|
+| mean-logprob only | 0.551 | **0.780** |
+| min-logprob only | 0.464 | 0.691 |
+| entropy only | 0.504 | **0.782** |
+| proposed (3-feat) | 0.482 | **0.756** |
+| self-consistency (5 calls) | 0.461 | 0.676 |
+
+![SciQ ROC curves](results/qwen2.5-1.5b-instruct/sciq/plots/roc_comparison.png)
+
+**On SciQ, the detector genuinely works.** AUROC 0.75–0.78 is real,
+usable separation (feature distributions for grounded vs. hallucinated
+visibly diverge — `results/qwen2.5-1.5b-instruct/sciq/plots/feature_distributions.png`
+— rather than overlapping completely as on TruthfulQA). At the
+train-set-optimal threshold, the mean-logprob detector reaches 91%
+precision at 36% recall (it's conservative: when it flags an answer,
+it's usually actually wrong). And notably: **the 1-call detector beats
+the 5-call self-consistency baseline outright here** (0.780 vs. 0.676
+AUROC) — not just "matches it for less cost," genuinely better, at
+one-fifth the calls.
+
+This is the direct causal confirmation of the interpretation above: the
+TruthfulQA null result is not a general failure of logprob-based
+hallucination detection, and not a limitation of Qwen2.5-1.5B-Instruct
+specifically — it is what happens when you point this exact method at a
+benchmark deliberately built so that model confidence and truth are
+decorrelated. Point the same method at an ordinary factual-recall
+benchmark (no adversarial construction against confident misconceptions),
+and single-generation uncertainty is a meaningfully strong, cheap signal.
+
+**This reframes the research question's answer.** "Can 1 call match 5
+calls" depends entirely on what the questions are selecting for:
+- On adversarially-constructed misconception benchmarks (TruthfulQA):
+  neither 1 call nor 5 calls detects hallucination above chance with
+  these small models — the call-budget question doesn't arise because
+  there's no signal to trade off.
+- On ordinary factual-recall benchmarks (SciQ): 1 call **outperforms** 5
+  calls, so the honest answer is not "80% fewer calls at roughly equal
+  performance" but "80% fewer calls at *better* performance" — self-consistency's
+  extra sampling adds cost without adding signal here, likely because
+  disagreement across 5 samples is a noisier proxy for correctness than
+  the model's own token-level confidence on well-formed recall questions.
 
 ## Analysis capabilities (per model/dataset run)
 

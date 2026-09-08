@@ -1,0 +1,61 @@
+qid,question,label,hallucination_probability,predicted_label
+sciq_0001,What do charged particles in motion generate?,1,0.40169868551885296,0
+sciq_0002,"During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?",0,0.3534397326949194,0
+sciq_0004,The interaction between atomic orbitals is greatest when they have the same what?,1,0.37401477996203186,0
+sciq_0005,What is the general name for a group of atoms derived from an alkane?,0,0.34078419697752066,0
+sciq_0007,What evolutionary process has adapted protonephridia to different tasks in different environments?,1,0.6484087188280886,1
+sciq_0009,Where do mushrooms get their energy?,1,0.6088729691469457,1
+sciq_0012,Reacting with metal is one thing that distinguishes acids from what?,1,0.5098037494281998,1
+sciq_0017,Toxins and poisons are ______ enzyme inhibitos,1,0.5141858705601563,1
+sciq_0021,Organs involved in digestion that do not have food pass through them are called?,1,0.4630520676713064,0
+sciq_0022,"Sponges exemplify what type of arrangement, where different cells are specialized for different functions, but each cell works alone?",1,0.6141330925984523,1
+sciq_0030,The lancelet lacks what feature that distinguishes vertebrates?,0,0.4279220836878769,0
+sciq_0041,Water can be broken down into hydrogen and oxygen gases by the addition of what?,1,0.4308840936141168,0
+sciq_0045,Mollusks have a true coelom and a complete what?,0,0.3310163212866675,0
+sciq_0046,What is a large molecule with many repeating units?,0,0.4189546563475062,0
+sciq_0048,What geologic era is also known as the age of mammals?,1,0.5074176795297629,1
+sciq_0049,What 3 things do animals need to live and survive?,1,0.45296908220241544,0
+sciq_0051,Earth's axis is an imaginary line passing through which poles?,0,0.37713947288296606,0
+sciq_0058,"Competition that occurs between members of the same species, which improves the species’ adaptations, is called what?",1,0.5812957735281816,1
+sciq_0062,What is the the process by which remains or traces of living things become fossils called?,0,0.32107976566326024,0
+sciq_0064,Soap acts as what kind of agent between grease and water?,1,0.3559330917369097,0
+sciq_0065,"""incident"" and ""reflected"" are two types of what?",1,0.5744807283760122,1
+sciq_0067,What part of the neuron is a large structure with a central nucleus?,0,0.4472122860815801,0
+sciq_0070,What organs are considered the female gonads?,1,0.3838091631763586,0
+sciq_0077,Most fungi get organic compounds from what?,0,0.4630666176215043,0
+sciq_0078,"What nervous system is divided into two parts, the sensory division and the motor division?",1,0.39709219197929496,0
+sciq_0079,We must remember that the formal charge calculated for an atom is not the actual charge of the atom in the molecule. formal charge is only a useful bookkeeping procedure; it does not indicate the presence of these?,1,0.7824782580068964,1
+sciq_0081,Humans are among the most versatile of mammals with what type of diet?,1,0.5258500588596102,1
+sciq_0085,What term is used to describe  is the spontaneous emission of particles and radiation from atomic nuclei?,1,0.43072615292275546,0
+sciq_0087,What type of organism generally lives in or on its host?,1,0.4311414789792749,0
+sciq_0090,"What anatomical structures insulate, protect and provide sensory input?",0,0.6147771296293928,1
+sciq_0095,What kind of weather can you expect if a center of low pressure is moving your way?,1,0.6072403075557616,1
+sciq_0102,What kind of muscle is the heart mainly composed of?,0,0.4165174199256515,0
+sciq_0107,Hydrophilic molecules generally avoid what other kinds of molecules?,0,0.4242858630881342,0
+sciq_0110,What term describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell?,0,0.366360570916204,0
+sciq_0118,What type of map reveals the shape of a landscape?,0,0.3432926601265465,0
+sciq_0119,What is another name for anther pollen sacs?,0,0.3856407346637092,0
+sciq_0120,"Illustrating how form follows function, long, slender protein strands that make up what tissue are essential for contracting and relaxing?",0,0.5015364877382107,1
+sciq_0121,Biological features from a common evolutionary origin are known as what?,0,0.4443477854965687,0
+sciq_0122,Corrosion is usually defined as the degradation of metals due to what?,1,0.3674347001666862,0
+sciq_0125,Does lava flow quickly or slowly when thick?,0,0.4357641294673762,0
+sciq_0126,What phase does the cell make final preparations to divide?,1,0.5843308115190271,1
+sciq_0129,What is the most important function of enzymes in animals?,1,0.5124490591326317,1
+sciq_0137,What kind of organisms helps hold soil in place to slow erosion?,0,0.5536401513698336,1
+sciq_0141,"What system of the body is responsible for transmitting, processing, and responding to most of the sensory information that is created by various stimuli?",0,0.4178630141285643,0
+sciq_0143,Proteins are polymers of what kind of acids?,0,0.3218732997342006,0
+sciq_0152,What is citrate an ionized form of?,0,0.4064232960870076,0
+sciq_0156,The amniotic egg is a shared ancestral character for which clade?,0,0.39389954796142695,0
+sciq_0157,The three-dimensional spaces with specific shapes that are components of electrons shells are known as what?,0,0.3609527164141959,0
+sciq_0158,What type of bonds are formed by the side-to-side overlap of p orbitals?,1,0.6908154521350315,1
+sciq_0159,How many types of basic sensory receptors are there?,1,0.42202452481983815,0
+sciq_0160,"Breathing involves differences in what, measured in torr, between the inside of the lungs and the air outside?",0,0.4091751667270361,0
+sciq_0165,What term is used to describe organic compounds such as sugars and starches?,0,0.3868072962486165,0
+sciq_0168,What are plants that grow on other plants called?,0,0.4573910791362972,0
+sciq_0169,Lyme disease is caused by what kind of organim?,0,0.42388999339413075,0
+sciq_0175,"Most modern seed plants are angiosperms, which produce seeds in the ovaries of what basic structure?",0,0.3641322159280141,0
+sciq_0179,What are chromosomes made of?,0,0.40287145763932247,0
+sciq_0183,What is the measurement of something along it's greatest dimension called?,0,0.3533686785027884,0
+sciq_0184,"The male gametophyte releases what, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg?",0,0.49538932193119145,0
+sciq_0197,What does the term decay in chemistry refer to with regards to atoms?,1,0.4774164836877477,0
+sciq_0199,A food web can be broken up into what further subdivision that usually has a few links in it?,1,0.596150707994038,1
