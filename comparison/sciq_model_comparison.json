@@ -32,5 +32,22 @@
     "semantic_self_consistency_auroc":0.5323149236,
     "calls_proposed":200,
     "calls_self_consistency":1000
+  },
+  {
+    "model":"SmolLM2-1.7B-Instruct",
+    "model_key":"smollm2-1.7b-instruct",
+    "mean_logprob_only_auroc":0.7665544332,
+    "min_logprob_only_auroc":0.7014590348,
+    "entropy_only_auroc":0.7631874299,
+    "proposed_3feat_auroc":0.7171717172,
+    "proposed_3feat_accuracy":0.7166666667,
+    "proposed_3feat_f1":0.6382978723,
+    "mean_logprob_baseline_auroc":0.7665544332,
+    "self_consistency_auroc":0.7575757576,
+    "self_consistency_accuracy":0.7,
+    "self_consistency_f1":0.6538461538,
+    "semantic_self_consistency_auroc":0.544332211,
+    "calls_proposed":200,
+    "calls_self_consistency":1000
   }
 ]

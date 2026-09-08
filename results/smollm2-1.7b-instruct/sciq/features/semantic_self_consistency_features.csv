@@ -1,0 +1,201 @@
+qid,semantic_entropy,semantic_majority_answer,label
+sciq_0000,-0.0,"The term that means the set of processes by which metals are extracted from their ores and converted to more useful forms is ""metallurgy.""",0
+sciq_0001,-0.0,Charged particles in motion generate electromagnetic fields and radiation.,1
+sciq_0002,-0.0,"The third trimester of pregnancy, which is the final 3 months (20-36 weeks), exhibits the greatest growth of the fetus and culminates in labor and delivery.",0
+sciq_0003,-0.0,A large fungus that lives underground is part of a mycelium.,1
+sciq_0004,-0.0,The interaction between atomic orbitals is greatest when they have the same energy.,1
+sciq_0005,-0.0,The general name for a group of atoms derived from an alkane is an alkene.,1
+sciq_0006,-0.0,One thing that cell membranes are permeable to is water molecules.,1
+sciq_0007,-0.0,"The evolutionary process has adapted protonephridia to different tasks in different environments through variations in their structure, function, and location within organisms.",0
+sciq_0008,-0.0,Melting ice at Glacier National Park is drastically impacting the number of glaciers.,0
+sciq_0009,-0.0,"Mushrooms obtain their energy from organic matter, such as decaying plant and animal matter, through a process called decomposition.",0
+sciq_0010,-0.0,"Greenhouse gasses trap heat in the troposphere, the lowest layer of the atmosphere.",1
+sciq_0011,-0.0,The lens and other parts of the eye work together to focus a real image on the retina.,0
+sciq_0012,-0.0,Reacting with metal is one characteristic that distinguishes acids from bases.,0
+sciq_0013,0.6730116670092565,"Septa is found in the cells of certain sponges, where it is a structural element that helps to support the sponge's body.",1
+sciq_0014,-0.0,"The branch of science that explains much of what you observe and do in your daily life is physics, which studies the fundamental nature of matter, energy, and the behavior of physical systems.",1
+sciq_0015,-0.0,The theory that states there is no interaction between individual gas particles is the Ideal Gas Law.,0
+sciq_0016,-0.0,"Most mammals are viviparous, meaning they give birth to live young instead of laying eggs.",1
+sciq_0017,-0.0,"Toxins and poisons can inhibit enzymes, which can disrupt normal cellular functions.",1
+sciq_0018,-0.0,"The first seed plants formed seeds through a process involving the development of sporangia, which are structures that produce spores, and the maturation of those spores into seeds. Over time, these sporangia evolved to produce seeds as a more reliable method of reproduction.",1
+sciq_0019,-0.0,"A thermite reaction is thermodynamically spontaneous and associated with a significant release of heat, making it considered an exothermic reaction.",0
+sciq_0020,-0.0,"The right and left hip bones, with the addition of the sacrum and coccyx, form the pelvis section of the human skeleton.",0
+sciq_0021,-0.0,Organs involved in digestion that do not have food passing through them are called exocrine glands.,0
+sciq_0022,-0.0,"Sponges exemplify a type of multicellular organization where different cells are specialized for different functions, but each cell works independently.",0
+sciq_0023,-0.0,"The skeletons of most organic molecules are formed from carbon, hydrogen, oxygen, and nitrogen atoms.",0
+sciq_0024,-0.0,"A lunar eclipse occurs when a full moon moves through Earth's shadow, causing the moon to darken and sometimes appear reddish.",0
+sciq_0025,-0.0,Enzymes can catalyze up to several million reactions per second.,0
+sciq_0026,-0.0,The lithosphere is divided into a dozen major and several minor tectonic plates.,0
+sciq_0027,-0.0,The energy required to remove an electron from a gaseous atom is called the ionization energy.,0
+sciq_0028,-0.0,"The substance that forms igneous rock when it flows out in rivers of lava is molten rock, specifically lava.",0
+sciq_0029,0.6730116670092565,It is called incubation.,0
+sciq_0030,-0.0,"Lancelets lack a vertebral column, which is a feature that distinguishes vertebrates from other animals.",1
+sciq_0031,-0.0,The smallest structural and functional unit of all living organisms is the cell.,1
+sciq_0032,-0.0,Population size refers to the number of individuals or organisms in a population.,0
+sciq_0033,-0.0,"Jupiter reflects a lot due to its size and its thick atmosphere, which allows it to reflect a significant portion of the Sun's light and heat back into space.",1
+sciq_0034,-0.0,"20 different common amino acids are needed to make proteins, an organic compound.",0
+sciq_0035,-0.0,Non-human organisms that mainly consume plants/other primary producers are known as herbivores.,0
+sciq_0036,-0.0,"The mechanism by which favorable traits become more common in organisms over the course of generations is through natural selection. This occurs when organisms with traits that better enable them to survive and reproduce pass these traits to their offspring, leading to an increase in the frequency of those traits in the population over time.",0
+sciq_0037,-0.0,"Multicellular organisms grow in size by adding new cells at their tips or edges, allowing for continuous cell division and expansion.",1
+sciq_0038,-0.0,"A vapor light produces visible light through the process of incandescence, where it heats a gas until it emits light.",1
+sciq_0039,-0.0,The diaphragm is the primary muscle that regulates air flow in lungs.,1
+sciq_0040,0.5004024235381879,"Scientists use tools like computational models, simulations, and statistical analysis to work with, understand, and predict complex systems.",0
+sciq_0041,-0.0,Water can be broken down into hydrogen and oxygen gases by the addition of heat and electricity.,1
+sciq_0042,-0.0,A moraine is sediment deposited by a glacier.,0
+sciq_0043,-0.0,Hertz proved that electromagnetic waves travel at the speed of light.,0
+sciq_0044,-0.0,"A continuous string of earthquakes indicates that magma is rising beneath a volcano, which is a sign of increased volcanic activity.",0
+sciq_0045,-0.0,Mollusks have a true coelom and a complete body cavity.,1
+sciq_0046,0.5004024235381879,A large molecule with many repeating units is a polymer.,0
+sciq_0047,0.5004024235381879,"Scientists have identified several viruses that can cause cancer in humans, including the human papillomavirus (HPV) and hepatitis B and C viruses.",1
+sciq_0048,-0.0,The geologic era known as the Age of Mammals is also referred to as the Cenozoic Era.,0
+sciq_0049,-0.0,"Animals need food, water, and shelter to live and survive.",1
+sciq_0050,-0.0,"In the basic nuclear fission process, a neutron collides with an atom of uranium-235 (U-235).",0
+sciq_0051,-0.0,Earth's axis is an imaginary line passing through both its North and South poles.,0
+sciq_0052,-0.0,"In a plant, the flower contains reproductive organs and seeds.",1
+sciq_0053,-0.0,The citric acid cycle is part of cellular respiration that produces ATP and NADPH.,0
+sciq_0054,-0.0,"People with osteoporosis are at increased risk of bone fractures, vertebral compression fractures, and other bone-related health issues.",0
+sciq_0055,-0.0,"The most abundant metal in the Earth's crust is iron, accounting for approximately 5% of the total crust.",1
+sciq_0056,0.9502705392332347,"The middle layer of connective tissue is called the ""cancellous"" or ""spongy"" tissue.",1
+sciq_0057,-0.0,"Mid-ocean ridges can reach heights of up to 4,000 meters (13,124 feet) above sea level.",1
+sciq_0058,-0.0,"Competition between members of the same species, which improves the species' adaptations, is called interspecies competition.",1
+sciq_0059,-0.0,The term for a measure of both speed and direction is velocity.,0
+sciq_0060,-0.0,Cnidarians possess a simple sensory system for detecting touch.,1
+sciq_0061,-0.0,The retina has light-sensing photoreceptor cells called rods and cones.,0
+sciq_0062,-0.0,The process by which remains or traces of living things become fossils is called fossilization.,1
+sciq_0063,-0.0,Increasing the temperature of reactants typically increases the rate of their reaction as it provides more energy for particles to collide and react.,0
+sciq_0064,-0.0,"Soap acts as an emulsifier between grease and water, allowing them to mix and reducing the formation of soap scum.",1
+sciq_0065,-0.0,"""Incident"" and ""reflected"" are two types of reflections.",1
+sciq_0066,-0.0,"In the inner ear, the vibrations are changed to electrical signals by hair cells lining the cochlea.",0
+sciq_0067,-0.0,The large structure with a central nucleus in a neuron is the cell body or the soma.,0
+sciq_0068,-0.0,"When equal amounts of a strong acid like hydrochloric acid and a strong base like sodium hydroxide are mixed, the result is a neutral solution with a pH of 7, as they react to form water and a salt.",0
+sciq_0069,-0.0,Light is a form of electromagnetic energy.,0
+sciq_0070,-0.0,The female gonads are considered to be the ovaries.,0
+sciq_0071,-0.0,The type of bond that forms between molecules is called a chemical bond.,1
+sciq_0072,-0.0,"Beneficial fungi play a crucial role in decomposing organic matter and forming symbiotic relationships with plant roots, enhancing nutrient uptake and promoting plant health.",1
+sciq_0073,0.6730116670092565,"Ecologeists study the interactions and relationships between organisms and their environments at every level, including the local, regional, and global scales.",0
+sciq_0074,-0.0,"The nuclear envelope begins to break down in the late G2 phase of the cell cycle, specifically during the prophase stage.",0
+sciq_0075,-0.0,Prokaryotic cells divide through a process called binary fission.,0
+sciq_0076,-0.0,The name of the molecule with one carbon and four hydrogen atoms is Methane.,0
+sciq_0077,0.5004024235381879,Most fungi obtain organic compounds from dead or decaying organic matter.,0
+sciq_0078,-0.0,"The nervous system that is divided into two parts, the sensory division and the motor division, is the peripheral nervous system.",0
+sciq_0079,-0.0,"The actual charge of an atom in a molecule is not indicated by the calculated formal charge. Formal charge is a useful bookkeeping method, not a direct measure of the atom's actual charge.",0
+sciq_0080,-0.0,Most cells are surrounded by a plasma membrane.,1
+sciq_0081,0.5004024235381879,Humans are among the most versatile mammals with a omnivorous diet.,1
+sciq_0082,0.5004024235381879,"According to the ancient Greeks, matter is composed of atoms, a concept proposed by philosophers and scientists like Democritus and Epicurus.",1
+sciq_0083,-0.0,Solute potential is also called osmotic potential because it affects the direction of water movement.,1
+sciq_0084,-0.0,"The components of a mixture keep their own identity when they combine, so they retain their properties like boiling point and ability to dissolve, maintaining their original characteristics.",1
+sciq_0085,-0.0,The term used to describe the spontaneous emission of particles and radiation from atomic nuclei is radioactive decay.,0
+sciq_0086,-0.0,Atoms with unstable nuclei are considered to be radioactive.,1
+sciq_0087,-0.0,A parasite is generally a type of organism that lives in or on its host.,0
+sciq_0088,-0.0,Cardiac muscle is found only in the heart.,1
+sciq_0089,0.9502705392332347,"As organisms grow, they also reproduce, resulting in the transfer of genetic information and the continuation of their lineage.",1
+sciq_0090,-0.0,"The anatomical structures that insulate, protect, and provide sensory input include the skeletal system, which forms bones and joints; the circulatory system, which provides blood; and the nervous system, which includes the brain and sensory organs.",1
+sciq_0091,-0.0,"The control of the body can be divided into somatic and autonomic functions, with the somatic function being divided into voluntary and involuntary actions.",1
+sciq_0092,-0.0,The blood-carrying structures that contain one-way valves that contribute to the return of blood to the heart are veins.,0
+sciq_0093,0.5004024235381879,"In astronomy, objects like black holes, neutron stars, and some white dwarfs are so dense that not even light can escape their gravity.",0
+sciq_0094,-0.0,"Water is considered a polar molecule due to its slightly positive and slightly negative charges, making it an ideal solvent for ions and polar molecules.",0
+sciq_0095,-0.0,"If a center of low pressure is moving towards you, you can expect weather characterized by cloudy skies, light precipitation, and mild temperatures.",1
+sciq_0096,-0.0,"The coast of California has a Mediterranean climate with mild, wet winters and warm, dry summers.",0
+sciq_0097,-0.0,The rock group that offers the richest source of fossils is the band Led Zeppelin.,1
+sciq_0098,-0.0,The vertebral column is also known as the spine.,1
+sciq_0099,-0.0,The sex of developing crocodilians is determined by temperature during incubation.,0
+sciq_0100,0.5004024235381879,"The cell's internal structure is provided by its cell membrane, which acts as a protective barrier, regulates what enters and leaves the cell, and maintains its shape.",1
+sciq_0101,-0.0,Half of the radiation is absorbed in the first 15 meters of water.,1
+sciq_0102,-0.0,The heart is mainly composed of cardiac muscle.,0
+sciq_0103,-0.0,The term for the force that a magnet exerts on certain materials is magnetic force.,1
+sciq_0104,-0.0,Silk and cotton are examples of natural fibers.,0
+sciq_0105,-0.0,"The small, rocky bodies that orbit the sun are called planets.",1
+sciq_0106,-0.0,"About 2.5% of the Earth's water is fresh water, while the remaining 97.5% is saltwater.",1
+sciq_0107,-0.0,Hydrophilic molecules generally avoid hydrophobic molecules.,0
+sciq_0108,-0.0,"Fish have short esophaguses due to their unique feeding behavior, which involves swallowing and digesting food in a different way compared to other animals.",1
+sciq_0109,-0.0,Malonate negatively impacts the enzyme succinate dehydrogenase by inhibiting its activity.,1
+sciq_0110,-0.0,The term that describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell is exocytosis.,0
+sciq_0111,-0.0,"Asteroids, comets, and planets move around the sun in curved paths called orbits.",0
+sciq_0112,-0.0,The process of filtering waste from the kidneys is called excretion.,1
+sciq_0113,-0.0,"Without particles, water vapor could not condense into liquid water or freeze into ice.",0
+sciq_0114,-0.0,"Therian mammals with an embryo born at an early, immature stage are called placental mammals.",0
+sciq_0115,-0.0,Capillary action is the tendency of a fluid to be raised or suppressed in a narrow tube.,1
+sciq_0116,-0.0,"Digestive enzymes are released by the digestive system, which is part of the body system that processes food.",0
+sciq_0117,-0.0,Protein phosphatases function in removing phosphorylated amino acids from proteins.,1
+sciq_0118,-0.0,A topographic map reveals the shape of a landscape.,0
+sciq_0119,-0.0,Another name for anther pollen sacs is microsporangia.,0
+sciq_0120,-0.0,"The long, slender protein strands that make up what tissue are essential for contracting and relaxing are muscle tissue.",0
+sciq_0121,-0.0,Biological features that share a common evolutionary origin are known as homologous features.,0
+sciq_0122,-0.0,"Corrosion is usually defined as the degradation of metals due to chemical reactions with their environment, such as oxygen, water, or acids.",1
+sciq_0123,-0.0,Mitochondria in a cell sequence enzymes and electron molecules for efficient cellular respiration.,0
+sciq_0124,-0.0,Quarks are divided into six families.,1
+sciq_0125,-0.0,Lava flows quickly when thick.,0
+sciq_0126,-0.0,"The cell makes final preparations to divide during the G1, G2, and G1/S phases.",1
+sciq_0127,-0.0,"Land with permafrost, no trees, and small hardy plants is known as tundra.",0
+sciq_0128,-0.0,Hydrogen-based fuel cells were and are used to provide power and oxygen for manned space vehicles.,1
+sciq_0129,-0.0,"The most important function of enzymes in animals is to speed up chemical reactions in the body, allowing for efficient metabolism and proper bodily functions.",1
+sciq_0130,-0.0,"When plants release water vapor through pores in their leaves called stomata, the process is called transpiration.",0
+sciq_0131,-0.0,"The concept that atoms tend to have eight electrons in their valence electron shell is called the ""octet rule.""",0
+sciq_0132,-0.0,The force that opposes motion between two surfaces that are touching is friction.,0
+sciq_0133,-0.0,"In the case of the moose, predation is an additional factor that regulates population growth and stability.",0
+sciq_0134,-0.0,"A sealed, vacuum-insulated reaction flask approximates an adiabatic condition, where neither matter nor heat can be exchanged between the system and its surroundings.",1
+sciq_0135,-0.0,"Nonliving factors in an ecosystem, such as temperature, water, soil, and air, are referred to as abiotic factors.",0
+sciq_0136,-0.0,The little sacs at the end of the bronchioles are called alveoli.,0
+sciq_0137,-0.0,Organisms like plants and fungi help hold soil in place to slow erosion by forming a network of roots and mycelium that binds soil particles together.,1
+sciq_0138,-0.0,"By 2050, 25% of the U.S. population will be 60 years or older, and the CDC estimates that 80% of these individuals will have one or more chronic diseases related to vitamin deficiencies.",1
+sciq_0139,-0.0,"Nephrons, renal tubules, and the loop of Henle are part of the process of blood filtration by the kidneys.",0
+sciq_0140,-0.0,The overall voltage of the battery is the sum of the voltages of the individual cells.,0
+sciq_0141,-0.0,"The sensory system is responsible for transmitting, processing, and responding to most sensory information created by various stimuli.",0
+sciq_0142,-0.0,"The nasal passages sense chemicals in the air through the olfactory epithelium, which contains specialized cells called olfactory receptors.",1
+sciq_0143,-0.0,Proteins are polymers of amino acids.,0
+sciq_0144,-0.0,"Marginal lands are unsuitable for farming due to their poor soil quality, limited water availability, inadequate sunlight, and unsuitable climate conditions.",1
+sciq_0145,-0.0,The chemicals released by the axon at the end of an impulse are called neurotransmitters.,0
+sciq_0146,-0.0,The most important source of electromagnetic waves on Earth is the Sun.,0
+sciq_0147,-0.0,All elements in group 9 have 5 electrons in their outermost energy level.,1
+sciq_0148,-0.0,This form of reproduction creates offspring that are genetically identical to the parent through asexual reproduction.,0
+sciq_0149,-0.0,Ecological succession refers to the change in the numbers and types of species that live in ecosystems.,1
+sciq_0150,-0.0,The chains in cellulose stack in parallel rows held together by hydrogen bonds between oxygen and carbon groups.,1
+sciq_0151,-0.0,"The energy produced by plants comes from the sun through photosynthesis, a process where plants convert sunlight, carbon dioxide, and water into glucose and oxygen.",1
+sciq_0152,-0.0,Citrate is an ionized form of citric acid.,0
+sciq_0153,-0.0,"The first stage of cellular respiration is glycolysis, where glucose is broken down into pyruvate, producing a small amount of ATP and NADH.",1
+sciq_0154,-0.0,"Hormonal changes, specifically the reduction of estrogen and progesterone levels, prevent new ovarian follicles from developing and suppress uterine contractility.",1
+sciq_0155,-0.0,Atoms of the same element that differ in their numbers of neutrons are called isotopes.,0
+sciq_0156,-0.0,"The amniotic egg is a shared ancestral character for the clade Archosauria, which includes birds and their dinosaur ancestors.",1
+sciq_0157,-0.0,The three-dimensional spaces with specific shapes that are components of electrons shells are known as electron shells.,0
+sciq_0158,-0.0,P-orbital bonding is formed by the side-to-side overlap of p orbitals.,1
+sciq_0159,-0.0,"There are five basic types of sensory receptors, which are responsible for detecting different types of stimuli, including light, sound, pressure, temperature, and taste.",1
+sciq_0160,-0.0,"Breathing involves differences in pressure, measured in torr, between the inside of the lungs and the air outside.",0
+sciq_0161,-0.0,Oxygen is an element in a gaseous form of matter.,1
+sciq_0162,-0.0,"Fungi often make specialized reproductive structures, such as mushrooms.",0
+sciq_0163,-0.0,"A more reliable trait or measure to identify minerals is their physical properties, such as hardness, luster, and color, as well as their chemical composition, which can be determined through techniques like X-ray diffraction or electron microprobe analysis.",1
+sciq_0164,-0.0,"Along convergent plate boundaries, mountain ranges and volcanic arcs are formed, while along divergent plate boundaries, mid-ocean ridges and rift valleys are created.",1
+sciq_0165,-0.0,The term used to describe organic compounds such as sugars and starches is biomolecules or biomolecules like carbohydrates.,1
+sciq_0166,-0.0,"Liverworts are most often found in damp, shaded areas, such as forests, woodlands, and near water sources, due to their preference for moist environments.",1
+sciq_0167,-0.0,"The structural and functional units of the kidneys are nephrons, which are small units responsible for filtering waste and excess substances from the blood.",0
+sciq_0168,-0.0,Plants that grow on other plants are called epiphytes.,0
+sciq_0169,-0.0,"Lyme disease is caused by a spirochete, specifically the bacterium Borrelia burgdorferi.",1
+sciq_0170,-0.0,"In an ecosystem, organisms like lions that capture and kill other animals for food are called predators.",0
+sciq_0171,-0.0,"The term for the ability of an atom to emit, or give off, charged particles and energy from its nucleus is radioactive decay.",0
+sciq_0172,-0.0,The study of how organisms interact with their environment and each other is called ecology.,0
+sciq_0173,0.5004024235381879,Carnivores that eat herbivores are primary consumers.,1
+sciq_0174,-0.0,"The term used to describe the development of new technology is ""innovation.""",1
+sciq_0175,-0.0,"Most modern seed plants are angiosperms, which produce seeds in the ovaries of a modified leaf called a ""perianth.""",1
+sciq_0176,0.5004024235381879,"Hormones are often regulated through the endocrine system, which involves a network of glands that produce and secrete hormones into the bloodstream.",1
+sciq_0177,0.5004024235381879,The process that shows the interdependence of producers and consumers is decomposition.,1
+sciq_0178,-0.0,A battery is a multiple connection of electrochemical cells.,1
+sciq_0179,-0.0,Chromosomes are made of DNA and proteins.,0
+sciq_0180,-0.0,"Radiation, chemicals, and infectious agents are examples of environmental contaminants.",1
+sciq_0181,-0.0,The blood in the body is pumped with the heart.,0
+sciq_0182,-0.0,You call the basic units of the structure and function of living things cells.,0
+sciq_0183,-0.0,The measurement of something along its greatest dimension is called its length.,0
+sciq_0184,-0.0,"The male gametophyte releases sperm, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg.",0
+sciq_0185,-0.0,"The hormones that cause a plant to grow include auxins, gibberellins, cytokinins, abscisic acid, and ethylene.",0
+sciq_0186,-0.0,Traits controlled by genes on the sex chromosomes are called sex-linked traits.,0
+sciq_0187,-0.0,The majority of electricity in the U.S. is produced by burning coal.,1
+sciq_0188,0.5004024235381879,Thermite bombs are designed to put a larger fraction of their output into thermal energy due to their composition and design.,1
+sciq_0189,-0.0,The softer connective tissue filling the interior of most bone is called bone marrow.,0
+sciq_0190,0.6730116670092565,"A waterfall may leave crescent-shaped scars on a hillside and may be caused by a layer of slippery, wet clay underneath the rock and soil on a hillside.",1
+sciq_0191,-0.0,Most waves strike the shore head on.,1
+sciq_0192,-0.0,"The significant parts of the heat include the atrium and its counterpart, which is the hypothalamus.",1
+sciq_0193,-0.0,"In the microbiology lab, the technique that refers to the procedures carried out under sterile conditions is aseptic technique.",0
+sciq_0194,-0.0,"Chromosomes contain structures called genes that control the characteristics of life, and these genes are passed from parents to offspring during reproduction.",0
+sciq_0195,-0.0,"For the population of all species to expand greatly, there must be an increase in resources such as food, water, and shelter, as well as a decrease in threats like predation, disease, and environmental stress.",1
+sciq_0196,-0.0,The left atrium receives oxygen-rich blood from the lungs.,0
+sciq_0197,-0.0,"In chemistry, ""decay"" refers to the process of atoms losing or gaining particles such as electrons or protons, leading to changes in their composition and stability.",1
+sciq_0198,-0.0,Fossils of the genus Eomaia were found in the Early Eocene epoch in China.,0
+sciq_0199,-0.0,"A food web can be broken down into a food chain, which is a series of interconnected links that show the flow of energy and nutrients from one organism to another.",0

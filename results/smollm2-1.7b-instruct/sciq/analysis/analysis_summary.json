@@ -1,0 +1,22 @@
+{
+  "model": "smollm2-1.7b-instruct",
+  "dataset": "sciq",
+  "calibration_proposed": {
+    "ece": 0.13034095979254995,
+    "brier_score": 0.22231857529325302
+  },
+  "confidence_vs_correctness": {
+    "grounded_mean_logprob_mean": -0.16717480803012205,
+    "hallucinated_mean_logprob_mean": -0.23689327940446528,
+    "grounded_mean_logprob_std": 0.10812993768574913,
+    "hallucinated_mean_logprob_std": 0.13021481010050268,
+    "point_biserial_corr_mean_logprob_vs_label": -0.28206637450318195
+  },
+  "error_analysis": {
+    "overall_accuracy": 0.7166666666666667,
+    "n_false_positives": 5,
+    "n_false_negatives": 12,
+    "n_categories": 1
+  },
+  "token_viz_report": "C:\\Stuff\\Hallucination\\results\\smollm2-1.7b-instruct\\sciq\\analysis\\token_uncertainty_examples.html"
+}

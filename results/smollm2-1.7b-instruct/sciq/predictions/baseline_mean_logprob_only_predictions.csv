@@ -1,0 +1,61 @@
+qid,question,label,hallucination_probability,predicted_label
+sciq_0001,What do charged particles in motion generate?,1,0.43421558423266793,0
+sciq_0002,"During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?",0,0.4414568519904586,0
+sciq_0004,The interaction between atomic orbitals is greatest when they have the same what?,0,0.41953412725803246,0
+sciq_0005,What is the general name for a group of atoms derived from an alkane?,1,0.41942590128917995,0
+sciq_0007,What evolutionary process has adapted protonephridia to different tasks in different environments?,1,0.47744001039157186,0
+sciq_0013,What takes place where septa is found?,1,0.5399529595032814,1
+sciq_0015,What theory states that there is no interaction between individual gas particles?,1,0.45343924149487136,0
+sciq_0018,How did the first seed plants form seeds?,1,0.5572768405269807,1
+sciq_0026,The lithosphere is divided into a dozen major and several minor what?,0,0.3984529853975584,0
+sciq_0030,The lancelet lacks what feature that distinguishes vertebrates?,1,0.47959391944089413,0
+sciq_0031,What are the smallest structural and functional unit of all living organisms?,1,0.4019243165798274,0
+sciq_0035,Non-human organisms that mainly consume plants/other primary producers are known as what?,0,0.41399163695357183,0
+sciq_0036,What is the mechanism by which favorable traits become more common in organisms over the course of generations?,0,0.42967753850170387,0
+sciq_0040,"What useful tool helps scientists work with, understand and make predictions about extremely complex systems?",0,0.46823490773938675,0
+sciq_0051,Earth's axis is an imaginary line passing through which poles?,0,0.4378148146260328,0
+sciq_0053,What cycle is part of cellular respiration and makes atp and naph?,1,0.4684849126782164,0
+sciq_0058,"Competition that occurs between members of the same species, which improves the species’ adaptations, is called what?",1,0.45938294478817215,0
+sciq_0059,What is the term for a measure of both speed and direction?,0,0.40122730919142086,0
+sciq_0060,"Cnidarians are an example of organisms that possess a simple type of what system, used for sensing touch?",1,0.48681094046966955,0
+sciq_0067,What part of the neuron is a large structure with a central nucleus?,0,0.44074821235385614,0
+sciq_0073,What do ecologists study at every level?,1,0.5014489108131882,1
+sciq_0074,What phase does the nuclear envelope begin to break down?,1,0.4492593649229146,0
+sciq_0075,How do prokaryotic cells divide?,0,0.44293387769319914,0
+sciq_0080,What are most cells surrounded by?,1,0.4473526191582006,0
+sciq_0083,Solute potential is also called osmotic potential because solutes affect the direction of what?,1,0.45422219793752117,0
+sciq_0087,What type of organism generally lives in or on its host?,0,0.4740883747083081,0
+sciq_0089,"What occurs not only as organisms grow, but as they reproduce.",1,0.5150489709159171,1
+sciq_0090,"What anatomical structures insulate, protect and provide sensory input?",1,0.4778783050475138,0
+sciq_0094,"Water is considered a what since it is a polar molecule with slightly positive and slightly negative charges, so ions and polar molecules can readily dissolve in it?",1,0.45033103298462696,0
+sciq_0096,What type of climate does the coast of california have?,0,0.4323470867434378,0
+sciq_0098,What is another name for the vertebral column?,1,0.43300868332036174,0
+sciq_0099,The sex of developing crocodilians is determined by what during incubation?,0,0.42442769947587394,0
+sciq_0100,"Like the frame of a house, what gives the cell an internal structure?",1,0.49004574050126937,0
+sciq_0110,What term describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell?,0,0.4064011974689085,0
+sciq_0111,"Asteroids, comets, and planets move around the sun in curved paths called what?",0,0.40568590935135274,0
+sciq_0113,"Without particles, water vapor could not do what?",0,0.48706760937139093,0
+sciq_0115,"One important phenomenon related to the relative strength of cohesive and adhesive forces is capillary action—the tendency of a fluid to be raised or suppressed in a narrow tube, or called this?",0,0.44760035819814714,0
+sciq_0119,What is another name for anther pollen sacs?,0,0.4276493074236861,0
+sciq_0126,What phase does the cell make final preparations to divide?,1,0.5091804767651398,1
+sciq_0129,What is the most important function of enzymes in animals?,1,0.45843645198662103,0
+sciq_0133,"In the case of the moose, predation is an additional factor that regulates what?",0,0.47874463696832403,0
+sciq_0137,What kind of organisms helps hold soil in place to slow erosion?,0,0.5527471540815696,1
+sciq_0139,"Nephrons, renal tubules and the loop of henle are part of the process of blood filtration by what organs?",0,0.4072473987941067,0
+sciq_0142,What lines the passages of the nose and senses chemicals in the air?,1,0.5165563850003693,1
+sciq_0148,What form of reproduction creates offspring that are genetically identical to the parent?,0,0.43407432002329616,0
+sciq_0156,The amniotic egg is a shared ancestral character for which clade?,0,0.48105733637850345,0
+sciq_0157,The three-dimensional spaces with specific shapes that are components of electrons shells are known as what?,0,0.4353478477567093,0
+sciq_0159,How many types of basic sensory receptors are there?,1,0.44371976467899404,0
+sciq_0161,Oxygen is an element in what form of matter?,1,0.44297246864293205,0
+sciq_0169,Lyme disease is caused by what kind of organim?,0,0.44827598044072164,0
+sciq_0171,"What is the term for the ability of an atom to emit, or give off, charged particles and energy from its nucleus?",0,0.40530078137055225,0
+sciq_0181,What is the blood in the body pumped with?,0,0.4539752167415697,0
+sciq_0183,What is the measurement of something along it's greatest dimension called?,0,0.44985884948035665,0
+sciq_0184,"The male gametophyte releases what, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg?",0,0.4159436114718172,0
+sciq_0186,Traits controlled by genes on the sex chromosomes are called what?,0,0.4203939465299414,0
+sciq_0188,What type of bombs put a much larger fraction of their output into thermal energy than do conventional bombs?,0,0.49323271408482144,0
+sciq_0195,What is essential for population of all species to expand greatly?,1,0.5250932696125215,1
+sciq_0196,The left atrium receives oxygen-rich blood from which organs?,0,0.404812983599104,0
+sciq_0197,What does the term decay in chemistry refer to with regards to atoms?,1,0.5002265644076468,1
+sciq_0199,A food web can be broken up into what further subdivision that usually has a few links in it?,0,0.4572508826187481,0
