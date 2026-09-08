@@ -1,0 +1,30 @@
+# Registry of factual QA / hallucination-detection datasets. Add an entry
+# here plus a loader in src/datasets/<key>.py to make a new dataset
+# selectable via --dataset <key>. Every loader must return a DataFrame with
+# columns: qid, question, best_answer, correct_answers (list[str]),
+# incorrect_answers (list[str]), category -- the unified schema the rest of
+# the pipeline (labeling, features, training) depends on.
+datasets:
+  truthfulqa:
+    hf_name: "truthfulqa/truthful_qa"
+    hf_config: "generation"
+    hf_split: "validation"
+    display_name: "TruthfulQA"
+    notes: >
+      Primary DA1 dataset. Deliberately built from common misconceptions --
+      the model has often seen the *wrong* answer asserted confidently many
+      times in pretraining, which is the reason logprob-based detectors can
+      struggle here specifically (see README "Cross-dataset interpretation").
+
+  sciq:
+    hf_name: "allenai/sciq"
+    hf_config: null
+    hf_split: "test"
+    display_name: "SciQ"
+    notes: >
+      Crowd-sourced science exam questions with one correct answer and three
+      wrong-but-plausible distractors, which map directly onto our
+      correct_answers/incorrect_answers schema. Included as a second,
+      structurally different dataset (ordinary science recall, not
+      adversarially-constructed misconceptions) to test whether the
+      TruthfulQA finding generalizes or is dataset-specific.

@@ -1,0 +1,26 @@
+# Registry of LLMs the pipeline can run. Add an entry here to make a new
+# model selectable from every experiment script via --model <key>.
+#
+# checkpoint: the exact Hugging Face repo used -- frozen for reproducibility.
+# notes: why this exact checkpoint (e.g. gated-license workarounds).
+models:
+  qwen2.5-1.5b-instruct:
+    checkpoint: "Qwen/Qwen2.5-1.5B-Instruct"
+    display_name: "Qwen2.5-1.5B-Instruct"
+    notes: "Primary DA1 model. Ungated, official checkpoint."
+
+  llama-3.2-1b-instruct:
+    checkpoint: "unsloth/Llama-3.2-1B-Instruct"
+    display_name: "Llama-3.2-1B-Instruct"
+    notes: >
+      Weights are numerically identical to meta-llama/Llama-3.2-1B-Instruct;
+      the official repo is gated behind a Meta license acceptance that
+      requires an authenticated, approved HF token, which is not available
+      in this environment. unsloth/Llama-3.2-1B-Instruct is a widely-used
+      ungated re-upload of the same released weights, used here purely to
+      avoid the auth requirement -- no functional difference.
+
+  smollm2-1.7b-instruct:
+    checkpoint: "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    display_name: "SmolLM2-1.7B-Instruct"
+    notes: "Optional third small open-weight model for broader model-generalization checks. Ungated."
