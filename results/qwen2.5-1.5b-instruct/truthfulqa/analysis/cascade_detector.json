@@ -1,0 +1,23 @@
+{
+  "original_3feat_flat": {
+    "point_estimate": 0.3987184787102108,
+    "ci_lower_2.5pct": 0.32393616568377664,
+    "ci_upper_97.5pct": 0.47455450389931414,
+    "n_bootstrap_reps_used": 2000,
+    "excludes_chance": false
+  },
+  "all_17_flat": {
+    "point_estimate": 0.5620090946672178,
+    "ci_lower_2.5pct": 0.48112459830418647,
+    "ci_upper_97.5pct": 0.6416816353265016,
+    "n_bootstrap_reps_used": 2000,
+    "excludes_chance": false
+  },
+  "two_stage_cascade_17feat": {
+    "point_estimate": 0.5979743695742041,
+    "ci_lower_2.5pct": 0.5163075312339152,
+    "ci_upper_97.5pct": 0.6779373490338164,
+    "n_bootstrap_reps_used": 2000,
+    "excludes_chance": true
+  }
+}

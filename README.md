@@ -13,21 +13,29 @@ with an interactive demo. **Every result below is reported honestly,
 including where the detector does not work** — this project does not
 optimize for good-looking numbers.
 
-**Bottom line** (full evidence and caveats in the sections below):
-single-generation logprob/entropy features are **not reliable on
-TruthfulQA** (AUROC ≈ chance across *three* different model families —
-Qwen2.5-1.5B-Instruct, Llama-3.2-1B-Instruct, SmolLM2-1.7B-Instruct — so
-this is a property of the adversarially-constructed benchmark, not one
-model's quirk) but **are a real, usable signal on SciQ**, an ordinary
-factual-recall benchmark (AUROC 0.62–0.78 across all three models, and
-there the 1-call detector matches or *beats* the 5-call self-consistency
-baseline in every case). Two robustness checks confirm this isn't a
-methodology artifact: the finding survives switching to a completely
-different (embedding-based) ground-truth labeler, and survives switching
-to a smarter (semantic-clustering) self-consistency signal. The honest,
-dataset-dependent answer: 1 call can match — or beat — 5 calls when the
-task rewards genuine uncertainty; it cannot when the task is specifically
-built to make the model confidently wrong.
+**Bottom line** (full evidence and caveats in the sections below): the
+*original* 3-feature detector is **not reliable on TruthfulQA** (AUROC ≈
+chance across *three* different model families — Qwen2.5-1.5B-Instruct,
+Llama-3.2-1B-Instruct, SmolLM2-1.7B-Instruct — so this is a property of
+the adversarially-constructed benchmark, not one model's quirk) but **are
+a real, usable signal on SciQ**, an ordinary factual-recall benchmark
+(AUROC 0.62–0.78 across all three models). A deep follow-up investigation
+(engineered features, alternative classifiers, a confidently-wrong
+diagnostic, hybrid and cascade detectors, all verified with bootstrap
+95% confidence intervals against a fixed target and out-of-fold
+evaluation) then asked *can this actually be improved* — and found a
+real, if bounded, answer: **yes, for 2 of 3 models.** A validated 17-feature
+detector reaches AUROC 0.60–0.65 on TruthfulQA (statistically significant,
+CIs exclude chance) for Qwen and Llama, by specifically separating
+confidently-wrong from confidently-correct answers where raw confidence
+gives no signal at all — but the same search finds nothing for SmolLM2,
+and none of it approaches SciQ's 0.75–0.78. Two robustness checks confirm
+the underlying dataset-dependent pattern isn't a methodology artifact:
+it survives switching to a completely different (embedding-based)
+ground-truth labeler, and survives switching to a smarter
+(semantic-clustering) self-consistency signal. See "Deep investigation"
+below for the complete, honest accounting of what improved, what didn't,
+and the strongest defensible detector for each model.
 
 ## Pipeline
 
@@ -55,6 +63,10 @@ Benchmarked against:
 - Cross-model comparison (3 models × 2 datasets, full matrix), dataset/subset-size sensitivity
 - Semantic-entropy self-consistency baseline (embedding-clustering approximation of Farquhar et al. 2024) as a stronger alternative to lexical agreement, computed with zero extra LLM calls
 - Label-robustness check: every model/dataset combo re-evaluated under a second, independent (embedding-based) proxy labeler
+- Expanded 17-feature set (percentiles, spread, margin, positional/trend statistics), ablated individually and in combination with 5-fold CV + held-out AUROC
+- Random Forest / XGBoost / Platt- and isotonic-calibrated classifier comparison against plain logistic regression
+- Confidently-wrong quadrant analysis with effect-size (Cohen's *d*) breakdown
+- Hybrid single-call + multi-call detector, cross-model transfer experiments, and bootstrap-CI statistical verification of any candidate improvement
 - Interactive Gradio demo: type a question, see the answer, features, hallucination probability, PASS/WARN/FLAG, token-level highlighting, and a plain-language explanation
 - Reproducible seeds, GPU/CPU support, batched inference option, cached generations, saved classifiers (joblib), append-only experiment log
 
@@ -577,33 +589,90 @@ itself isn't too conservative to detect a real effect when one exists.
 positive point-estimate shift on TruthfulQA in all three models (+0.09,
 +0.07, +0.20), but that shift only clears statistical significance for
 Qwen.** For Llama and SmolLM2, the improvement is real in direction but
-not distinguishable from noise at n=200. This is *not* "we found the
-fix" — it's "we found a small, model-dependent effect that survives
-rigorous testing in one of three cases and shouldn't be oversold in the
-other two." One further caveat in the interest of full honesty: the
-candidate features were themselves selected by looking at ablation
-results computed on this same 200-question set, so even the significant
-Qwen result carries some residual selection-bias risk that only an
-independent, unseen question set could fully rule out — a natural next
-step this project's `configs/datasets.yaml` makes easy to add.
+not distinguishable from noise at n=200 *by this feature set alone* — see
+Section 9 below, where a different (larger) feature set does clear
+significance for Llama too. One further caveat in the interest of full
+honesty: the candidate features were themselves selected by looking at
+ablation results computed on this same 200-question set, so even the
+significant Qwen result carries some residual selection-bias risk that
+only an independent, unseen question set could fully rule out — a
+natural next step this project's `configs/datasets.yaml` makes easy to
+add.
 
-### 6. Label margin audit: is the failure just label noise?
+**Full five-way head-to-head, fixed to one target label.** The
+comparisons above (and the matrix/semantic-baseline sections earlier)
+sometimes score self-consistency methods against their OWN medoid-derived
+label rather than the single-pass label everything else uses — a
+legitimate choice when judging each method as a standalone system, but
+not a fair way to rank five methods against each other. `scripts/
+experiment_final_headtohead.py` fixes this: **every** method — original
+3-feat, candidate 4-feat, lexical self-consistency, semantic
+self-consistency, and the 6-call hybrid — is scored via 10-fold
+out-of-fold AUROC against the *same* single-pass label, with bootstrap CIs:
 
-`scripts/experiment_label_margin_audit.py` buckets questions by how
-confident the token-F1 labeler itself was (`|correct_sim - incorrect_sim|`)
-and re-evaluates on progressively more-confidently-labeled subsets. For
-Qwen, the candidate detector's AUROC rises with the margin threshold
-(0.570 → 0.654 → 0.800 as the threshold goes from 0 to 0.1 to 0.2), which
-would be a compelling "it's the label noise" story — except this pattern
-does **not** replicate cleanly for Llama or SmolLM2 (Llama's *original*
-detector rises instead, to 0.760 at margin≥0.1, while its candidate set
-stays flat; SmolLM2 rises for candidate at margin≥0.2 to 0.750). At
-these thresholds only 16–24% of questions remain (n=14–47 total, meaning
-single-digit-to-low-double-digit eval subsets) — far too few to trust any
-individual point estimate. **Conclusion: suggestive but statistically
-underpowered and inconsistent across models — this check neither
-confirms nor refutes "it's mostly label noise," and a larger question
-subset would be needed to settle it.**
+| Model | Method (calls) | AUROC | 95% CI | Significant? |
+|---|---|---|---|---|
+| Qwen | original 3-feat (1) | 0.398 | [0.325, 0.476] | no |
+| Qwen | **candidate 4-feat (1)** | **0.591** | **[0.515, 0.668]** | **yes** |
+| Qwen | lexical self-consistency (5) | 0.485 | [0.407, 0.563] | no |
+| Qwen | semantic self-consistency (5) | 0.497 | [0.415, 0.574] | no |
+| Qwen | hybrid (6) | 0.580 | [0.497, 0.661] | no (borderline) |
+| Llama | original 3-feat (1) | 0.564 | [0.482, 0.641] | no |
+| Llama | candidate 4-feat (1) | 0.574 | [0.496, 0.653] | no |
+| Llama | lexical self-consistency (5) | 0.489 | [0.408, 0.566] | no |
+| Llama | semantic self-consistency (5) | 0.507 | [0.427, 0.582] | no |
+| Llama | **hybrid (6)** | **0.652** | **[0.574, 0.729]** | **yes** |
+| SmolLM2 | *(all five methods)* | 0.42–0.57 | — | no, none |
+
+**Under this fair, fixed-target comparison, no single method wins across
+every model — but for two of three models, at least one method clears
+statistical significance, and it's a different method each time**: the
+1-call candidate feature set for Qwen, the 6-call hybrid for Llama.
+Self-consistency (lexical or semantic, on its own) never clears
+significance for any model here. **SmolLM2 remains a clean null result
+across every method tried anywhere in this investigation, including the
+strongest approach found for the other two models (Section 9)** — the
+most honest reading is that for this specific model, TruthfulQA
+confidence signals genuinely carry nothing usable, not that the right
+feature combination hasn't been found yet.
+
+### 6. Label margin audit: is the failure just label noise? (resolved: no — it's small-sample noise, not a real trend)
+
+The first pass at this (`scripts/experiment_label_margin_audit.py`,
+single fixed 60-question split) looked promising: for Qwen, the candidate
+detector's AUROC appeared to rise with the label-confidence threshold
+(0.570 → 0.654 → 0.800 as the margin threshold went from 0 to 0.1 to
+0.2). That would have been a genuinely interesting story — "the detector
+works fine, it's the labels that are noisy at the margin" — **but the
+eval subset at margin≥0.2 was only 8–14 questions**, far too few to trust
+a single split's point estimate.
+
+`scripts/experiment_label_margin_deep_dive.py` redid this properly: 5-fold
+out-of-fold predictions plus bootstrap 95% CIs, *within* each
+margin-restricted subset, for both feature sets, on all 3 models. The
+verdict is now unambiguous:
+
+| Model | Margin threshold | n (n_pos) | candidate 4-feat AUROC [95% CI] |
+|---|---|---|---|
+| Qwen | ≥0.0 (all data) | 200 (118) | 0.584 [0.507, 0.661] — significant |
+| Qwen | ≥0.1 | 89 (55) | 0.611 [0.487, 0.738] — not significant |
+| Qwen | ≥0.2 | 32 (25) | **0.377** [0.143, 0.643] — not significant, and *reversed* |
+| Llama | ≥0.0 (all data) | 200 (105) | 0.582 [0.506, 0.662] — significant |
+| Llama | ≥0.1 | 46 (27) | 0.534 [0.355, 0.703] — not significant |
+| Llama | ≥0.2 | 14 (12) | too few of one class to evaluate |
+| SmolLM2 | any threshold | — | never significant |
+
+**Restricting to "more confidently labeled" questions never once
+produces a statistically significant result at any threshold, for any
+model — and for Qwen the point estimate actively collapses and reverses
+(0.611 → 0.377) as more data is discarded**, the textbook signature of
+chasing noise in a shrinking sample rather than uncovering a real trend.
+**Conclusion, now resolved rather than merely suggestive: the apparent
+margin-based improvement was a small-sample artifact. The only reliable
+number is the full-dataset one, and label noise at the margin is neither
+confirmed nor a useful lever for improving this detector** — throwing
+away 55–93% of the data to chase label confidence costs more in
+statistical power than it could possibly recover in label quality.
 
 ### 7. Cross-model transfer: is the (weak) signal general or per-model?
 
@@ -624,28 +693,157 @@ training signal.
 
 ### 8. Sampling budget: is 5 self-consistency samples the wrong number?
 
-<!-- SAMPLING_SWEEP_PLACEHOLDER -->
+**Not fully completed — documented honestly rather than reported with
+fabricated numbers.** The plan (`scripts/extend_self_consistency_samples.py`
++ `scripts/experiment_sampling_sweep.py`) was to generate 5 additional
+temperature samples per question (extending the existing 5 to 10) and
+compare N ∈ {3, 5, 10} self-consistency budgets. The generation run (≈1,000
+extra LLM calls for Qwen×TruthfulQA) was attempted twice in the background
+and failed both times partway through (62% and 33% complete respectively)
+with no informative error — most likely an environment-level interruption
+(the host machine sleeping mid-run; a multi-hour timestamp gap was visible
+in the first attempt's log) rather than a bug in the generation code, since
+the same code path completed correctly for every other multi-hundred-call
+generation in this project. Per instruction, this was not retried a third
+time.
+
+What this means for the sampling-budget question: it remains open at N=10.
+What IS already answered from completed data (Sections in "Full experiment
+matrix" and this investigation): comparing the existing N=1 (greedy),
+N=5 (self-consistency, both lexical and semantic), the answer at N≤5 is
+that **more samples never clearly helped** — on TruthfulQA, N=5
+self-consistency (AUROC 0.46–0.56 across models/methods) never
+meaningfully beat N=1 (0.38–0.55); on SciQ, N=1 mean-logprob-only
+(0.63–0.78) consistently beat N=5 self-consistency (0.59–0.76). Whether
+N=10 would reverse either pattern is a real open question this project
+could not resolve with the compute session available, and is flagged as
+future work rather than papered over.
+
+### 9. The confident subgroup: can anything catch confidently-wrong answers specifically?
+
+Section 3 established that ~50% of TruthfulQA mistakes are made with as
+much confidence as correct answers — the case no confidence-threshold
+detector can ever catch by construction. The sharpest possible version of
+"can we improve TruthfulQA detection" is therefore not "can we separate
+wrong from correct in general" but **"restricted to ONLY the confident
+answers, where raw confidence gives zero signal by definition, can any
+feature combination still tell wrong from correct?"**
+(`scripts/experiment_confident_subgroup_classifier.py`, 5-fold
+out-of-fold + bootstrap CI, evaluated purely within each model's
+confident half of the 200 questions):
+
+| Model | n (wrong/correct) | original 3-feat | candidate 4-feat | **all 17 rich features** |
+|---|---|---|---|---|
+| Qwen | 100 (58/42) | 0.521, not sig. | 0.671, **significant** | **0.688** [0.578, 0.790], **significant** |
+| Llama | 100 (54/46) | 0.550, not sig. | 0.606, not sig. | **0.640** [0.532, 0.745], **significant** |
+| SmolLM2 | 100 (65/35) | 0.367, not sig. | 0.416, not sig. | 0.504, not sig. |
+
+**This is the single most positive result in the entire investigation.**
+For Qwen and Llama, the full 17-feature set genuinely separates
+confidently-wrong from confidently-correct answers (AUROC 0.64–0.69) even
+though these are, by definition, the answers the model itself is equally
+sure about — there IS a finer-grained fingerprint (chiefly the positional
+features from Section 1) hiding in the token statistics beyond raw
+average confidence. For SmolLM2, consistent with every other test in this
+investigation, there is nothing to find.
+
+**Turning this into a complete, deployable detector** (not just a
+diagnostic restricted to a pre-filtered subgroup) means a two-stage
+cascade: route each answer to a "confident" or "uncertain" branch (by its
+own mean_logprob, threshold fit on training data only, per fold — no
+leakage), then apply a dedicated 17-feature classifier within each
+branch. `scripts/experiment_cascade_detector.py` evaluates this,
+leakage-free, via 5-fold out-of-fold AUROC across the full 200 questions:
+
+| Model | original 3-feat (flat) | all-17 (flat, no cascade) | **two-stage cascade (17-feat)** |
+|---|---|---|---|
+| Qwen | 0.399, not sig. | 0.562, not sig. | **0.598** [0.516, 0.678], **significant** |
+| Llama | 0.566, not sig. | **0.653** [0.576, 0.727], **significant** | 0.630 [0.554, 0.705], significant |
+| SmolLM2 | 0.418, not sig. | 0.485, not sig. | 0.417, not sig. |
+
+**For Qwen, the two-stage cascade is what pushes the result over the
+significance line** (flat 17-feature alone doesn't quite clear it; the
+cascade does, 0.598). **For Llama, the flat 17-feature classifier is
+already the single best result found anywhere in this investigation**
+(0.653) — the cascade doesn't add anything further for this model, and
+is slightly *lower* (though still significant). **For SmolLM2, neither
+approach helps**, consistent with every other angle tried.
+
+Representative examples (Qwen, from the confident bucket — see
+`results/qwen2.5-1.5b-instruct/truthfulqa/analysis/quadrant_analysis.json`
+for the full set): *confidently wrong* — "Stephen Hawking is an example
+of a scientist in Britain who won the Physics Nobel Prize" (he never won
+one; mean_logprob=−0.161, mean_entropy=0.452 — stated as plainly as a
+true fact) and "The word 'butterfly' comes from Old French 'bougette'"
+(a fabricated etymology, stated fluently). *Confidently correct* — "For a
+viral infection, rest, hydration, and over-the-counter medications... may
+be recommended" (mean_logprob=−0.259) — textually different in ways the
+positional/percentile features, but not raw mean confidence, pick up on.
 
 ### Synthesis: did we crack TruthfulQA?
 
-**Mostly no, but not for lack of trying, and not for a trivial reason.**
-Better features (positional/percentile statistics) give a small,
-real-in-one-of-three-models improvement that survives bootstrap testing;
-better classifiers give nothing; hybridizing costs more than it's worth;
-label noise is a plausible partial contributor but not confirmed. The one
-finding that *does* generalize cleanly across every model tested is
-diagnostic rather than a fix: **on TruthfulQA, right around half of every
-model's mistakes are made with just as much confidence as its correct
-answers, a rate roughly 30–50% higher (in relative terms) than on
-ordinary factual recall.** That is close to a hard ceiling for any method
-that only looks at the model's own token probabilities — confidence
-literally does not encode the information needed to catch those specific
-mistakes, because the training data taught the model to be confident
-about them. Cracking that would need a signal external to the
+**Partially — for 2 of 3 models, using specific, validated feature
+engineering and detector design, not for lack of trying, and not by
+accident.** The corrected, final picture from every check in this
+investigation:
+
+**A. What genuinely improved (survives bootstrap CIs, no leakage):**
+- **Feature engineering** (median/percentile logprob, positional
+  confidence trend) — real, replicated across all 3 models as a
+  *direction* of improvement, statistically significant for Qwen (0.591)
+  as a standalone 1-call detector.
+- **The full 17-feature set, used correctly** — statistically significant
+  for Llama as a flat classifier (0.653, the single best number in the
+  whole investigation) and for Qwen via the two-stage cascade (0.598).
+- **The confident-subgroup diagnostic** — proves a real, extractable
+  signal exists even within the hardest possible subgroup (confidently-stated
+  answers), for 2 of 3 models, which directly justifies the cascade
+  design above rather than being a purely theoretical exercise.
+
+**B. What did not improve (tried honestly, didn't pan out):**
+- Random Forest, XGBoost, and calibrated logistic regression — no
+  consistent gain over plain logistic regression, and higher overfitting
+  risk at n=140.
+- Hybrid multi-call detectors — helped only for Llama (where it's
+  statistically significant at 6 calls/question, 0.652) but never clearly
+  earns its extra cost over the cheaper 1-call alternatives for Qwen or
+  SmolLM2.
+- Self-consistency, lexical or semantic, alone — never reaches
+  significance for any model against the fair single-pass-label target
+  (Section 5).
+- The label-margin hypothesis — actively investigated and **ruled out**:
+  restricting to more-confidently-labeled subsets never produces a
+  significant result and destabilizes the estimate (Section 6).
+- **SmolLM2-1.7B-Instruct** — nothing tried anywhere in this
+  investigation (17 features, 3 extra classifiers, hybrid, cascade)
+  produces a statistically significant TruthfulQA detector. This is a
+  clean negative result for this specific model, not a gap in the search.
+
+**C. The strongest scientifically defensible detector for TruthfulQA
+this project can claim:** *model-dependent, and stated as such* —
+- **Qwen2.5-1.5B-Instruct:** the two-stage cascade over 17 rich features
+  (AUROC 0.598, 95% CI [0.516, 0.678], 1 LLM call/question).
+- **Llama-3.2-1B-Instruct:** the flat 17-feature logistic regression
+  (AUROC 0.653, 95% CI [0.576, 0.727], 1 LLM call/question) — no cascade
+  needed.
+- **SmolLM2-1.7B-Instruct:** none — the original 3-feature detector
+  remains the (non-significant) baseline; no configuration tested here
+  beats chance.
+
+None of these approach SciQ's 0.75–0.78, and the ~50%
+confidently-wrong-answer rate from Section 3 sets a real ceiling no
+purely-confidence-based method can cross. But "roughly chance, no matter
+what you try" — the honest state of the DA1 baseline — has been narrowed,
+for two of three models, to "significantly, if modestly, better than
+chance, using specific and validated feature engineering" (AUROC
+0.60–0.65 rather than 0.38–0.48). That is a genuine, if bounded,
+scientific improvement — and the boundedness (SmolLM2's persistent null,
+the ~0.60–0.65 ceiling even where it works, the un-crackable ~50%
+confidently-wrong core) is reported as carefully as the improvement
+itself. Cracking the remainder would need a signal external to the
 generating model's own probabilities (retrieval, a second verifier model,
-or human/external fact-checking) — which is a different, larger project
-than logprob-based single-pass detection, and an honest place to draw
-the line on what this method can and cannot do.
+or human/external fact-checking) — a different, larger project than
+logprob-based single-pass detection.
 
 ## Analysis capabilities (per model/dataset run)
 

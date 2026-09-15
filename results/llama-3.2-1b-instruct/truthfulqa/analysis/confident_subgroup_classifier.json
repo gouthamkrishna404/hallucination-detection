@@ -1,0 +1,26 @@
+{
+  "n": 100,
+  "n_wrong_confident": 54,
+  "n_correct_confident": 46,
+  "original_3feat": {
+    "point_estimate": 0.5499194847020934,
+    "ci_lower_2.5pct": 0.43184795312385676,
+    "ci_upper_97.5pct": 0.6668171684088358,
+    "n_bootstrap_reps_used": 2000,
+    "excludes_chance": false
+  },
+  "candidate_4feat": {
+    "point_estimate": 0.606280193236715,
+    "ci_lower_2.5pct": 0.4892888669301712,
+    "ci_upper_97.5pct": 0.715150085547504,
+    "n_bootstrap_reps_used": 2000,
+    "excludes_chance": false
+  },
+  "all_17_rich": {
+    "point_estimate": 0.640096618357488,
+    "ci_lower_2.5pct": 0.5320506935944512,
+    "ci_upper_97.5pct": 0.744796925999592,
+    "n_bootstrap_reps_used": 2000,
+    "excludes_chance": true
+  }
+}
