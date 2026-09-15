@@ -1,0 +1,137 @@
+{
+  "qwen2.5-1.5b-instruct": {
+    "original_3feat": {
+      "features": [
+        "mean_logprob",
+        "min_logprob",
+        "mean_entropy"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.7555803571428572,
+        "ci_lower_2.5pct": 0.6251076655112824,
+        "ci_upper_97.5pct": 0.8738934696050864,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.7423510466988728,
+        "ci_lower_2.5pct": 0.674565746168758,
+        "ci_upper_97.5pct": 0.8077521664940249,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      }
+    },
+    "candidate_4feat": {
+      "features": [
+        "median_logprob",
+        "logprob_p25",
+        "logprob_trend_slope",
+        "logprob_delta_second_minus_first"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.7287946428571428,
+        "ci_lower_2.5pct": 0.5791069763261087,
+        "ci_upper_97.5pct": 0.8473686625243911,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.7091384863123993,
+        "ci_lower_2.5pct": 0.6340807960814495,
+        "ci_upper_97.5pct": 0.7823152872260015,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      }
+    }
+  },
+  "llama-3.2-1b-instruct": {
+    "original_3feat": {
+      "features": [
+        "mean_logprob",
+        "min_logprob",
+        "mean_entropy"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.6161616161616161,
+        "ci_lower_2.5pct": 0.465138312410615,
+        "ci_upper_97.5pct": 0.755787355006105,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.632020202020202,
+        "ci_lower_2.5pct": 0.5534564506673881,
+        "ci_upper_97.5pct": 0.7043484848484848,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      }
+    },
+    "candidate_4feat": {
+      "features": [
+        "median_logprob",
+        "logprob_p25",
+        "logprob_trend_slope",
+        "logprob_delta_second_minus_first"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.5881032547699214,
+        "ci_lower_2.5pct": 0.4355140493697479,
+        "ci_upper_97.5pct": 0.7308120133481646,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.6145454545454545,
+        "ci_lower_2.5pct": 0.5366984154488209,
+        "ci_upper_97.5pct": 0.6904204764226423,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      }
+    }
+  },
+  "smollm2-1.7b-instruct": {
+    "original_3feat": {
+      "features": [
+        "mean_logprob",
+        "min_logprob",
+        "mean_entropy"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.7171717171717172,
+        "ci_lower_2.5pct": 0.5804847871066405,
+        "ci_upper_97.5pct": 0.8421184797932331,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.6511111111111111,
+        "ci_lower_2.5pct": 0.5750700649631133,
+        "ci_upper_97.5pct": 0.7254123550137639,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      }
+    },
+    "candidate_4feat": {
+      "features": [
+        "median_logprob",
+        "logprob_p25",
+        "logprob_trend_slope",
+        "logprob_delta_second_minus_first"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.7575757575757576,
+        "ci_lower_2.5pct": 0.6279747632936118,
+        "ci_upper_97.5pct": 0.8792092002424818,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.6533333333333332,
+        "ci_lower_2.5pct": 0.5765174354336248,
+        "ci_upper_97.5pct": 0.729567356078905,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      }
+    }
+  }
+}

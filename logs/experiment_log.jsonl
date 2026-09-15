@@ -46,3 +46,7 @@
 {"timestamp": "2026-09-08T15:03:15.180155+00:00", "script": "experiment_semantic_baseline", "model": "smollm2-1.7b-instruct", "dataset": "sciq", "status": "completed", "host": "zenz", "n_questions": 200}
 {"timestamp": "2026-09-08T15:03:21.711087+00:00", "script": "experiment_relabel_semantic", "model": "smollm2-1.7b-instruct", "dataset": "sciq", "status": "started", "host": "zenz"}
 {"timestamp": "2026-09-08T15:03:39.109332+00:00", "script": "experiment_relabel_semantic", "model": "smollm2-1.7b-instruct", "dataset": "sciq", "status": "completed", "host": "zenz", "agreement_rate": 0.73, "kappa": 0.4303797468354431, "auroc_token": 0.7171717171717172, "auroc_semantic": 0.7103109656301145}
+{"timestamp": "2026-09-14T14:59:24.911246+00:00", "script": "backfill_rich_token_details", "model": "qwen2.5-1.5b-instruct", "dataset": "truthfulqa", "status": "started", "host": "zenz", "n_questions": 200}
+{"timestamp": "2026-09-14T15:03:29.512620+00:00", "script": "backfill_rich_token_details", "model": "qwen2.5-1.5b-instruct", "dataset": "truthfulqa", "status": "completed", "host": "zenz", "n_reproduced": 200, "n_mismatches": 0}
+{"timestamp": "2026-09-14T15:15:40.093063+00:00", "script": "extend_self_consistency_samples", "model": "qwen2.5-1.5b-instruct", "dataset": "truthfulqa", "status": "started", "host": "zenz"}
+{"timestamp": "2026-09-15T01:03:33.450412+00:00", "script": "extend_self_consistency_samples", "model": "qwen2.5-1.5b-instruct", "dataset": "truthfulqa", "status": "started", "host": "zenz"}

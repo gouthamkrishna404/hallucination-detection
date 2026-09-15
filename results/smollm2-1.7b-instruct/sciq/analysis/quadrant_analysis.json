@@ -1,0 +1,284 @@
+{
+  "median_logprob_split": -0.1804661840209652,
+  "quadrant_counts": {
+    "correct_confident": {
+      "n": 64,
+      "pct": 32.0
+    },
+    "correct_uncertain": {
+      "n": 46,
+      "pct": 23.0
+    },
+    "wrong_confident": {
+      "n": 36,
+      "pct": 18.0
+    },
+    "wrong_uncertain": {
+      "n": 54,
+      "pct": 27.0
+    }
+  },
+  "quadrant_feature_means": {
+    "correct_confident": {
+      "n": 64,
+      "pct": 32.0,
+      "feature_means": {
+        "mean_logprob": -0.09139703582197563,
+        "median_logprob": -0.011235012610995857,
+        "min_logprob": -0.63638313440606,
+        "logprob_p10": -0.27393666934804056,
+        "logprob_p25": -0.07952229147304021,
+        "std_logprob": 0.17167923997934142,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.24305212307895258,
+        "max_entropy": 1.2948096292093396,
+        "std_entropy": 0.3669812842321202,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.07470148753677729,
+        "second_half_mean_logprob": -0.10591296671815477,
+        "logprob_delta_second_minus_first": -0.03121147918137747,
+        "logprob_trend_slope": -0.0052836604035759295,
+        "answer_length": 17.734375
+      }
+    },
+    "correct_uncertain": {
+      "n": 46,
+      "pct": 23.0,
+      "feature_means": {
+        "mean_logprob": -0.27260475197189116,
+        "median_logprob": -0.11520482937845843,
+        "min_logprob": -1.1991303446500197,
+        "logprob_p10": -0.7774549014218475,
+        "logprob_p25": -0.3962569159820028,
+        "std_logprob": 0.35345262366073,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.6544670341044578,
+        "max_entropy": 2.3592140933741694,
+        "std_entropy": 0.694502918926461,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.2138390410885199,
+        "second_half_mean_logprob": -0.3257237545078514,
+        "logprob_delta_second_minus_first": -0.11188471341933148,
+        "logprob_trend_slope": -0.01262853576590594,
+        "answer_length": 19.195652173913043
+      }
+    },
+    "wrong_confident": {
+      "n": 36,
+      "pct": 18.0,
+      "feature_means": {
+        "mean_logprob": -0.12198471491266928,
+        "median_logprob": -0.016590784408941094,
+        "min_logprob": -0.7687838532858424,
+        "logprob_p10": -0.3732802400624172,
+        "logprob_p25": -0.11207742214254617,
+        "std_logprob": 0.2203717238129014,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.31036734989665843,
+        "max_entropy": 1.505609263976415,
+        "std_entropy": 0.4489926720297167,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.07806644959977765,
+        "second_half_mean_logprob": -0.1634608592467678,
+        "logprob_delta_second_minus_first": -0.08539440964699008,
+        "logprob_trend_slope": -0.016146836573204315,
+        "answer_length": 16.555555555555557
+      }
+    },
+    "wrong_uncertain": {
+      "n": 54,
+      "pct": 27.0,
+      "feature_means": {
+        "mean_logprob": -0.31349898906566265,
+        "median_logprob": -0.14617705589194813,
+        "min_logprob": -1.3866378333833482,
+        "logprob_p10": -0.8381549828582341,
+        "logprob_p25": -0.4772041224081207,
+        "std_logprob": 0.39057191084953297,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.7489280573172837,
+        "max_entropy": 2.711201380800318,
+        "std_entropy": 0.7791150185682244,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.23478917665443025,
+        "second_half_mean_logprob": -0.38790601767545646,
+        "logprob_delta_second_minus_first": -0.15311684102102616,
+        "logprob_trend_slope": -0.014885853090880212,
+        "answer_length": 23.425925925925927
+      }
+    }
+  },
+  "wrong_confident_vs_correct_confident_separation": {
+    "mean_logprob": {
+      "wrong_confident_mean": -0.12198471491266928,
+      "correct_confident_mean": -0.09139703582197563,
+      "cohens_d": -0.722871168140209
+    },
+    "median_logprob": {
+      "wrong_confident_mean": -0.016590784408941094,
+      "correct_confident_mean": -0.011235012610995857,
+      "cohens_d": -0.27299719896693203
+    },
+    "min_logprob": {
+      "wrong_confident_mean": -0.7687838532858424,
+      "correct_confident_mean": -0.63638313440606,
+      "cohens_d": -0.47003187395354684
+    },
+    "logprob_p10": {
+      "wrong_confident_mean": -0.3732802400624172,
+      "correct_confident_mean": -0.27393666934804056,
+      "cohens_d": -0.6100124549800194
+    },
+    "logprob_p25": {
+      "wrong_confident_mean": -0.11207742214254617,
+      "correct_confident_mean": -0.07952229147304021,
+      "cohens_d": -0.39905471762631
+    },
+    "std_logprob": {
+      "wrong_confident_mean": 0.2203717238129014,
+      "correct_confident_mean": 0.17167923997934142,
+      "cohens_d": 0.6760406354531241
+    },
+    "frac_low_confidence": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "mean_entropy": {
+      "wrong_confident_mean": 0.31036734989665843,
+      "correct_confident_mean": 0.24305212307895258,
+      "cohens_d": 0.6738256010727264
+    },
+    "max_entropy": {
+      "wrong_confident_mean": 1.505609263976415,
+      "correct_confident_mean": 1.2948096292093396,
+      "cohens_d": 0.3989052797641725
+    },
+    "std_entropy": {
+      "wrong_confident_mean": 0.4489926720297167,
+      "correct_confident_mean": 0.3669812842321202,
+      "cohens_d": 0.6001146954649642
+    },
+    "mean_margin": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "min_margin": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "first_half_mean_logprob": {
+      "wrong_confident_mean": -0.07806644959977765,
+      "correct_confident_mean": -0.07470148753677729,
+      "cohens_d": -0.050200749594939156
+    },
+    "second_half_mean_logprob": {
+      "wrong_confident_mean": -0.1634608592467678,
+      "correct_confident_mean": -0.10591296671815477,
+      "cohens_d": -0.8234116645415117
+    },
+    "logprob_delta_second_minus_first": {
+      "wrong_confident_mean": -0.08539440964699008,
+      "correct_confident_mean": -0.03121147918137747,
+      "cohens_d": -0.501278470710426
+    },
+    "logprob_trend_slope": {
+      "wrong_confident_mean": -0.016146836573204315,
+      "correct_confident_mean": -0.0052836604035759295,
+      "cohens_d": -0.6141403316629387
+    },
+    "answer_length": {
+      "wrong_confident_mean": 16.555555555555557,
+      "correct_confident_mean": 17.734375,
+      "cohens_d": -0.16719816167027507
+    }
+  },
+  "example_answers_per_quadrant": {
+    "correct_confident": [
+      {
+        "question": "Breathing involves differences in what, measured in torr, between the inside of the lungs and the air outside?",
+        "generated_answer": "Breathing involves differences in pressure, measured in torr, between the inside of the lungs and the air outside.",
+        "mean_logprob": -0.0633323089597676,
+        "mean_entropy": 0.2191358393817305
+      },
+      {
+        "question": "The male gametophyte releases what, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg?",
+        "generated_answer": "The male gametophyte releases sperm, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg.",
+        "mean_logprob": -0.0767087938373089,
+        "mean_entropy": 0.2056315007829308
+      },
+      {
+        "question": "What term means the set of processes by which metals are extracted from their ores and converted to more useful forms?",
+        "generated_answer": "The term that means the set of processes by which metals are extracted from their ores and converted to more useful forms is metallurgy.",
+        "mean_logprob": -0.0660454409448728,
+        "mean_entropy": 0.1622487658374806
+      }
+    ],
+    "correct_uncertain": [
+      {
+        "question": "What are chromosomes made of?",
+        "generated_answer": "Chromosomes are made up of DNA and proteins.",
+        "mean_logprob": -0.2747380499624176,
+        "mean_entropy": 0.5966358273250411
+      },
+      {
+        "question": "Digestive enzymes are released, or secreted, by the organs of which body system?",
+        "generated_answer": "Digestive enzymes are released by the digestive system, which is a body system.",
+        "mean_logprob": -0.2830588922199026,
+        "mean_entropy": 0.6178224265503599
+      },
+      {
+        "question": "Illustrating how form follows function, long, slender protein strands that make up what tissue are essential for contracting and relaxing?",
+        "generated_answer": "The long, slender protein strands that make up what tissue are essential for contracting and relaxing are actin filaments, which are crucial for muscle contraction and relaxation.",
+        "mean_logprob": -0.2767176856439619,
+        "mean_entropy": 0.7129865067778155
+      }
+    ],
+    "wrong_confident": [
+      {
+        "question": "Do most waves strike the shore head on or at an angle?",
+        "generated_answer": "Most waves strike the shore at an angle rather than head-on.",
+        "mean_logprob": -0.1439819322193735,
+        "mean_entropy": 0.3854547105547681
+      },
+      {
+        "question": "What are atoms with unstable nuclei are considered to be?",
+        "generated_answer": "Atoms with unstable nuclei are considered radioactive.",
+        "mean_logprob": -0.0805786715678146,
+        "mean_entropy": 0.2568286337061888
+      },
+      {
+        "question": "What type of bonds are formed by the side-to-side overlap of p orbitals?",
+        "generated_answer": "The type of bonds formed by the side-to-side overlap of p orbitals is covalent bonds.",
+        "mean_logprob": -0.1154415956323729,
+        "mean_entropy": 0.3327582201747776
+      }
+    ],
+    "wrong_uncertain": [
+      {
+        "question": "What crucial role does beneficial fungi play?",
+        "generated_answer": "Beneficial fungi play a crucial role in decomposing organic matter, forming symbiotic relationships with plant roots, and aiding in nutrient cycling.",
+        "mean_logprob": -0.2297028303045644,
+        "mean_entropy": 0.5842209490757442
+      },
+      {
+        "question": "What process, which is in many ways the opposite of photosynthesis, shows the interdependence of producers and consumers?",
+        "generated_answer": "The process that shows the interdependence of producers and consumers is decomposition.",
+        "mean_logprob": -0.1969379782466813,
+        "mean_entropy": 0.5417828693081481
+      },
+      {
+        "question": "Hormones are often regulated through what?",
+        "generated_answer": "Hormones are often regulated through the endocrine system, which involves the release and action of hormones in response to signals from the nervous system.",
+        "mean_logprob": -0.3878555877749932,
+        "mean_entropy": 0.8673320571529725
+      }
+    ]
+  }
+}

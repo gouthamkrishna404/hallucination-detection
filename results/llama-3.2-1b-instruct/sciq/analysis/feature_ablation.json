@@ -1,0 +1,311 @@
+{
+  "single__mean_logprob": {
+    "features": [
+      "mean_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.6534775641025641,
+    "cv_auroc_std": 0.06133918723671905,
+    "held_out_auroc": 0.6341189674523009,
+    "held_out_accuracy": 0.6333333333333333,
+    "held_out_f1": 0.7027027027027027
+  },
+  "single__median_logprob": {
+    "features": [
+      "median_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.6193910256410257,
+    "cv_auroc_std": 0.06489349790881636,
+    "held_out_auroc": 0.6105499438832772,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "single__min_logprob": {
+    "features": [
+      "min_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5943108974358975,
+    "cv_auroc_std": 0.07449830833938875,
+    "held_out_auroc": 0.6374859708193041,
+    "held_out_accuracy": 0.6666666666666666,
+    "held_out_f1": 0.7435897435897436
+  },
+  "single__logprob_p10": {
+    "features": [
+      "logprob_p10"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.661650641025641,
+    "cv_auroc_std": 0.05190713786694908,
+    "held_out_auroc": 0.6363636363636364,
+    "held_out_accuracy": 0.6166666666666667,
+    "held_out_f1": 0.6666666666666666
+  },
+  "single__logprob_p25": {
+    "features": [
+      "logprob_p25"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.6379967948717948,
+    "cv_auroc_std": 0.05120648478936913,
+    "held_out_auroc": 0.5914702581369249,
+    "held_out_accuracy": 0.6166666666666667,
+    "held_out_f1": 0.676056338028169
+  },
+  "single__std_logprob": {
+    "features": [
+      "std_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.6369711538461538,
+    "cv_auroc_std": 0.07650348973403671,
+    "held_out_auroc": 0.6531986531986532,
+    "held_out_accuracy": 0.65,
+    "held_out_f1": 0.7407407407407407
+  },
+  "single__frac_low_confidence": {
+    "features": [
+      "frac_low_confidence"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5,
+    "cv_auroc_std": 0.0,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "single__mean_entropy": {
+    "features": [
+      "mean_entropy"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.6369551282051281,
+    "cv_auroc_std": 0.05529376600343718,
+    "held_out_auroc": 0.6127946127946129,
+    "held_out_accuracy": 0.6333333333333333,
+    "held_out_f1": 0.6764705882352942
+  },
+  "single__max_entropy": {
+    "features": [
+      "max_entropy"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.6120352564102565,
+    "cv_auroc_std": 0.06294884034402431,
+    "held_out_auroc": 0.6071829405162739,
+    "held_out_accuracy": 0.5833333333333334,
+    "held_out_f1": 0.6666666666666666
+  },
+  "single__std_entropy": {
+    "features": [
+      "std_entropy"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.641073717948718,
+    "cv_auroc_std": 0.0742398886165749,
+    "held_out_auroc": 0.5970819304152637,
+    "held_out_accuracy": 0.5833333333333334,
+    "held_out_f1": 0.6666666666666666
+  },
+  "single__mean_margin": {
+    "features": [
+      "mean_margin"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5,
+    "cv_auroc_std": 0.0,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "single__min_margin": {
+    "features": [
+      "min_margin"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5,
+    "cv_auroc_std": 0.0,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "single__first_half_mean_logprob": {
+    "features": [
+      "first_half_mean_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.6069070512820512,
+    "cv_auroc_std": 0.09534451592839509,
+    "held_out_auroc": 0.5824915824915826,
+    "held_out_accuracy": 0.5666666666666667,
+    "held_out_f1": 0.675
+  },
+  "single__second_half_mean_logprob": {
+    "features": [
+      "second_half_mean_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.659599358974359,
+    "cv_auroc_std": 0.02747789515632927,
+    "held_out_auroc": 0.6475869809203143,
+    "held_out_accuracy": 0.6333333333333333,
+    "held_out_f1": 0.7027027027027027
+  },
+  "single__logprob_delta_second_minus_first": {
+    "features": [
+      "logprob_delta_second_minus_first"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.4295352564102564,
+    "cv_auroc_std": 0.06800749604572237,
+    "held_out_auroc": 0.42424242424242425,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "single__logprob_trend_slope": {
+    "features": [
+      "logprob_trend_slope"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.47671474358974353,
+    "cv_auroc_std": 0.09489219829975018,
+    "held_out_auroc": 0.4152637485970819,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "single__answer_length": {
+    "features": [
+      "answer_length"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5187580128205129,
+    "cv_auroc_std": 0.045418546841454,
+    "held_out_auroc": 0.5572390572390573,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "combo__original_3feat": {
+    "features": [
+      "mean_logprob",
+      "min_logprob",
+      "mean_entropy"
+    ],
+    "n_features": 3,
+    "cv_auroc_mean": 0.6421153846153845,
+    "cv_auroc_std": 0.05278386381827121,
+    "held_out_auroc": 0.6161616161616161,
+    "held_out_accuracy": 0.6166666666666667,
+    "held_out_f1": 0.6567164179104478
+  },
+  "combo__location_spread": {
+    "features": [
+      "mean_logprob",
+      "median_logprob",
+      "min_logprob",
+      "logprob_p10",
+      "logprob_p25",
+      "std_logprob"
+    ],
+    "n_features": 6,
+    "cv_auroc_mean": 0.6576282051282052,
+    "cv_auroc_std": 0.058032725194137255,
+    "held_out_auroc": 0.6139169472502806,
+    "held_out_accuracy": 0.6,
+    "held_out_f1": 0.6470588235294118
+  },
+  "combo__entropy_group": {
+    "features": [
+      "mean_entropy",
+      "max_entropy",
+      "std_entropy"
+    ],
+    "n_features": 3,
+    "cv_auroc_mean": 0.6534134615384616,
+    "cv_auroc_std": 0.06738368725700437,
+    "held_out_auroc": 0.6038159371492705,
+    "held_out_accuracy": 0.6166666666666667,
+    "held_out_f1": 0.6666666666666666
+  },
+  "combo__margin_group": {
+    "features": [
+      "mean_margin",
+      "min_margin"
+    ],
+    "n_features": 2,
+    "cv_auroc_mean": 0.5,
+    "cv_auroc_std": 0.0,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.7096774193548387
+  },
+  "combo__positional_group": {
+    "features": [
+      "first_half_mean_logprob",
+      "second_half_mean_logprob",
+      "logprob_delta_second_minus_first",
+      "logprob_trend_slope"
+    ],
+    "n_features": 4,
+    "cv_auroc_mean": 0.6566025641025641,
+    "cv_auroc_std": 0.060114881697291,
+    "held_out_auroc": 0.6419753086419753,
+    "held_out_accuracy": 0.6166666666666667,
+    "held_out_f1": 0.6666666666666666
+  },
+  "combo__coverage_plus_mean": {
+    "features": [
+      "mean_logprob",
+      "frac_low_confidence"
+    ],
+    "n_features": 2,
+    "cv_auroc_mean": 0.6534775641025641,
+    "cv_auroc_std": 0.06133918723671905,
+    "held_out_auroc": 0.6341189674523009,
+    "held_out_accuracy": 0.6333333333333333,
+    "held_out_f1": 0.7027027027027027
+  },
+  "combo__all_17_features": {
+    "features": [
+      "mean_logprob",
+      "median_logprob",
+      "min_logprob",
+      "logprob_p10",
+      "logprob_p25",
+      "std_logprob",
+      "frac_low_confidence",
+      "mean_entropy",
+      "max_entropy",
+      "std_entropy",
+      "mean_margin",
+      "min_margin",
+      "first_half_mean_logprob",
+      "second_half_mean_logprob",
+      "logprob_delta_second_minus_first",
+      "logprob_trend_slope",
+      "answer_length"
+    ],
+    "n_features": 17,
+    "cv_auroc_mean": 0.6555769230769231,
+    "cv_auroc_std": 0.06941618096773,
+    "held_out_auroc": 0.6015712682379349,
+    "held_out_accuracy": 0.5833333333333334,
+    "held_out_f1": 0.6268656716417911
+  },
+  "combo__top5_by_cv": {
+    "features": [
+      "logprob_p10",
+      "second_half_mean_logprob",
+      "mean_logprob",
+      "std_entropy",
+      "logprob_p25"
+    ],
+    "n_features": 5,
+    "cv_auroc_mean": 0.6503525641025641,
+    "cv_auroc_std": 0.057542933404084264,
+    "held_out_auroc": 0.6285072951739619,
+    "held_out_accuracy": 0.6166666666666667,
+    "held_out_f1": 0.6567164179104478
+  }
+}

@@ -32,6 +32,11 @@ class GenerationResult:
     token_entropies: list[float]  # full-vocab predictive entropy (nats), one per generated token
     num_new_tokens: int
     token_strs: list[str] = field(default_factory=list)  # decoded piece per kept token, for token-level viz
+    # log P(top-1) - log P(top-2) at each generated step: how much more likely the winning
+    # token was than its closest competitor (a standard active-learning uncertainty measure,
+    # defined independent of which token was chosen -- under greedy decoding top-1 is always
+    # the chosen token, so this equals chosen_logprob - runner_up_logprob).
+    token_margins: list[float] = field(default_factory=list)
 
 
 class LLMGenerator:
@@ -122,6 +127,7 @@ class LLMGenerator:
 
         token_logprobs = []
         token_entropies = []
+        token_margins = []
         kept_ids = []
         for step, logits in enumerate(scores):
             token_id = new_token_ids[step].item()
@@ -133,6 +139,10 @@ class LLMGenerator:
             probs = log_probs.exp()
             entropy = -(probs * log_probs).sum().item()
             token_entropies.append(entropy)
+
+            top2 = torch.topk(log_probs, k=2)
+            token_margins.append((top2.values[0] - top2.values[1]).item())
+
             kept_ids.append(token_id)
 
         answer_text = self.tokenizer.decode(kept_ids, skip_special_tokens=True).strip()
@@ -143,6 +153,7 @@ class LLMGenerator:
             token_entropies=token_entropies,
             num_new_tokens=len(kept_ids),
             token_strs=self._token_pieces(kept_ids),
+            token_margins=token_margins,
         )
 
     @torch.no_grad()
@@ -193,7 +204,7 @@ class LLMGenerator:
             results = []
             batch_size = new_token_ids_batch.shape[0]
             for row in range(batch_size):
-                token_logprobs, token_entropies, kept_ids = [], [], []
+                token_logprobs, token_entropies, token_margins, kept_ids = [], [], [], []
                 for step, logits in enumerate(scores):
                     token_id = new_token_ids_batch[row, step].item()
                     if token_id in self.stop_ids:
@@ -202,6 +213,8 @@ class LLMGenerator:
                     token_logprobs.append(log_probs[token_id].item())
                     probs = log_probs.exp()
                     token_entropies.append(-(probs * log_probs).sum().item())
+                    top2 = torch.topk(log_probs, k=2)
+                    token_margins.append((top2.values[0] - top2.values[1]).item())
                     kept_ids.append(token_id)
 
                 answer_text = self.tokenizer.decode(kept_ids, skip_special_tokens=True).strip()
@@ -211,6 +224,7 @@ class LLMGenerator:
                     token_entropies=token_entropies,
                     num_new_tokens=len(kept_ids),
                     token_strs=self._token_pieces(kept_ids),
+                    token_margins=token_margins,
                 ))
             return results
         finally:

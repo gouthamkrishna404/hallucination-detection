@@ -1,0 +1,284 @@
+{
+  "median_logprob_split": -0.2665850115221051,
+  "quadrant_counts": {
+    "correct_confident": {
+      "n": 56,
+      "pct": 28.0
+    },
+    "correct_uncertain": {
+      "n": 34,
+      "pct": 17.0
+    },
+    "wrong_confident": {
+      "n": 44,
+      "pct": 22.0
+    },
+    "wrong_uncertain": {
+      "n": 66,
+      "pct": 33.0
+    }
+  },
+  "quadrant_feature_means": {
+    "correct_confident": {
+      "n": 56,
+      "pct": 28.0,
+      "feature_means": {
+        "mean_logprob": -0.1475612385485387,
+        "median_logprob": -0.036475383556535186,
+        "min_logprob": -0.9403699237321105,
+        "logprob_p10": -0.41718465650587205,
+        "logprob_p25": -0.18358469569024496,
+        "std_logprob": 0.2432386709468975,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.4168003086059303,
+        "max_entropy": 2.1137501735772406,
+        "std_entropy": 0.5641431530252276,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.13980726842400817,
+        "second_half_mean_logprob": -0.155144391205823,
+        "logprob_delta_second_minus_first": -0.015337122781814797,
+        "logprob_trend_slope": -0.0018138021440632943,
+        "answer_length": 23.696428571428573
+      }
+    },
+    "correct_uncertain": {
+      "n": 34,
+      "pct": 17.0,
+      "feature_means": {
+        "mean_logprob": -0.39543767394413515,
+        "median_logprob": -0.21989301389411964,
+        "min_logprob": -1.634028170038672,
+        "logprob_p10": -1.0320088610929599,
+        "logprob_p25": -0.6483749753850347,
+        "std_logprob": 0.4457075213369238,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.9724592034531838,
+        "max_entropy": 3.4905663237852207,
+        "std_entropy": 0.958696250398769,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.35435982566050284,
+        "second_half_mean_logprob": -0.4392164591976509,
+        "logprob_delta_second_minus_first": -0.08485663353714801,
+        "logprob_trend_slope": 0.006076317160565272,
+        "answer_length": 43.970588235294116
+      }
+    },
+    "wrong_confident": {
+      "n": 44,
+      "pct": 22.0,
+      "feature_means": {
+        "mean_logprob": -0.17023907692646978,
+        "median_logprob": -0.03401898040696815,
+        "min_logprob": -0.9938326119021936,
+        "logprob_p10": -0.5113950081000275,
+        "logprob_p25": -0.21435592564838854,
+        "std_logprob": 0.27235395080289765,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.4575678605615441,
+        "max_entropy": 2.2076401575045153,
+        "std_entropy": 0.6254013116487046,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.13203757935254418,
+        "second_half_mean_logprob": -0.2074129641916352,
+        "logprob_delta_second_minus_first": -0.07537538483909104,
+        "logprob_trend_slope": -0.007845254681673538,
+        "answer_length": 25.227272727272727
+      }
+    },
+    "wrong_uncertain": {
+      "n": 66,
+      "pct": 33.0,
+      "feature_means": {
+        "mean_logprob": -0.4364256183140203,
+        "median_logprob": -0.2652070554269647,
+        "min_logprob": -1.6971473332607385,
+        "logprob_p10": -1.0992034589702433,
+        "logprob_p25": -0.6824213631564018,
+        "std_logprob": 0.4783808588374007,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 1.0558660653042637,
+        "max_entropy": 3.6850334731015293,
+        "std_entropy": 1.022483979650743,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.4236496191400465,
+        "second_half_mean_logprob": -0.4642142465521921,
+        "logprob_delta_second_minus_first": -0.040564627412145574,
+        "logprob_trend_slope": 0.00804928513578172,
+        "answer_length": 38.833333333333336
+      }
+    }
+  },
+  "wrong_confident_vs_correct_confident_separation": {
+    "mean_logprob": {
+      "wrong_confident_mean": -0.17023907692646978,
+      "correct_confident_mean": -0.1475612385485387,
+      "cohens_d": -0.36436097397884093
+    },
+    "median_logprob": {
+      "wrong_confident_mean": -0.03401898040696815,
+      "correct_confident_mean": -0.036475383556535186,
+      "cohens_d": 0.061056805647639247
+    },
+    "min_logprob": {
+      "wrong_confident_mean": -0.9938326119021936,
+      "correct_confident_mean": -0.9403699237321105,
+      "cohens_d": -0.13881326605797373
+    },
+    "logprob_p10": {
+      "wrong_confident_mean": -0.5113950081000275,
+      "correct_confident_mean": -0.41718465650587205,
+      "cohens_d": -0.4771123930880245
+    },
+    "logprob_p25": {
+      "wrong_confident_mean": -0.21435592564838854,
+      "correct_confident_mean": -0.18358469569024496,
+      "cohens_d": -0.21651642129928367
+    },
+    "std_logprob": {
+      "wrong_confident_mean": 0.27235395080289765,
+      "correct_confident_mean": 0.2432386709468975,
+      "cohens_d": 0.3418101470737461
+    },
+    "frac_low_confidence": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "mean_entropy": {
+      "wrong_confident_mean": 0.4575678605615441,
+      "correct_confident_mean": 0.4168003086059303,
+      "cohens_d": 0.277660330289264
+    },
+    "max_entropy": {
+      "wrong_confident_mean": 2.2076401575045153,
+      "correct_confident_mean": 2.1137501735772406,
+      "cohens_d": 0.12500810775587418
+    },
+    "std_entropy": {
+      "wrong_confident_mean": 0.6254013116487046,
+      "correct_confident_mean": 0.5641431530252276,
+      "cohens_d": 0.35689658417864195
+    },
+    "mean_margin": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "min_margin": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "first_half_mean_logprob": {
+      "wrong_confident_mean": -0.13203757935254418,
+      "correct_confident_mean": -0.13980726842400817,
+      "cohens_d": 0.088598397947476
+    },
+    "second_half_mean_logprob": {
+      "wrong_confident_mean": -0.2074129641916352,
+      "correct_confident_mean": -0.155144391205823,
+      "cohens_d": -0.5667306136091232
+    },
+    "logprob_delta_second_minus_first": {
+      "wrong_confident_mean": -0.07537538483909104,
+      "correct_confident_mean": -0.015337122781814797,
+      "cohens_d": -0.46318523892900126
+    },
+    "logprob_trend_slope": {
+      "wrong_confident_mean": -0.007845254681673538,
+      "correct_confident_mean": -0.0018138021440632943,
+      "cohens_d": -0.42876131908287196
+    },
+    "answer_length": {
+      "wrong_confident_mean": 25.227272727272727,
+      "correct_confident_mean": 23.696428571428573,
+      "cohens_d": 0.10524328429816195
+    }
+  },
+  "example_answers_per_quadrant": {
+    "correct_confident": [
+      {
+        "question": "Which part of the atmosphere do greenhouse gasses trap heat in?",
+        "generated_answer": "The part of the atmosphere that traps heat is the troposphere, which is the lowest layer of the atmosphere, extending up to about 12 kilometers (7.5 miles) above the Earth's surface.",
+        "mean_logprob": -0.1869901890638685,
+        "mean_entropy": 0.4612682842998765
+      },
+      {
+        "question": "The right and left hip bones, with the addition of the sacrum and coccyx form what section of the skeleton?",
+        "generated_answer": "The right and left hip bones, with the addition of the sacrum and coccyx, form the pelvis.",
+        "mean_logprob": -0.0576776168334163,
+        "mean_entropy": 0.2532416253889096
+      },
+      {
+        "question": "What is the force that opposes motion between two surfaces that are touching?",
+        "generated_answer": "The force that opposes motion between two surfaces that are touching is called friction.",
+        "mean_logprob": -0.0545106724452731,
+        "mean_entropy": 0.1975074119012182
+      }
+    ],
+    "correct_uncertain": [
+      {
+        "question": "Most fungi get organic compounds from what?",
+        "generated_answer": "Most fungi get organic compounds from decomposing organic matter, such as dead plants and animals, and from the breakdown of other organic compounds in the environment.",
+        "mean_logprob": -0.3922090371519403,
+        "mean_entropy": 1.0174689655394105
+      },
+      {
+        "question": "What type of climate does the coast of california have?",
+        "generated_answer": "The coast of California has a Mediterranean climate, characterized by mild, wet winters and dry summers, with significant rainfall along the Pacific coast and a dry, cool climate along the Central Valley.",
+        "mean_logprob": -0.5114214793555565,
+        "mean_entropy": 1.121366419584012
+      },
+      {
+        "question": "What prevents new ovarian follicles from developing and suppresses uterine contractility?",
+        "generated_answer": "The primary mechanism preventing new ovarian follicles from developing and suppressing uterine contractility is the action of progesterone, which is produced by the corpus luteum after ovulation. Progesterone levels increase significantly after ovulation, causing the uterine lining to thicken and prepare for a potential pregnancy",
+        "mean_logprob": -0.3268461642279163,
+        "mean_entropy": 0.8595485397501079
+      }
+    ],
+    "wrong_confident": [
+      {
+        "question": "What term is used to describe the development of new technology?",
+        "generated_answer": "The term used to describe the development of new technology is \"innovation\".",
+        "mean_logprob": -0.0860921018188188,
+        "mean_entropy": 0.2982583008124493
+      },
+      {
+        "question": "About what percentage of the earth's water is fresh water?",
+        "generated_answer": "About 2.5% of the Earth's water is fresh water, while the remaining 97.5% is saltwater.",
+        "mean_logprob": -0.1714986879991118,
+        "mean_entropy": 0.4566475551179825
+      },
+      {
+        "question": "Malonate plays what negative role on the enzyme succinate dehydrogenase?",
+        "generated_answer": "Malonate plays a negative role on the enzyme succinate dehydrogenase.",
+        "mean_logprob": -0.1290996250843497,
+        "mean_entropy": 0.3898386963350383
+      }
+    ],
+    "wrong_uncertain": [
+      {
+        "question": "The amniotic egg is a shared ancestral character for which clade?",
+        "generated_answer": "The amniotic egg is a shared ancestral character for the clade Dikaptodontidae, a group of extinct mammals that lived during the Paleocene epoch.",
+        "mean_logprob": -0.4753501863284107,
+        "mean_entropy": 1.227939077300217
+      },
+      {
+        "question": "In the microbiology lab, what technique refers to the procedures that are carried out under sterile conditions?",
+        "generated_answer": "In the microbiology lab, the technique referred to as \"sterile technique\" or \"sterile preparation\" refers to the procedures that are carried out under sterile conditions, meaning that all equipment, materials, and surfaces are sterilized and free from contaminants to prevent the introduction of microorganisms into the sample.",
+        "mean_logprob": -0.3561320570799848,
+        "mean_entropy": 0.8398070972868824
+      },
+      {
+        "question": "During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?",
+        "generated_answer": "The second trimester, specifically the second trimester of 13-26 weeks of gestation, is the period with the greatest growth of the fetus and culminates in labor and delivery.",
+        "mean_logprob": -0.3098906104385238,
+        "mean_entropy": 0.6777032315725918
+      }
+    ]
+  }
+}

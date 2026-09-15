@@ -1,0 +1,47 @@
+{
+  "margin_gte_0.0": {
+    "threshold": 0.0,
+    "n_total": 200,
+    "n_train": 140,
+    "n_eval": 60,
+    "pct_of_full_dataset": 100.0,
+    "original_3feat_auroc": 0.48053392658509453,
+    "candidate_4feat_auroc": 0.5472747497219133
+  },
+  "margin_gte_0.1": {
+    "threshold": 0.1,
+    "n_total": 46,
+    "n_train": 36,
+    "n_eval": 10,
+    "pct_of_full_dataset": 23.0,
+    "original_3feat_auroc": 0.76,
+    "candidate_4feat_auroc": 0.52
+  },
+  "margin_gte_0.2": {
+    "threshold": 0.2,
+    "n_total": 14,
+    "n_train": 13,
+    "n_eval": 1,
+    "pct_of_full_dataset": 7.0,
+    "original_3feat_auroc": null,
+    "candidate_4feat_auroc": null
+  },
+  "margin_gte_0.3": {
+    "threshold": 0.3,
+    "n_total": 7,
+    "n_train": 6,
+    "n_eval": 1,
+    "pct_of_full_dataset": 3.5,
+    "original_3feat_auroc": null,
+    "candidate_4feat_auroc": null
+  },
+  "margin_gte_0.4": {
+    "threshold": 0.4,
+    "n_total": 4,
+    "n_train": 3,
+    "n_eval": 1,
+    "pct_of_full_dataset": 2.0,
+    "original_3feat_auroc": null,
+    "candidate_4feat_auroc": null
+  }
+}

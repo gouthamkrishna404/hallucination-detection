@@ -1,0 +1,41 @@
+{
+  "qwen2.5-1.5b-instruct__to__llama-3.2-1b-instruct": {
+    "raw_auroc": 0.49276974416017794,
+    "standardized_auroc": 0.5127919911012236,
+    "n_eval": 60
+  },
+  "qwen2.5-1.5b-instruct__to__smollm2-1.7b-instruct": {
+    "raw_auroc": 0.4418331374853114,
+    "standardized_auroc": 0.4864864864864866,
+    "n_eval": 60
+  },
+  "llama-3.2-1b-instruct__to__qwen2.5-1.5b-instruct": {
+    "raw_auroc": 0.4628571428571428,
+    "standardized_auroc": 0.4697142857142857,
+    "n_eval": 60
+  },
+  "llama-3.2-1b-instruct__to__smollm2-1.7b-instruct": {
+    "raw_auroc": 0.4265569917743831,
+    "standardized_auroc": 0.418331374853114,
+    "n_eval": 60
+  },
+  "smollm2-1.7b-instruct__to__qwen2.5-1.5b-instruct": {
+    "raw_auroc": 0.504,
+    "standardized_auroc": 0.6182857142857143,
+    "n_eval": 60
+  },
+  "smollm2-1.7b-instruct__to__llama-3.2-1b-instruct": {
+    "raw_auroc": 0.4849833147942158,
+    "standardized_auroc": 0.47497219132369295,
+    "n_eval": 60
+  },
+  "qwen2.5-1.5b-instruct__within_model_reference": {
+    "auroc": 0.48228571428571426
+  },
+  "llama-3.2-1b-instruct__within_model_reference": {
+    "auroc": 0.48053392658509453
+  },
+  "smollm2-1.7b-instruct__within_model_reference": {
+    "auroc": 0.38190364277320804
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "qwen2.5-1.5b-instruct": {
+    "original_3feat": {
+      "features": [
+        "mean_logprob",
+        "min_logprob",
+        "mean_entropy"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.48228571428571426,
+        "ci_lower_2.5pct": 0.3325798285433702,
+        "ci_upper_97.5pct": 0.6286960873917394,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.39840843323687475,
+        "ci_lower_2.5pct": 0.324780303030303,
+        "ci_upper_97.5pct": 0.4756376797735617,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      }
+    },
+    "candidate_4feat": {
+      "features": [
+        "median_logprob",
+        "logprob_p25",
+        "logprob_trend_slope",
+        "logprob_delta_second_minus_first"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.5702857142857143,
+        "ci_lower_2.5pct": 0.41982581664599206,
+        "ci_upper_97.5pct": 0.7141469405422818,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.5911533691608102,
+        "ci_lower_2.5pct": 0.5145876916249166,
+        "ci_upper_97.5pct": 0.6677200101947345,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": true
+      }
+    }
+  },
+  "llama-3.2-1b-instruct": {
+    "original_3feat": {
+      "features": [
+        "mean_logprob",
+        "min_logprob",
+        "mean_entropy"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.48053392658509453,
+        "ci_lower_2.5pct": 0.32437026903784766,
+        "ci_upper_97.5pct": 0.6307637079695902,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.563609022556391,
+        "ci_lower_2.5pct": 0.4819369895883284,
+        "ci_upper_97.5pct": 0.6413854816355653,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      }
+    },
+    "candidate_4feat": {
+      "features": [
+        "median_logprob",
+        "logprob_p25",
+        "logprob_trend_slope",
+        "logprob_delta_second_minus_first"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.5472747497219133,
+        "ci_lower_2.5pct": 0.3939242424242424,
+        "ci_upper_97.5pct": 0.6981341502825876,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.5735338345864662,
+        "ci_lower_2.5pct": 0.49554496370353146,
+        "ci_upper_97.5pct": 0.6530810381933094,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      }
+    }
+  },
+  "smollm2-1.7b-instruct": {
+    "original_3feat": {
+      "features": [
+        "mean_logprob",
+        "min_logprob",
+        "mean_entropy"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.38190364277320804,
+        "ci_lower_2.5pct": 0.24221825396825397,
+        "ci_upper_97.5pct": 0.536250042749658,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.4377122241086588,
+        "ci_lower_2.5pct": 0.3550934651169026,
+        "ci_upper_97.5pct": 0.5189452808901338,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      }
+    },
+    "candidate_4feat": {
+      "features": [
+        "median_logprob",
+        "logprob_p25",
+        "logprob_trend_slope",
+        "logprob_delta_second_minus_first"
+      ],
+      "fixed_split_n60": {
+        "point_estimate": 0.5781433607520564,
+        "ci_lower_2.5pct": 0.42977029824855917,
+        "ci_upper_97.5pct": 0.7320817727164476,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      },
+      "out_of_fold_n200": {
+        "point_estimate": 0.4578735144312394,
+        "ci_lower_2.5pct": 0.37399743762695564,
+        "ci_upper_97.5pct": 0.5419335772085028,
+        "n_bootstrap_reps_used": 2000,
+        "excludes_chance": false
+      }
+    }
+  }
+}

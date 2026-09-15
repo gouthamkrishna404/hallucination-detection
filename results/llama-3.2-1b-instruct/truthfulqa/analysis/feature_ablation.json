@@ -1,0 +1,311 @@
+{
+  "single__mean_logprob": {
+    "features": [
+      "mean_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5084458398744113,
+    "cv_auroc_std": 0.12341622477707388,
+    "held_out_auroc": 0.5406006674082313,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "single__median_logprob": {
+    "features": [
+      "median_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5493511250654108,
+    "cv_auroc_std": 0.0865910759966755,
+    "held_out_auroc": 0.5784204671857619,
+    "held_out_accuracy": 0.5,
+    "held_out_f1": 0.6341463414634146
+  },
+  "single__min_logprob": {
+    "features": [
+      "min_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5613134484563056,
+    "cv_auroc_std": 0.09731264712153623,
+    "held_out_auroc": 0.49276974416017794,
+    "held_out_accuracy": 0.5333333333333333,
+    "held_out_f1": 0.6216216216216216
+  },
+  "single__logprob_p10": {
+    "features": [
+      "logprob_p10"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.43147043432757715,
+    "cv_auroc_std": 0.08596208659075659,
+    "held_out_auroc": 0.4949944382647386,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "single__logprob_p25": {
+    "features": [
+      "logprob_p25"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5391104133961276,
+    "cv_auroc_std": 0.08790945649048229,
+    "held_out_auroc": 0.5450500556173525,
+    "held_out_accuracy": 0.5,
+    "held_out_f1": 0.6428571428571429
+  },
+  "single__std_logprob": {
+    "features": [
+      "std_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5407901622187337,
+    "cv_auroc_std": 0.1111070909623746,
+    "held_out_auroc": 0.5161290322580645,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "single__frac_low_confidence": {
+    "features": [
+      "frac_low_confidence"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5265934065934065,
+    "cv_auroc_std": 0.04147490793600216,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "single__mean_entropy": {
+    "features": [
+      "mean_entropy"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5156357927786499,
+    "cv_auroc_std": 0.1321260607422577,
+    "held_out_auroc": 0.5494994438264739,
+    "held_out_accuracy": 0.48333333333333334,
+    "held_out_f1": 0.6352941176470588
+  },
+  "single__max_entropy": {
+    "features": [
+      "max_entropy"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5592569335426478,
+    "cv_auroc_std": 0.10618464504922641,
+    "held_out_auroc": 0.4660734149054505,
+    "held_out_accuracy": 0.43333333333333335,
+    "held_out_f1": 0.5641025641025641
+  },
+  "single__std_entropy": {
+    "features": [
+      "std_entropy"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.4551072736787022,
+    "cv_auroc_std": 0.13002239671431684,
+    "held_out_auroc": 0.5027808676307008,
+    "held_out_accuracy": 0.5,
+    "held_out_f1": 0.6511627906976745
+  },
+  "single__mean_margin": {
+    "features": [
+      "mean_margin"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5,
+    "cv_auroc_std": 0.0,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "single__min_margin": {
+    "features": [
+      "min_margin"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5,
+    "cv_auroc_std": 0.0,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "single__first_half_mean_logprob": {
+    "features": [
+      "first_half_mean_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5581946624803769,
+    "cv_auroc_std": 0.1243448789614992,
+    "held_out_auroc": 0.48275862068965514,
+    "held_out_accuracy": 0.5,
+    "held_out_f1": 0.6590909090909091
+  },
+  "single__second_half_mean_logprob": {
+    "features": [
+      "second_half_mean_logprob"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5626896912611199,
+    "cv_auroc_std": 0.09626685158127307,
+    "held_out_auroc": 0.5272525027808677,
+    "held_out_accuracy": 0.4166666666666667,
+    "held_out_f1": 0.5569620253164557
+  },
+  "single__logprob_delta_second_minus_first": {
+    "features": [
+      "logprob_delta_second_minus_first"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5911564625850341,
+    "cv_auroc_std": 0.0836791602184164,
+    "held_out_auroc": 0.5261401557285874,
+    "held_out_accuracy": 0.5,
+    "held_out_f1": 0.6052631578947368
+  },
+  "single__logprob_trend_slope": {
+    "features": [
+      "logprob_trend_slope"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5409471480900052,
+    "cv_auroc_std": 0.07567998151934216,
+    "held_out_auroc": 0.5739710789766407,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "single__answer_length": {
+    "features": [
+      "answer_length"
+    ],
+    "n_features": 1,
+    "cv_auroc_mean": 0.5747488226059654,
+    "cv_auroc_std": 0.05554475030063026,
+    "held_out_auroc": 0.5778642936596218,
+    "held_out_accuracy": 0.5666666666666667,
+    "held_out_f1": 0.5357142857142857
+  },
+  "combo__original_3feat": {
+    "features": [
+      "mean_logprob",
+      "min_logprob",
+      "mean_entropy"
+    ],
+    "n_features": 3,
+    "cv_auroc_mean": 0.583003663003663,
+    "cv_auroc_std": 0.07610223122972812,
+    "held_out_auroc": 0.48053392658509453,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.5915492957746479
+  },
+  "combo__location_spread": {
+    "features": [
+      "mean_logprob",
+      "median_logprob",
+      "min_logprob",
+      "logprob_p10",
+      "logprob_p25",
+      "std_logprob"
+    ],
+    "n_features": 6,
+    "cv_auroc_mean": 0.5943014128728414,
+    "cv_auroc_std": 0.09544616519885975,
+    "held_out_auroc": 0.5216907675194661,
+    "held_out_accuracy": 0.5666666666666667,
+    "held_out_f1": 0.6176470588235294
+  },
+  "combo__entropy_group": {
+    "features": [
+      "mean_entropy",
+      "max_entropy",
+      "std_entropy"
+    ],
+    "n_features": 3,
+    "cv_auroc_mean": 0.5707692307692307,
+    "cv_auroc_std": 0.06951697724238172,
+    "held_out_auroc": 0.5294771968854282,
+    "held_out_accuracy": 0.48333333333333334,
+    "held_out_f1": 0.5866666666666667
+  },
+  "combo__margin_group": {
+    "features": [
+      "mean_margin",
+      "min_margin"
+    ],
+    "n_features": 2,
+    "cv_auroc_mean": 0.5,
+    "cv_auroc_std": 0.0,
+    "held_out_auroc": 0.5,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "combo__positional_group": {
+    "features": [
+      "first_half_mean_logprob",
+      "second_half_mean_logprob",
+      "logprob_delta_second_minus_first",
+      "logprob_trend_slope"
+    ],
+    "n_features": 4,
+    "cv_auroc_mean": 0.5717582417582417,
+    "cv_auroc_std": 0.07919718881469696,
+    "held_out_auroc": 0.525027808676307,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.5915492957746479
+  },
+  "combo__coverage_plus_mean": {
+    "features": [
+      "mean_logprob",
+      "frac_low_confidence"
+    ],
+    "n_features": 2,
+    "cv_auroc_mean": 0.5084458398744113,
+    "cv_auroc_std": 0.12341622477707388,
+    "held_out_auroc": 0.5406006674082313,
+    "held_out_accuracy": 0.5166666666666667,
+    "held_out_f1": 0.6813186813186813
+  },
+  "combo__all_17_features": {
+    "features": [
+      "mean_logprob",
+      "median_logprob",
+      "min_logprob",
+      "logprob_p10",
+      "logprob_p25",
+      "std_logprob",
+      "frac_low_confidence",
+      "mean_entropy",
+      "max_entropy",
+      "std_entropy",
+      "mean_margin",
+      "min_margin",
+      "first_half_mean_logprob",
+      "second_half_mean_logprob",
+      "logprob_delta_second_minus_first",
+      "logprob_trend_slope",
+      "answer_length"
+    ],
+    "n_features": 17,
+    "cv_auroc_mean": 0.7109000523286237,
+    "cv_auroc_std": 0.10331069853240021,
+    "held_out_auroc": 0.5984427141268076,
+    "held_out_accuracy": 0.5666666666666667,
+    "held_out_f1": 0.5806451612903226
+  },
+  "combo__top5_by_cv": {
+    "features": [
+      "logprob_delta_second_minus_first",
+      "answer_length",
+      "second_half_mean_logprob",
+      "min_logprob",
+      "max_entropy"
+    ],
+    "n_features": 5,
+    "cv_auroc_mean": 0.7108843537414966,
+    "cv_auroc_std": 0.10953088728526711,
+    "held_out_auroc": 0.5973303670745272,
+    "held_out_accuracy": 0.55,
+    "held_out_f1": 0.5846153846153846
+  }
+}

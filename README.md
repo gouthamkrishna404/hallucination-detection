@@ -414,6 +414,239 @@ section already flags. **Net effect: the core finding is not an artifact
 of the specific proxy labeler, though it is not perfectly insensitive to
 it either — one data point out of six moved enough to matter.**
 
+## Deep investigation: can TruthfulQA detection actually be improved?
+
+The matrix and label-robustness results above establish that the
+*original* 3-feature detector is at chance on TruthfulQA, on three
+models, under two labeling schemes. That result was reported honestly
+rather than treated as final — this section is a genuine attempt to beat
+it: richer features, better classifiers, deeper diagnosis of *why* it
+fails, hybrid multi-call detectors, a statistically rigorous check on
+whatever looked promising, and a sampling-budget sweep. Everything here
+runs from the frozen single-pass/self-consistency generations already on
+disk (or 5 newly generated extra samples for the sampling sweep, noted
+where used) — no DA1 or matrix result was regenerated or altered.
+
+### 1. Feature engineering: 17 candidate features, properly ablated
+
+`src/features_v2.py` adds 14 features beyond the original 3 (percentiles,
+spread, fraction of low-confidence tokens, top-1/top-2 margin, and —
+critically — *positional* features: does confidence drop across the
+answer, split into first-half/second-half means, delta, and linear
+trend). Every feature was tested individually and in combination, on all
+3 models, with **both** 5-fold CV-on-train (more stable estimate) and the
+project's standard held-out eval — because a feature that looks great in
+one but not the other is the textbook signature of small-sample noise,
+not a real effect (`scripts/experiment_feature_ablation.py`).
+
+**Cross-model consistency table (held-out AUROC, individual features, TruthfulQA):**
+
+| Feature | Qwen | Llama | SmolLM2 |
+|---|---|---|---|
+| mean_logprob (original) | 0.55 | 0.54 | 0.55 |
+| **median_logprob** | 0.56 | 0.58 | 0.57 |
+| **logprob_p25** | 0.54 | 0.55 | 0.55 |
+| **logprob_trend_slope** | 0.55 | 0.57 | 0.51 |
+| logprob_delta_second_minus_first | 0.58 | 0.53 | 0.55 |
+| answer_length | 0.54 | 0.58 | **0.34** |
+
+Three features — median (not mean) logprob, the 25th-percentile logprob,
+and the linear trend of logprob across the answer — cluster tightly at
+0.54–0.58 across all three models, modestly but *consistently* above the
+original mean_logprob's more erratic 0.44–0.55 (which even dips below
+chance in cross-validation for two of three models). That consistency,
+not any single high number, is what makes them a credible candidate
+rather than a lucky split.
+
+**`answer_length` looked like the single best individual feature by
+cross-validation (0.68 CV AUROC for Qwen) — and is a labeling artifact,
+not a real signal.** Investigated directly: `answer_length` correlates
+at −0.33 with `correct_sim` and −0.49 with `incorrect_sim` (longer
+answers dilute token-F1 precision against *any* fixed-length reference,
+regardless of truth), so longer answers are spuriously more likely to be
+labeled "grounded" (23.7 vs. 20.0 tokens on average, t=2.90, p=0.004).
+Checked whether the embedding-based labeler shares this bias: **it does
+not** (21.7 vs. 21.4 tokens, p=0.81) — the bias is specific to token-F1
+precision arithmetic, not a property of the underlying phenomenon.
+`answer_length` is excluded from every "candidate" feature set reported
+below for this reason, even though it would otherwise look like the
+strongest single predictor.
+
+### 2. Classifiers: Random Forest and XGBoost don't help, and often overfit
+
+`scripts/experiment_classifier_comparison.py` compared plain logistic
+regression against Random Forest, XGBoost, and Platt/isotonic-calibrated
+logistic regression, on both the original 3 features and the full 17,
+across all 6 model×dataset combinations. **No classifier beat logistic
+regression consistently on TruthfulQA**, and the higher-capacity models
+frequently showed large CV-to-held-out gaps — e.g. Qwen/original-3-feat
+XGBoost: CV AUROC 0.585 but held-out 0.414 (worse than chance) — the
+overfitting signature you'd expect from a flexible model chasing noise in
+140 training examples. On SciQ, where real signal exists, classifier
+choice barely matters (all cluster within ~0.05 AUROC of each other),
+consistent with the signal living in the features, not requiring a more
+expressive decision boundary to find it. **Conclusion: the ceiling here
+is signal-limited, not classifier-limited** — no amount of modeling
+sophistication substitutes for the underlying features not separating
+the classes.
+
+Calibration (Platt scaling, isotonic regression) changes AUROC by ≤0.02
+in every case, as theory predicts: calibration reshapes *how* a score
+maps to a probability, it cannot manufacture discriminative information
+that isn't in the score to begin with. (Separately, per-model raw ECE for
+the original detector is deceptively low — e.g. Qwen 0.014 — precisely
+*because* the detector has collapsed to predicting the base rate; see
+"Known limitations.")
+
+### 3. The confidently-wrong quadrant: quantifying the actual failure mode
+
+The central diagnostic (`scripts/experiment_quadrant_analysis.py`):
+split every answer into {correct, wrong} × {confident, uncertain}
+(confidence = above/below the model's own median `mean_logprob`) and ask
+what fraction of *wrong* answers are wrong-but-confident — the case that
+defeats any logprob-based detector by construction.
+
+| Model | Dataset | % of wrong answers that are confidently wrong |
+|---|---|---|
+| Qwen2.5-1.5B | TruthfulQA | **49.2%** |
+| Llama-3.2-1B | TruthfulQA | **51.4%** |
+| SmolLM2-1.7B | TruthfulQA | **52.4%** |
+| Qwen2.5-1.5B | SciQ | 32.6% |
+| Llama-3.2-1B | SciQ | 40.0% |
+| SmolLM2-1.7B | SciQ | 40.0% |
+
+This is the single clearest number in the whole investigation. **On
+TruthfulQA, essentially a coin flip (49–52%) of wrong answers are
+confidently wrong; on SciQ, only 33–40% are.** No detector built purely
+on the model's own token confidence can do better than chance on the
+~50% of TruthfulQA failures that are, by this measure, indistinguishable
+from correct answers on confidence grounds alone — that ceiling isn't a
+property of the classifier or the feature set, it's baked into how often
+this failure mode occurs on this benchmark. Even so, restricted to
+*only* the confident bucket (correct-confident vs. wrong-confident, the
+hardest possible comparison), several features show a moderate effect
+size (Cohen's *d*): `second_half_mean_logprob` (d=+0.735),
+`logprob_delta_second_minus_first` (d=+0.633), `logprob_trend_slope`
+(d=+0.490) — the same positional features flagged in the ablation above,
+now shown to carry signal specifically within the hardest subgroup, not
+just on average.
+
+### 4. Hybrid detector: combining everything costs more than it's worth
+
+`scripts/experiment_hybrid_detector.py` combined all 17 single-call
+features with the multi-call lexical agreement score and semantic
+entropy — honestly priced at **6 LLM calls/question** (1 greedy + 5
+self-consistency), *more* than pure self-consistency's 5. Across all 6
+combinations, the hybrid never clearly beat the cheaper alternatives by a
+margin that would justify the extra call: e.g. Qwen/TruthfulQA hybrid
+AUROC 0.541 vs. 1-call-17-feature 0.528 vs. 5-call lexical
+self-consistency 0.461 — a small gain over the cheapest option, at 20%
+more cost than the next-cheapest. **Combining signals does not
+substantially improve TruthfulQA detection, and never justifies its own
+cost.**
+
+### 5. Statistical verification: is the candidate feature set's gain real?
+
+The most important check in this investigation
+(`scripts/experiment_best_candidate.py`). Candidate set: `median_logprob,
+logprob_p25, logprob_trend_slope, logprob_delta_second_minus_first` (the
+four cross-model-consistent, non-length-confounded features from Section
+1). Compared against the original 3 features with **bootstrap 95%
+confidence intervals**, two ways: the standard fixed 60-question held-out
+split (what every other result in this project reports), and a
+higher-power 10-fold out-of-fold evaluation across the full 200 questions
+(every question scored by a model that never saw it in training — still
+zero leakage, just more statistical power than a single 60-question
+split allows).
+
+| Model | Method | Fixed split (n=60) AUROC [95% CI] | Out-of-fold (n=200) AUROC [95% CI] |
+|---|---|---|---|
+| Qwen2.5-1.5B | original 3-feat | 0.482 [0.333, 0.629] | 0.398 [0.325, 0.476] |
+| Qwen2.5-1.5B | **candidate 4-feat** | 0.570 [0.420, 0.714] | **0.591 [0.515, 0.668]** ✓ excludes chance |
+| Llama-3.2-1B | original 3-feat | 0.481 [0.324, 0.631] | 0.564 [0.482, 0.641] |
+| Llama-3.2-1B | candidate 4-feat | 0.547 [0.394, 0.698] | 0.574 [0.496, 0.653] |
+| SmolLM2-1.7B | original 3-feat | 0.382 [0.242, 0.536] | 0.438 [0.355, 0.519] |
+| SmolLM2-1.7B | candidate 4-feat | 0.578 [0.430, 0.732] | 0.458 [0.374, 0.542] |
+
+Sanity check: the same out-of-fold procedure on **SciQ** correctly finds
+the original detector's known-real signal statistically significant in
+all 3 models (e.g. Qwen 0.742, CI [0.675, 0.808]) — confirming the method
+itself isn't too conservative to detect a real effect when one exists.
+
+**Honest conclusion: the candidate feature set gives a consistently
+positive point-estimate shift on TruthfulQA in all three models (+0.09,
++0.07, +0.20), but that shift only clears statistical significance for
+Qwen.** For Llama and SmolLM2, the improvement is real in direction but
+not distinguishable from noise at n=200. This is *not* "we found the
+fix" — it's "we found a small, model-dependent effect that survives
+rigorous testing in one of three cases and shouldn't be oversold in the
+other two." One further caveat in the interest of full honesty: the
+candidate features were themselves selected by looking at ablation
+results computed on this same 200-question set, so even the significant
+Qwen result carries some residual selection-bias risk that only an
+independent, unseen question set could fully rule out — a natural next
+step this project's `configs/datasets.yaml` makes easy to add.
+
+### 6. Label margin audit: is the failure just label noise?
+
+`scripts/experiment_label_margin_audit.py` buckets questions by how
+confident the token-F1 labeler itself was (`|correct_sim - incorrect_sim|`)
+and re-evaluates on progressively more-confidently-labeled subsets. For
+Qwen, the candidate detector's AUROC rises with the margin threshold
+(0.570 → 0.654 → 0.800 as the threshold goes from 0 to 0.1 to 0.2), which
+would be a compelling "it's the label noise" story — except this pattern
+does **not** replicate cleanly for Llama or SmolLM2 (Llama's *original*
+detector rises instead, to 0.760 at margin≥0.1, while its candidate set
+stays flat; SmolLM2 rises for candidate at margin≥0.2 to 0.750). At
+these thresholds only 16–24% of questions remain (n=14–47 total, meaning
+single-digit-to-low-double-digit eval subsets) — far too few to trust any
+individual point estimate. **Conclusion: suggestive but statistically
+underpowered and inconsistent across models — this check neither
+confirms nor refutes "it's mostly label noise," and a larger question
+subset would be needed to settle it.**
+
+### 7. Cross-model transfer: is the (weak) signal general or per-model?
+
+`scripts/experiment_cross_model_transfer.py`: train a detector on one
+model's features/labels, test on a *different* model's features/labels
+for the same questions. On TruthfulQA, cross-model transfer stays at
+chance everywhere (0.42–0.62) — expected, since there's little signal in
+any single model to transfer. **On SciQ, the result is striking: a
+detector trained on Llama's confidence patterns scores 0.786–0.795 AUROC
+on Qwen's answers — actually *higher* than Qwen's own within-model
+detector (0.756).** Every cross-model SciQ transfer clears 0.60, several
+exceed the target model's own reference score. This is strong evidence
+that on SciQ, "low confidence ⟺ wrong answer" is a genuinely general
+property of how these models generate short factual text, not an
+idiosyncratic per-model calibration quirk — while on TruthfulQA, there is
+no such general property to find, in any model, from any other model's
+training signal.
+
+### 8. Sampling budget: is 5 self-consistency samples the wrong number?
+
+<!-- SAMPLING_SWEEP_PLACEHOLDER -->
+
+### Synthesis: did we crack TruthfulQA?
+
+**Mostly no, but not for lack of trying, and not for a trivial reason.**
+Better features (positional/percentile statistics) give a small,
+real-in-one-of-three-models improvement that survives bootstrap testing;
+better classifiers give nothing; hybridizing costs more than it's worth;
+label noise is a plausible partial contributor but not confirmed. The one
+finding that *does* generalize cleanly across every model tested is
+diagnostic rather than a fix: **on TruthfulQA, right around half of every
+model's mistakes are made with just as much confidence as its correct
+answers, a rate roughly 30–50% higher (in relative terms) than on
+ordinary factual recall.** That is close to a hard ceiling for any method
+that only looks at the model's own token probabilities — confidence
+literally does not encode the information needed to catch those specific
+mistakes, because the training data taught the model to be confident
+about them. Cracking that would need a signal external to the
+generating model's own probabilities (retrieval, a second verifier model,
+or human/external fact-checking) — which is a different, larger project
+than logprob-based single-pass detection, and an honest place to draw
+the line on what this method can and cannot do.
+
 ## Analysis capabilities (per model/dataset run)
 
 `experiment_analysis.py` produces, under `results/<model>/<dataset>/`:

@@ -1,0 +1,69 @@
+{
+  "1call_original_3feat": {
+    "accuracy": 0.5833333333333334,
+    "precision": 0.5833333333333334,
+    "recall": 1.0,
+    "f1": 0.7368421052631579,
+    "auroc": 0.48228571428571426,
+    "confusion_matrix": [
+      [
+        0,
+        25
+      ],
+      [
+        0,
+        35
+      ]
+    ],
+    "n": 60,
+    "n_positive": 35,
+    "calls_per_question": 1,
+    "n_features": 3
+  },
+  "1call_all_17_rich": {
+    "accuracy": 0.55,
+    "precision": 0.5952380952380952,
+    "recall": 0.7142857142857143,
+    "f1": 0.6493506493506493,
+    "auroc": 0.528,
+    "confusion_matrix": [
+      [
+        8,
+        17
+      ],
+      [
+        10,
+        25
+      ]
+    ],
+    "n": 60,
+    "n_positive": 35,
+    "calls_per_question": 1,
+    "n_features": 17
+  },
+  "hybrid_rich_plus_selfconsistency": {
+    "accuracy": 0.5333333333333333,
+    "precision": 0.5853658536585366,
+    "recall": 0.6857142857142857,
+    "f1": 0.631578947368421,
+    "auroc": 0.5405714285714286,
+    "confusion_matrix": [
+      [
+        8,
+        17
+      ],
+      [
+        11,
+        24
+      ]
+    ],
+    "n": 60,
+    "n_positive": 35,
+    "calls_per_question": 6,
+    "n_features": 19
+  },
+  "reference_5call_self_consistency_lexical": {
+    "auroc": 0.46063454759106937,
+    "calls_per_question": 5
+  }
+}

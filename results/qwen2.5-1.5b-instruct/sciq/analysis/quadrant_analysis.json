@@ -1,0 +1,284 @@
+{
+  "median_logprob_split": -0.22560625222761765,
+  "quadrant_counts": {
+    "correct_confident": {
+      "n": 70,
+      "pct": 35.0
+    },
+    "correct_uncertain": {
+      "n": 38,
+      "pct": 19.0
+    },
+    "wrong_confident": {
+      "n": 30,
+      "pct": 15.0
+    },
+    "wrong_uncertain": {
+      "n": 62,
+      "pct": 31.0
+    }
+  },
+  "quadrant_feature_means": {
+    "correct_confident": {
+      "n": 70,
+      "pct": 35.0,
+      "feature_means": {
+        "mean_logprob": -0.12170557705624821,
+        "median_logprob": -0.02978330964397169,
+        "min_logprob": -0.6664675348571368,
+        "logprob_p10": -0.364552336355139,
+        "logprob_p25": -0.1444320616511894,
+        "std_logprob": 0.19269278073547616,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.3280955041639917,
+        "max_entropy": 1.4361878888947623,
+        "std_entropy": 0.42182960449136037,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.13089475262926326,
+        "second_half_mean_logprob": -0.11379773275641471,
+        "logprob_delta_second_minus_first": 0.017097019872848524,
+        "logprob_trend_slope": 0.003851138716281648,
+        "answer_length": 16.52857142857143
+      }
+    },
+    "correct_uncertain": {
+      "n": 38,
+      "pct": 19.0,
+      "feature_means": {
+        "mean_logprob": -0.3189894836992949,
+        "median_logprob": -0.19458441099299018,
+        "min_logprob": -1.1103337579651882,
+        "logprob_p10": -0.7866084335665954,
+        "logprob_p25": -0.49970515444874763,
+        "std_logprob": 0.35178183325082607,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.7497763272598087,
+        "max_entropy": 2.103874385356903,
+        "std_entropy": 0.6769515526473379,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.362917916163602,
+        "second_half_mean_logprob": -0.2827941750592073,
+        "logprob_delta_second_minus_first": 0.08012374110439469,
+        "logprob_trend_slope": 0.018047172945969463,
+        "answer_length": 15.157894736842104
+      }
+    },
+    "wrong_confident": {
+      "n": 30,
+      "pct": 15.0,
+      "feature_means": {
+        "mean_logprob": -0.14604288320525965,
+        "median_logprob": -0.033836795172343594,
+        "min_logprob": -0.7908577412366867,
+        "logprob_p10": -0.449861638341099,
+        "logprob_p25": -0.17008676415231697,
+        "std_logprob": 0.23354339832470514,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.3906835644066151,
+        "max_entropy": 1.6790189385414123,
+        "std_entropy": 0.5205165086445219,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.14859975159067595,
+        "second_half_mean_logprob": -0.1419053830056046,
+        "logprob_delta_second_minus_first": 0.00669436858507136,
+        "logprob_trend_slope": 0.00276498778248572,
+        "answer_length": 15.4
+      }
+    },
+    "wrong_uncertain": {
+      "n": 62,
+      "pct": 31.0,
+      "feature_means": {
+        "mean_logprob": -0.4251306887945362,
+        "median_logprob": -0.2755433900822555,
+        "min_logprob": -1.3656672479644898,
+        "logprob_p10": -1.018396840845385,
+        "logprob_p25": -0.6678696579990848,
+        "std_logprob": 0.4269622506433264,
+        "frac_low_confidence": 0.0,
+        "mean_entropy": 0.9768750169899192,
+        "max_entropy": 2.692266814170345,
+        "std_entropy": 0.822984206907118,
+        "mean_margin": 0.0,
+        "min_margin": 0.0,
+        "first_half_mean_logprob": -0.38391810165687024,
+        "second_half_mean_logprob": -0.468633908146766,
+        "logprob_delta_second_minus_first": -0.08471580648989575,
+        "logprob_trend_slope": 0.002825644602007698,
+        "answer_length": 18.06451612903226
+      }
+    }
+  },
+  "wrong_confident_vs_correct_confident_separation": {
+    "mean_logprob": {
+      "wrong_confident_mean": -0.14604288320525965,
+      "correct_confident_mean": -0.12170557705624821,
+      "cohens_d": -0.4182255447088182
+    },
+    "median_logprob": {
+      "wrong_confident_mean": -0.033836795172343594,
+      "correct_confident_mean": -0.02978330964397169,
+      "cohens_d": -0.10578069456119492
+    },
+    "min_logprob": {
+      "wrong_confident_mean": -0.7908577412366867,
+      "correct_confident_mean": -0.6664675348571368,
+      "cohens_d": -0.354008871521198
+    },
+    "logprob_p10": {
+      "wrong_confident_mean": -0.449861638341099,
+      "correct_confident_mean": -0.364552336355139,
+      "cohens_d": -0.40254901561992096
+    },
+    "logprob_p25": {
+      "wrong_confident_mean": -0.17008676415231697,
+      "correct_confident_mean": -0.1444320616511894,
+      "cohens_d": -0.2334857425972865
+    },
+    "std_logprob": {
+      "wrong_confident_mean": 0.23354339832470514,
+      "correct_confident_mean": 0.19269278073547616,
+      "cohens_d": 0.43945113572236005
+    },
+    "frac_low_confidence": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "mean_entropy": {
+      "wrong_confident_mean": 0.3906835644066151,
+      "correct_confident_mean": 0.3280955041639917,
+      "cohens_d": 0.47105054044265493
+    },
+    "max_entropy": {
+      "wrong_confident_mean": 1.6790189385414123,
+      "correct_confident_mean": 1.4361878888947623,
+      "cohens_d": 0.39565264221719976
+    },
+    "std_entropy": {
+      "wrong_confident_mean": 0.5205165086445219,
+      "correct_confident_mean": 0.42182960449136037,
+      "cohens_d": 0.6079698147106202
+    },
+    "mean_margin": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "min_margin": {
+      "wrong_confident_mean": 0.0,
+      "correct_confident_mean": 0.0,
+      "cohens_d": 0.0
+    },
+    "first_half_mean_logprob": {
+      "wrong_confident_mean": -0.14859975159067595,
+      "correct_confident_mean": -0.13089475262926326,
+      "cohens_d": -0.17927105395019916
+    },
+    "second_half_mean_logprob": {
+      "wrong_confident_mean": -0.1419053830056046,
+      "correct_confident_mean": -0.11379773275641471,
+      "cohens_d": -0.31854263271308847
+    },
+    "logprob_delta_second_minus_first": {
+      "wrong_confident_mean": 0.00669436858507136,
+      "correct_confident_mean": 0.017097019872848524,
+      "cohens_d": -0.0713183310915991
+    },
+    "logprob_trend_slope": {
+      "wrong_confident_mean": 0.00276498778248572,
+      "correct_confident_mean": 0.003851138716281648,
+      "cohens_d": -0.04664729123899945
+    },
+    "answer_length": {
+      "wrong_confident_mean": 15.4,
+      "correct_confident_mean": 16.52857142857143,
+      "cohens_d": -0.24244954507289207
+    }
+  },
+  "example_answers_per_quadrant": {
+    "correct_confident": [
+      {
+        "question": "How does increasing the temperature of reactants affect the rate of their reaction?",
+        "generated_answer": "Increasing the temperature of reactants generally increases the rate of their reaction by providing more kinetic energy to molecules, leading to more frequent and energetic collisions that can overcome activation energy barriers.",
+        "mean_logprob": -0.2203307638776355,
+        "mean_entropy": 0.5417324935086072
+      },
+      {
+        "question": "During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?",
+        "generated_answer": "The third trimester exhibits the greatest growth of the fetus and culminates in labor and delivery.",
+        "mean_logprob": -0.0790106100502271,
+        "mean_entropy": 0.2360179972438345
+      },
+      {
+        "question": "What is the most important source of electromagnetic waves on earth?",
+        "generated_answer": "The sun is the most important source of electromagnetic waves on Earth.",
+        "mean_logprob": -0.0863330821273218,
+        "mean_entropy": 0.3125446303333424
+      }
+    ],
+    "correct_uncertain": [
+      {
+        "question": "What do you call the study of how organisms interact with their environment and each other?",
+        "generated_answer": "The field that studies these interactions is called ecology.",
+        "mean_logprob": -0.2687612823210656,
+        "mean_entropy": 0.6398095056414604
+      },
+      {
+        "question": "What are the hormones that cause a plant to grow?",
+        "generated_answer": "The hormones auxins and gibberellins primarily cause plants to grow.",
+        "mean_logprob": -0.3848589599054927,
+        "mean_entropy": 0.8232135304870705
+      },
+      {
+        "question": "What form the skeletons of most organic molecules?",
+        "generated_answer": "Most organic molecules are composed primarily of carbon atoms bonded together through covalent bonds.",
+        "mean_logprob": -0.3383591457183202,
+        "mean_entropy": 0.8742044436071678
+      }
+    ],
+    "wrong_confident": [
+      {
+        "question": "What term is used to describe the development of new technology?",
+        "generated_answer": "The term used to describe the development of new technology is \"innovation.\"",
+        "mean_logprob": -0.0843970322460033,
+        "mean_entropy": 0.2699742391492085
+      },
+      {
+        "question": "What are most cells surrounded by?",
+        "generated_answer": "Most cells are surrounded by a cell membrane.",
+        "mean_logprob": -0.1235861843710558,
+        "mean_entropy": 0.4065941917813486
+      },
+      {
+        "question": "The chains in cellulose stack in parallel rows held together by hydrogen bonds between which groups?",
+        "generated_answer": "Chains in cellulose stack in parallel rows held together by hydrogen bonds between glucose units.",
+        "mean_logprob": -0.1264897858442661,
+        "mean_entropy": 0.3594764520174875
+      }
+    ],
+    "wrong_uncertain": [
+      {
+        "question": "What is the term for the ability of an atom to emit, or give off, charged particles and energy from its nucleus?",
+        "generated_answer": "The term for this ability is radioactive decay.",
+        "mean_logprob": -0.3339573978963825,
+        "mean_entropy": 0.763017906083001
+      },
+      {
+        "question": "Do most waves strike the shore head on or at an angle?",
+        "generated_answer": "Most waves typically strike the shore head-on.",
+        "mean_logprob": -0.3366151403170079,
+        "mean_entropy": 0.7055876981467009
+      },
+      {
+        "question": "What is part of a large fungus that lives underground?",
+        "generated_answer": "Hyphae are part of a large fungus that lives underground.",
+        "mean_logprob": -0.2292303287999507,
+        "mean_entropy": 0.5313335986485561
+      }
+    ]
+  }
+}
