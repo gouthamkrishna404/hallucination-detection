@@ -75,18 +75,36 @@ Qwen uses decontaminated features; Llama/SmolLM2 use their original (uncontamina
 | Qwen2.5-1.5B | TruthfulQA | cascade__all_17feat | 0.496 | [0.414, 0.578] | 0.556±0.024 | 0.535 |
 | Qwen2.5-1.5B | TruthfulQA | cascade__candidate_4feat | 0.592* | [0.510, 0.669] | 0.582±0.020 | 0.028 |
 | Qwen2.5-1.5B | TruthfulQA | flat__candidate_4feat | 0.585* | [0.504, 0.663] | 0.577±0.017 | 0.034 |
+| Qwen2.5-1.5B | SciQ | flat__original_3feat | 0.520 | [0.432, 0.611] | 0.542±0.026 | 0.313 |
+| Qwen2.5-1.5B | SciQ | flat__all_17feat | 0.437 | [0.345, 0.534] | 0.491±0.031 | 0.786 |
+| Qwen2.5-1.5B | SciQ | flat__all_16feat_no_length | 0.476 | [0.385, 0.572] | 0.508±0.032 | 0.575 |
+| Qwen2.5-1.5B | SciQ | cascade__all_17feat | 0.424 | [0.333, 0.522] | 0.449±0.044 | 0.868 |
+| Qwen2.5-1.5B | SciQ | cascade__candidate_4feat | 0.477 | [0.381, 0.569] | 0.484±0.038 | 0.601 |
+| Qwen2.5-1.5B | SciQ | flat__candidate_4feat | 0.543 | [0.456, 0.632] | 0.542±0.023 | 0.190 |
 | Llama-3.2-1B | TruthfulQA | flat__original_3feat | 0.615* | [0.538, 0.693] | 0.602±0.011 | 0.002 |
 | Llama-3.2-1B | TruthfulQA | flat__all_17feat | 0.663* | [0.586, 0.737] | 0.651±0.013 | 0.002 |
 | Llama-3.2-1B | TruthfulQA | flat__all_16feat_no_length | 0.655* | [0.576, 0.732] | 0.655±0.010 | 0.002 |
 | Llama-3.2-1B | TruthfulQA | cascade__all_17feat | 0.661* | [0.584, 0.734] | 0.643±0.015 | 0.002 |
 | Llama-3.2-1B | TruthfulQA | cascade__candidate_4feat | 0.627* | [0.544, 0.705] | 0.616±0.012 | 0.008 |
 | Llama-3.2-1B | TruthfulQA | flat__candidate_4feat | 0.659* | [0.579, 0.738] | 0.657±0.008 | 0.002 |
+| Llama-3.2-1B | SciQ | flat__original_3feat | 0.571 | [0.482, 0.656] | 0.565±0.013 | 0.084 |
+| Llama-3.2-1B | SciQ | flat__all_17feat | 0.578 | [0.493, 0.663] | 0.572±0.017 | 0.064 |
+| Llama-3.2-1B | SciQ | flat__all_16feat_no_length | 0.593* | [0.506, 0.676] | 0.583±0.013 | 0.040 |
+| Llama-3.2-1B | SciQ | cascade__all_17feat | 0.560 | [0.470, 0.647] | 0.578±0.016 | 0.160 |
+| Llama-3.2-1B | SciQ | cascade__candidate_4feat | 0.564 | [0.479, 0.652] | 0.571±0.021 | 0.102 |
+| Llama-3.2-1B | SciQ | flat__candidate_4feat | 0.595* | [0.515, 0.680] | 0.584±0.016 | 0.036 |
 | SmolLM2-1.7B | TruthfulQA | flat__original_3feat | 0.401 | [0.322, 0.479] | 0.413±0.027 | 0.948 |
 | SmolLM2-1.7B | TruthfulQA | flat__all_17feat | 0.586* | [0.504, 0.663] | 0.587±0.021 | 0.042 |
 | SmolLM2-1.7B | TruthfulQA | flat__all_16feat_no_length | 0.581* | [0.496, 0.655] | 0.582±0.023 | 0.044 |
 | SmolLM2-1.7B | TruthfulQA | cascade__all_17feat | 0.576 | [0.494, 0.652] | 0.570±0.024 | 0.076 |
 | SmolLM2-1.7B | TruthfulQA | cascade__candidate_4feat | 0.493 | [0.410, 0.571] | 0.499±0.037 | 0.531 |
 | SmolLM2-1.7B | TruthfulQA | flat__candidate_4feat | 0.517 | [0.434, 0.597] | 0.528±0.028 | 0.407 |
+| SmolLM2-1.7B | SciQ | flat__original_3feat | 0.647* | [0.554, 0.733] | 0.643±0.009 | 0.004 |
+| SmolLM2-1.7B | SciQ | flat__all_17feat | 0.636* | [0.548, 0.722] | 0.625±0.015 | 0.004 |
+| SmolLM2-1.7B | SciQ | flat__all_16feat_no_length | 0.624* | [0.533, 0.714] | 0.623±0.015 | 0.010 |
+| SmolLM2-1.7B | SciQ | cascade__all_17feat | 0.615* | [0.524, 0.701] | 0.603±0.022 | 0.018 |
+| SmolLM2-1.7B | SciQ | cascade__candidate_4feat | 0.588* | [0.492, 0.682] | 0.604±0.022 | 0.026 |
+| SmolLM2-1.7B | SciQ | flat__candidate_4feat | 0.615* | [0.514, 0.708] | 0.633±0.014 | 0.010 |
 
 ## Fixed 60-question holdout (the original DA1 evaluation split), TruthfulQA
 

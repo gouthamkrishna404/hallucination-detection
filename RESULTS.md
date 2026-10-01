@@ -33,7 +33,7 @@ so the Bonferroni-corrected threshold is **α = 0.05/8 = 0.00625**; results with
 | 2 | **Token alignment is correct** | `scripts/verify_token_alignment.py` compares `generate()` scores against an independent teacher-forcing pass; an off-by-one control differs by 15–20 nats, the actual data by ≤0.02 for unpenalised models. | Eq. for ℓ_t is sound; the contamination in (1) is a distribution issue, not an indexing issue. |
 | 3 | **Llama greedy decoding is not reproducible here** | 83/200 TruthfulQA and 29/200 SciQ answers failed to regenerate identically. Non-reproduced answers are longer (54.1 vs 43.5 tokens) and hit the 64-token cap far more (0.52 vs 0.28) — fp16 non-determinism compounding over long generations. | Llama's recomputed subset is length-biased and is **not** used. Llama/SmolLM2 keep their original (uncontaminated) features. |
 | 4 | **`answer_length` is confounded with the token-F1 labeler** | Token-F1 precision falls with answer length, and faster against incorrect references (r = −0.49) than correct ones (r = −0.33). Qwen/TruthfulQA: grounded answers average 23.7 tokens vs 20.0 (t = 2.90, p = 0.004). | Every result is reported with and without `answer_length`. The bias is **not universal**: Llama/TruthfulQA shows it under *both* labelers (p = 0.004 / 0.019), SmolLM2 under neither. |
-| 5 | **Features are unstandardized** | `fit_and_predict` feeds raw features (scales ~0.5 to ~50) to L2 logistic regression, which penalizes small-scale features disproportionately. | Reported as a limitation; a standardized variant is available via `--scale`. |
+| 5 | **Features are unstandardized** | `fit_and_predict` feeds raw features (scales ~0.5 to ~50) to L2 logistic regression, which penalizes small-scale features disproportionately. | Tested with a fold-internal `StandardScaler` (`--scale`): conclusions unchanged. Qwen 17-feat improves to 0.590 (p=0.044, still fails correction); Llama 17-feat 0.636 (p=0.006, still the only robust cell). |
 | 6 | **"17 features" is 15 in 5 of 6 cells** | Top-1/top-2 margin features were cached only for Qwen/TruthfulQA; elsewhere they are constant. | Corrected: the clean recomputation now provides margins for all cells. |
 | 7 | **SciQ labeler asymmetry** | SciQ has 1 distinct correct reference vs ~3 distractors, both entering a `max`, inflating `incorrect_sim`. | SciQ hallucination base rate swings from 0.45–0.55 (token-F1) to 0.24–0.28 (embedding). Base rates are reported for both. |
 
@@ -49,8 +49,34 @@ so the Bonferroni-corrected threshold is **α = 0.05/8 = 0.00625**; results with
 | SmolLM2-1.7B | SciQ | 200 | 0.45 | 0.24 | 0.730 | 0.430 | 0.038 |
 
 ⚠️ The two labelers agree on only 65.5–78.5% of answers (κ 0.34–0.56), and on
-SciQ they disagree about the base rate by roughly a factor of two. Neither is
-ground truth; conclusions that flip between them are reported as such.
+SciQ they disagree about the base rate by roughly a factor of two.
+
+### 2a. Which labeler is right? (SciQ can be settled) 🟢 VALIDATED
+
+SciQ reference answers are short noun phrases, so a near-exact criterion is
+available: does the generation contain the correct answer and no distractor?
+`scripts/experiment_labeler_adjudication.py` builds that **containment label**
+(3–5 ambiguous cases per cell excluded) and scores both proxies against it:
+
+| Model | True halluc. rate (containment) | token-F1 agreement (κ) | embedding agreement (κ) |
+|---|---|---|---|
+| Qwen2.5-1.5B | 0.52 | **0.939 (0.878)** | 0.685 (0.378) |
+| Llama-3.2-1B | 0.64 | **0.913 (0.822)** | 0.605 (0.288) |
+| SmolLM2-1.7B | 0.52 | **0.934 (0.868)** | 0.670 (0.345) |
+
+**On SciQ the token-F1 labeler is accurate and the embedding labeler is not.**
+The embedding labeler marks only 24–28% of answers hallucinated against a true
+rate of 52–64%, i.e. it misses roughly half of the errors — unsurprising, since
+cosine similarity between a full sentence and a one-or-two-word reference is
+high almost regardless of correctness. This explains why SciQ results appear to
+"collapse" under embedding labels (Qwen 0.716 → 0.520): that collapse reflects
+labeler failure, not a fragile detector. **Under the containment label the
+detector holds for all three models: 0.673–0.704 (Section 4).**
+
+⚠️ No equivalent adjudication is possible on TruthfulQA, whose references are
+full sentences with many valid paraphrases. There, labeler disagreement remains
+a genuine open uncertainty, and results that flip between labelers are reported
+as flipping.
 
 ## 3. Headline: TruthfulQA, 5-fold OOF (n = 200)
 
@@ -100,9 +126,23 @@ test set.
 
 Every model, every feature set, every detector architecture is significant
 after correction, seed-stable (sd ≤ 0.02), and **unaffected by removing
-`answer_length`**. This is the project's most robust result, and the plainest
-contrast with TruthfulQA. Notably the **original 3-feature detector is the best
-or near-best variant on SciQ** — the engineered features add nothing here.
+`answer_length`**. Notably the **original 3-feature detector is the best or
+near-best variant on SciQ** — the engineered features add nothing here.
+
+**Confirmed against the near-exact containment label** (Section 2a), which does
+not depend on either proxy:
+
+| Model | original 3-feat | all 17-feat | 16-feat (no length) |
+|---|---|---|---|
+| Qwen2.5-1.5B | 0.682 [0.609, 0.753] | 0.679 [0.603, 0.752] | 0.684 [0.611, 0.756] |
+| Llama-3.2-1B | 0.676 [0.598, 0.749] | 0.703 [0.620, 0.777] | 0.704 [0.623, 0.778] |
+| SmolLM2-1.7B | 0.682 [0.608, 0.753] | 0.673 [0.600, 0.744] | 0.676 [0.602, 0.747] |
+
+Under the containment label every one of these nine variants reaches the
+minimum resolvable permutation p ≈ 0.002, with repeated-CV spread ≤ 0.011
+(e.g. SmolLM2 3-feat: 0.688 ± 0.003). This is the project's most robust
+result: it holds for all three models under the most reliable label
+available, and it is the plainest contrast with TruthfulQA.
 
 ## 5. The confidently-wrong diagnostic 🟢 VALIDATED
 
@@ -147,7 +187,8 @@ which nonetheless failed to produce a validated gain for Qwen.
 ## 8. Bottom line
 
 Token-level uncertainty from a single generation is a **strong, robust signal on
-ordinary factual recall (SciQ: 0.63–0.72, p ≤ 0.004 for all three models)** and
+ordinary factual recall (SciQ: 0.63–0.72 under the token-F1 label, and
+0.67–0.70 under a near-exact containment label, for all three models)** and
 **largely absent on misconception-oriented questions (TruthfulQA)**, where
 roughly half of all wrong answers are produced as confidently as correct ones.
 Finer-grained features recover a replicable signal for exactly **one of three

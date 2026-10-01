@@ -113,7 +113,7 @@ def main():
     ap.add_argument("--repeats", type=int, default=20)
     ap.add_argument("--permutations", type=int, default=500)
     ap.add_argument("--scale", action="store_true")
-    ap.add_argument("--labels", default="tokenf1", choices=["tokenf1", "semantic"])
+    ap.add_argument("--labels", default="tokenf1", choices=["tokenf1", "semantic", "containment"])
     args = ap.parse_args()
 
     global SCALE
@@ -122,7 +122,13 @@ def main():
     paths = get_paths(args.model, args.dataset)
     fname = "single_pass_features_clean.csv" if args.features == "clean" else "single_pass_features_rich.csv"
     df = pd.read_csv(paths.features / fname)
-    if args.labels == "semantic":
+    if args.labels == "containment":
+        # Near-exact reference label for SciQ: the correct short answer appears in the
+        # generation and no distractor does. Validated against both proxies in
+        # scripts/experiment_labeler_adjudication.py.
+        con = pd.read_csv(paths.features / "single_pass_features_containment_labels.csv")[["qid", "containment_label"]]
+        df = df.drop(columns=["label"]).merge(con, on="qid").rename(columns={"containment_label": "label"})
+    elif args.labels == "semantic":
         # Swap the target for the embedding-based labeler, which (unlike token-F1)
         # shows no measurable answer-length bias. Features are untouched.
         sem = pd.read_csv(paths.features / "single_pass_features_semantic_labels.csv")[["qid", "semantic_label"]]
@@ -179,7 +185,7 @@ def main():
                   f"repCV={aurocs.mean():.3f}±{aurocs.std():.3f} [{aurocs.min():.3f},{aurocs.max():.3f}] "
                   f"perm_p={p_value:.3f}")
 
-    suffix = ("_scaled" if args.scale else "") + ("_semlabels" if args.labels == "semantic" else "")
+    suffix = ("_scaled" if args.scale else "") + {"semantic": "_semlabels", "containment": "_containment"}.get(args.labels, "")
     out = paths.analysis / f"clean_validation_{args.features}{suffix}.json"
     save_json(results, out)
     print(f"Saved -> {out}")
