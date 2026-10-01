@@ -63,11 +63,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
     ap.add_argument("--dataset", default="truthfulqa")
+    ap.add_argument("--features", default="rich", choices=["rich", "clean"])
     args = ap.parse_args()
 
     set_all_seeds()
     paths = get_paths(args.model, args.dataset)
-    rich = pd.read_csv(paths.features / "single_pass_features_rich.csv")
+    rich = pd.read_csv(paths.features / f"single_pass_features_{args.features}.csv")
     sp = pd.read_csv(paths.features / "single_pass_features.csv")
     train_qids, eval_qids = get_qid_split(sp)  # the EXACT split used to produce the original result
 
@@ -102,7 +103,7 @@ def main():
         print(f"  {name:32s} n_eval={ci is not None and len(eval_df)}  AUROC={ci['point_estimate']:.3f}  "
               f"95% CI=[{ci['ci_lower_2.5pct']:.3f}, {ci['ci_upper_97.5pct']:.3f}]  ({flag})")
 
-    out_path = paths.analysis / "vs_original_da1_same_split.json"
+    out_path = paths.analysis / f"vs_original_da1_same_split_{args.features}.json"
     save_json(results, out_path)
     print(f"\nSaved -> {out_path}")
 

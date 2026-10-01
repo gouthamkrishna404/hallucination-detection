@@ -75,11 +75,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
     ap.add_argument("--dataset", default="truthfulqa")
+    ap.add_argument("--features", default="rich", choices=["rich", "clean"])
     args = ap.parse_args()
 
     set_all_seeds()
     paths = get_paths(args.model, args.dataset)
-    rich = pd.read_csv(paths.features / "single_pass_features_rich.csv")
+    rich = pd.read_csv(paths.features / f"single_pass_features_{args.features}.csv")
 
     # Reported purely for context (how big is "the confident half" typically) -- NOT used for any
     # classification decision; every actual train/test split below refits its own per-fold threshold.
@@ -100,7 +101,7 @@ def main():
         print(f"  {name:16s} n_eval={len(y):3d}  5-fold-OOF AUROC={ci['point_estimate']:.3f}  "
               f"95% CI=[{ci['ci_lower_2.5pct']:.3f}, {ci['ci_upper_97.5pct']:.3f}]  ({flag})")
 
-    out_path = paths.analysis / "confident_subgroup_classifier.json"
+    out_path = paths.analysis / f"confident_subgroup_classifier_{args.features}.json"
     save_json(results, out_path)
     print(f"Saved -> {out_path}")
 

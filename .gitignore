@@ -7,3 +7,4 @@ outputs/cache/
 *.egg-info/
 gradio_cached_examples/
 flagged/
+paper/node_modules/

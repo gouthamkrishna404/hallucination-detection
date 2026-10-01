@@ -32,10 +32,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
     ap.add_argument("--dataset", default="truthfulqa")
+    ap.add_argument("--features", default="rich", choices=["rich", "clean"])
     args = ap.parse_args()
 
     paths = get_paths(args.model, args.dataset)
-    rich = pd.read_csv(paths.features / "single_pass_features_rich.csv")
+    rich = pd.read_csv(paths.features / f"single_pass_features_{args.features}.csv")
 
     median_logprob = rich["mean_logprob"].median()
     rich["is_correct"] = rich["label"] == 0
@@ -91,7 +92,7 @@ def main():
         "wrong_confident_vs_correct_confident_separation": separation,
         "example_answers_per_quadrant": examples,
     }
-    out_path = paths.analysis / "quadrant_analysis.json"
+    out_path = paths.analysis / f"quadrant_analysis_{args.features}.json"
     save_json(result, out_path)
     print(f"\nSaved -> {out_path}")
 

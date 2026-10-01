@@ -1,172 +1,167 @@
 # Final Results Summary
 
-Every number below was recomputed from saved outputs on disk immediately
-before this document was written (`scripts/verify_final_numbers.py` plus
-the audit scripts listed in Section 5), not taken from memory. For full
-narrative and every caveat, see [README.md](README.md) — this file is the
-skimmable results reference.
+All numbers are produced by `scripts/build_final_results_table.py` from saved
+experiment outputs and mirrored in [`comparison/final_results.md`](comparison/final_results.md).
+If a number here disagrees with that file, that file is right.
 
-**This document distinguishes four categories of finding, explicitly, throughout:**
-🟢 **VALIDATED** — survives leakage checks, is reproducible, and its
-statistical significance is clearly and correctly qualified.
-🔵 **EXPLORATORY** — a real, computed result, but with an acknowledged
-methodological caveat (small sample, or a feature-selection step that
-looked at this same data) that stops it from being a clean, confirmatory
-finding.
-🔴 **NEGATIVE** — actively investigated and ruled out or found not to work.
-⚠️ **LIMITATION** — a boundary condition on how far any of the above can be trusted.
+**Read this first.** An audit (Section 1) found a decoding-time contamination
+defect that invalidated the previously reported Qwen headline. Every number
+below is post-correction. Earlier versions of this file reported
+Qwen 0.598 / Llama 0.653 as "the main finding"; that framing did not survive
+and has been replaced.
 
-## 1. Main matrix — 🟢 VALIDATED (identical to the original DA1/matrix report, unchanged)
+**Finding categories used throughout:**
+🟢 **VALIDATED** — survives permutation testing, repeated CV, and leakage checks.
+🔵 **EXPLORATORY** — real but with a caveat (selection on the same data, or does not survive multiple-testing correction).
+🔴 **NEGATIVE** — investigated and found absent.
+⚠️ **LIMITATION** — a boundary on trust.
 
-Fixed 70/30 split (140 train / 60 eval), the same split used to produce
-the original frozen DA1 result. All AUROC.
+**Statistical conventions.** AUROC is the primary metric. `perm p` is a
+permutation test: labels are shuffled and the entire out-of-fold (OOF)
+procedure re-run 500 times, so the p-value absorbs optimism in the fitting
+procedure itself (minimum resolvable value 1/501 ≈ 0.002). `repCV` is the mean
+± sd of 5-fold OOF AUROC over 20 different CV seeds. Eight detector variants
+(2 architectures × 4 feature sets) are tested per model/dataset/labeler cell,
+so the Bonferroni-corrected threshold is **α = 0.05/8 = 0.00625**; results with
+0.00625 < p < 0.05 are marked exploratory, not validated.
 
-| Model | Dataset | Original 3-feat detector | Mean-logprob only | Lexical self-consistency (5c) | Semantic self-consistency (5c) |
-|---|---|---|---|---|---|
-| Qwen2.5-1.5B | TruthfulQA | 0.482 | 0.551 | 0.461 | 0.470 |
-| Llama-3.2-1B | TruthfulQA | 0.481 | 0.541 | 0.477 | 0.528 |
-| SmolLM2-1.7B | TruthfulQA | 0.382 | 0.545 | 0.560 | 0.577 |
-| Qwen2.5-1.5B | SciQ | 0.756 | 0.780 | 0.676 | 0.571 |
-| Llama-3.2-1B | SciQ | 0.616 | 0.634 | 0.595 | 0.532 |
-| SmolLM2-1.7B | SciQ | 0.717 | 0.767 | 0.758 | 0.544 |
+## 1. Audit findings that changed the results 🟢 VALIDATED
 
-## 2. The clean final comparison table (as requested — one consistent methodology throughout)
-
-Every cell below uses the **same fixed 140/60 split** (no cross-validation,
-no out-of-fold — the simplest, most literal "same test questions as the
-original DA1 result" comparison possible). "Best improved detector" is
-the two-stage 17-feature cascade for TruthfulQA (Section 3 explains why
-this specific design), evaluated on this same split; for SciQ, no
-improved detector was engineered (out of the audit's scope, and the
-original detector already performs well there), so this column repeats
-the original detector.
-
-| Model | Dataset | Original DA1 | Best improved detector | Self-consistency (5c) | Semantic entropy (5c) |
-|---|---|---|---|---|---|
-| Qwen2.5-1.5B | TruthfulQA | 0.482 | 0.560 (cascade) | 0.461 | 0.470 |
-| Llama-3.2-1B | TruthfulQA | 0.481 | 0.601 (17-feat) | 0.477 | 0.528 |
-| SmolLM2-1.7B | TruthfulQA | 0.382 | 0.503 (17-feat) | 0.560 | 0.577 |
-| Qwen2.5-1.5B | SciQ | 0.756 | *(no improvement attempted)* | 0.676 | 0.571 |
-| Llama-3.2-1B | SciQ | 0.616 | *(no improvement attempted)* | 0.595 | 0.532 |
-| SmolLM2-1.7B | SciQ | 0.717 | *(no improvement attempted)* | 0.758 | 0.544 |
-
-**On this literal same-split comparison, none of the TruthfulQA
-"improved detector" point estimates reach statistical significance
-individually** (bootstrap 95% CIs all still cross 0.5 at n=60 — see
-Section 3). They are consistently *directionally* positive (+0.08, +0.12,
-+0.12 for Qwen/Llama/SmolLM2 respectively) but a 60-question sample
-cannot statistically confirm an effect of this size on its own. Section 3
-explains what changes with a higher-power evaluation, and why that's
-methodologically legitimate rather than a way of hiding a null result.
-
-## 3. Is the TruthfulQA improvement real? — 🟢 VALIDATED, with an explicit, audited caveat
-
-Two different, both-legitimate ways of asking "is this detector actually
-better," with two different answers, reported side by side rather than
-picking whichever looks better:
-
-| Model | Method | Same 60-question split (n=60) | 10-fold out-of-fold (n=200) |
+| # | Defect | Evidence | Consequence |
 |---|---|---|---|
-| Qwen | original 3-feat | 0.482 [0.333, 0.629], not sig. | 0.398 [0.325, 0.476], not sig. |
-| Qwen | **two-stage cascade, 17 feat** | 0.560 [0.404, 0.710], not sig. | **0.598 [0.516, 0.678], significant** |
-| Llama | original 3-feat | 0.481 [0.324, 0.631], not sig. | 0.564 [0.482, 0.641], not sig. |
-| Llama | **flat logistic regression, 17 feat** | 0.601 [0.450, 0.741], not sig. | **0.653 [0.576, 0.727], significant** |
-| SmolLM2 | best variant tried | 0.503 [0.352, 0.657], not sig. | 0.485 [0.408, 0.566], not sig. |
+| 1 | **Decoding-time contamination (Qwen only)** | Qwen2.5 ships `repetition_penalty=1.1` in `generation_config`; HF applies repetition penalty as a *logits processor* even under greedy decoding. Teacher-forcing recomputation shifts `mean_logprob` by 0.125 on average (max 0.595) — ~8× the between-class separation (0.016). Llama/SmolLM2 configure no penalty (shift ≤ 0.006). | All Qwen features recomputed from raw logits (`scripts/recompute_clean_features.py`, 200/200 answers reproduced exactly). Qwen's previous headline (cascade, 17-feat: 0.598, p=0.026) falls to **0.554, p=0.174 — not significant**. |
+| 2 | **Token alignment is correct** | `scripts/verify_token_alignment.py` compares `generate()` scores against an independent teacher-forcing pass; an off-by-one control differs by 15–20 nats, the actual data by ≤0.02 for unpenalised models. | Eq. for ℓ_t is sound; the contamination in (1) is a distribution issue, not an indexing issue. |
+| 3 | **Llama greedy decoding is not reproducible here** | 83/200 TruthfulQA and 29/200 SciQ answers failed to regenerate identically. Non-reproduced answers are longer (54.1 vs 43.5 tokens) and hit the 64-token cap far more (0.52 vs 0.28) — fp16 non-determinism compounding over long generations. | Llama's recomputed subset is length-biased and is **not** used. Llama/SmolLM2 keep their original (uncontaminated) features. |
+| 4 | **`answer_length` is confounded with the token-F1 labeler** | Token-F1 precision falls with answer length, and faster against incorrect references (r = −0.49) than correct ones (r = −0.33). Qwen/TruthfulQA: grounded answers average 23.7 tokens vs 20.0 (t = 2.90, p = 0.004). | Every result is reported with and without `answer_length`. The bias is **not universal**: Llama/TruthfulQA shows it under *both* labelers (p = 0.004 / 0.019), SmolLM2 under neither. |
+| 5 | **Features are unstandardized** | `fit_and_predict` feeds raw features (scales ~0.5 to ~50) to L2 logistic regression, which penalizes small-scale features disproportionately. | Reported as a limitation; a standardized variant is available via `--scale`. |
+| 6 | **"17 features" is 15 in 5 of 6 cells** | Top-1/top-2 margin features were cached only for Qwen/TruthfulQA; elsewhere they are constant. | Corrected: the clean recomputation now provides margins for all cells. |
+| 7 | **SciQ labeler asymmetry** | SciQ has 1 distinct correct reference vs ~3 distractors, both entering a `max`, inflating `incorrect_sim`. | SciQ hallucination base rate swings from 0.45–0.55 (token-F1) to 0.24–0.28 (embedding). Base rates are reported for both. |
 
-**Why both numbers are reported, and what they mean:** the n=60 column is
-the literal, simplest possible test — the same 60 questions, one
-train/test split, exactly as the original DA1 result was produced. The
-n=200 column uses 10-fold cross-validation across the *entire* dataset,
-so every one of the 200 questions gets a held-out prediction from a model
-that never trained on it (verified leakage-free — see Section 5) — this
-is not "peeking at the test set," it is a standard, textbook technique
-for getting a lower-variance performance estimate when a single 60-question
-holdout doesn't have enough statistical power to resolve a modest true
-effect. The CI-width ratio between the two columns (≈1.9×) matches the
-√(200/60)≈1.83× shrinkage predicted by sample size alone — confirming
-the tighter CI reflects more data, not a methodological error.
+## 2. Dataset and labeler characteristics
 
-**Honest verdict: the improvement is real and statistically supported
-under the appropriate cross-validated evaluation for this sample size,
-for Qwen and Llama — but it is not yet independently confirmed by a
-single fresh holdout of the same size as the original DA1 evaluation.**
-This is a meaningfully weaker (and more honest) claim than "beats the
-original detector head-to-head on the same test set" would be, and is
-exactly why it is labeled a *cross-validated finding* rather than an
-unconditional win throughout this document. A larger fixed held-out set
-(more than 60 questions) would be the natural way to fully settle this
-with a single-split test — flagged as future work, not glossed over.
+| Model | Dataset | n | Halluc. rate (token-F1) | Halluc. rate (embedding) | Labeler agreement | κ | Length-bias p |
+|---|---|---|---|---|---|---|---|
+| Qwen2.5-1.5B | TruthfulQA | 200 | 0.59 | 0.55 | 0.730 | 0.450 | 0.004 |
+| Qwen2.5-1.5B | SciQ | 200 | 0.46 | 0.26 | 0.735 | 0.448 | 0.203 |
+| Llama-3.2-1B | TruthfulQA | 200 | 0.53 | 0.52 | 0.730 | 0.459 | 0.004 |
+| Llama-3.2-1B | SciQ | 200 | 0.55 | 0.28 | 0.655 | 0.338 | 0.463 |
+| SmolLM2-1.7B | TruthfulQA | 200 | 0.62 | 0.54 | 0.785 | 0.563 | 0.918 |
+| SmolLM2-1.7B | SciQ | 200 | 0.45 | 0.24 | 0.730 | 0.430 | 0.038 |
 
-## 4. The core diagnostic — 🟢 VALIDATED (this finding does not depend on the n=60-vs-n=200 question at all)
+⚠️ The two labelers agree on only 65.5–78.5% of answers (κ 0.34–0.56), and on
+SciQ they disagree about the base rate by roughly a factor of two. Neither is
+ground truth; conclusions that flip between them are reported as such.
 
-Fraction of *wrong* answers made with above-median confidence — this
-statistic is a direct count over the fixed 200-question set, not a
-classifier output, so it carries none of the small-sample-classifier
-concerns above:
+## 3. Headline: TruthfulQA, 5-fold OOF (n = 200)
+
+Qwen uses decontaminated features; Llama and SmolLM2 use their original
+(uncontaminated) features. `*` = p < 0.05; `**` = survives Bonferroni (p < 0.00625).
+
+| Model | Detector | token-F1 labels | embedding labels |
+|---|---|---|---|
+| Qwen2.5-1.5B | original 3-feat | 0.434 (p=0.844) | 0.540 (p=0.186) |
+| Qwen2.5-1.5B | all 17-feat, flat | 0.553 (p=0.170) | 0.451 (p=0.798) |
+| Qwen2.5-1.5B | all 17-feat, cascade | 0.554 (p=0.174) | 0.496 (p=0.535) |
+| Qwen2.5-1.5B | 16-feat (no length) | 0.505 (p=0.481) | 0.501 (p=0.475) |
+| Qwen2.5-1.5B | 4-feat subset, cascade 🔵 | 0.605* (p=0.024) | 0.592* (p=0.028) |
+| **Llama-3.2-1B** | original 3-feat | 0.566 (p=0.090) | **0.615** (p=0.002)** |
+| **Llama-3.2-1B** | **all 17-feat, flat** | **0.653** (p=0.002)** | **0.663** (p=0.002)** |
+| **Llama-3.2-1B** | all 17-feat, cascade | **0.630** (p=0.002)** | **0.661** (p=0.002)** |
+| **Llama-3.2-1B** | 16-feat (no length) | 0.578 (p=0.072) | **0.655** (p=0.002)** |
+| SmolLM2-1.7B | original 3-feat | 0.418 (p=0.904) | 0.401 (p=0.948) |
+| SmolLM2-1.7B | all 17-feat, flat | 0.485 (p=0.585) | 0.586* (p=0.042) 🔵 |
+| SmolLM2-1.7B | 16-feat (no length) | 0.494 (p=0.507) | 0.581* (p=0.044) 🔵 |
+
+**What this supports.** 🟢 **Only Llama-3.2-1B shows a replicable TruthfulQA
+signal.** It is significant under both labelers, under both detector
+architectures, stable across 20 CV seeds (0.649 ± 0.011), and survives
+Bonferroni correction. Under the embedding labeler it also survives removal of
+`answer_length` (0.655, p ≤ 0.002), so it is not merely the length artifact.
+
+🔴 **Qwen shows no validated TruthfulQA signal after decontamination.** The one
+variant below α (4-feature cascade, p = 0.024) uses a feature subset selected
+by inspecting these same questions and does not survive correction for the 8
+variants tested. 🔴 **SmolLM2 is a null**; its two p ≈ 0.04 cells under the
+embedding labeler likewise fail correction.
+
+⚠️ **Nothing is significant on the original fixed 60-question holdout** — every
+CI includes 0.5 (Qwen cascade 0.583 [0.433, 0.735]; Llama flat 17-feat 0.598
+[0.446, 0.738]; SmolLM2 0.503 [0.352, 0.657]). The OOF results use all 200
+questions and therefore have more power; they are *not* a second, independent
+test set.
+
+## 4. SciQ, 5-fold OOF (n = 200) 🟢 VALIDATED
+
+| Model | original 3-feat | all 17-feat | 16-feat (no length) |
+|---|---|---|---|
+| Qwen2.5-1.5B | **0.716** (p=0.002)** | 0.686 (p=0.002)** | 0.694 (p=0.002)** |
+| Llama-3.2-1B | 0.634 (p=0.004)** | 0.638 (p=0.004)** | 0.638 (p=0.002)** |
+| SmolLM2-1.7B | 0.649 (p=0.002)** | 0.641 (p=0.004)** | 0.645 (p=0.002)** |
+
+Every model, every feature set, every detector architecture is significant
+after correction, seed-stable (sd ≤ 0.02), and **unaffected by removing
+`answer_length`**. This is the project's most robust result, and the plainest
+contrast with TruthfulQA. Notably the **original 3-feature detector is the best
+or near-best variant on SciQ** — the engineered features add nothing here.
+
+## 5. The confidently-wrong diagnostic 🟢 VALIDATED
+
+Share of *wrong* answers produced with above-median mean log-probability:
 
 | Model | TruthfulQA | SciQ |
 |---|---|---|
-| Qwen2.5-1.5B | 49.2% | 32.6% |
+| Qwen2.5-1.5B | 50.8% | 32.6% |
 | Llama-3.2-1B | 51.4% | 40.0% |
 | SmolLM2-1.7B | 52.4% | 40.0% |
 
-Within *only* the confident subgroup (median-split threshold fit
-per-fold on training data — corrected after an initial version used a
-global split; see README "Deep investigation" Section 9 audit note), the
-17-feature classifier separates confidently-wrong from
-confidently-correct answers at AUROC 0.656 (Qwen, 95% CI excludes chance)
-and 0.642 (Llama, excludes chance); SmolLM2 stays at chance (0.443).
+On TruthfulQA a wrong answer is about as likely to be confident as uncertain.
+Any detector thresholding mean confidence at the median necessarily places
+these answers with the confident correct ones. Within the confident subgroup
+the association also **reverses direction**: for Qwen, confidently *wrong*
+answers have *higher* second-half log-probability than confidently correct ones
+(Cohen's d = +0.73) and are shorter (d = −0.71). This motivated the cascade —
+which nonetheless failed to produce a validated gain for Qwen.
 
-## 5. Audit checklist (what was specifically verified before finalizing)
+## 6. What did not work 🔴 NEGATIVE
 
-| Check | Result |
+| Investigated | Outcome |
 |---|---|
-| Do the 17 features use any ground-truth information? | **No** — verified by code inspection of `src/features_v2.py`: every feature is a function of `token_logprobs`/`token_entropies`/`token_margins` only, all available from the model's own single greedy generation. `correct_sim`/`incorrect_sim` (which DO use references) are carried as metadata columns for the label-margin audit only, confirmed by grep never to appear in any feature list passed to a classifier. |
-| Does feature/classifier/threshold selection use held-out labels? | **No leakage found**, one issue found and fixed: `experiment_confident_subgroup_classifier.py` originally computed its median-split threshold over the full 200-question set before cross-validating within the resulting subgroup (a mild covariate-only leak, no label leakage). Corrected to fit the threshold per-fold on training data only, matching the cascade's design. The fix changed reported AUROC by ≤0.03 and did not change any conclusion. |
-| Are AUROC/CIs genuinely held-out? | **Yes** — `StratifiedKFold` fit/predict separated correctly in every script (`out_of_fold_predictions`, `cascade_oof`, `confident_subgroup_oof`); confirmed no scaling/fitting step touches test-fold rows before prediction. |
-| Do 0.598/0.653 reproduce? | **Yes**, exactly, on repeated runs (fixed seeds throughout). |
-| Direct comparison to original DA1 on the same test questions? | **Done** — Section 3's n=60 column. Result: directionally positive, not independently significant at this sample size (see Section 3's full discussion). |
-| Does the cascade introduce hidden selection bias? | **Checked, none found**: the routing threshold and both branch classifiers are fit only on each fold's training data; the fallback for degenerate branches (too few examples/one class) still trains only on that fold's full training set, never on test data. |
+| Random forest, XGBoost, calibrated LR | No consistent gain over logistic regression; several overfit (Qwen 3-feat XGBoost: CV 0.585 → holdout 0.414) |
+| Self-consistency (5 calls) and semantic entropy (5 calls) | Never significant on TruthfulQA for any model; on SciQ matched or trailed the 1-call detector |
+| Hybrid (6 calls) | Never clearly earned its extra cost |
+| Label-margin restriction | Ruled out — no threshold significant; Qwen's estimate reverses (0.611 → 0.377) as data is discarded |
+| 10-sample self-consistency sweep | Not completed (environment interruptions at 62% and 33%); remains open |
+| Qwen after decontamination | No validated detector |
+| SmolLM2 on TruthfulQA | Null under every feature set, architecture, and labeler |
 
-## 6. What did not improve — 🔴 NEGATIVE (tried honestly, ruled out)
+## 7. Limitations ⚠️
 
-| Investigated | Result |
-|---|---|
-| Random Forest / XGBoost / calibrated LR | No consistent gain over plain logistic regression; higher overfitting risk at n=140 |
-| Label-margin restriction (is it just label noise?) | **Ruled out** — no threshold produces a significant result under proper out-of-fold evaluation; Qwen's point estimate actively reverses (0.611→0.377) as data is discarded |
-| `answer_length` as a feature | Labeling artifact (token-F1 precision bias, p=0.004), not a real signal — excluded from all reported detectors |
-| Self-consistency sampling budget beyond N=5 | Attempted (N=10), generation failed twice on environment interruptions (not a code issue), not completed — documented as an open question, not fabricated |
-| Cross-model transfer on TruthfulQA | Stays at chance in every direction (0.42–0.62) — nothing to transfer |
-| **SmolLM2-1.7B-Instruct on TruthfulQA** | Every approach tried (17 features, 3 extra classifiers, hybrid, cascade, confident-subgroup) fails to reach significance — a clean negative result for this model specifically |
+- One 200-question subset per dataset; the 60-question holdout is badly underpowered.
+- All labels are automatic proxies that agree only 65.5–78.5% of the time; several conclusions depend on which is used. No human-adjudicated labels exist.
+- Three models of 1–2 B parameters, two short-answer datasets; no claim beyond them.
+- Llama generations are not bit-reproducible here, and ~38% of its TruthfulQA answers hit the 64-token cap (vs ~0% for Qwen/SmolLM2), weakening cross-model comparability.
+- The 4-feature subset was chosen by inspecting these same questions.
+- Features are unstandardized in the primary pipeline; the semantic-entropy baseline uses cosine clustering rather than entailment.
+- No retrieval or external verifier, so errors stated with full confidence remain out of reach.
 
-⚠️ **Limitation, stated plainly:** cross-model transfer on SciQ is a
-genuine positive finding (transfers as well as or better than
-within-model, e.g. Llama→Qwen: 0.786–0.795 vs. Qwen's own 0.756,
-confirming the SciQ signal is general) but this was not re-tested for the
-TruthfulQA improved detectors, since doing so would mean training new
-detectors on additional model pairs — outside this audit's scope.
+## 8. Bottom line
 
-## 7. Bottom line
+Token-level uncertainty from a single generation is a **strong, robust signal on
+ordinary factual recall (SciQ: 0.63–0.72, p ≤ 0.004 for all three models)** and
+**largely absent on misconception-oriented questions (TruthfulQA)**, where
+roughly half of all wrong answers are produced as confidently as correct ones.
+Finer-grained features recover a replicable signal for exactly **one of three
+models (Llama-3.2-1B: 0.653, p ≤ 0.002)**; for Qwen the apparent gain was an
+artifact of decoding-time repetition penalty, and for SmolLM2 there is nothing
+to recover. The method is therefore useful but strongly model- and
+dataset-dependent, and it cannot resolve confidently wrong factual claims
+without evidence external to the generating model.
 
-**The main final research finding, stated at the precision it has earned:**
-a validated 17-feature detector (a two-stage cascade for Qwen, a flat
-classifier for Llama) achieves AUROC 0.60–0.65 on TruthfulQA under
-10-fold cross-validation with bootstrap confidence intervals that exclude
-chance — a real, leakage-checked, reproducible improvement over the
-original 3-feature detector's 0.38–0.48. This finding is *not* yet
-confirmed on a single fresh 60-question holdout of the same size as the
-original DA1 evaluation (Section 3) — it is a cross-validated finding,
-correctly labeled as such, not an unconditional head-to-head win. For
-SmolLM2, no improvement was found anywhere. Nothing here approaches
-SciQ's 0.62–0.78, and the ~50% "confidently wrong" rate on TruthfulQA
-(Section 4) sets a ceiling no confidence-only method can cross —closing
-that gap needs a signal external to the model's own token probabilities.
-
-## Reproducing these numbers
+## Reproducing
 
 ```bash
-python scripts/verify_final_numbers.py              # Section 1 numbers
-python scripts/experiment_vs_original_da1.py --model <key> --dataset truthfulqa   # Section 2-3, n=60 column
-python scripts/experiment_cascade_detector.py --model <key> --dataset truthfulqa  # Section 3, n=200 column
-python scripts/experiment_confident_subgroup_classifier.py --model <key> --dataset truthfulqa  # Section 4
+python scripts/verify_token_alignment.py --model qwen2.5-1.5b-instruct   # audit finding 1-2
+python scripts/recompute_clean_features.py --model qwen2.5-1.5b-instruct --dataset truthfulqa
+python scripts/experiment_clean_validation.py --model <key> --dataset <ds> --features <clean|rich> [--labels semantic] [--scale]
+python scripts/build_final_results_table.py                              # regenerates every table above
 ```

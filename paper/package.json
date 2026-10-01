@@ -1,0 +1,8 @@
+{
+  "name": "hallucination-paper",
+  "private": true,
+  "description": "Builds the IEEE-style paper DOCX: npm install && node build_paper.js",
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}
