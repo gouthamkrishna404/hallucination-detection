@@ -1,0 +1,239 @@
+### f46ce1f76b
+Q: Many plants respond to the days growing shorter in the fall by doing what?
+CORRECT: going dormant
+INCORRECT: turning to liquid | migrating | growing faster
+ANSWER: Many plants respond to the days growing shorter in the fall by preparing for winter by entering a dormant state.
+
+### 149ac8bf81
+Q: Asteroids are not geologically active. which is the only way they can change?
+CORRECT: a collision
+INCORRECT: propulsion | combustion | expansion
+ANSWER: Asteroids can change through collisions with other celestial bodies.
+
+### 6af2000d1b
+Q: What type of mirror is shaped like the outside of a bowl?
+CORRECT: convex
+INCORRECT: slope | concave | vertex
+ANSWER: A concave mirror is shaped like the outside of a bowl.
+
+### 449fa78ba5
+Q: Gabbro is a dark dense rock that can be found in what?
+CORRECT: oceanic crust
+INCORRECT: surface crust | mantle | soil
+ANSWER: Gabbro is a dark, dense rock that can be found in the Earth's crust.
+
+### 1fa6636369
+Q: Vivipary refers to the development and nourishment of a what?
+CORRECT: embryo
+INCORRECT: seed | egg | nucleus
+ANSWER: Vivipary refers to the development and nourishment of a fetus within the mother's body.
+
+### cc8fa9f4ad
+Q: What model describing atomic structure is often referred to as a planetary model?
+CORRECT: bohr model
+INCORRECT: Newton's model | kinetic model | Pascal model
+ANSWER: The Bohr model is often referred to as a planetary model.
+
+### b83e856ffb
+Q: What type of molecules help the plasma membrane keep its shape?
+CORRECT: cholesterol
+INCORRECT: proteins | magnesium | metabolic
+ANSWER: Cholesterol molecules help the plasma membrane keep its shape.
+
+### c4076923f7
+Q: What broad animal group is thought to have evolved from theropod dinosaurs around 150 million years ago?
+CORRECT: birds
+INCORRECT: insects | mammals | reptiles
+ANSWER: The broad animal group thought to have evolved from theropod dinosaurs around 150 million years ago is birds.
+
+### 82c0288440
+Q: Ingestion and propulsion are the first two steps in which process that describes how humans process and consume food?
+CORRECT: digestion
+INCORRECT: absorption | regeneration | respiration
+ANSWER: Digestion.
+
+### 2154ce6660
+Q: What chemical signals in plants control different processes?
+CORRECT: plant hormones
+INCORRECT: produce hormones | nitrogen hormones | Human Hormones
+ANSWER: Plants use a variety of chemical signals, including hormones and secondary metabolites, to control processes such as growth, development, and responses to environmental stimuli.
+
+### 1f87a1bc77
+Q: What type of energy is produced when two objects move together?
+CORRECT: mechanical
+INCORRECT: internal | kinetic | fluid
+ANSWER: Kinetic energy is produced when two objects move together.
+
+### 8a36f29f37
+Q: Connecting a magnesium rod to an underground steel pipeline protects the pipeline from corrosion. because magnesium (e° = −2.37 v) is much more easily oxidized than iron (e° = −0.45 v), the mg rod acts as the anode in a what?
+CORRECT: galvanic cell
+INCORRECT: anode cell | stimulation cell | voltaic cell
+ANSWER: The magnesium rod acts as the anode in a sacrificial anode system.
+
+### 28d5bc1c2a
+Q: Movements in the mantle cause the plates to move over time in a process called what?
+CORRECT: continental drift
+INCORRECT: continental expansion | continental shift | boundary drift
+ANSWER: Movements in the mantle cause the plates to move over time in a process called plate tectonics.
+
+### 62589e1462
+Q: What system consists of organs that break down food and absorb nutrients such as glucose?
+CORRECT: digestive system
+INCORRECT: cardiovascular system | physical system | skeletal system
+ANSWER: The digestive system consists of organs that break down food and absorb nutrients such as glucose.
+
+### 179a2fbd48
+Q: What is the separation of ions that occurs when a solid ionic compound dissolves?
+CORRECT: dissociation
+INCORRECT: combustion | decomposition | inflammation
+ANSWER: The separation of ions that occurs when a solid ionic compound dissolves is called ionization.
+
+### 6a1b2a4403
+Q: What are cells without a nucleus called?
+CORRECT: prokaryotic cells
+INCORRECT: Monocyte Cells | heterogeneous cells | crustal cells
+ANSWER: Cells without a nucleus are called prokaryotic cells.
+
+### 59dfd476c6
+Q: Matter is made up of a mixture of things called what?
+CORRECT: elements
+INCORRECT: segments | compounds | structures
+ANSWER: Matter is made up of a mixture of things called atoms.
+
+### f31b9073cc
+Q: What is the term for something changing from water to ice?
+CORRECT: freezing
+INCORRECT: evaporation | boiling | melting
+ANSWER: The term for something changing from water to ice is freezing.
+
+### 8caf235f59
+Q: Habitat loss caused by human actions is a prime culprit in what phenomenon, which appears to be occurring for a sixth time?
+CORRECT: mass extinction
+INCORRECT: spontaneous mutation | mass migrations | Big Bang
+ANSWER: Habitat loss caused by human actions is a prime culprit in the phenomenon of the sixth mass extinction, which appears to be occurring.
+
+### 12d965a756
+Q: Surging hormones will cause adolescents to have what?
+CORRECT: mood swings
+INCORRECT: blackouts | growth spurts | bulging muscles
+ANSWER: Surging hormones will cause adolescents to experience mood swings, increased energy, and changes in appetite.
+
+### c6b8160146
+Q: What are living things that produce food for themselves and other organisms called?
+CORRECT: producers
+INCORRECT: growers | harvesters | refiners
+ANSWER: Autotrophs are living things that produce food for themselves and other organisms.
+
+### 7ddf5ebd08
+Q: What opens two strands of dna?
+CORRECT: helicase
+INCORRECT: replication | adenylate | chromosome
+ANSWER: An enzyme called helicase opens two strands of DNA.
+
+### 6df8f21106
+Q: What do you call nutrients that your body needs in fairly large amounts?
+CORRECT: macronutrients
+INCORRECT: B-complex | super foods | antioxidants
+ANSWER: You call nutrients that your body needs in fairly large amounts macronutrients.
+
+### 5e5bcb9955
+Q: When a car is brought to a stop by friction on level ground, it loses what?
+CORRECT: kinetic energy
+INCORRECT: residual energy | exhibit energy | mass energy
+ANSWER: When a car is brought to a stop by friction on level ground, it loses kinetic energy.
+
+### 9b4b458759
+Q: What is the term for the combined forces acting on an object?
+CORRECT: net force
+INCORRECT: total impact | blunt force | critical force
+ANSWER: The term for the combined forces acting on an object is called a net force or resultant force.
+
+### b437364a3b
+Q: What results from uncontrolled cell division?
+CORRECT: cancers
+INCORRECT: high blood pressure | obesity | diabetes
+ANSWER: Uncontrolled cell division can lead to cancer.
+
+### 155f7b7665
+Q: What soil is common in deciduous forests?
+CORRECT: pedalfer
+INCORRECT: sandy soil | xerophyte | loam
+ANSWER: Deciduous forests are typically characterized by rich, loamy soils that are well-drained and fertile.
+
+### ef372a40d5
+Q: Which gland is controlled by a negative feedback loop that includes the hypothalamus and pituitary gland?
+CORRECT: thyroid
+INCORRECT: stomach | adrenal | pituitary
+ANSWER: The thyroid gland is controlled by a negative feedback loop that includes the hypothalamus and pituitary gland.
+
+### 2bcc10d51a
+Q: Often represented by an arrow, a vector is a measurement that has both size and what?
+CORRECT: direction
+INCORRECT: pressure | location | reason
+ANSWER: Direction.
+
+### 0c74d3ed49
+Q: What do most living things use to make atp from glucose?
+CORRECT: oxygen
+INCORRECT: enzymes | carbon | nitrogen
+ANSWER: Most living things use mitochondria to make ATP from glucose through cellular respiration.
+
+### 3eddd799c8
+Q: What is the purpose of bright colors on a flower's petals?
+CORRECT: to attract pollinators
+INCORRECT: to distract predators | to absorb light | to attract a mate
+ANSWER: Bright colors on a flower's petals serve to attract pollinators by signaling the presence of nectar or other resources.
+
+### 91e5c55896
+Q: What is the adaptation that certain animals use to become less visible to predators and prey?
+CORRECT: camouflage
+INCORRECT: skeletons | speed | insulation
+ANSWER: Certain animals use camouflage, which involves blending into their environment to become less visible to predators and prey.
+
+### a4c458adc9
+Q: What is the eighth planet from our sun?
+CORRECT: neptune
+INCORRECT: earth | mars | uranus
+ANSWER: The eighth planet from the sun is Neptune.
+
+### d8f5c3f787
+Q: Radioactive nuclei and particles are represented by which symbols?
+CORRECT: nuclear
+INCORRECT: energy | greek | compound
+ANSWER: Radioactive nuclei are represented by the symbol "n" and particles by symbols like "p" for protons and "e" for electrons.
+
+### 335558c124
+Q: Railroad tracks and roadways can buckle on hot days if they lack sufficient what?
+CORRECT: expansion joints
+INCORRECT: cartilaginous joints | contraction joints | attraction joints
+ANSWER: Railroad tracks and roadways can buckle on hot days if they lack sufficient ballast.
+
+### 544164a41b
+Q: Lichens are not a single organism, but rather an example of a what?
+CORRECT: mutualism
+INCORRECT: fusion | homogeneous mixture | symbiosis
+ANSWER: Lichens are not a single organism, but rather an example of a symbiotic relationship between an algae or fungus and a photosynthetic organism.
+
+### e3a6050c8a
+Q: What is a reptiles skin covered in to protect them from drying out?
+CORRECT: scales
+INCORRECT: bacteria | oil | dye
+ANSWER: Reptiles' skin is covered in scales to protect them from drying out.
+
+### b1c51625cb
+Q: An individual virus is called what?
+CORRECT: a virion
+INCORRECT: a toxin | a polymer | a pathogen
+ANSWER: An individual virus is called a virion.
+
+### b2157d5e62
+Q: Oxygen, carbon dioxide, atp, and nadph are reactants in what process that plants use to produce food?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | absorbtion | chlorophyll
+ANSWER: Photosynthesis is the process plants use to produce food using oxygen, carbon dioxide, ATP, and NADPH as reactants.
+
+### ce7fbb9efe
+Q: Some bacteria cannot be cultured because they are obligate intracellular parasites and cannot be grown outside what?
+CORRECT: host cell
+INCORRECT: sponsor cell | anchor cell | brain cell
+ANSWER: cells.

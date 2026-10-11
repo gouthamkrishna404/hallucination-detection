@@ -1,0 +1,239 @@
+### eac874d07c
+Q: The two simplest models of population growth use what to describe the rate of change in the size of a population over time?
+CORRECT: deterministic equations
+INCORRECT: predestination equations | analogous equations | wave function
+ANSWER: The two simplest models of population growth use the exponential growth model to describe the rate of change in the size of a population over time. The exponential growth model is represented by the equation P(t) = P0 * e^(kt), where P(t) is the population size at time t, P0 is the initial
+
+### 07ba60660d
+Q: Dynamite is an example of what type of potential energy?
+CORRECT: chemical
+INCORRECT: carbon | mineral | thermal
+ANSWER: Dynamite is an example of gravitational potential energy.
+
+### 88549865a6
+Q: Cysteine is a type of what fundamental building block of protein?
+CORRECT: amino acid
+INCORRECT: atoms acid | proteins acid | salts acid
+ANSWER: Cysteine is a type of amino acid, specifically a sulfur-containing amino acid, which is a fundamental building block of protein.
+
+### 575a82c34c
+Q: What break down dead organisms and other organic waste and release inorganic molecules back to the environment called?
+CORRECT: decomposers
+INCORRECT: detritivores | nematodes | carnivores
+ANSWER: The process of breaking down dead organisms and other organic waste and releasing inorganic molecules back to the environment is called decomposition.
+
+### a19140f8ec
+Q: The tissue that will become the scrotum in a male becomes the labia in a female, thus, they are regarded as having what relationship?
+CORRECT: homologous
+INCORRECT: opposite | symbiotic | mutual
+ANSWER: The tissue that will become the scrotum in a male becomes the labia majora in a female, thus, they are regarded as having a similar relationship, but more specifically, they are considered to be homologous structures, meaning they are anatomically similar but not necessarily functionally equivalent.
+
+### 0b5c95d7a4
+Q: How many mass extinctions have occurred throughout earth's history?
+CORRECT: five
+INCORRECT: six | four | three
+ANSWER: There have been at least three major mass extinctions throughout Earth's history: the Ordovician-Silurian extinction event, the Late Devonian extinction event, and the Cretaceous-Paleogene extinction event, with the most recent one being the K-Pg extinction event.
+
+### f3366ee4a7
+Q: What color is phosphate mineral turquoise?
+CORRECT: blue
+INCORRECT: white | green | purple
+ANSWER: Turquoise is typically a blue-green color, often with a bluish tint.
+
+### 665729b4f3
+Q: Which type of tree is dominant in temperate forests?
+CORRECT: deciduous
+INCORRECT: vines | fungus | shrubs
+ANSWER: The dominant tree species in temperate forests is typically Quercus robur (English oak) or Quercus alba (White oak), with other species such as Pinus sylvestris (Scots pine) and Fagus sylvatica (European beech) also being common. However, the exact
+
+### f5505ea46b
+Q: Proto-oncogenes can change into oncogenes that cause what?
+CORRECT: cancer
+INCORRECT: Infections | DNA | Mutations
+ANSWER: Proto-oncogenes can change into oncogenes that cause uncontrolled cell growth and tumor formation. Specifically, they can become mutated to activate the Ras or Myc pathways, leading to uncontrolled cell proliferation and cancer.
+
+### f4497fe245
+Q: What happens to energy when work is done by a system?
+CORRECT: removed
+INCORRECT: stored | added | multiplied
+ANSWER: When work is done by a system, energy is transferred from the system to its surroundings, resulting in a decrease in the system's internal energy. This is known as the first law of thermodynamics, which states that the total energy of an isolated system remains constant, but the energy can be transferred from the system to its
+
+### 76c437ee4b
+Q: The relationship between a nucleotide codon and its corresponding amino acid is called what?
+CORRECT: genetic code
+INCORRECT: rna | dna | protein
+ANSWER: The relationship between a nucleotide codon and its corresponding amino acid is called a codon.
+
+### d479cfd3f3
+Q: Assume a molecule must cross the plasma membrane into what?
+CORRECT: cell
+INCORRECT: circle | shell | atom
+ANSWER: A molecule must cross the plasma membrane into the cytosol.
+
+### cc88408a22
+Q: What indicates horizontal distance and are also found on the map legend?
+CORRECT: scales
+INCORRECT: spikes | edges | variations
+ANSWER: Horizontal distance is typically indicated by a scale or a grid line on a map, which is usually marked with a unit of measurement such as inches, centimeters, or kilometers.
+
+### ce16a30509
+Q: Radioactive nuclei and particles are represented by which symbols?
+CORRECT: nuclear
+INCORRECT: energy | greek | compound
+ANSWER: Radioactive nuclei and particles are represented by the symbols A (atomic number) and Z (atomic mass number).
+
+### 3a6ad4aaa8
+Q: What system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex?
+CORRECT: vestibular system
+INCORRECT: vasculature system | ventrical system | lipids system
+ANSWER: The system that enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex is the autonomic nervous system, specifically the sympathetic nervous system.
+
+### 3e9f66bd10
+Q: The three units of kpa, atm or mmhg commonly measure what?
+CORRECT: pressure
+INCORRECT: resistance | weight | energy
+ANSWER: The three units of pressure commonly measured are: kilopascals (kPa), atmospheres (atm), and millimeters of mercury (mmHg).
+
+### 7eab92d760
+Q: What provides clear evidence of evolution?
+CORRECT: fossils
+INCORRECT: biologists | extinction | mutations
+ANSWER: Fossil records, particularly those of transitional forms between different species, provide clear evidence of evolution. The discovery of transitional fossils such as Tiktaalik, which shows a mix of fish and tetrapod characteristics, and Archaeopteryx, which combines reptilian and avian features, demonstrate the gradual changes that occur
+
+### 2eccb09fc9
+Q: The muscular layer is much thicker in which ventricle of the heart?
+CORRECT: left
+INCORRECT: middle | upper | right
+ANSWER: The muscular layer is much thicker in the right ventricle of the heart.
+
+### f275083d6a
+Q: What do you call nutrients that your body needs in fairly large amounts?
+CORRECT: macronutrients
+INCORRECT: B-complex | super foods | antioxidants
+ANSWER: Macronutrients are the nutrients that your body needs in fairly large amounts. They include carbohydrates, proteins, and fats.
+
+### e5b72664e0
+Q: What are used to indicate the number of atoms of an element that are in the compound?
+CORRECT: prefixes
+INCORRECT: indices | suffixes | digits
+ANSWER: The number of atoms of an element that are in the compound is indicated by the symbol of the element in parentheses at the end of the compound formula, such as in the case of sodium chloride (NaCl).
+
+### 0c8a96dbc3
+Q: What is the process by which plants make the simple sugar glucose from carbon dioxide and water is called?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | metamorphosis | osmosis
+ANSWER: The process by which plants make the simple sugar glucose from carbon dioxide and water is called photosynthesis.
+
+### a6e7e1b750
+Q: What is the membrane lining the back of the eye called?
+CORRECT: retina
+INCORRECT: lens | cornea | aperture
+ANSWER: The membrane lining the back of the eye is called the retinal pigment epithelium (RPE).
+
+### 2e2012d910
+Q: Plant-like protists contains chloroplasts and make food by what process?
+CORRECT: photosynthesis
+INCORRECT: digestion | chemical processes | farming
+ANSWER: Plant-like protists, such as green algae and some types of fungi, contain chloroplasts and make food by photosynthesis, a process in which they convert light energy from the sun into chemical energy in the form of glucose.
+
+### 223568943b
+Q: While elements are represented by chemical symbols, chemical formulas represent what?
+CORRECT: compounds
+INCORRECT: extracts | pollutants | solutions
+ANSWER: Chemical formulas represent the actual chemical structure of a molecule, showing the arrangement of atoms in space.
+
+### 33f7caa209
+Q: The stored chemical energy of trees and other plants is called what?
+CORRECT: biomass energy
+INCORRECT: decomposition energy | biocomposte energy | byproduct energy
+ANSWER: The stored chemical energy of trees and other plants is called cellulose.
+
+### 75997fb77f
+Q: Animals breath in air in order to obtain what element?
+CORRECT: oxygen
+INCORRECT: water | nitrogen | carbon
+ANSWER: Animals breathe in air to obtain oxygen, which is an essential element for their survival.
+
+### 625437e5c5
+Q: What are tiny hairs that line the bronchi called?
+CORRECT: cilia
+INCORRECT: antennae | alveoli | flagella
+ANSWER: The tiny hairs that line the bronchi are called cilia.
+
+### 9609d11d12
+Q: What system provides a major route for heat flow between the interior and exterior of the body?
+CORRECT: the circulatory system
+INCORRECT: excretory system | nervous system | respiratory system
+ANSWER: The system that provides a major route for heat flow between the interior and exterior of the body is the circulatory system, specifically the cardiovascular system, which includes the heart, blood vessels, and blood. The heart acts as a pump, circulating blood throughout the body, allowing heat to be transferred from the core to the extrem
+
+### 6d577fcab2
+Q: What process is used for cell growth, repair of cuts and replacement of worn out cells?
+CORRECT: cell division
+INCORRECT: reproduction | binary fission | pollination
+ANSWER: The process used for cell growth, repair of cuts, and replacement of worn out cells is called cell division, specifically mitosis, which involves the duplication of DNA, separation of chromosomes, and cytokinesis to form two daughter cells.
+
+### b3b59112b9
+Q: What are the simplest organic compounds?
+CORRECT: hydrocarbons
+INCORRECT: proteins | enzymes | carbohydrates
+ANSWER: The simplest organic compounds are typically those with only one or two carbon atoms, such as methane (CH4), ethane (C2H6), and propane (C3H8).
+
+### 3fd0b36105
+Q: Compounds that are capable of accepting electrons, such as o 2 or f2, are called what?
+CORRECT: oxidants
+INCORRECT: antioxidants | Oxygen | residues
+ANSWER: The compounds that are capable of accepting electrons, such as O2 or F2, are called Lewis acids.
+
+### f8f6994d04
+Q: How many openings do adult tunicates have that siphon water in and out of the body?
+CORRECT: two
+INCORRECT: three | four | one
+ANSWER: Adult tunicates have 12 openings that siphon water in and out of their body.
+
+### 1b5038d50d
+Q: Vascular plants all have roots, stems, and what?
+CORRECT: leaves
+INCORRECT: beans | flowers | fruits
+ANSWER: Vascular plants all have roots, stems, and leaves.
+
+### 1e6c44d47b
+Q: No charge is actually created or destroyed when charges are separated as we have been discussing. rather, existing charges are moved about. in fact, in all situations the total amount of charge is always this?
+CORRECT: constant
+INCORRECT: more | smaller | less
+ANSWER: The total amount of charge remains constant in all situations, regardless of whether charges are created or destroyed. This is because charge is conserved in the physical world, meaning that the total amount of charge in a closed system remains the same over time.
+
+### cdcf25c749
+Q: What causes the wheels of the car to turn?
+CORRECT: turning driveshaft
+INCORRECT: Wheel Line | once driveshaft | Gear Shift
+ANSWER: The wheels of a car turn due to the interaction between the engine's crankshaft and the transmission's gears, which convert the rotational energy of the engine into the linear motion of the wheels. This process is facilitated by the transmission's planetary gearset, which uses a set of interconnected gears to transmit power from the engine to
+
+### 7ff3e134c8
+Q: What is the term for the total kinetic energy of moving particles of matter?
+CORRECT: thermal energy
+INCORRECT: heavy energy | mechanical energy | Newton's energy
+ANSWER: The term for the total kinetic energy of moving particles of matter is "internal energy."
+
+### bb132a8ae7
+Q: What record provides evidence that new species develop to fill the habitats where old species lived following a mass extinction?
+CORRECT: fossil record
+INCORRECT: fossil fuels | erosion record | climate record
+ANSWER: The record that provides evidence of new species developing to fill the habitats where old species lived following a mass extinction is the discovery of the Coelacanth (Latimeria chalumnae) in 1938, which was found in the deep waters of the Indian Ocean, and the discovery of the Coel
+
+### a62f51788e
+Q: What occurs when competing species evolve different adaptations?
+CORRECT: specialization
+INCORRECT: evolution | urbanization | Rate Adaption
+ANSWER: When competing species evolve different adaptations, it often leads to a process called "convergent evolution," where each species develops a similar trait in response to similar environmental pressures, resulting in distinct but similar characteristics. This can lead to the coexistence of different species in the same ecosystem, with each species occupying a unique ecological niche
+
+### 628012753d
+Q: Hypersection by an endocrine gland is often caused by what?
+CORRECT: tumor
+INCORRECT: calcium | inflammation | viruses
+ANSWER: Hypersection by an endocrine gland is often caused by a tumor, specifically a neuroendocrine tumor, that secretes excessive amounts of hormones, leading to excessive growth and constriction of the affected gland.
+
+### 62ae4a97d7
+Q: What is the female reproductive structure of a flower?
+CORRECT: the pistil
+INCORRECT: the stamen | the seed | the flower
+ANSWER: The female reproductive structure of a flower is the pistil, which consists of the stigma, style, and ovary. The stigma is the sticky surface at the top of the pistil that catches pollen grains, the style is the narrow tube that connects the stigma to the ovary, and the ovary is the base

@@ -1,0 +1,243 @@
+### 6c53ebeccf
+Q: What do you call the study of how organisms interact with their environment and each other?
+CORRECT: ecology
+INCORRECT: biology | biochemistry | climatology
+ANSWER: The study of how organisms interact with their environment and each other is called Ecology.
+
+### 878389a7df
+Q: Do most waves strike the shore head on or at an angle?
+CORRECT: at an angle
+INCORRECT: side on | head on | at a distance
+ANSWER: Most waves strike the shore head-on, with the leading edge of the wave approaching the shore at a relatively straight line. However, the exact angle of incidence can vary depending on the size and shape of the wave, as well as the angle of the shore.
+
+### 74b17ab3c3
+Q: What term is used to describe the development of new technology?
+CORRECT: technological design
+INCORRECT: mechanical engineering | technological expansion | industrial design
+ANSWER: The term used to describe the development of new technology is "innovation".
+
+### 0e711072a3
+Q: What occurs not only as organisms grow, but as they reproduce.
+CORRECT: cell division
+INCORRECT: proteins division | experimental division | flight division
+ANSWER: The process you are referring to is called "apoptosis" or programmed cell death, but more specifically, it is the process of "apoptosis of somatic cells" or "programmed cell death of somatic cells" that occurs during reproduction, particularly in the context of cell division and tissue regeneration.
+
+### aefa7065de
+Q: Hertz proved that what type of waves travel at the speed of light?
+CORRECT: electromagnetic
+INCORRECT: sound | seismic | tsunamis
+ANSWER: I am unsure about the specific type of waves that Hertz proved travel at the speed of light.
+
+### 2da8db68c0
+Q: How does increasing the temperature of reactants affect the rate of their reaction?
+CORRECT: it increases it
+INCORRECT: it patterns it | it is unchanged | it decreases it
+ANSWER: Increasing the temperature of reactants generally increases the rate of their reaction, as higher temperatures provide more energy for the reactant molecules to collide and react. This is because the increased kinetic energy of the reactant molecules allows them to overcome the activation energy barrier more easily, resulting in a faster reaction rate.
+
+### e3e9e53acf
+Q: What is the mechanism by which favorable traits become more common in organisms over the course of generations?
+CORRECT: natural selection
+INCORRECT: evolution | environmental selection | birth
+ANSWER: The mechanism by which favorable traits become more common in organisms over the course of generations is through the process of natural selection, where individuals with favorable traits are more likely to survive, reproduce, and pass on their advantageous characteristics to their offspring, thereby increasing their representation in the population. This is often facilitated by genetic variation, mutation
+
+### ceaa7827cf
+Q: The small, rocky bodies that orbit the sun are called what?
+CORRECT: asteroids
+INCORRECT: comets | meteorites | fossils
+ANSWER: The small, rocky bodies that orbit the sun are called planets.
+
+### c710f54fd6
+Q: What are people with osteoporosis at increased risk of?
+CORRECT: bone fractures
+INCORRECT: epilepsy | senility | growth spurt
+ANSWER: People with osteoporosis are at increased risk of fractures, particularly in the hips, spine, and wrists. Additionally, they may also be at increased risk of falls and related injuries, as well as other complications such as bone pain and limited mobility.
+
+### 4d1999e6b2
+Q: What type of particle collides with an atom of u-235 during the basic nuclear fission process?
+CORRECT: a neutron
+INCORRECT: an electron | a nuclei | a proton
+ANSWER: The type of particle that collides with an atom of U-235 during the basic nuclear fission process is a neutron.
+
+### c762224f94
+Q: What system of the body is responsible for transmitting, processing, and responding to most of the sensory information that is created by various stimuli?
+CORRECT: nervous system
+INCORRECT: respiratory system | circulatory system | attentive system
+ANSWER: The system of the body responsible for transmitting, processing, and responding to most of the sensory information is the Nervous System, specifically the Central Nervous System (CNS), which includes the brain and spinal cord. The CNS acts as a relay station for sensory information, allowing the body to interpret and respond to
+
+### ba18fef042
+Q: There are 20 different common amino acids needed to make what organic compound?
+CORRECT: proteins
+INCORRECT: lipids | nutron | cells
+ANSWER: The organic compound you are likely thinking of is proteins. Proteins are made up of amino acids, and there are 20 different amino acids that can be combined in various ways to form proteins.
+
+### 7f0d9274be
+Q: How did the first seed plants form seeds?
+CORRECT: in cones
+INCORRECT: in leaves | in folds | in stems
+ANSWER: The first seed plants, such as ferns and mosses, are thought to have formed through a process called "endosperm formation," where a spore germinates and develops into a seed. This process is believed to have occurred around 470 million years ago during the Ordovician period, when the first
+
+### bdd274e234
+Q: How many viruses that can cause cancer in humans have been identified by scientists?
+CORRECT: 6
+INCORRECT: 4 | 3 | 1
+ANSWER: Scientists have identified several viruses that can cause cancer in humans, including:
+
+1. Human Papillomavirus (HPV) - which is associated with cervical cancer, anal cancer, and other anogenital cancers.
+2. Hepatitis B virus (HBV) - which is linked to liver cancer.
+3. Hep
+
+### 335ce43aa5
+Q: What part of the neuron is a large structure with a central nucleus?
+CORRECT: cell body
+INCORRECT: proteins body | Eye body | Environmental
+ANSWER: The large structure with a central nucleus in a neuron is called a dendrite.
+
+### c0e0260b49
+Q: The lens focuses light on the retina , which covers the back of the inside of the eye. the retina has light-sensing photoreceptor cells called?
+CORRECT: rods and cones
+INCORRECT: cones and tubes | holes and cones | tubes and rods
+ANSWER: The retina has light-sensing photoreceptor cells called rods and cones. Rods are more numerous and sensitive to low light levels, while cones are responsible for color vision and are more concentrated in the central part of the retina.
+
+### 93e08dfe8f
+Q: What cycle is part of cellular respiration and makes atp and naph?
+CORRECT: krebs
+INCORRECT: vireos | water cycle | carbon cycle
+ANSWER: The cycle you are referring to is the Calvin cycle, which is part of cellular respiration and produces ATP (adenosine triphosphate) and NADPH (nicotinamide adenine dinucleotide phosphate).
+
+### 288956b473
+Q: Which kind of muscle regulates air flow in lungs?
+CORRECT: smooth
+INCORRECT: vascular | striated | alveoli
+ANSWER: The diaphragm is the muscle that regulates air flow in the lungs. It is a dome-shaped muscle that separates the chest cavity from the abdominal cavity and contracts and relaxes to help expand and deflate the lungs.
+
+### 13a8879371
+Q: Competition that occurs between members of the same species, which improves the species’ adaptations, is called what?
+CORRECT: intraspecific competition
+INCORRECT: interspecies competition | commensalism | adaptive behavior
+ANSWER: The answer is "convergent evolution."
+
+### 10b913e89e
+Q: In the case of the moose, predation is an additional factor that regulates what?
+CORRECT: population
+INCORRECT: speed | color | weight
+ANSWER: In the case of the moose, predation is an additional factor that regulates the moose's population growth. Moose are preyed upon by predators such as wolves, bears, and mountain lions, which helps to regulate their population size and maintain a balance in their ecosystem.
+
+### 1d2a0db128
+Q: By the year 2050, 25 percent of the population of the united states will be 60 years of age or older. the cdc estimates that 80 percent of those 60 years and older have one or more chronic disease associated with deficiencies of this?
+CORRECT: immune system
+INCORRECT: respiratory system | cardiovascular system | blood vessels
+ANSWER: The CDC estimates that 80% of those 60 years and older have one or more chronic diseases associated with deficiencies of vitamin D, as vitamin D deficiency is a common cause of osteoporosis, osteopenia, and other chronic conditions in this age group.
+
+### e29c1c73fa
+Q: Breathing involves differences in what, measured in torr, between the inside of the lungs and the air outside?
+CORRECT: pressure
+INCORRECT: temperature | gravity | resistance
+ANSWER: The inside of the lungs and the air outside differ by approximately 4 torr.
+
+### 50368e8446
+Q: What makes marginal lands unsuitable for farming?
+CORRECT: drought
+INCORRECT: flood | pestilence | disease
+ANSWER: Marginal lands are unsuitable for farming due to their low productivity, high erosion risk, and limited water availability, which can lead to soil degradation, reduced crop yields, and increased costs for irrigation and fertilizers. Additionally, marginal lands often have poor drainage, making it difficult to manage water and nutrients, and may be
+
+### 56492cebf3
+Q: The interaction between atomic orbitals is greatest when they have the same what?
+CORRECT: energy
+INCORRECT: temperature | mass | fuel
+ANSWER: The interaction between atomic orbitals is greatest when they have the same principal quantum number (n).
+
+### 7a5dbec640
+Q: What prevents new ovarian follicles from developing and suppresses uterine contractility?
+CORRECT: progesterone
+INCORRECT: germination | glucose | estrogen
+ANSWER: The primary factor preventing new ovarian follicles from developing and suppressing uterine contractility is estrogen. Estrogen, produced by the ovaries, plays a crucial role in maintaining the corpus luteum, which is necessary for follicular development and progesterone production, and also influences uterine contractility, making
+
+### 03edbca722
+Q: What process, which is in many ways the opposite of photosynthesis, shows the interdependence of producers and consumers?
+CORRECT: cellular respiration
+INCORRECT: primarily respiration | decomposition | osmosis
+ANSWER: The process that shows the interdependence of producers and consumers is respiration, which is the breakdown of glucose by oxygen in the presence of microorganisms, releasing carbon dioxide and water as byproducts. This process is the opposite of photosynthesis, as it involves the consumption of glucose by microorganisms rather than the production of glucose
+
+### 0182b20a32
+Q: What functions in removing phosphorylated amino acids from proteins?
+CORRECT: phosphatase
+INCORRECT: sucrose | carbonate | peptide
+ANSWER: Phosphatases are enzymes that remove phosphorylated amino acids from proteins, playing a crucial role in various cellular processes such as signal transduction, protein degradation, and cell cycle regulation.
+
+### a5ccb97cdc
+Q: What do you call the basic units of the structure and function of living things?
+CORRECT: cells
+INCORRECT: molecules | enzymes | proteins
+ANSWER: The basic units of the structure and function of living things are called cells.
+
+### 9cdd2b5a2b
+Q: What are atoms with unstable nuclei are considered to be?
+CORRECT: radioactive
+INCORRECT: ions | unstable | destructive
+ANSWER: Atoms with unstable nuclei are considered to be radioactive.
+
+### bee2b95a10
+Q: What is one thing that cell membranes are permeable to?
+CORRECT: specific ions
+INCORRECT: nutrients | gas | metals
+ANSWER: Cell membranes are permeable to water. They allow water molecules to pass through, which is essential for maintaining the cell's internal environment and regulating various cellular processes.
+
+### 0defd96917
+Q: Most mammals are viviparous, which refers to what reproductive result?
+CORRECT: live birth
+INCORRECT: identical twins | spawning | laying eggs
+ANSWER: Viviparous refers to a reproductive method where the young develop inside the mother's body and are nourished by a yolk sac and then born alive.
+
+### 27e79dcd5e
+Q: What process takes place when plants release water vapor through pores in their leaves called stomata?
+CORRECT: transpiration
+INCORRECT: evaporation | expiration | propagation
+ANSWER: The process that takes place when plants release water vapor through pores in their leaves called stomata is known as transpiration. During transpiration, water is absorbed from the roots into the xylem, a type of vascular tissue, and then transported to the leaves through the phloem, where it is released into the
+
+### 2a8107d624
+Q: The components of a mixture keep their own identity when they combine, so they retain what type of properties, such as boiling point and ability to dissolve?
+CORRECT: physical
+INCORRECT: thermal | internal | thermal
+ANSWER: The components of a mixture retain their own identity when they combine, so they retain the properties of the individual components, such as boiling point and ability to dissolve.
+
+### aa4b08901a
+Q: About half of what type of radiation is absorbed in the first 15 meters of water?
+CORRECT: solar
+INCORRECT: surface | polar | natural
+ANSWER: About 50% of the radiation is absorbed in the first 15 meters of water.
+
+### d4787809d8
+Q: "incident" and "reflected" are two types of what?
+CORRECT: rays
+INCORRECT: cells | mirrors | collisions
+ANSWER: Incident and reflected are two types of "events".
+
+### c735130023
+Q: What phase does the nuclear envelope begin to break down?
+CORRECT: prophase i
+INCORRECT: nitrogenase i | pasiphaë i | interphase
+ANSWER: The nuclear envelope begins to break down in the Interphase (G1 phase) of the cell cycle, specifically during the transition from G1 to S phase.
+
+### d9e5ee6eab
+Q: What is a therian mammal in which the embryo is born at an early, immature stage?
+CORRECT: a marsupial
+INCORRECT: rodent | bat | carnivore
+ANSWER: A therian mammal in which the embryo is born at an early, immature stage is the platypus.
+
+### 51efc49a47
+Q: Most modern seed plants are angiosperms, which produce seeds in the ovaries of what basic structure?
+CORRECT: flowers
+INCORRECT: stems | cells | leaves
+ANSWER: Most modern seed plants are angiosperms, which produce seeds in the ovary of a fruit.
+
+### bec6b84f14
+Q: What are plants that grow on other plants called?
+CORRECT: epiphytes
+INCORRECT: fungi | parasites | bryophytes
+ANSWER: Plants that grow on other plants are called epiphytes. Examples of epiphytes include orchids, bromeliads, and ferns that grow on trees or other plants without harming them.
+
+### bfd0acf50f
+Q: What term describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell?
+CORRECT: exocytosis
+INCORRECT: biosynthesis | plasmosis | endocytosis
+ANSWER: The term that describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell is "exocytosis".

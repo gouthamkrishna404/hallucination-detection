@@ -1,0 +1,239 @@
+### f93a1e02e3
+Q: How do multicellular organisms grow in size?
+CORRECT: increase size and number of cells
+INCORRECT: reduce size and number of cells | increase number of limbs | increase size and number of genes
+ANSWER: Multicellular organisms grow in size through cell division, where cells divide and produce new cells, allowing the organism to increase in size.
+
+### 6783da529e
+Q: Malonate plays what negative role on the enzyme succinate dehydrogenase?
+CORRECT: inhibitor
+INCORRECT: catalyst | pathway | receptor
+ANSWER: Malonate negatively affects the enzyme succinate dehydrogenase by inhibiting its activity.
+
+### 65decce890
+Q: Where does the energy produced by plants come from?
+CORRECT: sunlight
+INCORRECT: groundwater | animals | evaporation
+ANSWER: The energy produced by plants comes from the sun through a process called photosynthesis.
+
+### e0ccb17df9
+Q: Where do mushrooms get their energy?
+CORRECT: decomposing dead organisms
+INCORRECT: killing organisms | accumulating dead organisms | producing dead organisms
+ANSWER: Mushrooms obtain their energy from decomposing organic matter, such as dead plants and animals, through a process called saprotrophy.
+
+### 5e884d939f
+Q: What does the term decay in chemistry refer to with regards to atoms?
+CORRECT: changes in nuclei
+INCORRECT: pressures in nuclei | destruction of nuclei | separation of nuclei
+ANSWER: In chemistry, "decay" refers to the process by which an atom loses or gains electrons, resulting in a change in its atomic structure and potentially altering its chemical properties.
+
+### 4b2029be15
+Q: What is the name of the molecule which has one carbon and four hydrogen atoms?
+CORRECT: methane
+INCORRECT: carbohydrate | sulfur | carbon monoxide
+ANSWER: The name of the molecule with one carbon and four hydrogen atoms is methane.
+
+### 40b908b0dd
+Q: Competition that occurs between members of the same species, which improves the species’ adaptations, is called what?
+CORRECT: intraspecific competition
+INCORRECT: interspecies competition | commensalism | adaptive behavior
+ANSWER: Competition between members of the same species, which improves their adaptations, is called interspecies competition.
+
+### 4788a8bcce
+Q: What is citrate an ionized form of?
+CORRECT: citric acid
+INCORRECT: carbonic acid | protein | hydrochloric acid
+ANSWER: Citrate is an ionized form of citric acid.
+
+### 0eaef5fda9
+Q: Where fossils of the genus eomaia found?
+CORRECT: china
+INCORRECT: Japan | Egypt | India
+ANSWER: Fossils of the genus Eomaia were found in the early Eocene epoch in China.
+
+### f6ce5842f4
+Q: What term is used to describe organic compounds such as sugars and starches?
+CORRECT: carbohydrates
+INCORRECT: fats | proteins | vegetables
+ANSWER: The term used to describe organic compounds such as sugars and starches is "polymers."
+
+### 5362deeb3f
+Q: What kind of weather can you expect if a center of low pressure is moving your way?
+CORRECT: stormy
+INCORRECT: rain | rough | sunny
+ANSWER: If a center of low pressure is moving towards you, you can expect fair to partly cloudy skies, light winds, and a temperature range of 50-65°F (10-18°C).
+
+### f459eb2aae
+Q: Illustrating how form follows function, long, slender protein strands that make up what tissue are essential for contracting and relaxing?
+CORRECT: muscle
+INCORRECT: tendons | veins | ligaments
+ANSWER: The long, slender protein strands that make up muscle tissue are essential for contracting and relaxing.
+
+### 690d797fe0
+Q: Most mammals are viviparous, which refers to what reproductive result?
+CORRECT: live birth
+INCORRECT: identical twins | spawning | laying eggs
+ANSWER: Most mammals are viviparous, meaning they give birth to live young instead of laying eggs.
+
+### 1e787a253e
+Q: The interaction between atomic orbitals is greatest when they have the same what?
+CORRECT: energy
+INCORRECT: temperature | mass | fuel
+ANSWER: The interaction between atomic orbitals is greatest when they have the same energy.
+
+### 759c893fd6
+Q: Reacting with metal is one thing that distinguishes acids from what?
+CORRECT: bases
+INCORRECT: metals | minerals | protiens
+ANSWER: Reacting with metal is one distinguishing feature of acids, as opposed to bases.
+
+### 92319f40b4
+Q: The amniotic egg is a shared ancestral character for which clade?
+CORRECT: amniota
+INCORRECT: trichina | xerophyte | avian
+ANSWER: The amniotic egg is a shared ancestral character for the clade known as the Amniota.
+
+### efcd17d77e
+Q: What are atoms with unstable nuclei are considered to be?
+CORRECT: radioactive
+INCORRECT: ions | unstable | destructive
+ANSWER: Atoms with unstable nuclei are considered radioactive.
+
+### f45d515708
+Q: What are chromosomes made of?
+CORRECT: dna and proteins
+INCORRECT: amino acids | sperm and proteins | muscle tissue
+ANSWER: Chromosomes are made up of DNA and proteins.
+
+### 51372972eb
+Q: What are located along convergent and divergent plate boundaries?
+CORRECT: volcanoes
+INCORRECT: mezas | megaliths | dunes
+ANSWER: Along convergent plate boundaries, mountain ranges and volcanoes are formed, while along divergent plate boundaries, mid-ocean ridges and rift valleys are formed.
+
+### cd2b7b7719
+Q: Most modern seed plants are angiosperms, which produce seeds in the ovaries of what basic structure?
+CORRECT: flowers
+INCORRECT: stems | cells | leaves
+ANSWER: Most modern seed plants are angiosperms, which produce seeds in the ovaries of a flower.
+
+### 40f3dacf01
+Q: What are people with osteoporosis at increased risk of?
+CORRECT: bone fractures
+INCORRECT: epilepsy | senility | growth spurt
+ANSWER: People with osteoporosis are at increased risk of bone fractures, particularly in the hips, spine, and wrists.
+
+### 5be1dc6fc0
+Q: Biological features from a common evolutionary origin are known as what?
+CORRECT: homologous
+INCORRECT: monologous | heterologous | analogous
+ANSWER: Biological features from a common evolutionary origin are known as homologies.
+
+### 8e4b158b64
+Q: What blood-carrying structures contain one-way valves that contribute to the return of blood to the heart?
+CORRECT: veins
+INCORRECT: glands | clots | brains
+ANSWER: The blood-carrying structures that contain one-way valves that contribute to the return of blood to the heart are veins.
+
+### ae3824e93d
+Q: Lyme disease is caused by what kind of organim?
+CORRECT: bacteria
+INCORRECT: Virus | bacterium | algae
+ANSWER: Lyme disease is caused by a type of tick-borne bacteria called Borrelia burgdorferi.
+
+### ec16d41e58
+Q: When a nerve impulse reaches the end of an axon, what are the chemicals released by the axon called?
+CORRECT: neurotransmitters
+INCORRECT: neurons | electrolytes | receptors
+ANSWER: When a nerve impulse reaches the end of an axon, the chemicals released are called neurotransmitters.
+
+### db7409550a
+Q: Organs involved in digestion that do not have food pass through them are called?
+CORRECT: accessory organs
+INCORRECT: vestigial organs | layer organs | bypass organs
+ANSWER: The organs involved in digestion that do not have food passing through them are called accessory organs.
+
+### 01d8dcda30
+Q: The overall voltage of the battery is therefore the sum of ________ of the individual cells.
+CORRECT: voltages
+INCORRECT: currents | resistances | weights
+ANSWER: The overall voltage of the battery is the sum of the voltages of the individual cells.
+
+### 4194143540
+Q: Which kind of muscle regulates air flow in lungs?
+CORRECT: smooth
+INCORRECT: vascular | striated | alveoli
+ANSWER: The diaphragm, a dome-shaped muscle, regulates air flow in the lungs.
+
+### f016fe4c44
+Q: What do ecologists study at every level?
+CORRECT: ecosystems
+INCORRECT: taxonomy | solar system | plants
+ANSWER: Ecologeists study the interactions between organisms and their environment at every level, including the local, regional, and global scales.
+
+### 9e34c7c154
+Q: A thermite reaction is thermodynamically spontaneous, and because it is associated with a significant release of heat, it is regarded as what?
+CORRECT: exothermic
+INCORRECT: biochemical | endotropic | endothermic
+ANSWER: A thermite reaction is thermodynamically spontaneous and associated with a significant release of heat, making it regarded as exothermic.
+
+### ece743ae97
+Q: What form of reproduction creates offspring that are genetically identical to the parent?
+CORRECT: asexual
+INCORRECT: microscopic | primitive | sexual
+ANSWER: The form of reproduction that creates offspring that are genetically identical to the parent is asexual reproduction.
+
+### df4c8e9567
+Q: What term is used to describe  is the spontaneous emission of particles and radiation from atomic nuclei?
+CORRECT: radioactivity
+INCORRECT: intensity | vibration | microscopic
+ANSWER: The term used to describe the spontaneous emission of particles and radiation from atomic nuclei is "radioactivity."
+
+### 8523b34b61
+Q: What term is used to describe the development of new technology?
+CORRECT: technological design
+INCORRECT: mechanical engineering | technological expansion | industrial design
+ANSWER: The term used to describe the development of new technology is technological innovation.
+
+### 0ee649f32f
+Q: What is the middle layer of connective tissue called?
+CORRECT: perimysium
+INCORRECT: tendon | xerophyte | pollenation
+ANSWER: The middle layer of connective tissue is called the stroma.
+
+### d5a45fc665
+Q: The male gametophyte releases what, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg?
+CORRECT: sperm
+INCORRECT: cytoplasm | tadpoles | dna
+ANSWER: The male gametophyte releases sperm, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg.
+
+### 5577b83498
+Q: What is the measurement of something along it's greatest dimension called?
+CORRECT: length
+INCORRECT: stretch | stretch | height
+ANSWER: The measurement of something along its greatest dimension is called its "length."
+
+### 3486fa29e2
+Q: What functions in removing phosphorylated amino acids from proteins?
+CORRECT: phosphatase
+INCORRECT: sucrose | carbonate | peptide
+ANSWER: The functions of removing phosphorylated amino acids from proteins include regulating cellular processes, maintaining protein stability, and preventing protein aggregation.
+
+### cf1f60d459
+Q: Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?
+CORRECT: abiotic factors
+INCORRECT: nucleic factors | conditional factors | diverse factors
+ANSWER: Nonliving factors of an ecosystem are referred to as biotic and abiotic factors.
+
+### ab5a0d0f32
+Q: What geologic era is also known as the age of mammals?
+CORRECT: cenozoic era
+INCORRECT: mesozoic era | paleozoic era | cretaceous period
+ANSWER: The geologic era known as the Age of Mammals is also referred to as the Cenozoic Era.
+
+### 7ef58f2939
+Q: The right and left hip bones, with the addition of the sacrum and coccyx form what section of the skeleton?
+CORRECT: pelvis
+INCORRECT: necklash | tail bone | uterus
+ANSWER: The right and left hip bones, with the addition of the sacrum and coccyx, form the pelvis section of the skeleton.

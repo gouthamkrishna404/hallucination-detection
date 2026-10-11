@@ -1,0 +1,239 @@
+### 63de0221bf
+Q: By exploding what the space probes get separated from their launchers?
+CORRECT: bolts
+INCORRECT: frames | doors | walls
+ANSWER: Space probes are typically separated from their launchers using pyro (explosive) motors.
+
+### 2b8dbb9afd
+Q: What term in biotechnology means a genetically exact copy of an organism?
+CORRECT: clone
+INCORRECT: adult | male | phenotype
+ANSWER: Cloning.
+
+### 5a60d50659
+Q: What navigation technology works on the same principle as echolocation?
+CORRECT: sonar
+INCORRECT: radar | GPS | topography
+ANSWER: Sonar (Sound Navigation and Ranging) works on the same principle as echolocation.
+
+### 96fe388a50
+Q: In a solution what is the substance a solute dissolves in is called?
+CORRECT: solvent
+INCORRECT: particles | gas | atoms
+ANSWER: The substance a solute dissolves in is called the solvent.
+
+### c1a97ff2d1
+Q: What is the watery fluid that bathes tissues and organs and contains protective white blood cells but does not contain erythrocytes?
+CORRECT: lymph
+INCORRECT: stomach | basil | secretion
+ANSWER: The fluid that bathes tissues and organs and contains protective white blood cells but does not contain erythrocytes is called lymph.
+
+### 8c018f7a1a
+Q: What do concentric circles on a topographic map indicate?
+CORRECT: a hill
+INCORRECT: a forest | a lake | a crater
+ANSWER: Concentric circles on a topographic map indicate the different relief levels, from the center (highest point) to the outer circles (lower points).
+
+### e71c8e177b
+Q: How do very massive stars end their lives?
+CORRECT: become red supergiants
+INCORRECT: become super novas | explode | consumed by black hole
+ANSWER: Very massive stars end their lives through a process called supernova explosion, where they collapse under their own gravity and release an enormous amount of energy.
+
+### 705abb52fb
+Q: What development is less risky for the mother?
+CORRECT: marsupial
+INCORRECT: gastrointestinal | atypical | mutation
+ANSWER: Pregnancy is generally considered less risky for the mother than childbirth.
+
+### 7d2728561a
+Q: What type of reactions absorb heat from their surroundings?
+CORRECT: endothermic
+INCORRECT: geothermic | hypothermic | exothermic
+ANSWER: Endothermic reactions absorb heat from their surroundings.
+
+### d85870690c
+Q: What gland secretes growth hormones?
+CORRECT: pituitary
+INCORRECT: pineal | adrenal | thyroid
+ANSWER: The pituitary gland secretes growth hormones.
+
+### 2eee2a18e5
+Q: What neurons carry nerve impulses from sense organs and internal organs to the central nervous system?
+CORRECT: sensory
+INCORRECT: vascular | autonomic | axons
+ANSWER: The neurons that carry nerve impulses from sense organs and internal organs to the central nervous system are known as sensory neurons.
+
+### 23c455c747
+Q: What are endothermic tetrapod vertebrates most commonly called?
+CORRECT: birds
+INCORRECT: insects | reptiles | mammals
+ANSWER: Endothermic tetrapod vertebrates are most commonly called warm-blooded animals.
+
+### 042dac52ee
+Q: What patterns in trees can be used to determine its age?
+CORRECT: rings
+INCORRECT: bark ridges | colors | veins
+ANSWER: Tree rings, or annual growth layers, can be used to determine a tree's age.
+
+### 716116bedb
+Q: Both the forward reaction and the reverse reaction continue to occur, so chemical equilibrium is said to be what, rather than static?
+CORRECT: dynamic
+INCORRECT: abrasive | fluid | stable
+ANSWER: Chemical equilibrium is said to be dynamic rather than static.
+
+### e95c6f775a
+Q: What term describes the distance between two corresponding points on adjacent waves?
+CORRECT: wavelength
+INCORRECT: frequency | threshold | variation
+ANSWER: Wavelength.
+
+### 658877b137
+Q: In the grand canyon, the same rock layers are visible on opposite sides of the canyon and were deposited simultaneously, which is an example of what?
+CORRECT: lateral continuity
+INCORRECT: width continuity | bilateral continuity | directly continuity
+ANSWER: The same rock layers being visible on opposite sides of the Grand Canyon and deposited simultaneously is an example of lateral continuity.
+
+### d699d6045e
+Q: What percentage of the field is tilled in traditional plowing?
+CORRECT: 100%
+INCORRECT: 50 % | 60 % | 75%
+ANSWER: Traditional plowing typically covers about 90-95% of the field area.
+
+### 863b541563
+Q: What provides clear evidence of evolution?
+CORRECT: fossils
+INCORRECT: biologists | extinction | mutations
+ANSWER: Clear evidence of evolution includes fossil records, comparative anatomy, genetics, and the fossil record.
+
+### b691cbb11c
+Q: Proto-oncogenes can change into oncogenes that cause what?
+CORRECT: cancer
+INCORRECT: Infections | DNA | Mutations
+ANSWER: Proto-oncogenes can change into oncogenes that cause cancer.
+
+### db65e06cd3
+Q: What do we call a carbohydrate formed by two monosaccharides bonding together?
+CORRECT: disaccharide
+INCORRECT: Nitrate | olivine | calcite
+ANSWER: We call a carbohydrate formed by two monosaccharides bonding together a disaccharide.
+
+### 84cd9df885
+Q: What ingredient has been used in brewing, winemaking and baking for thousands of years?
+CORRECT: yeast
+INCORRECT: flour | fruit | oils
+ANSWER: Water has been used in brewing, winemaking, and baking for thousands of years.
+
+### 3fc34f2fd9
+Q: Spongy bone is found inside bones and is lighter and less dense than compact bone because it is what?
+CORRECT: porous
+INCORRECT: amorphous | pliable | fibrous
+ANSWER: Spongy bone is found inside bones and is lighter and less dense than compact bone because it is filled with air spaces.
+
+### b38e9138ff
+Q: The stored chemical energy of trees and other plants is called what?
+CORRECT: biomass energy
+INCORRECT: decomposition energy | biocomposte energy | byproduct energy
+ANSWER: The stored chemical energy of trees and other plants is called biomass.
+
+### 74b4386d67
+Q: Most of the energy used by living things comes either directly or indirectly from where?
+CORRECT: sun
+INCORRECT: water | horizon | earth
+ANSWER: Most of the energy used by living things comes either directly or indirectly from sunlight.
+
+### f04a597a04
+Q: What is the second largest class of elements?
+CORRECT: nonmetals
+INCORRECT: carbonates | silicates | metalloids
+ANSWER: The second largest class of elements is the noble gases.
+
+### 33f4481e6e
+Q: The process in which a gas changes to a liquid is called what?
+CORRECT: condensation
+INCORRECT: diffusion | fermentation | vaporing
+ANSWER: The process in which a gas changes to a liquid is called condensation.
+
+### 16492d0fd9
+Q: In humans, fertilization occurs soon after the oocyte leaves this?
+CORRECT: ovary
+INCORRECT: egg | placenta | testes
+ANSWER: The oocyte leaves the ovary.
+
+### 0dbf323512
+Q: What is the term for the total kinetic energy of moving particles of matter?
+CORRECT: thermal energy
+INCORRECT: heavy energy | mechanical energy | Newton's energy
+ANSWER: The term for the total kinetic energy of moving particles of matter is thermal energy.
+
+### ca2508074d
+Q: Which body system breaks down food and absorbs nutrients?
+CORRECT: digestive system
+INCORRECT: skeletal system | circulation system | hormonal system
+ANSWER: The digestive system breaks down food and absorbs nutrients.
+
+### e38c292d0e
+Q: Skeletal muscles are attached to the skeleton by tough connective tissues called what?
+CORRECT: tendons
+INCORRECT: fibers | veins | cords
+ANSWER: Skeletal muscles are attached to the skeleton by tough connective tissues called tendons.
+
+### 232df688be
+Q: Rupture can cause fragments of what to travel via the bloodstream and become lodged in other arteries?
+CORRECT: plaque
+INCORRECT: enamel | red blood cells | white blood cells
+ANSWER: Rupture can cause fragments of blood to travel via the bloodstream and become lodged in other arteries.
+
+### 9cc130c346
+Q: The behavior of ideal gases is explained by what theory of gases?
+CORRECT: kinetic molecular theory
+INCORRECT: molecular theory | Charles's Law | kinetic theory
+ANSWER: The behavior of ideal gases is explained by the kinetic theory of gases.
+
+### e48972eaff
+Q: What do metals start out as?
+CORRECT: ore
+INCORRECT: Metal molecules | aluminum | nickel
+ANSWER: Metals start out as elements in their pure form, typically found in their native state in nature.
+
+### fd29507957
+Q: How are the fetuses of eutherian mammals connected to their mothers during gestation?
+CORRECT: complex placenta
+INCORRECT: visual placenta | altered placenta | Movement Placenta
+ANSWER: Eutherian mammals, including humans, have a placenta that connects the fetus to the mother's uterus during gestation.
+
+### 51090a69ab
+Q: Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?
+CORRECT: skeletal muscle fibers
+INCORRECT: uplift muscle fibers | luminous muscle fibers | heart muscle fibers
+ANSWER: Myofibrils are long cylindrical structures that lie parallel to and run the entire length of muscle fibers.
+
+### de04e3d76d
+Q: While ecosystems need a constant input of energy for their organisms, what do ecosystems recycle?
+CORRECT: matter
+INCORRECT: water | light | food
+ANSWER: Ecosystems recycle nutrients.
+
+### 17408f9094
+Q: How does a neon light produce visible light?
+CORRECT: electroluminescence
+INCORRECT: luminescence | radiation | mitosis
+ANSWER: A neon light produces visible light by exciting neon atoms to higher energy states, causing them to emit light at specific wavelengths that correspond to the colors of the neon gas.
+
+### 82cacce45e
+Q: Yeasts, molds, and mushrooms are all different kinds of what?
+CORRECT: fungi
+INCORRECT: pollen | bacteria | fossil
+ANSWER: Yeasts, molds, and mushrooms are all different kinds of fungi.
+
+### 187d569527
+Q: Plant-like protists contains chloroplasts and make food by what process?
+CORRECT: photosynthesis
+INCORRECT: digestion | chemical processes | farming
+ANSWER: Plant-like protists contain chloroplasts and make food through photosynthesis.
+
+### ab26810090
+Q: How many calories of energy does one gram of protein provide?
+CORRECT: 4
+INCORRECT: 2 | 1 | 5
+ANSWER: One gram of protein provides approximately 4 calories of energy.

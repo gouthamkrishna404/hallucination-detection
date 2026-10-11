@@ -1,0 +1,239 @@
+### 672eca269d
+Q: Chemical reactions involve a transfer of heat energy. measured in what?
+CORRECT: joules
+INCORRECT: amps | amperes | thermals
+ANSWER: Chemical reactions involve a transfer of heat energy, which is measured in joules.
+
+### 67afec40c2
+Q: Prokaryotes can reproduce quickly by what?
+CORRECT: binary fission
+INCORRECT: multiple fission | solar fission | residual fission
+ANSWER: Prokaryotes can reproduce quickly by binary fission.
+
+### f9883a3ac3
+Q: The nucleus from a differentiated frog cell can direct development of what?
+CORRECT: tadpole
+INCORRECT: embryo | fetus | ovary
+ANSWER: The nucleus from a differentiated frog cell can direct the development of a complete frog.
+
+### fbd86d44a5
+Q: What is the name of the system that consists of a hierarchy of taxa, from the kingdom to the species?
+CORRECT: linnaean system
+INCORRECT: Bohr's law | Mendelian system | zoology
+ANSWER: The system you are referring to is called the Linnaean taxonomy.
+
+### 4512ae5b2c
+Q: What is written as systolic over diastolic?
+CORRECT: blood pressure
+INCORRECT: blood position | fractional pressure | brain pressure
+ANSWER: Blood pressure is typically written as systolic over diastolic.
+
+### c2bc4e7a4f
+Q: What is the term used to describe the minerals and vitamins that are not needed for providing the body with energy but are still essential for good health?
+CORRECT: micronutrients
+INCORRECT: salts | pigments | non-energetic nutrients
+ANSWER: The term used to describe these minerals and vitamins is "nutrients."
+
+### 2217220868
+Q: Groups of three bases form codons, and each codon stands for one what?
+CORRECT: amino acid
+INCORRECT: compound acid | minimal acid | sulferic acid
+ANSWER: Each codon stands for one amino acid.
+
+### dca5f212e5
+Q: Which  organs control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine?
+CORRECT: kidneys
+INCORRECT: lungs | tongue | ears
+ANSWER: The kidneys control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine.
+
+### 78bfee66f5
+Q: The strength of a base depends on the concentration of _______ it produces when dissolved in water?
+CORRECT: hydroxide ions
+INCORRECT: combustion ions | calcium ions | monoxide ions
+ANSWER: The strength of a base depends on the concentration of hydroxide ions (OH-) it produces when dissolved in water.
+
+### 9a00dcf537
+Q: What element is present in all organic molecules?
+CORRECT: carbon
+INCORRECT: oxygen | sodium | hydrogen
+ANSWER: Carbon is present in all organic molecules.
+
+### 20ddf2e8c6
+Q: Childbirth usually starts when which sac breaks?
+CORRECT: amniotic
+INCORRECT: umbilical | uterine | protein
+ANSWER: Childbirth usually starts when the amniotic sac breaks.
+
+### d02e4043d1
+Q: Many species of flowering plants have coevolved with specific what?
+CORRECT: pollinators
+INCORRECT: predators | climates | spores
+ANSWER: Many species of flowering plants have coevolved with specific pollinators.
+
+### 3e8cf897fa
+Q: What theory states that all matter consists of constantly moving particles?
+CORRECT: kinetic theory of matter
+INCORRECT: inertia theory | conservtion of matter | Big Bang theory
+ANSWER: The theory that all matter consists of constantly moving particles is known as the kinetic theory.
+
+### 0007c44d7b
+Q: How can you prevent diseases such as whooping cough and flu?
+CORRECT: preventive vaccinations
+INCORRECT: nutrition | exercise | vacuuming
+ANSWER: To prevent diseases like whooping cough and flu, it's important to get vaccinated, wash hands frequently, avoid close contact with sick individuals, and maintain good overall health.
+
+### 14946bf578
+Q: What adaptation helps prey hide and predators sneak up on prey?
+CORRECT: camouflage
+INCORRECT: scent | claws | variation
+ANSWER: Camouflage helps prey hide and predators sneak up on prey.
+
+### 3bbd77c39c
+Q: A fuel cell is a galvanic cell that requires a constant external supply of what?
+CORRECT: reactants
+INCORRECT: generators | electricity | complexes
+ANSWER: A fuel cell is a galvanic cell that requires a constant external supply of fuel.
+
+### ce739be6e2
+Q: Besides ingesting and photosynthesis how can protists get their food?
+CORRECT: absorption
+INCORRECT: digestion | accumulation | osmosis
+ANSWER: Protists can also obtain food through ingestion and photosynthesis.
+
+### 857979e58e
+Q: A skydiver will reach what when the air drag equals their weight?
+CORRECT: terminal velocity
+INCORRECT: constant velocity | building velocity | ending velocity
+ANSWER: A skydiver will reach terminal velocity when the air drag equals their weight.
+
+### 241fb0caf7
+Q: What is the protein in red blood cells which transports oxygen around the body?
+CORRECT: hemoglobin
+INCORRECT: plasma | hydrogen | hematocrit
+ANSWER: The protein in red blood cells that transports oxygen around the body is hemoglobin.
+
+### 2d458ddf05
+Q: What is stored mainly in liver and muscle cells by humans and other vertebrates?
+CORRECT: glycogen
+INCORRECT: glucose | protein | amylopectin
+ANSWER: Glucose is stored mainly in liver and muscle cells by humans and other vertebrates.
+
+### ad960c4f74
+Q: Approximately 20% of the atmosphere is made of which element?
+CORRECT: oxygen
+INCORRECT: hydrogen | carbon | nitrogen
+ANSWER: Approximately 20% of the atmosphere is made of nitrogen.
+
+### 4b99529577
+Q: What is the star nearest the earth named?
+CORRECT: proxima centauri
+INCORRECT: apollinaris centauri | andromeda centauri | alpha centauri
+ANSWER: The star nearest to Earth is called Proxima Centauri.
+
+### a133572dc5
+Q: What do you call materials able to conduct electricity with 100% efficiency, meaning that no energy is lost during the electrical transmission?
+CORRECT: superconductors
+INCORRECT: poor conductors | electromagnets | super-insulators
+ANSWER: Superconductors are materials that can conduct electricity with 100% efficiency, meaning no energy is lost during transmission.
+
+### 6b7a49396e
+Q: What do you call a quantity of motion that has both size as well as direction?
+CORRECT: vector
+INCORRECT: wave | vibration | speed
+ANSWER: A quantity of motion that has both size and direction is called momentum.
+
+### 74580b55d4
+Q: Traits may also be controlled by multiple alleles or multiple what?
+CORRECT: genes
+INCORRECT: chromosomes | lesions | eggs
+ANSWER: Traits may also be controlled by multiple alleles or multiple genes.
+
+### 234e746671
+Q: In what form is atmospheric sulfur found?
+CORRECT: sulfur dioxide (so2)
+INCORRECT: formaldehyde | sulfuric acid | sulfur monoxide
+ANSWER: Atmospheric sulfur is found in the form of sulfur dioxide (SO2).
+
+### e3a3277730
+Q: What are thought to have evolved at least 200 million years ago from gymnosperms like gnetae?
+CORRECT: flowering plants
+INCORRECT: yeasts | cone-bearing plants | deciduous trees
+ANSWER: The plants that evolved at least 200 million years ago from gymnosperms like gnetophytes are known as pteridosperms.
+
+### 24430a00e8
+Q: Two smaller isotopes, more neutrons, and heat energy are the products of what type of reaction?
+CORRECT: fission
+INCORRECT: Reaction | diffusion | fusion
+ANSWER: Nuclear fission.
+
+### 48df098464
+Q: On how many of the continents do birds live and breed?
+CORRECT: seven
+INCORRECT: three | four | eight
+ANSWER: Birds live and breed on all continents except Antarctica.
+
+### a959ad9973
+Q: Small nonprotein, water-soluble molecules or ions called second messengers often play a role in what kind of pathways?
+CORRECT: signaling
+INCORRECT: creating | creating | inhibiting
+ANSWER: Small nonprotein, water-soluble molecules or ions called second messengers often play a role in signal transduction pathways.
+
+### 75dfd54afb
+Q: Ants, termites, bees, and wasps live in what type of social structure that may include millions of individual insects?
+CORRECT: colony
+INCORRECT: family | habitat | community
+ANSWER: Ants, termites, bees, and wasps live in eusocial structures that may include millions of individual insects.
+
+### c7088dcd0b
+Q: What is the term for the relatively stable state inside the body of an animal?
+CORRECT: homeostasis
+INCORRECT: metabolism | dormancy | consciousness
+ANSWER: Homeostasis is the term for the relatively stable state inside the body of an animal.
+
+### 550d8188ea
+Q: Often generated by molecular cloning, transgenic organisms possess what from a different species?
+CORRECT: dna
+INCORRECT: memories | organs | RNA
+ANSWER: Transgenic organisms often possess genes from a different species.
+
+### f9dd39e2f9
+Q: What forms when nitrogen and sulfur oxides in air dissolve in rain?
+CORRECT: acid rain
+INCORRECT: carbon rain | dioxide rain | acid snow
+ANSWER: Acid rain forms when nitrogen and sulfur oxides in the air dissolve in rain.
+
+### cd237e54b3
+Q: What is the female reproductive structure of a flower?
+CORRECT: the pistil
+INCORRECT: the stamen | the seed | the flower
+ANSWER: The female reproductive structure of a flower is the pistil, which includes the stigma, style, and ovary.
+
+### 2b549ba253
+Q: A sample of matter that has the same physical and chemical properties throughout itself is known as what?
+CORRECT: substance
+INCORRECT: antimatter | essence | molecule
+ANSWER: A sample of matter that has the same physical and chemical properties throughout itself is known as a pure substance.
+
+### a0c0cdb3ef
+Q: What kind of hormones serve many functions in addition to promoting gamete production?
+CORRECT: sex hormones
+INCORRECT: Multifaceted hormones | reflection hormones | Utility hormones
+ANSWER: The gonadotropins serve many functions in addition to promoting gamete production.
+
+### bb051f2e5c
+Q: The tissue that will become the scrotum in a male becomes the labia in a female, thus, they are regarded as having what relationship?
+CORRECT: homologous
+INCORRECT: opposite | symbiotic | mutual
+ANSWER: They are regarded as homologous structures.
+
+### a66dbeaa1b
+Q: Chelicerae in spiders are often modified into fangs that perform what function?
+CORRECT: inject venom
+INCORRECT: courtship display | chewing | tearing flesh
+ANSWER: Chelicerae in spiders are often modified into fangs that inject venom to subdue prey.
+
+### d005c0dda8
+Q: Isotopes are named for their number of protons plus what?
+CORRECT: neutrons
+INCORRECT: isomers | electrons | nuclei
+ANSWER: Isotopes are named for their number of protons plus their mass number.

@@ -1,0 +1,239 @@
+### f64f4ab6f0
+Q: The gap between two dna fragments is sealed by what?
+CORRECT: by dna ligase
+INCORRECT: reductase | rna ligase | enzymes
+ANSWER: The gap between two DNA fragments is sealed by a phosphodiester bond between the 3' hydroxyl group of one fragment and the 5' phosphate group of the other fragment.
+
+### cdbc4206f8
+Q: What are the two main types of star clusters?
+CORRECT: open and globular
+INCORRECT: open and supergiant | closed and spherical | open and elliptical
+ANSWER: The two main types of star clusters are Open Clusters and Eclipsing Binary Star Systems.
+
+### 02f0c3b2e4
+Q: What are the flattened, disk-shaped cells in blood that carry oxygen?
+CORRECT: red blood cells
+INCORRECT: plasma | platlets | white blood cells
+ANSWER: The flattened, disk-shaped cells in blood that carry oxygen are called red blood cells (RBCs).
+
+### b23a1d231c
+Q: A metarteriole is a type of vessel that has structural characteristics of both an arteriole and this?
+CORRECT: capillary
+INCORRECT: tendon | electron | layer
+ANSWER: A metarteriole is a type of vessel that has structural characteristics of both an arteriole and a venules. It is a small, muscular vessel that is part of the microvasculature, often found in the walls of small arteries and arterioles.
+
+### 7a362a9238
+Q: What are reptiles unable to absorb through their skin because of scales?
+CORRECT: oxygen
+INCORRECT: food | water | carbon
+ANSWER: Reptiles are unable to absorb water and nutrients through their skin because of their scales, which prevent water from penetrating the skin and also block the absorption of nutrients. This is a key adaptation that helps reptiles conserve water and maintain their bodily functions.
+
+### 8b03a4878c
+Q: The nucleus from a differentiated frog cell can direct development of what?
+CORRECT: tadpole
+INCORRECT: embryo | fetus | ovary
+ANSWER: The nucleus from a differentiated frog cell can direct development of an embryonic limb.
+
+### 14e7c62a94
+Q: The efficiency of a machine is a measure of how well it reduces what force?
+CORRECT: friction
+INCORRECT: tension | vibration | sound
+ANSWER: The efficiency of a machine is a measure of how well it converts input energy into useful output energy, typically expressed as a ratio of output energy to input energy.
+
+### 04dc26d89c
+Q: What is the study of water movement, including waves and ocean currents?
+CORRECT: physical oceanography
+INCORRECT: theoretical oceanography | experimental oceanography | thermal oceanography
+ANSWER: The study of water movement, including waves and ocean currents, is known as Hydrology.
+
+### fdd9daf4ca
+Q: On a global scale, plants and other photosynthetic organisms have generated all of what element in the air?
+CORRECT: oxygen
+INCORRECT: nitrogen | carbon dioxide | methane
+ANSWER: On a global scale, plants and other photosynthetic organisms have generated oxygen (O2) and carbon dioxide (CO2) in the air.
+
+### 31bcb1e924
+Q: What artery takes blood to the brain?
+CORRECT: carotid
+INCORRECT: veins | pulmonary | coronary
+ANSWER: The internal carotid artery is the primary artery that takes blood to the brain. It is a major branch of the aorta and supplies oxygenated blood to the brain, playing a crucial role in maintaining its function and overall health.
+
+### 3fcc3ebcf7
+Q: How many chambers are there in a bird's heart?
+CORRECT: 4
+INCORRECT: 1 | 3 | 5
+ANSWER: A bird's heart has three chambers: the right atrium, the right ventricle, and the left ventricle.
+
+### 3566fa38f1
+Q: What is it called when sound is reflected off an object?
+CORRECT: echo
+INCORRECT: signal | amplification | reverberation
+ANSWER: The phenomenon of sound being reflected off an object is called reflection.
+
+### 71f1a67926
+Q: What is the term for the ability of a fluid to exert an upward force on any object placed in it?
+CORRECT: buoyancy
+INCORRECT: viscosity | density | resonance
+ANSWER: The term for the ability of a fluid to exert an upward force on any object placed in it is "buoyancy."
+
+### bec78012c2
+Q: What is the term for air moving over earth’s surface?
+CORRECT: wind
+INCORRECT: humidity | spin cycle | tidal
+ANSWER: The term for air moving over earth's surface is "wind".
+
+### 9ab6c88b78
+Q: Habitat loss caused by human actions is a prime culprit in what phenomenon, which appears to be occurring for a sixth time?
+CORRECT: mass extinction
+INCORRECT: spontaneous mutation | mass migrations | Big Bang
+ANSWER: Habitat loss caused by human actions is a prime culprit in the phenomenon of "extinction crisis."
+
+### d9f5b88cd4
+Q: The three parts of the human small intestine is the duodenum, jejunum, and what?
+CORRECT: ileum
+INCORRECT: appendix | colon | cecum
+ANSWER: The third part of the human small intestine is the ileum.
+
+### d9ad80a5a9
+Q: What theory states that all matter consists of constantly moving particles?
+CORRECT: kinetic theory of matter
+INCORRECT: inertia theory | conservtion of matter | Big Bang theory
+ANSWER: The theory that states all matter consists of constantly moving particles is known as the kinetic theory of matter.
+
+### 660260f1d1
+Q: On what lobe of the liver is the gallbladder near?
+CORRECT: right lobe
+INCORRECT: left lobe | central lobe | internal lobe
+ANSWER: The gallbladder is located near the right lobe of the liver.
+
+### 7ff3c28d63
+Q: Where do recent rocks point towards on earth?
+CORRECT: north magnetic pole
+INCORRECT: space | equator | south magnetic pole
+ANSWER: Recent rocks, particularly those from the past 10,000 years, point towards a global cooling trend, with evidence suggesting that the Earth experienced a significant cooling phase during the Younger Dryas event, which occurred around 12,800 to 11,500 years ago. This cooling is also supported by the presence of
+
+### c0d679bc1f
+Q: Yeasts, molds, and mushrooms are all different kinds of what?
+CORRECT: fungi
+INCORRECT: pollen | bacteria | fossil
+ANSWER: They are all different kinds of fungi.
+
+### 6026fd28a5
+Q: What allows some things to enter the cell while keeping other things out?
+CORRECT: cell membrane
+INCORRECT: cell substrate | cell center | cell vacuum
+ANSWER: The cell membrane allows some things to enter the cell while keeping other things out due to its selective permeability, which is regulated by a combination of proteins and lipids. The cell membrane is semi-permeable, meaning it allows certain molecules to pass through while restricting others, and this selective permeability is maintained by the
+
+### b889f5165b
+Q: What is utilized to analyze simple mendelian inheritance?
+CORRECT: pedigree
+INCORRECT: origins | dna | trait
+ANSWER: The Mendelian inheritance patterns are analyzed using a Punnett square, which is a graphical representation of the possible genotypes and phenotypes of offspring from a cross between two parents with different genotypes.
+
+### 2372da9f9a
+Q: What gas is released when dead organisms and other organic materials decompose?
+CORRECT: carbon dioxide
+INCORRECT: hydrogen peroxide | carbon monoxide | nitrous oxide
+ANSWER: The gas released when dead organisms and other organic materials decompose is methane (CH4).
+
+### a8d23a579f
+Q: Digestion of proteins begins with acids in what organ?
+CORRECT: stomach
+INCORRECT: colon | liver | brain
+ANSWER: Digestion of proteins begins with acids in the stomach, specifically in the gastric glands, where hydrochloric acid (HCl) and pepsin break down proteins into smaller peptides and amino acids.
+
+### 8f86bef510
+Q: What is the term for buildup of cell debris and cholesterol inside the arteries?
+CORRECT: atherosclerosis
+INCORRECT: fibrosis | phimosis | sclerosis
+ANSWER: The term for buildup of cell debris and cholesterol inside the arteries is Plaque.
+
+### 9a76f9fe18
+Q: Trees, which can be planted and harvested, are an example of what type of resource?
+CORRECT: renewable
+INCORRECT: electric | fossil | geothermal
+ANSWER: Trees, which can be planted and harvested, are an example of a renewable resource.
+
+### ca4d642c6a
+Q: What do you call health-promoting molecules that inhibit the oxidation of other molecules?
+CORRECT: antioxidants
+INCORRECT: neurotransmitters | nutrients | hormones
+ANSWER: I am unsure of the specific term for health-promoting molecules that inhibit the oxidation of other molecules.
+
+### df3d073e58
+Q: A species that benefits and harms the host organism is called a what?
+CORRECT: parasite
+INCORRECT: viruses | predators | host
+ANSWER: A species that benefits and harms the host organism is called a parasite.
+
+### 78820c541b
+Q: What glands remove water, salts and other wastes from skin?
+CORRECT: sweat glands
+INCORRECT: sex glands | push glands | water glands
+ANSWER: The glands that remove water, salts, and other wastes from the skin are the sweat glands.
+
+### 60ab4a9c9d
+Q: Exemplified by organisms that grow in geysers, hyperthermophiles "love" what?
+CORRECT: heat
+INCORRECT: humidity | cold | rainfall
+ANSWER: Hyperthermophiles, organisms that grow in geysers, are known to "love" high temperatures, specifically between 100°C to 122°C (212°F to 250°F).
+
+### 680e42d825
+Q: How does a neon light produce visible light?
+CORRECT: electroluminescence
+INCORRECT: luminescence | radiation | mitosis
+ANSWER: A neon light produces visible light through a process called electroluminescence, where an electric current passes through a gas-filled tube containing a gas such as neon, argon, or mercury vapor. When an electric current is applied, the gas molecules are excited, releasing energy in the form of light as they return to
+
+### a09c40978b
+Q: What process can cause harmful alleles to become fixed?
+CORRECT: genetic drift
+INCORRECT: natural selection | migration | mutation
+ANSWER: The process that can cause harmful alleles to become fixed is natural selection, where the frequency of a particular allele increases in a population over time due to its advantage in the environment, leading to its fixation.
+
+### 05572d263b
+Q: What are alveoli?
+CORRECT: tiny air sacs in the lungs
+INCORRECT: tiny air natalensis in the lungs | sacs in the diaphragm | cilia in the throat
+ANSWER: Alveoli are tiny, air sacs located at the end of the bronchioles in the lungs, where gas exchange occurs, allowing oxygen to be absorbed into the bloodstream and carbon dioxide to be exhaled. They are approximately 0.5-1.0 millimeters in diameter and play a crucial role in
+
+### 86864c5d41
+Q: What do you call the ancient cores of continents, where the earliest continental crust is now found?
+CORRECT: cratons
+INCORRECT: craters | escarpments | mantles
+ANSWER: The ancient cores of continents are called the "Mantle".
+
+### 63e9fa6252
+Q: What process, which is analogous to mitosis, is a series of events that arrange and separate chromosomes and chromatids into daughter cells?
+CORRECT: meiosis
+INCORRECT: apoptosis | inhibition | digestion
+ANSWER: The process analogous to mitosis is meiosis, which is a series of events that arrange and separate chromosomes and chromatids into daughter cells, resulting in the production of gametes (sperm or egg cells) with unique combinations of chromosomes. Meiosis involves two successive cell divisions (meiosis I and meiosis II)
+
+### b01d825e1f
+Q: When a stream or river slows down, it starts dropping its what?
+CORRECT: sediments
+INCORRECT: fragments | organisms | pollutants
+ANSWER: When a stream or river slows down, it starts dropping its water level.
+
+### 97526692a9
+Q: What kind of a disorder is tay-sachs disease?
+CORRECT: inherited disorder
+INCORRECT: vitamin difficiency | a type of cancer | accumulated disease
+ANSWER: Tay-Sachs disease is a rare, inherited genetic disorder that affects the nervous system and is caused by a deficiency of the enzyme hexosaminidase A, leading to the accumulation of GM2 ganglioside in neurons. It is a type of lysosomal storage disorder.
+
+### 6a2fe9f34c
+Q: Reversible reactions are indicated by what kinds of arrows?
+CORRECT: opposite-headed
+INCORRECT: double-headed | resonance arrows | equilibrium arrows
+ANSWER: Reversible reactions are indicated by double arrows (→) or triple arrows (→→) in chemical equations.
+
+### b0eec15cfa
+Q: Most diplomonads and parabasalids are found in what kind of environment?
+CORRECT: anaerobic
+INCORRECT: acidic | enzymatic | skeletal
+ANSWER: Most diplomonads and parabasalids are found in a moist, humid environment, often in association with fungi or other invertebrates.
+
+### 27c41a981f
+Q: Collateral ganglia controls organs in which cavity in the body?
+CORRECT: abdominal
+INCORRECT: cranial | pelvic | cardiac
+ANSWER: The collateral ganglia controls the phrenic nerve, which innervates the diaphragm, and the vagus nerve, which innervates the heart, lungs, and other organs in the thoracic cavity.

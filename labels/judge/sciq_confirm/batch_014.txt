@@ -1,0 +1,239 @@
+### cfe5c6ebaa
+Q: Reptiles are described by what term that means their internal temperature depends on the temperature of their environment?
+CORRECT: ectothermic
+INCORRECT: zygomorphic | endothermic | actinomorphic
+ANSWER: Reptiles are described by the term "ectothermic" or "cold-blooded."
+
+### fa13ca4865
+Q: The three units of kpa, atm or mmhg commonly measure what?
+CORRECT: pressure
+INCORRECT: resistance | weight | energy
+ANSWER: The three units of kPa, atm, or mmHg commonly measure pressure.
+
+### 3d17f90e81
+Q: The number of what subatomic particles determines an element’s atomic number and is used to distinguish one element from another?
+CORRECT: protons
+INCORRECT: neutrons | quarks | electrons
+ANSWER: The number of protons in an atom's nucleus determines an element's atomic number and is used to distinguish one element from another.
+
+### 3af72c2167
+Q: What do humans and bats have physically in common?
+CORRECT: body hair
+INCORRECT: wing size | gland hair | body oder
+ANSWER: Both humans and bats have wings for flight.
+
+### 729e440dbc
+Q: What part of the sperm contains the nucleus?
+CORRECT: head
+INCORRECT: body | tail | nucleus
+ANSWER: The nucleus of the sperm is contained within the head of the sperm cell.
+
+### 7b0ab0328d
+Q: Wearing personal protective equipment such as goggles and gloves during an experiment is an example of what?
+CORRECT: safety precaution
+INCORRECT: pollution precaution | lab organization | office politics
+ANSWER: Wearing personal protective equipment such as goggles and gloves during an experiment is an example of safety measures.
+
+### c36ff4478d
+Q: With wavelengths from 400-700 nm, what kind of light represents only a very small portion of the spectrum?
+CORRECT: visible light
+INCORRECT: invisible light | sunlight | ultraviolet light
+ANSWER: Infrared light represents only a very small portion of the visible spectrum.
+
+### defe11be41
+Q: What is the term for a series of biochemical reactions by which an organism converts a given reactant to a specific end product?
+CORRECT: metabolic pathway
+INCORRECT: internal pathway | direct pathway | hydrogen pathway
+ANSWER: The term for a series of biochemical reactions by which an organism converts a given reactant to a specific end product is metabolism.
+
+### dbf67bff97
+Q: A vector is an organism that carries what disease-causing microorganisms from one person or animal to another?
+CORRECT: pathogen
+INCORRECT: microbe | microbe | genome
+ANSWER: A vector is an organism that carries disease-causing microorganisms from one person or animal to another.
+
+### c5d03ab32f
+Q: Calcium ion is an example of what kind of messenger?
+CORRECT: second
+INCORRECT: third | fourth | first
+ANSWER: Calcium ion is an example of a second messenger in cellular signaling.
+
+### 404f4af9e9
+Q: Ice cores, varves and what else indicate the environmental conditions at the time of their creation?
+CORRECT: tree rings
+INCORRECT: mountain ranges | fossils | magma
+ANSWER: Ice cores, varves, and tree rings indicate environmental conditions at the time of their creation.
+
+### 2ebe5765a5
+Q: Do changes to rocks happen quickly or slowly?
+CORRECT: slowly
+INCORRECT: quickly then slowly | quickly | slowly then quickly
+ANSWER: Changes to rocks happen slowly over geological time scales.
+
+### 8dd91d2630
+Q: The products of what process are needed for cellular respiration, and vice versa?
+CORRECT: photosynthesis
+INCORRECT: digestion | spermatogenesis | circulation
+ANSWER: Cellular respiration and photosynthesis are the processes that are directly related to each other, with products of one process being the reactants of the other.
+
+### d8707d2d95
+Q: The similarities and differences between the genomes confirm patterns of what?
+CORRECT: evolution
+INCORRECT: phylum | fossils | variation
+ANSWER: The similarities and differences between the genomes confirm patterns of evolution.
+
+### 58c7581234
+Q: What is a fiber that is found only in mammals?
+CORRECT: hair
+INCORRECT: muscle | muscle | feathers
+ANSWER: Amino acids that are found only in mammals are the glycine and serine.
+
+### e26bc6b409
+Q: Unlike matter, which is continuously recycled through ecosystems, what must constantly be added to an ecosystem for use by organisms?
+CORRECT: energy
+INCORRECT: hydrogen | fuel | carbon
+ANSWER: Energy must constantly be added to an ecosystem for use by organisms.
+
+### 624013e41f
+Q: What is the study of water movement, including waves and ocean currents?
+CORRECT: physical oceanography
+INCORRECT: theoretical oceanography | experimental oceanography | thermal oceanography
+ANSWER: The study of water movement, including waves and ocean currents, is known as hydrodynamics.
+
+### f02f16f7df
+Q: In photosynthesis, what process involving carbon dioxide and oxygen occurs through small, regulated openings called stomata?
+CORRECT: gas exchange
+INCORRECT: osmosis | fertilization | transpiration
+ANSWER: In photosynthesis, carbon dioxide and oxygen are produced through the process of photosynthesis, which occurs through small, regulated openings called stomata.
+
+### d9e90264f1
+Q: Carpal, metacarpal and phalanx bones comprise what part of the body?
+CORRECT: hand
+INCORRECT: thumb | pelvis | foot
+ANSWER: The carpal, metacarpal, and phalanx bones comprise the hand.
+
+### 4ef002cb8c
+Q: What process done by bacteria makes them important producers in aquatic ecosystems?
+CORRECT: photosynthesis
+INCORRECT: maturation | infection | reproduction
+ANSWER: Bacteria play a crucial role in aquatic ecosystems as decomposers, breaking down dead organic matter and recycling nutrients.
+
+### 0e24326394
+Q: What kind of diffusion do small hydrophobic molecules squeeze through lipid molecules?
+CORRECT: simple
+INCORRECT: difficult | slippery | complex
+ANSWER: Small hydrophobic molecules squeeze through lipid molecules by undergoing facilitated diffusion.
+
+### 20b1484cc6
+Q: The skin disease impetigo is caused by spread of what type of microorganism?
+CORRECT: bacteria
+INCORRECT: viruses | tumors | algae
+ANSWER: Impetigo is caused by the spread of Staphylococcus aureus or Streptococcus pyogenes microorganisms.
+
+### 12f3c6becd
+Q: What type of diseases occur when the immune system attacks normal body cells?
+CORRECT: autoimmune
+INCORRECT: gastrointestinal | liver | inflammatory
+ANSWER: Autoimmune diseases occur when the immune system attacks normal body cells.
+
+### 70e0b646ec
+Q: Who developed a classification system that divided living things into several groups that we still use today, including mammals, insects, and reptiles?
+CORRECT: aristotle
+INCORRECT: jung | darwin | harrold
+ANSWER: Carl Linnaeus developed a classification system that divided living things into several groups that we still use today, including mammals, insects, and reptiles.
+
+### 189b4551a9
+Q: When mendel crossed purple flowered-plants and white flowered-plants, all the offspring had what color flowers?
+CORRECT: purple
+INCORRECT: blue | red | yellow
+ANSWER: When Mendel crossed purple flowered-plants and white flowered-plants, all the offspring had purple flowers.
+
+### ff75e87aff
+Q: What are solids with high melting and boiling points?
+CORRECT: ionic compounds
+INCORRECT: magnetic compounds | superheated compounds | metal alloys
+ANSWER: Solids with high melting and boiling points are called metals.
+
+### 4342ee1f4e
+Q: The lattice energy is usually the most important energy factor in determining the stability of what?
+CORRECT: ionic compound
+INCORRECT: harmonic compound | magnetic compound | saline compound
+ANSWER: The lattice energy is usually the most important energy factor in determining the stability of ionic compounds.
+
+### 8a1741aaca
+Q: The main shaft of the penis is covered by relatively thick what?
+CORRECT: skin
+INCORRECT: bone | cellulose | collagen
+ANSWER: The main shaft of the penis is covered by relatively thick skin.
+
+### fb4dae872d
+Q: Each bond includes a sharing of electrons between atoms. two electrons are shared in a single bond; four electrons are shared in a double bond; and six electrons are shared in this?
+CORRECT: triple bond
+INCORRECT: ionic bond | quadruple bond | magnetic bond
+ANSWER: A triple bond includes six electrons shared between atoms.
+
+### 8173225a25
+Q: What are alveoli?
+CORRECT: tiny air sacs in the lungs
+INCORRECT: tiny air natalensis in the lungs | sacs in the diaphragm | cilia in the throat
+ANSWER: Alveoli are tiny air sacs in the lungs where gas exchange occurs between the air and blood.
+
+### 63d2829860
+Q: What are plants that are adapted to very dry environments called?
+CORRECT: xerophytes
+INCORRECT: succulents | pores | sporozoans
+ANSWER: Plants adapted to very dry environments are called xerophytes.
+
+### 1d0ca80171
+Q: All the atoms of a given element have the same number what?
+CORRECT: protons and electrons
+INCORRECT: neutrons and electrons | cells and electrons | neutrons and protons
+ANSWER: All the atoms of a given element have the same number of protons.
+
+### 812918f844
+Q: What bond is the force of attraction that holds together two atoms that share a pair of valence electrons?
+CORRECT: covalent
+INCORRECT: polar | hydrogen | metallic
+ANSWER: The bond that holds together two atoms sharing a pair of valence electrons is a covalent bond.
+
+### b3413979eb
+Q: What type of waves transmit the energy of an earthquake?
+CORRECT: seismic waves
+INCORRECT: tectonic waves | sonic waves | volcanic waves
+ANSWER: P-waves (primary waves) transmit the energy of an earthquake.
+
+### bbdf741b58
+Q: Lymph vessels make up a circulatory system that is similar to the blood vessels of what system?
+CORRECT: cardiovascular
+INCORRECT: nervous | cardiac | gastrointestinal
+ANSWER: The lymph vessels make up a circulatory system that is similar to the blood vessels of the lymphatic system.
+
+### b123a5a973
+Q: What hormone secreted by the pineal gland controls sleep-wake cycles and several other processes?
+CORRECT: melatonin
+INCORRECT: testosterone | t3 | estrogen
+ANSWER: The hormone secreted by the pineal gland that controls sleep-wake cycles and several other processes is melatonin.
+
+### ffe7b675bc
+Q: What form of matter has a fixed volume but not a fixed shape?
+CORRECT: liquid
+INCORRECT: mixture | gas | solid
+ANSWER: A solid has a fixed volume but not a fixed shape.
+
+### d7101f018a
+Q: In most fungi, the haploid nuclei contributed by each parent do not do what right away?
+CORRECT: fuse
+INCORRECT: filter | disperse | vaporize
+ANSWER: In most fungi, the haploid nuclei contributed by each parent do not immediately fuse together.
+
+### d8f4d3ec5e
+Q: Gymnamoebas constitute a large and varied group of what?
+CORRECT: amoebozoans
+INCORRECT: newborns | cells | sporozoans
+ANSWER: Gymnamoebas constitute a large and varied group of protozoa.
+
+### 4ac88dc68f
+Q: What happens to air density and pressure when gas molecules are warm?
+CORRECT: they are lower
+INCORRECT: they are unchanged | they are equal | they are greater
+ANSWER: When gas molecules are warm, their average kinetic energy increases, leading to higher air density and pressure.

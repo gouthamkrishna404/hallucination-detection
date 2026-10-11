@@ -1,0 +1,239 @@
+### 95c02c3769
+Q: What do ionic bonds form between?
+CORRECT: metals and nonmetals
+INCORRECT: metals and carbonates | metals and freshwaters | metals and organisms
+ANSWER: Ionic bonds form between a metal and a nonmetal.
+
+### 3cb6e50274
+Q: What break down dead organisms and other organic waste and release inorganic molecules back to the environment called?
+CORRECT: decomposers
+INCORRECT: detritivores | nematodes | carnivores
+ANSWER: Decomposition.
+
+### 0532480f93
+Q: Where is dna located in prokaryotic cells?
+CORRECT: cytoplasm
+INCORRECT: ribosomes | cytoskeleton | mitochondria
+ANSWER: DNA is located in the nucleoid region of prokaryotic cells, which is the area where the genetic material is concentrated.
+
+### 8734f463b8
+Q: In sexual reproduction, the fusion of haploid gametes forms a diploid cell called what?
+CORRECT: zygote
+INCORRECT: gonad | fetus | gamete
+ANSWER: In sexual reproduction, the fusion of haploid gametes forms a diploid cell called a zygote.
+
+### 1b183a739f
+Q: When a species changes in small ways over time, what is it called?
+CORRECT: microevolution
+INCORRECT: nanoevolution | minievolution | small evolution
+ANSWER: When a species changes in small ways over time, it is called evolution.
+
+### 9639a123ea
+Q: Most mercury compounds decompose when they are?
+CORRECT: heated
+INCORRECT: mixed | filled | cooled
+ANSWER: Most mercury compounds decompose when heated.
+
+### 53a4e1fc8f
+Q: The temperature at which a substance melts is called its what point?
+CORRECT: melting
+INCORRECT: boiling | change | freezing
+ANSWER: The temperature at which a substance melts is called its melting point.
+
+### cca79d8736
+Q: Foodborne illness, food allergies, or a food intolerance cause symptoms in what system?
+CORRECT: digestive
+INCORRECT: respiratory | circulatory | skeletal
+ANSWER: Foodborne illness, food allergies, or food intolerance cause symptoms in the digestive system.
+
+### 93f74543ec
+Q: The medium moves back and forth in the same direction as the wave in what type of wave?
+CORRECT: longitudinal wave
+INCORRECT: variable wave | kinetic wave | latitudinal wave
+ANSWER: The medium moves back and forth in the same direction as the wave in a longitudinal wave.
+
+### 85d335d828
+Q: What is made of molecules of many different gases, and is something we usually can’t see, taste, or smell; we can only feel it when it moves?
+CORRECT: air
+INCORRECT: water | light | sound
+ANSWER: A gas is made of molecules of many different gases, and we can only feel it when it moves.
+
+### ba213e0b91
+Q: Most hybrids are sterile because what genetic structures are not homologous and cannot pair during meiosis?
+CORRECT: chromosomes
+INCORRECT: zygotes | ribosomes | phenotypes
+ANSWER: Most hybrids are sterile because their genetic structures are not homologous and cannot pair during meiosis.
+
+### 91a2e591ab
+Q: Dynamite is an example of what type of potential energy?
+CORRECT: chemical
+INCORRECT: carbon | mineral | thermal
+ANSWER: Dynamite is an example of chemical potential energy.
+
+### 00e1c9f275
+Q: The cell walls of what organisms are strengthened by chitin, unlike plant cell walls, which contain cellulose?
+CORRECT: fungi
+INCORRECT: virus | bacterium | yeast
+ANSWER: Insects and arachnids have cell walls strengthened by chitin, unlike plant cell walls which contain cellulose.
+
+### fe57a24c7c
+Q: The speed of a wave through connected harmonic oscillators depends on the distance between them, the spring constant, and the what?
+CORRECT: mass
+INCORRECT: density | concentrations | temperature
+ANSWER: The speed of a wave through connected harmonic oscillators depends on the distance between them, the spring constant, and the mass of the oscillators.
+
+### fe70af2dda
+Q: Specific antigens on the surface of red blood cells determine what, which is important in cases of transfusion?
+CORRECT: blood type
+INCORRECT: blood count | blood amount | blood form
+ANSWER: Specific antigens on the surface of red blood cells determine what, which is important in cases of transfusion, the type of blood that can be safely transfused to a recipient.
+
+### 3354d14dbb
+Q: Hydrogen atoms form only one covalent bond because they have only one have one of what to pair with it?
+CORRECT: valence electron
+INCORRECT: loops electron | modular electron | Water electron
+ANSWER: Hydrogen atoms form only one covalent bond because they have only one electron to pair with it.
+
+### 425a567a4b
+Q: What is defined as the act of contaminating the environment with waste?
+CORRECT: pollution
+INCORRECT: purifying | climate change | global warming
+ANSWER: Pollution is defined as the act of contaminating the environment with waste.
+
+### dd703cd908
+Q: What type of crust is made of basalt lavas that flow onto the seafloor?
+CORRECT: oceanic
+INCORRECT: exotic | endotopic | warm
+ANSWER: The type of crust made of basalt lavas that flow onto the seafloor is called oceanic crust.
+
+### ec15c74af9
+Q: All of the petals together are called what?
+CORRECT: corolla
+INCORRECT: stamen | anthers | stalk
+ANSWER: All of the petals together are called a flower.
+
+### e8087fcdb5
+Q: What come together to create continents and supercontinents?
+CORRECT: microcontinents
+INCORRECT: islands | volcanic sediment | mountains
+ANSWER: Continents and supercontinents are created through the process of tectonic plate movement and collision.
+
+### 8c845e2739
+Q: What anatomical feature is shared by all chordates?
+CORRECT: notochord
+INCORRECT: isochord | botachord | laxchord
+ANSWER: All chordates share the notochord, a flexible rod running along the length of the body, which is a key feature of the chordate body plan.
+
+### 82c565b0cd
+Q: Arthropods today have two unusual hox genes, both of which influence what?
+CORRECT: segmentation
+INCORRECT: compression | reproduction | motility
+ANSWER: Arthropods today have two unusual Hox genes, both of which influence segmentation and limb development.
+
+### e6dab5f3a7
+Q: Where is energy stored in a chemical substance?
+CORRECT: between atoms
+INCORRECT: on the surface | in molecules | inside atoms
+ANSWER: Energy is stored in a chemical substance as chemical potential energy, which is derived from the bonds between atoms and molecules.
+
+### 7897c28257
+Q: What is it called when two plates slide past each other in opposite directions?
+CORRECT: transform plate boundary
+INCORRECT: plate divergence | transformation | tectonic movement
+ANSWER: It is called a divergent boundary.
+
+### 5b27079773
+Q: Solid carbon dioxide is called what?
+CORRECT: dry ice
+INCORRECT: carbohydrate | liquid nitrogen | blue ice
+ANSWER: Solid carbon dioxide is called dry ice.
+
+### 86c6891c8d
+Q: Parasites infect the host's what?
+CORRECT: red blood cells
+INCORRECT: platelets | plasma | white blood cells
+ANSWER: Parasites infect the host's body.
+
+### 5652046c09
+Q: What instrument is used to make very sensitive mass measurements in a laboratory, usually in grams?
+CORRECT: analytical balance
+INCORRECT: speedometer | thermometer | scale
+ANSWER: A mass spectrometer is used to make very sensitive mass measurements in a laboratory, usually in grams.
+
+### 1bc7a0caa6
+Q: Somatic cells come from the body and are not what, like sperm or eggs are?
+CORRECT: gametes
+INCORRECT: spores | toxins | organic
+ANSWER: Somatic cells come from the body and are not reproductive cells, like sperm or eggs.
+
+### 14cfd53a83
+Q: What do seeds have that spores do not?
+CORRECT: a supply of stored food
+INCORRECT: DNA | pollenators | chlorophyll
+ANSWER: Seeds have a protective outer layer, while spores are not enclosed in any protective structure.
+
+### f7c473109a
+Q: Angiosperm seed develops inside of what?
+CORRECT: an ovary
+INCORRECT: fallopian tubes | a kidney | the pancreas
+ANSWER: Angiosperm seeds develop inside the ovary of a flower.
+
+### cf43df2055
+Q: Unipolar, bipolar, multipolar, and pseudounipolar are the four basic types of what?
+CORRECT: neurons
+INCORRECT: ions | protons | electrons
+ANSWER: The four basic types of brain waves.
+
+### 25d79304b6
+Q: What symbol is used to indicate directionality in chemical reactions?
+CORRECT: arrow
+INCORRECT: triangle | circle | line
+ANSWER: The symbol used to indicate directionality in chemical reactions is the arrow (→ or ⇌).
+
+### 1009c7c4a0
+Q: What record shows that dinosaurs originated 200-250 million years ago?
+CORRECT: fossil record
+INCORRECT: ancient record | biological record | species record
+ANSWER: The "Dinosaur Age" record shows that dinosaurs originated approximately 200-250 million years ago.
+
+### 8a5b8c21a8
+Q: What is telomere shortening associated with?
+CORRECT: aging
+INCORRECT: sleeping | reducing | changing
+ANSWER: Telomere shortening is associated with cellular aging and the development of age-related diseases.
+
+### 14bd2a6240
+Q: The ileum is the last part of what digestive system organ?
+CORRECT: small intestine
+INCORRECT: stomach | esophagus | large intestine
+ANSWER: The ileum is the last part of the small intestine.
+
+### 4125a39fd3
+Q: Where in the target cells are intracellular receptor proteins found?
+CORRECT: cytoplasm or nucleus
+INCORRECT: mucus or nucleus | membrane or mitochondria | ribosomes or nucleus
+ANSWER: Intracellular receptor proteins are found in the nucleus of target cells.
+
+### 6fcb9c2acc
+Q: Which organelles, made of protein and ribosomal rna, build cellular proteins in the cytoplasm?
+CORRECT: ribosomes
+INCORRECT: chloroplasts | dna | chromosomes
+ANSWER: Ribosomes are the organelles made of protein and ribosomal RNA that build cellular proteins in the cytoplasm.
+
+### 65ad7ff5a5
+Q: Hypersection by an endocrine gland is often caused by what?
+CORRECT: tumor
+INCORRECT: calcium | inflammation | viruses
+ANSWER: Hypersection by an endocrine gland is often caused by a tumor or overproduction of hormones.
+
+### 5c7b394547
+Q: What do ecosystems absorb on the earth?
+CORRECT: energy
+INCORRECT: water | hydrogen | fuel
+ANSWER: Ecosystems absorb carbon dioxide, water, and nutrients from the environment.
+
+### 53adb80eac
+Q: Pairs of nitrogenous bases are attached to each other by?
+CORRECT: hydrogen bonds
+INCORRECT: potassium bonds | ionic bonds | magnetism
+ANSWER: Pairs of nitrogenous bases are attached to each other by hydrogen bonds.

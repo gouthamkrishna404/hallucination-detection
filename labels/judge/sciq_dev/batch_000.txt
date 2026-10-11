@@ -1,0 +1,239 @@
+### 3d615580c7
+Q: What system of the body is responsible for transmitting, processing, and responding to most of the sensory information that is created by various stimuli?
+CORRECT: nervous system
+INCORRECT: respiratory system | circulatory system | attentive system
+ANSWER: The nervous system is responsible for transmitting, processing, and responding to most of the sensory information created by various stimuli.
+
+### d66a901834
+Q: Hydrogen-based fuel cells were and are used to provide what for manned space vehicles?
+CORRECT: electricity
+INCORRECT: light | magnetism | gravity
+ANSWER: Hydrogen-based fuel cells are used to provide electrical power for manned space vehicles.
+
+### 00e62d5319
+Q: The energy required to remove an electron from a gaseous atom is called?
+CORRECT: ionization energy
+INCORRECT: vapor energy | potential energy | fission energy
+ANSWER: The energy required to remove an electron from a gaseous atom is called ionization energy.
+
+### 7bc78b596a
+Q: What is the the process by which remains or traces of living things become fossils called?
+CORRECT: fossilization
+INCORRECT: extirpation | gentrification | fasciculation
+ANSWER: The process by which remains or traces of living things become fossils is called fossilization.
+
+### b481323c70
+Q: What is the general name for a group of atoms derived from an alkane?
+CORRECT: alkyl group
+INCORRECT: anode group | oxidation group | acid group
+ANSWER: A general name for a group of atoms derived from an alkane is an alkyl group.
+
+### e6f9c54352
+Q: One important phenomenon related to the relative strength of cohesive and adhesive forces is capillary action—the tendency of a fluid to be raised or suppressed in a narrow tube, or called this?
+CORRECT: capillary tube
+INCORRECT: melting tube | cohesive tube | pressure tube
+ANSWER: Capillary action is the tendency of a fluid to be raised or suppressed in a narrow tube.
+
+### 16ac167783
+Q: Illustrating how form follows function, long, slender protein strands that make up what tissue are essential for contracting and relaxing?
+CORRECT: muscle
+INCORRECT: tendons | veins | ligaments
+ANSWER: Muscle tissue.
+
+### b03c79c889
+Q: Proteins are polymers of what kind of acids?
+CORRECT: amino
+INCORRECT: lipids | lactic | acetic
+ANSWER: Proteins are polymers of amino acids.
+
+### 7b8d2040e9
+Q: What is a large molecule with many repeating units?
+CORRECT: polymer
+INCORRECT: cells | supermolecule | plasma
+ANSWER: A large molecule with many repeating units is called a polymer.
+
+### e933601ddc
+Q: What term is used to describe  is the spontaneous emission of particles and radiation from atomic nuclei?
+CORRECT: radioactivity
+INCORRECT: intensity | vibration | microscopic
+ANSWER: The term used to describe the spontaneous emission of particles and radiation from atomic nuclei is radioactive decay.
+
+### 7780f63279
+Q: During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?
+CORRECT: third trimester
+INCORRECT: fourth trimester | first trimester | second trimester
+ANSWER: The third trimester exhibits the greatest growth of the fetus and culminates in labor and delivery.
+
+### e1a616f917
+Q: Sponges exemplify what type of arrangement, where different cells are specialized for different functions, but each cell works alone?
+CORRECT: cell-level organization
+INCORRECT: independent organization | commensalism | organ-level organization
+ANSWER: Sponges exemplify a simple, decentralized arrangement where different cells are specialized for different functions, but each cell works alone.
+
+### bc3a4e8678
+Q: What is the most important function of enzymes in animals?
+CORRECT: help digest food
+INCORRECT: carry oxygen | transport messages | excrete waste
+ANSWER: Enzymes in animals primarily function to catalyze biochemical reactions, facilitating metabolic processes essential for growth, development, and survival.
+
+### 139d26128f
+Q: Do most waves strike the shore head on or at an angle?
+CORRECT: at an angle
+INCORRECT: side on | head on | at a distance
+ANSWER: Most waves strike the shore at an angle.
+
+### 04b6859e80
+Q: What particles ancient greeks propose that matter consists of ?
+CORRECT: atoms
+INCORRECT: ions | molecules | ether
+ANSWER: Ancient Greeks proposed that matter consists of four basic elements: earth, air, fire, and water.
+
+### 44864de65d
+Q: Water is considered a what since it is a polar molecule with slightly positive and slightly negative charges, so ions and polar molecules can readily dissolve in it?
+CORRECT: solvent
+INCORRECT: solute | pigment | osmotic
+ANSWER: Water is considered a solvent since it is a polar molecule with slightly positive and slightly negative charges, allowing ions and polar molecules to readily dissolve in it.
+
+### 32a6778439
+Q: Biological features from a common evolutionary origin are known as what?
+CORRECT: homologous
+INCORRECT: monologous | heterologous | analogous
+ANSWER: Biological features from a common evolutionary origin are known as homologous structures.
+
+### 34c906a7be
+Q: The overall voltage of the battery is therefore the sum of ________ of the individual cells.
+CORRECT: voltages
+INCORRECT: currents | resistances | weights
+ANSWER: The overall voltage of the battery is therefore the sum of the individual cells.
+
+### 4ba00da3d6
+Q: What prevents new ovarian follicles from developing and suppresses uterine contractility?
+CORRECT: progesterone
+INCORRECT: germination | glucose | estrogen
+ANSWER: The hormone responsible for preventing new ovarian follicles from developing and suppressing uterine contractility is progesterone.
+
+### 083179e96c
+Q: What is the measurement of something along it's greatest dimension called?
+CORRECT: length
+INCORRECT: stretch | stretch | height
+ANSWER: The measurement of something along its greatest dimension is called its length.
+
+### 5e3c7fcfa7
+Q: Carnivores that eat herbivores are what kind of consumers?
+CORRECT: secondary
+INCORRECT: tertiary | primary | quaternary
+ANSWER: Carnivores that eat herbivores are primary consumers.
+
+### 873629b611
+Q: How did the first seed plants form seeds?
+CORRECT: in cones
+INCORRECT: in leaves | in folds | in stems
+ANSWER: The first seed plants formed seeds by developing specialized structures to protect and store nutrients, which evolved from earlier spore-bearing plants.
+
+### 014d8f386f
+Q: How does increasing the temperature of reactants affect the rate of their reaction?
+CORRECT: it increases it
+INCORRECT: it patterns it | it is unchanged | it decreases it
+ANSWER: Increasing the temperature of reactants generally increases the rate of their reaction by providing more kinetic energy to molecules, leading to more frequent and energetic collisions.
+
+### ab74d9f602
+Q: Lyme disease is caused by what kind of organim?
+CORRECT: bacteria
+INCORRECT: Virus | bacterium | algae
+ANSWER: Lyme disease is caused by the bacterium Borrelia burgdorferi.
+
+### 5fba4cd876
+Q: By the year 2050, 25 percent of the population of the united states will be 60 years of age or older. the cdc estimates that 80 percent of those 60 years and older have one or more chronic disease associated with deficiencies of this?
+CORRECT: immune system
+INCORRECT: respiratory system | cardiovascular system | blood vessels
+ANSWER: The CDC estimates that 80 percent of those 60 years and older have one or more chronic diseases associated with deficiencies in vitamin D.
+
+### 6ada6e9082
+Q: What form of reproduction creates offspring that are genetically identical to the parent?
+CORRECT: asexual
+INCORRECT: microscopic | primitive | sexual
+ANSWER: Asexual reproduction creates offspring that are genetically identical to the parent.
+
+### 046b87ce7d
+Q: About how tall can mid-ocean ridges be?
+CORRECT: about 2 km
+INCORRECT: about 2 meters | about 2 feet | 2 inches
+ANSWER: Mid-ocean ridges can be up to 3,000 kilometers (1,864 miles) long.
+
+### f6032c1c0f
+Q: What is the mechanism by which favorable traits become more common in organisms over the course of generations?
+CORRECT: natural selection
+INCORRECT: evolution | environmental selection | birth
+ANSWER: Favorable traits become more common in organisms over generations through natural selection, where organisms with advantageous traits are more likely to survive and reproduce, passing these traits to their offspring.
+
+### c851846bdc
+Q: Breathing involves differences in what, measured in torr, between the inside of the lungs and the air outside?
+CORRECT: pressure
+INCORRECT: temperature | gravity | resistance
+ANSWER: Breathing involves differences in pressure between the inside of the lungs and the air outside, measured in torr.
+
+### b8874e9724
+Q: What evolutionary process has adapted protonephridia to different tasks in different environments?
+CORRECT: natural selection
+INCORRECT: natural reproduction | natural variety | natural change
+ANSWER: Protonephridia have evolved to adapt to different tasks in different environments through a process of convergent evolution.
+
+### 8356eadfca
+Q: What phase does the nuclear envelope begin to break down?
+CORRECT: prophase i
+INCORRECT: nitrogenase i | pasiphaë i | interphase
+ANSWER: The nuclear envelope begins to break down during mitosis.
+
+### c487fbe81e
+Q: The chains in cellulose stack in parallel rows held together by hydrogen bonds between which groups?
+CORRECT: hydroxl groups
+INCORRECT: disc groups | carbon groups | soda groups
+ANSWER: The chains in cellulose stack in parallel rows held together by hydrogen bonds between glucose units.
+
+### de07b916cd
+Q: Soap acts as what kind of agent between grease and water?
+CORRECT: emulsifying
+INCORRECT: lubricating | codifying | sterilizing
+ANSWER: Soap acts as an emulsifier between grease and water.
+
+### a3d3bc71e0
+Q: A sealed, vacuum-insulated reaction flask approximates what condition, in which neither matter nor heat can be exchanged between system and surroundings?
+CORRECT: isolated system
+INCORRECT: shared system | changing system | sure system
+ANSWER: A sealed, vacuum-insulated reaction flask approximates a condition in which neither matter nor heat can be exchanged between the system and surroundings.
+
+### 76368d6277
+Q: Mollusks have a true coelom and a complete what?
+CORRECT: digestive system
+INCORRECT: skeletal system | nerve system | tissues system
+ANSWER: Mollusks have a true coelom and a complete digestive system.
+
+### 412796aac9
+Q: What kind of muscle is the heart mainly composed of?
+CORRECT: cardiac muscle
+INCORRECT: respiratory muscle | idealized muscle | nerve muscle
+ANSWER: The heart is mainly composed of cardiac muscle.
+
+### 1f2b77446f
+Q: Earth's axis is an imaginary line passing through which poles?
+CORRECT: north and south
+INCORRECT: west and south | southwest and south | East and North
+ANSWER: Earth's axis is an imaginary line passing through the North and South Poles.
+
+### 7f8de0d116
+Q: What are the smallest structural and functional unit of all living organisms?
+CORRECT: cells
+INCORRECT: neutrons | lipids | proteins
+ANSWER: The smallest structural and functional unit of all living organisms is the cell.
+
+### 92e52e6ad2
+Q: What is the force that opposes motion between two surfaces that are touching?
+CORRECT: friction
+INCORRECT: tension | vibration | gravity
+ANSWER: The force that opposes motion between two surfaces that are touching is friction.
+
+### b4779bf71f
+Q: Humans are among the most versatile of mammals with what type of diet?
+CORRECT: omnivore
+INCORRECT: carnivore | herbivore | vegetarian
+ANSWER: Humans are among the most versatile of mammals with a omnivorous diet.

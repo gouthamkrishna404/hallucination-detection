@@ -1,0 +1,239 @@
+### 4bacf6e092
+Q: Penis, testes, and epididymis are organs in what system?
+CORRECT: male reproductive system
+INCORRECT: virus reproductive system​ | plant reproductive system​ | female reproductive system​
+ANSWER: The penis, testes, and epididymis are organs in the male reproductive system.
+
+### 0bec797266
+Q: What are the two most common silicates?
+CORRECT: feldspar and quartz
+INCORRECT: Olivine and quartz | Micas	 and feldspar | Micas	 and quartz
+ANSWER: The two most common silicates are quartz and feldspar.
+
+### fbf8315cc1
+Q: Do vascular or nonvascular plants lack tracheids?
+CORRECT: nonvascular
+INCORRECT: vascular | neither do | both do
+ANSWER: Vascular plants lack tracheids, while nonvascular plants do.
+
+### a4cb0412e4
+Q: What are the specialized cells that sponges have?
+CORRECT: collar cells
+INCORRECT: tune cells | magnet cells | blood cells
+ANSWER: Sponges have specialized cells called choanocytes, which are responsible for filtering water and capturing food particles.
+
+### b7a0de5dc7
+Q: Where do extrusive igneous rocks cool at?
+CORRECT: surface
+INCORRECT: underground | in volcanoes | in water
+ANSWER: Extrusive igneous rocks cool at the Earth's surface, typically on the surface of the ocean or in volcanic areas.
+
+### 7bd1eacae6
+Q: Icy objects that have very elliptical orbits around the sun are called?
+CORRECT: comets
+INCORRECT: meteors | asteroids | craters
+ANSWER: Icy objects with very elliptical orbits around the sun are called comets.
+
+### 0125d0f11f
+Q: Fungi, such as black bread mold (rhizopus nigricans), have haploid-dominant what?
+CORRECT: life cycles
+INCORRECT: birth cycles | gene pools | mutations
+ANSWER: Fungi, such as black bread mold (Rhizopus nigricans), have haploid-dominant mating types.
+
+### 2e9209da92
+Q: What do mammals have under the skin to help insulate the body?
+CORRECT: a layer of fat
+INCORRECT: bone | nerve cells | cartilage
+ANSWER: Mammals have a layer of fat under the skin to help insulate the body.
+
+### 6afd208890
+Q: All types of cells are enclosed by what?
+CORRECT: membrane
+INCORRECT: substrate | cell wall | stoma
+ANSWER: All types of cells are enclosed by a cell membrane.
+
+### 75613c9710
+Q: What happens to light when it passed from air to water?
+CORRECT: it bends
+INCORRECT: it contracts | it brightens | it speeds up
+ANSWER: When light passes from air to water, it bends towards the normal (perpendicular to the surface).
+
+### 8259f3a9d5
+Q: Under what type of conditions can populations grow exponentially?
+CORRECT: ideal
+INCORRECT: pleasant | useful | lush
+ANSWER: Populations can grow exponentially under ideal conditions of unlimited resources, no predation, and no competition.
+
+### 3fd886663a
+Q: The goal of this is the understand how and why things happen?
+CORRECT: science
+INCORRECT: experience | inquiry | theory
+ANSWER: The goal is to understand cause and effect relationships in the world.
+
+### e7dc30f155
+Q: Each of what paired organs is enclosed within a cavity surrounded by the pleura?
+CORRECT: lungs
+INCORRECT: bones | ovaries | heart
+ANSWER: Each of the paired lungs is enclosed within a cavity surrounded by the pleura.
+
+### 63c350adbe
+Q: What is utilized to analyze simple mendelian inheritance?
+CORRECT: pedigree
+INCORRECT: origins | dna | trait
+ANSWER: Simple Mendelian inheritance is analyzed using the Punnett square method.
+
+### d800f5ea3e
+Q: What force occurs because no surface is perfectly smooth?
+CORRECT: friction
+INCORRECT: vibration | gravity | tension
+ANSWER: Friction occurs because no surface is perfectly smooth.
+
+### 7ca990d602
+Q: Which planet is named after the roman goddess of love?
+CORRECT: venus
+INCORRECT: Neptune | Mercury | Jupiter
+ANSWER: Jupiter is named after the Roman goddess of love.
+
+### 95bb6ae390
+Q: What process, which is analogous to mitosis, is a series of events that arrange and separate chromosomes and chromatids into daughter cells?
+CORRECT: meiosis
+INCORRECT: apoptosis | inhibition | digestion
+ANSWER: The process you are referring to is called meiosis.
+
+### cbdaf11df2
+Q: Channel proteins form what in the membrane?
+CORRECT: pores
+INCORRECT: walls | fibers | atoms
+ANSWER: Channel proteins form pores in the membrane.
+
+### e4e6dc25a5
+Q: In the body, in which organ does chemical digestion mainly take place?
+CORRECT: small intestine
+INCORRECT: liver | kidneys | large intestine
+ANSWER: Chemical digestion mainly takes place in the stomach and small intestine.
+
+### 4c03ad6b1a
+Q: What record provides evidence that new species develop to fill the habitats where old species lived following a mass extinction?
+CORRECT: fossil record
+INCORRECT: fossil fuels | erosion record | climate record
+ANSWER: The fossil record provides evidence that new species develop to fill the habitats where old species lived following a mass extinction.
+
+### d13dcb1d29
+Q: On what lobe of the liver is the gallbladder near?
+CORRECT: right lobe
+INCORRECT: left lobe | central lobe | internal lobe
+ANSWER: The gallbladder is near the right lobe of the liver.
+
+### 6bf0ec5a80
+Q: Compounds that are capable of accepting electrons, such as o 2 or f2, are called what?
+CORRECT: oxidants
+INCORRECT: antioxidants | Oxygen | residues
+ANSWER: These compounds are called Lewis acids.
+
+### 7955665681
+Q: Twenty-four hours before fertilization, the egg has finished meiosis and becomes a mature what?
+CORRECT: oocyte
+INCORRECT: spermatozoa | fetus | zygote
+ANSWER: Twenty-four hours before fertilization, the egg has finished meiosis and becomes a mature ovum.
+
+### 953a572eff
+Q: Quarks are very tiny particles of matter that make up what?
+CORRECT: protons and neutrons
+INCORRECT: electrons and neutrons | protons and electrons | atoms and neutrons
+ANSWER: Quarks are very tiny particles of matter that make up protons and neutrons.
+
+### 6cd1ea0a33
+Q: Speed, loudness, and pitch are properties of what?
+CORRECT: sound
+INCORRECT: metal | colour | light
+ANSWER: Speed, loudness, and pitch are properties of sound.
+
+### 8739ac6ad0
+Q: Presence of a cell wall, large central vacuole, and organelles called plastids distinguish what type of cell?
+CORRECT: plant
+INCORRECT: animal | reproductive | heterotroph
+ANSWER: Plant cells.
+
+### c64693cd62
+Q: What allows some things to enter the cell while keeping other things out?
+CORRECT: cell membrane
+INCORRECT: cell substrate | cell center | cell vacuum
+ANSWER: Cell membranes allow some substances to enter while others are repelled.
+
+### b30088aaa7
+Q: What element is the most abundant in the universe?
+CORRECT: hydrogen
+INCORRECT: oxygen | carbon | helium
+ANSWER: Hydrogen is the most abundant element in the universe.
+
+### f503378653
+Q: Digestion of proteins begins with acids in what organ?
+CORRECT: stomach
+INCORRECT: colon | liver | brain
+ANSWER: The digestion of proteins begins in the stomach, where hydrochloric acid and enzymes start the process.
+
+### 194d2a2352
+Q: What is produced by the end of meiosis?
+CORRECT: four haploid cells
+INCORRECT: sixteen haploid cells | eight haploid cells | three haploid cells
+ANSWER: Meiosis produces four haploid cells.
+
+### cc357ea208
+Q: What shape are the muscles that control the anus?
+CORRECT: circular
+INCORRECT: elliptical | irregular | triangular
+ANSWER: The muscles that control the anus are typically in the form of an inverted triangle.
+
+### b7b5fe77b5
+Q: The earth's gravitational force causes the moon to do what?
+CORRECT: orbit the earth
+INCORRECT: overlap the earth | change size | lose orbit
+ANSWER: The earth's gravitational force causes the moon to orbit around the Earth.
+
+### 76a05e3994
+Q: The sternocleidomastoid is the major muscle that laterally flexes and rotates what?
+CORRECT: head
+INCORRECT: tongue | eye | knee
+ANSWER: The sternocleidomastoid is the major muscle that laterally flexes and rotates the neck.
+
+### 8a8c1a8923
+Q: What part of the eye allows light to enter?
+CORRECT: pupil
+INCORRECT: eyelid | retina | iris
+ANSWER: The cornea allows light to enter the eye.
+
+### c32041df92
+Q: What is the space between a neuron and the next cell?
+CORRECT: the synapse
+INCORRECT: neurotransmitter passage | dendritic gap | cell divide
+ANSWER: The space between a neuron and the next cell is called the synaptic cleft.
+
+### 24d89c2c26
+Q: What do induction cooktops have under their surface?
+CORRECT: electromagnets
+INCORRECT: Chambers | clumps | screws
+ANSWER: Induction cooktops have a ferromagnetic material, typically ceramic or glass, under their surface.
+
+### ffd824a09e
+Q: What do you call health-promoting molecules that inhibit the oxidation of other molecules?
+CORRECT: antioxidants
+INCORRECT: neurotransmitters | nutrients | hormones
+ANSWER: These are called antioxidants.
+
+### e14a914f81
+Q: What does the gradient of bicoid protein determine?
+CORRECT: anterior-posterior axis
+INCORRECT: shallow - posterior axis | east-west axis | vertical-horizontal plane
+ANSWER: The gradient of bicoid protein determines the position of the anterior-posterior axis in the early Drosophila embryo.
+
+### 09cb7fd1b8
+Q: What term is used to describe a cancer that has spread?
+CORRECT: metastasized
+INCORRECT: destabilized | galvanized | ostracized
+ANSWER: The term used to describe a cancer that has spread is metastasis.
+
+### 197e56d0fc
+Q: What does an invertebrate, like a snail, not have?
+CORRECT: backbone
+INCORRECT: reproductive organs | eyes | a heart
+ANSWER: An invertebrate like a snail does not have a backbone.

@@ -1,0 +1,239 @@
+### aec9ac4e43
+Q: Natural gas is the predominately made up of?
+CORRECT: methane
+INCORRECT: hydrogen | carbon | sulfur
+ANSWER: Natural gas is primarily composed of methane.
+
+### d49d8938f5
+Q: What are different types of tissues organized into functional units called?
+CORRECT: organs
+INCORRECT: tendons | arteries | veins
+ANSWER: Different types of tissues organized into functional units are called organs.
+
+### 87cbc5b758
+Q: Expansion of a gas into a vacuum is irreversible because the external pressure is measurably less than the internal pressure of the gas, and no states of what exist?
+CORRECT: equilibrium
+INCORRECT: balance | liquid | composition
+ANSWER: Expansion of a gas into a vacuum is irreversible because the external pressure is measurably less than the internal pressure of the gas, and no states of equilibrium exist.
+
+### 2f06b86783
+Q: During the first year after birth, what is a baby called?
+CORRECT: infant
+INCORRECT: toddler | newborn | fetus
+ANSWER: During the first year after birth, a baby is called a newborn.
+
+### 48aa62ec4a
+Q: Inside female cones, female spores develop into female what?
+CORRECT: gametophytes
+INCORRECT: gymnosperms | filaments | tubules
+ANSWER: Inside female cones, female spores develop into female seeds.
+
+### f946c6c11a
+Q: What in roundworms is a partial body cavity filled with fluid?
+CORRECT: pseudocoelom
+INCORRECT: abdomen | cocklebur | spicule
+ANSWER: The coelom in roundworms is a partial body cavity filled with fluid.
+
+### d85896a667
+Q: Cysteine is a type of what fundamental building block of protein?
+CORRECT: amino acid
+INCORRECT: atoms acid | proteins acid | salts acid
+ANSWER: Cysteine is a type of amino acid, which is a fundamental building block of protein.
+
+### ddfeee8b94
+Q: What term describes reproducing by external fertilization after the female sheds large numbers of small eggs?
+CORRECT: oviparous
+INCORRECT: glandular | glaucous | homozygous
+ANSWER: This term describes spawning.
+
+### e9c5fbb900
+Q: What is the electron domain geometry of ammonia?
+CORRECT: tetrahedral
+INCORRECT: membranes | atoms | neurons
+ANSWER: The electron domain geometry of ammonia is trigonal pyramidal.
+
+### 4ffe52ed31
+Q: In contrast with cnidarians, nematodes show a tubular morphology and circular cross-section. these animals are pseudocoelomates and show the presence of a complete digestive system with a distinct mouth and this?
+CORRECT: anus
+INCORRECT: mucus | hairs | stomach
+ANSWER: Nematodes show the presence of a complete digestive system with a distinct mouth and a complete digestive tract.
+
+### 1a2ea60b1e
+Q: The leaves of what plant genus are the source of the compound ephedrine, which is used in medicine as a potent decongestant and is similar to amphetamines?
+CORRECT: ephedra
+INCORRECT: Stimulant | dietary | additive
+ANSWER: The leaves of the Ephedra genus are the source of the compound ephedrine, which is used in medicine as a potent decongestant and is similar to amphetamines.
+
+### 0b668e4e76
+Q: Evaporation of moisture is greatest where it is?
+CORRECT: hot and sunny
+INCORRECT: cool and snowy | sunny and populated | rainy and hot
+ANSWER: Evaporation of moisture is greatest where it is warm and dry.
+
+### 7c9909b746
+Q: Centrioles help organize the chromosomes before cell division so that each daughter cell has the correct number of what?
+CORRECT: chromosomes
+INCORRECT: ribosomes | cells | receptors
+ANSWER: Centrioles help organize the chromosomes before cell division so that each daughter cell has the correct number of chromosomes.
+
+### 4a9c79b19c
+Q: What is the transition from solid to vapor is called?
+CORRECT: sublimation
+INCORRECT: vaporization | deposition | ionization
+ANSWER: The transition from solid to vapor is called sublimation.
+
+### 2c82bc179b
+Q: The bohr model works only for which atom?
+CORRECT: hydrogen
+INCORRECT: helium | carbon | boron
+ANSWER: The Bohr model works only for hydrogen.
+
+### 72f5c54461
+Q: What is the height above or below sea level called?
+CORRECT: elevation
+INCORRECT: depth | latitude | variation
+ANSWER: The height above or below sea level is called elevation.
+
+### 24d898938e
+Q: What phenomenon, which is most important in small populations, occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation?
+CORRECT: genetic drift
+INCORRECT: genetic DNA | genetic mutation | genetic code
+ANSWER: Genetic drift is the phenomenon that occurs in small populations because the alleles in an offspring generation are a random sample of the alleles in the parent generation.
+
+### 3ac745f07f
+Q: Animals are heterotrophs, which means that they cannot make their own what?
+CORRECT: food
+INCORRECT: fuel | energy | habitat
+ANSWER: Animals are heterotrophs, which means that they cannot make their own food.
+
+### 459e9d7429
+Q: The gap between two dna fragments is sealed by what?
+CORRECT: by dna ligase
+INCORRECT: reductase | rna ligase | enzymes
+ANSWER: The gap between two DNA fragments is sealed by a DNA ligase enzyme.
+
+### 8bfa046238
+Q: What unit of measurement is defined to be the number of atoms in 12g of carbon-12?
+CORRECT: one mole
+INCORRECT: one quark | one joule | one ohm
+ANSWER: The unit of measurement is the mole.
+
+### b50384cf62
+Q: What is a solution with a ph lower than 7 called?
+CORRECT: acid
+INCORRECT: basic | neutral | dioxide
+ANSWER: A solution with a pH lower than 7 is called acidic.
+
+### 5e5cc2ace9
+Q: What is the side to side movement of the mandible called?
+CORRECT: excursion
+INCORRECT: twitching | cycling | shifting
+ANSWER: The side to side movement of the mandible is called lateral movement.
+
+### db30d612a7
+Q: What is the process called where nitrogen is repeatedly recycled through the biosphere?
+CORRECT: nitrogen cycle
+INCORRECT: ammonia cycle | water cycle | nitrogen path
+ANSWER: The process where nitrogen is repeatedly recycled through the biosphere is called nitrogen fixation.
+
+### c137e18165
+Q: As the telencephalon enlarges and grows into the cranial cavity, it is limited by the space within what bone structure?
+CORRECT: skull
+INCORRECT: skeleton | spine | chest
+ANSWER: The telencephalon is limited by the space within the cranial vault, which is the bony structure of the skull.
+
+### e509f0291d
+Q: What is the membrane lining the back of the eye called?
+CORRECT: retina
+INCORRECT: lens | cornea | aperture
+ANSWER: The membrane lining the back of the eye is called the retina.
+
+### a88638130a
+Q: When statoliths settle to the low point in the chamber, they stimulate what in that location?
+CORRECT: mechanoreceptors
+INCORRECT: dendrites | axons | nociceptors
+ANSWER: Statoliths settle to the low point in the chamber and stimulate cilia movement in that location.
+
+### 61de6c6de6
+Q: What forms when secondary alcohols oxidize?
+CORRECT: ketones
+INCORRECT: chromosomes | ions | electrons
+ANSWER: Secondary alcohols oxidize to form aldehydes.
+
+### 940818aeaf
+Q: What do you call water that flows out of the ground where an aquifer meets the surface?
+CORRECT: spring
+INCORRECT: oasis | waterfall | stream
+ANSWER: Aquifer recharge area.
+
+### 6b2927a7c3
+Q: Acidic hydrogen atoms are those which will be transferred to what?
+CORRECT: a base
+INCORRECT: water | a cup | another atom
+ANSWER: Acidic hydrogen atoms are those which will be transferred to bases.
+
+### 2a015d81d0
+Q: What kind of weather do psychrophiles need to grow and reproduce?
+CORRECT: cold temperatures
+INCORRECT: mixed temperatures | Hot temperatures | water temperatures
+ANSWER: Psychrophiles need cold temperatures to grow and reproduce.
+
+### a373870947
+Q: What were the first plants to evolve?
+CORRECT: nonvascular plants
+INCORRECT: fungi | photoreactive plants | trees
+ANSWER: The first plants to evolve are believed to have appeared around 470 million years ago, during the Cambrian period.
+
+### 4cddd8d6ba
+Q: What is the union of the cytoplasms of two parent mycelia known as?
+CORRECT: plasmogamy
+INCORRECT: plasmology | spirogyra | xerophyte
+ANSWER: The union of the cytoplasms of two parent mycelia is known as a zygote.
+
+### c1a2cf227d
+Q: While numerous elements can undergo fission, only a few can be used as fuels in what nuclear devices?
+CORRECT: reactors
+INCORRECT: colliders | laser beams | accelerators
+ANSWER: Only uranium-235 and plutonium-239 can be used as fuels in nuclear devices.
+
+### 8daa1c3ea8
+Q: What causes the wheels of the car to turn?
+CORRECT: turning driveshaft
+INCORRECT: Wheel Line | once driveshaft | Gear Shift
+ANSWER: The wheels of a car turn due to the force applied by the engine, which causes the car to accelerate and rotate the wheels.
+
+### 270da5dae7
+Q: The basic voltaic cell variations are the dry cell and the what?
+CORRECT: lead storage battery
+INCORRECT: lead flood battery | positive terminal | lead electricity battery
+ANSWER: The basic voltaic cell variations are the dry cell and the wet cell.
+
+### 92905b5c13
+Q: What is an adaptation?
+CORRECT: favorable trait
+INCORRECT: harmful mutation | unfavorable trait | inherited gene
+ANSWER: An adaptation is a change in an organism's structure or behavior that allows it to better survive in its environment.
+
+### 0bba6ae4c3
+Q: If the buoyant force is greater than the force of gravity acting on a ship, what will happen to the ship?
+CORRECT: it will float
+INCORRECT: it will sink | it will bobble | it will explode
+ANSWER: The ship will float.
+
+### 24cac8e1a0
+Q: What branch of science is concerned with matter and the changes that it can undergo?
+CORRECT: chemistry
+INCORRECT: geology | physiology | biology
+ANSWER: Chemistry is the branch of science concerned with matter and the changes it can undergo.
+
+### 334540e2ce
+Q: Paracrine signals move by what method through the extracellular matrix?
+CORRECT: diffusion
+INCORRECT: osmosis | deposition | transfusion
+ANSWER: Paracrine signals move through the extracellular matrix by diffusion.
+
+### 33eae55253
+Q: What green cell structures of a leaf are visible under a high power microscope?
+CORRECT: chloroplasts
+INCORRECT: fibroblasts | golgi apparatus | veins
+ANSWER: Chloroplasts.

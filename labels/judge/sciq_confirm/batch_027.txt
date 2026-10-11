@@ -1,0 +1,245 @@
+### 687bd50ecb
+Q: A fuel cell is a galvanic cell that requires a constant external supply of what?
+CORRECT: reactants
+INCORRECT: generators | electricity | complexes
+ANSWER: A fuel cell is a galvanic cell that requires a constant external supply of electricity, typically in the form of hydrogen gas.
+
+### 7bee6a0a74
+Q: What are the small molecules or proteins produced by bacteria that regulate gene expression?
+CORRECT: autoinducers
+INCORRECT: fluxes | protazoas | sporozoans
+ANSWER: The small molecules or proteins produced by bacteria that regulate gene expression are called Hormones. Specifically, some well-known examples include: 
+
+- Hormone-like proteins (e.g., NADH, FADH2, and CoA) 
+- Hormone-like peptides (e.g., cyclic AMP, cyclic GMP
+
+### 323da48e8c
+Q: What part of the eye allows light to enter?
+CORRECT: pupil
+INCORRECT: eyelid | retina | iris
+ANSWER: The cornea, the transparent outer layer of the eye, allows light to enter by refracting (bending) it and directing it towards the pupil.
+
+### 6a4f38c708
+Q: Atoms of a given _______ are identical in size, mass, and other properties.
+CORRECT: element
+INCORRECT: molecule | organism | function
+ANSWER: Atoms of a given element are identical in size, mass, and other properties.
+
+### 7406a52a1d
+Q: At a synapse, what objects are released to carry a nerve impulse from one neuron to the next?
+CORRECT: neurotransmitters
+INCORRECT: viruses | receptors | microorganisms
+ANSWER: The objects released to carry a nerve impulse from one neuron to the next are called neurotransmitters.
+
+### 948f1497e4
+Q: What is considered a good source of calcium?
+CORRECT: milk
+INCORRECT: wheat | egg | corn
+ANSWER: Good sources of calcium include dairy products (such as milk, cheese, and yogurt), leafy green vegetables (like broccoli, kale, and collard greens), fortified plant-based milk, and some types of tofu and almonds.
+
+### 963e23956b
+Q: The behavior of ideal gases is explained by what theory of gases?
+CORRECT: kinetic molecular theory
+INCORRECT: molecular theory | Charles's Law | kinetic theory
+ANSWER: The behavior of ideal gases is explained by the Kinetic Theory of Gases.
+
+### fd8725aca2
+Q: All types of cells are enclosed by what?
+CORRECT: membrane
+INCORRECT: substrate | cell wall | stoma
+ANSWER: All types of cells are enclosed by the cell membrane, also known as the plasma membrane.
+
+### 6d2889111b
+Q: What do waves deposit to form sandbars and barrier islands?
+CORRECT: sediments
+INCORRECT: magma | organisms | glaciers
+ANSWER: Waves deposit sand and sediment to form sandbars and barrier islands. The sand and sediment are typically deposited in a beach or coastal area, where they accumulate and build up over time, creating the characteristic features of these coastal landforms.
+
+### acb527569a
+Q: Unipolar, bipolar, multipolar, and pseudounipolar are the four basic types of what?
+CORRECT: neurons
+INCORRECT: ions | protons | electrons
+ANSWER: The four basic types of brain hemispheres are the left and right hemispheres of the brain.
+
+### 8959d61fe6
+Q: What structures are at the end of the long air passages in the lungs?
+CORRECT: alveoli
+INCORRECT: Oral Cavity | chloride | Larynx
+ANSWER: The structures at the end of the long air passages in the lungs are called alveoli.
+
+### 3c235ff114
+Q: What do we call a carbohydrate formed by two monosaccharides bonding together?
+CORRECT: disaccharide
+INCORRECT: Nitrate | olivine | calcite
+ANSWER: A carbohydrate formed by two monosaccharides bonding together is called a disaccharide.
+
+### 830ffb3441
+Q: When we were dealing with electrical effects, it was very useful to speak of an electric field that surrounded what?
+CORRECT: electrical charge
+INCORRECT: liquid charge | stellar charge | sunlight charge
+ANSWER: When we were dealing with electrical effects, it was very useful to speak of an electric field that surrounded a conductor, such as a wire.
+
+### 1bdd01599c
+Q: Compound forms when atoms of nonmetals form molecules that are held together by what?
+CORRECT: covalent bonds
+INCORRECT: phenotype bonds | magnetic bonds | dissonance bonds
+ANSWER: The compound forms when atoms of nonmetals (such as oxygen, nitrogen, or fluorine) form molecules that are held together by covalent bonds.
+
+### 84f29ac4aa
+Q: What type of bonds are formed between atoms sharing electrons?
+CORRECT: covalent
+INCORRECT: neutron bonds | hydroxyl | ionic
+ANSWER: The type of bonds formed between atoms sharing electrons is typically covalent bonds.
+
+### 1272572210
+Q: What is the name for the energy waves that radiate out from the center of an earthquake?
+CORRECT: seismic waves
+INCORRECT: deep waves | volcanic waves | particle waves
+ANSWER: The energy waves that radiate out from the center of an earthquake are called seismic waves.
+
+### b9802c30df
+Q: The majority of animals belong to what category, characterized by the lack of a backbone?
+CORRECT: invertebrate
+INCORRECT: vertebrate | nematode | arthropod
+ANSWER: The majority of animals belong to the category called Chordates, characterized by the lack of a backbone.
+
+### 8b6ff5c73e
+Q: Earthquakes cause longitudinal waves as well as which other waves?
+CORRECT: transverse
+INCORRECT: aural | irregular | electromagnetic
+ANSWER: Earthquakes cause longitudinal waves, as well as seismic waves.
+
+### d686d2b39c
+Q: What is the term for groups of cells with a similar appearance and a common function, and describes how cells are organized?
+CORRECT: tissue
+INCORRECT: muscle | heart | kidney
+ANSWER: The term for groups of cells with a similar appearance and a common function, and describes how cells are organized, is a "tissue."
+
+### 918a0bb15a
+Q: What two types of tissue compose most of the non-pregnant and non-lactating female breast?
+CORRECT: adipose and collagenous
+INCORRECT: intestine and collagenous | silicone and collagenous | scar and collagenous
+ANSWER: The two types of tissue that compose most of the non-pregnant and non-lactating female breast are: 
+
+1. Epithelial tissue: This forms the outermost layer of the breast, which is rich in glandular cells that produce milk.
+2. Connective tissue: This provides support and structure to
+
+### f44a43c1e7
+Q: Viruses replicate only in where?
+CORRECT: host cells
+INCORRECT: traitor cells | compromised cells | weak cells
+ANSWER: Viruses replicate only in the cytoplasm of a host cell.
+
+### a66d326a20
+Q: Can nematodes be a parasite of plants, animals, or both?
+CORRECT: both
+INCORRECT: neither | animals | plants
+ANSWER: Nematodes can be a parasite of both plants and animals. They are a type of roundworm that can infect a wide range of organisms, including plants, animals, and even other nematodes.
+
+### 8d5c4f5775
+Q: What type of change is undergone when the physical properties of a substance are changed?
+CORRECT: physical
+INCORRECT: thermal | genetic | atmospheric
+ANSWER: When the physical properties of a substance are changed, a phase change occurs. This can include changes from solid to liquid (melting), liquid to gas (vaporization), or gas to solid (condensation).
+
+### 528a2cd23f
+Q: Wearing personal protective equipment such as goggles and gloves during an experiment is an example of what?
+CORRECT: safety precaution
+INCORRECT: pollution precaution | lab organization | office politics
+ANSWER: Wearing personal protective equipment (PPE) such as goggles and gloves during an experiment is an example of wearing protective gear. This type of equipment is used to protect individuals from physical harm or injury, and is commonly used in laboratory settings to prevent accidents and ensure safety.
+
+### e166cd8342
+Q: Free fatty acids are carboxylic acids that contain long chains of what?
+CORRECT: hydrocarbons
+INCORRECT: vapors | lipds | particles
+ANSWER: I'm not sure, but I'll give a specific answer. Free fatty acids are carboxylic acids that contain long chains of fatty acids.
+
+### 46413dcf48
+Q: Oogenesis, which is gametogenesis in females, begins with what type of ste cells?
+CORRECT: ovarian
+INCORRECT: secretion | digestive | uterian
+ANSWER: Oogenesis, which is gametogenesis in females, begins with primordial germ cells (PGCs), which are a type of stem cell. PGCs are undifferentiated cells that undergo a series of mitotic divisions and differentiation to form the various cell types involved in oogenesis, including the oocyte, follic
+
+### f5204b94b0
+Q: Schrödinger’s approach uses three quantum numbers (n, l, and ml) to specify any of what type of function, associated with a particular energy?
+CORRECT: wave function
+INCORRECT: shift function | green function | rush function
+ANSWER: Schrödinger's approach uses three quantum numbers (n, l, and m_l) to specify a particular orbital type, associated with a particular energy.
+
+### 1df2c75e7e
+Q: Where are pressure receptors mainly found?
+CORRECT: the skin
+INCORRECT: the nerves | the tissue | the muscles
+ANSWER: Pressure receptors are mainly found in the skin, particularly in the dermal papillae, which are small projections on the surface of the skin. They are also found in the mucous membranes, such as those in the nose, throat, and gastrointestinal tract, where they help to detect changes in pressure and stretch.
+
+### 7832441684
+Q: An increase in what levels results in sound waves that are louder and of greater intensity?
+CORRECT: decibel levels
+INCORRECT: radiation levels | height levels | heat levels
+ANSWER: An increase in decibels (dB) results in sound waves that are louder and of greater intensity. Specifically, an increase of 10 dB corresponds to a 10-decibel increase in sound intensity.
+
+### 3c4879e145
+Q: What term, calculated by multiplying heart contractions by stroke volume, means the volume of blood pumped by the heart in one minute?
+CORRECT: cardiac output
+INCORRECT: liver output | respiratory output | blood output
+ANSWER: The term you are referring to is "pulse rate." It is calculated by multiplying heart contractions (beats per minute) by stroke volume (the volume of blood pumped by the heart per beat).
+
+### 8fce231b13
+Q: On how many of the continents do birds live and breed?
+CORRECT: seven
+INCORRECT: three | four | eight
+ANSWER: Birds live and breed on all seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America.
+
+### cfc4efa86a
+Q: An object attached to a spring sliding on a frictionless surface is an uncomplicated type of what device?
+CORRECT: simple harmonic oscillator
+INCORRECT: wheel and axle | pendulum | atomic watch
+ANSWER: An object attached to a spring sliding on a frictionless surface is an uncomplicated type of pendulum.
+
+### ea7eac3753
+Q: What is a body of freshwater that flows downhill in a channel?
+CORRECT: a stream
+INCORRECT: a river | an eddy | a creek
+ANSWER: A body of freshwater that flows downhill in a channel is a river.
+
+### 69d3b1b079
+Q: What are the most successful phylum of plants?
+CORRECT: angiosperms
+INCORRECT: spores | gymnosperms | ferns
+ANSWER: The most successful phylum of plants is the Plantae phylum, which includes around 400,000 species of plants, accounting for approximately 99% of all plant species. This phylum includes major plant groups such as flowering plants (angiosperms), conifers, ferns, and mosses.
+
+### 8342807549
+Q: Matrix is the term for the fluid-filled interior of what structure, where most of the cell’s atp is made?
+CORRECT: mitochondria
+INCORRECT: nucleus | Golgi apparatus | enzyme
+ANSWER: The matrix is the term for the fluid-filled interior of a cell, where most of the cell's ATP is made.
+
+### c57916b863
+Q: What is the name of the system that consists of a hierarchy of taxa, from the kingdom to the species?
+CORRECT: linnaean system
+INCORRECT: Bohr's law | Mendelian system | zoology
+ANSWER: The system that consists of a hierarchy of taxa, from the kingdom to the species, is called the Linnaean system.
+
+### 5b15c29e96
+Q: Which sphincter is located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach?
+CORRECT: gastro-esophageal sphincter
+INCORRECT: pupillary sphincter | pyloric sphincter | urethral sphincter
+ANSWER: The sphincter located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach is the lower esophageal sphincter (LES).
+
+### 722d2c0465
+Q: Besides ingesting and photosynthesis how can protists get their food?
+CORRECT: absorption
+INCORRECT: digestion | accumulation | osmosis
+ANSWER: Besides ingesting and photosynthesis, some protists can obtain their food by capturing and digesting small particles, such as bacteria, or by forming symbiotic relationships with other organisms, like algae or fungi, to obtain nutrients.
+
+### 4194166ad4
+Q: When a species changes in small ways over time, what is it called?
+CORRECT: microevolution
+INCORRECT: nanoevolution | minievolution | small evolution
+ANSWER: When a species changes in small ways over time, it is called a "microevolution."
+
+### f80cb0ff6b
+Q: Like the platypus, the echnida is a what?
+CORRECT: monotreme
+INCORRECT: prosauropod | Gives Live birth | dugongs
+ANSWER: The echinoderm is a type of marine animal that belongs to the phylum Echinodermata, which also includes starfish, sea urchins, and sea cucumbers.

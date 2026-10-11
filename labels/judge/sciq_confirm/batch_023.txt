@@ -1,0 +1,239 @@
+### 8c2c3bd2a1
+Q: What are groups of stars called that are smaller than a galaxy?
+CORRECT: star clusters
+INCORRECT: Milky Way | nebuli | constellations
+ANSWER: Groups of stars that are smaller than a galaxy are called star clusters.
+
+### a845209839
+Q: How frequently do high tides occur?
+CORRECT: every 12 hours
+INCORRECT: Every 96 hours | Every 24 hours | Every 48 hours
+ANSWER: High tides occur approximately twice a day, once at sunrise and once at sunset, due to the gravitational pull of the moon and sun on the Earth's oceans.
+
+### acae99406c
+Q: Where do plants take in air?
+CORRECT: their leaves
+INCORRECT: their flowers | their stems | their roots
+ANSWER: Plants take in air through their roots, specifically through tiny openings called stomata (singular: stoma), which are found on the surface of leaves. These stomata are usually located on the underside of leaves and are responsible for exchanging gases such as oxygen, carbon dioxide, and water vapor.
+
+### 69a5395853
+Q: What are formed when cells from the male and female parts of the plant combine?
+CORRECT: seeds
+INCORRECT: varieties | trees | atoms.
+ANSWER: The combination of cells from the male and female parts of a plant is known as gametophyte, and the resulting organism is a spore. In plants, the gametophyte is typically the smaller, more immature form of the plant, while the sporophyte is the larger, more mature form.
+
+### bd9f25ae57
+Q: What is the study of how forces affect the motion of objects?
+CORRECT: dynamics
+INCORRECT: behaviors | acceleration | kinematics
+ANSWER: The study of how forces affect the motion of objects is known as Dynamics.
+
+### 5c5d9def4b
+Q: Exemplified by sea stars and sand dollars, echinoderms have a calcareous structure developed by pigment cells and made of ossicles, which is called what?
+CORRECT: endoskeleton
+INCORRECT: hydrostatic skeleton | exoskeleton | thorax
+ANSWER: The calcareous structure developed by pigment cells in echinoderms is called calcitriol.
+
+### 58d54773e9
+Q: What chemical signals in plants control different processes?
+CORRECT: plant hormones
+INCORRECT: produce hormones | nitrogen hormones | Human Hormones
+ANSWER: The primary chemical signals in plants that control different processes include hormones such as auxins, gibberellins, cytokinins, ethylene, and abscisic acid, which regulate growth, development, and responses to environmental stimuli. These hormones also play key roles in photoperiodism (day length), flowering
+
+### b9025e936b
+Q: What broad group of animals are the first true tetrapods, vertebrates with four limbs?
+CORRECT: amphibians
+INCORRECT: fish | reptiles | mammals
+ANSWER: The first true tetrapods are the amphibians, specifically the group called tetrapods, which are vertebrates with four limbs. The earliest known tetrapod-like animals are the temnospondyls, which date back to the Carboniferous period, around 320 million years ago.
+
+### 4ea4aa090d
+Q: What is the purpose of bright colors on a flower's petals?
+CORRECT: to attract pollinators
+INCORRECT: to distract predators | to absorb light | to attract a mate
+ANSWER: The purpose of bright colors on a flower's petals is to attract pollinators, such as bees, butterflies, and hummingbirds, which are essential for the reproduction of the plant. The colors serve as a visual signal to these pollinators, guiding them to the flower and increasing the chances of successful pollination.
+
+### 7c1eadee7b
+Q: What is the separation of ions that occurs when a solid ionic compound dissolves?
+CORRECT: dissociation
+INCORRECT: combustion | decomposition | inflammation
+ANSWER: The separation of ions that occurs when a solid ionic compound dissolves is called dissociation.
+
+### 7171d51cc5
+Q: What is the name of the process in which the nuclei of uranium atoms are split?
+CORRECT: nuclear fission
+INCORRECT: critical fission | atomic fusion | nuclear fusion
+ANSWER: The process in which the nuclei of uranium atoms are split is called Nuclear Fission.
+
+### 62238220d5
+Q: A vector is an organism that carries what disease-causing microorganisms from one person or animal to another?
+CORRECT: pathogen
+INCORRECT: microbe | microbe | genome
+ANSWER: A vector is an organism that carries disease-causing microorganisms, such as ticks, mosquitoes, or fleas, from one person or animal to another.
+
+### 4026b4d755
+Q: Ac is better than dc for doing what?
+CORRECT: transporting electrcal energy
+INCORRECT: cooking electrcal energy | storing electrical energy | stopping electrical ebergy
+ANSWER: Ac is better than DC for generating electricity because it is a more efficient way to convert mechanical energy into electrical energy, with an efficiency of around 90% compared to DC's 20-30%.
+
+### f793cde793
+Q: The nervous system has two main parts, called the central nervous system and the what?
+CORRECT: peripheral nervous system
+INCORRECT: functional nervious system | useful nervous system | obsolete nervous system
+ANSWER: The nervous system has two main parts: the central nervous system (CNS) and the peripheral nervous system (PNS).
+
+### 72a0d7fce0
+Q: Spongy bone is found inside bones and is lighter and less dense than compact bone because it is what?
+CORRECT: porous
+INCORRECT: amorphous | pliable | fibrous
+ANSWER: Spongy bone is found inside bones and is lighter and less dense than compact bone because it is composed of a network of trabeculae, which are small, irregularly-shaped bones that provide structural support and allow for greater flexibility.
+
+### 84c553c04f
+Q: Animals are classified according to morphological and developmental characteristics, such as a body plan. with the exception of sponges, the animal body plan is symmetrical. this means that their distribution of body parts is balanced along this?
+CORRECT: axis
+INCORRECT: skull | radius | ulna
+ANSWER: The distribution of body parts is balanced along the midline of the animal's body plan, which is the axis around which the body is symmetrical.
+
+### cc0a872f2c
+Q: The ionic end of a detergent can either be a sulfate or what?
+CORRECT: sulfonate
+INCORRECT: molecule | calcite | phosphate
+ANSWER: The ionic end of a detergent can either be a sulfate or an oxide.
+
+### d2b32449a4
+Q: Vivipary refers to the development and nourishment of a what?
+CORRECT: embryo
+INCORRECT: seed | egg | nucleus
+ANSWER: Vivipary refers to the development and nourishment of a young animal, specifically the development of a fetus or embryo that is nourished by its mother's body.
+
+### 2ed15f145d
+Q: What happens to the pressure when more gas is added to a rigid container?
+CORRECT: increases
+INCORRECT: occurs | changes | Higher
+ANSWER: When more gas is added to a rigid container, the pressure inside the container increases. This is because the added gas molecules exert an upward force on the container walls, causing the pressure to rise.
+
+### b5c8da3017
+Q: What type of cell function relies on microfilaments, which are the actin components of the cytoskeleton?
+CORRECT: muscle
+INCORRECT: neurons | skin cells | nephrons
+ANSWER: Microfilaments, which are actin components of the cytoskeleton, are primarily involved in cell functions such as muscle contraction, cell migration, and cell division. They also play a role in cell signaling and the regulation of cell shape and movement.
+
+### e466b67b79
+Q: What are the two components of all solutions?
+CORRECT: solute and solvent
+INCORRECT: sodium and solvent | solute and cytosol | concentration and solvent
+ANSWER: The two components of all solutions are the solute and the solvent.
+
+### 9f7238c956
+Q: Two smaller isotopes, more neutrons, and heat energy are the products of what type of reaction?
+CORRECT: fission
+INCORRECT: Reaction | diffusion | fusion
+ANSWER: I'm not sure about the specific type of reaction, but I can tell you that the products mentioned (two smaller isotopes, more neutrons, and heat energy) are characteristic of a nuclear fission reaction.
+
+### efe2f130d2
+Q: What are fungi which feed on living cells called?
+CORRECT: parasitic
+INCORRECT: static | predatory | symbiotic
+ANSWER: Fungi that feed on living cells are called saprotrophs.
+
+### 8529dc4b08
+Q: An increase in the number of gas molecules in the same volume container causes what to increase?
+CORRECT: pressure
+INCORRECT: friction | energy | power
+ANSWER: An increase in the number of gas molecules in the same volume container causes pressure to increase.
+
+### ed0fb79b33
+Q: What are classified by climatic factors and types of primary producers?
+CORRECT: terrestrial biomes
+INCORRECT: equivalent biomes | old biomes | fossil biomes
+ANSWER: Primary producers are classified by climatic factors as those that require a lot of sunlight (e.g. tropical regions) or those that require a lot of shade (e.g. temperate regions), and by types as those that are aquatic (e.g. phytoplankton) or those that are terrestrial (e.g
+
+### 4c37011fae
+Q: What does pepsin help break down into amino acids?
+CORRECT: proteins
+INCORRECT: glucose | carbohydrates | fats
+ANSWER: Pepsin is an enzyme that helps break down proteins into smaller amino acids, particularly in the stomach, where it plays a key role in protein digestion. It specifically hydrolyzes peptide bonds in proteins, releasing individual amino acids.
+
+### 2cbff56e8a
+Q: Angiosperm seed develops inside of what?
+CORRECT: an ovary
+INCORRECT: fallopian tubes | a kidney | the pancreas
+ANSWER: Angiosperm seed develops inside of an ovary in a flower.
+
+### 00c112342a
+Q: Ants, termites, bees, and wasps live in what type of social structure that may include millions of individual insects?
+CORRECT: colony
+INCORRECT: family | habitat | community
+ANSWER: Ants, termites, bees, and wasps live in a social structure known as a "colonial" or "matriarchal" society, which typically includes millions of individual insects, with a single queen ant, thousands of worker ants, and a few hundred to a few thousand drones. This complex social
+
+### 3ad0604242
+Q: What is the si unit for weight?
+CORRECT: newton (n)
+INCORRECT: kilograms (kg) | meters (m) | pounds (lbs)
+ANSWER: The SI unit for weight is the kilogram (kg).
+
+### 46a60eb626
+Q: What is the name of the first stage of photosynthesis?
+CORRECT: light reactions
+INCORRECT: consumption | absorption | contamination
+ANSWER: The first stage of photosynthesis is known as the light-dependent reactions, also referred to as the light-harvesting reactions. In this stage, light energy is absorbed by pigments such as chlorophyll and converted into ATP and NADPH.
+
+### e09c5e73e4
+Q: The simplest organic compounds are known as what?
+CORRECT: hydrocarbons
+INCORRECT: amino acids | carbohydrates | nucleotides
+ANSWER: The simplest organic compounds are known as alkanes.
+
+### 7df6f5831e
+Q: Mitosis actually occurs in how many phases?
+CORRECT: four
+INCORRECT: Seven | six | two
+ANSWER: Mitosis occurs in 3 phases: prophase, metaphase, and anaphase.
+
+### 86f2bd500f
+Q: What is the space between a neuron and the next cell?
+CORRECT: the synapse
+INCORRECT: neurotransmitter passage | dendritic gap | cell divide
+ANSWER: The space between a neuron and the next cell is called the synapse.
+
+### 1adee0b7a4
+Q: What term is used to describe  the variety of life and its processes, including the variety of living organisms, the genetic differences among them, and the communities and ecosystems in which they occur?
+CORRECT: biodiversity
+INCORRECT: biosphere | habitat | evolution
+ANSWER: The term used to describe the variety of life and its processes is "ecology."
+
+### 39bf41299f
+Q: What type of mirror is shaped like the outside of a bowl?
+CORRECT: convex
+INCORRECT: slope | concave | vertex
+ANSWER: The type of mirror that is shaped like the outside of a bowl is called a "bowl mirror."
+
+### 7277aaef87
+Q: Where on a jellyfish is the mouth opening located?
+CORRECT: underside
+INCORRECT: left side | right side | top
+ANSWER: The mouth opening of a jellyfish is located on the underside of the bell, near the center, and is used for capturing and digesting small prey.
+
+### da9facf53d
+Q: What is the physical transformation of an insect moving through stages of life?
+CORRECT: metamorphosis
+INCORRECT: Transition | Growth and Development | parthenogenesis
+ANSWER: The physical transformation of an insect moving through stages of life involves a series of distinct physical changes, including metamorphosis, molting, and hatching. During metamorphosis, the insect's body breaks down and is reorganized into a new form, such as a butterfly or moth, which includes the development of wings
+
+### bd51d01bbb
+Q: In most fungi, the haploid nuclei contributed by each parent do not do what right away?
+CORRECT: fuse
+INCORRECT: filter | disperse | vaporize
+ANSWER: In most fungi, the haploid nuclei contributed by each parent do not immediately fuse together to form a diploid zygote, but rather remain separate and undergo meiosis to produce haploid spores.
+
+### 00a9df70c9
+Q: When liquid water changes to water vapor it is called?
+CORRECT: evaporation
+INCORRECT: absorption | transpiration | evaporation
+ANSWER: When liquid water changes to water vapor, it is called evaporation.
+
+### be12212f69
+Q: A rock that contains important minerals is called what, a term associated with mining?
+CORRECT: ore
+INCORRECT: jewel | coal | gem
+ANSWER: A rock that contains important minerals is called a "mineral deposit."

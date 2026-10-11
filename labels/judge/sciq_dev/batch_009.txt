@@ -1,0 +1,242 @@
+### d350107e82
+Q: How many types of basic sensory receptors are there?
+CORRECT: five
+INCORRECT: five | six | four
+ANSWER: There are approximately 4-6 basic types of sensory receptors, which are responsible for detecting different types of stimuli such as light, sound, touch, temperature, and chemicals. The four main types of basic sensory receptors are: 
+
+1. Rod cells (detect light and color)
+2. Cone cells (detect color and
+
+### 3b788d043a
+Q: What type of eclipse happens when a full moon moves through earth's shadow?
+CORRECT: lunar
+INCORRECT: cycle | solar | planetary
+ANSWER: When a full moon moves through Earth's shadow, it is called a lunar eclipse.
+
+### 818629269e
+Q: What is the term for the ability of an atom to emit, or give off, charged particles and energy from its nucleus?
+CORRECT: radioactivity
+INCORRECT: magnetism | electrical attraction | conductivity
+ANSWER: The term for the ability of an atom to emit, or give off, charged particles and energy from its nucleus is radioactivity.
+
+### 23d589806a
+Q: The right and left hip bones, with the addition of the sacrum and coccyx form what section of the skeleton?
+CORRECT: pelvis
+INCORRECT: necklash | tail bone | uterus
+ANSWER: The right and left hip bones, with the addition of the sacrum and coccyx, form the pelvis.
+
+### 3107df7f72
+Q: What is the most important source of electromagnetic waves on earth?
+CORRECT: the sun
+INCORRECT: clouds | the ocean | the moon
+ANSWER: The most important source of electromagnetic waves on Earth is the Sun, which emits approximately 1.3 x 10^26 watts of electromagnetic radiation per second, making it the primary source of electromagnetic energy on our planet.
+
+### 324f829d32
+Q: A sealed, vacuum-insulated reaction flask approximates what condition, in which neither matter nor heat can be exchanged between system and surroundings?
+CORRECT: isolated system
+INCORRECT: shared system | changing system | sure system
+ANSWER: The sealed, vacuum-insulated reaction flask approximates a thermodynamic equilibrium condition, in which neither matter nor heat can be exchanged between the system and the surroundings.
+
+### 738a92ae63
+Q: A vapor light produces visible light by what process?
+CORRECT: electroluminescence
+INCORRECT: solutes | luminescent | Solar Energy
+ANSWER: A vapor light produces visible light by a process called incandescence, where the heated vapor emits light as it rapidly expands and cools.
+
+### 3bae6d55f2
+Q: What is the general name for a group of atoms derived from an alkane?
+CORRECT: alkyl group
+INCORRECT: anode group | oxidation group | acid group
+ANSWER: The general name for a group of atoms derived from an alkane is a molecule of the alkane's parent compound, such as methane (CH4), ethane (C2H6), or propane (C3H8).
+
+### 00db926ecf
+Q: The sex of developing crocodilians is determined by what during incubation?
+CORRECT: the temperature of the eggs
+INCORRECT: the color of the eggs | the size of the eggs | the location of the eggs
+ANSWER: The sex of developing crocodilians is determined by the presence or absence of the sex chromosomes, X and Y, during incubation. In most species of crocodilians, the presence of the Y chromosome leads to the development of males, while the absence of the Y chromosome leads to the development of females.
+
+### 6539d54e2d
+Q: What is a large molecule with many repeating units?
+CORRECT: polymer
+INCORRECT: cells | supermolecule | plasma
+ANSWER: A large molecule with many repeating units is a polymer.
+
+### 712693b6f5
+Q: How many families are known quarks divided into?
+CORRECT: three
+INCORRECT: two | five | four
+ANSWER: The three known types of quarks are: up (u), down (d), and strange (s).
+
+### ed2304c35c
+Q: Radiation, chemicals, and infectious agents are examples of what?
+CORRECT: mutagens
+INCORRECT: inhibitors | catalysts | pathogens
+ANSWER: They are examples of biohazards.
+
+### fe23793d9a
+Q: What is the term for the force that a magnet exerts on certain materials?
+CORRECT: magnetic force
+INCORRECT: positive force | gravitational force | potential force
+ANSWER: The term for the force that a magnet exerts on certain materials is magnetism.
+
+### bdd4fae867
+Q: Hydrophilic molecules generally avoid what other kinds of molecules?
+CORRECT: hydrophobic
+INCORRECT: aqueous | lipophilic | neutral
+ANSWER: Hydrophilic molecules generally avoid non-polar molecules.
+
+### be9d14982d
+Q: How do prokaryotic cells divide?
+CORRECT: binary fission
+INCORRECT: Fusion | function fission | multiple fission
+ANSWER: Prokaryotic cells, such as bacteria, divide by a process called binary fission, where the cell's DNA is replicated, and then the cell splits into two identical daughter cells. Each daughter cell receives a complete set of chromosomes, and the cell's cell wall and membrane are replicated along with the DNA.
+
+### 89c1e29e5c
+Q: Where are liverworts most often found?
+CORRECT: along stream beds
+INCORRECT: in the ocean | on mountains | in deserts
+ANSWER: Liverworts are most often found in damp, shaded areas with high humidity, such as in forests, grasslands, and near water sources, typically in temperate regions around the world. They can also be found in a variety of aquatic environments, including ponds, lakes, and slow-moving streams.
+
+### b37d57c403
+Q: Cnidarians are an example of organisms that possess a simple type of what system, used for sensing touch?
+CORRECT: nervous system
+INCORRECT: circulatory system | lymphatic system | bacterial system
+ANSWER: Cnidarians, such as jellyfish and corals, possess a simple type of sensory system called the statocyst, which is used for sensing touch and maintaining balance.
+
+### f4b8edf932
+Q: Population size is the number of what in a population?
+CORRECT: individuals
+INCORRECT: humans | subdivisions | proteins
+ANSWER: Population size is the total number of individuals of a particular species or group of organisms living in a given area at a specific time.
+
+### 0c42bff019
+Q: What term means the set of processes by which metals are extracted from their ores and converted to more useful forms?
+CORRECT: metallurgy
+INCORRECT: metamorphisis | introversion | ceramics
+ANSWER: The term that means the set of processes by which metals are extracted from their ores and converted to more useful forms is "mineral processing".
+
+### 9faf579eab
+Q: In the u. s. , the majority of electricity is produced by burning coal or what else?
+CORRECT: fossil fuels
+INCORRECT: hydroelectic | solar | wind power
+ANSWER: The majority of electricity in the U.S. is produced by burning natural gas.
+
+### 46c6b80f8d
+Q: Non-human organisms that mainly consume plants/other primary producers are known as what?
+CORRECT: herbivores
+INCORRECT: amphibians | carnivores | omnivores
+ANSWER: Insects, spiders, and other arthropods are known as herbivores, while animals that mainly consume plants are known as carnivores.
+
+### faf5c4639a
+Q: Without particles, water vapor could not do what?
+CORRECT: condense
+INCORRECT: dissipate | dilute | evaporate
+ANSWER: Without particles, water vapor could not condense into liquid water. In its gaseous state, water vapor is a mixture of water molecules (H2O) that are in constant motion, but as it cools, these molecules slow down and come together to form droplets, eventually turning back into liquid water.
+
+### f86224c21f
+Q: The overall voltage of the battery is therefore the sum of ________ of the individual cells.
+CORRECT: voltages
+INCORRECT: currents | resistances | weights
+ANSWER: The overall voltage of the battery is therefore the sum of the individual cell voltages.
+
+### 901e9b5a17
+Q: Which is a more reliable trait or measure to identify minerals?
+CORRECT: streak
+INCORRECT: color | shape | weight
+ANSWER: In general, a more reliable trait or measure to identify minerals is their chemical composition, specifically their crystal structure and the presence of specific ions or elements. This is because the chemical composition of a mineral is a unique characteristic that can be determined through various analytical methods, such as X-ray diffraction or inductively coupled plasma
+
+### 60aaa908b4
+Q: In the inner ear, the vibrations are changed to electrical signals by hair cells lining what?
+CORRECT: the cochlea
+INCORRECT: ear canal | hammer | ear lobe
+ANSWER: The inner ear, specifically the cochlea, is lined with hair cells that convert vibrations into electrical signals. These hair cells are embedded in a gel-like substance called the endolymph, which is unique to the inner ear.
+
+### 7de210af8c
+Q: What is the the process by which remains or traces of living things become fossils called?
+CORRECT: fossilization
+INCORRECT: extirpation | gentrification | fasciculation
+ANSWER: The process by which remains or traces of living things become fossils is called permineralization.
+
+### dae2d2466f
+Q: What is the middle layer of connective tissue called?
+CORRECT: perimysium
+INCORRECT: tendon | xerophyte | pollenation
+ANSWER: The middle layer of connective tissue is called the reticular layer.
+
+### 02e3a6c6ba
+Q: What lines the passages of the nose and senses chemicals in the air?
+CORRECT: odor receptors
+INCORRECT: matter receptors | consumption receptors | optic receptors
+ANSWER: The passages of the nose that filter and process chemical particles in the air are called the nasal mucosa, and the chemical particles are filtered out by the olfactory epithelium, which is located in the nasal cavity.
+
+### b3f0eaec32
+Q: Melting ice is drastically impacting the number of what at glacier national park?
+CORRECT: active glaciers
+INCORRECT: gaisers | trees | icebergs
+ANSWER: Melting ice at Glacier National Park is drastically impacting the number of wildlife, specifically the grizzly bears, due to the reduced habitat and food sources.
+
+### 86f122c6d1
+Q: Ecological succession refers to the change in the numbers and types of species that live in what groups?
+CORRECT: communities
+INCORRECT: movements | colonies | biomes
+ANSWER: Ecological succession refers to the change in the numbers and types of species that live in a specific area over time, typically from a disturbed or degraded state to a more stable and mature state.
+
+### 4c9efcf43f
+Q: What phase does the cell make final preparations to divide?
+CORRECT: growth phase 2
+INCORRECT: growth phase 1 | carbonate phase 2 | dioxide phase 2
+ANSWER: The cell makes final preparations to divide in the **prophase** phase of the cell cycle.
+
+### bd640a024c
+Q: Oxygen is an element in what form of matter?
+CORRECT: gas
+INCORRECT: liquid | solid | plasma
+ANSWER: Oxygen is a gas.
+
+### bc7e70a4f1
+Q: Where does the energy produced by plants come from?
+CORRECT: sunlight
+INCORRECT: groundwater | animals | evaporation
+ANSWER: The energy produced by plants comes from the sun's energy through a process called photosynthesis, where they convert carbon dioxide and water into glucose and oxygen using sunlight as an energy source. This process is also known as the Calvin cycle.
+
+### af5ca4d5b0
+Q: Control of the body can be somatic or autonomic, offering one way to divide what organ system by function?
+CORRECT: nervous system
+INCORRECT: cardiovascular system | circulatory system | central system
+ANSWER: The somatic nervous system and the autonomic nervous system can be divided by function, with the somatic nervous system controlling voluntary movements and the autonomic nervous system controlling involuntary functions such as heart rate, digestion, and breathing.
+
+### df7ed93c70
+Q: What form of reproduction creates offspring that are genetically identical to the parent?
+CORRECT: asexual
+INCORRECT: microscopic | primitive | sexual
+ANSWER: Self-fertilization, also known as self-pollination, is the form of reproduction that creates offspring that are genetically identical to the parent. This occurs when an individual produces seeds or fruits that contain only one set of genetic material, resulting in offspring that are genetically identical to the parent.
+
+### 170e67d169
+Q: Nephrons, renal tubules and the loop of henle are part of the process of blood filtration by what organs?
+CORRECT: kidneys
+INCORRECT: bladder | lungs | liver
+ANSWER: The kidneys are the organs that filter blood and perform blood filtration, and they consist of nephrons, renal tubules, and the loop of Henle.
+
+### 55a1dbce9e
+Q: Biological features from a common evolutionary origin are known as what?
+CORRECT: homologous
+INCORRECT: monologous | heterologous | analogous
+ANSWER: Biological features from a common evolutionary origin are known as homologues.
+
+### 2f85344bb5
+Q: What does a continuous string of earthquakes indicate about a volcano?
+CORRECT: eruption is close
+INCORRECT: extinction is close | it is cooling down | it is heating up
+ANSWER: A continuous string of earthquakes typically indicates that magma is moving beneath the volcano, often indicating a more active or unstable volcanic system. This can be a sign of a potentially larger eruption or a more significant volcanic event.
+
+### 986c741d86
+Q: What type of map reveals the shape of a landscape?
+CORRECT: topographic
+INCORRECT: meteorological | geologic | geographic
+ANSWER: A topographic map reveals the shape of a landscape by showing the elevation and relief of the land, including the contours, valleys, and other geographical features.
+
+### fcdb56e585
+Q: What evolutionary process has adapted protonephridia to different tasks in different environments?
+CORRECT: natural selection
+INCORRECT: natural reproduction | natural variety | natural change
+ANSWER: Protonephridia, a type of body structure found in some invertebrates, have evolved to adapt to different tasks in different environments through the process of convergent evolution. This means that protonephridia have developed similar body structures to perform similar functions in different species, such as in aquatic or terrestrial environments

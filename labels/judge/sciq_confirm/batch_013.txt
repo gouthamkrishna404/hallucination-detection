@@ -1,0 +1,239 @@
+### f6011a3b5b
+Q: What is most energy that is lost to the environment lost as?
+CORRECT: heat
+INCORRECT: gravity | vapor | precipitation
+ANSWER: Most energy lost to the environment is lost as heat.
+
+### 3825972ea0
+Q: Exons are cut out before what leaves the nucleus?
+CORRECT: mrna
+INCORRECT: gene | dna | rna
+ANSWER: Exons are cut out before mRNA leaves the nucleus.
+
+### fb7b1e1fab
+Q: Skyscrapers and other large structures built on soft ground must be anchored to what, located below the ground surface?
+CORRECT: bedrock
+INCORRECT: ocean floor | groundwater | water table
+ANSWER: Skyscrapers and other large structures built on soft ground must be anchored to piles, located below the ground surface.
+
+### ae85d83fe5
+Q: Prophase is preceded by a preprophase stage in what type of cells?
+CORRECT: plant cells
+INCORRECT: brain cells | hair and nail cells | egg cells
+ANSWER: Prophase is preceded by a preprophase stage in eukaryotic cells.
+
+### b9ec83fdbb
+Q: Bees, wasps, ants, butterflies, moths, flies and beetles belong to what animal phylum?
+CORRECT: arthropods
+INCORRECT: insects | crustaceans | cephalopods
+ANSWER: Insect.
+
+### cf4831c081
+Q: What can we learn about a wave by finding the product of the wavelength and frequency?
+CORRECT: speed
+INCORRECT: decibels | volume | type
+ANSWER: The product of the wavelength and frequency of a wave is equal to its speed.
+
+### 4218d2c467
+Q: All biochemical molecules have oxygen, carbon, and what other element?
+CORRECT: hydrogen
+INCORRECT: helium | nitrogen | calcium
+ANSWER: All biochemical molecules have oxygen, carbon, and hydrogen.
+
+### 4098ad4b9d
+Q: What structures are at the end of the long air passages in the lungs?
+CORRECT: alveoli
+INCORRECT: Oral Cavity | chloride | Larynx
+ANSWER: The structures at the end of the long air passages in the lungs are the alveoli.
+
+### 3a0953bb79
+Q: How do animals obtain nitrogen?
+CORRECT: eating plants or organisms
+INCORRECT: eating plants or sediments | eating plants other animals | eating plants or bugs
+ANSWER: Animals obtain nitrogen through the consumption of plants or other animals that have absorbed nitrogen from the environment.
+
+### 23e244c880
+Q: What kind of waves are used in radar guns?
+CORRECT: microwaves
+INCORRECT: x-rays | WIFI | radio waves
+ANSWER: Radar guns use microwaves to measure the speed of moving vehicles.
+
+### 083022ca21
+Q: When the earth is between the moon and the sun, what type of moon shows?
+CORRECT: a full moon
+INCORRECT: waning moon | half moon | crescent moon
+ANSWER: A lunar eclipse occurs when the Earth is between the Sun and the Moon.
+
+### b9a489a099
+Q: What contains positive protons and neutral neutrons?
+CORRECT: nucleus
+INCORRECT: electrons | ions | epidermis
+ANSWER: An atom contains positive protons and neutral neutrons.
+
+### 6be9e8da73
+Q: The bilaterians are divided into deuterostomes and what else?
+CORRECT: protostomes
+INCORRECT: protozoa | progestins | gymnosperms
+ANSWER: The bilaterians are divided into deuterostomes and protostomes.
+
+### 97025012d1
+Q: What term, calculated by multiplying heart contractions by stroke volume, means the volume of blood pumped by the heart in one minute?
+CORRECT: cardiac output
+INCORRECT: liver output | respiratory output | blood output
+ANSWER: The term is called cardiac output.
+
+### 9e9dfc6b80
+Q: Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as what?
+CORRECT: embryos
+INCORRECT: chromosomes | hormones | cells
+ANSWER: Invertebrates and higher animals can be placed in one of two groups based on how they develop as embryos.
+
+### f4ccc59822
+Q: The concentration of the hydrogen ion in a solution can be calculated when what is known?
+CORRECT: ph
+INCORRECT: temperature | velocity | pressure
+ANSWER: The concentration of the hydrogen ion in a solution can be calculated when the pH of the solution is known.
+
+### 84a1234e2c
+Q: Mitosis actually occurs in how many phases?
+CORRECT: four
+INCORRECT: Seven | six | two
+ANSWER: Mitosis occurs in four phases: prophase, metaphase, anaphase, and telophase.
+
+### c1b6dc3223
+Q: What is the difference between oils and fats at room temperature?
+CORRECT: liquid and solid states
+INCORRECT: solid and gas states | saturated and unsaturated | liquid and gas states
+ANSWER: Oils and fats differ in their melting points; oils are liquid at room temperature, while fats are solid.
+
+### 2198d2efce
+Q: The amount of heat required to raise a single mass unit of a substance by a single temperature unit is known as what?
+CORRECT: specific heat
+INCORRECT: temperature variation | specific gravity | solitary heat
+ANSWER: The specific heat capacity of a substance.
+
+### 8a7103b612
+Q: What three parts is the earth divided into?
+CORRECT: crust, mantle, core
+INCORRECT: crust, core, magma | oceans, land, air | troposphere, atomosphere, xerosphere
+ANSWER: The Earth is divided into three main parts: the crust, the mantle, and the core.
+
+### 1f8d4343b7
+Q: Pure carbon can exist in different forms, depending on how its atoms are arranged. the forms include diamond, graphite, and what else?
+CORRECT: fullerenes
+INCORRECT: calcites | lead | ligands
+ANSWER: The other form of pure carbon is known as graphene.
+
+### d8f604b327
+Q: What system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex?
+CORRECT: vestibular system
+INCORRECT: vasculature system | ventrical system | lipids system
+ANSWER: The reticular activating system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.
+
+### cf182a9fce
+Q: What kind of a process is corrosion?
+CORRECT: galvanic
+INCORRECT: electrolysis | oxidation | electromagnetic
+ANSWER: Corrosion is a chemical process involving the deterioration of materials due to chemical reactions with their environment.
+
+### 8582b13f18
+Q: What is a structure that is composed of one or more types of tissues?
+CORRECT: organ
+INCORRECT: system | muscle | node
+ANSWER: A structure composed of one or more types of tissues is called an organ.
+
+### bf99d7ce59
+Q: Which has a higher metabolic rate, a mouse or an elephant?
+CORRECT: mouse
+INCORRECT: rat | rabbit | elephant
+ANSWER: An elephant has a higher metabolic rate than a mouse.
+
+### bf5e6a9bf0
+Q: What is a thin membrane stretched tight across the end of the ear canal that vibrates when sound waves strike it?
+CORRECT: eardrum
+INCORRECT: earlobe | cerebrum | auricle
+ANSWER: The eardrum is a thin membrane stretched tight across the end of the ear canal that vibrates when sound waves strike it.
+
+### e8971f49c6
+Q: What are the two terms that designate how well aqueous solutions conduct electricity?
+CORRECT: polar and nonpolar
+INCORRECT: secular and nonpolar | filter and nonpolar | hot and nonpolar
+ANSWER: The two terms that designate how well aqueous solutions conduct electricity are molarity and conductivity.
+
+### 6a611ba2ec
+Q: A cochlear implant aims to restore loss of what sense?
+CORRECT: hearing
+INCORRECT: vision | touch | taste
+ANSWER: A cochlear implant aims to restore loss of hearing.
+
+### 765e3c91bd
+Q: Most diplomonads and parabasalids are found in what kind of environment?
+CORRECT: anaerobic
+INCORRECT: acidic | enzymatic | skeletal
+ANSWER: Most diplomonads and parabasalids are found in aquatic environments.
+
+### 1b1d96269f
+Q: Most of the fresh water on earth is tied up in a solid form. what are they called?
+CORRECT: glaciers
+INCORRECT: sediments | lakes | oceans
+ANSWER: Most of the fresh water on Earth is tied up in ice and glaciers.
+
+### a5bd696bb0
+Q: What type of behaviors are rigid and predictable, and usually involve basic life functions?
+CORRECT: innate behaviors
+INCORRECT: diverse behaviors | protective behaviors | impulsive behaviors
+ANSWER: These behaviors are typically classified as reflex actions or involuntary responses.
+
+### a4963d4292
+Q: What formula  shows only the kinds and numbers of atoms in a molecule?
+CORRECT: molecular formula
+INCORRECT: plasma formula | atomic formula | nucleus formula
+ANSWER: The formula that shows only the kinds and numbers of atoms in a molecule is the molecular formula.
+
+### 70af7cce94
+Q: What type of telescopes collect and focus radio waves from distant objects?
+CORRECT: radio telescopes
+INCORRECT: reflecting telescopes | refracting telescopes | space telescopes
+ANSWER: Radio telescopes collect and focus radio waves from distant objects.
+
+### 4b42b1a653
+Q: In which constellation is the helix nebula located?
+CORRECT: aquarius
+INCORRECT: prometheus | zodiac | gemini
+ANSWER: The Helix Nebula is located in the constellation Aquarius.
+
+### ed5a6aa4e5
+Q: Bigger ocean waves and waves that carry more sediment cause a greater extent of what?
+CORRECT: erosion
+INCORRECT: drowning | silt | sand dunes
+ANSWER: Bigger ocean waves and waves that carry more sediment cause a greater extent of erosion.
+
+### 328fca672f
+Q: What happens to water when it freezes?
+CORRECT: it expands
+INCORRECT: changes to gas | it shrinks | changes volume
+ANSWER: Water freezes into ice, which has a lower density than liquid water, and expands.
+
+### 62364333d0
+Q: Matrix is the term for the fluid-filled interior of what structure, where most of the cell’s atp is made?
+CORRECT: mitochondria
+INCORRECT: nucleus | Golgi apparatus | enzyme
+ANSWER: The matrix is the fluid-filled interior of a cell, where most of the cell's ATP is made.
+
+### 0cf98791f8
+Q: A fever also causes the immune system to make more of what?
+CORRECT: white blood cells
+INCORRECT: insulin | red blood cells | urea
+ANSWER: A fever also causes the immune system to make more white blood cells.
+
+### 25491c660e
+Q: What is the broadest category in the linnaean system?
+CORRECT: kingdom
+INCORRECT: phylum | class | domain
+ANSWER: The broadest category in the Linnaean system is Kingdom.
+
+### a385fae0a8
+Q: When compared to anaerobic respiration, what does aerobic respiration release more of?
+CORRECT: energy
+INCORRECT: heat | carbon dioxide | pressure
+ANSWER: Aerobic respiration releases more energy per molecule of glucose compared to anaerobic respiration.

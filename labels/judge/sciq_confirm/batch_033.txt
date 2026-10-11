@@ -1,0 +1,239 @@
+### 1b69e01644
+Q: What causes cells to divide if cytokinins are added to it?
+CORRECT: auxin
+INCORRECT: osmosis | apoptosis | hyptoxin
+ANSWER: Cytokinins cause cells to divide by activating the cell cycle, which is a series of events that lead to cell division. Specifically, cytokinins bind to specific receptors on the cell surface, triggering a signaling cascade that ultimately leads to the activation of the cell cycle checkpoints, allowing cells to enter the S phase of
+
+### 28fb694902
+Q: What regulates the time of flowering in many species?
+CORRECT: photoperiodism
+INCORRECT: wind patterns | spirogyra | pollenation
+ANSWER: The time of flowering in many species is regulated by a combination of genetic and environmental factors, but the most well-known regulator is the circadian rhythm, which is controlled by a group of genes called PERs (periods) and RORs (receptors). These genes are expressed in a circadian pattern, with
+
+### 190aaae9e7
+Q: What happens to water when it freezes?
+CORRECT: it expands
+INCORRECT: changes to gas | it shrinks | changes volume
+ANSWER: When water freezes, it turns into ice. This process is known as crystallization, and it occurs when the temperature of the water drops below its freezing point of 0°C (32°F).
+
+### afe2675d09
+Q: Exons are cut out before what leaves the nucleus?
+CORRECT: mrna
+INCORRECT: gene | dna | rna
+ANSWER: Exons are cut out before messenger RNA (mRNA) leaves the nucleus.
+
+### bf56dab847
+Q: Most hybrids are sterile because what genetic structures are not homologous and cannot pair during meiosis?
+CORRECT: chromosomes
+INCORRECT: zygotes | ribosomes | phenotypes
+ANSWER: Most hybrids are sterile because they lack the genetic structures necessary for proper homologous recombination during meiosis, specifically the non-homologous recombination (NHR) or non-sister chromatid exchange (NSEE) mechanisms. These mechanisms are essential for the formation of viable gametes and the transmission of genetic
+
+### a71f3bdf81
+Q: Cells have multiple repair mechanisms to fix mutations in what?
+CORRECT: dna
+INCORRECT: amino acid chains | organ systems | RNA
+ANSWER: Cells have multiple repair mechanisms to fix mutations in DNA. These mechanisms include base excision repair, nucleotide excision repair, mismatch repair, and homologous recombination, among others.
+
+### c2bd15370c
+Q: What development is less risky for the mother?
+CORRECT: marsupial
+INCORRECT: gastrointestinal | atypical | mutation
+ANSWER: Generally, cesarean section (C-section) is considered less risky for the mother compared to vaginal delivery. However, the risk of complications is higher for the baby, and the decision to have a C-section should be made after careful consideration and consultation with a healthcare provider.
+
+### 97c1247809
+Q: What term describes reproducing by external fertilization after the female sheds large numbers of small eggs?
+CORRECT: oviparous
+INCORRECT: glandular | glaucous | homozygous
+ANSWER: The term that describes reproducing by external fertilization after the female sheds large numbers of small eggs is "ovoviviparity."
+
+### 1ef635f832
+Q: Bees, wasps, ants, butterflies, moths, flies and beetles belong to what animal phylum?
+CORRECT: arthropods
+INCORRECT: insects | crustaceans | cephalopods
+ANSWER: Bees, wasps, ants, butterflies, moths, flies, and beetles belong to the phylum Arthropoda.
+
+### 9f798f6a88
+Q: What is equal to the angular acceleration multiplied by the radius of the rotating object?
+CORRECT: linear acceleration
+INCORRECT: equilibrium | peak velocity | momentum
+ANSWER: The angular acceleration multiplied by the radius of the rotating object is equal to the moment of inertia of the object.
+
+### f50365f934
+Q: What are the smallest particles of matter?
+CORRECT: atoms
+INCORRECT: ions | molecules | electrons
+ANSWER: The smallest particles of matter are atoms, which are the building blocks of matter and consist of three main subatomic particles: protons, neutrons, and electrons. Atoms are the smallest units of a chemical element and are typically measured in terms of their mass number (the total number of protons and neutrons in
+
+### d8cf8f241c
+Q: What is a thin membrane stretched tight across the end of the ear canal that vibrates when sound waves strike it?
+CORRECT: eardrum
+INCORRECT: earlobe | cerebrum | auricle
+ANSWER: The thin membrane stretched tight across the end of the ear canal that vibrates when sound waves strike it is called the eardrum, specifically the tympanic membrane (eardrum).
+
+### c833ccaf1f
+Q: Do vascular or nonvascular plants lack tracheids?
+CORRECT: nonvascular
+INCORRECT: vascular | neither do | both do
+ANSWER: Vascular plants, specifically those with xylem and phloem, typically have tracheids, while nonvascular plants, such as mosses and liverworts, lack tracheids.
+
+### 18a94dfdbb
+Q: The spokes of what structures that distinguish saturn appear seasonally, with an origin as yet unknown?
+CORRECT: rings
+INCORRECT: moons | craters | satellites
+ANSWER: The spokes of Saturn's rings appear seasonally due to the changing angle of view from Earth, but the origin of the spokes is still unknown.
+
+### 9433e7158c
+Q: Icy objects that have very elliptical orbits around the sun are called?
+CORRECT: comets
+INCORRECT: meteors | asteroids | craters
+ANSWER: Icy objects that have very elliptical orbits around the sun are called "Comets".
+
+### 347e923998
+Q: The force of attraction between a positively charged metal ion and the valence electrons it shares with other ions of the metal is called?
+CORRECT: metallic bond
+INCORRECT: ionic bond | metallic yield | temporal bond
+ANSWER: The force of attraction between a positively charged metal ion and the valence electrons it shares with other ions of the metal is called electrostatic attraction.
+
+### b6473e09e8
+Q: What determines how long a planet's orbit is around the sun?
+CORRECT: distance
+INCORRECT: size | age | direction
+ANSWER: The length of a planet's orbit around the sun is determined by its semi-major axis, which is the average distance of the planet from the sun. The more massive the planet, the closer its semi-major axis is to the sun, and the shorter its orbital period.
+
+### b83167aa09
+Q: The speed of sound depends on what?
+CORRECT: medium
+INCORRECT: light | volume | temperature
+ANSWER: The speed of sound depends on the temperature and pressure of the air, with the speed increasing as the temperature and pressure increase.
+
+### dfae625386
+Q: What gland secretes growth hormones?
+CORRECT: pituitary
+INCORRECT: pineal | adrenal | thyroid
+ANSWER: The pituitary gland secretes growth hormone.
+
+### 25d437a4ec
+Q: Does atmospheric pressure increase or decrease as the altitude increases?
+CORRECT: decreases
+INCORRECT: increase | stays the same | depends on other factors
+ANSWER: As altitude increases, atmospheric pressure decreases.
+
+### 2882e1ae39
+Q: What is the dinosaur genus that's closest to modern birds?
+CORRECT: deinonychus
+INCORRECT: sauropods | diplodocus | Rapter
+ANSWER: The dinosaur genus that is closest to modern birds is Archaeopteryx.
+
+### 4d515f14f1
+Q: Why is the life cycle of plants so complex?
+CORRECT: alternation of generation
+INCORRECT: metamorphosis | pollination process | asexual reproduction
+ANSWER: The life cycle of plants is complex due to their ability to adapt to various environmental conditions, such as light, water, and temperature, which require multiple stages of growth and development. Additionally, plants have evolved to survive and reproduce in diverse ecosystems, leading to the development of complex life cycles that involve multiple generations and specialized structures
+
+### 7b82e66165
+Q: Besides the size of their crystals, how are igneous rocks grouped?
+CORRECT: minerals they contain
+INCORRECT: by shapes | impurities they contain | by color
+ANSWER: Igneous rocks are grouped based on their composition and the process by which they formed, which is either intrusive (formed below the Earth's surface) or extrusive (formed above the Earth's surface).
+
+### 3e989b0587
+Q: Carpal, metacarpal and phalanx bones comprise what part of the body?
+CORRECT: hand
+INCORRECT: thumb | pelvis | foot
+ANSWER: The carpals, metacarpals, and phalanges comprise the wrist.
+
+### 5073353451
+Q: What is defined by its sequence of nucleotides?
+CORRECT: nucleic acids
+INCORRECT: structural acids | proteins acids | amino acids
+ANSWER: DNA (deoxyribonucleic acid) is defined by its sequence of nucleotides.
+
+### d14b7145c4
+Q: What is the name of the skull that covers the brain and protects it?
+CORRECT: the cranium
+INCORRECT: cerebrum | Nasal bone | mandible
+ANSWER: The skull that covers the brain and protects it is called the cranium.
+
+### f64545fa7c
+Q: Salicylic acid is used in the synthesis of acetylsalicylic acid, or more commonly called?
+CORRECT: aspirin
+INCORRECT: smelling salts | antacid | Tylenol
+ANSWER: Salicylic acid is used in the synthesis of acetylsalicylic acid, commonly known as aspirin.
+
+### 1194562071
+Q: According to the special theory of relativity, no physical object can equal or exceed the speed of what?
+CORRECT: light
+INCORRECT: air | energy | weight
+ANSWER: According to the special theory of relativity, no physical object can equal or exceed the speed of light (approximately 186,282 miles per second).
+
+### 364689d3cc
+Q: Where do angiosperms form seeds?
+CORRECT: ovaries
+INCORRECT: stamen | testes | cones
+ANSWER: Angiosperms form seeds in the ovary of a flower.
+
+### 6b09127fe1
+Q: Which gland is controlled by a negative feedback loop that includes the hypothalamus and pituitary gland?
+CORRECT: thyroid
+INCORRECT: stomach | adrenal | pituitary
+ANSWER: The adrenal gland is controlled by a negative feedback loop that includes the hypothalamus and pituitary gland. This loop regulates the production of adrenaline (epinephrine) and cortisol, which are hormones released in response to stress and low blood glucose levels.
+
+### 3cb76693b3
+Q: When water is aerated it can provide a plant's roots with what gas for cellular respiration?
+CORRECT: oxygen
+INCORRECT: nitrogen | carbon | carbon dioxide
+ANSWER: When water is aerated, it provides a plant's roots with oxygen for cellular respiration. Oxygen is absorbed by the roots through the xylem, a type of vascular tissue, and then transported to the rest of the plant through the phloem, a type of vascular tissue.
+
+### df554e48cb
+Q: Which body system breaks down food and absorbs nutrients?
+CORRECT: digestive system
+INCORRECT: skeletal system | circulation system | hormonal system
+ANSWER: The digestive system breaks down food and absorbs nutrients. Specifically, it consists of the mouth, esophagus, stomach, small intestine, and large intestine, where enzymes and acids break down food into smaller molecules, and the large intestine absorbs water and electrolytes, while the small intestine absorbs nutrients into the bloodstream.
+
+### a7a95a7bbb
+Q: What form of matter has a fixed volume but not a fixed shape?
+CORRECT: liquid
+INCORRECT: mixture | gas | solid
+ANSWER: The form of matter that has a fixed volume but not a fixed shape is a gas.
+
+### 678fb0c110
+Q: The tibia is the larger, weight-bearing bone located on the medial side of the leg. the fibula is the slender bone of the lateral side of the leg and does not do what?
+CORRECT: bear weight
+INCORRECT: resist weight | support weight | drive weight
+ANSWER: The fibula is the slender bone of the lateral side of the leg, and it does not bear weight. Instead, it provides support and stability to the leg, particularly in the ankle joint.
+
+### e84442498a
+Q: Arthropods today have two unusual hox genes, both of which influence what?
+CORRECT: segmentation
+INCORRECT: compression | reproduction | motility
+ANSWER: Arthropods today have two unusual hox genes, both of which influence the development of the appendages, specifically the development of the appendicular skeleton.
+
+### c82dd9c7c4
+Q: What is the most abundant of all vertebrate classes, and the most recent to evolve?
+CORRECT: birds
+INCORRECT: bony fishes | reptiles | mammals
+ANSWER: The most abundant vertebrate class is Chondrichthyes, which includes sharks, rays, and skates. The most recent to evolve is the Chondrichthyes is thought to have originated around 450 million years ago during the Silurian period.
+
+### 9bb2eb848f
+Q: What is a disease caused by the same virus that causes chicken pox?
+CORRECT: shingles
+INCORRECT: gout | diabetes | hepatitis
+ANSWER: The disease caused by the same virus that causes chicken pox is also known as varicella, which is a common illness that affects people of all ages. It is characterized by a rash that starts on the trunk and spreads to the rest of the body, and is usually accompanied by fever, headache, and fatigue.
+
+### bb3fc5e99c
+Q: What group was long considered part of the plant kingdom because of obvious similarities; both are immobile, have cell walls, and grow in soil?
+CORRECT: fungi
+INCORRECT: mosses | coral | bacteria
+ANSWER: The group long considered part of the plant kingdom because of obvious similarities is the mosses.
+
+### 3091260a95
+Q: Where is energy stored in a chemical substance?
+CORRECT: between atoms
+INCORRECT: on the surface | in molecules | inside atoms
+ANSWER: Energy is stored in a chemical substance in the form of chemical bonds, specifically in the electrons and atoms that make up the molecule.
+
+### 856e50a4ec
+Q: Skeletal muscles are attached to the skeleton by tough connective tissues called what?
+CORRECT: tendons
+INCORRECT: fibers | veins | cords
+ANSWER: The connective tissues that attach skeletal muscles to the skeleton are called tendons.

@@ -1,0 +1,239 @@
+### 690fa1815b
+Q: What do we call the visible part of the electromagnetic spectrum?
+CORRECT: light
+INCORRECT: weight | radio | electricity
+ANSWER: We call the visible part of the electromagnetic spectrum the visible spectrum.
+
+### b53fe9dd11
+Q: Excessive exposure to what is the main cause of skin cancer?
+CORRECT: uv light
+INCORRECT: LED light | fluorescent light | incandescent light
+ANSWER: Excessive exposure to ultraviolet (UV) radiation from the sun is the main cause of skin cancer.
+
+### e8e04feb8f
+Q: What is a rock that contains important minerals called?
+CORRECT: ore
+INCORRECT: carbonic | steel | copper
+ANSWER: A rock that contains important minerals is called a mineral deposit.
+
+### 749675c5f5
+Q: What is a disease caused by the same virus that causes chicken pox?
+CORRECT: shingles
+INCORRECT: gout | diabetes | hepatitis
+ANSWER: Shingles is a disease caused by the same virus that causes chicken pox.
+
+### 9905a1ebfa
+Q: What system possesses a memory component that allows for an efficient and dramatic response upon reinvasion of the same pathogen?
+CORRECT: adaptive immune system
+INCORRECT: incorporate immune system | societal immune system | suggestive immune system
+ANSWER: The adaptive immune system possesses a memory component that allows for an efficient and dramatic response upon reinvasion of the same pathogen.
+
+### 4d8f026c0d
+Q: What do scientists think to be the oldest eukaryotes?
+CORRECT: protists
+INCORRECT: bivalves | arthropods | ciliate
+ANSWER: Scientists believe the oldest eukaryotes are likely the Archaea, which lived around 2 billion years ago.
+
+### b6b25d573c
+Q: What protects the pollen of seed plants and spores of seedless plants?
+CORRECT: sporopollenin
+INCORRECT: cystosol | cocklebur | chlorophyll
+ANSWER: The protective structures that protect the pollen of seed plants and spores of seedless plants are the anther in seed plants and the ovule in seedless plants.
+
+### b9349316fe
+Q: Earthquakes cause longitudinal waves as well as which other waves?
+CORRECT: transverse
+INCORRECT: aural | irregular | electromagnetic
+ANSWER: Earthquakes also cause transverse waves.
+
+### 4b0f78503f
+Q: What causes cells to divide if cytokinins are added to it?
+CORRECT: auxin
+INCORRECT: osmosis | apoptosis | hyptoxin
+ANSWER: Cytokinins cause cells to divide by promoting the activity of a protein called auxin, which stimulates cell elongation and division.
+
+### e8bd326ed1
+Q: Where is the spinal trigeminal nucleus located?
+CORRECT: medulla
+INCORRECT: spinal cord | pons | cerebrum
+ANSWER: The spinal trigeminal nucleus is located in the brainstem, specifically in the medulla oblongata.
+
+### ec48cdd834
+Q: Some types of minerals form balls called what?
+CORRECT: nodules
+INCORRECT: cancers | microbes | fistulas
+ANSWER: Some types of minerals form balls called agates.
+
+### e30031f842
+Q: What kind of reproduction generates most of the genetic variation that makes evolutionary adaptation possible?
+CORRECT: sexual reproduction
+INCORRECT: cloning | asexual reproduction | synthetic reproduction
+ANSWER: Sexual reproduction generates most of the genetic variation that makes evolutionary adaptation possible.
+
+### 0791c727a8
+Q: Cells that have a nucleus and other organelles which are membrane-bound are generally called what kinds of cells?
+CORRECT: eukaryotic
+INCORRECT: Monocyte | Megakaryocyte | Erythrocyte
+ANSWER: Eukaryotic cells.
+
+### 545eb00ce1
+Q: What causes the alpine tundra to be so cold?
+CORRECT: high altitude above sea level
+INCORRECT: moderate altitude | low altitude | low air density
+ANSWER: Alpine tundra is cold due to its high elevation, where it is exposed to cold air masses and lacks the moderating effects of lower layers of the atmosphere.
+
+### 6873a8efd0
+Q: Water seeps into the ground through permeable material and stops when it reaches what?
+CORRECT: impermeable rock
+INCORRECT: Bed Rock | Lava | Coral
+ANSWER: Water seeps into the ground through permeable material and stops when it reaches the water table.
+
+### 03f18dc2af
+Q: Because optics fibers are thin, entering light may strike the inside surface at greater than the critical angle, requiring attention to what?
+CORRECT: refractive index
+INCORRECT: reflective point | electromagnetic index | wavelength
+ANSWER: Because optics fibers are thin, entering light may strike the inside surface at greater than the critical angle, requiring attention to the total internal reflection.
+
+### 7502fd92e3
+Q: What is the most abundant of all vertebrate classes, and the most recent to evolve?
+CORRECT: birds
+INCORRECT: bony fishes | reptiles | mammals
+ANSWER: The most abundant of all vertebrate classes and the most recent to evolve is the class Chordata.
+
+### 7af077bf9b
+Q: Which chemist developed a process to remove carbon and dust particles in smoke?
+CORRECT: frederick cottrell
+INCORRECT: james carpenter | roger granger | harold black
+ANSWER: The chemist who developed a process to remove carbon and dust particles in smoke was Sir William Crookes.
+
+### 238db58f02
+Q: What separates one river system's basin from another river system's basin?
+CORRECT: a divide
+INCORRECT: a bend | a divert | a sink
+ANSWER: The separation of one river system's basin from another is typically defined by geographical features such as mountains, valleys, and rivers themselves.
+
+### 9fe99a8874
+Q: Matter undergoing chemical reactions and physical changes can release or absorb heat. a change that releases heat is called what?
+CORRECT: exothermic process
+INCORRECT: magnetic process | oxidized process | biochemical process
+ANSWER: A change that releases heat is called an exothermic reaction.
+
+### e6dbcf666e
+Q: What is the end product of glycolysis?
+CORRECT: pyruvate
+INCORRECT: fructose | gluclose | hydrolysis
+ANSWER: The end product of glycolysis is pyruvate.
+
+### 96494c144e
+Q: What process can cause harmful alleles to become fixed?
+CORRECT: genetic drift
+INCORRECT: natural selection | migration | mutation
+ANSWER: Natural selection can cause harmful alleles to become fixed in a population over time.
+
+### 2119f896db
+Q: What is the dinosaur genus that's closest to modern birds?
+CORRECT: deinonychus
+INCORRECT: sauropods | diplodocus | Rapter
+ANSWER: The dinosaur genus that's closest to modern birds is Archaeopteryx.
+
+### 9dd4b95829
+Q: Free fatty acids are carboxylic acids that contain long chains of what?
+CORRECT: hydrocarbons
+INCORRECT: vapors | lipds | particles
+ANSWER: Free fatty acids are carboxylic acids that contain long chains of carbon atoms.
+
+### d5e7bfcfc3
+Q: The efficiency of a machine is a measure of how well it reduces what force?
+CORRECT: friction
+INCORRECT: tension | vibration | sound
+ANSWER: The efficiency of a machine is a measure of how well it reduces input force.
+
+### 976e25b2f2
+Q: What analytical technique, using stained gel, can separate dna fragments or rna molecules and proteins?
+CORRECT: gel electrophoresis
+INCORRECT: microwave electrophoresis | surface electrophoresis | static electrophoresis
+ANSWER: The technique you are referring to is called electrophoresis.
+
+### 4acabb0f30
+Q: Collateral ganglia controls organs in which cavity in the body?
+CORRECT: abdominal
+INCORRECT: cranial | pelvic | cardiac
+ANSWER: Collateral ganglia controls organs in the thoracic cavity in the human body.
+
+### c7b65aff61
+Q: Silver is an example of a mineral containing only one kind of what?
+CORRECT: element
+INCORRECT: matter | mass | chemical
+ANSWER: Silver is an example of a mineral containing only one kind of element.
+
+### d0e22c4b73
+Q: What is the only light that people can see?
+CORRECT: visible light
+INCORRECT: spectrum light | infrared light | UV light
+ANSWER: The only light that people can see is visible light.
+
+### 450c5e7206
+Q: What is it called when ice changes to liquid water?
+CORRECT: melting
+INCORRECT: vaporizing | boiling | condensing
+ANSWER: It is called melting.
+
+### f8d51a9ae1
+Q: What two types of tissue compose most of the non-pregnant and non-lactating female breast?
+CORRECT: adipose and collagenous
+INCORRECT: intestine and collagenous | silicone and collagenous | scar and collagenous
+ANSWER: The two types of tissue that compose most of the non-pregnant and non-lactating female breast are glandular tissue and adipose tissue.
+
+### 40582a5cc5
+Q: The relationship between a nucleotide codon and its corresponding amino acid is called what?
+CORRECT: genetic code
+INCORRECT: rna | dna | protein
+ANSWER: The relationship between a nucleotide codon and its corresponding amino acid is called a codon-anticodon pairing in genetics.
+
+### ceae8aa662
+Q: Associated with hair follicles, what type of oil gland is found all over the body and helps to lubricate and waterproof the skin and hair?
+CORRECT: sebaceous gland
+INCORRECT: sweat gland | melanin gland | gametes gland
+ANSWER: Sebaceous glands are found all over the body and help to lubricate and waterproof the skin and hair.
+
+### c2bced61c3
+Q: What is an individual with more than the correct number of chromosome sets called?
+CORRECT: polyploid
+INCORRECT: autotrophs | autosome | diploid
+ANSWER: An individual with more than the correct number of chromosome sets is called a polyploid.
+
+### 420cbcf0c3
+Q: The percent yield is determined by calculating the ratio of actual yield by what?
+CORRECT: theoretical yield
+INCORRECT: past balance | predicted return | actual loss
+ANSWER: The percent yield is determined by calculating the ratio of actual yield to theoretical yield.
+
+### a7425727d1
+Q: On a global scale, plants and other photosynthetic organisms have generated all of what element in the air?
+CORRECT: oxygen
+INCORRECT: nitrogen | carbon dioxide | methane
+ANSWER: Plants and other photosynthetic organisms have generated all of oxygen in the air.
+
+### 2d109d43b3
+Q: Can nematodes be a parasite of plants, animals, or both?
+CORRECT: both
+INCORRECT: neither | animals | plants
+ANSWER: Yes, nematodes can be parasites of both plants and animals.
+
+### 4f821ecbc5
+Q: What term means the amount of water vapor in the air?
+CORRECT: humidity
+INCORRECT: temperature | pressure | ambient
+ANSWER: The term that means the amount of water vapor in the air is humidity.
+
+### 3bea08a6c0
+Q: What kind of a disorder is tay-sachs disease?
+CORRECT: inherited disorder
+INCORRECT: vitamin difficiency | a type of cancer | accumulated disease
+ANSWER: Tay-Sachs disease is an inherited metabolic disorder affecting the nervous system.
+
+### 3e72686e3c
+Q: Only after implantation can an embryo develop into a what?
+CORRECT: fetus
+INCORRECT: mammal | humans | living thing
+ANSWER: An embryo can develop into a fetus after implantation.

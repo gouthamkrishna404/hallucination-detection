@@ -1,0 +1,119 @@
+### 39c4b4bbf9
+Q: What process, which is in many ways the opposite of photosynthesis, shows the interdependence of producers and consumers?
+CORRECT: cellular respiration
+INCORRECT: primarily respiration | decomposition | osmosis
+ANSWER: Decomposition is the process that shows the interdependence of producers and consumers by breaking down dead organic matter into simpler substances, which can then be used by producers.
+
+### 520983a181
+Q: What is essential for population of all species to expand greatly?
+CORRECT: abundant resources
+INCORRECT: foliage resources | chemical resources | liquid resources
+ANSWER: Food and space are essential for population expansion in all species.
+
+### c4bdf8af42
+Q: How do multicellular organisms grow in size?
+CORRECT: increase size and number of cells
+INCORRECT: reduce size and number of cells | increase number of limbs | increase size and number of genes
+ANSWER: Multicellular organisms grow in size through cell division and differentiation, with cells increasing in number and specialized functions.
+
+### 63a1cf3f1f
+Q: Ecological succession refers to the change in the numbers and types of species that live in what groups?
+CORRECT: communities
+INCORRECT: movements | colonies | biomes
+ANSWER: Ecological succession refers to the change in the numbers and types of species that live in communities.
+
+### 583bdf76f3
+Q: What are most cells surrounded by?
+CORRECT: water
+INCORRECT: fat | lipids | air
+ANSWER: Most cells are surrounded by a cell membrane.
+
+### 9d0cc00244
+Q: Two significant parts of the heat include the atrium and its counterpart, which is what?
+CORRECT: ventricle
+INCORRECT: cells | skeletal | valve
+ANSWER: The atrium and its counterpart are the basement.
+
+### 82bc2132ad
+Q: Without particles, water vapor could not do what?
+CORRECT: condense
+INCORRECT: dissipate | dilute | evaporate
+ANSWER: Without particles, water vapor could not condense into liquid water.
+
+### 1091b6aac1
+Q: The concept that atoms tend to have eight electrons in their valence electron shell is called what?
+CORRECT: octet rule
+INCORRECT: string rule | diagonal rule | coupling rule
+ANSWER: The concept that atoms tend to have eight electrons in their valence electron shell is called the octet rule.
+
+### da662eac40
+Q: What functions in removing phosphorylated amino acids from proteins?
+CORRECT: phosphatase
+INCORRECT: sucrose | carbonate | peptide
+ANSWER: Proteasomes remove phosphorylated amino acids from proteins.
+
+### a9025cd1f1
+Q: What does the term decay in chemistry refer to with regards to atoms?
+CORRECT: changes in nuclei
+INCORRECT: pressures in nuclei | destruction of nuclei | separation of nuclei
+ANSWER: Decay in chemistry refers to the process by which an unstable atomic nucleus emits particles or energy, leading to the transformation of one element into another.
+
+### d87619642c
+Q: Digestive enzymes are released, or secreted, by the organs of which body system?
+CORRECT: digestive system
+INCORRECT: nervous system | urinary system | endocrine system
+ANSWER: Digestive enzymes are released by the organs of the digestive system.
+
+### 517c719ce1
+Q: Malonate plays what negative role on the enzyme succinate dehydrogenase?
+CORRECT: inhibitor
+INCORRECT: catalyst | pathway | receptor
+ANSWER: Malonate inhibits the enzyme succinate dehydrogenase by forming a covalent bond with the active site, blocking substrate access.
+
+### 308bd4ec3a
+Q: The male gametophyte releases what, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg?
+CORRECT: sperm
+INCORRECT: cytoplasm | tadpoles | dna
+ANSWER: The male gametophyte releases sperm, which swim to fertilize the egg.
+
+### d095cdf01b
+Q: The components of a mixture keep their own identity when they combine, so they retain what type of properties, such as boiling point and ability to dissolve?
+CORRECT: physical
+INCORRECT: thermal | internal | thermal
+ANSWER: The components of a mixture retain their own identity and physical properties such as boiling point and solubility when they combine.
+
+### 087dd800b2
+Q: What are plants that grow on other plants called?
+CORRECT: epiphytes
+INCORRECT: fungi | parasites | bryophytes
+ANSWER: These are called epiphytes.
+
+### ebc7e22889
+Q: The sex of developing crocodilians is determined by what during incubation?
+CORRECT: the temperature of the eggs
+INCORRECT: the color of the eggs | the size of the eggs | the location of the eggs
+ANSWER: The sex of developing crocodilians is determined by temperature during incubation.
+
+### a22d77bb01
+Q: What are atoms of the same element that differ in their numbers of neutrons called?
+CORRECT: isotopes
+INCORRECT: reactions | organisms | opposites
+ANSWER: Atoms of the same element that differ in their numbers of neutrons are called isotopes.
+
+### 93a6643041
+Q: What is another name for the vertebral column?
+CORRECT: backbone
+INCORRECT: nerve column | pillar | brain stem
+ANSWER: Another name for the vertebral column is the spine.
+
+### 6a27a20f67
+Q: About half of what type of radiation is absorbed in the first 15 meters of water?
+CORRECT: solar
+INCORRECT: surface | polar | natural
+ANSWER: About half of gamma radiation is absorbed in the first 15 meters of water.
+
+### 5f038070ca
+Q: What takes place where septa is found?
+CORRECT: forming of reproductive cells
+INCORRECT: forming of stem cells | forming of brain cells | forming of muscle tissue
+ANSWER: Septa are found in the digestive system, specifically in the stomach and intestines.

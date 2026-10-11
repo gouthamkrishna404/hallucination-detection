@@ -1,0 +1,239 @@
+### 63fe33011d
+Q: Each species has a particular way of making a living which is called its what?
+CORRECT: niche
+INCORRECT: habit | system | life-cycle
+ANSWER: Each species has a particular way of making a living which is called its lifestyle.
+
+### 9fad934082
+Q: The nervous system has two main parts, called the central nervous system and the what?
+CORRECT: peripheral nervous system
+INCORRECT: functional nervious system | useful nervous system | obsolete nervous system
+ANSWER: The nervous system has two main parts, called the central nervous system and the peripheral nervous system.
+
+### 64c1839f37
+Q: What are used to indicate the number of atoms of an element that are in the compound?
+CORRECT: prefixes
+INCORRECT: indices | suffixes | digits
+ANSWER: Chemical formulas are used to indicate the number of atoms of an element that are in the compound.
+
+### 12ab0bb452
+Q: Where do t cells mature?
+CORRECT: thymus gland
+INCORRECT: liver | bone marrow | pituitary gland
+ANSWER: T cells mature in the thymus.
+
+### 9da040a162
+Q: Plants require air, water, nutrients, and what in order to live and survive?
+CORRECT: light
+INCORRECT: money | gravity | entertainment
+ANSWER: Plants require air, water, nutrients, and sunlight in order to live and survive.
+
+### 8bc166e191
+Q: Repolarization occurs when the membrane potential begins to move back toward its resting what?
+CORRECT: voltage
+INCORRECT: charge | resistance | tension
+ANSWER: Repolarization occurs when the membrane potential begins to move back toward its resting potential.
+
+### 5105b736ec
+Q: Which molecules are made of one carbon and four hydrogen atoms?
+CORRECT: hydrocarbons
+INCORRECT: fats | proteins | particles
+ANSWER: Molecules made of one carbon and four hydrogen atoms are called methane (CH4).
+
+### c345c52cf9
+Q: What is a relationship where one species benefits and the other is unaffected?
+CORRECT: commensalism
+INCORRECT: pollenation | mutualism | parasitism
+ANSWER: A mutualism is a relationship where one species benefits and the other is unaffected.
+
+### 7f95a87dd0
+Q: When liquid water changes to water vapor it is called?
+CORRECT: evaporation
+INCORRECT: absorption | transpiration | evaporation
+ANSWER: When liquid water changes to water vapor it is called evaporation.
+
+### 4ea27f8aed
+Q: What begins with a diploid cell and ends with four haploid cells?
+CORRECT: meiosis
+INCORRECT: electrolysis | mitosis | urinalysis
+ANSWER: Meiosis begins with a diploid cell and ends with four haploid cells.
+
+### 0789afcf5f
+Q: What is the passing of traits from parents to offspring called?
+CORRECT: heredity
+INCORRECT: variability | cell division | mutation
+ANSWER: The passing of traits from parents to offspring is called inheritance.
+
+### 520046adf6
+Q: What are gases called that absorb heat in the atmosphere?
+CORRECT: greenhouse gases
+INCORRECT: microwave gases | ozone gases | carbonate gases
+ANSWER: Gases that absorb heat in the atmosphere are called greenhouse gases.
+
+### fbbd4596be
+Q: The two simplest models of population growth use what to describe the rate of change in the size of a population over time?
+CORRECT: deterministic equations
+INCORRECT: predestination equations | analogous equations | wave function
+ANSWER: The two simplest models of population growth use exponential and logistic growth to describe the rate of change in the size of a population over time.
+
+### ff0379e5bb
+Q: Lenses that focus light are called what?
+CORRECT: converging lenses
+INCORRECT: active lenses | powering lenses | sensing lenses
+ANSWER: Lenses that focus light are called converging lenses.
+
+### 0c68f6dea4
+Q: What type of mechanical weathering occurs when one rock bumps against another rock?
+CORRECT: abrasion
+INCORRECT: absorption | refraction | disintegration
+ANSWER: Abrasion is the type of mechanical weathering that occurs when one rock bumps against another rock.
+
+### 16f1eef19e
+Q: Circulating the air prevents ethylene from accumulating, and carbon dioxide inhibits synthesis of new what?
+CORRECT: ethylene
+INCORRECT: alcohol | sulfur | cellulose
+ANSWER: Ethylene prevents ethylene from accumulating, and carbon dioxide inhibits the synthesis of new ethylene.
+
+### 71e63e753a
+Q: Trees, which can be planted and harvested, are an example of what type of resource?
+CORRECT: renewable
+INCORRECT: electric | fossil | geothermal
+ANSWER: Trees are an example of renewable resources.
+
+### 4b6a0ae650
+Q: What are the most diverse organisms on earth, which are often classified by shape or how they react to gram stain?
+CORRECT: bacteria
+INCORRECT: cultures | pathogens | algae
+ANSWER: The most diverse organisms on Earth are bacteria, which are often classified by shape (such as cocci, bacilli, and spirilla) or how they react to gram stain.
+
+### 38e151bd04
+Q: Which property of diamond makes it so hard?
+CORRECT: chemical bonds
+INCORRECT: non-covalent bonds | metal-metal bonds | carbon bonds
+ANSWER: The high melting point of diamond makes it so hard.
+
+### 968736d6da
+Q: Bones, cartilage, and what other thing make up the skeletal system?
+CORRECT: ligaments
+INCORRECT: muscles | organs | lungs
+ANSWER: Joints.
+
+### d745d690d4
+Q: What is the term for groups of cells with a similar appearance and a common function, and describes how cells are organized?
+CORRECT: tissue
+INCORRECT: muscle | heart | kidney
+ANSWER: The term for groups of cells with a similar appearance and a common function, describing how cells are organized, is "tissue."
+
+### 2538d5e0a5
+Q: Why is the life cycle of plants so complex?
+CORRECT: alternation of generation
+INCORRECT: metamorphosis | pollination process | asexual reproduction
+ANSWER: The life cycle of plants is complex due to their need for alternation of generations, which allows them to reproduce and survive in a variety of environments.
+
+### db8460ee49
+Q: Which is one of the most frequently studied cartilaginous fish?
+CORRECT: sharks
+INCORRECT: whales | dolphins | manatees
+ANSWER: Sturgeon is one of the most frequently studied cartilaginous fish.
+
+### a6e964dc27
+Q: Radioactive atoms, nuclear explosions, and stars produce what types of rays.
+CORRECT: gamma
+INCORRECT: plasma | neutron | beta
+ANSWER: Radioactive atoms, nuclear explosions, and stars produce ionizing radiation.
+
+### fac3c7ba02
+Q: A hydrogen atom with one neutron is called what?
+CORRECT: deuterium
+INCORRECT: covalent | magnesium | ionic
+ANSWER: A hydrogen atom with one neutron is called a deuterium atom.
+
+### 9352d85f12
+Q: What controls all five senses?
+CORRECT: nervous system
+INCORRECT: circulatory system | skin cells | endocrine system
+ANSWER: The brain controls all five senses.
+
+### 34e2bf41d9
+Q: What type of matter makes up most of the universe?
+CORRECT: plasma
+INCORRECT: carbon | liquid | gas
+ANSWER: Most of the universe is made up of dark matter.
+
+### 55d53637c9
+Q: Electricity consists of a constant stream of what tiny particles?
+CORRECT: electrons
+INCORRECT: atoms | quarks | ions
+ANSWER: Electricity consists of a constant stream of electrons.
+
+### 8c52ac7700
+Q: Horny ridges on the jaws serve the same function as what, for turtles?
+CORRECT: teeth
+INCORRECT: skin | taste buds | hairs
+ANSWER: Horny ridges on the jaws serve the same function as spines, for turtles.
+
+### c56ce0e546
+Q: When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?
+CORRECT: diameter
+INCORRECT: surface | height | weight
+ANSWER: When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in size.
+
+### a670682214
+Q: An increase in the number of gas molecules in the same volume container causes what to increase?
+CORRECT: pressure
+INCORRECT: friction | energy | power
+ANSWER: An increase in the number of gas molecules in the same volume container causes the pressure to increase.
+
+### c100d3cba3
+Q: What disease occurs when the cell cycle is no longer regulated?
+CORRECT: cancer
+INCORRECT: allergy | schizophrenia | malnutrition
+ANSWER: Cancer occurs when the cell cycle is no longer regulated.
+
+### 2067ee5fe9
+Q: The inside of the small intestine has many folds, called villi. microvilli are lined with blood vessels as well as lymphatic vessels. the inside of the small intestine is called this?
+CORRECT: lumen
+INCORRECT: reticular | porous | osmotic
+ANSWER: The inside of the small intestine is called the mucosa.
+
+### aae1f971a6
+Q: What is a form of cell division in prokaryotic organisms that produces identical offspring?
+CORRECT: binary fission
+INCORRECT: nuclear fission | germination | mitosis
+ANSWER: Binary fission is a form of cell division in prokaryotic organisms that produces identical offspring.
+
+### 5ca99cb7b4
+Q: When present in large volumes, what color hue can water emit?
+CORRECT: blue
+INCORRECT: white | pink | yellow
+ANSWER: When present in large volumes, water can emit a blue hue.
+
+### 0de2554955
+Q: What indicates the speed at which a reaction proceeds?
+CORRECT: the reaction rate
+INCORRECT: the transform rate | time zone | reaction scale
+ANSWER: The rate at which a reaction proceeds is indicated by the change in concentration of reactants or products over time.
+
+### 5f747b42ca
+Q: What happens when ionic compounds are dissolved in water?
+CORRECT: conduct electricity
+INCORRECT: magnetize electricity | repel electricity | deflect electricity
+ANSWER: When ionic compounds are dissolved in water, they dissociate into their respective ions, which then conduct electricity.
+
+### c6e060c5c8
+Q: What are the small molecules or proteins produced by bacteria that regulate gene expression?
+CORRECT: autoinducers
+INCORRECT: fluxes | protazoas | sporozoans
+ANSWER: Bacteria produce small molecules called quorum sensing signaling molecules and proteins called transcription factors that regulate gene expression.
+
+### dc93803aa1
+Q: What happens to water vapor as it rises?
+CORRECT: it cools
+INCORRECT: it warms | it vibrates | it disperses
+ANSWER: Water vapor rises and cools, eventually condensing into clouds or forming precipitation.
+
+### fe0bfee61a
+Q: Magnets have a "north" and a "south" what?
+CORRECT: pole
+INCORRECT: arch | grid | temperature
+ANSWER: Magnets have a north and south pole.

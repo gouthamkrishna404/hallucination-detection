@@ -1,0 +1,242 @@
+### 2384f3e1bf
+Q: The rocks athe mid-ocean ridge are nearly free of what?
+CORRECT: sediment
+INCORRECT: minerals | scratches | metals
+ANSWER: The rocks at mid-ocean ridges are nearly free of sediment.
+
+### 5c2392cd6a
+Q: Many species of rotifers exhibit haplodiploidy, which is a method of what?
+CORRECT: gender determination
+INCORRECT: circulation | digestion | respiration
+ANSWER: Many species of rotifers exhibit haplodiploidy, which is a method of asexual reproduction. In haplodiploidy, the sex of the offspring is determined by the sex of the parent, with males being haploid and females being diploid.
+
+### 94773a1883
+Q: What term always refers to acceleration in the direction opposite to the direction of the velocity and always reduces speed, unlike negative acceleration?
+CORRECT: deceleration
+INCORRECT: progression | extraction | calibration
+ANSWER: The term that describes acceleration in the direction opposite to the direction of the velocity and always reduces speed is "retrograde acceleration."
+
+### 20297a45c1
+Q: Oil and water do not mix, instead forming two distinct layers called what?
+CORRECT: phases
+INCORRECT: changes | stages | surfaces
+ANSWER: Oil and water do not mix, instead forming two distinct layers called "phases".
+
+### 2b0788733b
+Q: Fungi, such as black bread mold (rhizopus nigricans), have haploid-dominant what?
+CORRECT: life cycles
+INCORRECT: birth cycles | gene pools | mutations
+ANSWER: Fungi, such as black bread mold (Rhizopus nigricans), have haploid-dominant nuclei.
+
+### 308f5a6054
+Q: What do you call a chemical process used to treat water by destroying a contaminant?
+CORRECT: chemical remediation
+INCORRECT: basic remediation | toxic remediation | carbon remediation
+ANSWER: The chemical process used to treat water by destroying a contaminant is called disinfection.
+
+### 108940af3d
+Q: How do many mammals control their body temperature?
+CORRECT: sweating
+INCORRECT: dieting | homeostasis | itching
+ANSWER: Most mammals control their body temperature through a combination of behavioral adaptations, such as seeking shade or shelter, and physiological mechanisms, such as shivering, sweating, and panting, which help to regulate their body temperature. Additionally, some mammals, like bears and bats, have a unique ability to generate heat through their metabolism,
+
+### be905d1156
+Q: Trees and shrubs are example of what type of plant?
+CORRECT: perennials
+INCORRECT: biennial | annuals | grasses
+ANSWER: Trees and shrubs are example of woody plants.
+
+### bc765244fb
+Q: What is required to move or change matter from one state to another?
+CORRECT: energy
+INCORRECT: food | gravity | evolution
+ANSWER: To move or change matter from one state to another, energy must be transferred from one location to another, and the matter must be in motion. This can be achieved through various means, such as applying a force to an object, using a heat source, or exploiting the differences in potential energy between two states.
+
+### 4f8501a40e
+Q: What is the process called where nitrogen is repeatedly recycled through the biosphere?
+CORRECT: nitrogen cycle
+INCORRECT: ammonia cycle | water cycle | nitrogen path
+ANSWER: The process you are referring to is called nitrogen fixation, where nitrogen gas (N2) is converted into a usable form by certain microorganisms, such as bacteria and cyanobacteria, through a chemical reaction. This process is essential for life on Earth, as nitrogen is a critical element for plant growth and many other organisms
+
+### 0fab6f6924
+Q: Which fish has a round sucker used to suck the blood of other fish?
+CORRECT: lamprey
+INCORRECT: shark | abalone | moray
+ANSWER: The pike has a round sucker used to suck the blood of other fish.
+
+### 64aaefc0a7
+Q: What disease is unpreventable in the type one form but may be prevented by diet if it is of the second type?
+CORRECT: diabetes
+INCORRECT: Obesity | TB | Cancer
+ANSWER: The disease you are referring to is likely "Type 2 diabetes". Type 1 diabetes is an autoimmune disease where the body's immune system attacks and destroys the insulin-producing beta cells in the pancreas, making it unpreventable. However, Type 2 diabetes is a metabolic disorder that can be prevented or delayed by
+
+### 9aaad56924
+Q: Layers of what create a volcano?
+CORRECT: lava
+INCORRECT: rock | limestone | crust
+ANSWER: Layers of lava, ash, and other pyroclastic material build up around a volcano as magma rises and erupts, creating a volcanic cone. The layers can also include tephra (volcanic ash and pumice), gas bubbles, and other debris that accumulate over time.
+
+### 4f559c4804
+Q: Who developed a classification system that divided living things into several groups that we still use today, including mammals, insects, and reptiles?
+CORRECT: aristotle
+INCORRECT: jung | darwin | harrold
+ANSWER: The classification system that divided living things into several groups, including mammals, insects, and reptiles, was developed by Carolus Linnaeus, a Swedish botanist and zoologist, in the 18th century.
+
+### 263186f88e
+Q: What unit do astronomers use to describe distances in space?
+CORRECT: light years
+INCORRECT: quantum years | light months | gravity years
+ANSWER: Astronomers use light-years to describe distances in space. A light-year is the distance light travels in one year, approximately 9.461 billion kilometers (5.88 billion miles).
+
+### 1d7f8bfcf0
+Q: Compounds containing which element are the basis of all known life?
+CORRECT: carbon
+INCORRECT: oxygen | helium | hydrogen
+ANSWER: Water (H2O) is the basis of all known life, as it is the primary solvent and medium for chemical reactions that sustain life on Earth.
+
+### c3a6d68c03
+Q: What are different types of tissues organized into functional units called?
+CORRECT: organs
+INCORRECT: tendons | arteries | veins
+ANSWER: The different types of tissues are organized into functional units called tissues. These functional units are further divided into specific types, such as epithelial, connective, muscle, and nervous tissues.
+
+### 569f718125
+Q: When exposed to ultraviolet, some substances, such as minerals, glow in characteristic visible wavelengths, a process called this?
+CORRECT: fluorescence
+INCORRECT: plasma | chemical reaction | pigment
+ANSWER: The process you are referring to is called fluorescence.
+
+### d3b145a1ac
+Q: What sort of walls are helpful for keeping a slope stable?
+CORRECT: retaining walls
+INCORRECT: relocating walls | diverting walls | managing walls
+ANSWER: For keeping a slope stable, it's generally recommended to use a combination of walls and retaining walls, specifically those made of masonry, concrete, or stone. A retaining wall can help to prevent soil erosion and stabilize the slope by preventing it from sliding or shifting downhill.
+
+### 8489df7adb
+Q: What part of the male reproductive system is involved with the most common disorders?
+CORRECT: the testes
+INCORRECT: the ureter | the penis | the glans
+ANSWER: The epididymis is the part of the male reproductive system involved with the most common disorders, such as epididymitis, which is an inflammation of the epididymis, often caused by a bacterial infection. This condition can lead to pain, swelling, and reduced fertility.
+
+### f2cab6e600
+Q: What is telomere shortening associated with?
+CORRECT: aging
+INCORRECT: sleeping | reducing | changing
+ANSWER: Telomere shortening is associated with aging and various age-related diseases, including cancer, cardiovascular disease, and neurodegenerative disorders. It is also linked to the development of age-related macular degeneration and other age-related eye diseases.
+
+### 1773d609ea
+Q: What happens to air density and pressure when gas molecules are warm?
+CORRECT: they are lower
+INCORRECT: they are unchanged | they are equal | they are greater
+ANSWER: When gas molecules are warm, their kinetic energy increases, causing them to move faster and spread out. As a result, the molecules occupy more space, leading to a decrease in air density and an increase in air pressure.
+
+### 76d54f0429
+Q: What term is used to describe a cancer that has spread?
+CORRECT: metastasized
+INCORRECT: destabilized | galvanized | ostracized
+ANSWER: The term used to describe a cancer that has spread is "metastatic" cancer.
+
+### 6658d20178
+Q: Algae produce food using what process?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | cellular respiration | spermatogenesis
+ANSWER: Algae produce food using photosynthesis, a process in which they convert sunlight, carbon dioxide, and water into glucose and oxygen.
+
+### 5138e31de3
+Q: Bigger ocean waves and waves that carry more sediment cause a greater extent of what?
+CORRECT: erosion
+INCORRECT: drowning | silt | sand dunes
+ANSWER: Bigger ocean waves and waves that carry more sediment cause a greater extent of coastal erosion.
+
+### e69bf0e9d4
+Q: What do concentric circles on a topographic map indicate?
+CORRECT: a hill
+INCORRECT: a forest | a lake | a crater
+ANSWER: Concentric circles on a topographic map indicate the elevation or height of the land relative to a reference point, typically the sea level or a local datum. The number of concentric circles and their relative sizes indicate the degree of elevation, with each circle representing a specific elevation interval.
+
+### d16b7bb416
+Q: Practitioners of what thought all matter was composed of different proportions of four basic elements, and that if you changed the proportions of these elements, you could change the substance itself?
+CORRECT: alchemy
+INCORRECT: chemistry | biology | phrenology
+ANSWER: The answer is alchemy. Practitioners of alchemy believed that all matter was composed of four basic elements: earth, air, fire, and water, and that if you changed the proportions of these elements, you could change the substance itself.
+
+### d7c6f5b777
+Q: Which is one of the most frequently studied cartilaginous fish?
+CORRECT: sharks
+INCORRECT: whales | dolphins | manatees
+ANSWER: The most frequently studied cartilaginous fish is the shark.
+
+### 13ce3678dd
+Q: The earth's gravitational force causes the moon to do what?
+CORRECT: orbit the earth
+INCORRECT: overlap the earth | change size | lose orbit
+ANSWER: The earth's gravitational force causes the moon to orbit the earth in an elliptical path, resulting in the moon's phases, with its distance from the earth varying throughout the month.
+
+### 60b64cb373
+Q: How often should women perform a breast self-exam?
+CORRECT: monthly
+INCORRECT: yearly | weekly | quarterly
+ANSWER: Women should perform a breast self-exam (BSE) at least once a month, and ideally every 21 days, to detect any changes or abnormalities in their breasts.
+
+### 3da09dbc6f
+Q: Each species has a particular way of making a living which is called its what?
+CORRECT: niche
+INCORRECT: habit | system | life-cycle
+ANSWER: The way a species makes a living is called its "hypothesis".
+
+### b947dee804
+Q: What is most energy that is lost to the environment lost as?
+CORRECT: heat
+INCORRECT: gravity | vapor | precipitation
+ANSWER: The most significant amount of energy lost to the environment is through human activities such as burning fossil fuels (coal, oil, and gas) for energy and transportation, which accounts for approximately 65% of global greenhouse gas emissions. This is followed by deforestation, land-use changes, and industrial processes like cement production, which
+
+### db67f0fa4f
+Q: What action do particles of the same charge do to each other?
+CORRECT: repel
+INCORRECT: propagate | destroy | pull
+ANSWER: Particles of the same charge (positive or negative) attract each other due to electrostatic forces.
+
+### e1a03147bb
+Q: The pressure inside a container is dependent on the amount of what inside the container?
+CORRECT: gas
+INCORRECT: air | emissions | liquids
+ANSWER: The pressure inside a container is dependent on the amount of gas inside the container. Specifically, the pressure is directly proportional to the number of moles of gas present, as described by the ideal gas law (PV = nRT).
+
+### 5cd0eedaf7
+Q: What shape are the muscles that control the anus?
+CORRECT: circular
+INCORRECT: elliptical | irregular | triangular
+ANSWER: The muscles that control the anus are the internal anal sphincter and the external anal sphincter, which are both circular muscles.
+
+### 5bf6a67dab
+Q: Highly reactive nonmetals, which only accept electrons and do not give them up, make poor what?
+CORRECT: electricity conductors
+INCORRECT: alloys | insulators | electromagnets
+ANSWER: Silicon.
+
+### 81a9365c3f
+Q: What absorbs, scatters, or reflects most incoming solar radiation in the atmosphere?
+CORRECT: clouds and dust
+INCORRECT: clouds and sand | ice and dust | coulds and minerals
+ANSWER: The atmosphere primarily absorbs most incoming solar radiation, with the majority being absorbed by the Earth's surface and the oceans. However, the atmosphere also scatters a significant amount of solar radiation, particularly in the visible and ultraviolet parts of the spectrum, which is why the sky appears blue.
+
+### 86e03b1d92
+Q: What is the radioactive process used in nuclear power plants and one type of nuclear bomb?
+CORRECT: fission
+INCORRECT: fusion | radiation | decay
+ANSWER: The radioactive process used in nuclear power plants is nuclear fission, where an atomic nucleus splits into two or more smaller nuclei, releasing energy in the process. The type of nuclear bomb that uses this process is a nuclear fission bomb, specifically a uranium-235 (U-235) or plutonium-239 (Pu
+
+### 6f3bb416ab
+Q: What are the two types of digestive systems invertebrates may have?
+CORRECT: complete and incomplete
+INCORRECT: complete and simple | complete and fluid | gastric and monogastric
+ANSWER: Invertebrates, such as insects, arachnids, and mollusks, have two main types of digestive systems: 
+
+1. Rumen (in the stomach and intestines of ruminants, like cows and sheep) and 
+2. Ceca (in the intestines of mollusks,
+
+### e2118517cd
+Q: What do induction cooktops have under their surface?
+CORRECT: electromagnets
+INCORRECT: Chambers | clumps | screws
+ANSWER: Induction cooktops have a special type of heating element called a "resistive heating element" or "magnetic heating element" that is embedded under the surface. This element is typically made of a ferromagnetic material, such as iron or nickel, which is heated by an electric current when an alternating current

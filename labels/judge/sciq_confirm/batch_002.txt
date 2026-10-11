@@ -1,0 +1,239 @@
+### 572ac9570d
+Q: What is the radioactive process used in nuclear power plants and one type of nuclear bomb?
+CORRECT: fission
+INCORRECT: fusion | radiation | decay
+ANSWER: The radioactive process used in nuclear power plants is nuclear fission, while one type of nuclear bomb uses nuclear fission as well.
+
+### 56a272793c
+Q: The three parts of the human small intestine is the duodenum, jejunum, and what?
+CORRECT: ileum
+INCORRECT: appendix | colon | cecum
+ANSWER: The three parts of the human small intestine are the duodenum, jejunum, and ileum.
+
+### 7fe2d8bed3
+Q: Properties of matter can be considered physical or?
+CORRECT: chemical
+INCORRECT: gas | mineral | liquid
+ANSWER: Properties of matter can be considered physical or chemical.
+
+### e1b5e395df
+Q: What term always refers to acceleration in the direction opposite to the direction of the velocity and always reduces speed, unlike negative acceleration?
+CORRECT: deceleration
+INCORRECT: progression | extraction | calibration
+ANSWER: The term that always refers to acceleration in the direction opposite to the direction of the velocity and always reduces speed, unlike negative acceleration, is deceleration.
+
+### 7da2c2ac52
+Q: In a correctly balanced equation, all coefficients must be what kind of numbers?
+CORRECT: whole
+INCORRECT: prime | negative | fractional
+ANSWER: In a correctly balanced equation, all coefficients must be whole numbers.
+
+### adedf3bc5c
+Q: What is released to lubricate the vagina to facilitate intercourse?
+CORRECT: vaginal secretions
+INCORRECT: urine | blood | semen
+ANSWER: Lubricant is released to lubricate the vagina to facilitate intercourse.
+
+### d0aac88854
+Q: What is the most important source of electromagnetic radiation on earth?
+CORRECT: the sun
+INCORRECT: the moon | volcanos | the oceans
+ANSWER: The sun is the most important source of electromagnetic radiation on Earth.
+
+### eb51215b71
+Q: If a lump of clay is dropped into water, what will occur?
+CORRECT: it will sink
+INCORRECT: Will float | Will dissolve | Will break up
+ANSWER: The lump of clay will sink to the bottom of the water due to its density being greater than that of water.
+
+### 77eac7ccf7
+Q: While the goal of science is to increase knowledge, the goal of what is to use knowledge for practical purposes?
+CORRECT: technology
+INCORRECT: advancement | invention | industry
+ANSWER: While the goal of science is to increase knowledge, the goal of technology is to use knowledge for practical purposes.
+
+### 83f506ff80
+Q: What living species of bird is considered the  largest of the raptors?
+CORRECT: golden eagles
+INCORRECT: California condor | peregrine falcon | pteradactyl
+ANSWER: The living species of bird considered the largest of the raptors is the Ostrich.
+
+### ed9cc92867
+Q: The tibia is the larger, weight-bearing bone located on the medial side of the leg. the fibula is the slender bone of the lateral side of the leg and does not do what?
+CORRECT: bear weight
+INCORRECT: resist weight | support weight | drive weight
+ANSWER: The fibula does not do weight-bearing.
+
+### 2a24ea52e1
+Q: Under the right conditions, what energy source can be used to eject electrons from a solid material?
+CORRECT: light
+INCORRECT: force | weight | gravity
+ANSWER: Electrons can be ejected from a solid material under the right conditions, such as when a photon of sufficient energy strikes the material.
+
+### 6d7bd9046a
+Q: What are by far the most common type of invertebrate?
+CORRECT: insects
+INCORRECT: spiders | crustaceans | corals
+ANSWER: The most common type of invertebrate is the arthropod.
+
+### a5b8cbf226
+Q: When exposed to ultraviolet, some substances, such as minerals, glow in characteristic visible wavelengths, a process called this?
+CORRECT: fluorescence
+INCORRECT: plasma | chemical reaction | pigment
+ANSWER: When exposed to ultraviolet, some substances, such as minerals, glow in characteristic visible wavelengths, a process called fluorescence.
+
+### 9c8ea4c98b
+Q: What is the process in which unspecialized cells become specialized in structure and function to perform certain tasks in the body?
+CORRECT: differentiation
+INCORRECT: speciation | transcription | mutation
+ANSWER: The process in which unspecialized cells become specialized in structure and function to perform certain tasks in the body is called differentiation.
+
+### 85810278b7
+Q: What is defined by its sequence of nucleotides?
+CORRECT: nucleic acids
+INCORRECT: structural acids | proteins acids | amino acids
+ANSWER: DNA is defined by its sequence of nucleotides.
+
+### bda64928ed
+Q: An object attached to a spring sliding on a frictionless surface is an uncomplicated type of what device?
+CORRECT: simple harmonic oscillator
+INCORRECT: wheel and axle | pendulum | atomic watch
+ANSWER: An object attached to a spring sliding on a frictionless surface is an uncomplicated type of harmonic oscillator device.
+
+### e07b5cd266
+Q: Telomerase is typically active in germ cells and adult what?
+CORRECT: stem cells
+INCORRECT: human growth hormone | chromosomes | sex cells
+ANSWER: Telomerase is typically active in germ cells and adult stem cells.
+
+### ec98268152
+Q: What unit do astronomers use to describe distances in space?
+CORRECT: light years
+INCORRECT: quantum years | light months | gravity years
+ANSWER: Astronomers use light-years to describe distances in space.
+
+### 574e998efb
+Q: What is the name for the energy waves that radiate out from the center of an earthquake?
+CORRECT: seismic waves
+INCORRECT: deep waves | volcanic waves | particle waves
+ANSWER: The name for the energy waves that radiate out from the center of an earthquake is seismic waves.
+
+### a01757ba98
+Q: Humans cannot digest what primary structural material of plants, which is one of the most abundant organic substances on earth?
+CORRECT: cellulose
+INCORRECT: sulfur | carbonate | zinc
+ANSWER: Humans cannot digest cellulose, which is one of the most abundant organic substances on earth and is a primary structural material of plants.
+
+### 84cf6d0ea4
+Q: A high metabolic rate and hair are ways mammals generate and conserve what?
+CORRECT: heat
+INCORRECT: resources | energy | water
+ANSWER: Metabolism and heat.
+
+### 7a6b125804
+Q: How many types of molecular orbitals can form from the overlap of two atomic s orbitals on adjacent atoms?
+CORRECT: two
+INCORRECT: three | six | ten
+ANSWER: Two types of molecular orbitals can form from the overlap of two atomic s orbitals on adjacent atoms.
+
+### c3b7f08707
+Q: What is the official name for the study of life?
+CORRECT: biology
+INCORRECT: chemistry | geology | botany
+ANSWER: The official name for the study of life is biology.
+
+### 08ed4898fc
+Q: When water is aerated it can provide a plant's roots with what gas for cellular respiration?
+CORRECT: oxygen
+INCORRECT: nitrogen | carbon | carbon dioxide
+ANSWER: Aerating water can provide a plant's roots with oxygen for cellular respiration.
+
+### 4a88e34729
+Q: The name of a simple covalent compound can be determined from its chemical this?
+CORRECT: formula
+INCORRECT: models | configuration | map
+ANSWER: The name of a simple covalent compound can be determined from its chemical formula.
+
+### d04baa9f5f
+Q: What is the resultant waste product of photosynthesis?
+CORRECT: oxygen
+INCORRECT: carbon | argon | sulfur
+ANSWER: The resultant waste product of photosynthesis is oxygen.
+
+### 90cf086918
+Q: Exothermic reactions, like all chemical reactions, require what to get started?
+CORRECT: activation energy
+INCORRECT: surface energy | membrane energy | specific energy
+ANSWER: Exothermic reactions, like all chemical reactions, require activation energy to get started.
+
+### 9ce5be21ea
+Q: Ac is better than dc for doing what?
+CORRECT: transporting electrcal energy
+INCORRECT: cooking electrcal energy | storing electrical energy | stopping electrical ebergy
+ANSWER: Ac is better than dc for doing audio processing.
+
+### 442def2ac8
+Q: After a supernova, what part of a star remains?
+CORRECT: core
+INCORRECT: large | outer | superficial
+ANSWER: After a supernova, the core of a star remains, while the outer layers are ejected into space.
+
+### e30140497b
+Q: The hydrogen is oxidized because it undergoes a partial loss of what?
+CORRECT: electrons
+INCORRECT: density | protons | ions
+ANSWER: The hydrogen is oxidized because it undergoes a partial loss of electrons.
+
+### 14d8049498
+Q: The spokes of what structures that distinguish saturn appear seasonally, with an origin as yet unknown?
+CORRECT: rings
+INCORRECT: moons | craters | satellites
+ANSWER: Saturn's rings appear seasonally due to the tilt of Saturn's rotation axis, with their origin still a mystery.
+
+### ddd676acf1
+Q: Reactants may also be present in such low concentrations that it is unlikely they will meet and do what?
+CORRECT: collide
+INCORRECT: explode | depart | melt
+ANSWER: Reactants may also be present in such low concentrations that it is unlikely they will meet and collide.
+
+### f81a70a06d
+Q: Only about one percent of plants have lost what ability, turning them into consumers and even predators, instead of producers?
+CORRECT: photosynthesis
+INCORRECT: flowering | rooting | growth
+ANSWER: Only about one percent of plants have lost the ability to perform photosynthesis, turning them into consumers and even predators, instead of producers.
+
+### de33cd0053
+Q: Which type of tree is dominant in temperate forests?
+CORRECT: deciduous
+INCORRECT: vines | fungus | shrubs
+ANSWER: The dominant tree type in temperate forests is usually a broadleaf tree such as oak, beech, or maple.
+
+### bc67a594fb
+Q: What is the term for air moving over earth’s surface?
+CORRECT: wind
+INCORRECT: humidity | spin cycle | tidal
+ANSWER: The term for air moving over Earth's surface is called wind.
+
+### 836b0dcd32
+Q: An increase in what levels results in sound waves that are louder and of greater intensity?
+CORRECT: decibel levels
+INCORRECT: radiation levels | height levels | heat levels
+ANSWER: An increase in pressure levels results in sound waves that are louder and of greater intensity.
+
+### 127c9e2161
+Q: The cell membrane consists of two layers of what?
+CORRECT: phospholipids
+INCORRECT: chlorophyll | epidermis | filaments
+ANSWER: The cell membrane consists of two layers of phospholipids.
+
+### 4384de5bfb
+Q: Clubfoot, also known as talipes, is a congenital (present at birth) disorder of unknown cause and is the most common deformity of what?
+CORRECT: lower limb
+INCORRECT: upper limb | genitals | cranium
+ANSWER: Clubfoot, also known as talipes, is a congenital (present at birth) disorder of unknown cause and is the most common deformity of the foot.
+
+### 476f43d50a
+Q: What divide on their own by a process that resembles binary fission in prokaryotes?
+CORRECT: mitochondria
+INCORRECT: protazoa | proteins | bacteria
+ANSWER: Bacteria divide by a process that resembles binary fission in prokaryotes.

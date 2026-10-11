@@ -1,0 +1,221 @@
+### 7dcd5d2e5f
+Q: What is the most important source of electromagnetic waves on earth?
+CORRECT: the sun
+INCORRECT: clouds | the ocean | the moon
+ANSWER: The most important source of electromagnetic waves on Earth is the sun.
+
+### b658a0d368
+Q: By the year 2050, 25 percent of the population of the united states will be 60 years of age or older. the cdc estimates that 80 percent of those 60 years and older have one or more chronic disease associated with deficiencies of this?
+CORRECT: immune system
+INCORRECT: respiratory system | cardiovascular system | blood vessels
+ANSWER: By 2050, 25% of the US population will be 60 years old or older, and the CDC estimates that 80% of these individuals will have one or more chronic diseases related to deficiencies in vitamin D.
+
+### a4782cea04
+Q: What process, which is in many ways the opposite of photosynthesis, shows the interdependence of producers and consumers?
+CORRECT: cellular respiration
+INCORRECT: primarily respiration | decomposition | osmosis
+ANSWER: The process that shows the interdependence of producers and consumers is decomposition.
+
+### 1fa4f2fc86
+Q: What structures located on chromosomes control characteristics of life and are passed from parents to offspring?
+CORRECT: genes
+INCORRECT: eggs | axons | cells
+ANSWER: Chromosomes control characteristics of life and are passed from parents to offspring through genes.
+
+### 49e5e20cde
+Q: The three-dimensional spaces with specific shapes that are components of electrons shells are known as what?
+CORRECT: orbitals
+INCORRECT: arrays | isotopes | ventricals
+ANSWER: The three-dimensional spaces with specific shapes that are components of electrons shells are known as electron orbitals.
+
+### e8d108e193
+Q: How many families are known quarks divided into?
+CORRECT: three
+INCORRECT: two | five | four
+ANSWER: Quarks are divided into six families, which are denoted by the quark color charge.
+
+### 27e2765644
+Q: In the case of the moose, predation is an additional factor that regulates what?
+CORRECT: population
+INCORRECT: speed | color | weight
+ANSWER: In the case of the moose, predation is an additional factor that regulates population size and behavior.
+
+### cc5c218b1f
+Q: What does a continuous string of earthquakes indicate about a volcano?
+CORRECT: eruption is close
+INCORRECT: extinction is close | it is cooling down | it is heating up
+ANSWER: A continuous string of earthquakes indicates that magma is rising and moving beneath a volcano, which can lead to an impending eruption.
+
+### 23181ef13a
+Q: Do most waves strike the shore head on or at an angle?
+CORRECT: at an angle
+INCORRECT: side on | head on | at a distance
+ANSWER: Most waves strike the shore at an angle rather than head-on.
+
+### 803f4cf645
+Q: What process takes place when plants release water vapor through pores in their leaves called stomata?
+CORRECT: transpiration
+INCORRECT: evaporation | expiration | propagation
+ANSWER: When plants release water vapor through their stomata, a process called transpiration occurs.
+
+### 72cc3471fd
+Q: In the u. s. , the majority of electricity is produced by burning coal or what else?
+CORRECT: fossil fuels
+INCORRECT: hydroelectic | solar | wind power
+ANSWER: In the United States, the majority of electricity is produced by burning coal.
+
+### e602a1400b
+Q: How did the first seed plants form seeds?
+CORRECT: in cones
+INCORRECT: in leaves | in folds | in stems
+ANSWER: The first seed plants formed seeds through a process involving the development of a seed coat, embryo, and stored food reserves. This process involved the evolution of specialized reproductive structures and mechanisms that allowed plants to produce seeds that could survive and grow into new plants.
+
+### 03e6fdf226
+Q: What do charged particles in motion generate?
+CORRECT: magnetic fields
+INCORRECT: fission | electricity | gravitational fields
+ANSWER: Charged particles in motion generate electromagnetic waves.
+
+### 1be0b3988f
+Q: Breathing involves differences in what, measured in torr, between the inside of the lungs and the air outside?
+CORRECT: pressure
+INCORRECT: temperature | gravity | resistance
+ANSWER: Breathing involves differences in pressure, measured in torr, between the inside of the lungs and the air outside.
+
+### dea3c95965
+Q: Oxygen is an element in what form of matter?
+CORRECT: gas
+INCORRECT: liquid | solid | plasma
+ANSWER: Oxygen is an element in a gaseous form of matter.
+
+### 0c990bc7db
+Q: What system of the body is responsible for transmitting, processing, and responding to most of the sensory information that is created by various stimuli?
+CORRECT: nervous system
+INCORRECT: respiratory system | circulatory system | attentive system
+ANSWER: The sensory system, which includes the eyes, ears, skin, and other sensory organs, is responsible for transmitting, processing, and responding to most of the sensory information created by various stimuli.
+
+### 1bb73651b4
+Q: What rock group offers the richest source of fossils?
+CORRECT: sedimentary
+INCORRECT: metamorphic | igneous | geode
+ANSWER: The rock group offering the richest source of fossils is the band Led Zeppelin.
+
+### c6e4999bb8
+Q: Most fungi get organic compounds from what?
+CORRECT: dead organisms
+INCORRECT: inorganic material | living organisms | carnivorous organisms
+ANSWER: Most fungi obtain organic compounds from dead or decaying organic matter.
+
+### 5402e01fae
+Q: What are the structural and functional units of the kidneys?
+CORRECT: nephrons
+INCORRECT: interneurons | fat cells | dendrites
+ANSWER: The structural and functional units of the kidneys are nephrons, which are tiny, functional units that filter blood and remove waste products.
+
+### b2a0834014
+Q: Cnidarians are an example of organisms that possess a simple type of what system, used for sensing touch?
+CORRECT: nervous system
+INCORRECT: circulatory system | lymphatic system | bacterial system
+ANSWER: Cnidarians possess a simple type of sensory system called the cnidocyte system, which is used for sensing touch.
+
+### e141ec8986
+Q: What lines the passages of the nose and senses chemicals in the air?
+CORRECT: odor receptors
+INCORRECT: matter receptors | consumption receptors | optic receptors
+ANSWER: The nasal passages are lined with tiny hairs called cilia and mucous membranes that detect chemicals in the air through specialized cells called olfactory receptors.
+
+### 8603f4a601
+Q: Hormones are often regulated through what?
+CORRECT: feedback loops
+INCORRECT: alternating loops | response loops | intensity loops
+ANSWER: Hormones are often regulated through the endocrine system, which involves the release and action of hormones in response to signals from the nervous system.
+
+### e510c79378
+Q: What leaves behind crescent-shaped scars on a hillside and  may be caused by a layer of slippery, wet clay underneath the rock and soil on a hillside?
+CORRECT: slump
+INCORRECT: creep | slide | shearing
+ANSWER: A crescent-shaped scar on a hillside may be caused by a layer of slippery, wet clay underneath the rock and soil, which can lead to rockfall or landslides.
+
+### c41efb5f62
+Q: What cycle is part of cellular respiration and makes atp and naph?
+CORRECT: krebs
+INCORRECT: vireos | water cycle | carbon cycle
+ANSWER: The cycle that is part of cellular respiration and makes ATP and NADPH is the light-dependent reactions and the Calvin cycle.
+
+### bdd05d7f18
+Q: What type of organism generally lives in or on its host?
+CORRECT: parasite
+INCORRECT: predator | bacteria | insect
+ANSWER: A parasite generally lives in or on its host.
+
+### b5467694ca
+Q: Digestive enzymes are released, or secreted, by the organs of which body system?
+CORRECT: digestive system
+INCORRECT: nervous system | urinary system | endocrine system
+ANSWER: Digestive enzymes are released by the digestive system, which is a body system.
+
+### 542452a3ac
+Q: Ecological succession refers to the change in the numbers and types of species that live in what groups?
+CORRECT: communities
+INCORRECT: movements | colonies | biomes
+ANSWER: Ecological succession refers to the change in the numbers and types of species that live in ecosystems over time.
+
+### 0d19f701ab
+Q: Solute potential is also called osmotic potential because solutes affect the direction of what?
+CORRECT: osmosis
+INCORRECT: permeability | electrolysis | electrolysis
+ANSWER: Solute potential is also called osmotic potential because it affects the direction of water movement in a solution.
+
+### 3383dc3c80
+Q: A moraine is sediment deposited by what?
+CORRECT: glacier
+INCORRECT: human-caused scarring | river erosion | wind
+ANSWER: A moraine is sediment deposited by glaciers.
+
+### 8460ad07dc
+Q: What kind of organisms helps hold soil in place to slow erosion?
+CORRECT: plants
+INCORRECT: flowers | bacteria | animals
+ANSWER: Plants and microorganisms help hold soil in place to slow erosion by forming a network of roots and binding soil particles together.
+
+### 91d62fc5ed
+Q: What is the process of filtering waste from the kidneys?
+CORRECT: dialysis
+INCORRECT: virus | stones | inflammation
+ANSWER: The process of filtering waste from the kidneys is called filtration. It occurs in the glomeruli, tiny blood vessels within the nephrons of the kidneys, where blood is filtered to remove waste products and excess fluids.
+
+### 56d2e7dc7e
+Q: What occurs not only as organisms grow, but as they reproduce.
+CORRECT: cell division
+INCORRECT: proteins division | experimental division | flight division
+ANSWER: As organisms grow, they also reproduce, resulting in the continuation of their species.
+
+### 624f8732fc
+Q: During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?
+CORRECT: third trimester
+INCORRECT: fourth trimester | first trimester | second trimester
+ANSWER: The third trimester of human pregnancy exhibits the greatest growth of the fetus, culminating in labor and delivery.
+
+### 117307f67a
+Q: What is essential for population of all species to expand greatly?
+CORRECT: abundant resources
+INCORRECT: foliage resources | chemical resources | liquid resources
+ANSWER: For the population of all species to expand greatly, essential factors include a stable or increasing food supply, suitable habitats, and a favorable climate.
+
+### 9cc40217c6
+Q: The lancelet lacks what feature that distinguishes vertebrates?
+CORRECT: backbone
+INCORRECT: feet | skin | mouth
+ANSWER: The lancelet lacks a vertebral column, which distinguishes vertebrates from other chordates.
+
+### c758d58313
+Q: Non-human organisms that mainly consume plants/other primary producers are known as what?
+CORRECT: herbivores
+INCORRECT: amphibians | carnivores | omnivores
+ANSWER: Non-human organisms that mainly consume plants/other primary producers are known as herbivores.
+
+### 3823684780
+Q: What makes marginal lands unsuitable for farming?
+CORRECT: drought
+INCORRECT: flood | pestilence | disease
+ANSWER: Marginal lands are unsuitable for farming due to factors such as poor soil quality, limited water availability, extreme weather conditions, and lack of suitable climate.

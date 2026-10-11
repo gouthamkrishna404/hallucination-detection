@@ -1,0 +1,119 @@
+### 56bbcd0212
+Q: What is the name of the molecule which has one carbon and four hydrogen atoms?
+CORRECT: methane
+INCORRECT: carbohydrate | sulfur | carbon monoxide
+ANSWER: The molecule with one carbon and four hydrogen atoms is methane (CH4).
+
+### 033eafd019
+Q: What is the most abundant metal of the earth's crust?
+CORRECT: aluminum
+INCORRECT: calcium | copper | magnetite
+ANSWER: The most abundant metal in the Earth's crust is aluminum.
+
+### 238fa78fa8
+Q: The interaction between atomic orbitals is greatest when they have the same what?
+CORRECT: energy
+INCORRECT: temperature | mass | fuel
+ANSWER: The interaction between atomic orbitals is greatest when they have the same orientation.
+
+### 320afe27e0
+Q: In an ecosystem, what do you call organisms like lions that capture and kill other animals for food?
+CORRECT: predators
+INCORRECT: hunters | alphas | leaders
+ANSWER: Predators.
+
+### a6f15a2e70
+Q: What is another name for anther pollen sacs?
+CORRECT: microsporangia
+INCORRECT: ganglia | Megasporangia | Gametangia
+ANSWER: The other name for anther pollen sacs is microsporangia.
+
+### ad4c8fc78d
+Q: What anatomical structures insulate, protect and provide sensory input?
+CORRECT: hair
+INCORRECT: teeth | fingernails | salivary glands
+ANSWER: The structures that insulate, protect, and provide sensory input are the nervous system, including the brain and spinal cord.
+
+### 2f91e1a157
+Q: What is land with permafrost, no trees, and small hardy plants?
+CORRECT: tundra
+INCORRECT: subtropics | taiga | desert
+ANSWER: It is a tundra ecosystem characterized by permanently frozen ground, sparse vegetation, and hardy plant species.
+
+### fcb0f8ea35
+Q: In astronomy, what are so dense that not even light can escape their gravity?
+CORRECT: black holes
+INCORRECT: black rods | dwarf stars | red holes
+ANSWER: Black holes are so dense that not even light can escape their gravity.
+
+### 7319b6f1b6
+Q: A moraine is sediment deposited by what?
+CORRECT: glacier
+INCORRECT: human-caused scarring | river erosion | wind
+ANSWER: A moraine is sediment deposited by moving ice.
+
+### 2d2e53bcb6
+Q: The left atrium receives oxygen-rich blood from which organs?
+CORRECT: lungs
+INCORRECT: pancreas | brain | liver
+ANSWER: The left atrium receives oxygen-rich blood from the lungs.
+
+### bca9ceb7bb
+Q: What cycle is part of cellular respiration and makes atp and naph?
+CORRECT: krebs
+INCORRECT: vireos | water cycle | carbon cycle
+ANSWER: The electron transport chain is part of cellular respiration and makes ATP and NADH.
+
+### 992aa9074d
+Q: Hertz proved that what type of waves travel at the speed of light?
+CORRECT: electromagnetic
+INCORRECT: sound | seismic | tsunamis
+ANSWER: Hertz proved that electromagnetic waves travel at the speed of light.
+
+### 92c0a29af5
+Q: A thermite reaction is thermodynamically spontaneous, and because it is associated with a significant release of heat, it is regarded as what?
+CORRECT: exothermic
+INCORRECT: biochemical | endotropic | endothermic
+ANSWER: A thermite reaction is regarded as exothermic.
+
+### 2429e70497
+Q: We must remember that the formal charge calculated for an atom is not the actual charge of the atom in the molecule. formal charge is only a useful bookkeeping procedure; it does not indicate the presence of these?
+CORRECT: actual charges
+INCORRECT: isotopes | negative charges | electron bonds
+ANSWER: Electrons in the bonding pairs.
+
+### 87d8d43ee2
+Q: Which part of the atmosphere do greenhouse gasses trap heat in?
+CORRECT: troposphere
+INCORRECT: thermosphere | lithosphere | stratosphere
+ANSWER: Greenhouse gases trap heat in the lower part of the atmosphere, specifically in the troposphere.
+
+### dcbaaaaf33
+Q: What leaves behind crescent-shaped scars on a hillside and  may be caused by a layer of slippery, wet clay underneath the rock and soil on a hillside?
+CORRECT: slump
+INCORRECT: creep | slide | shearing
+ANSWER: Canyons are formed by water erosion, which can leave crescent-shaped scars on a hillside.
+
+### ed0b6bc71b
+Q: What form the skeletons of most organic molecules?
+CORRECT: carbon chains
+INCORRECT: hydrocarbons | amino acid chains | peptide groups
+ANSWER: Most organic molecules are composed of carbon skeletons.
+
+### bd7c7c64c6
+Q: What term describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell?
+CORRECT: exocytosis
+INCORRECT: biosynthesis | plasmosis | endocytosis
+ANSWER: The term that describes this process is exocytosis.
+
+### 511f10508e
+Q: Where does the energy produced by plants come from?
+CORRECT: sunlight
+INCORRECT: groundwater | animals | evaporation
+ANSWER: Plants produce energy from sunlight through the process of photosynthesis.
+
+### 22460604c9
+Q: The small, rocky bodies that orbit the sun are called what?
+CORRECT: asteroids
+INCORRECT: comets | meteorites | fossils
+ANSWER: The small, rocky bodies that orbit the sun are called asteroids.

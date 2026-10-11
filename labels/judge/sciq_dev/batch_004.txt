@@ -1,0 +1,239 @@
+### d7c90fc3f2
+Q: The amniotic egg is a shared ancestral character for which clade?
+CORRECT: amniota
+INCORRECT: trichina | xerophyte | avian
+ANSWER: The amniotic egg is a shared ancestral character for the Amniota clade.
+
+### d73da6d46f
+Q: How many types of basic sensory receptors are there?
+CORRECT: five
+INCORRECT: five | six | four
+ANSWER: There are five types of basic sensory receptors: touch, pressure, temperature, pain, and proprioception.
+
+### a3eaa8ced9
+Q: Which membranous organelles in a cell sequence enzyme and electron molecules for efficient cellular respiration?
+CORRECT: mitochondria
+INCORRECT: glucose | protons | bacterial
+ANSWER: Mitochondria are the membranous organelles in a cell that sequence enzyme and electron molecules for efficient cellular respiration.
+
+### 78ced09f98
+Q: What makes marginal lands unsuitable for farming?
+CORRECT: drought
+INCORRECT: flood | pestilence | disease
+ANSWER: Marginal lands are unsuitable for farming due to poor soil quality, inadequate water supply, and susceptibility to drought or flooding.
+
+### d8ac688d0e
+Q: Enzymes can catalyze up to several million reactions per what?
+CORRECT: second
+INCORRECT: minute | hour | day
+ANSWER: Enzymes can catalyze up to several million reactions per second.
+
+### fd51de0df1
+Q: Fungi often make specialized reproductive structures, such as what?
+CORRECT: mushrooms
+INCORRECT: pieces | Fungus | herbs
+ANSWER: Fungi often make specialized reproductive structures, such as mushrooms.
+
+### 339dba6076
+Q: Where fossils of the genus eomaia found?
+CORRECT: china
+INCORRECT: Japan | Egypt | India
+ANSWER: Fossils of the genus Eomaia were found in the Yunnan Province, China.
+
+### f857234c1d
+Q: There are 20 different common amino acids needed to make what organic compound?
+CORRECT: proteins
+INCORRECT: lipids | nutron | cells
+ANSWER: There are 20 different common amino acids needed to make proteins.
+
+### b64335f466
+Q: What process takes place when plants release water vapor through pores in their leaves called stomata?
+CORRECT: transpiration
+INCORRECT: evaporation | expiration | propagation
+ANSWER: Transpiration is the process by which plants release water vapor through their stomata.
+
+### 0028038d77
+Q: What is the process of filtering waste from the kidneys?
+CORRECT: dialysis
+INCORRECT: virus | stones | inflammation
+ANSWER: The process of filtering waste from the kidneys involves the filtration of blood by the glomeruli, followed by the reabsorption of useful substances and the secretion of waste products into the urine.
+
+### 3978cbdcd8
+Q: Reacting with metal is one thing that distinguishes acids from what?
+CORRECT: bases
+INCORRECT: metals | minerals | protiens
+ANSWER: Acids from bases.
+
+### 7e429bc582
+Q: What are people with osteoporosis at increased risk of?
+CORRECT: bone fractures
+INCORRECT: epilepsy | senility | growth spurt
+ANSWER: People with osteoporosis are at increased risk of fractures, particularly of the hip, spine, and wrist.
+
+### 76c56642c2
+Q: What are the little sacs at the end of the bronchioles called?
+CORRECT: alveoli
+INCORRECT: lung | respiratory sacs | ganglion
+ANSWER: The little sacs at the end of the bronchioles are called alveoli.
+
+### 81b33509b5
+Q: Most mammals are viviparous, which refers to what reproductive result?
+CORRECT: live birth
+INCORRECT: identical twins | spawning | laying eggs
+ANSWER: Most mammals are viviparous, which refers to giving birth to live young.
+
+### 7709db312f
+Q: What do ecologists study at every level?
+CORRECT: ecosystems
+INCORRECT: taxonomy | solar system | plants
+ANSWER: Ecologists study the interactions between organisms and their environment at all levels of biological organization, from molecules to ecosystems.
+
+### ca9abeb692
+Q: What is the term for the force that a magnet exerts on certain materials?
+CORRECT: magnetic force
+INCORRECT: positive force | gravitational force | potential force
+ANSWER: The term for the force that a magnet exerts on certain materials is magnetic force or magnetic attraction.
+
+### f9deb7e934
+Q: What blood-carrying structures contain one-way valves that contribute to the return of blood to the heart?
+CORRECT: veins
+INCORRECT: glands | clots | brains
+ANSWER: Arteries contain one-way valves that contribute to the return of blood to the heart.
+
+### 6902c48e55
+Q: Most fungi get organic compounds from what?
+CORRECT: dead organisms
+INCORRECT: inorganic material | living organisms | carnivorous organisms
+ANSWER: Most fungi get organic compounds from decaying organic matter.
+
+### cc96efdcec
+Q: How do prokaryotic cells divide?
+CORRECT: binary fission
+INCORRECT: Fusion | function fission | multiple fission
+ANSWER: Prokaryotic cells divide through binary fission, where the cell splits in half, each part becoming a new cell.
+
+### 8284861b53
+Q: The lens focuses light on the retina , which covers the back of the inside of the eye. the retina has light-sensing photoreceptor cells called?
+CORRECT: rods and cones
+INCORRECT: cones and tubes | holes and cones | tubes and rods
+ANSWER: The retina has light-sensing photoreceptor cells called rods and cones.
+
+### a064e3592f
+Q: What is citrate an ionized form of?
+CORRECT: citric acid
+INCORRECT: carbonic acid | protein | hydrochloric acid
+ANSWER: Citrate is the ionized form of citric acid.
+
+### deb5769bed
+Q: What lines the passages of the nose and senses chemicals in the air?
+CORRECT: odor receptors
+INCORRECT: matter receptors | consumption receptors | optic receptors
+ANSWER: Mucus lines the passages of the nose and senses chemicals in the air.
+
+### f58b09ee59
+Q: What are located along convergent and divergent plate boundaries?
+CORRECT: volcanoes
+INCORRECT: mezas | megaliths | dunes
+ANSWER: Volcanoes and earthquakes are located along convergent and divergent plate boundaries.
+
+### eda98b254e
+Q: Hydrophilic molecules generally avoid what other kinds of molecules?
+CORRECT: hydrophobic
+INCORRECT: aqueous | lipophilic | neutral
+ANSWER: Hydrophilic molecules generally avoid hydrophobic molecules.
+
+### 3c3d5bf364
+Q: Which is a more reliable trait or measure to identify minerals?
+CORRECT: streak
+INCORRECT: color | shape | weight
+ANSWER: A more reliable trait or measure to identify minerals is their chemical composition.
+
+### e2c7ecd516
+Q: In the microbiology lab, what technique refers to the procedures that are carried out under sterile conditions?
+CORRECT: aseptic
+INCORRECT: personal hygiene | experimental control | ionization
+ANSWER: The technique that refers to procedures carried out under sterile conditions in a microbiology lab is aseptic technique.
+
+### 9ded61a6ad
+Q: Organs involved in digestion that do not have food pass through them are called?
+CORRECT: accessory organs
+INCORRECT: vestigial organs | layer organs | bypass organs
+ANSWER: The organs involved in digestion that do not have food pass through them are called the intestines.
+
+### ee0e5b9652
+Q: All of the elements in group 9 have nine of which electrons?
+CORRECT: valence
+INCORRECT: shell | ionic | gradient
+ANSWER: All of the elements in group 9 have nine valence electrons.
+
+### ae6e8ac521
+Q: What are the structural and functional units of the kidneys?
+CORRECT: nephrons
+INCORRECT: interneurons | fat cells | dendrites
+ANSWER: The structural units of the kidneys are nephrons, while the functional units are glomeruli.
+
+### bc2b9ec5e3
+Q: What does jupiter reflect a lot of due to its size?
+CORRECT: sunlight
+INCORRECT: carbon | molecules | moisture
+ANSWER: Jupiter reflects a lot of light due to its size, which is the largest planet in our solar system.
+
+### 828e627d92
+Q: Radiation, chemicals, and infectious agents are examples of what?
+CORRECT: mutagens
+INCORRECT: inhibitors | catalysts | pathogens
+ANSWER: Radiation, chemicals, and infectious agents are examples of biological and chemical hazards.
+
+### 8ab8846a0d
+Q: A vapor light produces visible light by what process?
+CORRECT: electroluminescence
+INCORRECT: solutes | luminescent | Solar Energy
+ANSWER: A vapor light produces visible light by exciting atoms in a gas discharge tube with an electric current, causing them to emit photons.
+
+### 20a1d31a48
+Q: What part of the neuron is a large structure with a central nucleus?
+CORRECT: cell body
+INCORRECT: proteins body | Eye body | Environmental
+ANSWER: The cell body is a large structure with a central nucleus in a neuron.
+
+### fc65e365b5
+Q: What term is used to describe organic compounds such as sugars and starches?
+CORRECT: carbohydrates
+INCORRECT: fats | proteins | vegetables
+ANSWER: The term used to describe organic compounds such as sugars and starches is carbohydrates.
+
+### aa23076ff0
+Q: Solute potential is also called osmotic potential because solutes affect the direction of what?
+CORRECT: osmosis
+INCORRECT: permeability | electrolysis | electrolysis
+ANSWER: Solute potential is also called osmotic potential because solutes affect the direction of water movement across a semipermeable membrane.
+
+### fb3e7480b0
+Q: When equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide, the result is what kind of solution?
+CORRECT: a neutral one
+INCORRECT: a economical one | a lateral one | a thermodynamic one
+ANSWER: When equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide, the result is a neutral solution.
+
+### 2a8fa5aa46
+Q: The right and left hip bones, with the addition of the sacrum and coccyx form what section of the skeleton?
+CORRECT: pelvis
+INCORRECT: necklash | tail bone | uterus
+ANSWER: The right and left hip bones, along with the sacrum and coccyx, form the hip region of the skeleton.
+
+### 014d49fe7f
+Q: The softer connective tissue that fills the interior of most bone is referred to as what?
+CORRECT: bone marrow
+INCORRECT: solid marrow | liquid marrow | attached marrow
+ANSWER: The softer connective tissue that fills the interior of most bone is referred to as bone marrow.
+
+### 6abf26a63c
+Q: Light is a form of what kind of energy?
+CORRECT: electromagnetic energy
+INCORRECT: magnetic energy | static energy | gravitational energy
+ANSWER: Light is a form of electromagnetic energy.
+
+### 18eac9021c
+Q: The lancelet lacks what feature that distinguishes vertebrates?
+CORRECT: backbone
+INCORRECT: feet | skin | mouth
+ANSWER: The lancelet lacks a backbone that distinguishes vertebrates.

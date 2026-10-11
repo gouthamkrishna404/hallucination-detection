@@ -1,0 +1,159 @@
+### 4a6ba99cf8
+Q: What particles ancient greeks propose that matter consists of ?
+CORRECT: atoms
+INCORRECT: ions | molecules | ether
+ANSWER: The ancient Greeks proposed that matter consists of four fundamental particles: earth (or terra), air (or aer), fire (or pyre), and water (or hydor).
+
+### cb104357e2
+Q: Organs involved in digestion that do not have food pass through them are called?
+CORRECT: accessory organs
+INCORRECT: vestigial organs | layer organs | bypass organs
+ANSWER: The organs involved in digestion that do not have food pass through them are called the "glands".
+
+### e72348e705
+Q: What 3 things do animals need to live and survive?
+CORRECT: air, water, and food
+INCORRECT: air, water, and socialization | sex, water, and sleep | water, food, and an ecosystem
+ANSWER: Animals need three essential things to live and survive: food, water, and shelter.
+
+### cd20d1de20
+Q: Like the frame of a house, what gives the cell an internal structure?
+CORRECT: cytoskeleton
+INCORRECT: cytoplasm | cellulose | endoskeleton
+ANSWER: The cell's internal structure is typically provided by a nucleus, which contains the cell's genetic material (DNA), and a cytoplasm, which is the jelly-like substance that fills the cell and contains various organelles.
+
+### 74cdcdcdf4
+Q: What type of bombs put a much larger fraction of their output into thermal energy than do conventional bombs?
+CORRECT: nuclear
+INCORRECT: dense bombs | dirty bombs | TNT
+ANSWER: Nuclear bombs, specifically those that use nuclear fission or fusion reactions, tend to produce a larger fraction of their output into thermal energy than conventional bombs. This is because nuclear reactions release a vast amount of energy in the form of heat, which is then radiated into space.
+
+### 1d15344797
+Q: What are chromosomes made of?
+CORRECT: dna and proteins
+INCORRECT: amino acids | sperm and proteins | muscle tissue
+ANSWER: Chromosomes are made of DNA (deoxyribonucleic acid) and proteins, specifically histone proteins, which are complex molecules that DNA wraps around to form a structure called chromatin. Chromatin is then further organized into visible chromosomes during cell division.
+
+### bca482b7a4
+Q: The type of bond that forms between molecules is called what?
+CORRECT: hydrogen bond
+INCORRECT: fission bond | covalent bond | helium bond
+ANSWER: The type of bond that forms between molecules is called a covalent bond.
+
+### c47b07d847
+Q: Two significant parts of the heat include the atrium and its counterpart, which is what?
+CORRECT: ventricle
+INCORRECT: cells | skeletal | valve
+ANSWER: The counterpart of the atrium is the ventricle.
+
+### d0f639f413
+Q: What leaves behind crescent-shaped scars on a hillside and  may be caused by a layer of slippery, wet clay underneath the rock and soil on a hillside?
+CORRECT: slump
+INCORRECT: creep | slide | shearing
+ANSWER: The leaves behind crescent-shaped scars on a hillside are likely caused by the action of the wind, which picks up and carries away the leaves, leaving behind a crescent-shaped mark. The presence of a layer of slippery, wet clay underneath the rock and soil on the hillside may also contribute to this phenomenon,
+
+### 429c528c2a
+Q: What structures located on chromosomes control characteristics of life and are passed from parents to offspring?
+CORRECT: genes
+INCORRECT: eggs | axons | cells
+ANSWER: The structures located on chromosomes that control characteristics of life and are passed from parents to offspring are genes. Genes are segments of DNA that contain the instructions for making proteins, which are essential for various cellular functions, growth, and development.
+
+### 0c7b819505
+Q: What rock group offers the richest source of fossils?
+CORRECT: sedimentary
+INCORRECT: metamorphic | igneous | geode
+ANSWER: The rock group that offers the richest source of fossils is the Jurassic period, specifically the Triassic and Jurassic periods, but more specifically the Jurassic period, the Jurassic rock group is known for its rich fossil deposits, particularly of the Jurassic period, but the Jurassic rock group is known for its rich fossil deposits, particularly of the
+
+### 013531acc4
+Q: What is another name for the vertebral column?
+CORRECT: backbone
+INCORRECT: nerve column | pillar | brain stem
+ANSWER: The vertebral column is also commonly referred to as the "spine".
+
+### 4cb945e5a3
+Q: The lancelet lacks what feature that distinguishes vertebrates?
+CORRECT: backbone
+INCORRECT: feet | skin | mouth
+ANSWER: The lancelet lacks a vertebral column, which distinguishes it from vertebrates.
+
+### f93e0fbe4c
+Q: The three-dimensional spaces with specific shapes that are components of electrons shells are known as what?
+CORRECT: orbitals
+INCORRECT: arrays | isotopes | ventricals
+ANSWER: The three-dimensional spaces with specific shapes that are components of electrons shells are known as electron shells.
+
+### be1fe0e283
+Q: Malonate plays what negative role on the enzyme succinate dehydrogenase?
+CORRECT: inhibitor
+INCORRECT: catalyst | pathway | receptor
+ANSWER: Malonate plays a negative role on the enzyme succinate dehydrogenase by inhibiting the enzyme, which is a coenzyme (NADH) dependent enzyme.
+
+### bfd1e51d59
+Q: The amniotic egg is a shared ancestral character for which clade?
+CORRECT: amniota
+INCORRECT: trichina | xerophyte | avian
+ANSWER: The amniotic egg is a shared ancestral character for the clade Turtles.
+
+### f68b7bdbaa
+Q: What term is used to describe  is the spontaneous emission of particles and radiation from atomic nuclei?
+CORRECT: radioactivity
+INCORRECT: intensity | vibration | microscopic
+ANSWER: The term used to describe the spontaneous emission of particles and radiation from atomic nuclei is "beta decay".
+
+### 10bbd68b72
+Q: All of the elements in group 9 have nine of which electrons?
+CORRECT: valence
+INCORRECT: shell | ionic | gradient
+ANSWER: All of the elements in group 18 (not group 9) have eight electrons in their outermost shell, not nine.
+
+### 7b0322331b
+Q: Hydrogen-based fuel cells were and are used to provide what for manned space vehicles?
+CORRECT: electricity
+INCORRECT: light | magnetism | gravity
+ANSWER: Hydrogen-based fuel cells were and are used to provide power for manned space vehicles by converting chemical energy from hydrogen into electrical energy, which is then used to power the vehicle's systems.
+
+### 7109441601
+Q: Toxins and poisons are ______ enzyme inhibitos
+CORRECT: irreversible
+INCORRECT: reversible | cancerous | observable
+ANSWER: Toxins and poisons are inhibitors of certain enzymes, specifically those involved in their metabolism, such as cytochrome P450 enzymes, which help break down toxins.
+
+### 6b6ad17763
+Q: What kind of weather can you expect if a center of low pressure is moving your way?
+CORRECT: stormy
+INCORRECT: rain | rough | sunny
+ANSWER: If a center of low pressure is moving towards you, you can expect a change in the weather, typically characterized by increasing cloudiness, cooler temperatures, and possibly some precipitation, such as rain or thunderstorms. The exact type and intensity of the precipitation will depend on the specific low-pressure system and the location of your area
+
+### 350e20eee6
+Q: Water is considered a what since it is a polar molecule with slightly positive and slightly negative charges, so ions and polar molecules can readily dissolve in it?
+CORRECT: solvent
+INCORRECT: solute | pigment | osmotic
+ANSWER: Water is considered a polar molecule since it has a slightly positive hydrogen end and a slightly negative oxygen end, resulting in a partial positive charge on the hydrogen atoms and a partial negative charge on the oxygen atoms. This polarity allows water to form hydrogen bonds with other water molecules, enabling it to dissolve a wide variety of ions and
+
+### 5d6a8c5958
+Q: The male gametophyte releases what, which swim - propelled by their flagella - to reach and fertilize the female gamete or egg?
+CORRECT: sperm
+INCORRECT: cytoplasm | tadpoles | dna
+ANSWER: The male gametophyte releases sperm, which are swim-propelled by their flagella, to reach and fertilize the female gamete or egg.
+
+### 138bc09bf2
+Q: What do ecologists study at every level?
+CORRECT: ecosystems
+INCORRECT: taxonomy | solar system | plants
+ANSWER: Ecologists study various aspects of the natural world at different levels, including:
+
+* 1. Population ecology: the study of individual organisms and their interactions with each other and their environment.
+* 2. Community ecology: the study of groups of organisms living together in a specific area.
+* 3. Ecosystem ecology
+
+### 956480172e
+Q: Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?
+CORRECT: abiotic factors
+INCORRECT: nucleic factors | conditional factors | diverse factors
+ANSWER: These nonliving factors are examples of "ecosystem components."
+
+### 21577d1f8e
+Q: Does lava flow quickly or slowly when thick?
+CORRECT: slowly
+INCORRECT: quickly | rapidly | steadily
+ANSWER: When thick, lava flows slowly.

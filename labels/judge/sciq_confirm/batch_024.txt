@@ -1,0 +1,244 @@
+### 9567a4d983
+Q: A diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width is called?
+CORRECT: bar graph
+INCORRECT: pie chart | venn diagram | circle graph
+ANSWER: A diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width is called a bar graph.
+
+### 14b615d0f5
+Q: What do we call the visible part of the electromagnetic spectrum?
+CORRECT: light
+INCORRECT: weight | radio | electricity
+ANSWER: The visible part of the electromagnetic spectrum is commonly referred to as the "spectrum of light" or simply "visible light."
+
+### 9c5e99b8a0
+Q: Some bacteria cannot be cultured because they are obligate intracellular parasites and cannot be grown outside what?
+CORRECT: host cell
+INCORRECT: sponsor cell | anchor cell | brain cell
+ANSWER: Some bacteria cannot be cultured because they are obligate intracellular parasites and cannot be grown outside the cell membrane of their host cell.
+
+### 3564b99175
+Q: What is the most common cause of down syndrome?
+CORRECT: trisomy 21
+INCORRECT: trisomy 22 | gametes 21 | chromosome 21
+ANSWER: The most common cause of Down syndrome is an extra copy of chromosome 21, resulting from a non-disjunction error during meiosis. This is estimated to occur in about 3 in every 1,000 births.
+
+### 60a7bde5d4
+Q: Water is used by the plant to move materials up from the roots to make what?
+CORRECT: food
+INCORRECT: light | chlorophyll | fruit
+ANSWER: Water is used by the plant to move materials up from the roots to the leaves, where it is used for photosynthesis.
+
+### 6b72d9108a
+Q: Chewing insects mechanically damage plants and lessen the surface area of leaves for what?
+CORRECT: photosynthesis
+INCORRECT: vegetation | tissues | nutrients
+ANSWER: Chewing insects mechanically damage plants and lessen the surface area of leaves for reducing transpiration.
+
+### 421342af64
+Q: Which cavity, filled with lubricating serous fluid, lies between the epicardium and the pericardium?
+CORRECT: pericardial cavity
+INCORRECT: cranial cavity | oral cavity | thoracic cavity
+ANSWER: The pericardial cavity, filled with serous fluid, lies between the epicardium and the pericardium.
+
+### 49e04b9b5f
+Q: What is the term for the combined forces acting on an object?
+CORRECT: net force
+INCORRECT: total impact | blunt force | critical force
+ANSWER: The term for the combined forces acting on an object is "net force."
+
+### 5975dc400f
+Q: Nerve cells that sense touch are found mainly where?
+CORRECT: skin
+INCORRECT: stomach | brain | lungs
+ANSWER: Nerve cells that sense touch are found mainly in the skin, specifically on the surface of the skin, where they are often referred to as mechanoreceptors.
+
+### d46bafd1cc
+Q: What do metals start out as?
+CORRECT: ore
+INCORRECT: Metal molecules | aluminum | nickel
+ANSWER: Metals typically start out as ores, which are naturally occurring minerals that contain metal ions. Examples of common ores include iron ore, copper ore, and gold ore.
+
+### 1655197ffa
+Q: What is the term for the multi-phase process in which the nucleus of the cell divides?
+CORRECT: mitosis
+INCORRECT: cytokinesis | mutation | epistasis
+ANSWER: The term for the multi-phase process in which the nucleus of the cell divides is mitosis.
+
+### 4a4b2ec574
+Q: What are the most diverse organisms on earth, which are often classified by shape or how they react to gram stain?
+CORRECT: bacteria
+INCORRECT: cultures | pathogens | algae
+ANSWER: The most diverse organisms on Earth can be classified by shape or their reaction to Gram stain. Some examples include:
+
+- Bacteria: Many species of bacteria, such as Staphylococcus aureus, E. coli, and Bacillus subtilis, exhibit a range of shapes, including spherical, rod-shaped,
+
+### 053d0c6a3e
+Q: The products of what process are needed for cellular respiration, and vice versa?
+CORRECT: photosynthesis
+INCORRECT: digestion | spermatogenesis | circulation
+ANSWER: The products of cellular respiration are carbon dioxide (CO2), water (H2O), and ATP (adenosine triphosphate), while the reactants are glucose (C6H12O6), oxygen (O2), and NADH (nicotinamide adenine dinucleotide) and
+
+### 8a8ad89687
+Q: All of the populations that live in the same area make up what type of group, which includes populations of different organisms?
+CORRECT: community
+INCORRECT: environment | colony | hive
+ANSWER: The populations that live in the same area make up a type of group known as a "community."
+
+### 3568d451c0
+Q: On what day of the cycle does ovulation usually occur?
+CORRECT: 14th
+INCORRECT: 17th | 7th | 1st
+ANSWER: Ovulation usually occurs on the day of the cycle that is 14 days after the start of menstruation, which is day 1 of a 28-day menstrual cycle.
+
+### 46de2afd6f
+Q: What is the term for something changing from water to ice?
+CORRECT: freezing
+INCORRECT: evaporation | boiling | melting
+ANSWER: The term for something changing from water to ice is called sublimation.
+
+### de1cef20c0
+Q: What is a relationship where one species benefits and the other is unaffected?
+CORRECT: commensalism
+INCORRECT: pollenation | mutualism | parasitism
+ANSWER: A mutualistic relationship is one where one species benefits and the other is unaffected, such as a clownfish and a sea anemone, where the clownfish gets protection from predators in exchange for a share of the anemone's nutrients.
+
+### 188a773417
+Q: Associated with hair follicles, what type of oil gland is found all over the body and helps to lubricate and waterproof the skin and hair?
+CORRECT: sebaceous gland
+INCORRECT: sweat gland | melanin gland | gametes gland
+ANSWER: Sebaceous glands are associated with hair follicles and are found all over the body, helping to lubricate and waterproof the skin and hair. They produce sebum, an oily substance that helps to keep the skin and hair healthy and moisturized.
+
+### 18ba162a0e
+Q: The percent yield is determined by calculating the ratio of actual yield by what?
+CORRECT: theoretical yield
+INCORRECT: past balance | predicted return | actual loss
+ANSWER: The percent yield is determined by calculating the ratio of the actual yield to the theoretical yield.
+
+### d8e1ecba61
+Q: If a lump of clay is dropped into water, what will occur?
+CORRECT: it will sink
+INCORRECT: Will float | Will dissolve | Will break up
+ANSWER: When a lump of clay is dropped into water, it will start to soften and become pliable, eventually breaking down into a liquid-like state, often referred to as a "slip."
+
+### be8ede6b51
+Q: Farming practices leave some soil exposed and vulnerable to what natural process?
+CORRECT: erosion
+INCORRECT: migration | rust | sediment
+ANSWER: Farming practices, such as plowing and tilling, can leave some soil exposed and vulnerable to erosion. This is because the soil is broken up and turned over, creating small craters and holes that can be easily washed or blown away by wind or water.
+
+### 3dce56236a
+Q: Vertebrata are characterized by the presence of what?
+CORRECT: backbone
+INCORRECT: Bones | Muscles | Thumbs
+ANSWER: Vertebrata are characterized by the presence of a backbone or spinal column, which provides support and protection for the internal organs. This characteristic is a defining feature of vertebrates, distinguishing them from invertebrates like insects and crustaceans.
+
+### 63e1897d0a
+Q: Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as what?
+CORRECT: embryos
+INCORRECT: chromosomes | hormones | cells
+ANSWER: Invertebrates (and higher animals) can be placed in one of two groups based on how they develop as a larva, with the first group being those that undergo a complete metamorphosis (e.g. butterflies and moths) and the second group being those that undergo a partial or complete transformation (e.g
+
+### ca6f314d31
+Q: The body cannot sustain for very long the bursts of energy mediated by epinephrine and norepinephrine, hormones associated with what stress response?
+CORRECT: fight-or-flight
+INCORRECT: do-or-die | fainting | sink-or-swim
+ANSWER: The body cannot sustain for very long the bursts of energy mediated by epinephrine and norepinephrine, hormones associated with the stress response of "fight or flight".
+
+### 39aa5ccd8e
+Q: What kind of hormones serve many functions in addition to promoting gamete production?
+CORRECT: sex hormones
+INCORRECT: Multifaceted hormones | reflection hormones | Utility hormones
+ANSWER: The gonadotropin-releasing hormone (GnRH) and follicle-stimulating hormone (FSH) hormones serve many functions in addition to promoting gamete production, including stimulating the growth and maturation of ovarian follicles and testicular sperm production. Additionally, luteinizing hormone (LH
+
+### 748f232bfd
+Q: What living creatures comprise the "rainforests of the oceans"?
+CORRECT: coral reefs
+INCORRECT: kelp | krill | algae
+ANSWER: The "rainforests of the oceans" refer to the vast underwater ecosystems, also known as the "oceanic rainforests" or "seamount rainforests." These are complex ecosystems composed of various living creatures, including:
+
+* Giant tube worms (Riftia pachyptila)
+* Sea
+
+### 862a2a0fa4
+Q: How do animals obtain nitrogen?
+CORRECT: eating plants or organisms
+INCORRECT: eating plants or sediments | eating plants other animals | eating plants or bugs
+ANSWER: Animals obtain nitrogen through the consumption of certain plants, such as legumes, which are rich in nitrogen. They can also obtain nitrogen through the decomposition of organic matter, such as in the gut of ruminant animals like cows and sheep, where microbes break down nitrogen-rich compounds.
+
+### eb29aceb3c
+Q: In the grand canyon, the same rock layers are visible on opposite sides of the canyon and were deposited simultaneously, which is an example of what?
+CORRECT: lateral continuity
+INCORRECT: width continuity | bilateral continuity | directly continuity
+ANSWER: The same rock layers are visible on opposite sides of the Grand Canyon and were deposited simultaneously, which is an example of a synchronous deposition. This is because the rock layers were deposited at the same time, likely in a single event, resulting in the same layers being exposed on opposite sides of the canyon.
+
+### 2c013c63ff
+Q: The development of the respiratory system in the fetus begins at about?
+CORRECT: 4 weeks
+INCORRECT: 2 weeks | 4 months | 4 days
+ANSWER: The development of the respiratory system in the fetus begins at about 20 weeks of gestation.
+
+### 2b30bd5c64
+Q: The bird ancestor that lived in trees developed what feature commonly associated with birds?
+CORRECT: wings
+INCORRECT: tails | webbed feet | beaks
+ANSWER: The bird ancestor that lived in trees developed the beak.
+
+### 8c6fef9e80
+Q: What is the watery fluid that bathes tissues and organs and contains protective white blood cells but does not contain erythrocytes?
+CORRECT: lymph
+INCORRECT: stomach | basil | secretion
+ANSWER: The watery fluid that bathes tissues and organs and contains protective white blood cells but does not contain erythrocytes is called plasma.
+
+### 00adef8911
+Q: What model describing atomic structure is often referred to as a planetary model?
+CORRECT: bohr model
+INCORRECT: Newton's model | kinetic model | Pascal model
+ANSWER: The model describing atomic structure that is often referred to as a planetary model is the Rutherford model.
+
+### ef30160d13
+Q: What is the conversion of a solid to a gas called?
+CORRECT: sublimation
+INCORRECT: speciation | amplification | education
+ANSWER: The conversion of a solid to a gas is called sublimation.
+
+### a981fc4be8
+Q: What begins with a diploid cell and ends with four haploid cells?
+CORRECT: meiosis
+INCORRECT: electrolysis | mitosis | urinalysis
+ANSWER: The process that begins with a diploid cell and ends with four haploid cells is meiosis.
+
+### 2d12521522
+Q: While numerous elements can undergo fission, only a few can be used as fuels in what nuclear devices?
+CORRECT: reactors
+INCORRECT: colliders | laser beams | accelerators
+ANSWER: The answer is Uranium-235 (U-235).
+
+### 989058841d
+Q: What is the term for a series of biochemical reactions by which an organism converts a given reactant to a specific end product?
+CORRECT: metabolic pathway
+INCORRECT: internal pathway | direct pathway | hydrogen pathway
+ANSWER: The term for a series of biochemical reactions by which an organism converts a given reactant to a specific end product is a "metabolic pathway".
+
+### f3d2065829
+Q: Which chemist developed a process to remove carbon and dust particles in smoke?
+CORRECT: frederick cottrell
+INCORRECT: james carpenter | roger granger | harold black
+ANSWER: I'm not aware of a specific chemist who developed a process to remove carbon and dust particles in smoke. However, I do know that the development of smoke detectors and air purifiers involved the work of many scientists and engineers, including those who contributed to the development of particulate matter removal technologies.
+
+### bdc22cdc4b
+Q: Salts that are neither acidic nor basic do not affect what property of the solution when dissolved in water?
+CORRECT: ph
+INCORRECT: homeostasis | saturation | density
+ANSWER: When dissolved in water, salts that are neither acidic nor basic do not affect the pH of the solution, as they do not donate or accept hydrogen ions, thus not altering the solution's pH.
+
+### 20c72bd6ee
+Q: What are gases called that absorb heat in the atmosphere?
+CORRECT: greenhouse gases
+INCORRECT: microwave gases | ozone gases | carbonate gases
+ANSWER: The gases that absorb heat in the atmosphere are called greenhouse gases, which include carbon dioxide (CO2), methane (CH4), water vapor (H2O), and others. These gases trap heat from the sun, leading to the warming effect known as global warming.
+
+### 187c6140df
+Q: What record shows that dinosaurs originated 200-250 million years ago?
+CORRECT: fossil record
+INCORRECT: ancient record | biological record | species record
+ANSWER: The record that shows dinosaurs originated 230-240 million years ago is the fossilized remains of the early dinosaur group Eoraptor, which was discovered in Argentina in 1991.

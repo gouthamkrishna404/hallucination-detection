@@ -1,0 +1,239 @@
+### 7977d7b939
+Q: The basic voltaic cell variations are the dry cell and the what?
+CORRECT: lead storage battery
+INCORRECT: lead flood battery | positive terminal | lead electricity battery
+ANSWER: The basic voltaic cell variations are the dry cell and the lead-acid battery.
+
+### 1a38d95d7a
+Q: Vertebrate animals have two major body cavities, the dorsal and what is the other?
+CORRECT: spinal cavity
+INCORRECT: anterior cavity | proximal cavity | functional cavity
+ANSWER: The ventral body cavity is the other major body cavity in vertebrates, the other being the abdominal cavity.
+
+### 993cd6ea43
+Q: What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?
+CORRECT: elephantiasis
+INCORRECT: pulmonary edema | gigantism | fibrosis
+ANSWER: The disease characterized by the extreme swelling of the limbs caused by infection with a type of roundworm is known as lymphedema. Specifically, it is caused by lymphatic filariasis, which is typically caused by the parasitic roundworm Wuchereria bancrofti.
+
+### 73a8e09b4e
+Q: What kind of reproduction generates most of the genetic variation that makes evolutionary adaptation possible?
+CORRECT: sexual reproduction
+INCORRECT: cloning | asexual reproduction | synthetic reproduction
+ANSWER: The type of reproduction that generates most of the genetic variation that makes evolutionary adaptation possible is sexual reproduction, specifically the process of meiosis, which involves the shuffling of genetic material between two parents. This process increases genetic variation and is a key mechanism for driving evolutionary adaptation.
+
+### dc71a243aa
+Q: What is a vector quantity with the same direction as the force called?
+CORRECT: impulse
+INCORRECT: accelerated | inverted | simple
+ANSWER: A vector quantity with the same direction as the force is called a "polar moment of inertia" or simply "moment of inertia".
+
+### 97c6125ee7
+Q: What do experts estimate is the cause for the extinction of hundreds of species every year?
+CORRECT: human activities
+INCORRECT: migration | predation | intraspecies competition
+ANSWER: Experts estimate that the main cause of species extinction is habitat destruction and fragmentation, primarily due to human activities such as deforestation, urbanization, and agriculture, which lead to the loss of natural habitats and the fragmentation of remaining habitats, making it difficult for species to survive and reproduce.
+
+### adbffbcf23
+Q: What broad group of organisms is characterized by sensory organs, the ability to move, internal digestion and sexual reproduction?
+CORRECT: animals
+INCORRECT: protists | plants | fungi
+ANSWER: The broad group of organisms characterized by sensory organs, the ability to move, internal digestion, and sexual reproduction is called Eukarya.
+
+### e861b2dbb4
+Q: What type of telescopes collect and focus radio waves from distant objects?
+CORRECT: radio telescopes
+INCORRECT: reflecting telescopes | refracting telescopes | space telescopes
+ANSWER: Radio telescopes collect and focus radio waves from distant objects using radio antennas, which are typically large dishes or parabolic mirrors. These antennas are designed to collect and focus radio waves from space, allowing scientists to study objects such as stars, galaxies, and other celestial objects.
+
+### 43ed6ac099
+Q: What are the biggest groups of stars called?
+CORRECT: galaxies
+INCORRECT: cells | novas | orbits
+ANSWER: The biggest groups of stars are called globular clusters. Globular clusters are spherical collections of stars that are typically found in the halo of galaxies, and they can contain hundreds of thousands to millions of stars.
+
+### 165200654d
+Q: What is a complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work?
+CORRECT: combustion engine
+INCORRECT: vapor engine | convection oven | battery
+ANSWER: A complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work is a steam turbine.
+
+### 717dd3992a
+Q: In what type of organisms are daughter cells individuals?
+CORRECT: unicellular organisms
+INCORRECT: multicellular organisms | macroscopic organisms | hematopoietic organisms
+ANSWER: In plants, daughter cells are individual cells.
+
+### fa9875d373
+Q: Silver is an example of a mineral containing only one kind of what?
+CORRECT: element
+INCORRECT: matter | mass | chemical
+ANSWER: Silver is an example of a mineral containing only one kind of metal, specifically a noble metal.
+
+### b68103d429
+Q: Evaporation of moisture is greatest where it is?
+CORRECT: hot and sunny
+INCORRECT: cool and snowy | sunny and populated | rainy and hot
+ANSWER: Evaporation of moisture is greatest in areas with high temperatures and low humidity, such as near the equator or in coastal regions with warm ocean currents.
+
+### 72cd100944
+Q: What is the most direct way of recovering a metal from its ores?
+CORRECT: electrolysis
+INCORRECT: drilling | molecules | osmosis
+ANSWER: The most direct way of recovering a metal from its ores is through smelting, which involves heating the ore in a furnace with a reducing agent, such as carbon, to produce a molten metal, typically through the process of smelting and refining. This process is often used to extract metals like iron, copper
+
+### b2330d3c2d
+Q: When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?
+CORRECT: diameter
+INCORRECT: surface | height | weight
+ANSWER: When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to dilate, or widen, to increase blood flow to the skin and help cool the body down. This is often referred to as vasodilation.
+
+### 0109f6382c
+Q: What do ecosystems absorb on the earth?
+CORRECT: energy
+INCORRECT: water | hydrogen | fuel
+ANSWER: Ecosystems absorb carbon dioxide (CO2) from the atmosphere, oxygen (O2) from the atmosphere, and water vapor (H2O) from the atmosphere, as well as nutrients such as nitrogen (N) and phosphorus (P) from the soil.
+
+### 157aa3303a
+Q: What are by far the most common type of invertebrate?
+CORRECT: insects
+INCORRECT: spiders | crustaceans | corals
+ANSWER: The most common type of invertebrate is the insect, with approximately 1 million described species, making up about 80% of all invertebrate species. However, if we consider all invertebrates, including other animals such as mollusks, arachnids, and crustaceans, the most
+
+### 05601268aa
+Q: Expansion of a gas into a vacuum is irreversible because the external pressure is measurably less than the internal pressure of the gas, and no states of what exist?
+CORRECT: equilibrium
+INCORRECT: balance | liquid | composition
+ANSWER: Expansion of a gas into a vacuum is irreversible because the external pressure is measurably less than the internal pressure of the gas, and no states of matter exist in the sense that the gas is not in a liquid or solid state.
+
+### 63c4168a18
+Q: A series of arches that support the gills of aquatic amphibians and fish are known as what?
+CORRECT: branchial arches
+INCORRECT: cochlear arches | aquatic arches | scythian arches
+ANSWER: I'm not sure, but I'll give a specific answer. The structures that support the gills of aquatic amphibians and fish are known as pectoral gill slits or arches.
+
+### 36c0b7d3f1
+Q: The sternocleidomastoid is the major muscle that laterally flexes and rotates what?
+CORRECT: head
+INCORRECT: tongue | eye | knee
+ANSWER: The sternocleidomastoid muscle is the major muscle that laterally flexes and rotates the scapula (shoulder blade).
+
+### f4d6a1e366
+Q: What causes the alpine tundra to be so cold?
+CORRECT: high altitude above sea level
+INCORRECT: moderate altitude | low altitude | low air density
+ANSWER: The alpine tundra is a cold climate due to its high elevation, with an average temperature of around -10°C to -20°C (14°F to -4°F) in winter and 10°C to 20°C (50°F to 68°F) in summer. This is caused by the combination of
+
+### 0f905b2074
+Q: When compared to anaerobic respiration, what does aerobic respiration release more of?
+CORRECT: energy
+INCORRECT: heat | carbon dioxide | pressure
+ANSWER: Aerobic respiration releases more carbon dioxide (CO2) than anaerobic respiration.
+
+### fceb42cf45
+Q: Reactants may also be present in such low concentrations that it is unlikely they will meet and do what?
+CORRECT: collide
+INCORRECT: explode | depart | melt
+ANSWER: In the context of chemical reactions, reactants may also be present in such low concentrations that it is unlikely they will react with each other. This is because the reaction rate is often limited by the availability of reactants, and if the concentrations are too low, the reaction may not occur at all.
+
+### a6dc83c0b6
+Q: What is made of molecules of many different gases, and is something we usually can’t see, taste, or smell; we can only feel it when it moves?
+CORRECT: air
+INCORRECT: water | light | sound
+ANSWER: The answer is air. Air is made of molecules of many different gases, including nitrogen, oxygen, carbon dioxide, and others, and it is something we usually can't see, taste, or smell, but we can feel its movement, known as wind.
+
+### c127b35e85
+Q: What branch of science is concerned with matter and the changes that it can undergo?
+CORRECT: chemistry
+INCORRECT: geology | physiology | biology
+ANSWER: The branch of science concerned with matter and the changes that it can undergo is Chemistry.
+
+### 20967bb27b
+Q: Any nucleus that is unstable and decays spontaneously is said to be what?
+CORRECT: radioactive
+INCORRECT: neutral | dull | magnetic
+ANSWER: An unstable nucleus that decays spontaneously is said to be radioactive.
+
+### 95210e4a23
+Q: A sample of matter that has the same physical and chemical properties throughout itself is known as what?
+CORRECT: substance
+INCORRECT: antimatter | essence | molecule
+ANSWER: A sample of matter that has the same physical and chemical properties throughout itself is known as an "isotone".
+
+### b0065f6f83
+Q: What do astronomers term the stretching of space that causes the distance between galaxies to increase?
+CORRECT: expanding universe
+INCORRECT: maintaining universe | draining universe | contracting universe
+ANSWER: Astronomers term the stretching of space that causes the distance between galaxies to increase as "cosmic expansion".
+
+### 8e66230b4c
+Q: Newton’s second law of what is more than a definition; it is a relationship among acceleration, force, and mass?
+CORRECT: motion
+INCORRECT: gravity | change | interference
+ANSWER: Newton's second law of motion is more than a definition; it is a relationship among acceleration, force, and mass. The correct relationship is F = ma, where F is the force applied, m is the mass of the object, and a is the acceleration produced.
+
+### 3ca7667838
+Q: Which science is an extension of genetics, evolution, anatomy, physiology, and other biological disciplines?
+CORRECT: ethology
+INCORRECT: microbiology | neurobiology | chronology
+ANSWER: Biochemistry is an extension of genetics, evolution, anatomy, physiology, and other biological disciplines.
+
+### b77afdd836
+Q: Often generated by molecular cloning, transgenic organisms possess what from a different species?
+CORRECT: dna
+INCORRECT: memories | organs | RNA
+ANSWER: Transgenic organisms often possess genes from a different species, such as a virus or bacteria, that have been inserted into their genome through molecular cloning.
+
+### cca9745f8b
+Q: What is an adaptation?
+CORRECT: favorable trait
+INCORRECT: harmful mutation | unfavorable trait | inherited gene
+ANSWER: An adaptation is a process or trait in an organism that helps it survive and reproduce in its environment, such as the development of a bird's beak to crack open seeds in its native habitat.
+
+### d6ce33b7af
+Q: Only about one percent of plants have lost what ability, turning them into consumers and even predators, instead of producers?
+CORRECT: photosynthesis
+INCORRECT: flowering | rooting | growth
+ANSWER: Only about 1% of plants have lost their ability to photosynthesize and become consumers or predators, instead of producers. This is due to a process called "deuterostomy," where some plants, such as the genus Selaginella, have evolved to lose their chloroplasts and become non-photos
+
+### 5afa60f8cd
+Q: What is the end product of glycolysis?
+CORRECT: pyruvate
+INCORRECT: fructose | gluclose | hydrolysis
+ANSWER: The end product of glycolysis is pyruvate, which is then converted into glucose in the next step, either through gluconeogenesis or the citric acid cycle.
+
+### a3b052065f
+Q: While the goal of science is to increase knowledge, the goal of what is to use knowledge for practical purposes?
+CORRECT: technology
+INCORRECT: advancement | invention | industry
+ANSWER: The goal of using knowledge for practical purposes is to "apply knowledge to solve real-world problems and improve people's lives."
+
+### 3b4c0636a8
+Q: What disease is the result of unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle?
+CORRECT: cancer
+INCORRECT: gout | dementia | diabetes
+ANSWER: The disease that results from unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle is Cancer.
+
+### f7a447d1b6
+Q: Water found on the surface of the earth is referred to as what?
+CORRECT: surface water
+INCORRECT: groundwater | reservoir water | runoff
+ANSWER: The surface water on Earth is referred to as "sea water" or "ocean water".
+
+### db0aa9483a
+Q: What once most common bird in north america became extinct in the 1800s?
+CORRECT: the passenger piegon
+INCORRECT: the dodo | the homing piegon | the rock penguin
+ANSWER: The Common Loon (Gavia immer) is one of the most common birds in North America, but it is not the one that became extinct in the 1800s. However, the Common Loon's population declined significantly in the 19th century due to habitat loss, hunting, and pollution, ultimately leading
+
+### e81a282288
+Q: What is the term for what the earth rotates on?
+CORRECT: axis
+INCORRECT: radius | tip | compass
+ANSWER: The Earth rotates on its axis, which is the imaginary line that runs through the North and South Poles. This axis is tilted at an angle of about 23.5 degrees relative to the plane of its orbit around the Sun.
+
+### 77eba51ffc
+Q: What symbol is used to indicate directionality in chemical reactions?
+CORRECT: arrow
+INCORRECT: triangle | circle | line
+ANSWER: The arrow symbol (→) is used to indicate directionality in chemical reactions.

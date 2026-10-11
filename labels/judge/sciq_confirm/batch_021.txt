@@ -1,0 +1,239 @@
+### 4e85414356
+Q: Acidic hydrogen atoms are those which will be transferred to what?
+CORRECT: a base
+INCORRECT: water | a cup | another atom
+ANSWER: Acidic hydrogen atoms are typically transferred to bases.
+
+### 1d957791db
+Q: Childbirth usually starts when which sac breaks?
+CORRECT: amniotic
+INCORRECT: umbilical | uterine | protein
+ANSWER: Childbirth usually starts when the cervix dilates to 4 centimeters, which is typically around 37 weeks of gestation.
+
+### 46b6cf206e
+Q: Convection is the heat transfer by the macroscopic movement of a what?
+CORRECT: fluid
+INCORRECT: gravity | gases | tissue
+ANSWER: Convection is the heat transfer by the macroscopic movement of a fluid (liquid or gas) that is in motion, typically due to differences in temperature or density.
+
+### c2b1332cff
+Q: Downhill skiiers gain little advantage from a running start because the initial kinetic energy is small compared with the gain in what other energy form?
+CORRECT: gravitational potential energy
+INCORRECT: gravitational kinetic energy | chemical energy | thermal energy
+ANSWER: Downhill skiers gain little advantage from a running start because the initial kinetic energy is small compared with the gain in potential energy.
+
+### 01001df466
+Q: What are the specialized cells that sponges have?
+CORRECT: collar cells
+INCORRECT: tune cells | magnet cells | blood cells
+ANSWER: Sponges have specialized cells called choanocytes, which are responsible for generating water currents that help to filter food particles from the water. These cells are also known as flagellated cells, as they have flagella that allow them to move through the water.
+
+### f4f7c39016
+Q: What element is the most abundant in the universe?
+CORRECT: hydrogen
+INCORRECT: oxygen | carbon | helium
+ANSWER: Hydrogen is the most abundant element in the universe, making up approximately 75% of its elemental mass.
+
+### dafbcca454
+Q: Aspirin and ibuprofen reduce pain by inhibiting the synthesis of what?
+CORRECT: prostaglandins
+INCORRECT: triglycerides | lipids | hormones
+ANSWER: Aspirin and ibuprofen reduce pain by inhibiting the synthesis of prostaglandins, which are hormone-like substances that cause pain, inflammation, and fever in the body.
+
+### d65d0964a5
+Q: What type of molecules help the plasma membrane keep its shape?
+CORRECT: cholesterol
+INCORRECT: proteins | magnesium | metabolic
+ANSWER: The type of molecules that help the plasma membrane keep its shape are phospholipids, which are a class of lipids that form the bilayer structure of the membrane, providing a hydrophobic interior and a hydrophilic exterior. Additionally, proteins such as actin and spectrin also contribute to the structural integrity
+
+### 0951e01f45
+Q: What does the ovule mature into after double fertilization?
+CORRECT: a seed
+INCORRECT: a spore | a twin | a sister chromatid
+ANSWER: After double fertilization, the ovule matures into a zygote, which is the first cell of a new individual, typically a seed.
+
+### 5bba0a60fd
+Q: Reptiles are described by what term that means their internal temperature depends on the temperature of their environment?
+CORRECT: ectothermic
+INCORRECT: zygomorphic | endothermic | actinomorphic
+ANSWER: The term that describes reptiles' internal temperature is "endothermy," which means their internal temperature is regulated by the environment, allowing them to maintain a stable body temperature.
+
+### 026579ef5c
+Q: When statoliths settle to the low point in the chamber, they stimulate what in that location?
+CORRECT: mechanoreceptors
+INCORRECT: dendrites | axons | nociceptors
+ANSWER: When statoliths settle to the low point in the chamber, they stimulate the otolith organs, specifically the utricle and saccule, which are sensory organs in the inner ear that detect linear acceleration and gravity.
+
+### 1a6515abc1
+Q: While ecosystems need a constant input of energy for their organisms, what do ecosystems recycle?
+CORRECT: matter
+INCORRECT: water | light | food
+ANSWER: Ecosystems recycle water, nutrients, and organic matter through various processes such as decomposition, nutrient cycling, and the water cycle. These processes help to maintain the balance and health of the ecosystem.
+
+### cfd73e2172
+Q: Surging hormones will cause adolescents to have what?
+CORRECT: mood swings
+INCORRECT: blackouts | growth spurts | bulging muscles
+ANSWER: Surging hormones in adolescents can cause an increase in the production of luteinizing hormone (LH) and follicle-stimulating hormone (FSH), leading to an increase in the production of sex hormones such as estrogen and testosterone. This can result in symptoms such as acne, mood swings, and changes in
+
+### 5594d15188
+Q: What is added to a measured portion of a more concentrated stock solution to achieve a particular concentration?
+CORRECT: solvent
+INCORRECT: water | yeast | pigment
+ANSWER: To achieve a particular concentration, a measured portion of a more concentrated stock solution is diluted with a solvent, such as water, to create a solution of a desired strength.
+
+### e2f4946dcc
+Q: What is the term for the force that brings objects toward the earth?
+CORRECT: gravity
+INCORRECT: weight | light | centrifugal
+ANSWER: The term for the force that brings objects toward the Earth is gravity.
+
+### f728af6924
+Q: Lichens are not a single organism, but rather an example of a what?
+CORRECT: mutualism
+INCORRECT: fusion | homogeneous mixture | symbiosis
+ANSWER: Lichens are an example of a symbiotic association, specifically a composite organism, but more specifically, they are an example of a symbiotic association known as a "mutualism".
+
+### d24b022373
+Q: What must be combined with a halogen to give it a positive oxidation number?
+CORRECT: oxygen
+INCORRECT: nitrogen | calcium | carbon
+ANSWER: To give a halogen a positive oxidation number, it must be combined with a metal. Specifically, the combination of chlorine (Cl) with a metal such as sodium (Na) or magnesium (Mg) results in a positive oxidation number for chlorine.
+
+### ae8409509c
+Q: What is the resultant waste product of photosynthesis?
+CORRECT: oxygen
+INCORRECT: carbon | argon | sulfur
+ANSWER: The resultant waste product of photosynthesis is carbon dioxide (CO2).
+
+### f70356a386
+Q: What unit of measurement is defined to be the number of atoms in 12g of carbon-12?
+CORRECT: one mole
+INCORRECT: one quark | one joule | one ohm
+ANSWER: The unit of measurement defined to be the number of atoms in 12g of carbon-12 is the mole (mol).
+
+### 6e3d38880a
+Q: What happens when ionic compounds are dissolved in water?
+CORRECT: conduct electricity
+INCORRECT: magnetize electricity | repel electricity | deflect electricity
+ANSWER: When ionic compounds are dissolved in water, they dissociate into their constituent ions, which then interact with water molecules to form ions and hydrogen or hydroxide ions. This process is known as ionization, and it results in the formation of a solution that is composed of ions and water.
+
+### 1b3b2fa394
+Q: What term in biotechnology means a genetically exact copy of an organism?
+CORRECT: clone
+INCORRECT: adult | male | phenotype
+ANSWER: The term in biotechnology that means a genetically exact copy of an organism is a "genetically identical twin" or simply "genetically identical clone."
+
+### 9b43c32b0f
+Q: What cells are the basis of nervous tissue?
+CORRECT: neurons
+INCORRECT: erythrocytes | lipocytes | osteoclasts
+ANSWER: The cells that are the basis of nervous tissue are neurons, which are specialized cells that transmit and process information through electrical and chemical signals. Neurons are typically long and thin, with a cell body, dendrites, and axon, and are found in the central nervous system (CNS) and peripheral nervous system (
+
+### 69ddf8daf7
+Q: What type of components of the biosphere do chemical elements and water pass through during ecosystem recycle?
+CORRECT: biotic and abiotic
+INCORRECT: photic and aphotic | tropic and subtropic | water and air
+ANSWER: Chemical elements and water pass through the biosphere through the food chain and the water cycle. Chemical elements, such as carbon, nitrogen, and oxygen, are passed through ecosystems through the food chain, where they are consumed and excreted by organisms. Water, on the other hand, passes through the biosphere through
+
+### a385290876
+Q: The bony socket that houses the eyeball and associated muscles is called?
+CORRECT: orbit
+INCORRECT: cavity | glenoid fossa | acetabulum
+ANSWER: The bony socket that houses the eyeball and associated muscles is called the orbit.
+
+### 51ea287fcd
+Q: In humans, fertilization occurs soon after the oocyte leaves this?
+CORRECT: ovary
+INCORRECT: egg | placenta | testes
+ANSWER: In humans, fertilization occurs soon after the oocyte leaves the ovary, specifically in the fallopian tube.
+
+### 2c1bb290da
+Q: What type of crust is made of basalt lavas that flow onto the seafloor?
+CORRECT: oceanic
+INCORRECT: exotic | endotopic | warm
+ANSWER: The type of crust made of basalt lavas that flow onto the seafloor is a pillow basalt crust.
+
+### fb1f05b1e4
+Q: Many plants respond to the days growing shorter in the fall by doing what?
+CORRECT: going dormant
+INCORRECT: turning to liquid | migrating | growing faster
+ANSWER: Many plants respond to the days growing shorter in the fall by preparing for winter by slowing down their growth, often by going dormant or entering a state of dormancy, and by producing fewer leaves or flowers. This is often referred to as "hibernation" in some regions.
+
+### 82d5b1e132
+Q: Humans cannot digest what primary structural material of plants, which is one of the most abundant organic substances on earth?
+CORRECT: cellulose
+INCORRECT: sulfur | carbonate | zinc
+ANSWER: The primary structural material of plants that humans cannot digest is cellulose.
+
+### 024945e157
+Q: Most insects reproduce quickly and through what type of reproduction?
+CORRECT: sexual reproduction
+INCORRECT: spores | photosynthesis | asexual reproduction
+ANSWER: Most insects reproduce through a process called parthenogenesis, which is a type of asexual reproduction where an egg develops into an individual without fertilization by a male.
+
+### e3e6ef9de9
+Q: Lymph vessels make up a circulatory system that is similar to the blood vessels of what system?
+CORRECT: cardiovascular
+INCORRECT: nervous | cardiac | gastrointestinal
+ANSWER: Lymph vessels make up a circulatory system that is similar to the blood vessels of the lymphatic system.
+
+### f01947adba
+Q: All of the petals together are called what?
+CORRECT: corolla
+INCORRECT: stamen | anthers | stalk
+ANSWER: The petals together are called the "corolla".
+
+### 0b857a6512
+Q: Which has a higher metabolic rate, a mouse or an elephant?
+CORRECT: mouse
+INCORRECT: rat | rabbit | elephant
+ANSWER: A mouse generally has a higher metabolic rate than an elephant. A mouse's metabolic rate can be as high as 70-80 times that of an elephant, with some studies suggesting that a mouse's metabolic rate can be up to 100 times that of an elephant.
+
+### 4918138221
+Q: What phenomenon, which is most important in small populations, occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation?
+CORRECT: genetic drift
+INCORRECT: genetic DNA | genetic mutation | genetic code
+ANSWER: The phenomenon that occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation is called Hardy-Weinberg equilibrium.
+
+### 573cb7d27e
+Q: Oranges and lemons are examples of fruits that contain what acid?
+CORRECT: citric acid
+INCORRECT: nitric acid | urea acid | beryllium acid
+ANSWER: Oranges and lemons are examples of fruits that contain citric acid.
+
+### 93f394eabf
+Q: Plants go through seasonal changes after detecting differences in what?
+CORRECT: day length
+INCORRECT: temperature | weather | week length
+ANSWER: Plants go through seasonal changes after detecting differences in daylight hours. As daylight hours decrease in winter and increase in summer, plants adjust their growth patterns, leading to changes in leaf color, flowering, and fruiting.
+
+### a29514ffe9
+Q: What occur in arteries that can cause heart attacks and strokes?
+CORRECT: clots
+INCORRECT: toxins | tumors | lesions
+ANSWER: The primary cause of heart attacks and strokes in arteries is the narrowing or blockage of these vessels, typically due to the buildup of plaque (atherosclerosis) and inflammation, which can be triggered by high blood pressure, high cholesterol levels, smoking, and other risk factors. The narrowing or blockage can be caused by
+
+### 012049cdf9
+Q: Clubfoot, also known as talipes, is a congenital (present at birth) disorder of unknown cause and is the most common deformity of what?
+CORRECT: lower limb
+INCORRECT: upper limb | genitals | cranium
+ANSWER: Clubfoot, also known as talipes, is a congenital disorder of the foot and is the most common deformity of the lower leg.
+
+### cc0cd130d7
+Q: Presence of a cell wall, large central vacuole, and organelles called plastids distinguish what type of cell?
+CORRECT: plant
+INCORRECT: animal | reproductive | heterotroph
+ANSWER: The type of cell that exhibits these characteristics is a plant cell.
+
+### 4617b74476
+Q: Photosynthesis is an endothermic reaction that gets its energy from what?
+CORRECT: light
+INCORRECT: wind | electricity | air
+ANSWER: Photosynthesis is an endothermic reaction that gets its energy from light, specifically from the energy from the sun. The energy from light is absorbed by pigments such as chlorophyll and converted into chemical energy in the form of ATP and NADPH.
+
+### dbe7942722
+Q: In the body, in which organ does chemical digestion mainly take place?
+CORRECT: small intestine
+INCORRECT: liver | kidneys | large intestine
+ANSWER: In the body, chemical digestion mainly takes place in the stomach.

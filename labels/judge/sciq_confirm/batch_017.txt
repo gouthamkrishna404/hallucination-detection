@@ -1,0 +1,239 @@
+### 12d44a5bea
+Q: What broad group of animals are the first true tetrapods, vertebrates with four limbs?
+CORRECT: amphibians
+INCORRECT: fish | reptiles | mammals
+ANSWER: The first true tetrapods, vertebrates with four limbs, belong to the group known as the amphibians.
+
+### 85713441ff
+Q: On what day of the cycle does ovulation usually occur?
+CORRECT: 14th
+INCORRECT: 17th | 7th | 1st
+ANSWER: Ovulation typically occurs about 14 days before the next expected period.
+
+### b74b480367
+Q: What is the term for when an embryo fixes itself to the side of the uterus?
+CORRECT: implantation
+INCORRECT: bacterial | parasite | exploration
+ANSWER: Implantation.
+
+### 4678460658
+Q: The three main body segments of an arthropod are head, thorax, and what?
+CORRECT: abdomen
+INCORRECT: legs | tail | gluteus
+ANSWER: The three main body segments of an arthropod are head, thorax, and abdomen.
+
+### 3330612e68
+Q: What is a mixture of a solute in a solvent called?
+CORRECT: solution
+INCORRECT: link | structure | transition
+ANSWER: A mixture of a solute in a solvent is called a solution.
+
+### c1a276d81e
+Q: How many openings do adult tunicates have that siphon water in and out of the body?
+CORRECT: two
+INCORRECT: three | four | one
+ANSWER: Adult tunicates have two openings that siphon water in and out of the body.
+
+### 2a663df42f
+Q: Although magma once filled our moon's craters, what is thought to have ended there over a billion years ago?
+CORRECT: volcanic activity
+INCORRECT: mineral activity | oceanic activity | deserts activity
+ANSWER: The impact of a large asteroid or comet is thought to have ended the magma filling of the moon's craters over a billion years ago.
+
+### ba8f303910
+Q: Farming practices leave some soil exposed and vulnerable to what natural process?
+CORRECT: erosion
+INCORRECT: migration | rust | sediment
+ANSWER: Farming practices that leave soil exposed can be vulnerable to erosion by wind and water.
+
+### 22c3214698
+Q: Vultures, raccoons and blowflies are examples of what?
+CORRECT: scavengers
+INCORRECT: producer | predator | consumer
+ANSWER: Vultures, raccoons, and blowflies are examples of animals.
+
+### 7b48d76623
+Q: What are tiny hairs that line the bronchi called?
+CORRECT: cilia
+INCORRECT: antennae | alveoli | flagella
+ANSWER: Tiny hairs that line the bronchi are called cilia.
+
+### 2cae553975
+Q: What do you call the ancient cores of continents, where the earliest continental crust is now found?
+CORRECT: cratons
+INCORRECT: craters | escarpments | mantles
+ANSWER: You call them cratons.
+
+### 0afe947cd9
+Q: When sediments settle out of water, what do they form?
+CORRECT: horizontal layers
+INCORRECT: separated layers | erosion | magnetic layers
+ANSWER: Sediments settle out of water and form sedimentary rocks.
+
+### deb47d43ce
+Q: What is the conversion of a solid to a gas called?
+CORRECT: sublimation
+INCORRECT: speciation | amplification | education
+ANSWER: The conversion of a solid to a gas is called vaporization or sublimation.
+
+### b5863b80fb
+Q: A collapsing nebula leads to what process?
+CORRECT: nuclear fusion
+INCORRECT: nuclear reaction | destructive fusion | chemical reaction
+ANSWER: A collapsing nebula leads to the formation of stars.
+
+### 7994c14cdc
+Q: The ionic end of a detergent can either be a sulfate or what?
+CORRECT: sulfonate
+INCORRECT: molecule | calcite | phosphate
+ANSWER: The ionic end of a detergent can be a sulfate or a phosphate.
+
+### a5a84a5a50
+Q: What is the most common cause of down syndrome?
+CORRECT: trisomy 21
+INCORRECT: trisomy 22 | gametes 21 | chromosome 21
+ANSWER: The most common cause of Down syndrome is a chromosomal abnormality known as trisomy 21.
+
+### 7caaf5edaf
+Q: What is a vector quantity with the same direction as the force called?
+CORRECT: impulse
+INCORRECT: accelerated | inverted | simple
+ANSWER: A vector quantity with the same direction as the force is called a "resultant force."
+
+### 442a969216
+Q: Where are pressure receptors mainly found?
+CORRECT: the skin
+INCORRECT: the nerves | the tissue | the muscles
+ANSWER: Pressure receptors are mainly found in the skin, joints, and inner ear.
+
+### 792765ea3a
+Q: Solutions of nonelectrolytes such as ethanol do not contain dissolved ions and cannot conduct what?
+CORRECT: electricity
+INCORRECT: sound | current | light
+ANSWER: Solutions of nonelectrolytes such as ethanol do not contain dissolved ions and cannot conduct electricity.
+
+### b57b8021fe
+Q: Hepatitis b is inflammation of which organ?
+CORRECT: the liver
+INCORRECT: the colon | the kidney | the brain
+ANSWER: Hepatitis B is inflammation of the liver.
+
+### c3f1576990
+Q: What kind of cells are polyribosomes found in?
+CORRECT: bacterial and eukaryotic
+INCORRECT: chloroplasts and nuclei | Prokaryotic and eukaryotic | yeast and prokaryotic
+ANSWER: Polyribosomes are found in the cytoplasm of cells.
+
+### 7dd3b91548
+Q: Atoms of a given _______ are identical in size, mass, and other properties.
+CORRECT: element
+INCORRECT: molecule | organism | function
+ANSWER: Element
+
+### 632638522f
+Q: The feeding positions in a food chain or web are called?
+CORRECT: trophic levels
+INCORRECT: secondary levels | producer levels | consumer levels
+ANSWER: The feeding positions in a food chain or web are called trophic levels.
+
+### ddac193769
+Q: How many atoms does water contain?
+CORRECT: 3
+INCORRECT: 4 | 6 | 9
+ANSWER: Water contains two atoms of hydrogen and one atom of oxygen.
+
+### 5971d36966
+Q: Ibuprofen and albuterol are examples of drugs whose _________ have different effects.
+CORRECT: enantiomers
+INCORRECT: nanoparticles | misnomers | analogous
+ANSWER: Ibuprofen and albuterol are examples of drugs whose mechanisms of action have different effects.
+
+### c34bdd60c8
+Q: At a synapse, what objects are released to carry a nerve impulse from one neuron to the next?
+CORRECT: neurotransmitters
+INCORRECT: viruses | receptors | microorganisms
+ANSWER: At a synapse, neurotransmitters are released to carry a nerve impulse from one neuron to the next.
+
+### 428a5163cb
+Q: What is equal to the angular acceleration multiplied by the radius of the rotating object?
+CORRECT: linear acceleration
+INCORRECT: equilibrium | peak velocity | momentum
+ANSWER: The angular acceleration multiplied by the radius of the rotating object is equal to the linear acceleration.
+
+### 21dc790720
+Q: Why is closed reduction simpler than open reduction in bone repair?
+CORRECT: no surgery needed
+INCORRECT: no medicine needed | no pain pills needed | no treatment needed
+ANSWER: Closed reduction is simpler because it involves manipulating the bone without making an incision, reducing the risk of infection and scarring.
+
+### f885877a82
+Q: What does pepsin help break down into amino acids?
+CORRECT: proteins
+INCORRECT: glucose | carbohydrates | fats
+ANSWER: Pepsin helps break down proteins into amino acids.
+
+### f077dac474
+Q: The majority of animals belong to what category, characterized by the lack of a backbone?
+CORRECT: invertebrate
+INCORRECT: vertebrate | nematode | arthropod
+ANSWER: The majority of animals belong to the category of invertebrates, characterized by the lack of a backbone.
+
+### 3b05244ec7
+Q: A series of arches that support the gills of aquatic amphibians and fish are known as what?
+CORRECT: branchial arches
+INCORRECT: cochlear arches | aquatic arches | scythian arches
+ANSWER: A series of arches that support the gills of aquatic amphibians and fish are known as gill arches.
+
+### bcacb271d1
+Q: What type of cells detect stimuli?
+CORRECT: sensory nerve cells
+INCORRECT: expressive nerve cells | grid nerve cells | muscle cells
+ANSWER: Cells that detect stimuli are called sensory cells.
+
+### 650b44c24c
+Q: What cells does the skeletal system make?
+CORRECT: blood cells
+INCORRECT: Osteoclast | Dendritic cells | brain cells
+ANSWER: The skeletal system primarily consists of bone cells.
+
+### b6df2d532a
+Q: No charge is actually created or destroyed when charges are separated as we have been discussing. rather, existing charges are moved about. in fact, in all situations the total amount of charge is always this?
+CORRECT: constant
+INCORRECT: more | smaller | less
+ANSWER: The total amount of charge is always conserved.
+
+### 7a83986b34
+Q: What is the process by which organisms give rise to offspring?
+CORRECT: reproduction
+INCORRECT: differentiation | evolution | photosynthesis
+ANSWER: The process by which organisms give rise to offspring is known as reproduction.
+
+### 4c91562ddd
+Q: What is the science of classifying living things called?
+CORRECT: taxonomy
+INCORRECT: methodology | terminology | botany
+ANSWER: The science of classifying living things is called taxonomy.
+
+### d378e7dc1e
+Q: What is the term for the multi-phase process in which the nucleus of the cell divides?
+CORRECT: mitosis
+INCORRECT: cytokinesis | mutation | epistasis
+ANSWER: The term for the multi-phase process in which the nucleus of the cell divides is called mitosis.
+
+### 30bfb50211
+Q: What are the flattened, disk-shaped cells in blood that carry oxygen?
+CORRECT: red blood cells
+INCORRECT: plasma | platlets | white blood cells
+ANSWER: Red blood cells.
+
+### 3ea710818c
+Q: Which cavity, filled with lubricating serous fluid, lies between the epicardium and the pericardium?
+CORRECT: pericardial cavity
+INCORRECT: cranial cavity | oral cavity | thoracic cavity
+ANSWER: The cavity, filled with lubricating serous fluid, that lies between the epicardium and the pericardium is the pericardial cavity.
+
+### 2cfd447088
+Q: What cells are the basis of nervous tissue?
+CORRECT: neurons
+INCORRECT: erythrocytes | lipocytes | osteoclasts
+ANSWER: Neurons are the basis of nervous tissue.

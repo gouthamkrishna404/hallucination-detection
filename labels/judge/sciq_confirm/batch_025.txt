@@ -1,0 +1,239 @@
+### b515b76a63
+Q: What are solids with high melting and boiling points?
+CORRECT: ionic compounds
+INCORRECT: magnetic compounds | superheated compounds | metal alloys
+ANSWER: Solids with high melting and boiling points are typically ionic or covalent compounds, such as sodium chloride (NaCl), calcium carbonate (CaCO3), and diamond. These substances have strong intermolecular forces that require a lot of energy to break, resulting in high melting and boiling points.
+
+### 01642e40b5
+Q: With wavelengths from 400-700 nm, what kind of light represents only a very small portion of the spectrum?
+CORRECT: visible light
+INCORRECT: invisible light | sunlight | ultraviolet light
+ANSWER: The light with wavelengths from 400-700 nm represents only a very small portion of the visible spectrum, specifically the ultraviolet (UV) spectrum.
+
+### 3107b50d16
+Q: What is the term for the relatively stable state inside the body of an animal?
+CORRECT: homeostasis
+INCORRECT: metabolism | dormancy | consciousness
+ANSWER: The term for the relatively stable state inside the body of an animal is homeostasis.
+
+### ca43a7fd5d
+Q: What is the cure of cancer known as?
+CORRECT: remission
+INCORRECT: metabolism | rejuvenation | regeneration
+ANSWER: The cure for cancer is known as a cure, but it's not a single specific treatment. Instead, it's a combination of various therapies, including surgery, chemotherapy, radiation therapy, immunotherapy, targeted therapy, and stem cell transplantation, which work together to eliminate cancer cells from the body.
+
+### 622778e886
+Q: Club mosses, horsetails, ferns, and whisk ferns are examples of what type of plants?
+CORRECT: seedless vascular plants
+INCORRECT: cycads | gymnosperms | angiosperms
+ANSWER: Club mosses, horsetails, and whisk ferns are examples of vascular plants, specifically members of the division Bryophyta (mosses and liverworts) and the division Pteridophyta (ferns).
+
+### 591a57801c
+Q: What is the cause of common mold allergies?
+CORRECT: airborne mold spores
+INCORRECT: immobile mold spores | bacteria | viruses
+ANSWER: The common mold allergy is often caused by exposure to mold spores, which can enter the body through the air, skin, or eyes. The most common mold allergens are Aspergillus, Penicillium, and Cladosporium, which thrive in damp environments and can be found in homes, buildings
+
+### 1673125dfa
+Q: What system does addictive drugs affect?
+CORRECT: reward system
+INCORRECT: digestive system | honor system | checks and balances
+ANSWER: Addictive drugs can affect the brain's reward system, releasing dopamine and other neurotransmitters that can lead to dependence and addiction. Specifically, they can alter the functioning of the mesolimbic dopamine system, which is responsible for motivation, pleasure, and reward processing.
+
+### aa04f9c9cd
+Q: Matter is made up of a mixture of things called what?
+CORRECT: elements
+INCORRECT: segments | compounds | structures
+ANSWER: Matter is made up of a mixture of things called atoms. Atoms are the basic building blocks of matter, and they are composed of protons, neutrons, and electrons.
+
+### eeae118480
+Q: What are fast moving rivers of air that are going in opposite directions called?
+CORRECT: jet streams
+INCORRECT: air streams | cause streams | burst streams
+ANSWER: The fast-moving rivers of air that are going in opposite directions are called "jet streams."
+
+### 90ebc46cf9
+Q: What is usually the most visible part of the flower?
+CORRECT: petals
+INCORRECT: cells | seeds | roots
+ANSWER: The most visible part of the flower is usually the petals.
+
+### 2bd54b544c
+Q: Although magma once filled our moon's craters, what is thought to have ended there over a billion years ago?
+CORRECT: volcanic activity
+INCORRECT: mineral activity | oceanic activity | deserts activity
+ANSWER: The water that once filled our moon's craters is thought to have been lost to space over a billion years ago due to the moon's rapid cooling and evaporation.
+
+### cb2b9db1a2
+Q: When sediments settle out of water, what do they form?
+CORRECT: horizontal layers
+INCORRECT: separated layers | erosion | magnetic layers
+ANSWER: When sediments settle out of water, they form sedimentary rocks, which can be either clastic (formed from fragments of pre-existing rocks) or chemical (formed through chemical precipitation).
+
+### f28a4d1cb4
+Q: What type of biomes have water containing little or no salt?
+CORRECT: freshwater biomes
+INCORRECT: coastal biomes | aquatic biomes | marine biomes
+ANSWER: The type of biomes with water containing little or no salt are freshwater biomes, such as rivers, lakes, and wetlands. Additionally, some marine biomes, like brackish waters and estuaries, can also have low salt concentrations.
+
+### a97c4bdafb
+Q: What is a fiber that is found only in mammals?
+CORRECT: hair
+INCORRECT: muscle | muscle | feathers
+ANSWER: The answer is cellulose, which is a type of fiber found in the cell walls of plants, including trees, grasses, and other vegetation. However, some mammals, such as humans and some primates, have a small amount of cellulose in their digestive system, but it is not a significant component of their
+
+### f502765ae0
+Q: What is the third class of elements after metals and nonmetals?
+CORRECT: metalloids
+INCORRECT: halogens | synthetics | noble gases
+ANSWER: The third class of elements after metals and nonmetals is the metalloids.
+
+### 3aed6722dd
+Q: Paramecium possess tiny hair-like cilia that help them do what?
+CORRECT: move
+INCORRECT: fight | look | breed
+ANSWER: Paramecium possess tiny hair-like cilia that help them move through the water by creating a current, allowing them to swim and navigate their environment.
+
+### 475db5d64d
+Q: A skydiver will reach what when the air drag equals their weight?
+CORRECT: terminal velocity
+INCORRECT: constant velocity | building velocity | ending velocity
+ANSWER: When the air drag equals the skydiver's weight, they will reach terminal velocity, which is approximately 120-140 mph (193-225 km/h).
+
+### 0e5c3f350e
+Q: What is the union of the cytoplasms of two parent mycelia known as?
+CORRECT: plasmogamy
+INCORRECT: plasmology | spirogyra | xerophyte
+ANSWER: The union of the cytoplasms of two parent mycelia is known as a spore.
+
+### 5f64c341c4
+Q: If the dna from all 46 chromosomes in a human cell nucleus was laid out end to end, it would measure approximately how long?
+CORRECT: two meters
+INCORRECT: three meters | four meters | one meter
+ANSWER: The length of DNA in a human cell nucleus is approximately 6,000-6,500 base pairs, and the average length of an individual human chromosome is about 3,200 base pairs. If we assume an average length of 3,800 base pairs per chromosome, the total length of DNA in a human
+
+### bdd4a152ee
+Q: Natural gas is the predominately made up of?
+CORRECT: methane
+INCORRECT: hydrogen | carbon | sulfur
+ANSWER: Natural gas is primarily composed of methane (about 70-80%), with smaller amounts of other gases such as ethane, propane, and butane.
+
+### a1d18f52af
+Q: After coming apart from the crystal, the individual ions are then surrounded by solvent particles in a process called what?
+CORRECT: solvation
+INCORRECT: osmosis | ionization | hydrolysis
+ANSWER: The process by which the individual ions are surrounded by solvent particles is called solvation.
+
+### cc200982fa
+Q: What does the inside of all cells also contain?
+CORRECT: cytosol
+INCORRECT: chloroplasm | protein | chromosomes
+ANSWER: The inside of all cells contains cytoplasm, which is a jelly-like substance that fills the cell and provides a medium for various cellular processes, such as protein synthesis, cell division, and nutrient transport.
+
+### 376916254b
+Q: Which  organs control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine?
+CORRECT: kidneys
+INCORRECT: lungs | tongue | ears
+ANSWER: The kidneys are the organs that control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine. They regulate the balance of fluids and electrolytes through the excretion of excess water, ions, and other substances, such as urea, creatinine, and
+
+### d8f1ce7dcc
+Q: If the buoyant force is greater than the force of gravity acting on a ship, what will happen to the ship?
+CORRECT: it will float
+INCORRECT: it will sink | it will bobble | it will explode
+ANSWER: If the buoyant force is greater than the force of gravity acting on a ship, the ship will float or rise, but it will not sink.
+
+### 928a9e80fa
+Q: The beginning of what season experiences the shortest period of daylight hours?
+CORRECT: winter
+INCORRECT: spring | summer | autumn
+ANSWER: The beginning of winter experiences the shortest period of daylight hours.
+
+### 84a6306545
+Q: What do methanogens act as in sewage treatment plants?
+CORRECT: as decomposers
+INCORRECT: creators | fertilizers | killers
+ANSWER: Methanogens act as the primary biological agents in sewage treatment plants, converting toxic and organic compounds into methane gas and carbon dioxide, which is a natural byproduct of their metabolic process.
+
+### 6110bae0ee
+Q: In relation to electrical current, what property will a narrow wire have more of than a wide wire?
+CORRECT: resistance
+INCORRECT: voltage | wattage | current
+ANSWER: A narrow wire will have more resistance than a wide wire. This is because resistance is directly proportional to the cross-sectional area of the wire, and a narrower wire has a smaller cross-sectional area.
+
+### 308acb0d6c
+Q: Asteroids are not geologically active. which is the only way they can change?
+CORRECT: a collision
+INCORRECT: propulsion | combustion | expansion
+ANSWER: Asteroids can change through a process called tidal heating, where the gravitational interaction with the Moon causes friction and heat generation in the asteroid's interior, leading to changes in its composition and structure over time.
+
+### 392a55e9ea
+Q: Monomers of condensation polymers must contain how many functional groups so that each monomer can link up with two other monomers?
+CORRECT: two
+INCORRECT: three | four | one
+ANSWER: In condensation polymers, monomers must contain two functional groups, one on each monomer, so that each monomer can link up with two other monomers.
+
+### dc6ae87738
+Q: Heating ice to its melting point (0°c) gives its molecules enough energy to do what?
+CORRECT: move
+INCORRECT: settle | evaporate | freeze
+ANSWER: Heating ice to its melting point (0°C) gives its molecules enough energy to escape from the solid lattice structure and turn into a liquid state. This process is known as melting.
+
+### 7ed7dc5e2e
+Q: Each of what paired organs is enclosed within a cavity surrounded by the pleura?
+CORRECT: lungs
+INCORRECT: bones | ovaries | heart
+ANSWER: The diaphragm is the paired organ that is enclosed within a cavity surrounded by the pleura.
+
+### ae223ad48e
+Q: What does scientific notation use to write very large or very small numbers?
+CORRECT: exponents
+INCORRECT: whole numbers | zeros | coefficients
+ANSWER: Scientific notation uses the decimal point to move the decimal point to the left or right of the first digit, a number between 1 and 10, and a power of 10 to indicate the number of places the decimal point was moved. For example, 1.23 in standard notation is 1.23
+
+### 483f203bc0
+Q: The full range of wavelengths and frequencies of electromagnetic radiation make up the ____________
+CORRECT: electromagnetic spectrum
+INCORRECT: electronic spectrum | mechanical spectrum | anomalous spectrum
+ANSWER: The full range of wavelengths and frequencies of electromagnetic radiation make up the spectrum.
+
+### 3e00eaa8b2
+Q: Why do snakes have venomous bites?
+CORRECT: to kill prey
+INCORRECT: to clean themselves | to kill rival snakes | to scare humans
+ANSWER: Snakes have venomous bites because it is an adaptation to protect themselves from predators, such as birds, lizards, and other animals that might try to eat them. The venom in a snake's bite is a complex mixture of proteins and other compounds that can cause pain, swelling, and other symptoms in the victim,
+
+### bda867d8b8
+Q: A collapsing nebula leads to what process?
+CORRECT: nuclear fusion
+INCORRECT: nuclear reaction | destructive fusion | chemical reaction
+ANSWER: A collapsing nebula leads to the process of supernova formation.
+
+### 0c8c44632e
+Q: Chelicerae in spiders are often modified into fangs that perform what function?
+CORRECT: inject venom
+INCORRECT: courtship display | chewing | tearing flesh
+ANSWER: Chelicerae in spiders are modified into fangs that perform the function of injecting venom into their prey, which helps to immobilize and kill the insect.
+
+### 4da2cac2c7
+Q: What analytical technique, using stained gel, can separate dna fragments or rna molecules and proteins?
+CORRECT: gel electrophoresis
+INCORRECT: microwave electrophoresis | surface electrophoresis | static electrophoresis
+ANSWER: The analytical technique that uses stained gel to separate DNA fragments, RNA molecules, and proteins is called Electrophoresis, specifically Gel Electrophoresis.
+
+### bd54be1089
+Q: The hydrogen is oxidized because it undergoes a partial loss of what?
+CORRECT: electrons
+INCORRECT: density | protons | ions
+ANSWER: The hydrogen is oxidized because it undergoes a partial loss of electrons, specifically oxygen.
+
+### dc3b202c19
+Q: What is stored mainly in liver and muscle cells by humans and other vertebrates?
+CORRECT: glycogen
+INCORRECT: glucose | protein | amylopectin
+ANSWER: The primary storage form of glycogen in humans and other vertebrates is glycogen, a complex carbohydrate stored mainly in liver and muscle cells. Glycogen serves as a readily mobilizable energy source, providing a quick source of energy for the body's various functions.
+
+### dfc08c26fd
+Q: Sensory nerves carry nerve impulses from sensory receptors to what system?
+CORRECT: central nervous
+INCORRECT: MUSCULAR SYSTEM | ENDOCRINE SYSTEM | IRCULATORY SYSTEM
+ANSWER: Sensory nerves carry nerve impulses from sensory receptors to the spinal cord and then to the brain, specifically to the sensory cortex.

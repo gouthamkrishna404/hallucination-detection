@@ -1,0 +1,239 @@
+### c031642695
+Q: What is the electron domain geometry of ammonia?
+CORRECT: tetrahedral
+INCORRECT: membranes | atoms | neurons
+ANSWER: The electron domain geometry of ammonia (NH3) is trigonal pyramidal, with three electron domains (one lone pair and two bonding pairs) arranged in a tetrahedral shape.
+
+### e23e6612ac
+Q: What is a form of cell division in prokaryotic organisms that produces identical offspring?
+CORRECT: binary fission
+INCORRECT: nuclear fission | germination | mitosis
+ANSWER: In prokaryotic organisms, a form of cell division that produces identical offspring is called binary fission.
+
+### 64b1114c38
+Q: Which division of the peripheral nervous system interprets signals, while the motor division sends signals?
+CORRECT: sensory
+INCORRECT: kinetic | olfactory | automatic
+ANSWER: The motor division of the peripheral nervous system (PNS) sends signals, while the sensory division interprets signals.
+
+### 182f2dd083
+Q: The five human senses are taste, touch, vision, hearing and one more. what is it?
+CORRECT: smell
+INCORRECT: perception | audio | fear
+ANSWER: The sixth human sense is smell.
+
+### c0d752401a
+Q: What is the process by which water moves through semi-permeable membranes from one part of the body to another?
+CORRECT: osmosis
+INCORRECT: diffusion | electrolysis | mitosis
+ANSWER: The process by which water moves through semi-permeable membranes from one part of the body to another is known as osmosis. In osmosis, water molecules pass through the membrane from an area of high concentration (e.g., blood) to an area of low concentration (e.g., interstitial space),
+
+### 19262ccbb4
+Q: What is the second largest class of elements?
+CORRECT: nonmetals
+INCORRECT: carbonates | silicates | metalloids
+ANSWER: The second largest class of elements is the noble gases, which includes elements such as helium (He), neon (Ne), argon (Ar), krypton (Kr), xenon (Xe), and radon (Rn).
+
+### 033d3e8a2d
+Q: Who wrote the book on the origin of species?
+CORRECT: darwin
+INCORRECT: Scopes | Sagan | cannon
+ANSWER: Charles Darwin is widely credited with writing the book "On the Origin of Species" in 1859.
+
+### 1d8b538077
+Q: Twenty-four hours before fertilization, the egg has finished meiosis and becomes a mature what?
+CORRECT: oocyte
+INCORRECT: spermatozoa | fetus | zygote
+ANSWER: Twenty-four hours before fertilization, the egg has finished meiosis and becomes a mature zygote.
+
+### 249dcba676
+Q: What type of fluid cushions the fetus and helps protect it from injury?
+CORRECT: amniotic
+INCORRECT: plasmid | epithelial | aqueous
+ANSWER: The amniotic fluid cushions the fetus and helps protect it from injury by absorbing shock and distributing pressure.
+
+### a65941ce0f
+Q: Most of the fresh water on earth is tied up in a solid form. what are they called?
+CORRECT: glaciers
+INCORRECT: sediments | lakes | oceans
+ANSWER: The solid form of freshwater is called ice.
+
+### 255bfe1377
+Q: What ingredient has been used in brewing, winemaking and baking for thousands of years?
+CORRECT: yeast
+INCORRECT: flour | fruit | oils
+ANSWER: The ingredient that has been used in brewing, winemaking, and baking for thousands of years is yeast.
+
+### 67644fbe07
+Q: What type of diseases occur when the immune system attacks normal body cells?
+CORRECT: autoimmune
+INCORRECT: gastrointestinal | liver | inflammatory
+ANSWER: Autoimmune diseases occur when the immune system attacks normal body cells, leading to inflammation and damage. Examples of autoimmune diseases include rheumatoid arthritis, lupus, multiple sclerosis, and type 1 diabetes.
+
+### fd06ca4ef6
+Q: What type of lens is thicker at the edges than it is in the middle?
+CORRECT: concave lens
+INCORRECT: convex lens | surface lens | glass lens
+ANSWER: A convex lens is thicker at the edges than it is in the middle.
+
+### 13015cd253
+Q: Which organelles, made of protein and ribosomal rna, build cellular proteins in the cytoplasm?
+CORRECT: ribosomes
+INCORRECT: chloroplasts | dna | chromosomes
+ANSWER: The organelles that make up ribosomes, which are made of ribosomal RNA (rRNA) and protein, are responsible for building cellular proteins in the cytoplasm. Ribosomes are the site of protein synthesis, where messenger RNA (mRNA) is translated into specific sequences of amino acids to form proteins.
+
+### cdcb344b72
+Q: Solutions of nonelectrolytes such as ethanol do not contain dissolved ions and cannot conduct what?
+CORRECT: electricity
+INCORRECT: sound | current | light
+ANSWER: Solutions of nonelectrolytes such as ethanol do not contain dissolved ions and cannot conduct electricity because they do not have free-moving charged particles, such as electrons, that can carry electrical charge.
+
+### 225adef5f6
+Q: The inside of the small intestine has many folds, called villi. microvilli are lined with blood vessels as well as lymphatic vessels. the inside of the small intestine is called this?
+CORRECT: lumen
+INCORRECT: reticular | porous | osmotic
+ANSWER: The inside of the small intestine is called the villous epithelium.
+
+### da338ef342
+Q: What kind of weather do psychrophiles need to grow and reproduce?
+CORRECT: cold temperatures
+INCORRECT: mixed temperatures | Hot temperatures | water temperatures
+ANSWER: Psychrophiles, a type of microorganism, typically require extremely cold temperatures to grow and reproduce, often at temperatures below 0°C (32°F).
+
+### 9e0de7ede4
+Q: Oxygen is combined with what to form water?
+CORRECT: hydrogen
+INCORRECT: glucose | helium | carbon
+ANSWER: Oxygen is combined with hydrogen to form water (H2O).
+
+### 84fed537b5
+Q: Water seeps into the ground through permeable material and stops when it reaches what?
+CORRECT: impermeable rock
+INCORRECT: Bed Rock | Lava | Coral
+ANSWER: Water seeps into the ground through permeable material and stops when it reaches the water table, which is the upper surface of the zone of saturation in the soil. The water table is typically around 10-20 feet below the surface.
+
+### 87b6c1cf90
+Q: What are living things that produce food for themselves and other organisms called?
+CORRECT: producers
+INCORRECT: growers | harvesters | refiners
+ANSWER: The living things that produce food for themselves and other organisms are called autotrophs.
+
+### 3ba9a3c703
+Q: By exploding what the space probes get separated from their launchers?
+CORRECT: bolts
+INCORRECT: frames | doors | walls
+ANSWER: By exploding, the space probes get separated from their launchers due to a phenomenon known as "de-orbiting." As the probe gains speed and altitude, it loses atmospheric drag and eventually breaks free from the gravitational pull of the Earth or other celestial bodies, resulting in a controlled descent into space.
+
+### 221885fb28
+Q: Honeybees doing the waggle dance or spiders spinning a web are examples of what type of behavior?
+CORRECT: innate
+INCORRECT: intuitive | genuine | learned
+ANSWER: Honeybees doing the waggle dance is an example of social learning and communication, specifically a form of dance-based communication, which is a type of social learning behavior. Spiders spinning a web is an example of a type of behavior known as "spatial memory" or "memory-based behavior", where the spider
+
+### 1fe8d6b1ba
+Q: What process done by bacteria makes them important producers in aquatic ecosystems?
+CORRECT: photosynthesis
+INCORRECT: maturation | infection | reproduction
+ANSWER: The process done by bacteria that makes them important producers in aquatic ecosystems is photosynthesis, where they convert light energy from the sun into chemical energy in the form of organic compounds, such as glucose, through the process of autotrophy.
+
+### 4d78a5b799
+Q: What is the star nearest the earth named?
+CORRECT: proxima centauri
+INCORRECT: apollinaris centauri | andromeda centauri | alpha centauri
+ANSWER: The star nearest the Earth is Proxima Centauri, which is approximately 4.24 light-years away.
+
+### ff3e8574e3
+Q: What divide on their own by a process that resembles binary fission in prokaryotes?
+CORRECT: mitochondria
+INCORRECT: protazoa | proteins | bacteria
+ANSWER: The divide that divides on their own by a process that resembles binary fission in prokaryotes is called binary fission. This is a type of asexual reproduction where a single cell divides into two identical cells, resulting in a new generation of cells.
+
+### bf09c1c939
+Q: What cycle occurs in women of reproductive age, as a long as a sperm does not enter an egg?
+CORRECT: menstrual cycle
+INCORRECT: extraction cycle | tissue cycle | menopausal cycle
+ANSWER: The cycle that occurs in women of reproductive age, as long as a sperm does not enter an egg, is called a menstrual cycle or ovulatory cycle. It typically lasts around 28 days and is divided into two phases: the follicular phase (days 1-14) and the luteal phase (days
+
+### 62eb87523a
+Q: In photosynthesis, what process involving carbon dioxide and oxygen occurs through small, regulated openings called stomata?
+CORRECT: gas exchange
+INCORRECT: osmosis | fertilization | transpiration
+ANSWER: The process involving carbon dioxide and oxygen through small, regulated openings called stomata is known as transpiration.
+
+### 604fd0be33
+Q: What system possesses a memory component that allows for an efficient and dramatic response upon reinvasion of the same pathogen?
+CORRECT: adaptive immune system
+INCORRECT: incorporate immune system | societal immune system | suggestive immune system
+ANSWER: The system that possesses a memory component that allows for an efficient and dramatic response upon reinvasion of the same pathogen is the human immune system, specifically the adaptive immune response. This is achieved through the activation of memory T cells and B cells, which recognize and respond to specific pathogens, such as viruses or bacteria, with
+
+### 8fbd4ed628
+Q: All biochemical molecules have oxygen, carbon, and what other element?
+CORRECT: hydrogen
+INCORRECT: helium | nitrogen | calcium
+ANSWER: The three elements that, along with oxygen, carbon, and hydrogen, are the fundamental components of biochemical molecules are nitrogen, phosphorus, and sulfur.
+
+### 8365515c35
+Q: Magnets have a "north" and a "south" what?
+CORRECT: pole
+INCORRECT: arch | grid | temperature
+ANSWER: Magnets have a north pole and a south pole.
+
+### 56ebe7a7cc
+Q: Isotopes are named for their number of protons plus what?
+CORRECT: neutrons
+INCORRECT: isomers | electrons | nuclei
+ANSWER: Isotopes are named for their atomic mass number, which is the sum of the number of protons and neutrons in the nucleus of an atom.
+
+### c057b779aa
+Q: What is the name of microscopic channels which traverse the cell walls of plants?
+CORRECT: plasmodesmata
+INCORRECT: chloroplasts | sphenopalatine | notochord
+ANSWER: The name of microscopic channels that traverse the cell walls of plants is called plasmodesmata.
+
+### 0b11e6a774
+Q: What do mammals have under the skin to help insulate the body?
+CORRECT: a layer of fat
+INCORRECT: bone | nerve cells | cartilage
+ANSWER: Mammals have a layer of fat called subcutaneous fat under the skin, which helps insulate the body. This layer of fat is made up of white adipose tissue, which is a type of fat that stores energy in the form of fat cells.
+
+### 0dce148b78
+Q: Where does most of the earth's energy come from?
+CORRECT: sun
+INCORRECT: cover | fire | heat
+ANSWER: Most of the Earth's energy comes from the sun, which is the primary source of solar energy. The sun's energy is harnessed through solar panels and other renewable energy sources, such as wind and hydro power.
+
+### ab3b34076e
+Q: Which two major innovations allowed seed plants to reproduce in the absence of water?
+CORRECT: seed and pollen
+INCORRECT: bee and pollen | root and pollen | salt and pollen
+ANSWER: The two major innovations that allowed seed plants to reproduce in the absence of water were the development of seeds and the process of respiration. Seeds are a type of reproductive structure that allows plants to produce offspring without the need for water, and the process of respiration enables plants to produce oxygen and release water vapor, which can
+
+### 9a04582899
+Q: Questioning claims based on their scientific verifiability rather than accepting claims based on faith or anecdotes is called what?
+CORRECT: scientific skepticism
+INCORRECT: scientific extreme | scientific mimicry | scientific fact
+ANSWER: The term for questioning claims based on their scientific verifiability rather than accepting claims based on faith or anecdotes is "critical thinking" or more specifically, "scientific skepticism".
+
+### fc1b37bdd4
+Q: If a substance has a ph value greater than 7, what does it indicate?
+CORRECT: base
+INCORRECT: acidic | neutral | volatile
+ANSWER: If a substance has a pH value greater than 7, it indicates that the substance is alkaline or basic, as pH values range from 0 to 14, with 7 being neutral.
+
+### 1b3873cdc0
+Q: How are the fetuses of eutherian mammals connected to their mothers during gestation?
+CORRECT: complex placenta
+INCORRECT: visual placenta | altered placenta | Movement Placenta
+ANSWER: During gestation, the fetuses of eutherian mammals (placental mammals) are connected to their mothers through the umbilical cord, which carries oxygen, nutrients, and waste products from the mother to the fetus and vice versa. The umbilical cord is formed from the placenta, a temporary organ
+
+### 1fae3f232f
+Q: In what stage of their life cycle do insects begin developing their wings?
+CORRECT: pupa
+INCORRECT: crystalline | larva | pupal
+ANSWER: Insects begin developing their wings in the larval stage, specifically during the pupal stage, but the exact timing can vary depending on the species.
+
+### d3eda59226
+Q: Light travels more quickly in air than what?
+CORRECT: water
+INCORRECT: earth | glass | metal
+ANSWER: Light travels more quickly in air than in water.

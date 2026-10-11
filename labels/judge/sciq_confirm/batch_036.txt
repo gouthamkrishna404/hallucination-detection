@@ -1,0 +1,242 @@
+### 0444ac9e86
+Q: What are plant structures that contain male and/or female reproductive organs?
+CORRECT: flowers
+INCORRECT: roots | stems | leaves
+ANSWER: The plant structures that contain male and/or female reproductive organs are called flowers, which typically consist of sepals (which protect the flower bud), petals, stamens (containing the anthers that produce pollen), and carpels (containing the ovary that contains the ovules where fertilization occurs).
+
+### 6e8b31d08b
+Q: What type of waves transmit the energy of an earthquake?
+CORRECT: seismic waves
+INCORRECT: tectonic waves | sonic waves | volcanic waves
+ANSWER: Seismic waves transmit the energy of an earthquake. The primary types of waves that transmit the energy of an earthquake are P-waves (primary waves) and S-waves (shear waves).
+
+### 247fe9a3fd
+Q: Certain air pollutants form which liquid when dissolved in water droplets in the air?
+CORRECT: acid
+INCORRECT: water | base | citrus
+ANSWER: The answer is: Haze. Haze is a mixture of tiny particles, including pollutants, that are suspended in the air and can form a liquid when dissolved in water droplets.
+
+### 0abd43014c
+Q: Lenses that focus light are called what?
+CORRECT: converging lenses
+INCORRECT: active lenses | powering lenses | sensing lenses
+ANSWER: Concave lenses are used to diverge light rays, while convex lenses are used to converge light rays. In the context of eyeglasses, concave lenses are typically used to correct nearsightedness (myopia), while convex lenses are used to correct farsightedness (hyperopia).
+
+### aa63eeedaf
+Q: What are the two terms that designate how well aqueous solutions conduct electricity?
+CORRECT: polar and nonpolar
+INCORRECT: secular and nonpolar | filter and nonpolar | hot and nonpolar
+ANSWER: The two terms that designate how well aqueous solutions conduct electricity are: 
+
+1. Conductivity (μ): measures the ability of a solution to conduct electricity, with higher values indicating better conductivity.
+2. Conductivity (κ): measures the resistance to the flow of electrons in a solution, with higher values indicating better conductivity
+
+### 82e651d7f8
+Q: How do very massive stars end their lives?
+CORRECT: become red supergiants
+INCORRECT: become super novas | explode | consumed by black hole
+ANSWER: Very massive stars (typically with masses greater than 8-10 times that of the sun) end their lives in a supernova explosion, followed by a rapid decline into a black hole.
+
+### 858c054d6c
+Q: What kind of a process is corrosion?
+CORRECT: galvanic
+INCORRECT: electrolysis | oxidation | electromagnetic
+ANSWER: Corrosion is a chemical reaction between a metal and its environment, typically involving an oxidation reaction that leads to the degradation of the metal's surface.
+
+### e02f602fa4
+Q: How can you prevent diseases such as whooping cough and flu?
+CORRECT: preventive vaccinations
+INCORRECT: nutrition | exercise | vacuuming
+ANSWER: To prevent diseases such as whooping cough and flu, it's essential to practice good hygiene, get vaccinated, and maintain a healthy lifestyle. Vaccination is the most effective way to prevent whooping cough, which is caused by the Bordetella pertussis bacteria, and the flu, which is caused by the influenza
+
+### 494df7127c
+Q: What is it called when two plates slide past each other in opposite directions?
+CORRECT: transform plate boundary
+INCORRECT: plate divergence | transformation | tectonic movement
+ANSWER: The process of two tectonic plates sliding past each other in opposite directions is called a subduction zone.
+
+### 5e3ff52b9f
+Q: What compounds form crystals instead of molecules?
+CORRECT: ionic compounds
+INCORRECT: metallic compounds | soluble compounds | magnetic compounds
+ANSWER: Crystals are formed by compounds that have a repeating molecular structure, often with a specific arrangement of atoms or ions. Examples of compounds that form crystals instead of molecules include sodium chloride (NaCl), calcium carbonate (CaCO3), and quartz (SiO2).
+
+### d7c973212f
+Q: In phyisics, what is considered to be the rotational version of force?
+CORRECT: torque
+INCORRECT: work | energy | pressure
+ANSWER: The rotational version of force is torque.
+
+### 9ff5ba70c7
+Q: What soil is common in deciduous forests?
+CORRECT: pedalfer
+INCORRECT: sandy soil | xerophyte | loam
+ANSWER: Deciduous forests typically have acidic, well-drained soils that are often composed of clay, silt, and sand, with a pH range of 5.5 to 6.5. These soils are often derived from the decomposition of organic matter and can be further modified by the presence of peat, which
+
+### 72879dd769
+Q: Do changes to rocks happen quickly or slowly?
+CORRECT: slowly
+INCORRECT: quickly then slowly | quickly | slowly then quickly
+ANSWER: Changes to rocks can happen both quickly and slowly, depending on the type of rock and the process involved. For example, weathering and erosion can occur rapidly, such as within hours or days, while geological processes like plate tectonics can take millions or even billions of years to shape the Earth's surface.
+
+### 6ac5c950e4
+Q: Skyscrapers and other large structures built on soft ground must be anchored to what, located below the ground surface?
+CORRECT: bedrock
+INCORRECT: ocean floor | groundwater | water table
+ANSWER: Skyscrapers and other large structures built on soft ground must be anchored to piles, located below the ground surface. These piles are typically driven into the ground to a depth of several meters to provide a stable foundation for the structure.
+
+### 40a6477b7e
+Q: All cells have a jellylike substance in which subcellular components are suspended. what is that substance?
+CORRECT: cytosol
+INCORRECT: glycerol | plasma | cortisol
+ANSWER: The substance you are referring to is called cytoplasm.
+
+### 79a1df20fa
+Q: What do you call water that flows out of the ground where an aquifer meets the surface?
+CORRECT: spring
+INCORRECT: oasis | waterfall | stream
+ANSWER: The water that flows out of the ground where an aquifer meets the surface is called surface water.
+
+### 8ef9f2acea
+Q: Under the right conditions, what energy source can be used to eject electrons from a solid material?
+CORRECT: light
+INCORRECT: force | weight | gravity
+ANSWER: Under the right conditions, an electron gun can be used to eject electrons from a solid material, typically a metal, using a high-voltage electrical discharge.
+
+### 6886a3d1b0
+Q: The medium moves back and forth in the same direction as the wave in what type of wave?
+CORRECT: longitudinal wave
+INCORRECT: variable wave | kinetic wave | latitudinal wave
+ANSWER: The medium moves back and forth in the same direction as the wave in a **Pulse Wave**.
+
+### 729b89f221
+Q: The chemical and/or physical agents that cause mutations are called what?
+CORRECT: mutagens
+INCORRECT: dioxins | organelles | genes
+ANSWER: The chemical and/or physical agents that cause mutations are called carcinogens.
+
+### d5c75b4cca
+Q: What is the term for viscous magmas that are high in silica and tend to stay below the surface or erupt explosively?
+CORRECT: felsic magmas
+INCORRECT: sedimentary magmas | compacted magmas | combustible magmas
+ANSWER: The term for viscous magmas that are high in silica and tend to stay below the surface or erupt explosively is "tholeiitic magmas."
+
+### e9ef30b26c
+Q: A cochlear implant aims to restore loss of what sense?
+CORRECT: hearing
+INCORRECT: vision | touch | taste
+ANSWER: A cochlear implant aims to restore loss of hearing. Specifically, it aims to restore the ability to perceive sound, particularly in the lower frequency range, which is often lost in individuals with severe to profound sensorineural hearing loss.
+
+### c06831d4d8
+Q: What controls all five senses?
+CORRECT: nervous system
+INCORRECT: circulatory system | skin cells | endocrine system
+ANSWER: The five senses are controlled by the brain's sensory cortices, which are located in the occipital lobe of the brain. The specific areas responsible for each sense are: vision (oculocortical area), hearing (cochlear nuclei), taste (taste bud areas), smell (olfactory bulb
+
+### cc3c3ac0fa
+Q: What disease occurs when the cell cycle is no longer regulated?
+CORRECT: cancer
+INCORRECT: allergy | schizophrenia | malnutrition
+ANSWER: The disease that occurs when the cell cycle is no longer regulated is Cancer.
+
+### 176caa6e2b
+Q: The ladybug and the frog both start as eggs and go through what process?
+CORRECT: metamorphosis
+INCORRECT: transition | parthenogenesis | proboscis
+ANSWER: The ladybug and the frog both start as eggs and undergo a process called metamorphosis. Specifically, ladybug eggs hatch into larvae, which then transform into pupae, and finally emerge as adult ladybugs.
+
+### 287f0650ba
+Q: What part of the sperm contains the nucleus?
+CORRECT: head
+INCORRECT: body | tail | nucleus
+ANSWER: The part of the sperm that contains the nucleus is the head, specifically the acrosome, which is a cap-like structure at the tip of the head.
+
+### 078ccfa7c2
+Q: Circulating the air prevents ethylene from accumulating, and carbon dioxide inhibits synthesis of new what?
+CORRECT: ethylene
+INCORRECT: alcohol | sulfur | cellulose
+ANSWER: Carbon dioxide inhibits the synthesis of new starch.
+
+### 64937829d8
+Q: A ramp is a type of simple machine called what?
+CORRECT: inclined plane
+INCORRECT: extension plane | allow plane | rough plane
+ANSWER: A ramp is a type of simple machine called a inclined plane.
+
+### 1730d9244b
+Q: In which constellation is the helix nebula located?
+CORRECT: aquarius
+INCORRECT: prometheus | zodiac | gemini
+ANSWER: The Helix Nebula is located in the constellation Cassiopeia.
+
+### 159f4f37c1
+Q: Railroad tracks and roadways can buckle on hot days if they lack sufficient what?
+CORRECT: expansion joints
+INCORRECT: cartilaginous joints | contraction joints | attraction joints
+ANSWER: Railroad tracks and roadways can buckle on hot days if they lack sufficient support from adequate drainage, which helps to prevent water accumulation and reduce the pressure on the tracks and road surfaces.
+
+### e75b3c8429
+Q: The amount of heat required to raise a single mass unit of a substance by a single temperature unit is known as what?
+CORRECT: specific heat
+INCORRECT: temperature variation | specific gravity | solitary heat
+ANSWER: The amount of heat required to raise a single mass unit of a substance by a single temperature unit is known as the "specific heat capacity" of the substance.
+
+### 6b17ffe22d
+Q: Which planet is named after the roman goddess of love?
+CORRECT: venus
+INCORRECT: Neptune | Mercury | Jupiter
+ANSWER: Venus is the planet named after the Roman goddess of love.
+
+### 6a88a91917
+Q: What happens when mammals raise their hair with tiny muscles in the skin?
+CORRECT: goosebumps
+INCORRECT: bleeding | balding | bruising
+ANSWER: When mammals raise their hair with tiny muscles in the skin, it is called a "hair follicle contraction." This process is known as vellus hair growth, and it is a normal and harmless phenomenon that helps to distribute skin oils and regulate body temperature.
+
+### ac4ea5862f
+Q: What are endothermic tetrapod vertebrates most commonly called?
+CORRECT: birds
+INCORRECT: insects | reptiles | mammals
+ANSWER: Endothermic tetrapod vertebrates are most commonly called "amphibians."
+
+### 4ae5fa5975
+Q: Rupture can cause fragments of what to travel via the bloodstream and become lodged in other arteries?
+CORRECT: plaque
+INCORRECT: enamel | red blood cells | white blood cells
+ANSWER: The fragments of tissue that travel via the bloodstream and become lodged in other arteries are called emboli.
+
+### 644fc7e206
+Q: What type of plants does human welfare depend greatly on?
+CORRECT: seed plants
+INCORRECT: mosses | ferns | fertilizer plants
+ANSWER: Human welfare depends greatly on plants that provide oxygen, food, medicine, and other essential resources. Specifically, plants that are rich in oxygen, such as those in the genus Pistacia (pistachio), are particularly important for human health and well-being.
+
+### 43bae79684
+Q: What are thought to have evolved at least 200 million years ago from gymnosperms like gnetae?
+CORRECT: flowering plants
+INCORRECT: yeasts | cone-bearing plants | deciduous trees
+ANSWER: The thought to have evolved from gymnosperms like Gnetae is thought to have been the lycopodiophytes, which are a group of ancient vascular plants that are closely related to modern gymnosperms.
+
+### a3cdbb708b
+Q: Haversian canals contain blood vessels and what else?
+CORRECT: nerve fibers
+INCORRECT: muscle fibers | synovial fluid | collagen fibers
+ANSWER: Haversian canals contain blood vessels, as well as nerves and connective tissue.
+
+### b67d5ff735
+Q: What do nectar-feeding bats do to flowers?
+CORRECT: pollinate
+INCORRECT: defecate | illuminate | consume
+ANSWER: Nectar-feeding bats do not actually feed on flowers, but rather feed on the nectar that is produced by flowers. They use their long tongues to lap up the nectar from flowers, which is then stored in their stomachs for later use.
+
+### 01bd183531
+Q: What do most living things use to make atp from glucose?
+CORRECT: oxygen
+INCORRECT: enzymes | carbon | nitrogen
+ANSWER: Most living things use the process of cellular respiration to make ATP from glucose, which involves the breakdown of glucose to produce ATP through cellular respiration. Specifically, they use the citric acid cycle (also known as the Krebs cycle or tricarboxylic acid cycle) and oxidative phosphorylation to generate ATP
+
+### b808dcb4fd
+Q: Where do extrusive igneous rocks cool at?
+CORRECT: surface
+INCORRECT: underground | in volcanoes | in water
+ANSWER: Extrusive igneous rocks cool at the Earth's surface, typically at mid-ocean ridges or volcanic arcs, where they are exposed to the atmosphere and can slowly cool and solidify over time.

@@ -1,0 +1,77 @@
+### 35e6f45b26
+Q: Area, volume, and speed are all examples of what type of units?
+CORRECT: derived units
+INCORRECT: fundamental units | calculated measure | known units
+ANSWER: Area, volume, and speed are all examples of dimensional units.
+
+### 4780af896d
+Q: What are the only type of elements capable of changing into different elements?
+CORRECT: radioactive elements
+INCORRECT: noble gases | metalloids | adjacent elements
+ANSWER: The only type of elements capable of changing into different elements are the metals.
+
+### 0441742edb
+Q: The cell membrane consists of two layers of what?
+CORRECT: phospholipids
+INCORRECT: chlorophyll | epidermis | filaments
+ANSWER: The cell membrane consists of two layers of phospholipid bilayer.
+
+### 4cdf85abcd
+Q: There are many types of asexual spores. conidiospores are unicellular or multicellular spores that are released directly from the tip or side of this?
+CORRECT: hypha
+INCORRECT: ganglion | idioma | goychay
+ANSWER: Conidiospores are released directly from the tip of the sporangium, which is a structure that produces spores in many fungi, including ascomycetes and basidiomycetes.
+
+### 2b384f8a50
+Q: Ions flow through atp synthase from the thylakoid space into the stroma in a process called known as what?
+CORRECT: chemiosmosis
+INCORRECT: oxidation | respiration | fertilization
+ANSWER: The process by which ions flow through ATP synthase from the thylakoid space into the stroma is called the proton gradient.
+
+### ecabf36dca
+Q: What is the difference between oils and fats at room temperature?
+CORRECT: liquid and solid states
+INCORRECT: solid and gas states | saturated and unsaturated | liquid and gas states
+ANSWER: The main difference between oils and fats at room temperature is their melting point. Oils typically have a lower melting point (around 40-100°F or 4-38°C) and are liquid at room temperature, while fats have a higher melting point (around 100-180°F or 38-82°C
+
+### fb4fd15e86
+Q: Proteins are categorized according to shape and what property, which correlates with it?
+CORRECT: solubility
+INCORRECT: viscosity | size | salinity
+ANSWER: Proteins are categorized according to shape and their hydrophobicity (water-repelling property), which correlates with their ability to form alpha helices and beta sheets, two types of secondary structures that are characteristic of these protein shapes.
+
+### 8a441f274e
+Q: What were the first plants to evolve?
+CORRECT: nonvascular plants
+INCORRECT: fungi | photoreactive plants | trees
+ANSWER: The first plants to evolve are believed to be green algae, which are single-celled organisms that can photosynthesize and are thought to have originated around 3.5 billion years ago during the Neoproterozoic era. These early algae are considered to be the earliest known ancestors of modern plants.
+
+### b987461c2b
+Q: Because optics fibers are thin, entering light may strike the inside surface at greater than the critical angle, requiring attention to what?
+CORRECT: refractive index
+INCORRECT: reflective point | electromagnetic index | wavelength
+ANSWER: Because optics fibers are thin, entering light may strike the inside surface at greater than the critical angle, requiring attention to the **cladding**. The cladding is the layer of material surrounding the core of the fiber, and it can be designed to be thicker than the core to reduce the critical angle and prevent total internal
+
+### 91dd3b9e30
+Q: Foodborne illness, food allergies, or a food intolerance cause symptoms in what system?
+CORRECT: digestive
+INCORRECT: respiratory | circulatory | skeletal
+ANSWER: Foodborne illness, food allergies, or a food intolerance typically cause symptoms in the gastrointestinal (GI) system.
+
+### a790e0f869
+Q: Some types of minerals form balls called what?
+CORRECT: nodules
+INCORRECT: cancers | microbes | fistulas
+ANSWER: Gypsum balls are formed by the evaporation of seawater, which causes the minerals in the water to precipitate out and form small, rounded masses, often referred to as "gypsum balls" or "selenite balls".
+
+### 48b67a9c35
+Q: The invention of the wheel is an example of what, which has the goal of solving human problems?
+CORRECT: technology
+INCORRECT: industry | concept | evolution
+ANSWER: The invention of the wheel is an example of a solution to the problem of transportation, which has the goal of solving human problems by enabling the efficient movement of people and goods over long distances.
+
+### 72a5716fad
+Q: All the atoms of a given element have the same number what?
+CORRECT: protons and electrons
+INCORRECT: neutrons and electrons | cells and electrons | neutrons and protons
+ANSWER: All the atoms of a given element have the same number of protons in their atomic nuclei, which is also equal to the number of electrons in a neutral atom, resulting in a neutral atom.

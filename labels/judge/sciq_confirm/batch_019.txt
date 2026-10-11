@@ -1,0 +1,239 @@
+### dee42a633f
+Q: Exemplified by sea stars and sand dollars, echinoderms have a calcareous structure developed by pigment cells and made of ossicles, which is called what?
+CORRECT: endoskeleton
+INCORRECT: hydrostatic skeleton | exoskeleton | thorax
+ANSWER: Echinoderms have a calcareous structure developed by pigment cells and made of ossicles, which is called the ossicle.
+
+### 5b6570cd77
+Q: What do you call a chemical process used to treat water by destroying a contaminant?
+CORRECT: chemical remediation
+INCORRECT: basic remediation | toxic remediation | carbon remediation
+ANSWER: The process you are referring to is called disinfection.
+
+### 6211862d84
+Q: Salicylic acid is used in the synthesis of acetylsalicylic acid, or more commonly called?
+CORRECT: aspirin
+INCORRECT: smelling salts | antacid | Tylenol
+ANSWER: Aspirin.
+
+### 8837c3fcda
+Q: Reversible reactions are indicated by what kinds of arrows?
+CORRECT: opposite-headed
+INCORRECT: double-headed | resonance arrows | equilibrium arrows
+ANSWER: Reversible reactions are indicated by double-headed arrows.
+
+### 32b9ec75a9
+Q: When explosion of gases creates pressure resulting in motion of a rocket, the force pushing the rocket is called what?
+CORRECT: thrust
+INCORRECT: friction | stasis | temperature
+ANSWER: The force pushing the rocket is called thrust.
+
+### d2d16aeb73
+Q: Where do recent rocks point towards on earth?
+CORRECT: north magnetic pole
+INCORRECT: space | equator | south magnetic pole
+ANSWER: Recent rocks point towards the Earth's surface, as they are the most recently formed geological formations.
+
+### f96b71ab6f
+Q: What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?
+CORRECT: elephantiasis
+INCORRECT: pulmonary edema | gigantism | fibrosis
+ANSWER: Lymphangitis is characterized by extreme swelling of the limbs and is caused by infection with a type of roundworm.
+
+### 3d9e9b384b
+Q: What protects the brain and spinal cord in the central nervous system?
+CORRECT: meninges
+INCORRECT: neutrophils | dermis | Flexing
+ANSWER: The central nervous system is protected by the meninges, which consist of the dura mater, arachnoid mater, and pia mater.
+
+### 2316b104b9
+Q: What is the term for an exact genetic copy?
+CORRECT: clone
+INCORRECT: genetic recreation | duplication | genetic repeat
+ANSWER: Clone.
+
+### 8eafa04c78
+Q: Ionic compounds have strong electrostatic attractions between oppositely charged ions in this?
+CORRECT: regular array
+INCORRECT: incorrect array | normal array | occasional array
+ANSWER: Ionic compounds have strong electrostatic attractions between oppositely charged ions in a lattice structure.
+
+### 8a4444a6bd
+Q: When we were dealing with electrical effects, it was very useful to speak of an electric field that surrounded what?
+CORRECT: electrical charge
+INCORRECT: liquid charge | stellar charge | sunlight charge
+ANSWER: An electric field surrounds charged particles.
+
+### e2f2bd19ca
+Q: The rocks athe mid-ocean ridge are nearly free of what?
+CORRECT: sediment
+INCORRECT: minerals | scratches | metals
+ANSWER: The rocks at the mid-ocean ridge are nearly free of sediment.
+
+### f1d1fda252
+Q: Area, volume, and speed are all examples of what type of units?
+CORRECT: derived units
+INCORRECT: fundamental units | calculated measure | known units
+ANSWER: Area, volume, and speed are all examples of physical quantities measured in units of length, distance, and rate, respectively.
+
+### 25a08acdc4
+Q: How do many mammals control their body temperature?
+CORRECT: sweating
+INCORRECT: dieting | homeostasis | itching
+ANSWER: Many mammals control their body temperature through behavioral adaptations, such as seeking shade or shelter, and physiological mechanisms like sweating or shivering.
+
+### 1bf4ccffb1
+Q: Water found on the surface of the earth is referred to as what?
+CORRECT: surface water
+INCORRECT: groundwater | reservoir water | runoff
+ANSWER: Surface water on Earth is referred to as freshwater.
+
+### ae3d223262
+Q: The electrode at which oxidation occurs is called?
+CORRECT: the anode
+INCORRECT: diode | cathode | calomel
+ANSWER: The electrode at which oxidation occurs is called the anode.
+
+### d94a33c32f
+Q: How frequently do high tides occur?
+CORRECT: every 12 hours
+INCORRECT: Every 96 hours | Every 24 hours | Every 48 hours
+ANSWER: High tides occur twice daily, approximately every 12 hours and 25 minutes.
+
+### fc73b8fbd7
+Q: What is the name of the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals?
+CORRECT: milk
+INCORRECT: plasma | blood | sperm
+ANSWER: The complex mixture that consists of water, proteins, fats, carbohydrates, and minerals is known as food.
+
+### 3c57a8670b
+Q: Exemplified by organisms that grow in geysers, hyperthermophiles "love" what?
+CORRECT: heat
+INCORRECT: humidity | cold | rainfall
+ANSWER: Hyperthermophiles "love" extreme temperatures, specifically those found in geysers, where they thrive in environments with temperatures up to 100°C (212°F).
+
+### 208958b057
+Q: The chemical and/or physical agents that cause mutations are called what?
+CORRECT: mutagens
+INCORRECT: dioxins | organelles | genes
+ANSWER: Mutagens.
+
+### b450e4418b
+Q: Compound forms when atoms of nonmetals form molecules that are held together by what?
+CORRECT: covalent bonds
+INCORRECT: phenotype bonds | magnetic bonds | dissonance bonds
+ANSWER: Compound forms when atoms of nonmetals form molecules that are held together by covalent bonds.
+
+### 99fdc13c9c
+Q: A cold front is formed when a cold air mass runs into what?
+CORRECT: warm air mass
+INCORRECT: hurricane | cool air mass | dry air mass
+ANSWER: A cold front is formed when a cold air mass runs into a warm air mass.
+
+### e249a91834
+Q: Sounds are produced when muscles in what organ are tensed, stretching the cords so they vibrate?
+CORRECT: larnyx
+INCORRECT: throat | thorax | diaphragm
+ANSWER: The organ that produces sounds when muscles in it are tensed, stretching cords that vibrate, is the vocal cords.
+
+### 6798581f9c
+Q: Like the platypus, the echnida is a what?
+CORRECT: monotreme
+INCORRECT: prosauropod | Gives Live birth | dugongs
+ANSWER: Like the platypus, the echidna is a monotreme.
+
+### 82148b66d6
+Q: Vascular plants all have roots, stems, and what?
+CORRECT: leaves
+INCORRECT: beans | flowers | fruits
+ANSWER: Leaves.
+
+### c27872e589
+Q: What occur in arteries that can cause heart attacks and strokes?
+CORRECT: clots
+INCORRECT: toxins | tumors | lesions
+ANSWER: Atherosclerosis, a buildup of plaque in arteries, can cause heart attacks and strokes.
+
+### 95764b4057
+Q: What is the cure of cancer known as?
+CORRECT: remission
+INCORRECT: metabolism | rejuvenation | regeneration
+ANSWER: The cure of cancer is known as a cure.
+
+### 1bc06c0201
+Q: What does the ovule mature into after double fertilization?
+CORRECT: a seed
+INCORRECT: a spore | a twin | a sister chromatid
+ANSWER: The ovule matures into a seed after double fertilization.
+
+### c217b9f305
+Q: A metarteriole is a type of vessel that has structural characteristics of both an arteriole and this?
+CORRECT: capillary
+INCORRECT: tendon | electron | layer
+ANSWER: capillary.
+
+### f11578d82d
+Q: All cells have a jellylike substance in which subcellular components are suspended. what is that substance?
+CORRECT: cytosol
+INCORRECT: glycerol | plasma | cortisol
+ANSWER: The substance in which subcellular components are suspended in all cells is cytoplasm.
+
+### 5e91a37a35
+Q: Proteins are categorized according to shape and what property, which correlates with it?
+CORRECT: solubility
+INCORRECT: viscosity | size | salinity
+ANSWER: Proteins are categorized according to shape and function, which correlates with their specific biological roles.
+
+### e6d733ceba
+Q: What part of the male reproductive system is involved with the most common disorders?
+CORRECT: the testes
+INCORRECT: the ureter | the penis | the glans
+ANSWER: The most common disorders involving the male reproductive system are related to the prostate gland.
+
+### 04beaff4f2
+Q: The full range of wavelengths and frequencies of electromagnetic radiation make up the ____________
+CORRECT: electromagnetic spectrum
+INCORRECT: electronic spectrum | mechanical spectrum | anomalous spectrum
+ANSWER: electromagnetic spectrum
+
+### 769d0464ab
+Q: What are the biggest groups of stars called?
+CORRECT: galaxies
+INCORRECT: cells | novas | orbits
+ANSWER: The biggest groups of stars are called galaxies.
+
+### e2d17b916a
+Q: What do we call a simple machine that consists of a rope and grooved wheel?
+CORRECT: pulley
+INCORRECT: axle | lever | pedal
+ANSWER: A simple machine that consists of a rope and grooved wheel is called a pulley.
+
+### f5f0cb0839
+Q: What happens when mammals raise their hair with tiny muscles in the skin?
+CORRECT: goosebumps
+INCORRECT: bleeding | balding | bruising
+ANSWER: Mammals raise their hair with tiny muscles in the skin, a process known as piloerection, which can signal emotions or prepare them for physical activity.
+
+### 41067e3b85
+Q: What are the only type of elements capable of changing into different elements?
+CORRECT: radioactive elements
+INCORRECT: noble gases | metalloids | adjacent elements
+ANSWER: Only the three lightest elements (hydrogen, helium, and lithium) can undergo nuclear fusion to change into different elements.
+
+### cb3d0bfbe6
+Q: What happens to the pressure when more gas is added to a rigid container?
+CORRECT: increases
+INCORRECT: occurs | changes | Higher
+ANSWER: The pressure increases when more gas is added to a rigid container.
+
+### b6b33e3483
+Q: What regulates the time of flowering in many species?
+CORRECT: photoperiodism
+INCORRECT: wind patterns | spirogyra | pollenation
+ANSWER: Flowering times in many species are regulated by photoperiod, which is the length of daylight.
+
+### dc88b8880c
+Q: Animals are classified according to morphological and developmental characteristics, such as a body plan. with the exception of sponges, the animal body plan is symmetrical. this means that their distribution of body parts is balanced along this?
+CORRECT: axis
+INCORRECT: skull | radius | ulna
+ANSWER: The animal body plan is symmetrical, meaning body parts are balanced along an axis.

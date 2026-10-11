@@ -1,0 +1,239 @@
+### bb40b03283
+Q: How many chambers are there in a bird's heart?
+CORRECT: 4
+INCORRECT: 1 | 3 | 5
+ANSWER: A bird's heart has four chambers: two atria and two ventricles.
+
+### ff84294fe3
+Q: What is it called when sound is reflected off an object?
+CORRECT: echo
+INCORRECT: signal | amplification | reverberation
+ANSWER: It is called reflection.
+
+### fe46c98a6f
+Q: The sun gives off energy in tiny packets called what?
+CORRECT: photons
+INCORRECT: ions | electrons | atoms
+ANSWER: The sun gives off energy in tiny packets called photons.
+
+### c76d0713ab
+Q: A bee will sometimes do a dance to tell other bees in the hive where to find what?
+CORRECT: food
+INCORRECT: enemies | water | honey
+ANSWER: A bee will sometimes do a dance to tell other bees in the hive where to find nectar or pollen.
+
+### 904f2c74cc
+Q: What are the most successful phylum of plants?
+CORRECT: angiosperms
+INCORRECT: spores | gymnosperms | ferns
+ANSWER: The most successful phylum of plants is the Angiosperms, which includes flowering plants.
+
+### 8329448eab
+Q: What is the name of the skull that covers the brain and protects it?
+CORRECT: the cranium
+INCORRECT: cerebrum | Nasal bone | mandible
+ANSWER: The name of the skull that covers the brain and protects it is the cranium.
+
+### 957abdca06
+Q: What does the inside of all cells also contain?
+CORRECT: cytosol
+INCORRECT: chloroplasm | protein | chromosomes
+ANSWER: All cells contain DNA and RNA.
+
+### 8e08a5e92e
+Q: Where does a crossover occur on a chromosome?
+CORRECT: at different locations
+INCORRECT: at no locations | at one-two locations | at the same location
+ANSWER: A crossover occurs at a specific point on a chromosome during meiosis, where homologous chromosomes exchange genetic material.
+
+### 2363c25e85
+Q: Oranges and lemons are examples of fruits that contain what acid?
+CORRECT: citric acid
+INCORRECT: nitric acid | urea acid | beryllium acid
+ANSWER: Oranges and lemons contain citric acid.
+
+### dd75910b75
+Q: Anything moving has what type of energy?
+CORRECT: kinetic
+INCORRECT: magnetic | potential | thermal
+ANSWER: Anything moving has kinetic energy.
+
+### d6fcaa4635
+Q: Anaerobic cellular respiration does not require the presence of what (by the very fact it is anaerobic, specifically)?
+CORRECT: oxygen
+INCORRECT: carbon | helium | nitrogen
+ANSWER: Oxygen.
+
+### b9c474481a
+Q: Viruses replicate only in where?
+CORRECT: host cells
+INCORRECT: traitor cells | compromised cells | weak cells
+ANSWER: Viruses replicate only inside host cells.
+
+### 59e3030d3a
+Q: Certain air pollutants form which liquid when dissolved in water droplets in the air?
+CORRECT: acid
+INCORRECT: water | base | citrus
+ANSWER: Certain air pollutants form acid rain when dissolved in water droplets in the air.
+
+### 1e175f9210
+Q: Potassium hydroxide in soap is an example of what?
+CORRECT: base
+INCORRECT: enzyme | catalyst | acid
+ANSWER: Potassium hydroxide in soap is an example of a base.
+
+### fcfaa21f7b
+Q: What are reptiles unable to absorb through their skin because of scales?
+CORRECT: oxygen
+INCORRECT: food | water | carbon
+ANSWER: Reptiles cannot absorb water through their skin due to the presence of scales.
+
+### bb2dd37492
+Q: According to the special theory of relativity, no physical object can equal or exceed the speed of what?
+CORRECT: light
+INCORRECT: air | energy | weight
+ANSWER: According to the special theory of relativity, no physical object can equal or exceed the speed of light.
+
+### 60b63445a7
+Q: What type of bonds are formed between atoms sharing electrons?
+CORRECT: covalent
+INCORRECT: neutron bonds | hydroxyl | ionic
+ANSWER: Covalent bonds are formed between atoms sharing electrons.
+
+### 51d331e609
+Q: What is defined as the ability to do work?
+CORRECT: energy
+INCORRECT: fuel | heating | momentum
+ANSWER: Work is defined as the ability to do physical or mental labor.
+
+### fb90bf8579
+Q: The invention of the wheel is an example of what, which has the goal of solving human problems?
+CORRECT: technology
+INCORRECT: industry | concept | evolution
+ANSWER: The invention of the wheel is an example of an engineering solution to a practical problem, specifically improving mobility and efficiency in transportation.
+
+### fc7bf1cac1
+Q: Chitin, also found in the exoskeleton of insects, gives structural strength to the cell walls of fungi. the cell wall protects the cell from what?
+CORRECT: desiccation and predators
+INCORRECT: fermentation and predators | entrainment and predators | starvation and predators
+ANSWER: Chitin in fungi's cell walls protects the cell from mechanical damage and environmental stresses.
+
+### e4a659b7be
+Q: The development of the respiratory system in the fetus begins at about?
+CORRECT: 4 weeks
+INCORRECT: 2 weeks | 4 months | 4 days
+ANSWER: The development of the respiratory system in the fetus begins at about the 8th week of pregnancy.
+
+### 04951bf21c
+Q: If the dna from all 46 chromosomes in a human cell nucleus was laid out end to end, it would measure approximately how long?
+CORRECT: two meters
+INCORRECT: three meters | four meters | one meter
+ANSWER: If the DNA from all 46 chromosomes in a human cell nucleus was laid out end to end, it would measure approximately 2 meters.
+
+### ba4322d0e8
+Q: Candida and trichophyton are examples of disease-causing types of what organisms, which become parasitic?
+CORRECT: fungi
+INCORRECT: yeast | bacteria | viruses
+ANSWER: Candida and Trichophyton are examples of disease-causing types of fungi, which become parasitic.
+
+### c326853429
+Q: The primary motor cortex is located in which lobe of the brain?
+CORRECT: frontal
+INCORRECT: Parietal | Temporal lobe | Occipital
+ANSWER: The primary motor cortex is located in the frontal lobe of the brain.
+
+### 318ef5ecd3
+Q: What are the two types of digestive systems invertebrates may have?
+CORRECT: complete and incomplete
+INCORRECT: complete and simple | complete and fluid | gastric and monogastric
+ANSWER: Invertebrates may have either a simple digestive system with a mouth and anus, or a more complex system with a mouth, stomach, and anus.
+
+### 4e1a91a757
+Q: What group of animals has adapted to live in both water and on land?
+CORRECT: amphibians
+INCORRECT: herbivores | reptiles | omnivores
+ANSWER: The group of animals that has adapted to live in both water and on land is the amphibians.
+
+### 642799cf39
+Q: What bonding is formed in polar amino acid side chains?
+CORRECT: hydrogen bonding
+INCORRECT: calcium bonding | carbon bonding | helium bonding
+ANSWER: The hydrogen bonds formed in polar amino acid side chains involve the interaction between the amino group (-NH2) and the carboxyl group (-COOH) of adjacent amino acids.
+
+### 3079df0066
+Q: A vector is any quantity that has magnitude and what?
+CORRECT: direction
+INCORRECT: length | longitude | latitude
+ANSWER: A vector is any quantity that has magnitude and direction.
+
+### 5aa9255c28
+Q: What are fungi which feed on living cells called?
+CORRECT: parasitic
+INCORRECT: static | predatory | symbiotic
+ANSWER: Fungi that feed on living cells are called parasitic fungi.
+
+### 5017dd56c8
+Q: What is the cause of common mold allergies?
+CORRECT: airborne mold spores
+INCORRECT: immobile mold spores | bacteria | viruses
+ANSWER: Common mold allergies are caused by exposure to mold spores, which can trigger an immune response in susceptible individuals.
+
+### 908fadaee8
+Q: What type of fluid cushions the fetus and helps protect it from injury?
+CORRECT: amniotic
+INCORRECT: plasmid | epithelial | aqueous
+ANSWER: The amniotic fluid cushions the fetus and helps protect it from injury.
+
+### e11a1ba433
+Q: What indicates horizontal distance and are also found on the map legend?
+CORRECT: scales
+INCORRECT: spikes | edges | variations
+ANSWER: Horizontal distance is indicated by lines or arrows on a map legend.
+
+### 0042a3ab6d
+Q: Highly reactive nonmetals, which only accept electrons and do not give them up, make poor what?
+CORRECT: electricity conductors
+INCORRECT: alloys | insulators | electromagnets
+ANSWER: Highly reactive nonmetals, which only accept electrons and do not give them up, make poor conductors of electricity.
+
+### 6c66be6bfe
+Q: Schrödinger’s approach uses three quantum numbers (n, l, and ml) to specify any of what type of function, associated with a particular energy?
+CORRECT: wave function
+INCORRECT: shift function | green function | rush function
+ANSWER: Schrödinger's approach uses three quantum numbers (n, l, and ml) to specify any of wave functions, associated with a particular energy level in quantum mechanics.
+
+### 9f0b199a50
+Q: What is needed for a person to be affected by an autosomal dominant disorder?
+CORRECT: one mutated allele
+INCORRECT: extra alleles | one less chromosome | one isolated allele
+ANSWER: A person needs to inherit a copy of the mutated gene from one parent to be affected by an autosomal dominant disorder.
+
+### 1ef4d72596
+Q: Where do short period comets come from?
+CORRECT: kuiper belt
+INCORRECT: milky way | vesta belt | photon belt
+ANSWER: Short period comets originate from the Kuiper Belt or the Oort Cloud.
+
+### ddccdcf843
+Q: Which two major innovations allowed seed plants to reproduce in the absence of water?
+CORRECT: seed and pollen
+INCORRECT: bee and pollen | root and pollen | salt and pollen
+ANSWER: The two major innovations that allowed seed plants to reproduce in the absence of water were the development of seeds and the evolution of vascular tissues.
+
+### ca04a41f03
+Q: The variety of cell shapes seen in prokaryotes and eukaryotes reflects the functions that each what has?
+CORRECT: cell
+INCORRECT: proteins | life | organ
+ANSWER: The variety of cell shapes seen in prokaryotes and eukaryotes reflects the functions that each organism has.
+
+### 8ae552f69e
+Q: What type of plants does human welfare depend greatly on?
+CORRECT: seed plants
+INCORRECT: mosses | ferns | fertilizer plants
+ANSWER: Human welfare depends greatly on a variety of plants, including food crops, medicinal plants, and those used for fiber and construction.
+
+### ffa3fde237
+Q: What type of biomes have water containing little or no salt?
+CORRECT: freshwater biomes
+INCORRECT: coastal biomes | aquatic biomes | marine biomes
+ANSWER: Deserts and salt flats are biomes with water containing little or no salt.

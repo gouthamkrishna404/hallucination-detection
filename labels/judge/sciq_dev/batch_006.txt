@@ -1,0 +1,239 @@
+### 8b12a6e8f8
+Q: Fungi often make specialized reproductive structures, such as what?
+CORRECT: mushrooms
+INCORRECT: pieces | Fungus | herbs
+ANSWER: Fungi often make specialized reproductive structures called spores. These spores are similar to the seeds of plants and can be dispersed through the air, water, or soil to start new fungal growth.
+
+### 079af7f1fc
+Q: In a plant, the flower contains what?
+CORRECT: pollen and eggs
+INCORRECT: bees and blossoms | seed and leaves | bud and stem
+ANSWER: In a plant, the flower contains the reproductive structures, which typically include the petals, sepals, stamens, and pistils. The pistils are the female reproductive structures, consisting of the stigma, style, and ovary, which contain the ovules where fertilization occurs.
+
+### 5b3b5052c9
+Q: What are the structural and functional units of the kidneys?
+CORRECT: nephrons
+INCORRECT: interneurons | fat cells | dendrites
+ANSWER: The structural and functional units of the kidneys are the nephrons. Nephrons are tiny, functional units that contain a glomerulus (a cluster of capillaries), a Bowman's capsule, a renal corpuscle, and a renal tubule.
+
+### 9b0a375051
+Q: What organs are considered the female gonads?
+CORRECT: ovaries
+INCORRECT: testes | uterus | fallopian tubes
+ANSWER: The ovaries are the female gonads. They are the organs responsible for producing eggs (oocytes) and hormones such as estrogen and progesterone.
+
+### 4d86ce1434
+Q: Asteroids, comets, and planets move around the sun in curved paths called what?
+CORRECT: orbits
+INCORRECT: satellites | curves | ellipticals
+ANSWER: Asteroids, comets, and planets move around the sun in curved paths called elliptical orbits.
+
+### e7c9700df5
+Q: What is the force that opposes motion between two surfaces that are touching?
+CORRECT: friction
+INCORRECT: tension | vibration | gravity
+ANSWER: The force that opposes motion between two surfaces that are touching is called friction.
+
+### 76af8237f5
+Q: The lens and other parts of the eye work together to focus a real image on what eye structure?
+CORRECT: retina
+INCORRECT: iris | pupil | cornea
+ANSWER: The lens and other parts of the eye work together to focus a real image on the retina, which is the light-sensitive tissue at the back of the eye.
+
+### 6e30a3d923
+Q: What is citrate an ionized form of?
+CORRECT: citric acid
+INCORRECT: carbonic acid | protein | hydrochloric acid
+ANSWER: Citrate is an ionized form of phosphate.
+
+### 9189ecf512
+Q: What is it called when birds keep their eggs warm while the embryos inside develop?
+CORRECT: incubation
+INCORRECT: insulation | spawning | fertilization
+ANSWER: The process of keeping eggs warm while the embryos inside develop is called incubation.
+
+### d18e88a114
+Q: What is first stage of cellular respiration?
+CORRECT: glycolsis
+INCORRECT: electrolysis | hydrolisis | metabolism
+ANSWER: The first stage of cellular respiration is glycolysis, where glucose is broken down into pyruvate, producing a small amount of ATP and NADH. This stage occurs in the cytosol of the cell and is the rate-limiting step in cellular respiration.
+
+### 13b31495b4
+Q: Why do fish have short esophaguses?
+CORRECT: no lungs
+INCORRECT: big tail | no intestines | no mouths
+ANSWER: Fish have short esophaguses because they have a unique digestive system that is adapted to their aquatic environment. In fish, the esophagus is a muscular tube that propels food into the stomach, and it is relatively short and narrow to reduce energy expenditure in water, where food is scarce and oxygen is limited.
+
+### 6a6494dee3
+Q: In an ecosystem, what do you call organisms like lions that capture and kill other animals for food?
+CORRECT: predators
+INCORRECT: hunters | alphas | leaders
+ANSWER: In an ecosystem, organisms like lions that capture and kill other animals for food are called predators.
+
+### 147768d99c
+Q: What is another name for anther pollen sacs?
+CORRECT: microsporangia
+INCORRECT: ganglia | Megasporangia | Gametangia
+ANSWER: Another name for anther pollen sacs is anther locules.
+
+### f58ae92334
+Q: What term is used to describe organic compounds such as sugars and starches?
+CORRECT: carbohydrates
+INCORRECT: fats | proteins | vegetables
+ANSWER: The term used to describe organic compounds such as sugars and starches is polysaccharides.
+
+### df8e219193
+Q: The chains in cellulose stack in parallel rows held together by hydrogen bonds between which groups?
+CORRECT: hydroxl groups
+INCORRECT: disc groups | carbon groups | soda groups
+ANSWER: The chains in cellulose stack in parallel rows held together by hydrogen bonds between the hydroxyl (-OH) groups of adjacent glucose units.
+
+### 71204533b5
+Q: Traits controlled by genes on the sex chromosomes are called what?
+CORRECT: sex-linked traits
+INCORRECT: male-related traits | gender-linked traits | chromosome-linked traits
+ANSWER: Traits controlled by genes on the sex chromosomes are called X-linked traits.
+
+### 81a093e45a
+Q: What is the blood in the body pumped with?
+CORRECT: heart
+INCORRECT: systolic pressure | respiratory | lung
+ANSWER: The blood in the body is pumped with the heart.
+
+### 3348e5dfc5
+Q: We must remember that the formal charge calculated for an atom is not the actual charge of the atom in the molecule. formal charge is only a useful bookkeeping procedure; it does not indicate the presence of these?
+CORRECT: actual charges
+INCORRECT: isotopes | negative charges | electron bonds
+ANSWER: The formal charge is a useful bookkeeping procedure to calculate the number of electrons an atom has gained or lost in a covalent bond, but it does not indicate the presence of any unpaired electrons or lone pairs. In other words, formal charge is not a direct indicator of the presence of these specific types of electrons
+
+### c28a1249a6
+Q: The energy required to remove an electron from a gaseous atom is called?
+CORRECT: ionization energy
+INCORRECT: vapor energy | potential energy | fission energy
+ANSWER: The energy required to remove an electron from a gaseous atom is called the ionization energy.
+
+### 3bf8a538a6
+Q: Where fossils of the genus eomaia found?
+CORRECT: china
+INCORRECT: Japan | Egypt | India
+ANSWER: The fossils of the genus Eomaia were found in South Africa.
+
+### 9f5b35f4fb
+Q: Light is a form of what kind of energy?
+CORRECT: electromagnetic energy
+INCORRECT: magnetic energy | static energy | gravitational energy
+ANSWER: Light is a form of electromagnetic radiation, specifically a type of non-thermal, non-luminous energy.
+
+### 0f143ef5c3
+Q: Where do mushrooms get their energy?
+CORRECT: decomposing dead organisms
+INCORRECT: killing organisms | accumulating dead organisms | producing dead organisms
+ANSWER: Mushrooms get their energy through a process called photosynthesis, where they use energy from sunlight to convert carbon dioxide and water into glucose and oxygen. This process is similar to the way plants and algae make their own food, but mushrooms obtain their energy directly from the food they consume, such as organic matter.
+
+### 1c00217ddc
+Q: Water can be broken down into hydrogen and oxygen gases by the addition of what?
+CORRECT: energy
+INCORRECT: motion | mineral | demand
+ANSWER: Hydrogen peroxide (H2O2).
+
+### 491d94113f
+Q: What are the hormones that cause a plant to grow?
+CORRECT: gibberellins
+INCORRECT: sporozoans | pores | pistills
+ANSWER: The primary hormones responsible for plant growth are auxins, gibberellins, cytokinins, ethylene, and abscisic acid. Auxins, such as indole-3-acetic acid (IAA), promote cell elongation and cell division, while gibberellins, like gibberell
+
+### f6b6cff8f4
+Q: Which part of the atmosphere do greenhouse gasses trap heat in?
+CORRECT: troposphere
+INCORRECT: thermosphere | lithosphere | stratosphere
+ANSWER: Greenhouse gases trap heat in the troposphere, the lowest layer of the atmosphere, which extends up to about 12 kilometers (7.5 miles) above the Earth's surface.
+
+### 306b342555
+Q: One important phenomenon related to the relative strength of cohesive and adhesive forces is capillary action—the tendency of a fluid to be raised or suppressed in a narrow tube, or called this?
+CORRECT: capillary tube
+INCORRECT: melting tube | cohesive tube | pressure tube
+ANSWER: Capillary action is the tendency of a fluid to be raised or suppressed in a narrow tube, or more specifically, it is the phenomenon where a fluid flows through a narrow tube due to the combination of cohesive and adhesive forces, allowing it to rise or flow upwards.
+
+### baf79319da
+Q: During a human pregnancy, which trimester exhibits the greatest growth of the fetus and culminates in labor and delivery?
+CORRECT: third trimester
+INCORRECT: fourth trimester | first trimester | second trimester
+ANSWER: The second trimester, specifically weeks 13-26, exhibits the greatest growth of the fetus and culminates in labor and delivery. During this period, the fetus's growth rate accelerates, and the baby's organs and body systems mature, preparing for life outside the womb.
+
+### fdca162658
+Q: Cardiac muscle is found only in which part of the heart?
+CORRECT: the walls
+INCORRECT: the ridges | the left side | the bottom
+ANSWER: Cardiac muscle is found only in the heart's ventricles.
+
+### 3b93a4b4ca
+Q: When equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide, the result is what kind of solution?
+CORRECT: a neutral one
+INCORRECT: a economical one | a lateral one | a thermodynamic one
+ANSWER: When equal amounts of a strong acid (like hydrochloric acid) and a strong base (like sodium hydroxide) are mixed, they react to form a neutral solution, also known as a saltwater solution. The reaction is: HCl (acid) + NaOH (base) → NaCl (salt
+
+### e6455263df
+Q: What is the measurement of something along it's greatest dimension called?
+CORRECT: length
+INCORRECT: stretch | stretch | height
+ANSWER: The measurement of something along its greatest dimension is called its "length".
+
+### 336f53cd1d
+Q: What does jupiter reflect a lot of due to its size?
+CORRECT: sunlight
+INCORRECT: carbon | molecules | moisture
+ANSWER: Jupiter reflects a lot of sunlight due to its massive size, which is approximately 11 times larger than Earth's. This is because Jupiter's atmosphere is composed mostly of hydrogen and helium gases, which scatter and reflect the sun's light, giving the planet its distinctive banded appearance.
+
+### 68bc036381
+Q: What form the skeletons of most organic molecules?
+CORRECT: carbon chains
+INCORRECT: hydrocarbons | amino acid chains | peptide groups
+ANSWER: The skeletons of most organic molecules are composed of carbon-hydrogen bonds.
+
+### 92e1ed3898
+Q: The softer connective tissue that fills the interior of most bone is referred to as what?
+CORRECT: bone marrow
+INCORRECT: solid marrow | liquid marrow | attached marrow
+ANSWER: The softer connective tissue that fills the interior of most bone is referred to as cartilage.
+
+### f346cbbd30
+Q: What blood-carrying structures contain one-way valves that contribute to the return of blood to the heart?
+CORRECT: veins
+INCORRECT: glands | clots | brains
+ANSWER: The blood-carrying structures that contain one-way valves and contribute to the return of blood to the heart are the atrioventricular valves, specifically the tricuspid and mitral valves. These valves allow blood to flow from the atria to the ventricles but prevent blood from flowing back into the atria
+
+### cc4ec7266a
+Q: What branch of science explains much of what you observe and do in your daily life?
+CORRECT: physical science
+INCORRECT: temperature science | psychology | astronomy
+ANSWER: The branch of science that explains much of what you observe and do in your daily life is Physics.
+
+### 59dbd4e33b
+Q: Reacting with metal is one thing that distinguishes acids from what?
+CORRECT: bases
+INCORRECT: metals | minerals | protiens
+ANSWER: Acids are distinguished from bases by their reaction with metal, which typically results in the formation of a salt and hydrogen gas. For example, when an acid reacts with a metal like sodium (Na), it produces sodium hydroxide (NaOH) and hydrogen gas.
+
+### e86798323e
+Q: What type of organism generally lives in or on its host?
+CORRECT: parasite
+INCORRECT: predator | bacteria | insect
+ANSWER: The type of organism generally lives in or on its host is a parasite.
+
+### 41b8ca9130
+Q: In the microbiology lab, what technique refers to the procedures that are carried out under sterile conditions?
+CORRECT: aseptic
+INCORRECT: personal hygiene | experimental control | ionization
+ANSWER: In the microbiology lab, the technique that refers to the procedures carried out under sterile conditions is called Sterile Preparation and Sterilization.
+
+### d62d11492b
+Q: About how tall can mid-ocean ridges be?
+CORRECT: about 2 km
+INCORRECT: about 2 meters | about 2 feet | 2 inches
+ANSWER: Mid-ocean ridges can be up to 10,000 meters (33,000 feet) tall, with some of the highest peaks reaching heights of around 9,000 meters (29,500 feet).
+
+### 5fdcf09bd0
+Q: What substance, which forms igneous rock, flows out in rivers of lava when it reaches the surface?
+CORRECT: magma
+INCORRECT: granite | soil | fertilizer
+ANSWER: The substance that forms igneous rock and flows out in rivers of lava when it reaches the surface is magma.

@@ -1,0 +1,239 @@
+### 5acf19e67f
+Q: Who wrote the book on the origin of species?
+CORRECT: darwin
+INCORRECT: Scopes | Sagan | cannon
+ANSWER: Charles Darwin wrote the book "On the Origin of Species."
+
+### 981f12ef90
+Q: A diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width is called?
+CORRECT: bar graph
+INCORRECT: pie chart | venn diagram | circle graph
+ANSWER: A diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width is called a bar chart.
+
+### 5b2a79a632
+Q: Recent evidence indicates some of what type of cells remain within the heart, continuing to divide and potentially replace dead cells?
+CORRECT: stem cells
+INCORRECT: osteoclast cells | human cells | dendritic cells
+ANSWER: Recent evidence indicates that some cardiac muscle cells remain within the heart, continuing to divide and potentially replace dead cells.
+
+### ece65db4ab
+Q: What are the best-known extinct vertebrates?
+CORRECT: dinosaurs
+INCORRECT: snakes | trees | trilobites
+ANSWER: The best-known extinct vertebrates include dinosaurs, mastodons, saber-toothed cats, and the woolly mammoth.
+
+### cbb8939bde
+Q: What forms when one substances dissolves in another?
+CORRECT: a solution
+INCORRECT: a transition | concentrate | complex
+ANSWER: When one substance dissolves in another, it forms a solution.
+
+### 45cb95fc01
+Q: Salts that are neither acidic nor basic do not affect what property of the solution when dissolved in water?
+CORRECT: ph
+INCORRECT: homeostasis | saturation | density
+ANSWER: Salts that are neither acidic nor basic do not affect the pH of the solution when dissolved in water.
+
+### 7fe425e847
+Q: Oil and water do not mix, instead forming two distinct layers called what?
+CORRECT: phases
+INCORRECT: changes | stages | surfaces
+ANSWER: Oil and water do not mix, instead forming two distinct layers called an emulsion.
+
+### a61426e833
+Q: What is the process by which water moves through semi-permeable membranes from one part of the body to another?
+CORRECT: osmosis
+INCORRECT: diffusion | electrolysis | mitosis
+ANSWER: The process by which water moves through semi-permeable membranes from one part of the body to another is called osmosis.
+
+### 9e5f1dd3c8
+Q: What system does addictive drugs affect?
+CORRECT: reward system
+INCORRECT: digestive system | honor system | checks and balances
+ANSWER: Addictive drugs primarily affect the brain's reward system, including the neurotransmitters dopamine and serotonin.
+
+### 3ae51889ab
+Q: All organisms can be classified into one of three of this least specific grouping?
+CORRECT: domains
+INCORRECT: aspects | phlylum | species
+ANSWER: All organisms can be classified into one of three major kingdoms.
+
+### 10b7f3e922
+Q: What is the name of microscopic channels which traverse the cell walls of plants?
+CORRECT: plasmodesmata
+INCORRECT: chloroplasts | sphenopalatine | notochord
+ANSWER: The name of microscopic channels which traverse the cell walls of plants is plasmodesmata.
+
+### 93cf9e7757
+Q: Ions flow through atp synthase from the thylakoid space into the stroma in a process called known as what?
+CORRECT: chemiosmosis
+INCORRECT: oxidation | respiration | fertilization
+ANSWER: The process by which ions flow through ATP synthase from the thylakoid space into the stroma is called the proton motive force.
+
+### dd9e8351d6
+Q: Fahrenheit, celsius, and kelvin are all units which measure what?
+CORRECT: temperature
+INCORRECT: brightness | radiation | precipitation
+ANSWER: All three units measure temperature.
+
+### d11dabca91
+Q: How many ways are there for a species to go extinct?
+CORRECT: two
+INCORRECT: four | eight | Ten
+ANSWER: There are many ways for a species to go extinct, including natural disasters, habitat loss, overexploitation, and climate change.
+
+### 6413c40cb9
+Q: Newton’s second law of what is more than a definition; it is a relationship among acceleration, force, and mass?
+CORRECT: motion
+INCORRECT: gravity | change | interference
+ANSWER: Newton's second law of motion is more than a definition; it is a relationship among acceleration, force, and mass.
+
+### adeae6a87a
+Q: What determines how long a planet's orbit is around the sun?
+CORRECT: distance
+INCORRECT: size | age | direction
+ANSWER: The length of a planet's orbit around the sun is primarily determined by its distance from the sun and the gravitational forces acting upon it.
+
+### aa7bdde3af
+Q: Where does most of the earth's energy come from?
+CORRECT: sun
+INCORRECT: cover | fire | heat
+ANSWER: Most of the Earth's energy comes from the sun.
+
+### 99f7b4f252
+Q: How many bones does an adult skeleton have?
+CORRECT: 206
+INCORRECT: 208 | 196 | 192
+ANSWER: An adult skeleton typically has 206 bones.
+
+### da0f4cd8df
+Q: What is the only animal phyla that does not consist exclusively of invertebrates?
+CORRECT: chordates
+INCORRECT: arthropods | bacteria | eukaryotes
+ANSWER: The only animal phylum that does not consist exclusively of invertebrates is the Echinodermata, which includes animals like sea stars, sea urchins, and sand dollars.
+
+### 39bc13f4ba
+Q: Most hydrogen atoms have how many protons?
+CORRECT: one
+INCORRECT: two | three | four
+ANSWER: Most hydrogen atoms have one proton.
+
+### 2b32dc381f
+Q: What group was long considered part of the plant kingdom because of obvious similarities; both are immobile, have cell walls, and grow in soil?
+CORRECT: fungi
+INCORRECT: mosses | coral | bacteria
+ANSWER: Fungi were long considered part of the plant kingdom due to their similarities in being immobile, having cell walls, and growing in soil.
+
+### 34179aa1ca
+Q: Known for its beautiful rings, what is the second largest planet in the solar system?
+CORRECT: saturn
+INCORRECT: Mars | jupiter | Venus
+ANSWER: Jupiter is known for its beautiful rings and is the second largest planet in the solar system.
+
+### 6eed59ebca
+Q: Monosaccharides, disaccharides, and polysaccharides are types of what kind of macromolecule?
+CORRECT: carbohydrate
+INCORRECT: glucose | protein | nutrients
+ANSWER: Monosaccharides, disaccharides, and polysaccharides are types of carbohydrates, which are macromolecules.
+
+### 180d50a198
+Q: In what type of organisms are daughter cells individuals?
+CORRECT: unicellular organisms
+INCORRECT: multicellular organisms | macroscopic organisms | hematopoietic organisms
+ANSWER: In sexually reproducing organisms, daughter cells are individuals.
+
+### d1b4a2d6a9
+Q: What are formed when cells from the male and female parts of the plant combine?
+CORRECT: seeds
+INCORRECT: varieties | trees | atoms.
+ANSWER: Fertilization occurs when cells from the male and female parts of the plant combine, resulting in the formation of a zygote.
+
+### 64ec8f0183
+Q: What is the process by which plants make the simple sugar glucose from carbon dioxide and water is called?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | metamorphosis | osmosis
+ANSWER: The process by which plants make glucose from carbon dioxide and water is called photosynthesis.
+
+### ee01078b9f
+Q: What term is used to describe  the variety of life and its processes, including the variety of living organisms, the genetic differences among them, and the communities and ecosystems in which they occur?
+CORRECT: biodiversity
+INCORRECT: biosphere | habitat | evolution
+ANSWER: The term used to describe the variety of life and its processes, including the variety of living organisms, genetic differences among them, and communities and ecosystems in which they occur, is biodiversity.
+
+### ca392fd673
+Q: How often should women perform a breast self-exam?
+CORRECT: monthly
+INCORRECT: yearly | weekly | quarterly
+ANSWER: Women should perform a breast self-exam monthly, ideally after a period of rest and before starting their menstrual cycle.
+
+### 8f264edd06
+Q: What do methanogens act as in sewage treatment plants?
+CORRECT: as decomposers
+INCORRECT: creators | fertilizers | killers
+ANSWER: Methanogens are microorganisms that produce methane as a byproduct in sewage treatment plants, primarily used to break down organic matter in the absence of oxygen.
+
+### 71886dca8f
+Q: Animals with better fitness have a better chance of passing their genes onto the next generation, this process is known as?
+CORRECT: natural selection
+INCORRECT: survival selection | natural evolution | fitness selection
+ANSWER: Natural selection.
+
+### 9c8e87ca2a
+Q: What living creatures comprise the "rainforests of the oceans"?
+CORRECT: coral reefs
+INCORRECT: kelp | krill | algae
+ANSWER: Fish, crustaceans, and other marine life inhabit the "rainforests of the oceans".
+
+### ac1478b394
+Q: After coming apart from the crystal, the individual ions are then surrounded by solvent particles in a process called what?
+CORRECT: solvation
+INCORRECT: osmosis | ionization | hydrolysis
+ANSWER: The process of the individual ions being surrounded by solvent particles after coming apart from the crystal is called dissolution.
+
+### 66bffd6e71
+Q: What is the organ system that brings oxygen into the body and releases carbon dioxide?
+CORRECT: lungs
+INCORRECT: liver | brain | kidneys
+ANSWER: The respiratory system brings oxygen into the body and releases carbon dioxide.
+
+### 89597e15f2
+Q: Light travels more quickly in air than what?
+CORRECT: water
+INCORRECT: earth | glass | metal
+ANSWER: Light travels more quickly in air than in other transparent materials.
+
+### a5f463a396
+Q: While elements are represented by chemical symbols, chemical formulas represent what?
+CORRECT: compounds
+INCORRECT: extracts | pollutants | solutions
+ANSWER: Chemical formulas represent the precise composition of a substance, showing the types and quantities of atoms present.
+
+### 9cfd37547d
+Q: What are the two components of all solutions?
+CORRECT: solute and solvent
+INCORRECT: sodium and solvent | solute and cytosol | concentration and solvent
+ANSWER: All solutions consist of a solute dissolved in a solvent.
+
+### 364d70dfd7
+Q: Which sphincter is located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach?
+CORRECT: gastro-esophageal sphincter
+INCORRECT: pupillary sphincter | pyloric sphincter | urethral sphincter
+ANSWER: The cardia sphincter is located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach.
+
+### 14f8dfbbfe
+Q: What process is used for cell growth, repair of cuts and replacement of worn out cells?
+CORRECT: cell division
+INCORRECT: reproduction | binary fission | pollination
+ANSWER: Cell growth, repair of cuts, and replacement of worn out cells are primarily managed through the process of mitosis.
+
+### bb28361d5a
+Q: What is the process of breaking an individual into parts followed by regeneration called?
+CORRECT: fragmentation
+INCORRECT: minimization | erosion | destruction
+ANSWER: The process of breaking an individual into parts followed by regeneration is called autotomy.
+
+### f20ab177fa
+Q: What arises due to crossing over, independent assortment, and the random union of gametes?
+CORRECT: genetic variation
+INCORRECT: susceptible variation | recessive variation | alternative variation
+ANSWER: The formation of a new combination of genetic traits in offspring.

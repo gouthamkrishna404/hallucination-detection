@@ -1,0 +1,245 @@
+### a89ac4420f
+Q: What contains positive protons and neutral neutrons?
+CORRECT: nucleus
+INCORRECT: electrons | ions | epidermis
+ANSWER: The nucleus of an atom, which contains protons and neutrons, is typically made up of a positive proton and a neutral neutron.
+
+### 5143725e27
+Q: What are cells without a nucleus called?
+CORRECT: prokaryotic cells
+INCORRECT: Monocyte Cells | heterogeneous cells | crustal cells
+ANSWER: Cells without a nucleus are called cytoplasmic cells or protoplasts.
+
+### 99687847e7
+Q: What opens two strands of dna?
+CORRECT: helicase
+INCORRECT: replication | adenylate | chromosome
+ANSWER: The enzyme topoisomerase, specifically topoisomerase I, is responsible for opening two strands of DNA.
+
+### 1512f53484
+Q: During evolution, something happened to increase the size of what organ in humans, relative to that of the chimpanzee?
+CORRECT: brain
+INCORRECT: stomach | lung | liver
+ANSWER: The size of the human brain relative to the chimpanzee brain increased during evolution, with the human brain size increasing by about 30-50% over the past 6-8 million years.
+
+### f6a7b40871
+Q: What is the phenotypic range of a particular genotype called?
+CORRECT: norm of reaction
+INCORRECT: diversity | natural selection | range of motion
+ANSWER: The phenotypic range of a particular genotype is called its "expression" or "phenotype".
+
+### 6fe4cd8ecf
+Q: Bones, cartilage, and what other thing make up the skeletal system?
+CORRECT: ligaments
+INCORRECT: muscles | organs | lungs
+ANSWER: The skeletal system is made up of bones, cartilage, and ligaments. In addition to bones, ligaments also play a crucial role in providing support and stability to the skeletal system.
+
+### b4fed5aa99
+Q: Centrioles help organize the chromosomes before cell division so that each daughter cell has the correct number of what?
+CORRECT: chromosomes
+INCORRECT: ribosomes | cells | receptors
+ANSWER: Centrioles help organize the chromosomes before cell division so that each daughter cell has the correct number of chromosomes. Specifically, centrioles help to align the sister chromatids at the centromere, ensuring that each daughter cell receives the correct number of chromosomes.
+
+### 832d7c5cb7
+Q: What is the purpose of a bird using flashy displays?
+CORRECT: to attract mates
+INCORRECT: to protect their territory | to dissuade predators | to signal feeding
+ANSWER: The purpose of a bird using flashy displays, such as courtship displays or territorial displays, is to attract a mate, establish dominance, or deter rivals. These displays often involve elaborate movements, such as aerial acrobatics, song, or visual displays, which serve to showcase the bird's fitness, health, and genetic
+
+### 05ed6cb2c8
+Q: The cell walls of what organisms are strengthened by chitin, unlike plant cell walls, which contain cellulose?
+CORRECT: fungi
+INCORRECT: virus | bacterium | yeast
+ANSWER: The cell walls of fungi are strengthened by chitin, unlike plant cell walls, which contain cellulose.
+
+### 6015e5f0a5
+Q: Meiosis is part of the process of gametogenesis, which is the production of what?
+CORRECT: sperm and eggs
+INCORRECT: chromosomes | egg only | sperm only
+ANSWER: Meiosis is part of the process of gametogenesis, which is the production of gametes, specifically sperm and egg cells in animals, or pollen and ovules in plants.
+
+### 7a74669580
+Q: Exothermic reactions, like all chemical reactions, require what to get started?
+CORRECT: activation energy
+INCORRECT: surface energy | membrane energy | specific energy
+ANSWER: Exothermic reactions, like all chemical reactions, require energy to get started. This energy is typically provided in the form of heat, which is released as a byproduct of the reaction.
+
+### c45df3ad8f
+Q: Pure carbon can exist in different forms, depending on how its atoms are arranged. the forms include diamond, graphite, and what else?
+CORRECT: fullerenes
+INCORRECT: calcites | lead | ligands
+ANSWER: In addition to diamond and graphite, pure carbon can also exist in the form of nanotubes, which are cylindrical structures made up of carbon atoms arranged in a hexagonal lattice.
+
+### 6dc56f1332
+Q: Many species of flowering plants have coevolved with specific what?
+CORRECT: pollinators
+INCORRECT: predators | climates | spores
+ANSWER: Many species of flowering plants have coevolved with specific pollinators, such as bees, butterflies, and hummingbirds.
+
+### b1b064fe21
+Q: What is the transfer of heat by physical contact?
+CORRECT: conduction
+INCORRECT: oxidation | inhibition | diffusion
+ANSWER: The transfer of heat by physical contact is known as conduction.
+
+### f6bf962639
+Q: What kind of waves are used in radar guns?
+CORRECT: microwaves
+INCORRECT: x-rays | WIFI | radio waves
+ANSWER: Radar guns typically use radar waves, specifically a type of microwave radiation, to measure the speed of vehicles. These waves are in the form of a high-frequency electromagnetic pulse, typically in the range of 10-100 GHz.
+
+### a915d61af8
+Q: Where is dna located in prokaryotic cells?
+CORRECT: cytoplasm
+INCORRECT: ribosomes | cytoskeleton | mitochondria
+ANSWER: In prokaryotic cells, DNA is located in a single circular chromosome, known as a plasmid, which is found in a region called the nucleoid, which is a small, usually circular, region within the cell's cytoplasm.
+
+### d11a7ebb98
+Q: There are about 6200 known species of what?
+CORRECT: amphibians
+INCORRECT: primates | mammals | reptiles
+ANSWER: There are approximately 6200 known species of jellyfish.
+
+### a73044b6ce
+Q: Gymnamoebas constitute a large and varied group of what?
+CORRECT: amoebozoans
+INCORRECT: newborns | cells | sporozoans
+ANSWER: Gymnamoebas constitute a large and varied group of ciliates.
+
+### d4fb0ad2c7
+Q: Recent evidence indicates some of what type of cells remain within the heart, continuing to divide and potentially replace dead cells?
+CORRECT: stem cells
+INCORRECT: osteoclast cells | human cells | dendritic cells
+ANSWER: The type of cells that remain within the heart, continuing to divide and potentially replace dead cells, are cardiac stem cells, also known as cardiac progenitor cells or cardiac progenitor cells. These cells are a type of stem cell that can differentiate into various cell types, including cardiomyocytes (heart muscle cells), endothelial
+
+### d2010a0b96
+Q: What holds together adenine and thymine?
+CORRECT: hydrogen bonds
+INCORRECT: covalent bonds | potassium bonds | helium bonds
+ANSWER: The hydrogen bonds between adenine (A) and thymine (T) in DNA are held together by base pairing, specifically between A-T and T-A.
+
+### 595d35d7a2
+Q: Small nonprotein, water-soluble molecules or ions called second messengers often play a role in what kind of pathways?
+CORRECT: signaling
+INCORRECT: creating | creating | inhibiting
+ANSWER: Second messengers often play a role in signal transduction pathways, which are complex networks of molecular interactions that transmit signals from outside the cell to inside the cell, influencing various cellular processes such as growth, differentiation, and response to stimuli.
+
+### 8f065d0e84
+Q: How many types of molecular orbitals can form from the overlap of two atomic s orbitals on adjacent atoms?
+CORRECT: two
+INCORRECT: three | six | ten
+ANSWER: Two atomic s orbitals on adjacent atoms can form 4 types of molecular orbitals: σ (sigma) bonding, σ* (sigma star) antibonding, π (pi) bonding, and π* (pi star) antibonding.
+
+### 50e4d186f6
+Q: Where are b cells produced in the body?
+CORRECT: lymphocytes
+INCORRECT: keratinocytes | tumors | lungs
+ANSWER: B cells, or B lymphocytes, are produced in the bone marrow.
+
+### 608883c5a0
+Q: As the telencephalon enlarges and grows into the cranial cavity, it is limited by the space within what bone structure?
+CORRECT: skull
+INCORRECT: skeleton | spine | chest
+ANSWER: The telencephalon enlarges and grows into the cranial cavity, and it is limited by the space within the frontal bone.
+
+### e66f113940
+Q: Gabbro is a dark dense rock that can be found in what?
+CORRECT: oceanic crust
+INCORRECT: surface crust | mantle | soil
+ANSWER: Gabbro is a dark, dense rock that can be found in the Earth's crust, typically in areas of high volcanic activity, such as near volcanoes, and is often associated with intrusive igneous rocks. It is a common component of many types of igneous rocks, including diorite, gabbro
+
+### 1ab4f787ba
+Q: What is the name of the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals?
+CORRECT: milk
+INCORRECT: plasma | blood | sperm
+ANSWER: The complex mixture that consists of water, proteins, fats, carbohydrates, and minerals is called a "diet".
+
+### 586eca5689
+Q: A vector is any quantity that has magnitude and what?
+CORRECT: direction
+INCORRECT: length | longitude | latitude
+ANSWER: A vector is any quantity that has both magnitude (amount or size) and direction.
+
+### a20c9fffdc
+Q: What is the term for the preserved remains or traces of organisms that lived in the past?
+CORRECT: fossils
+INCORRECT: corals | bones | detritis
+ANSWER: The term for the preserved remains or traces of organisms that lived in the past is "fossil."
+
+### f3046ae3f6
+Q: Most hydrogen atoms have how many protons?
+CORRECT: one
+INCORRECT: two | three | four
+ANSWER: Most hydrogen atoms have 1 proton.
+
+### 0b505ec4c3
+Q: The bilaterians are divided into deuterostomes and what else?
+CORRECT: protostomes
+INCORRECT: protozoa | progestins | gymnosperms
+ANSWER: The bilaterians are divided into deuterostomes and protostomes. The deuterostomes include the chordates (which include vertebrates, amphibians, and fish), and the protostomes include the arthropods (which include insects, crustaceans, and arachnids).
+
+### 821b225f3b
+Q: Chemical reactions involve a transfer of heat energy. measured in what?
+CORRECT: joules
+INCORRECT: amps | amperes | thermals
+ANSWER: Chemical reactions involve a transfer of heat energy measured in calories (cal).
+
+### 67e8ea3044
+Q: In many places, small hills rise above the ocean floor. these hills are undersea volcanoes, called what?
+CORRECT: seamounts
+INCORRECT: reefs | corals | ridges
+ANSWER: These underwater hills are called seamounts.
+
+### cfe8fa043d
+Q: Anaerobic cellular respiration does not require the presence of what (by the very fact it is anaerobic, specifically)?
+CORRECT: oxygen
+INCORRECT: carbon | helium | nitrogen
+ANSWER: Anaerobic cellular respiration does not require the presence of oxygen (O2), but rather the presence of carbon dioxide (CO2) and water (H2O).
+
+### de071692e9
+Q: What formula  shows only the kinds and numbers of atoms in a molecule?
+CORRECT: molecular formula
+INCORRECT: plasma formula | atomic formula | nucleus formula
+ANSWER: The formula that shows only the kinds and numbers of atoms in a molecule is the atomic ratio formula, which is written as: 
+
+Atomic Ratio Formula: 
+
+  X  Y  Z  W  V  U  V'  W'  X'  Y'  Z'  W''
+
+Where X
+
+### 5e2941abec
+Q: Each bond includes a sharing of electrons between atoms. two electrons are shared in a single bond; four electrons are shared in a double bond; and six electrons are shared in this?
+CORRECT: triple bond
+INCORRECT: ionic bond | quadruple bond | magnetic bond
+ANSWER: In a triple bond, three electrons are shared between atoms.
+
+### 6057893a4c
+Q: When resources are limited, populations exhibit what type of growth?
+CORRECT: logistic growth
+INCORRECT: efficient growth | component growth | lasting growth
+ANSWER: When resources are limited, populations exhibit exponential growth.
+
+### f99a210152
+Q: What is the only animal phyla that does not consist exclusively of invertebrates?
+CORRECT: chordates
+INCORRECT: arthropods | bacteria | eukaryotes
+ANSWER: The only animal phyla that does not consist exclusively of invertebrates is Chordata, which includes vertebrates such as humans, fish, and amphibians.
+
+### ef6985f2f2
+Q: What neurons carry nerve impulses from sense organs and internal organs to the central nervous system?
+CORRECT: sensory
+INCORRECT: vascular | autonomic | axons
+ANSWER: The neurons that carry nerve impulses from sense organs and internal organs to the central nervous system are called afferent neurons. Specifically, they are the sensory neurons that transmit information from sensory receptors to the spinal cord or brain.
+
+### ba6a1fbb40
+Q: What is defined as the act of contaminating the environment with waste?
+CORRECT: pollution
+INCORRECT: purifying | climate change | global warming
+ANSWER: The act of contaminating the environment with waste is known as pollution.
+
+### 3790c2eabd
+Q: What happens to light when it passed from air to water?
+CORRECT: it bends
+INCORRECT: it contracts | it brightens | it speeds up
+ANSWER: When light passes from air to water, it is absorbed and scattered by the water molecules, a process known as Rayleigh scattering. This scattering effect is more pronounced in water than in air, resulting in a blue coloration of the light, which is why the sky appears blue during the day.

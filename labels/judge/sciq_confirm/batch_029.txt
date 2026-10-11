@@ -1,0 +1,239 @@
+### 0fad14745d
+Q: How many atoms does water contain?
+CORRECT: 3
+INCORRECT: 4 | 6 | 9
+ANSWER: Water (H2O) contains 2 atoms of hydrogen and 1 atom of oxygen, making a total of 3 atoms per molecule.
+
+### 566909f2d2
+Q: What do seeds have that spores do not?
+CORRECT: a supply of stored food
+INCORRECT: DNA | pollenators | chlorophyll
+ANSWER: Seeds have a hard outer covering called a testa, which protects the embryo inside, whereas spores do not have this protective covering and are often more fragile and sensitive to environmental conditions. Additionally, seeds typically have a hard seed coat that provides additional protection, whereas spores are often more delicate and require specific conditions to
+
+### 1ff4c2a1c5
+Q: What results from uncontrolled cell division?
+CORRECT: cancers
+INCORRECT: high blood pressure | obesity | diabetes
+ANSWER: Uncontrolled cell division is known as cancer, where abnormal cells grow and multiply uncontrollably, often leading to tumor formation and potentially spreading to other parts of the body. This can result in various symptoms, including unexplained weight loss, fatigue, and changes in skin, hair, or other bodily functions.
+
+### 3812dc6655
+Q: What in roundworms is a partial body cavity filled with fluid?
+CORRECT: pseudocoelom
+INCORRECT: abdomen | cocklebur | spicule
+ANSWER: The partial body cavity in roundworms is called the coelom.
+
+### ef51c442df
+Q: Oxygen, carbon dioxide, atp, and nadph are reactants in what process that plants use to produce food?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | absorbtion | chlorophyll
+ANSWER: The process that plants use to produce food is photosynthesis, where oxygen, carbon dioxide, water, and ATP are converted into glucose and oxygen.
+
+### 64c49201e4
+Q: When present in large volumes, what color hue can water emit?
+CORRECT: blue
+INCORRECT: white | pink | yellow
+ANSWER: When present in large volumes, water typically emits a blue-green color hue.
+
+### 8561a364c0
+Q: What is the eighth planet from our sun?
+CORRECT: neptune
+INCORRECT: earth | mars | uranus
+ANSWER: The eighth planet from our Sun is Neptune.
+
+### 2c67331150
+Q: Approximately 20% of the atmosphere is made of which element?
+CORRECT: oxygen
+INCORRECT: hydrogen | carbon | nitrogen
+ANSWER: Oxygen is approximately 20% of the Earth's atmosphere.
+
+### 56dd1cf90a
+Q: What is the diffusion of water through a semipermeable membrane down its concentration gradient
+CORRECT: osmosis
+INCORRECT: nutrients | mirrors | Permable
+ANSWER: The diffusion of water through a semipermeable membrane down its concentration gradient is known as osmosis.
+
+### fdfa7f8a68
+Q: What bond is the force of attraction that holds together two atoms that share a pair of valence electrons?
+CORRECT: covalent
+INCORRECT: polar | hydrogen | metallic
+ANSWER: The bond that is the force of attraction that holds together two atoms that share a pair of valence electrons is a Covalent bond.
+
+### 962aad95a8
+Q: Where is the spinal trigeminal nucleus located?
+CORRECT: medulla
+INCORRECT: spinal cord | pons | cerebrum
+ANSWER: The spinal trigeminal nucleus is located in the dorsal horn of the spinal cord, specifically in the ventral posterior nucleus (VPN) and the lateral posterior nucleus (LPN) of the spinal trigeminal tract.
+
+### a9b9ef2171
+Q: What type of mechanical weathering occurs when one rock bumps against another rock?
+CORRECT: abrasion
+INCORRECT: absorption | refraction | disintegration
+ANSWER: When one rock bumps against another rock, the type of mechanical weathering that occurs is called abrasion.
+
+### e2a36e45b5
+Q: The hypothalamus is actually part of the brain, but it also secretes what?
+CORRECT: hormones
+INCORRECT: enzymes | acids | electrolytes
+ANSWER: The hypothalamus is a part of the brain, but it also secretes hormones such as melatonin, growth hormone, and oxytocin.
+
+### 9fbe8d24b4
+Q: The glass hydrometer is filled with air and weighted with lead at the bottom. it floats highest in the densest fluids and has been calibrated and labeled so that you can read this from it?
+CORRECT: specific gravity
+INCORRECT: volume | mass | density
+ANSWER: The glass hydrometer is filled with air and weighted with lead at the bottom, and it floats highest in the densest fluids because the density of air is less than that of most liquids, allowing the lead to sink and the air to float on top.
+
+### 09d3dee2c1
+Q: What causes symptoms associated with sickle-cell disease?
+CORRECT: pleiotropic effects
+INCORRECT: genetic drift | spontaneous mutation | transgene effects
+ANSWER: The primary cause of symptoms associated with sickle-cell disease is the abnormal hemoglobin S (HbS) that is produced by the body's red blood cells, which can cause them to become rigid and misshapen, leading to a range of complications including pain crises, anemia, and increased risk of infections
+
+### be22fb234d
+Q: How many bones does an adult skeleton have?
+CORRECT: 206
+INCORRECT: 208 | 196 | 192
+ANSWER: An adult human skeleton typically has 206 bones.
+
+### f3e78b952a
+Q: Sounds are produced when muscles in what organ are tensed, stretching the cords so they vibrate?
+CORRECT: larnyx
+INCORRECT: throat | thorax | diaphragm
+ANSWER: Sounds are produced when muscles in the larynx (voice box) are tensed, stretching the vocal cords so they vibrate.
+
+### a075c251c4
+Q: Temperature and precipitation determine the types of what that can grow in an area, in turn affecting the animals that live there?
+CORRECT: plants
+INCORRECT: roots | building | birds
+ANSWER: Temperature and precipitation determine the types of vegetation that can grow in an area, in turn affecting the animals that live there by providing food, shelter, and suitable habitats for them to survive and thrive.
+
+### cfe229cdfb
+Q: During the first year after birth, what is a baby called?
+CORRECT: infant
+INCORRECT: toddler | newborn | fetus
+ANSWER: A baby is called an infant.
+
+### 537e9e8fbe
+Q: What kind of rock layer makes up the bottom of an aquifer?
+CORRECT: impermeable
+INCORRECT: invisible | porous | crystalline
+ANSWER: The bottom of an aquifer is typically composed of a layer of unconsolidated sedimentary rock, such as sand, silt, or clay, which can be a layer of sandstone, shale, or other similar sedimentary rocks.
+
+### 4d82f08d50
+Q: What percentage of the field is tilled in traditional plowing?
+CORRECT: 100%
+INCORRECT: 50 % | 60 % | 75%
+ANSWER: In traditional plowing, about 20-30% of the field is tilled, with the remaining 70-80% left undisturbed to allow for the growth of the crop.
+
+### 9e84da8816
+Q: What forms when secondary alcohols oxidize?
+CORRECT: ketones
+INCORRECT: chromosomes | ions | electrons
+ANSWER: When secondary alcohols oxidize, they form aldehydes.
+
+### 7c3e105a81
+Q: What acids are the structural components of many lipids and may be saturated or unsaturated?
+CORRECT: fatty acids
+INCORRECT: fundamental acids | ionic acids | carbonic acids
+ANSWER: The structural components of many lipids that are acids and may be saturated or unsaturated are fatty acids.
+
+### 6bcf68d711
+Q: What do ionic bonds form between?
+CORRECT: metals and nonmetals
+INCORRECT: metals and carbonates | metals and freshwaters | metals and organisms
+ANSWER: Ionic bonds form between metals and nonmetals.
+
+### 02c82efef5
+Q: What structure collect fluid that leaks out from blood capillaries?
+CORRECT: lymph capillaries
+INCORRECT: pulmonary capillaries | varicose veins | alveoli
+ANSWER: The structure that collects fluid that leaks out from blood capillaries is called a lymphatic capillary.
+
+### 7c432f8271
+Q: In a correctly balanced equation, all coefficients must be what kind of numbers?
+CORRECT: whole
+INCORRECT: prime | negative | fractional
+ANSWER: In a correctly balanced equation, all coefficients must be rational numbers, specifically integers and fractions.
+
+### 41c10aa655
+Q: All chemical reactions involve both reactants and what else?
+CORRECT: products
+INCORRECT: consumers | catalysts | energy
+ANSWER: All chemical reactions involve both reactants and products. In addition to reactants, chemical reactions also involve catalysts, which are substances that speed up the reaction without being consumed or altered in the process.
+
+### e548b8d72b
+Q: Traditionally, what preventative measure used weakened or inactive forms of microorganisms or viruses to stimulate the immune system?
+CORRECT: vaccine
+INCORRECT: infection | assimilation | pathogen
+ANSWER: Traditionally, the preventative measure used weakened or inactive forms of microorganisms or viruses to stimulate the immune system was through the use of live, attenuated vaccines, such as the smallpox vaccine.
+
+### ad65f41917
+Q: The hypothalamus in vertebrates integrates what two systems?
+CORRECT: endocrine and nervous
+INCORRECT: Pathway and nervous | marrow and nervous | connectors and nervous
+ANSWER: The hypothalamus in vertebrates integrates the two systems of the autonomic nervous system (ANS): the sympathetic nervous system (SNS) and the parasympathetic nervous system (PNS).
+
+### 5c1835767f
+Q: What does an invertebrate, like a snail, not have?
+CORRECT: backbone
+INCORRECT: reproductive organs | eyes | a heart
+ANSWER: An invertebrate, such as a snail, does not have a backbone or a spinal column.
+
+### 1a94ed5eff
+Q: When mendel crossed purple flowered-plants and white flowered-plants, all the offspring had what color flowers?
+CORRECT: purple
+INCORRECT: blue | red | yellow
+ANSWER: When Mendel crossed purple-flowered plants with white-flowered plants, all the offspring had white flowers.
+
+### a8bfb54ff4
+Q: What forms when nitrogen and sulfur oxides in air dissolve in rain?
+CORRECT: acid rain
+INCORRECT: carbon rain | dioxide rain | acid snow
+ANSWER: When nitrogen and sulfur oxides in air dissolve in rain, they form nitric acid and sulfuric acid.
+
+### f6efc7567f
+Q: In physics, when one subtracts the frictional force from the applied force what is the result?
+CORRECT: net force
+INCORRECT: rolled force | quarter force | kinetic force
+ANSWER: When one subtracts the frictional force from the applied force, the result is the net force, which is the difference between the applied force and the frictional force.
+
+### 961ce79171
+Q: What is the process of breaking an individual into parts followed by regeneration called?
+CORRECT: fragmentation
+INCORRECT: minimization | erosion | destruction
+ANSWER: The process of breaking an individual into parts followed by regeneration is called cellular regeneration or tissue regeneration.
+
+### 52825b4254
+Q: What type of rocks form when an existing rock is changed by heat or pressure?
+CORRECT: metamorphic
+INCORRECT: Molten | igneous | sediments
+ANSWER: Metamorphic rocks form when an existing rock is changed by heat or pressure, resulting in changes to its mineral composition and structure. For example, granite can be transformed into marble through metamorphism, where the rock's minerals are recrystallized and reorganized.
+
+### 17e7edb290
+Q: What is the energy that matter possesses because of its location or structure?
+CORRECT: potential energy
+INCORRECT: kinetic energy | mechanical energy | thermal energy
+ANSWER: The energy that matter possesses due to its location or structure is known as potential energy. This type of energy is stored in the position or configuration of an object and can be converted into other forms of energy, such as kinetic energy (the energy of motion) or thermal energy (the energy of heat).
+
+### f953d74e8c
+Q: Monosaccharides, disaccharides, and polysaccharides are types of what kind of macromolecule?
+CORRECT: carbohydrate
+INCORRECT: glucose | protein | nutrients
+ANSWER: Monosaccharides, disaccharides, and polysaccharides are types of carbohydrates, specifically macromolecules.
+
+### 031443feee
+Q: Cells that have a nucleus and other organelles which are membrane-bound are generally called what kinds of cells?
+CORRECT: eukaryotic
+INCORRECT: Monocyte | Megakaryocyte | Erythrocyte
+ANSWER: These cells are generally called eukaryotic cells.
+
+### 025f87d14a
+Q: Ingestion and propulsion are the first two steps in which process that describes how humans process and consume food?
+CORRECT: digestion
+INCORRECT: absorption | regeneration | respiration
+ANSWER: The process that describes how humans process and consume food is digestion. Ingestion refers to the initial step of bringing food into the body, while digestion is the process of breaking down food into nutrients that can be absorbed and utilized by the body.
+
+### 3b4f80c917
+Q: The evaporative loss of the most energetic water molecules does what to a surface?
+CORRECT: cools it
+INCORRECT: heats it | vents it | charges it
+ANSWER: The evaporative loss of the most energetic water molecules does not affect a surface directly, as these molecules are typically involved in evaporation processes, such as in the atmosphere or in the liquid phase, rather than on a surface.

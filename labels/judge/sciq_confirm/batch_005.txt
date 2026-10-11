@@ -1,0 +1,239 @@
+### 863291e1b3
+Q: What is considered a good source of calcium?
+CORRECT: milk
+INCORRECT: wheat | egg | corn
+ANSWER: Good sources of calcium include dairy products, leafy greens, and fortified foods.
+
+### 633b1651be
+Q: What is the diffusion of water through a semipermeable membrane down its concentration gradient
+CORRECT: osmosis
+INCORRECT: nutrients | mirrors | Permable
+ANSWER: Diffusion of water through a semipermeable membrane occurs down its concentration gradient, moving from an area of higher water concentration to an area of lower concentration.
+
+### b5f811108a
+Q: What do astronomers term the stretching of space that causes the distance between galaxies to increase?
+CORRECT: expanding universe
+INCORRECT: maintaining universe | draining universe | contracting universe
+ANSWER: Astronomers term this phenomenon "cosmic inflation."
+
+### 5d7e87e8b9
+Q: The glass hydrometer is filled with air and weighted with lead at the bottom. it floats highest in the densest fluids and has been calibrated and labeled so that you can read this from it?
+CORRECT: specific gravity
+INCORRECT: volume | mass | density
+ANSWER: The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that you can read the specific gravity from it.
+
+### a2a9e41b30
+Q: What are catalysts in living things called?
+CORRECT: enzymes
+INCORRECT: proteins | carbohydrates | carbohydrates
+ANSWER: Catalysts in living things are called enzymes.
+
+### c506170515
+Q: The building blocks of proteins are called what?
+CORRECT: amino acids
+INCORRECT: boric acids | mutation acids | protein acids
+ANSWER: The building blocks of proteins are called amino acids.
+
+### ea1b2e3474
+Q: In weather terms, what do you call the boundary between two air masses?
+CORRECT: front
+INCORRECT: cloud | mass | cover
+ANSWER: The boundary between two air masses is called a front.
+
+### 5d73e0aa12
+Q: What is required to move or change matter from one state to another?
+CORRECT: energy
+INCORRECT: food | gravity | evolution
+ANSWER: Heat is required to move or change matter from one state to another.
+
+### c60ad6bad7
+Q: When resources are limited, populations exhibit what type of growth?
+CORRECT: logistic growth
+INCORRECT: efficient growth | component growth | lasting growth
+ANSWER: When resources are limited, populations exhibit logistic growth.
+
+### 3b82746cbf
+Q: Cells have multiple repair mechanisms to fix mutations in what?
+CORRECT: dna
+INCORRECT: amino acid chains | organ systems | RNA
+ANSWER: Cells have multiple repair mechanisms to fix mutations in DNA.
+
+### 3fdd0f5de3
+Q: Layers of what create a volcano?
+CORRECT: lava
+INCORRECT: rock | limestone | crust
+ANSWER: Layers of rock create a volcano.
+
+### e670666d5a
+Q: Plants go through seasonal changes after detecting differences in what?
+CORRECT: day length
+INCORRECT: temperature | weather | week length
+ANSWER: Plants go through seasonal changes after detecting differences in light and temperature levels.
+
+### b2d868dbfd
+Q: If the water vapor condenses in liquid droplets as clouds form, what is released in the atmosphere?
+CORRECT: heat
+INCORRECT: oxygen | hydrogen | electricity
+ANSWER: Water vapor is released in the atmosphere when clouds form.
+
+### 1434ba743b
+Q: Which fish has a round sucker used to suck the blood of other fish?
+CORRECT: lamprey
+INCORRECT: shark | abalone | moray
+ANSWER: The fish with a round sucker used to suck the blood of other fish is the vampire fish.
+
+### bfcd8b80bf
+Q: What disease is unpreventable in the type one form but may be prevented by diet if it is of the second type?
+CORRECT: diabetes
+INCORRECT: Obesity | TB | Cancer
+ANSWER: Type 1 diabetes is unpreventable, while type 2 diabetes may be prevented by diet if diagnosed early.
+
+### 9ca67b2ee8
+Q: What causes symptoms associated with sickle-cell disease?
+CORRECT: pleiotropic effects
+INCORRECT: genetic drift | spontaneous mutation | transgene effects
+ANSWER: Sickle-cell disease is caused by a mutation in the hemoglobin gene, leading to abnormal hemoglobin that forms crescent-shaped red blood cells.
+
+### 193eb76419
+Q: Water is used by the plant to move materials up from the roots to make what?
+CORRECT: food
+INCORRECT: light | chlorophyll | fruit
+ANSWER: Water is used by the plant to move materials up from the roots to make sugars.
+
+### 1ef3dbbb9c
+Q: Where do plants take in air?
+CORRECT: their leaves
+INCORRECT: their flowers | their stems | their roots
+ANSWER: Plants take in air through their leaves, where they perform photosynthesis.
+
+### 536abd1a98
+Q: The flower is an angiosperm structure specialized for what function?
+CORRECT: sexual reproduction
+INCORRECT: asexual reproduction | nutrient production | protection from cold
+ANSWER: The flower is an angiosperm structure specialized for reproduction.
+
+### ab4e1f871e
+Q: Haversian canals contain blood vessels and what else?
+CORRECT: nerve fibers
+INCORRECT: muscle fibers | synovial fluid | collagen fibers
+ANSWER: Haversian canals contain blood vessels and nerves.
+
+### 647d331ace
+Q: If a substance has a ph value greater than 7, what does it indicate?
+CORRECT: base
+INCORRECT: acidic | neutral | volatile
+ANSWER: A substance with a pH value greater than 7 is basic or alkaline.
+
+### 303576fad2
+Q: What does scientific notation use to write very large or very small numbers?
+CORRECT: exponents
+INCORRECT: whole numbers | zeros | coefficients
+ANSWER: Scientific notation uses powers of ten to write very large or very small numbers.
+
+### 42ea8af4d0
+Q: The muscular layer is much thicker in which ventricle of the heart?
+CORRECT: left
+INCORRECT: middle | upper | right
+ANSWER: The muscular layer is much thicker in the left ventricle of the heart.
+
+### 7d866e4ceb
+Q: Vertebrata are characterized by the presence of what?
+CORRECT: backbone
+INCORRECT: Bones | Muscles | Thumbs
+ANSWER: Vertebrata are characterized by the presence of a backbone or spinal column.
+
+### b9c105fac5
+Q: Compounds containing which element are the basis of all known life?
+CORRECT: carbon
+INCORRECT: oxygen | helium | hydrogen
+ANSWER: Compounds containing carbon are the basis of all known life.
+
+### 2bc111f786
+Q: Honeybees doing the waggle dance or spiders spinning a web are examples of what type of behavior?
+CORRECT: innate
+INCORRECT: intuitive | genuine | learned
+ANSWER: Honeybees doing the waggle dance or spiders spinning a web are examples of learned behaviors.
+
+### cfaff8a341
+Q: Club mosses, horsetails, ferns, and whisk ferns are examples of what type of plants?
+CORRECT: seedless vascular plants
+INCORRECT: cycads | gymnosperms | angiosperms
+ANSWER: Club mosses, horsetails, ferns, and whisk ferns are examples of vascular plants.
+
+### eb991ac321
+Q: Sensory nerves carry nerve impulses from sensory receptors to what system?
+CORRECT: central nervous
+INCORRECT: MUSCULAR SYSTEM | ENDOCRINE SYSTEM | IRCULATORY SYSTEM
+ANSWER: Sensory nerves carry nerve impulses from sensory receptors to the central nervous system.
+
+### 88e6cf5a05
+Q: What kind of viscosity is found in long-chain hydrocarbons?
+CORRECT: highly viscous
+INCORRECT: increased viscosity | low viscosity | intense viscosity
+ANSWER: Long-chain hydrocarbons typically have high viscosity due to their molecular structure.
+
+### 31576a23e7
+Q: What glands remove water, salts and other wastes from skin?
+CORRECT: sweat glands
+INCORRECT: sex glands | push glands | water glands
+ANSWER: The sweat glands remove water, salts, and other wastes from the skin.
+
+### 4984e887d2
+Q: The first two electrons in lithium fill the 1s orbital and have the same sets of four what as the two electrons in helium?
+CORRECT: quantum numbers
+INCORRECT: decay numbers | gravity numbers | kinetic numbers
+ANSWER: The first two electrons in lithium fill the 1s orbital and have the same sets of four protons as the two electrons in helium.
+
+### 6111e89627
+Q: What kind of drugs are formulated to help deal with hiv and herpes as well as influenza and two types of hepatitis?
+CORRECT: antiviral drugs
+INCORRECT: antibacterial drugs | steroid drugs | herbal remedies
+ANSWER: Antiviral drugs are formulated to help deal with HIV, herpes, influenza, and two types of hepatitis.
+
+### 634f203e17
+Q: What are different versions of a gene known as?
+CORRECT: alleles
+INCORRECT: modes | ion | genomes
+ANSWER: Different versions of a gene are known as alleles.
+
+### 09ebdadb0a
+Q: What do experts estimate is the cause for the extinction of hundreds of species every year?
+CORRECT: human activities
+INCORRECT: migration | predation | intraspecies competition
+ANSWER: Experts estimate that the primary cause for the extinction of hundreds of species every year is habitat loss and degradation.
+
+### cda9176c1b
+Q: What cycle occurs in women of reproductive age, as a long as a sperm does not enter an egg?
+CORRECT: menstrual cycle
+INCORRECT: extraction cycle | tissue cycle | menopausal cycle
+ANSWER: The menstrual cycle occurs in women of reproductive age, as long as a sperm does not enter an egg.
+
+### e2eda66a2a
+Q: What type of change is undergone when the physical properties of a substance are changed?
+CORRECT: physical
+INCORRECT: thermal | genetic | atmospheric
+ANSWER: A chemical change occurs when the physical properties of a substance are changed.
+
+### 0eda4f9e0a
+Q: Three body segments, a hard exoskeleton, and jointed appendages are features of what invertebrate group, which includes spider and insects?
+CORRECT: arthropod
+INCORRECT: annelid | sauropod | crustacean
+ANSWER: The invertebrate group with these features is the arthropod group, which includes spiders and insects.
+
+### 1f3b42d7c9
+Q: What is the study of how forces affect the motion of objects?
+CORRECT: dynamics
+INCORRECT: behaviors | acceleration | kinematics
+ANSWER: The study of how forces affect the motion of objects is called mechanics.
+
+### 379c527b65
+Q: In our bodies, the chest cavity is a clear example of a system at what?
+CORRECT: resonance
+INCORRECT: rest | scale | default
+ANSWER: In our bodies, the chest cavity is a clear example of a system at work.
+
+### 92310ff610
+Q: When do gases and liquids become solids?
+CORRECT: at low temperatures
+INCORRECT: at relative temperatures | at hot temperatures | at high temperatures
+ANSWER: Gases become solids through a process called condensation, while liquids become solids through a process called freezing.

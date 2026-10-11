@@ -1,0 +1,239 @@
+### 3bd689e58b
+Q: All of the populations that live in the same area make up what type of group, which includes populations of different organisms?
+CORRECT: community
+INCORRECT: environment | colony | hive
+ANSWER: All of the populations that live in the same area make up a community, which includes populations of different organisms.
+
+### 1ea5761253
+Q: In many places, small hills rise above the ocean floor. these hills are undersea volcanoes, called what?
+CORRECT: seamounts
+INCORRECT: reefs | corals | ridges
+ANSWER: These hills are undersea volcanoes, called seamounts.
+
+### 196ba67da1
+Q: Most insects reproduce quickly and through what type of reproduction?
+CORRECT: sexual reproduction
+INCORRECT: spores | photosynthesis | asexual reproduction
+ANSWER: Most insects reproduce quickly through sexual reproduction.
+
+### f6dac69148
+Q: What gas is released when dead organisms and other organic materials decompose?
+CORRECT: carbon dioxide
+INCORRECT: hydrogen peroxide | carbon monoxide | nitrous oxide
+ANSWER: Carbon dioxide is released when dead organisms and other organic materials decompose.
+
+### 151e917bab
+Q: What is the term for the ability of a fluid to exert an upward force on any object placed in it?
+CORRECT: buoyancy
+INCORRECT: viscosity | density | resonance
+ANSWER: The term for the ability of a fluid to exert an upward force on any object placed in it is buoyancy.
+
+### 704919b175
+Q: The hypothalamus is actually part of the brain, but it also secretes what?
+CORRECT: hormones
+INCORRECT: enzymes | acids | electrolytes
+ANSWER: The hypothalamus secretes hormones that regulate body temperature, hunger, thirst, and other functions.
+
+### 9058547d20
+Q: Aspirin and ibuprofen reduce pain by inhibiting the synthesis of what?
+CORRECT: prostaglandins
+INCORRECT: triglycerides | lipids | hormones
+ANSWER: Aspirin and ibuprofen reduce pain by inhibiting the synthesis of prostaglandins.
+
+### 92033db86a
+Q: What is another term for blood clotting?
+CORRECT: coagulation
+INCORRECT: adulation | oxidation | differentiation
+ANSWER: Another term for blood clotting is coagulation.
+
+### a66bb99625
+Q: What is a complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work?
+CORRECT: combustion engine
+INCORRECT: vapor engine | convection oven | battery
+ANSWER: A steam engine is a complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work.
+
+### 585512ebf0
+Q: What is matter in the universe that does not emit light called?
+CORRECT: dark matter
+INCORRECT: cold matter | hidden matter | black matter
+ANSWER: Dark matter is matter in the universe that does not emit light.
+
+### 0e6f419976
+Q: What forms when nitrogen and oxygen combine at high temperatures?
+CORRECT: nitrogen oxides
+INCORRECT: hydrocarbons | nitric acid | calcium oxides
+ANSWER: Nitrogen and oxygen combine at high temperatures to form nitrogen dioxide.
+
+### 7296b10207
+Q: What is the third class of elements after metals and nonmetals?
+CORRECT: metalloids
+INCORRECT: halogens | synthetics | noble gases
+ANSWER: The third class of elements after metals and nonmetals is metalloids.
+
+### 5ff410dba3
+Q: What is the energy that matter possesses because of its location or structure?
+CORRECT: potential energy
+INCORRECT: kinetic energy | mechanical energy | thermal energy
+ANSWER: The energy that matter possesses because of its location or structure is called potential energy.
+
+### cff0b7f224
+Q: Questioning claims based on their scientific verifiability rather than accepting claims based on faith or anecdotes is called what?
+CORRECT: scientific skepticism
+INCORRECT: scientific extreme | scientific mimicry | scientific fact
+ANSWER: Critical thinking or skepticism.
+
+### 288771c4cb
+Q: What type of cell function relies on microfilaments, which are the actin components of the cytoskeleton?
+CORRECT: muscle
+INCORRECT: neurons | skin cells | nephrons
+ANSWER: Muscle contraction relies on microfilaments, which are actin components of the cytoskeleton.
+
+### 06753eb601
+Q: What are fast moving rivers of air that are going in opposite directions called?
+CORRECT: jet streams
+INCORRECT: air streams | cause streams | burst streams
+ANSWER: Anticyclones are fast-moving rivers of air that are moving in opposite directions.
+
+### 3591e065e3
+Q: What is the term for what the earth rotates on?
+CORRECT: axis
+INCORRECT: radius | tip | compass
+ANSWER: The term for what the Earth rotates on is its axis.
+
+### c146feb854
+Q: The five human senses are taste, touch, vision, hearing and one more. what is it?
+CORRECT: smell
+INCORRECT: perception | audio | fear
+ANSWER: The fifth human sense is smell.
+
+### 6a107c2fbf
+Q: What is another word for cellular drinking?
+CORRECT: pinocytosis
+INCORRECT: hypothalamus | cellular hydration | altostratus
+ANSWER: Another word for cellular drinking is sipping.
+
+### 7bc287a3a1
+Q: What is the name of the process in which the nuclei of uranium atoms are split?
+CORRECT: nuclear fission
+INCORRECT: critical fission | atomic fusion | nuclear fusion
+ANSWER: The process in which the nuclei of uranium atoms are split is called nuclear fission.
+
+### 6dbb7fc0dd
+Q: What acids are the structural components of many lipids and may be saturated or unsaturated?
+CORRECT: fatty acids
+INCORRECT: fundamental acids | ionic acids | carbonic acids
+ANSWER: Fatty acids are the structural components of many lipids and can be either saturated or unsaturated.
+
+### 3ed86ef94d
+Q: Bursitis is the inflammation of a bursa near what?
+CORRECT: joint
+INCORRECT: brain stem | lung | muscle
+ANSWER: Bursitis is the inflammation of a bursa near the joints.
+
+### 744bc9d9cb
+Q: The body cannot sustain for very long the bursts of energy mediated by epinephrine and norepinephrine, hormones associated with what stress response?
+CORRECT: fight-or-flight
+INCORRECT: do-or-die | fainting | sink-or-swim
+ANSWER: The body cannot sustain for very long the bursts of energy mediated by epinephrine and norepinephrine, which are hormones associated with the stress response.
+
+### 227ad60b49
+Q: What is an estimation of all of the organic matter available as food, and involves measuring biomass in terrestrial environments?
+CORRECT: net primary productivity
+INCORRECT: food chain | decomposition energy | trophic level total
+ANSWER: Biomass is an estimation of all organic matter available as food, measured in terrestrial environments.
+
+### d05ad86ddf
+Q: What is the term for buildup of cell debris and cholesterol inside the arteries?
+CORRECT: atherosclerosis
+INCORRECT: fibrosis | phimosis | sclerosis
+ANSWER: The term for buildup of cell debris and cholesterol inside the arteries is atherosclerosis.
+
+### 8863d96fa7
+Q: What is the ability to see called?
+CORRECT: vision
+INCORRECT: thought | smell | hearing
+ANSWER: The ability to see is called vision.
+
+### 84b1ee5414
+Q: What involves sensing and focusing light from people and objects?
+CORRECT: vision
+INCORRECT: echolocation | sensory perception | projection
+ANSWER: It involves sensing and focusing light from people and objects, which is the function of the eye.
+
+### efc24964ed
+Q: A rock that contains important minerals is called what, a term associated with mining?
+CORRECT: ore
+INCORRECT: jewel | coal | gem
+ANSWER: A rock that contains important minerals is called a mineral deposit, a term associated with mining.
+
+### f80d1bdbfb
+Q: How does the water cycle end?
+CORRECT: it repeats itself
+INCORRECT: ocean evaporation | freezing glaciers | cloud precipitation
+ANSWER: The water cycle ends when water reaches the surface of the Earth and evaporates back into the atmosphere.
+
+### 91d2f46f0d
+Q: What is a body of freshwater that flows downhill in a channel?
+CORRECT: a stream
+INCORRECT: a river | an eddy | a creek
+ANSWER: A river is a body of freshwater that flows downhill in a channel.
+
+### 672912e312
+Q: What is the physical transformation of an insect moving through stages of life?
+CORRECT: metamorphosis
+INCORRECT: Transition | Growth and Development | parthenogenesis
+ANSWER: Insects undergo metamorphosis, a physical transformation from egg to larva to pupa to adult.
+
+### 78aed9aaa3
+Q: What type of components of the biosphere do chemical elements and water pass through during ecosystem recycle?
+CORRECT: biotic and abiotic
+INCORRECT: photic and aphotic | tropic and subtropic | water and air
+ANSWER: Chemical elements and water pass through the biotic components of the biosphere during ecosystem recycling.
+
+### b3f8e2aee2
+Q: What are the majority of solution properties dependent upon?
+CORRECT: chemical state of solute
+INCORRECT: similar state of solute | gas state of solute | acid state of solute
+ANSWER: The majority of solution properties are dependent upon the concentration of solute and solvent.
+
+### 44af08d386
+Q: What color is phosphate mineral turquoise?
+CORRECT: blue
+INCORRECT: white | green | purple
+ANSWER: Turquoise is a blue-green mineral.
+
+### c9052cbf1b
+Q: A ramp is a type of simple machine called what?
+CORRECT: inclined plane
+INCORRECT: extension plane | allow plane | rough plane
+ANSWER: A ramp is a type of simple machine called a lever.
+
+### d11273d036
+Q: What kind of rock layer makes up the bottom of an aquifer?
+CORRECT: impermeable
+INCORRECT: invisible | porous | crystalline
+ANSWER: Sandstone is the type of rock layer that makes up the bottom of an aquifer.
+
+### a98679ba72
+Q: Any nucleus that is unstable and decays spontaneously is said to be what?
+CORRECT: radioactive
+INCORRECT: neutral | dull | magnetic
+ANSWER: Any nucleus that is unstable and decays spontaneously is said to be radioactive.
+
+### 767184fa36
+Q: The cultivated forms of wheat, cotton, and tobacco plants are all what?
+CORRECT: allopolyploids
+INCORRECT: pores | sporozoans | bales
+ANSWER: The cultivated forms of wheat, cotton, and tobacco plants are all domesticated crops.
+
+### 0864ee22b9
+Q: Chewing insects mechanically damage plants and lessen the surface area of leaves for what?
+CORRECT: photosynthesis
+INCORRECT: vegetation | tissues | nutrients
+ANSWER: Chewing insects mechanically damage plants and lessen the surface area of leaves for photosynthesis.
+
+### 683471441c
+Q: What is the name of the first stage of photosynthesis?
+CORRECT: light reactions
+INCORRECT: consumption | absorption | contamination
+ANSWER: The first stage of photosynthesis is called the light-dependent reactions.

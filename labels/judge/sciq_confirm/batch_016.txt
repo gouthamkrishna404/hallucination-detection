@@ -1,0 +1,239 @@
+### a9af04b31c
+Q: What type of chemical reactions release energy?
+CORRECT: exothermic reactions
+INCORRECT: sulfuric reactions | endothermic reactions | biochemical reactions
+ANSWER: Exothermic chemical reactions release energy.
+
+### c730222154
+Q: Upon death of an organism, during composition, what returns to the soil as ammonium ions?
+CORRECT: nitrogen
+INCORRECT: potasium | calcium | hydrogen
+ANSWER: Ammonia, a nitrogenous waste product, returns to the soil as ammonium ions upon death of an organism.
+
+### 920d8bcd89
+Q: What disease is the result of unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle?
+CORRECT: cancer
+INCORRECT: gout | dementia | diabetes
+ANSWER: Cancer is the result of unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle.
+
+### c1c80c6cde
+Q: What is the term for the preserved remains or traces of organisms that lived in the past?
+CORRECT: fossils
+INCORRECT: corals | bones | detritis
+ANSWER: The term for preserved remains or traces of organisms that lived in the past is paleontology.
+
+### 2f83f6c275
+Q: Paramecium possess tiny hair-like cilia that help them do what?
+CORRECT: move
+INCORRECT: fight | look | breed
+ANSWER: Paramecium possess tiny hair-like cilia that help them move and carry out various physiological functions.
+
+### 5a7a0bdbc6
+Q: What once most common bird in north america became extinct in the 1800s?
+CORRECT: the passenger piegon
+INCORRECT: the dodo | the homing piegon | the rock penguin
+ANSWER: The passenger pigeon, once the most common bird in North America, became extinct in the 1800s.
+
+### 6adfe44e3f
+Q: Why do snakes have venomous bites?
+CORRECT: to kill prey
+INCORRECT: to clean themselves | to kill rival snakes | to scare humans
+ANSWER: Snakes have venomous bites to subdue prey and defend against predators, as well as to deter potential threats.
+
+### e4dcac1f18
+Q: There are about 6200 known species of what?
+CORRECT: amphibians
+INCORRECT: primates | mammals | reptiles
+ANSWER: There are about 62, 000 known species of insects.
+
+### 55de6f3747
+Q: A solenoid wrapped around a bar of iron or other ferromagnetic material forms what?
+CORRECT: electromagnet
+INCORRECT: impoundment | compass | compress
+ANSWER: A solenoid wrapped around a bar of iron or other ferromagnetic material forms a magnetic field.
+
+### 901224e69f
+Q: Type 1 diabetes and gigantism are examples of what type of disorder?
+CORRECT: endocrine diseases
+INCORRECT: cardiac diseases | respiratory diseases | inborn errors of metabolism
+ANSWER: Type 1 diabetes and gigantism are examples of endocrine disorders.
+
+### 85568a6272
+Q: In a solution, what is the substance present in the lesser amount called?
+CORRECT: solute
+INCORRECT: molecules | compound | fluids
+ANSWER: In a solution, the substance present in the lesser amount is called the solute.
+
+### c36a5105aa
+Q: How many meters deep does the photic zone extend?
+CORRECT: 200
+INCORRECT: 400 | 100 | 900
+ANSWER: The photic zone extends to about 100 meters below the surface of the ocean.
+
+### 09b5c11d56
+Q: Photosynthesis is an endothermic reaction that gets its energy from what?
+CORRECT: light
+INCORRECT: wind | electricity | air
+ANSWER: Photosynthesis is an endothermic reaction that gets its energy from sunlight.
+
+### 6bdadde3d6
+Q: What are the two main types of star clusters?
+CORRECT: open and globular
+INCORRECT: open and supergiant | closed and spherical | open and elliptical
+ANSWER: The two main types of star clusters are open clusters and globular clusters.
+
+### 63ca1d3062
+Q: A dilute solution is one that has a relatively small amount of what?
+CORRECT: dissolved solute
+INCORRECT: density | saturated fat | pH level
+ANSWER: A dilute solution has a relatively small amount of solute compared to the solvent.
+
+### 5d51089ced
+Q: Which science is an extension of genetics, evolution, anatomy, physiology, and other biological disciplines?
+CORRECT: ethology
+INCORRECT: microbiology | neurobiology | chronology
+ANSWER: Biology is an extension of genetics, evolution, anatomy, physiology, and other biological disciplines.
+
+### 4c22714d88
+Q: What is the outer layer of the exoskeleton called?
+CORRECT: cuticle
+INCORRECT: bristle | epidermis | epithelium
+ANSWER: The outer layer of the exoskeleton is called the cuticle.
+
+### 21d5508426
+Q: Which system are the brain and spinal cord apart of?
+CORRECT: central nervous system
+INCORRECT: large nervous system | cerebral cortex | limbic system
+ANSWER: The brain and spinal cord are part of the central nervous system.
+
+### a5f17f5944
+Q: The beginning of what season experiences the shortest period of daylight hours?
+CORRECT: winter
+INCORRECT: spring | summer | autumn
+ANSWER: Winter.
+
+### cdcb399345
+Q: What creates new seafloor in the rift valleys?
+CORRECT: seafloor spreading
+INCORRECT: sedimentation | crust spreading | continental drift
+ANSWER: New seafloor is created in the rift valleys through the process of seafloor spreading.
+
+### 5ff57da30b
+Q: What type of lens is thicker at the edges than it is in the middle?
+CORRECT: concave lens
+INCORRECT: convex lens | surface lens | glass lens
+ANSWER: A wide-angle lens is thicker at the edges than in the middle.
+
+### 616237acdb
+Q: In what type of animals may a body cavity be present or absent?
+CORRECT: triploblastic
+INCORRECT: vertebrate | bicellular | nonvascular
+ANSWER: A body cavity may be present or absent in animals ranging from simple single-celled organisms to complex multicellular vertebrates.
+
+### c0b94c3785
+Q: In both eukaryotes and prokaryotes, ribosomes are the non-membrane bound organelles where what main product of the cell is made?
+CORRECT: proteins
+INCORRECT: lipids | protons | sugars
+ANSWER: In both eukaryotes and prokaryotes, ribosomes are the non-membrane-bound organelles where proteins are made.
+
+### ed67d3f72b
+Q: Heating ice to its melting point (0°c) gives its molecules enough energy to do what?
+CORRECT: move
+INCORRECT: settle | evaporate | freeze
+ANSWER: Heating ice to its melting point (0°C) gives its molecules enough energy to break free from their crystalline structure and become liquid water.
+
+### 8d6248932a
+Q: What refers to the ability to change or move matter and is required by all life processes and living things?
+CORRECT: energy
+INCORRECT: fuel | gravity | enthalpy
+ANSWER: Energy refers to the ability to change or move matter and is required by all life processes and living things.
+
+### 3fbceafe73
+Q: What occurs when excess carbon dioxide in the atmosphere causes the oceans to become acidic?
+CORRECT: ocean acidification
+INCORRECT: ocean vaporization | acid rain | desalinization
+ANSWER: Excess carbon dioxide in the atmosphere leads to increased absorption by the oceans, making them more acidic.
+
+### 79a5cfe11a
+Q: What are groups of stars called that are smaller than a galaxy?
+CORRECT: star clusters
+INCORRECT: Milky Way | nebuli | constellations
+ANSWER: Star clusters are groups of stars that are smaller than a galaxy.
+
+### df5f299e41
+Q: Which form of dialysis has a patient’s blood pass through a length of tubing that travels through an artificial kidney machine?
+CORRECT: hemodialysis
+INCORRECT: peritoneal dialysis | limbic dialysis | arterial dialysis
+ANSWER: Peritoneal dialysis.
+
+### fb6c773251
+Q: What do waves deposit to form sandbars and barrier islands?
+CORRECT: sediments
+INCORRECT: magma | organisms | glaciers
+ANSWER: Waves deposit sediment to form sandbars and barrier islands.
+
+### 5e5f757028
+Q: What makes up the dense outer layer of bones?
+CORRECT: compact bone
+INCORRECT: adipose tissue | ligaments | plasma
+ANSWER: The dense outer layer of bones is made up of compact bone.
+
+### eec8a7f205
+Q: Downhill skiiers gain little advantage from a running start because the initial kinetic energy is small compared with the gain in what other energy form?
+CORRECT: gravitational potential energy
+INCORRECT: gravitational kinetic energy | chemical energy | thermal energy
+ANSWER: Downhill skiiers gain little advantage from a running start because the initial kinetic energy is small compared with the gain in gravitational potential energy.
+
+### 3edbd221ea
+Q: Birds are thought to have evolved from a group of bipedal dinosaurs called what?
+CORRECT: therapods
+INCORRECT: pteradactyls | sporozoans | staurikosaurus
+ANSWER: Birds are thought to have evolved from a group of bipedal dinosaurs called theropods.
+
+### 0dfc6184f2
+Q: Skeletal, cardiac, and smooth are all types of what?
+CORRECT: muscle
+INCORRECT: Nervous | Epithelial | Connective
+ANSWER: Skeletal, cardiac, and smooth are all types of muscle.
+
+### 1f17b876f4
+Q: What is added to a measured portion of a more concentrated stock solution to achieve a particular concentration?
+CORRECT: solvent
+INCORRECT: water | yeast | pigment
+ANSWER: A measured portion of a more concentrated stock solution is diluted with a solvent to achieve a particular concentration.
+
+### 652a69cc50
+Q: What can slow down the increase of viruses in the blood?
+CORRECT: medications
+INCORRECT: platelets | infections | androgens
+ANSWER: Antiviral medications can slow down the increase of viruses in the blood.
+
+### 060882238d
+Q: Trees and shrubs are example of what type of plant?
+CORRECT: perennials
+INCORRECT: biennial | annuals | grasses
+ANSWER: Trees and shrubs are examples of woody plants.
+
+### 12e921f854
+Q: The ladybug and the frog both start as eggs and go through what process?
+CORRECT: metamorphosis
+INCORRECT: transition | parthenogenesis | proboscis
+ANSWER: The ladybug and the frog both start as eggs and go through metamorphosis.
+
+### 2088023d34
+Q: In multicellular organisms, essential biological functions are carried out by what?
+CORRECT: organs
+INCORRECT: atoms | cells | molecules
+ANSWER: Essential biological functions in multicellular organisms are carried out by specialized cells.
+
+### 0f9c1b6ffb
+Q: What are plant structures that contain male and/or female reproductive organs?
+CORRECT: flowers
+INCORRECT: roots | stems | leaves
+ANSWER: Pollens and flowers are plant structures that contain male and/or female reproductive organs.
+
+### 17c6358d39
+Q: A reaction producing heat is what type of reaction?
+CORRECT: chemical
+INCORRECT: chemistry | carbon | physical
+ANSWER: A reaction producing heat is an exothermic reaction.

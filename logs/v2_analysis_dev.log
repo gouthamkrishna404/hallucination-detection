@@ -1,0 +1,25 @@
+== qwen2.5-1.5b-instruct|truthfulqa: n=200 pos=119
+   -mean_lp 0.450  -min_lp 0.518  ent 0.450  len 0.466  SC 0.504  3feat 0.537  17feat 0.606  nested 0.640
+== llama-3.2-1b-instruct|truthfulqa: n=200 pos=115
+   -mean_lp 0.602  -min_lp 0.618  ent 0.616  len 0.506  SC 0.465  3feat 0.638  17feat 0.623  nested 0.636
+== smollm2-1.7b-instruct|truthfulqa: n=200 pos=122
+   -mean_lp 0.521  -min_lp 0.560  ent 0.538  len 0.620  SC 0.593  3feat 0.565  17feat 0.603  nested 0.605
+== qwen2.5-1.5b-instruct|sciq: n=200 pos=52
+C:\Stuff\Hallucination\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Stuff\Hallucination\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+   -mean_lp 0.683  -min_lp 0.684  ent 0.709  len 0.526  SC 0.618  3feat 0.723  17feat 0.721  nested 0.709
+== llama-3.2-1b-instruct|sciq: n=200 pos=86
+C:\Stuff\Hallucination\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Stuff\Hallucination\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+   -mean_lp 0.632  -min_lp 0.635  ent 0.634  len 0.524  SC 0.624  3feat 0.613  17feat 0.693  nested 0.711
+== smollm2-1.7b-instruct|sciq: n=200 pos=56
+C:\Stuff\Hallucination\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Stuff\Hallucination\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+   -mean_lp 0.679  -min_lp 0.707  ent 0.688  len 0.580  SC 0.575  3feat 0.702  17feat 0.660  nested 0.686
+saved C:\Stuff\Hallucination\analysis_v2\dev.json

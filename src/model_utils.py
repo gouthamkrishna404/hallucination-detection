@@ -24,6 +24,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from .config import CFG
 
+FIXED_DATE_STRING = "26 Jul 2024"  # the Llama-3.x template's own fallback value
+
 
 @dataclass
 class GenerationResult:
@@ -44,13 +46,17 @@ class LLMGenerator:
     `LLMGenerator.from_registry("llama-3.2-1b-instruct")` to use a
     configs/models.yaml entry."""
 
-    def __init__(self, model_name: str = CFG.model_name, device: str | None = None):
+    def __init__(self, model_name: str = CFG.model_name, device: str | None = None, dtype=None):
         self.model_name = model_name
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        dtype = torch.float16 if self.device == "cuda" else torch.float32
+        if dtype is None:
+            dtype = torch.float16 if self.device == "cuda" else torch.float32
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(model_name, dtype=dtype)
+        # device_map streams weights straight to the GPU instead of staging a full
+        # copy in CPU RAM (an fp32 1.7B model is ~7 GB).
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_name, dtype=dtype, device_map=self.device if self.device == "cuda" else None)
         self.model.to(self.device)
         self.model.eval()
 
@@ -71,19 +77,24 @@ class LLMGenerator:
         self.stop_ids = stop_ids
 
     @classmethod
-    def from_registry(cls, model_key: str, device: str | None = None) -> "LLMGenerator":
+    def from_registry(cls, model_key: str, device: str | None = None, dtype=None) -> "LLMGenerator":
         from .registry import resolve_model
 
         checkpoint = resolve_model(model_key)["checkpoint"]
-        return cls(model_name=checkpoint, device=device)
+        return cls(model_name=checkpoint, device=device, dtype=dtype)
 
     def _build_prompt(self, question: str) -> str:
         messages = [
             {"role": "system", "content": CFG.system_prompt},
             {"role": "user", "content": question},
         ]
+        # date_string pins the "Today Date" line that the Llama-3.x template
+        # otherwise fills from the wall clock, which made the prompt (and so the
+        # greedy answer) change from day to day. Templates without the variable
+        # ignore it. The rendered prompt already contains any BOS token, so it
+        # must be tokenized with add_special_tokens=False.
         return self.tokenizer.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
+            messages, tokenize=False, add_generation_prompt=True, date_string=FIXED_DATE_STRING
         )
 
     def _token_pieces(self, kept_ids: list[int]) -> list[str]:
@@ -106,7 +117,7 @@ class LLMGenerator:
             torch.manual_seed(seed)
 
         prompt = self._build_prompt(question)
-        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
+        inputs = self.tokenizer(prompt, return_tensors="pt", add_special_tokens=False).to(self.device)
         input_len = inputs["input_ids"].shape[1]
 
         gen_kwargs = dict(
@@ -183,7 +194,7 @@ class LLMGenerator:
         self.tokenizer.padding_side = "left"
         try:
             prompts = [self._build_prompt(q) for q in questions]
-            inputs = self.tokenizer(prompts, return_tensors="pt", padding=True).to(self.device)
+            inputs = self.tokenizer(prompts, return_tensors="pt", padding=True, add_special_tokens=False).to(self.device)
             input_len = inputs["input_ids"].shape[1]
 
             gen_kwargs = dict(

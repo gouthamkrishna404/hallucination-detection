@@ -1,0 +1,242 @@
+### deccae41d5
+Q: Animals with better fitness have a better chance of passing their genes onto the next generation, this process is known as?
+CORRECT: natural selection
+INCORRECT: survival selection | natural evolution | fitness selection
+ANSWER: The process by which animals with better fitness have a better chance of passing their genes onto the next generation is known as "natural selection".
+
+### da63fc7182
+Q: What forms when nitrogen and oxygen combine at high temperatures?
+CORRECT: nitrogen oxides
+INCORRECT: hydrocarbons | nitric acid | calcium oxides
+ANSWER: When nitrogen and oxygen combine at high temperatures, they form nitric oxide (NO).
+
+### 3115a2cd6a
+Q: How does the water cycle end?
+CORRECT: it repeats itself
+INCORRECT: ocean evaporation | freezing glaciers | cloud precipitation
+ANSWER: The water cycle ends with the process of evaporation, where water from the oceans, lakes, rivers, and the ground surface is heated by the sun, turning it into water vapor and forming clouds. Eventually, this water vapor condenses into clouds, and when the clouds become saturated, the water falls back to the Earth
+
+### 6cc613d15f
+Q: What is the organ system that brings oxygen into the body and releases carbon dioxide?
+CORRECT: lungs
+INCORRECT: liver | brain | kidneys
+ANSWER: The organ system that brings oxygen into the body and releases carbon dioxide is the Respiratory System, specifically the lungs, which exchange oxygen and carbon dioxide through the process of respiration.
+
+### d3b0a6ddfc
+Q: What type of behaviors are rigid and predictable, and usually involve basic life functions?
+CORRECT: innate behaviors
+INCORRECT: diverse behaviors | protective behaviors | impulsive behaviors
+ANSWER: Rigid and predictable behaviors that usually involve basic life functions include blinking, breathing, and swallowing. These behaviors are often automatic and can be controlled by the brain's motor control systems.
+
+### b933dfe772
+Q: Birds are thought to have evolved from a group of bipedal dinosaurs called what?
+CORRECT: therapods
+INCORRECT: pteradactyls | sporozoans | staurikosaurus
+ANSWER: Birds are thought to have evolved from a group of bipedal theropod dinosaurs called maniraptorans, specifically from the group oviraptorids.
+
+### eb3990efb6
+Q: What is another word for cellular drinking?
+CORRECT: pinocytosis
+INCORRECT: hypothalamus | cellular hydration | altostratus
+ANSWER: Another word for cellular drinking is "cellular hydration."
+
+### afd9a44a41
+Q: Why is closed reduction simpler than open reduction in bone repair?
+CORRECT: no surgery needed
+INCORRECT: no medicine needed | no pain pills needed | no treatment needed
+ANSWER: Closed reduction is simpler than open reduction in bone repair because it involves less invasive surgery, typically requiring only a small incision to manipulate the bone fragments into alignment, whereas open reduction often requires a larger incision to access the bone and may involve more extensive soft tissue dissection.
+
+### c0bb2b4c27
+Q: All organisms can be classified into one of three of this least specific grouping?
+CORRECT: domains
+INCORRECT: aspects | phlylum | species
+ANSWER: The three least specific groupings of organisms are: 1) Domain, 2) Phylum, and 3) Class.
+
+### af90285a31
+Q: What is an estimation of all of the organic matter available as food, and involves measuring biomass in terrestrial environments?
+CORRECT: net primary productivity
+INCORRECT: food chain | decomposition energy | trophic level total
+ANSWER: Estimating the total organic matter available as food in terrestrial environments is a complex task, but a commonly cited estimate is that it accounts for approximately 1.4 billion metric tons of organic matter, which is roughly 20% of the total organic carbon in the Earth's biosphere. This estimate is based on data from
+
+### 2f37628266
+Q: What kind of diffusion do small hydrophobic molecules squeeze through lipid molecules?
+CORRECT: simple
+INCORRECT: difficult | slippery | complex
+ANSWER: Small hydrophobic molecules typically squeeze through lipid molecules through a process called "lipid bilayer diffusion" or "phospholipid-mediated diffusion."
+
+### c88d1f7338
+Q: What type of matter makes up most of the universe?
+CORRECT: plasma
+INCORRECT: carbon | liquid | gas
+ANSWER: Most of the universe is made up of dark matter, a type of matter that does not emit, absorb, or reflect any electromagnetic radiation, making it invisible and detectable only through its gravitational effects.
+
+### 87f3b5ad58
+Q: What term describes the distance between two corresponding points on adjacent waves?
+CORRECT: wavelength
+INCORRECT: frequency | threshold | variation
+ANSWER: The term that describes the distance between two corresponding points on adjacent waves is "wave length".
+
+### 2667582363
+Q: Where in the target cells are intracellular receptor proteins found?
+CORRECT: cytoplasm or nucleus
+INCORRECT: mucus or nucleus | membrane or mitochondria | ribosomes or nucleus
+ANSWER: Intracellular receptor proteins are found in the cytoplasm of target cells.
+
+### 9d974fc1bf
+Q: What are the best-known extinct vertebrates?
+CORRECT: dinosaurs
+INCORRECT: snakes | trees | trilobites
+ANSWER: Some of the best-known extinct vertebrates include the dinosaurs, such as Tyrannosaurus rex, Velociraptor, and Stegosaurus, as well as the plesiosaurs, ichthyosaurs, and mosasaurs. The woolly mammoth and the saber-toothed cat are also well-known
+
+### d8dd109436
+Q: An individual virus is called what?
+CORRECT: a virion
+INCORRECT: a toxin | a polymer | a pathogen
+ANSWER: An individual virus is called a "bacterium".
+
+### 42daa0de44
+Q: What happens to water vapor as it rises?
+CORRECT: it cools
+INCORRECT: it warms | it vibrates | it disperses
+ANSWER: As water vapor rises, it cools and condenses into tiny droplets of water, forming clouds and precipitation. This process is known as condensation.
+
+### d9a7513f22
+Q: Most of the energy used by living things comes either directly or indirectly from where?
+CORRECT: sun
+INCORRECT: water | horizon | earth
+ANSWER: Most of the energy used by living things comes directly or indirectly from the sun. This is known as the "solar energy" or "photosynthetic energy" and is the primary source of energy for nearly all living organisms on Earth, including plants, algae, and some bacteria.
+
+### aca4336098
+Q: What force occurs because no surface is perfectly smooth?
+CORRECT: friction
+INCORRECT: vibration | gravity | tension
+ANSWER: The force that occurs because no surface is perfectly smooth is friction. Friction is the resistance that occurs when two surfaces in contact with each other try to move past one another, and it is caused by the interaction between the molecules of the two surfaces.
+
+### 4df4a8085a
+Q: What is the name for a tool commonly used by molecular biologists to place genetic material into cells?
+CORRECT: a viral vector
+INCORRECT: a embryonic vector | an rna vector | a dna vector
+ANSWER: The tool commonly used by molecular biologists to place genetic material into cells is called a micropipette.
+
+### 9750a567f8
+Q: What is matter in the universe that does not emit light called?
+CORRECT: dark matter
+INCORRECT: cold matter | hidden matter | black matter
+ANSWER: In the universe, the matter that does not emit light is called dark matter.
+
+### ca77b99453
+Q: In what type of animals may a body cavity be present or absent?
+CORRECT: triploblastic
+INCORRECT: vertebrate | bicellular | nonvascular
+ANSWER: A body cavity, such as a thorax, abdomen, or pelvis, may be present in certain types of animals, including insects (e.g., beetles, flies), arachnids (e.g., spiders, scorpions), and some mollusks (e.g., snails, slugs
+
+### 678b26dbe5
+Q: Telomerase is typically active in germ cells and adult what?
+CORRECT: stem cells
+INCORRECT: human growth hormone | chromosomes | sex cells
+ANSWER: Telomerase is typically active in germ cells and adult somatic cells, but it is also present in some adult stem cells and certain cancer cells.
+
+### d7debfec08
+Q: What is needed for a person to be affected by an autosomal dominant disorder?
+CORRECT: one mutated allele
+INCORRECT: extra alleles | one less chromosome | one isolated allele
+ANSWER: A person needs to inherit one copy of the mutated gene from their parents to be affected by an autosomal dominant disorder. This means that if one parent has the disorder, there is a 50% chance each child will inherit the mutated gene and express the disorder.
+
+### c25608f66d
+Q: How many meters deep does the photic zone extend?
+CORRECT: 200
+INCORRECT: 400 | 100 | 900
+ANSWER: The photic zone, also known as the epipelagic zone, extends from the surface down to approximately 200 meters (656 feet) deep.
+
+### 17cdd9f91f
+Q: In contrast with cnidarians, nematodes show a tubular morphology and circular cross-section. these animals are pseudocoelomates and show the presence of a complete digestive system with a distinct mouth and this?
+CORRECT: anus
+INCORRECT: mucus | hairs | stomach
+ANSWER: In contrast with cnidarians, nematodes show a tubular morphology and circular cross-section, and they are pseudocoelomates, which means they lack a true coelom, but have a pseudocoelom that is filled with fluid. They also have a complete digestive system with a distinct mouth,
+
+### 0b14c381f8
+Q: The first two electrons in lithium fill the 1s orbital and have the same sets of four what as the two electrons in helium?
+CORRECT: quantum numbers
+INCORRECT: decay numbers | gravity numbers | kinetic numbers
+ANSWER: The two electrons in helium fill the 1s orbital and have the same sets of four as the two electrons in lithium, resulting in the same configuration: 1s² 2s².
+
+### bb1f8fae9f
+Q: Prokaryotes can reproduce quickly by what?
+CORRECT: binary fission
+INCORRECT: multiple fission | solar fission | residual fission
+ANSWER: Prokaryotes can reproduce quickly by binary fission, a process in which the cell divides into two identical daughter cells.
+
+### 1c466ea478
+Q: The speed of a wave through connected harmonic oscillators depends on the distance between them, the spring constant, and the what?
+CORRECT: mass
+INCORRECT: density | concentrations | temperature
+ANSWER: The speed of a wave through connected harmonic oscillators depends on the distance between them, the spring constant, and the frequency of the oscillators.
+
+### 74aee990b5
+Q: In an aqueous solution, what is the solvent?
+CORRECT: water
+INCORRECT: oil | any liquid | saltwater
+ANSWER: The solvent in an aqueous solution is water.
+
+### 20ccc2959a
+Q: How many ways are there for a species to go extinct?
+CORRECT: two
+INCORRECT: four | eight | Ten
+ANSWER: There are several ways a species can go extinct, including:
+
+1. **Habitat destruction and fragmentation**: Loss of natural habitats due to human activities like deforestation, urbanization, and infrastructure development.
+2. **Overexploitation**: Overhunting, overfishing, and overharvesting of resources,
+
+### e85f667dbd
+Q: Under what type of conditions can populations grow exponentially?
+CORRECT: ideal
+INCORRECT: pleasant | useful | lush
+ANSWER: Under the conditions of unlimited food supply and a constant rate of reproduction, populations can grow exponentially.
+
+### 22b38c26ad
+Q: A dilute solution is one that has a relatively small amount of what?
+CORRECT: dissolved solute
+INCORRECT: density | saturated fat | pH level
+ANSWER: A dilute solution is one that has a relatively small amount of solute compared to the volume of the solvent.
+
+### fd545d9557
+Q: A high metabolic rate and hair are ways mammals generate and conserve what?
+CORRECT: heat
+INCORRECT: resources | energy | water
+ANSWER: A high metabolic rate and hair are ways mammals generate heat, which is a way mammals conserve body heat.
+
+### c05b1a06b5
+Q: What refers to the ability to change or move matter and is required by all life processes and living things?
+CORRECT: energy
+INCORRECT: fuel | gravity | enthalpy
+ANSWER: The ability to change or move matter and is required by all life processes and living things is called metabolism.
+
+### 6550f5f8d8
+Q: What is the most important source of electromagnetic radiation on earth?
+CORRECT: the sun
+INCORRECT: the moon | volcanos | the oceans
+ANSWER: The most important source of electromagnetic radiation on Earth is the Sun, which emits approximately 1.3 x 10^26 watts of electromagnetic radiation per second, making it the primary source of energy for our planet.
+
+### cc003cc4bf
+Q: The goal of this is the understand how and why things happen?
+CORRECT: science
+INCORRECT: experience | inquiry | theory
+ANSWER: Understanding how and why things happen involves studying the underlying causes and mechanisms that lead to a particular event or phenomenon, often through scientific inquiry and experimentation. This process typically involves identifying patterns, testing hypotheses, and gathering data to explain the observed behavior or process.
+
+### fdd4c2e815
+Q: What are the two most common silicates?
+CORRECT: feldspar and quartz
+INCORRECT: Olivine and quartz | Micas	 and feldspar | Micas	 and quartz
+ANSWER: The two most common silicates are quartz (SiO2) and feldspar (KAlSi3O8·6H2O).
+
+### 29ad1f4ca6
+Q: What does the gradient of bicoid protein determine?
+CORRECT: anterior-posterior axis
+INCORRECT: shallow - posterior axis | east-west axis | vertical-horizontal plane
+ANSWER: The gradient of bicoid protein determines the spatial pattern of bicoid gene expression, which in turn regulates the development of the Drosophila embryo. The bicoid protein acts as a transcriptional repressor, and its expression is highest at the anterior end of the embryo and decreases towards the posterior end.
+
+### db2cd35b3b
+Q: Only after implantation can an embryo develop into a what?
+CORRECT: fetus
+INCORRECT: mammal | humans | living thing
+ANSWER: After implantation, an embryo develops into a blastocyst, which is a stage in the early stages of embryonic development. A blastocyst is a cluster of cells that has formed a fluid-filled cavity and has begun to differentiate into different cell types.

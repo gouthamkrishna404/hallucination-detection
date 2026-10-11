@@ -1,0 +1,239 @@
+### 1ec17a485b
+Q: What occurs when competing species evolve different adaptations?
+CORRECT: specialization
+INCORRECT: evolution | urbanization | Rate Adaption
+ANSWER: Competing species evolving different adaptations leads to speciation, where new species arise.
+
+### 8504394447
+Q: What is usually the most visible part of the flower?
+CORRECT: petals
+INCORRECT: cells | seeds | roots
+ANSWER: The most visible part of a flower is typically its petals.
+
+### b9886c1b6e
+Q: Which division of the peripheral nervous system interprets signals, while the motor division sends signals?
+CORRECT: sensory
+INCORRECT: kinetic | olfactory | automatic
+ANSWER: The sensory division of the peripheral nervous system interprets signals, while the motor division sends signals.
+
+### 98b73c48ff
+Q: The majority of elements, including iron and copper, are of what type?
+CORRECT: metals
+INCORRECT: oils | acids | minerals
+ANSWER: The majority of elements, including iron and copper, are of the metal type.
+
+### 24bde6da19
+Q: Temperature and precipitation determine the types of what that can grow in an area, in turn affecting the animals that live there?
+CORRECT: plants
+INCORRECT: roots | building | birds
+ANSWER: Temperature and precipitation determine the types of plants that can grow in an area, which in turn affects the animals that live there.
+
+### eba5619aaf
+Q: What is the phenotypic range of a particular genotype called?
+CORRECT: norm of reaction
+INCORRECT: diversity | natural selection | range of motion
+ANSWER: The phenotypic range of a particular genotype is called the phenotype spectrum.
+
+### 899b106c76
+Q: What system provides a major route for heat flow between the interior and exterior of the body?
+CORRECT: the circulatory system
+INCORRECT: excretory system | nervous system | respiratory system
+ANSWER: The circulatory system provides a major route for heat flow between the interior and exterior of the body.
+
+### 2349eacc8f
+Q: What holds together adenine and thymine?
+CORRECT: hydrogen bonds
+INCORRECT: covalent bonds | potassium bonds | helium bonds
+ANSWER: Adenine and thymine are held together by hydrogen bonds.
+
+### 7204404443
+Q: What sort of walls are helpful for keeping a slope stable?
+CORRECT: retaining walls
+INCORRECT: relocating walls | diverting walls | managing walls
+ANSWER: Steep slopes can be stabilized with retaining walls made of materials like concrete, stone, or soil.
+
+### f5698ad39e
+Q: The bird ancestor that lived in trees developed what feature commonly associated with birds?
+CORRECT: wings
+INCORRECT: tails | webbed feet | beaks
+ANSWER: The bird ancestor that lived in trees developed feathers, which are commonly associated with birds.
+
+### 217a265eff
+Q: What are classified by climatic factors and types of primary producers?
+CORRECT: terrestrial biomes
+INCORRECT: equivalent biomes | old biomes | fossil biomes
+ANSWER: Aquatic ecosystems are classified by climatic factors and types of primary producers.
+
+### 5da3207b30
+Q: What type of rocks form when an existing rock is changed by heat or pressure?
+CORRECT: metamorphic
+INCORRECT: Molten | igneous | sediments
+ANSWER: Metamorphic rocks form when existing rocks are changed by heat or pressure.
+
+### 594b6736b0
+Q: How many mass extinctions have occurred throughout earth's history?
+CORRECT: five
+INCORRECT: six | four | three
+ANSWER: There have been at least five major mass extinctions throughout Earth's history.
+
+### c166d9cb9c
+Q: Besides the size of their crystals, how are igneous rocks grouped?
+CORRECT: minerals they contain
+INCORRECT: by shapes | impurities they contain | by color
+ANSWER: Igneous rocks are grouped based on their composition, including the types of minerals they contain and the temperature at which they formed.
+
+### ef51dd20e8
+Q: What is the purpose of a bird using flashy displays?
+CORRECT: to attract mates
+INCORRECT: to protect their territory | to dissuade predators | to signal feeding
+ANSWER: The purpose of a bird using flashy displays is to attract a mate or defend territory.
+
+### 792411b413
+Q: Many species of rotifers exhibit haplodiploidy, which is a method of what?
+CORRECT: gender determination
+INCORRECT: circulation | digestion | respiration
+ANSWER: Many species of rotifers exhibit haplodiploidy, which is a method of sex determination.
+
+### 840ee4704b
+Q: The simplest organic compounds are known as what?
+CORRECT: hydrocarbons
+INCORRECT: amino acids | carbohydrates | nucleotides
+ANSWER: The simplest organic compounds are known as hydrocarbons.
+
+### fcf32d5ac9
+Q: Unlike prokaryotic chromosomes, eukaryotic chromosomes are what?
+CORRECT: linear
+INCORRECT: multiple | simple | expanding
+ANSWER: Unlike prokaryotic chromosomes, eukaryotic chromosomes are enclosed within a membrane-bound nucleus.
+
+### 47c91d99fd
+Q: During evolution, something happened to increase the size of what organ in humans, relative to that of the chimpanzee?
+CORRECT: brain
+INCORRECT: stomach | lung | liver
+ANSWER: During evolution, the human brain relative to body size increased, while the chimpanzee's brain size relative to body size decreased.
+
+### 8cb4feb15e
+Q: What absorbs, scatters, or reflects most incoming solar radiation in the atmosphere?
+CORRECT: clouds and dust
+INCORRECT: clouds and sand | ice and dust | coulds and minerals
+ANSWER: Water vapor and carbon dioxide are the gases that absorb, scatter, or reflect most of the incoming solar radiation in the atmosphere.
+
+### 3a4b2a95d7
+Q: The speed of sound depends on what?
+CORRECT: medium
+INCORRECT: light | volume | temperature
+ANSWER: The speed of sound depends on the medium through which it travels and the temperature of that medium.
+
+### 51cc0e2a27
+Q: What happens to energy when work is done by a system?
+CORRECT: removed
+INCORRECT: stored | added | multiplied
+ANSWER: Energy is converted into other forms of energy, such as heat or mechanical energy.
+
+### 3fe0362c50
+Q: Practitioners of what thought all matter was composed of different proportions of four basic elements, and that if you changed the proportions of these elements, you could change the substance itself?
+CORRECT: alchemy
+INCORRECT: chemistry | biology | phrenology
+ANSWER: The practitioners of alchemy thought that all matter was composed of different proportions of four basic elements, and that by changing the proportions of these elements, one could change the substance itself.
+
+### 78d30c2231
+Q: In what stage of their life cycle do insects begin developing their wings?
+CORRECT: pupa
+INCORRECT: crystalline | larva | pupal
+ANSWER: Insects begin developing their wings during the pupal stage of their life cycle.
+
+### 88356e1f4c
+Q: Traditionally, what preventative measure used weakened or inactive forms of microorganisms or viruses to stimulate the immune system?
+CORRECT: vaccine
+INCORRECT: infection | assimilation | pathogen
+ANSWER: Traditionally, vaccines used weakened or inactive forms of microorganisms or viruses to stimulate the immune system.
+
+### d2384bb318
+Q: Where do angiosperms form seeds?
+CORRECT: ovaries
+INCORRECT: stamen | testes | cones
+ANSWER: Angiosperms form seeds in their flowers.
+
+### d64cd81c48
+Q: Where are b cells produced in the body?
+CORRECT: lymphocytes
+INCORRECT: keratinocytes | tumors | lungs
+ANSWER: B cells are produced in the bone marrow.
+
+### 3496442343
+Q: There are many types of asexual spores. conidiospores are unicellular or multicellular spores that are released directly from the tip or side of this?
+CORRECT: hypha
+INCORRECT: ganglion | idioma | goychay
+ANSWER: The fungus.
+
+### 6523596cc1
+Q: Organisms that live deep in the ocean must be able to withstand what?
+CORRECT: extreme water pressure
+INCORRECT: the sun | significant water pressure | tsunamis
+ANSWER: Organisms that live deep in the ocean must be able to withstand extreme pressure, high temperatures, and limited light.
+
+### 81c9549f17
+Q: Algae produce food using what process?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | cellular respiration | spermatogenesis
+ANSWER: Algae produce food using photosynthesis.
+
+### d3f2e54744
+Q: What artery takes blood to the brain?
+CORRECT: carotid
+INCORRECT: veins | pulmonary | coronary
+ANSWER: The carotid arteries take blood to the brain.
+
+### 7b02efc276
+Q: What broad group of organisms is characterized by sensory organs, the ability to move, internal digestion and sexual reproduction?
+CORRECT: animals
+INCORRECT: protists | plants | fungi
+ANSWER: Animals are characterized by sensory organs, the ability to move, internal digestion, and sexual reproduction.
+
+### 19a9e0e093
+Q: Convection is the heat transfer by the macroscopic movement of a what?
+CORRECT: fluid
+INCORRECT: gravity | gases | tissue
+ANSWER: Convection is the heat transfer by the macroscopic movement of a fluid.
+
+### 686008f800
+Q: What is the basic unit of the structure and function of living things?
+CORRECT: cell
+INCORRECT: atom | molecule | nucleus
+ANSWER: The basic unit of the structure and function of living things is the cell.
+
+### 8101b2d004
+Q: What compounds form crystals instead of molecules?
+CORRECT: ionic compounds
+INCORRECT: metallic compounds | soluble compounds | magnetic compounds
+ANSWER: Compounds that form crystals instead of molecules are called ionic compounds.
+
+### 5d4aa88d85
+Q: What action do particles of the same charge do to each other?
+CORRECT: repel
+INCORRECT: propagate | destroy | pull
+ANSWER: Particles of the same charge repel each other.
+
+### 387eae3ece
+Q: The four basic types of tissue are epithelial, muscle, connective, and what?
+CORRECT: nervous
+INCORRECT: regulatory | digestive | circulatory
+ANSWER: The four basic types of tissue are epithelial, muscle, connective, and nervous.
+
+### d3d02f58bf
+Q: Above the meristem, the rest of the root is covered with a single layer of what type of cells, which may have root hairs?
+CORRECT: epidermal
+INCORRECT: dermal | single celled | vegetative
+ANSWER: Above the meristem, the rest of the root is covered with a single layer of epidermal cells, which may have root hairs.
+
+### eac02fea6c
+Q: What is the term for the force that brings objects toward the earth?
+CORRECT: gravity
+INCORRECT: weight | light | centrifugal
+ANSWER: Gravity is the term for the force that brings objects toward the Earth.
+
+### b70b54929b
+Q: When a stream or river slows down, it starts dropping its what?
+CORRECT: sediments
+INCORRECT: fragments | organisms | pollutants
+ANSWER: When a stream or river slows down, it starts dropping its sediment.

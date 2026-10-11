@@ -1,0 +1,239 @@
+### b1bcb2ebcd
+Q: What are biochemical catalysts that speed up biochemical reactions?
+CORRECT: enzymes
+INCORRECT: inhibitor | metabolites | polymers
+ANSWER: Enzymes are biochemical catalysts that speed up biochemical reactions.
+
+### 77c3774d02
+Q: What must be combined with a halogen to give it a positive oxidation number?
+CORRECT: oxygen
+INCORRECT: nitrogen | calcium | carbon
+ANSWER: A halogen must be combined with a nonmetal to give it a positive oxidation number.
+
+### a34b1cf86a
+Q: What is the name for a tool commonly used by molecular biologists to place genetic material into cells?
+CORRECT: a viral vector
+INCORRECT: a embryonic vector | an rna vector | a dna vector
+ANSWER: The tool commonly used by molecular biologists to place genetic material into cells is called a vector.
+
+### c959beadb9
+Q: The bony socket that houses the eyeball and associated muscles is called?
+CORRECT: orbit
+INCORRECT: cavity | glenoid fossa | acetabulum
+ANSWER: The bony socket that houses the eyeball and associated muscles is called the eye socket or orbit.
+
+### 4adbb3d202
+Q: Where on a jellyfish is the mouth opening located?
+CORRECT: underside
+INCORRECT: left side | right side | top
+ANSWER: The mouth opening of a jellyfish is located on the bottom of its bell-shaped body.
+
+### c0945265bf
+Q: In amphibians, reptiles, birds, and mammals, blood flow is directed in two circuits: one through the lungs and back to the heart, which is called what?
+CORRECT: pulmonary circulation
+INCORRECT: systemic circulation | sensory circulation | metabolic circulation
+ANSWER: In amphibians, reptiles, birds, and mammals, blood flow is directed in two circuits: one through the lungs and back to the heart, which is called the pulmonary circuit.
+
+### 65757617c6
+Q: In humans, the only haploid cells are what reproductive cells?
+CORRECT: sperm and egg
+INCORRECT: dna and egg | sperm and dna | uteral and sperm
+ANSWER: In humans, the only haploid cells are sperm and egg cells, which are reproductive cells.
+
+### 1db6a7bc04
+Q: Monomers of condensation polymers must contain how many functional groups so that each monomer can link up with two other monomers?
+CORRECT: two
+INCORRECT: three | four | one
+ANSWER: Monomers of condensation polymers must contain at least two functional groups so that each monomer can link up with two other monomers.
+
+### 607c470614
+Q: Does atmospheric pressure increase or decrease as the altitude increases?
+CORRECT: decreases
+INCORRECT: increase | stays the same | depends on other factors
+ANSWER: Atmospheric pressure decreases as altitude increases.
+
+### c07c59c244
+Q: What are the smallest particles of matter?
+CORRECT: atoms
+INCORRECT: ions | molecules | electrons
+ANSWER: The smallest particles of matter are atoms.
+
+### 72c8917f10
+Q: The pressure inside a container is dependent on the amount of what inside the container?
+CORRECT: gas
+INCORRECT: air | emissions | liquids
+ANSWER: The pressure inside a container is dependent on the amount of matter inside the container.
+
+### f3c5f3a0b8
+Q: Atoms of different elements have different numbers of what?
+CORRECT: protons
+INCORRECT: electrons | neutrons | nucleus
+ANSWER: Atoms of different elements have different numbers of protons.
+
+### 016dfa2b3b
+Q: In a few species, chloroplast genes are inherited only from what?
+CORRECT: sperm
+INCORRECT: mothers | siblings | eggs
+ANSWER: In a few species, chloroplast genes are inherited only from the mother.
+
+### cf9ac445f0
+Q: A species that benefits and harms the host organism is called a what?
+CORRECT: parasite
+INCORRECT: viruses | predators | host
+ANSWER: A species that benefits and harms the host organism is called a parasitic species.
+
+### 8bd0340155
+Q: What is the most direct way of recovering a metal from its ores?
+CORRECT: electrolysis
+INCORRECT: drilling | molecules | osmosis
+ANSWER: The most direct way of recovering a metal from its ores is through smelting.
+
+### 923c46f85f
+Q: The hypothalamus in vertebrates integrates what two systems?
+CORRECT: endocrine and nervous
+INCORRECT: Pathway and nervous | marrow and nervous | connectors and nervous
+ANSWER: The hypothalamus in vertebrates integrates the nervous system and the endocrine system.
+
+### c6c9b1eb4d
+Q: Animals breath in air in order to obtain what element?
+CORRECT: oxygen
+INCORRECT: water | nitrogen | carbon
+ANSWER: Animals breathe in air to obtain oxygen.
+
+### a7e6b664d6
+Q: Assume a molecule must cross the plasma membrane into what?
+CORRECT: cell
+INCORRECT: circle | shell | atom
+ANSWER: Assume a molecule must cross the plasma membrane into the cell.
+
+### e220992d19
+Q: Meiosis is part of the process of gametogenesis, which is the production of what?
+CORRECT: sperm and eggs
+INCORRECT: chromosomes | egg only | sperm only
+ANSWER: Meiosis is part of the process of gametogenesis, which is the production of gametes (sex cells).
+
+### 0239831fd1
+Q: All chemical reactions involve both reactants and what else?
+CORRECT: products
+INCORRECT: consumers | catalysts | energy
+ANSWER: All chemical reactions involve both reactants and products.
+
+### 30695d99f7
+Q: The force of attraction between a positively charged metal ion and the valence electrons it shares with other ions of the metal is called?
+CORRECT: metallic bond
+INCORRECT: ionic bond | metallic yield | temporal bond
+ANSWER: The force of attraction between a positively charged metal ion and the valence electrons it shares with other ions of the metal is called the metallic bond.
+
+### bf6a55e414
+Q: What is the transfer of heat by physical contact?
+CORRECT: conduction
+INCORRECT: oxidation | inhibition | diffusion
+ANSWER: Conduction is the transfer of heat by physical contact.
+
+### 914e283b5a
+Q: What are the simplest organic compounds?
+CORRECT: hydrocarbons
+INCORRECT: proteins | enzymes | carbohydrates
+ANSWER: The simplest organic compounds are hydrocarbons, consisting of only carbon and hydrogen atoms.
+
+### 2e9ea6c34b
+Q: What is the si unit for weight?
+CORRECT: newton (n)
+INCORRECT: kilograms (kg) | meters (m) | pounds (lbs)
+ANSWER: The SI unit for weight is the newton.
+
+### af249b3539
+Q: Oogenesis, which is gametogenesis in females, begins with what type of ste cells?
+CORRECT: ovarian
+INCORRECT: secretion | digestive | uterian
+ANSWER: Oogenesis, the process of female gametogenesis, begins with primordial germ cells.
+
+### 7ba398d528
+Q: The added nutrients from fertilizer often cause excessive growth of what organism?
+CORRECT: algae
+INCORRECT: mushrooms | sediments | crustaceans
+ANSWER: The added nutrients from fertilizer often cause excessive growth of algae.
+
+### e3c5305421
+Q: Vertebrate animals have two major body cavities, the dorsal and what is the other?
+CORRECT: spinal cavity
+INCORRECT: anterior cavity | proximal cavity | functional cavity
+ANSWER: The other major body cavity in vertebrates is the ventral cavity.
+
+### 0a441acf83
+Q: Animal behavior can be said to be controlled by genetics and experiences, also known as nature and what?
+CORRECT: nurture
+INCORRECT: growth | evolution | interaction
+ANSWER: Animal behavior can be said to be controlled by genetics and experiences, also known as nature and nurture.
+
+### e6713d1c47
+Q: In an aqueous solution, what is the solvent?
+CORRECT: water
+INCORRECT: oil | any liquid | saltwater
+ANSWER: In an aqueous solution, water is the solvent.
+
+### 939b167d13
+Q: What do nectar-feeding bats do to flowers?
+CORRECT: pollinate
+INCORRECT: defecate | illuminate | consume
+ANSWER: Nectar-feeding bats primarily drink nectar from flowers, often pollinating them in the process.
+
+### 5e7e6dc86b
+Q: What is the term for viscous magmas that are high in silica and tend to stay below the surface or erupt explosively?
+CORRECT: felsic magmas
+INCORRECT: sedimentary magmas | compacted magmas | combustible magmas
+ANSWER: The term for viscous magmas high in silica that tend to stay below the surface or erupt explosively is "ultramafic."
+
+### 60dcea5d12
+Q: In phyisics, what is considered to be the rotational version of force?
+CORRECT: torque
+INCORRECT: work | energy | pressure
+ANSWER: In physics, torque is considered to be the rotational version of force.
+
+### 942e4afd1d
+Q: What structure collect fluid that leaks out from blood capillaries?
+CORRECT: lymph capillaries
+INCORRECT: pulmonary capillaries | varicose veins | alveoli
+ANSWER: The lymph nodes collect fluid that leaks out from blood capillaries.
+
+### 891b14601b
+Q: The evaporative loss of the most energetic water molecules does what to a surface?
+CORRECT: cools it
+INCORRECT: heats it | vents it | charges it
+ANSWER: The evaporative loss of the most energetic water molecules causes the surface to dry out.
+
+### 6030850834
+Q: What is the term for materials that have both a defined shape and a defined volume?
+CORRECT: solids
+INCORRECT: liquids | matter | gases
+ANSWER: The term for materials that have both a defined shape and a defined volume is a solid.
+
+### 294fc2a046
+Q: In physics, when one subtracts the frictional force from the applied force what is the result?
+CORRECT: net force
+INCORRECT: rolled force | quarter force | kinetic force
+ANSWER: The result is the net force acting on an object.
+
+### fbe86bb468
+Q: What do voltmeters measure across a resistor?
+CORRECT: the voltage drop
+INCORRECT: the vibration drop | amplitude | energy loss
+ANSWER: Voltmeters measure the voltage across a resistor.
+
+### 06f78774a2
+Q: In relation to electrical current, what property will a narrow wire have more of than a wide wire?
+CORRECT: resistance
+INCORRECT: voltage | wattage | current
+ANSWER: A narrow wire will have more resistance than a wide wire.
+
+### a6ff13a56c
+Q: Oxygen is combined with what to form water?
+CORRECT: hydrogen
+INCORRECT: glucose | helium | carbon
+ANSWER: Oxygen is combined with hydrogen to form water.
+
+### 912753e67e
+Q: Nerve cells that sense touch are found mainly where?
+CORRECT: skin
+INCORRECT: stomach | brain | lungs
+ANSWER: Nerve cells that sense touch are found mainly in the skin.

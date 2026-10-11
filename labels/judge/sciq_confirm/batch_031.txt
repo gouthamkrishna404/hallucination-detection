@@ -1,0 +1,239 @@
+### bc27ead1bf
+Q: What adaptation helps prey hide and predators sneak up on prey?
+CORRECT: camouflage
+INCORRECT: scent | claws | variation
+ANSWER: The adaptation that helps prey hide and predators sneak up on prey is camouflage. Camouflage is the ability of an animal to blend in with its surroundings, making it difficult for predators to spot it.
+
+### ac4f796599
+Q: Fahrenheit, celsius, and kelvin are all units which measure what?
+CORRECT: temperature
+INCORRECT: brightness | radiation | precipitation
+ANSWER: Fahrenheit, Celsius, and Kelvin are all units of temperature measurement.
+
+### 939aa7722e
+Q: What makes up the dense outer layer of bones?
+CORRECT: compact bone
+INCORRECT: adipose tissue | ligaments | plasma
+ANSWER: The dense outer layer of bones is primarily composed of compact bone tissue, which is rich in minerals such as calcium and phosphorus. This type of bone tissue is also known as cortical bone, and it provides a strong and rigid structure to the skeleton.
+
+### f899cf81fc
+Q: What living species of bird is considered the  largest of the raptors?
+CORRECT: golden eagles
+INCORRECT: California condor | peregrine falcon | pteradactyl
+ANSWER: The largest living species of bird considered a raptor is the Golden Eagle (Aquila chrysaetos), with some individuals reaching a wingspan of up to 1.5 meters (4.9 feet) and weighing up to 9 kilograms (20 pounds).
+
+### eb730d5c8f
+Q: Where do short period comets come from?
+CORRECT: kuiper belt
+INCORRECT: milky way | vesta belt | photon belt
+ANSWER: Short-period comets are thought to originate from the outer reaches of the solar system, specifically from the Kuiper Belt, a region of icy bodies and small celestial objects beyond Neptune's orbit. They are typically composed of water, methane, and ammonia ices, and are often found to have highly eccentric orbits that bring them
+
+### e3e69b8116
+Q: What is it called when ice changes to liquid water?
+CORRECT: melting
+INCORRECT: vaporizing | boiling | condensing
+ANSWER: The process of ice changing to liquid water is called melting.
+
+### af6df1036c
+Q: What cells does the skeletal system make?
+CORRECT: blood cells
+INCORRECT: Osteoclast | Dendritic cells | brain cells
+ANSWER: The skeletal system makes bones, which are composed of cells called osteocytes, osteoblasts, and osteoclasts.
+
+### a020fbeda7
+Q: What creates new seafloor in the rift valleys?
+CORRECT: seafloor spreading
+INCORRECT: sedimentation | crust spreading | continental drift
+ANSWER: New seafloor is created in rift valleys through the process of seafloor spreading, where magma from the Earth's mantle rises to fill the gap between the tectonic plates, causing the Earth's crust to thin and eventually break apart, resulting in the formation of new oceanic crust. This process is driven by
+
+### 52415c0892
+Q: What is produced by the end of meiosis?
+CORRECT: four haploid cells
+INCORRECT: sixteen haploid cells | eight haploid cells | three haploid cells
+ANSWER: The end of meiosis produces gametes (sperm and egg cells) that are haploid, meaning they have half the number of chromosomes of the parent cell.
+
+### 554ca5134c
+Q: What bonding is formed in polar amino acid side chains?
+CORRECT: hydrogen bonding
+INCORRECT: calcium bonding | carbon bonding | helium bonding
+ANSWER: In polar amino acid side chains, hydrogen bonding is formed between the electronegative atoms (such as oxygen, nitrogen, or fluorine) and the electronegative hydrogen atoms of the adjacent amino acid side chain.
+
+### 00a11c4cff
+Q: When the earth is between the moon and the sun, what type of moon shows?
+CORRECT: a full moon
+INCORRECT: waning moon | half moon | crescent moon
+ANSWER: When the Earth is between the Moon and the Sun, the Moon appears to be "new" because it is positioned between the Earth and the Sun, making it invisible from our planet.
+
+### c9da9bfd8c
+Q: What is the process in which unspecialized cells become specialized in structure and function to perform certain tasks in the body?
+CORRECT: differentiation
+INCORRECT: speciation | transcription | mutation
+ANSWER: The process in which unspecialized cells become specialized in structure and function to perform certain tasks in the body is called differentiation. This process involves the cell's unique genetic and molecular characteristics, such as changes in gene expression and protein production, that allow it to acquire specialized functions and characteristics.
+
+### 282f014740
+Q: Organisms that live deep in the ocean must be able to withstand what?
+CORRECT: extreme water pressure
+INCORRECT: the sun | significant water pressure | tsunamis
+ANSWER: Organisms that live deep in the ocean must be able to withstand extremely high pressures, with some estimates suggesting pressures can reach up to 1,000 times atmospheric pressure at depths of 1,000 meters. Additionally, they must also be able to survive in near-freezing temperatures and lack of sunlight, which can be
+
+### 312cdeb727
+Q: Which system are the brain and spinal cord apart of?
+CORRECT: central nervous system
+INCORRECT: large nervous system | cerebral cortex | limbic system
+ANSWER: The brain and spinal cord are apart of the central nervous system (CNS).
+
+### bb8433ca72
+Q: What occurs when excess carbon dioxide in the atmosphere causes the oceans to become acidic?
+CORRECT: ocean acidification
+INCORRECT: ocean vaporization | acid rain | desalinization
+ANSWER: Excess carbon dioxide in the atmosphere causes the oceans to become acidic due to the dissolution of carbonic acid (H2CO3), which is formed when CO2 reacts with water (H2O) to form carbonic acid. This process is known as ocean acidification.
+
+### efdcee85ba
+Q: A bee will sometimes do a dance to tell other bees in the hive where to find what?
+CORRECT: food
+INCORRECT: enemies | water | honey
+ANSWER: A bee will sometimes do a dance to tell other bees in the hive where to find nectar-rich flowers, particularly those with a specific type of nectar that is rich in pollen, which is essential for the bee's survival and the hive's food supply.
+
+### 415dc03ec6
+Q: Ionic compounds have strong electrostatic attractions between oppositely charged ions in this?
+CORRECT: regular array
+INCORRECT: incorrect array | normal array | occasional array
+ANSWER: Ionic compounds have strong electrostatic attractions between oppositely charged ions in the lattice.
+
+### 5134105cd0
+Q: What do you call materials able to conduct electricity with 100% efficiency, meaning that no energy is lost during the electrical transmission?
+CORRECT: superconductors
+INCORRECT: poor conductors | electromagnets | super-insulators
+ANSWER: The materials you are referring to are called superconductors.
+
+### 4b6a2eb29c
+Q: What protects the pollen of seed plants and spores of seedless plants?
+CORRECT: sporopollenin
+INCORRECT: cystosol | cocklebur | chlorophyll
+ANSWER: The pollen of seed plants is protected by a fine, hair-like structure called a trichome, while the spores of seedless plants are protected by a hard, woody covering called a sporophyte.
+
+### 1812d667d5
+Q: When do gases and liquids become solids?
+CORRECT: at low temperatures
+INCORRECT: at relative temperatures | at hot temperatures | at high temperatures
+ANSWER: Gases and liquids become solids when their molecules have enough energy to break free from the surface tension and arrange themselves in a crystalline structure, a process known as melting. This typically occurs when the temperature reaches the melting point of the substance, which is the temperature at which the solid and liquid phases of the substance are in
+
+### e671c47676
+Q: Known for its beautiful rings, what is the second largest planet in the solar system?
+CORRECT: saturn
+INCORRECT: Mars | jupiter | Venus
+ANSWER: The second largest planet in the solar system is Jupiter.
+
+### 490512abf8
+Q: The bohr model works only for which atom?
+CORRECT: hydrogen
+INCORRECT: helium | carbon | boron
+ANSWER: The Bohr model works only for hydrogen atoms.
+
+### 3713b63992
+Q: What is an individual with more than the correct number of chromosome sets called?
+CORRECT: polyploid
+INCORRECT: autotrophs | autosome | diploid
+ANSWER: An individual with more than the correct number of chromosome sets is called a trisomy.
+
+### fdc80621b3
+Q: The primary motor cortex is located in which lobe of the brain?
+CORRECT: frontal
+INCORRECT: Parietal | Temporal lobe | Occipital
+ANSWER: The primary motor cortex is located in the precentral gyrus of the frontal lobe of the brain.
+
+### c2c454a129
+Q: Groups of three bases form codons, and each codon stands for one what?
+CORRECT: amino acid
+INCORRECT: compound acid | minimal acid | sulferic acid
+ANSWER: I'm not sure, but I'll give my best specific answer. Groups of three bases form codons, and each codon stands for one amino acid.
+
+### 996a2df624
+Q: What is defined as the ability to do work?
+CORRECT: energy
+INCORRECT: fuel | heating | momentum
+ANSWER: The ability to do work is defined as the capacity to generate energy or perform physical or mental labor, which is often measured by an individual's level of physical or mental effort, energy expenditure, or productivity.
+
+### dd1c09733b
+Q: What broad animal group is thought to have evolved from theropod dinosaurs around 150 million years ago?
+CORRECT: birds
+INCORRECT: insects | mammals | reptiles
+ANSWER: The broad animal group thought to have evolved from theropod dinosaurs around 150 million years ago is the synapsid group, specifically the mammal-like reptiles, which is now commonly referred to as the "mammal" group.
+
+### da74ca8d46
+Q: What instrument is used to make very sensitive mass measurements in a laboratory, usually in grams?
+CORRECT: analytical balance
+INCORRECT: speedometer | thermometer | scale
+ANSWER: The instrument used to make very sensitive mass measurements in a laboratory, usually in grams, is a Mass Spectrometer.
+
+### e86c576ace
+Q: Upon death of an organism, during composition, what returns to the soil as ammonium ions?
+CORRECT: nitrogen
+INCORRECT: potasium | calcium | hydrogen
+ANSWER: During decomposition, the remains of an organism, particularly those rich in nitrogen, such as plants and animals, break down and release ammonium ions (NH4+) into the soil. These ammonium ions are then absorbed by microorganisms, such as bacteria and fungi, which use them as a source of energy and nutrients.
+
+### 8f1ec0a395
+Q: What do humans and bats have physically in common?
+CORRECT: body hair
+INCORRECT: wing size | gland hair | body oder
+ANSWER: Humans and bats have a similar skeletal structure, including a hollow, lightweight skeleton made of cartilage, which allows for greater flexibility and maneuverability. Additionally, both humans and bats have a similar respiratory system, with lungs that are adapted for gas exchange and a similar circulatory system.
+
+### 92598930f7
+Q: Calcium ion is an example of what kind of messenger?
+CORRECT: second
+INCORRECT: third | fourth | first
+ANSWER: Calcium ion is an example of a messenger called a neurotransmitter.
+
+### 73a5ea5556
+Q: What is the adaptation that certain animals use to become less visible to predators and prey?
+CORRECT: camouflage
+INCORRECT: skeletons | speed | insulation
+ANSWER: The adaptation that certain animals use to become less visible to predators and prey is camouflage, which involves blending their coloration, pattern, or texture with their surroundings, such as trees, rocks, or water, to hide from predators and prey.
+
+### ae664ac3c1
+Q: Which property of diamond makes it so hard?
+CORRECT: chemical bonds
+INCORRECT: non-covalent bonds | metal-metal bonds | carbon bonds
+ANSWER: Diamond is known for its exceptional hardness due to its unique crystal structure, specifically its diamond cubic crystal system, which is composed of pure carbon atoms arranged in a three-dimensional lattice. This lattice arrangement creates a strong and rigid structure that resists deformation and fracture, making diamond one of the hardest naturally occurring substances known.
+
+### 30680317f0
+Q: Unlike matter, which is continuously recycled through ecosystems, what must constantly be added to an ecosystem for use by organisms?
+CORRECT: energy
+INCORRECT: hydrogen | fuel | carbon
+ANSWER: Nitrogen is constantly added to an ecosystem through the process of nitrogen fixation, where certain microorganisms convert atmospheric nitrogen (N2) into a form that can be used by organisms, such as ammonia (NH3) or nitrate (NO3-). This process is essential for the growth and survival of many organisms,
+
+### 45e1876566
+Q: The similarities and differences between the genomes confirm patterns of what?
+CORRECT: evolution
+INCORRECT: phylum | fossils | variation
+ANSWER: The similarities and differences between the genomes of humans and chimpanzees confirm patterns of convergent evolution, which is the process by which different species develop similar traits in response to similar environmental pressures.
+
+### 526f5bb712
+Q: What is the term for materials that have both a defined shape and a defined volume?
+CORRECT: solids
+INCORRECT: liquids | matter | gases
+ANSWER: The term for materials that have both a defined shape and a defined volume is "solids."
+
+### ec04fbd93b
+Q: What type of energy is produced when two objects move together?
+CORRECT: mechanical
+INCORRECT: internal | kinetic | fluid
+ANSWER: When two objects move together, the energy produced is kinetic energy.
+
+### 6d2cd8c1bb
+Q: In both eukaryotes and prokaryotes, ribosomes are the non-membrane bound organelles where what main product of the cell is made?
+CORRECT: proteins
+INCORRECT: lipids | protons | sugars
+ANSWER: In both eukaryotes and prokaryotes, ribosomes are the non-membrane bound organelles where the main product of the cell, specifically proteins, is made. Ribosomes read messenger RNA (mRNA) sequences and assemble amino acids into polypeptide chains, which eventually fold into proteins.
+
+### d6d1d449bb
+Q: Which form of dialysis has a patient’s blood pass through a length of tubing that travels through an artificial kidney machine?
+CORRECT: hemodialysis
+INCORRECT: peritoneal dialysis | limbic dialysis | arterial dialysis
+ANSWER: The form of dialysis that has a patient's blood pass through a length of tubing that travels through an artificial kidney machine is Peritoneal Dialysis (PD).
+
+### 2d74462c81
+Q: What can slow down the increase of viruses in the blood?
+CORRECT: medications
+INCORRECT: platelets | infections | androgens
+ANSWER: Antiviral medications, such as oseltamivir (Tamiflu) and zanamivir (Relenza), can help slow down the increase of viruses in the blood by reducing the replication of the virus. Additionally, rest, hydration, and over-the-counter pain relievers like acetaminophen

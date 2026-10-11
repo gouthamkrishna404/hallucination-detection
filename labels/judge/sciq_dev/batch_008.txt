@@ -1,0 +1,242 @@
+### c6300c1d15
+Q: What are located along convergent and divergent plate boundaries?
+CORRECT: volcanoes
+INCORRECT: mezas | megaliths | dunes
+ANSWER: At convergent plate boundaries, you'll find subduction zones where one plate is being forced beneath another, and at divergent plate boundaries, you'll find rift zones where plates are moving apart.
+
+### c8575f1016
+Q: A moraine is sediment deposited by what?
+CORRECT: glacier
+INCORRECT: human-caused scarring | river erosion | wind
+ANSWER: A moraine is typically formed by the deposition of sediment, usually from glaciers, by the weight of the ice and the movement of the glacier.
+
+### c14a872483
+Q: A battery is a multiple connection of what kind of cells?
+CORRECT: voltaic cells
+INCORRECT: cabri cells | organic cells | localweather cells
+ANSWER: A battery is typically a multiple connection of lead-acid cells.
+
+### b9d04511f6
+Q: What is the most abundant metal of the earth's crust?
+CORRECT: aluminum
+INCORRECT: calcium | copper | magnetite
+ANSWER: Oxygen is the most abundant metal of the earth's crust, making up about 46% of the Earth's crust by weight.
+
+### 3ea909f424
+Q: The left atrium receives oxygen-rich blood from which organs?
+CORRECT: lungs
+INCORRECT: pancreas | brain | liver
+ANSWER: The left atrium receives oxygen-rich blood from the lungs, specifically from the pulmonary veins.
+
+### 693219d894
+Q: What do charged particles in motion generate?
+CORRECT: magnetic fields
+INCORRECT: fission | electricity | gravitational fields
+ANSWER: Charged particles in motion generate electromagnetic radiation, specifically light, according to the principles of electromagnetic theory.
+
+### 0e315406a8
+Q: What kind of muscle is the heart mainly composed of?
+CORRECT: cardiac muscle
+INCORRECT: respiratory muscle | idealized muscle | nerve muscle
+ANSWER: The heart is mainly composed of cardiac muscle cells, also known as cardiomyocytes, which are specialized muscle cells that contract and relax to pump blood throughout the body.
+
+### 85c74342e7
+Q: What takes place where septa is found?
+CORRECT: forming of reproductive cells
+INCORRECT: forming of stem cells | forming of brain cells | forming of muscle tissue
+ANSWER: Septa is a type of female genital tract structure found in the cervix, specifically in the lower part of the vagina. It is a muscular and vascular layer that supports the cervix and plays a role in the menstrual cycle.
+
+### d1606ee4e2
+Q: What is essential for population of all species to expand greatly?
+CORRECT: abundant resources
+INCORRECT: foliage resources | chemical resources | liquid resources
+ANSWER: The essential factor for the population of all species to expand greatly is a stable and sufficient food supply, which can be achieved through a balanced and diverse ecosystem, allowing for the growth and reproduction of the population. Additionally, a lack of predation, disease, and other threats to the population is also crucial for its expansion.
+
+### b976999b09
+Q: What crucial role does beneficial fungi play?
+CORRECT: balance of ecosystems
+INCORRECT: cleaning the soil | cleaning water | killing bacteria
+ANSWER: Beneficial fungi play a crucial role in decomposing organic matter, fixing nitrogen in soil, and producing antibiotics and other compounds that can help plants grow, making them a vital component of the ecosystem. They also help to break down complex organic compounds, making nutrients available to plants and other organisms.
+
+### 42502adbd3
+Q: How do multicellular organisms grow in size?
+CORRECT: increase size and number of cells
+INCORRECT: reduce size and number of cells | increase number of limbs | increase size and number of genes
+ANSWER: Multicellular organisms grow in size through a process called cell division, where a single cell divides into two or more daughter cells, each of which becomes a new individual cell. This process is facilitated by the presence of a cell division cycle, which regulates the timing and rate of cell division, allowing the organism to increase in
+
+### d78735cc54
+Q: A food web can be broken up into what further subdivision that usually has a few links in it?
+CORRECT: food chain
+INCORRECT: food pyramid | oxygen chain | water chain
+ANSWER: A food web can be broken up into a trophic level, which is usually further subdivided into a primary producer (e.g. plant), secondary consumer (e.g. herbivore), and tertiary consumer (e.g. carnivore) or even a more detailed level like a primary consumer (e.g.
+
+### ce4e2e58b7
+Q: About what percentage of the earth's water is fresh water?
+CORRECT: three percent
+INCORRECT: two percent | nine percent | thirty percent
+ANSWER: About 2.5% of the Earth's water is fresh water, while the remaining 97.5% is saltwater.
+
+### af7407d8a7
+Q: What does the term decay in chemistry refer to with regards to atoms?
+CORRECT: changes in nuclei
+INCORRECT: pressures in nuclei | destruction of nuclei | separation of nuclei
+ANSWER: In chemistry, decay refers to the process by which an unstable atomic nucleus loses energy and stability by emitting radiation in the form of particles or electromagnetic waves, resulting in a more stable state. This process is often represented by the equation: A → β+ (beta particle) + ν (neutrino) + energy.
+
+### e873e17a93
+Q: What are most cells surrounded by?
+CORRECT: water
+INCORRECT: fat | lipids | air
+ANSWER: Most cells are surrounded by a cell membrane, which is a thin, semi-permeable lipid bilayer that separates the cell from its external environment.
+
+### 0f7293448f
+Q: What is land with permafrost, no trees, and small hardy plants?
+CORRECT: tundra
+INCORRECT: subtropics | taiga | desert
+ANSWER: The area you are describing is likely the Arctic tundra, which is a region of land with permafrost, limited tree growth, and hardy, small plants such as mosses, lichens, and low-growing shrubs. The tundra is a cold, treeless region found in high latitudes,
+
+### 18d7e70ef7
+Q: What type of climate does the coast of california have?
+CORRECT: mediterranean
+INCORRECT: rainforest | tropical | arctic
+ANSWER: The coast of California has a Mediterranean climate, characterized by mild, wet winters and cool, dry summers. The coastal regions tend to be foggy and mild, with temperatures ranging from the mid-40s to mid-60s Fahrenheit (7-18°C) throughout the year.
+
+### b1501f71b8
+Q: What type of bonds are formed by the side-to-side overlap of p orbitals?
+CORRECT: pi bonds
+INCORRECT: sigma bonds | omega bonds | theta bonds
+ANSWER: The type of bonds formed by the side-to-side overlap of p orbitals are sigma (σ) bonds.
+
+### 74bba91900
+Q: Humans are among the most versatile of mammals with what type of diet?
+CORRECT: omnivore
+INCORRECT: carnivore | herbivore | vegetarian
+ANSWER: Humans are omnivores, which means they can thrive on a diet that includes both plants and animals. A typical human diet consists of a balance of carbohydrates, proteins, and fats from a variety of sources, including fruits, vegetables, whole grains, lean meats, and dairy products.
+
+### c8f13148e3
+Q: Corrosion is usually defined as the degradation of metals due to what?
+CORRECT: electrochemical process
+INCORRECT: crystalline process | nuclear process | oscillatory process
+ANSWER: Corrosion is usually defined as the degradation of metals due to chemical reactions with their environment, particularly with oxygen, moisture, and other substances present in the air and water.
+
+### 591d86362e
+Q: What anatomical structures insulate, protect and provide sensory input?
+CORRECT: hair
+INCORRECT: teeth | fingernails | salivary glands
+ANSWER: The main anatomical structures that insulate, protect, and provide sensory input are the skin, the meninges (the protective membranes covering the brain and spinal cord), and the sensory organs (such as the eyes, ears, and nose).
+
+### 1df7982ce1
+Q: Sponges exemplify what type of arrangement, where different cells are specialized for different functions, but each cell works alone?
+CORRECT: cell-level organization
+INCORRECT: independent organization | commensalism | organ-level organization
+ANSWER: Sponges exemplify a simple multicellular, colonial arrangement, where different cells are specialized for different functions, but each cell works alone in a decentralized manner, often referred to as a "tissue" or "organ" rather than a "cell".
+
+### 783e92d100
+Q: What is the process of filtering waste from the kidneys?
+CORRECT: dialysis
+INCORRECT: virus | stones | inflammation
+ANSWER: The process of filtering waste from the kidneys involves the following steps: 
+
+1. The kidneys filter waste and excess fluids from the blood through a process called glomerular filtration, which occurs in the glomeruli.
+2. The filtered waste and excess fluids are then reabsorbed into the bloodstream through the renal tub
+
+### b8a9219901
+Q: What useful tool helps scientists work with, understand and make predictions about extremely complex systems?
+CORRECT: models
+INCORRECT: guesses | assumptions | speculation
+ANSWER: The useful tool that helps scientists work with, understand, and make predictions about extremely complex systems is the Computational Fluid Dynamics (CFD) software, specifically the Navier-Stokes equations solver, which is a numerical method used to simulate and analyze fluid dynamics and other complex systems.
+
+### 57ab75655c
+Q: When a nerve impulse reaches the end of an axon, what are the chemicals released by the axon called?
+CORRECT: neurotransmitters
+INCORRECT: neurons | electrolytes | receptors
+ANSWER: The chemicals released by the axon when a nerve impulse reaches the end of an axon are called neurotransmitters.
+
+### 2b241f385b
+Q: What theory states that there is no interaction between individual gas particles?
+CORRECT: kinetic theory
+INCORRECT: viscosity theory | vortex theory | Avoidance theory
+ANSWER: The theory that states there is no interaction between individual gas particles is the Ideal Gas Law, specifically the equation PV = nRT, which assumes that gas molecules do not interact with each other.
+
+### 92d7ae967c
+Q: What nervous system is divided into two parts, the sensory division and the motor division?
+CORRECT: peripheral
+INCORRECT: physiological | developmental | central
+ANSWER: The nervous system that is divided into two parts, the sensory division and the motor division, is the Peripheral Nervous System (PNS).
+
+### ad76e5b9a6
+Q: Most fungi get organic compounds from what?
+CORRECT: dead organisms
+INCORRECT: inorganic material | living organisms | carnivorous organisms
+ANSWER: Most fungi get organic compounds from decomposing organic matter, such as dead plants and animals, and from the breakdown of other organic compounds in the environment. They also obtain nutrients from the decomposition of dead organic matter, such as dead wood and other plant material.
+
+### 911694f448
+Q: Solute potential is also called osmotic potential because solutes affect the direction of what?
+CORRECT: osmosis
+INCORRECT: permeability | electrolysis | electrolysis
+ANSWER: Solute potential is also called osmotic potential because it affects the direction of water movement through a semipermeable membrane, which is the primary mechanism by which solutes exert osmotic pressure.
+
+### e121f53e6d
+Q: What geologic era is also known as the age of mammals?
+CORRECT: cenozoic era
+INCORRECT: mesozoic era | paleozoic era | cretaceous period
+ANSWER: The geologic era also known as the age of mammals is the Paleozoic Era.
+
+### b982ae87b1
+Q: Digestive enzymes are released, or secreted, by the organs of which body system?
+CORRECT: digestive system
+INCORRECT: nervous system | urinary system | endocrine system
+ANSWER: Digestive enzymes are released, or secreted, by the salivary glands and the stomach.
+
+### 58cca8e861
+Q: Which membranous organelles in a cell sequence enzyme and electron molecules for efficient cellular respiration?
+CORRECT: mitochondria
+INCORRECT: glucose | protons | bacterial
+ANSWER: The membranous organelles in a cell that sequence enzymes and electron molecules for efficient cellular respiration are the Mitochondria, Chloroplasts (in plant cells), and the Endoplasmic Reticulum (ER) in animal cells.
+
+### 6780d6d54f
+Q: What is part of a large fungus that lives underground?
+CORRECT: mushroom
+INCORRECT: bamboo | mold | bark
+ANSWER: The part of a large fungus that lives underground is called a mycelium.
+
+### ac9ad5d888
+Q: Illustrating how form follows function, long, slender protein strands that make up what tissue are essential for contracting and relaxing?
+CORRECT: muscle
+INCORRECT: tendons | veins | ligaments
+ANSWER: Muscle tissue is essential for contracting and relaxing, and long, slender protein strands called actin filaments are a key component of muscle cells, specifically muscle fibers. Actin filaments are composed of two main subunits: thin filaments (actin) and thick filaments (myosin), which work together
+
+### 2819573d0f
+Q: Lyme disease is caused by what kind of organim?
+CORRECT: bacteria
+INCORRECT: Virus | bacterium | algae
+ANSWER: Lyme disease is caused by the bacterium Borrelia burgdorferi, which is a spirochete.
+
+### bcf8679755
+Q: In astronomy, what are so dense that not even light can escape their gravity?
+CORRECT: black holes
+INCORRECT: black rods | dwarf stars | red holes
+ANSWER: The objects you are referring to are called black holes. They are so dense that not even light can escape their gravity, a phenomenon known as "event horizon."
+
+### 129732930e
+Q: What kind of organisms helps hold soil in place to slow erosion?
+CORRECT: plants
+INCORRECT: flowers | bacteria | animals
+ANSWER: Organisms that help hold soil in place to slow erosion include roots of plants, such as trees and shrubs, which anchor the soil with their extensive root systems, and organic matter like humus, which acts as a natural adhesive, binding soil particles together. Additionally, some microorganisms like mycorrhizal fungi
+
+### bbd1aa3ace
+Q: Hormones are often regulated through what?
+CORRECT: feedback loops
+INCORRECT: alternating loops | response loops | intensity loops
+ANSWER: Hormones are often regulated through the hypothalamic-pituitary-adrenal (HPA) axis, a complex neuroendocrine system that involves the hypothalamus, pituitary gland, and adrenal glands. The HPA axis plays a crucial role in regulating various physiological processes, including stress response, growth
+
+### 2bd19a1bba
+Q: What is the most important function of enzymes in animals?
+CORRECT: help digest food
+INCORRECT: carry oxygen | transport messages | excrete waste
+ANSWER: The most important function of enzymes in animals is to catalyze biochemical reactions that facilitate various physiological processes, such as digestion, metabolism, and energy production, by speeding up chemical reactions without being consumed by them.
+
+### 3bc0690d8f
+Q: A thermite reaction is thermodynamically spontaneous, and because it is associated with a significant release of heat, it is regarded as what?
+CORRECT: exothermic
+INCORRECT: biochemical | endotropic | endothermic
+ANSWER: A thermite reaction is thermodynamically spontaneous, and because it is associated with a significant release of heat, it is regarded as an exothermic reaction.

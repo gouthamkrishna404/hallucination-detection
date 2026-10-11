@@ -1,0 +1,239 @@
+### eb036b54d4
+Q: The chains in cellulose stack in parallel rows held together by hydrogen bonds between which groups?
+CORRECT: hydroxl groups
+INCORRECT: disc groups | carbon groups | soda groups
+ANSWER: The chains in cellulose stack in parallel rows held together by hydrogen bonds between the oxygen and hydrogen atoms in the hydroxyl groups.
+
+### 588d6bc9e0
+Q: What is land with permafrost, no trees, and small hardy plants?
+CORRECT: tundra
+INCORRECT: subtropics | taiga | desert
+ANSWER: Land with permafrost, no trees, and small hardy plants is tundra.
+
+### d29b866ab9
+Q: What type of climate does the coast of california have?
+CORRECT: mediterranean
+INCORRECT: rainforest | tropical | arctic
+ANSWER: The coast of California has a Mediterranean climate, characterized by mild, wet winters and warm, dry summers.
+
+### 06e37284dc
+Q: Like the frame of a house, what gives the cell an internal structure?
+CORRECT: cytoskeleton
+INCORRECT: cytoplasm | cellulose | endoskeleton
+ANSWER: The cell's internal structure is provided by the cell membrane, cytoplasm, and organelles.
+
+### f45e476db7
+Q: A food web can be broken up into what further subdivision that usually has a few links in it?
+CORRECT: food chain
+INCORRECT: food pyramid | oxygen chain | water chain
+ANSWER: A food web can be broken down into a food chain, which usually has a few links in it.
+
+### 6bfcc3814b
+Q: What form the skeletons of most organic molecules?
+CORRECT: carbon chains
+INCORRECT: hydrocarbons | amino acid chains | peptide groups
+ANSWER: The skeletons of most organic molecules are composed of carbon and hydrogen atoms.
+
+### 8188a9e0e7
+Q: Population size is the number of what in a population?
+CORRECT: individuals
+INCORRECT: humans | subdivisions | proteins
+ANSWER: Population size refers to the number of individuals or members in a population.
+
+### ce662a59ff
+Q: What term describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell?
+CORRECT: exocytosis
+INCORRECT: biosynthesis | plasmosis | endocytosis
+ANSWER: The term that describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell is exocytosis.
+
+### 1224bc9164
+Q: What anatomical structures insulate, protect and provide sensory input?
+CORRECT: hair
+INCORRECT: teeth | fingernails | salivary glands
+ANSWER: The anatomical structures that insulate, protect, and provide sensory input include the skin, bones, muscles, and sensory organs.
+
+### d44030a86d
+Q: Which part of the atmosphere do greenhouse gasses trap heat in?
+CORRECT: troposphere
+INCORRECT: thermosphere | lithosphere | stratosphere
+ANSWER: Greenhouse gasses trap heat in the lower atmosphere.
+
+### 9295250913
+Q: Earth's axis is an imaginary line passing through which poles?
+CORRECT: north and south
+INCORRECT: west and south | southwest and south | East and North
+ANSWER: Earth's axis is an imaginary line passing through its North and South poles.
+
+### 13acc60c40
+Q: About half of what type of radiation is absorbed in the first 15 meters of water?
+CORRECT: solar
+INCORRECT: surface | polar | natural
+ANSWER: Half of the radiation is absorbed in the first 15 meters of water.
+
+### 08b0957809
+Q: "incident" and "reflected" are two types of what?
+CORRECT: rays
+INCORRECT: cells | mirrors | collisions
+ANSWER: "Incident" and "reflected" are two types of electromagnetic waves.
+
+### a8e9e2108b
+Q: What organs are considered the female gonads?
+CORRECT: ovaries
+INCORRECT: testes | uterus | fallopian tubes
+ANSWER: The female gonads are ovaries.
+
+### 502573f349
+Q: What is the general name for a group of atoms derived from an alkane?
+CORRECT: alkyl group
+INCORRECT: anode group | oxidation group | acid group
+ANSWER: The general name for a group of atoms derived from an alkane is an alkene.
+
+### ee08ba4ec8
+Q: What is the mechanism by which favorable traits become more common in organisms over the course of generations?
+CORRECT: natural selection
+INCORRECT: evolution | environmental selection | birth
+ANSWER: The mechanism by which favorable traits become more common in organisms over the course of generations is through natural selection.
+
+### c01dc5257b
+Q: What particles ancient greeks propose that matter consists of ?
+CORRECT: atoms
+INCORRECT: ions | molecules | ether
+ANSWER: Ancient Greeks proposed that matter consists of particles called atoms.
+
+### 346ee7df3d
+Q: Radiation, chemicals, and infectious agents are examples of what?
+CORRECT: mutagens
+INCORRECT: inhibitors | catalysts | pathogens
+ANSWER: Radiation, chemicals, and infectious agents are examples of environmental hazards.
+
+### d356b40003
+Q: How many viruses that can cause cancer in humans have been identified by scientists?
+CORRECT: 6
+INCORRECT: 4 | 3 | 1
+ANSWER: Scientists have identified 17 viruses that can cause cancer in humans.
+
+### ef6955baa9
+Q: What is the most abundant metal of the earth's crust?
+CORRECT: aluminum
+INCORRECT: calcium | copper | magnetite
+ANSWER: The most abundant metal in the Earth's crust is iron.
+
+### 16849efdb2
+Q: Two significant parts of the heat include the atrium and its counterpart, which is what?
+CORRECT: ventricle
+INCORRECT: cells | skeletal | valve
+ANSWER: The two significant parts of the heat include the atrium and its counterpart, which is the cooling tower.
+
+### efb1f47a76
+Q: What branch of science explains much of what you observe and do in your daily life?
+CORRECT: physical science
+INCORRECT: temperature science | psychology | astronomy
+ANSWER: The branch of science that explains much of what you observe and do in your daily life is physics.
+
+### 3d272b4d74
+Q: In the inner ear, the vibrations are changed to electrical signals by hair cells lining what?
+CORRECT: the cochlea
+INCORRECT: ear canal | hammer | ear lobe
+ANSWER: The vibrations in the inner ear are changed to electrical signals by hair cells lining the cochlea.
+
+### 9081f78043
+Q: Which is a more reliable trait or measure to identify minerals?
+CORRECT: streak
+INCORRECT: color | shape | weight
+ANSWER: A more reliable trait or measure to identify minerals is their physical properties, such as hardness, color, luster, and cleavage, as these can be observed and tested without requiring specialized equipment.
+
+### 3e8900b009
+Q: How do prokaryotic cells divide?
+CORRECT: binary fission
+INCORRECT: Fusion | function fission | multiple fission
+ANSWER: Prokaryotic cells divide through a process called binary fission, where the cell replicates its DNA and then splits into two identical daughter cells.
+
+### a268c7f5ce
+Q: What nervous system is divided into two parts, the sensory division and the motor division?
+CORRECT: peripheral
+INCORRECT: physiological | developmental | central
+ANSWER: The nervous system divided into two parts is the peripheral nervous system, which includes the sensory division and the motor division.
+
+### 6753dc382d
+Q: What are plants that grow on other plants called?
+CORRECT: epiphytes
+INCORRECT: fungi | parasites | bryophytes
+ANSWER: Plants that grow on other plants are called epiphytes.
+
+### 1991c3ca9e
+Q: What phase does the cell make final preparations to divide?
+CORRECT: growth phase 2
+INCORRECT: growth phase 1 | carbonate phase 2 | dioxide phase 2
+ANSWER: The cell prepares to divide in the G2 phase.
+
+### 8780e3000b
+Q: What is the blood in the body pumped with?
+CORRECT: heart
+INCORRECT: systolic pressure | respiratory | lung
+ANSWER: The blood in the body is pumped with oxygenated blood from the heart.
+
+### 140e2dafd3
+Q: What is one thing that cell membranes are permeable to?
+CORRECT: specific ions
+INCORRECT: nutrients | gas | metals
+ANSWER: One thing that cell membranes are permeable to is water.
+
+### e74724db85
+Q: Cardiac muscle is found only in which part of the heart?
+CORRECT: the walls
+INCORRECT: the ridges | the left side | the bottom
+ANSWER: Cardiac muscle is found only in the heart.
+
+### 40fd177530
+Q: All of the elements in group 9 have nine of which electrons?
+CORRECT: valence
+INCORRECT: shell | ionic | gradient
+ANSWER: All elements in group 9 have nine valence electrons.
+
+### f35a1aeb15
+Q: Which membranous organelles in a cell sequence enzyme and electron molecules for efficient cellular respiration?
+CORRECT: mitochondria
+INCORRECT: glucose | protons | bacterial
+ANSWER: Mitochondria in a cell sequence enzymes and electron molecules for efficient cellular respiration.
+
+### c0b28d9b52
+Q: Why do fish have short esophaguses?
+CORRECT: no lungs
+INCORRECT: big tail | no intestines | no mouths
+ANSWER: Fish have short esophaguses because they are ectothermic, meaning their body temperature is regulated by the environment, and they do not need to conserve energy for digestion like warm-blooded animals do.
+
+### 67ee9f7997
+Q: What term means the set of processes by which metals are extracted from their ores and converted to more useful forms?
+CORRECT: metallurgy
+INCORRECT: metamorphisis | introversion | ceramics
+ANSWER: The term that means the set of processes by which metals are extracted from their ores and converted to more useful forms is metallurgy.
+
+### d296be53a7
+Q: What takes place where septa is found?
+CORRECT: forming of reproductive cells
+INCORRECT: forming of stem cells | forming of brain cells | forming of muscle tissue
+ANSWER: Septa is found in the cells of the human body, particularly in the walls of blood vessels, where it plays a crucial role in the structure and function of the circulatory system.
+
+### fcb03c1c2b
+Q: The components of a mixture keep their own identity when they combine, so they retain what type of properties, such as boiling point and ability to dissolve?
+CORRECT: physical
+INCORRECT: thermal | internal | thermal
+ANSWER: The components of a mixture keep their own identity when they combine, so they retain their original properties, such as boiling point and ability to dissolve.
+
+### 5bf484d4ba
+Q: What evolutionary process has adapted protonephridia to different tasks in different environments?
+CORRECT: natural selection
+INCORRECT: natural reproduction | natural variety | natural change
+ANSWER: The evolutionary process that has adapted protonephridia to different tasks in different environments is adaptation.
+
+### 53c77c77ee
+Q: We must remember that the formal charge calculated for an atom is not the actual charge of the atom in the molecule. formal charge is only a useful bookkeeping procedure; it does not indicate the presence of these?
+CORRECT: actual charges
+INCORRECT: isotopes | negative charges | electron bonds
+ANSWER: The actual charge of an atom in a molecule is not indicated by the calculated formal charge.
+
+### cb0bec8125
+Q: Toxins and poisons are ______ enzyme inhibitos
+CORRECT: irreversible
+INCORRECT: reversible | cancerous | observable
+ANSWER: Toxins and poisons can inhibit enzymes, which are proteins that speed up chemical reactions in the body.

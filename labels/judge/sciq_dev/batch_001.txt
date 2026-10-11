@@ -1,0 +1,239 @@
+### 006ad289ba
+Q: Where are liverworts most often found?
+CORRECT: along stream beds
+INCORRECT: in the ocean | on mountains | in deserts
+ANSWER: Liverworts are most often found in moist, shady areas such as forests, bogs, and damp meadows.
+
+### 868c52c749
+Q: "incident" and "reflected" are two types of what?
+CORRECT: rays
+INCORRECT: cells | mirrors | collisions
+ANSWER: "incident" and "reflected" are two types of verbs.
+
+### 5cd740edd0
+Q: Corrosion is usually defined as the degradation of metals due to what?
+CORRECT: electrochemical process
+INCORRECT: crystalline process | nuclear process | oscillatory process
+ANSWER: Corrosion is usually defined as the degradation of metals due to chemical or electrochemical reactions with their environment.
+
+### 5cb5172d49
+Q: What are chromosomes made of?
+CORRECT: dna and proteins
+INCORRECT: amino acids | sperm and proteins | muscle tissue
+ANSWER: Chromosomes are made of DNA and proteins.
+
+### 02885babd7
+Q: The lithosphere is divided into a dozen major and several minor what?
+CORRECT: plates
+INCORRECT: zones | crystals | faults
+ANSWER: The lithosphere is divided into a dozen major and several minor tectonic plates.
+
+### 15f39a870d
+Q: How many families are known quarks divided into?
+CORRECT: three
+INCORRECT: two | five | four
+ANSWER: Quarks are known to be divided into three families.
+
+### 18609fc84c
+Q: What rock group offers the richest source of fossils?
+CORRECT: sedimentary
+INCORRECT: metamorphic | igneous | geode
+ANSWER: The rock group that offers the richest source of fossils is the Burgess Shale in Canada.
+
+### 5bb0909b67
+Q: What type of bombs put a much larger fraction of their output into thermal energy than do conventional bombs?
+CORRECT: nuclear
+INCORRECT: dense bombs | dirty bombs | TNT
+ANSWER: TNT bombs put a much larger fraction of their output into thermal energy than do conventional bombs.
+
+### 566af42239
+Q: In a plant, the flower contains what?
+CORRECT: pollen and eggs
+INCORRECT: bees and blossoms | seed and leaves | bud and stem
+ANSWER: In a plant, the flower contains reproductive organs.
+
+### 0401335b68
+Q: What do you call the basic units of the structure and function of living things?
+CORRECT: cells
+INCORRECT: molecules | enzymes | proteins
+ANSWER: Cells are the basic units of the structure and function of living things.
+
+### de29fbc1f4
+Q: Control of the body can be somatic or autonomic, offering one way to divide what organ system by function?
+CORRECT: nervous system
+INCORRECT: cardiovascular system | circulatory system | central system
+ANSWER: The autonomic nervous system controls involuntary bodily functions, while the somatic nervous system controls voluntary movements.
+
+### 82cb38b341
+Q: What kind of weather can you expect if a center of low pressure is moving your way?
+CORRECT: stormy
+INCORRECT: rain | rough | sunny
+ANSWER: If a center of low pressure is moving your way, you can expect a change in weather conditions, typically including rain, thunderstorms, and possibly strong winds.
+
+### 002f4e63af
+Q: What type of bonds are formed by the side-to-side overlap of p orbitals?
+CORRECT: pi bonds
+INCORRECT: sigma bonds | omega bonds | theta bonds
+ANSWER: Hybridization of p orbitals forms sp, sp2, and sp3 bonds.
+
+### 4d5e121d0a
+Q: Asteroids, comets, and planets move around the sun in curved paths called what?
+CORRECT: orbits
+INCORRECT: satellites | curves | ellipticals
+ANSWER: Asteroids, comets, and planets move around the sun in curved paths called orbits.
+
+### 41d7a9ea82
+Q: Why do fish have short esophaguses?
+CORRECT: no lungs
+INCORRECT: big tail | no intestines | no mouths
+ANSWER: Fish have short esophaguses to facilitate rapid swallowing and efficient digestion of their aquatic prey.
+
+### 75a2bfec09
+Q: Population size is the number of what in a population?
+CORRECT: individuals
+INCORRECT: humans | subdivisions | proteins
+ANSWER: Population size is the number of individuals in a population.
+
+### 0aaeb95bee
+Q: Cnidarians are an example of organisms that possess a simple type of what system, used for sensing touch?
+CORRECT: nervous system
+INCORRECT: circulatory system | lymphatic system | bacterial system
+ANSWER: Cnidarians possess a simple type of nervous system used for sensing touch.
+
+### 4d8d53fab4
+Q: In the inner ear, the vibrations are changed to electrical signals by hair cells lining what?
+CORRECT: the cochlea
+INCORRECT: ear canal | hammer | ear lobe
+ANSWER: In the inner ear, the vibrations are changed to electrical signals by hair cells lining the cochlea.
+
+### 34934b41f9
+Q: The lens and other parts of the eye work together to focus a real image on what eye structure?
+CORRECT: retina
+INCORRECT: iris | pupil | cornea
+ANSWER: The lens and other parts of the eye work together to focus a real image on the retina.
+
+### 777f600083
+Q: About what percentage of the earth's water is fresh water?
+CORRECT: three percent
+INCORRECT: two percent | nine percent | thirty percent
+ANSWER: About 2.5% of the Earth's water is fresh water.
+
+### 090b62674c
+Q: Traits controlled by genes on the sex chromosomes are called what?
+CORRECT: sex-linked traits
+INCORRECT: male-related traits | gender-linked traits | chromosome-linked traits
+ANSWER: Traits controlled by genes on the sex chromosomes are called sex-linked traits.
+
+### 476c06090f
+Q: A food web can be broken up into what further subdivision that usually has a few links in it?
+CORRECT: food chain
+INCORRECT: food pyramid | oxygen chain | water chain
+ANSWER: A food web can be broken up into trophic levels, which usually have a few links in it.
+
+### a0b693a305
+Q: A battery is a multiple connection of what kind of cells?
+CORRECT: voltaic cells
+INCORRECT: cabri cells | organic cells | localweather cells
+ANSWER: A battery is a multiple connection of cells.
+
+### 80b2d1cf0e
+Q: What phase does the cell make final preparations to divide?
+CORRECT: growth phase 2
+INCORRECT: growth phase 1 | carbonate phase 2 | dioxide phase 2
+ANSWER: The cell enters the prophase phase, which is the first stage of mitosis, where it makes final preparations for division.
+
+### c06fb1381a
+Q: What organs are considered the female gonads?
+CORRECT: ovaries
+INCORRECT: testes | uterus | fallopian tubes
+ANSWER: The ovaries and the uterus are considered the female gonads.
+
+### d115f605a3
+Q: What are atoms with unstable nuclei are considered to be?
+CORRECT: radioactive
+INCORRECT: ions | unstable | destructive
+ANSWER: Radioactive.
+
+### 4b7d4cff69
+Q: What substance, which forms igneous rock, flows out in rivers of lava when it reaches the surface?
+CORRECT: magma
+INCORRECT: granite | soil | fertilizer
+ANSWER: Magma is the substance that, when it reaches the surface, flows out in rivers of lava and forms igneous rock.
+
+### d0b451186e
+Q: What is first stage of cellular respiration?
+CORRECT: glycolsis
+INCORRECT: electrolysis | hydrolisis | metabolism
+ANSWER: The first stage of cellular respiration is glycolysis.
+
+### 14ccb40dd5
+Q: Nephrons, renal tubules and the loop of henle are part of the process of blood filtration by what organs?
+CORRECT: kidneys
+INCORRECT: bladder | lungs | liver
+ANSWER: Nephrons, renal tubules, and the loop of Henle are part of the process of blood filtration by the kidneys.
+
+### dc5ea95c4e
+Q: Competition that occurs between members of the same species, which improves the species’ adaptations, is called what?
+CORRECT: intraspecific competition
+INCORRECT: interspecies competition | commensalism | adaptive behavior
+ANSWER: Natural selection.
+
+### 251af11077
+Q: What 3 things do animals need to live and survive?
+CORRECT: air, water, and food
+INCORRECT: air, water, and socialization | sex, water, and sleep | water, food, and an ecosystem
+ANSWER: Animals need food, water, and shelter to live and survive.
+
+### 41e30dc0bd
+Q: What useful tool helps scientists work with, understand and make predictions about extremely complex systems?
+CORRECT: models
+INCORRECT: guesses | assumptions | speculation
+ANSWER: Computational tools help scientists work with, understand, and make predictions about extremely complex systems.
+
+### 7160e9ffe5
+Q: Toxins and poisons are ______ enzyme inhibitos
+CORRECT: irreversible
+INCORRECT: reversible | cancerous | observable
+ANSWER: Toxins and poisons are enzyme inhibitors.
+
+### f427e47efb
+Q: Cardiac muscle is found only in which part of the heart?
+CORRECT: the walls
+INCORRECT: the ridges | the left side | the bottom
+ANSWER: Cardiac muscle is found only in the myocardium, the middle layer of the heart.
+
+### f5ecfbec7e
+Q: What structures located on chromosomes control characteristics of life and are passed from parents to offspring?
+CORRECT: genes
+INCORRECT: eggs | axons | cells
+ANSWER: Genes located on chromosomes control characteristics of life and are passed from parents to offspring.
+
+### a7458e4c9f
+Q: Water can be broken down into hydrogen and oxygen gases by the addition of what?
+CORRECT: energy
+INCORRECT: motion | mineral | demand
+ANSWER: Water can be broken down into hydrogen and oxygen gases by the addition of electricity.
+
+### 2a35613b2f
+Q: What nervous system is divided into two parts, the sensory division and the motor division?
+CORRECT: peripheral
+INCORRECT: physiological | developmental | central
+ANSWER: The nervous system divided into two parts, the sensory division and the motor division, is the peripheral nervous system.
+
+### e90415c00a
+Q: Melting ice is drastically impacting the number of what at glacier national park?
+CORRECT: active glaciers
+INCORRECT: gaisers | trees | icebergs
+ANSWER: Melting ice is drastically impacting the number of glaciers at Glacier National Park.
+
+### afdbd6ce45
+Q: What type of eclipse happens when a full moon moves through earth's shadow?
+CORRECT: lunar
+INCORRECT: cycle | solar | planetary
+ANSWER: A lunar eclipse occurs when a full moon moves through Earth's shadow.
+
+### b8fafdb559
+Q: What type of climate does the coast of california have?
+CORRECT: mediterranean
+INCORRECT: rainforest | tropical | arctic
+ANSWER: The coast of California has a Mediterranean climate, characterized by mild, wet winters and hot, dry summers.

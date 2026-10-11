@@ -1,0 +1,241 @@
+### f6ddd16ff2
+Q: Three body segments, a hard exoskeleton, and jointed appendages are features of what invertebrate group, which includes spider and insects?
+CORRECT: arthropod
+INCORRECT: annelid | sauropod | crustacean
+ANSWER: The invertebrate group that includes spider and insects, and features three body segments, a hard exoskeleton, and jointed appendages, is arthropods.
+
+### 9c0b26fc9a
+Q: A fever also causes the immune system to make more of what?
+CORRECT: white blood cells
+INCORRECT: insulin | red blood cells | urea
+ANSWER: A fever typically causes the immune system to make more of white blood cells, specifically neutrophils and lymphocytes, which are types of white blood cells that help fight infections.
+
+### 2b54195857
+Q: What kind of drugs are formulated to help deal with hiv and herpes as well as influenza and two types of hepatitis?
+CORRECT: antiviral drugs
+INCORRECT: antibacterial drugs | steroid drugs | herbal remedies
+ANSWER: The medications commonly used to treat HIV, herpes, influenza, and two types of hepatitis include:
+
+- Antiretroviral therapy (ART) for HIV, such as Truvada (emtricitabine and tenofovir) and Atripla (emtricitabine, tenofo
+
+### f22168f878
+Q: What is the term for when an embryo fixes itself to the side of the uterus?
+CORRECT: implantation
+INCORRECT: bacterial | parasite | exploration
+ANSWER: The term for when an embryo fixes itself to the side of the uterus is called implantation.
+
+### 46b0b71196
+Q: What kind of viscosity is found in long-chain hydrocarbons?
+CORRECT: highly viscous
+INCORRECT: increased viscosity | low viscosity | intense viscosity
+ANSWER: Long-chain hydrocarbons typically have a high viscosity, often in the range of 10-100 centipoise (cP), due to their large molecular weight and relatively low molecular weight.
+
+### 3b17c4e2e0
+Q: What do scientists think to be the oldest eukaryotes?
+CORRECT: protists
+INCORRECT: bivalves | arthropods | ciliate
+ANSWER: Scientists believe that the oldest eukaryotes are likely to be the Archaea, specifically the group Methanococcus jannaschii, which is thought to have evolved around 3.5 billion years ago.
+
+### f6c968ab4b
+Q: Quarks are very tiny particles of matter that make up what?
+CORRECT: protons and neutrons
+INCORRECT: electrons and neutrons | protons and electrons | atoms and neutrons
+ANSWER: Quarks are the building blocks of protons and neutrons, which in turn make up atomic nuclei, specifically atomic nuclei.
+
+### 321ff55d81
+Q: Animals are heterotrophs, which means that they cannot make their own what?
+CORRECT: food
+INCORRECT: fuel | energy | habitat
+ANSWER: Animals are heterotrophs, which means that they cannot make their own food through photosynthesis or chemosynthesis, but rather they consume other organisms or organic matter to obtain energy and nutrients.
+
+### 80d5ef6528
+Q: What system consists of organs that break down food and absorb nutrients such as glucose?
+CORRECT: digestive system
+INCORRECT: cardiovascular system | physical system | skeletal system
+ANSWER: The system that consists of organs that break down food and absorb nutrients such as glucose is the Digestive System, specifically the Mouth, Esophagus, Stomach, Small Intestine, and Large Intestine.
+
+### 7916efde03
+Q: Where does a crossover occur on a chromosome?
+CORRECT: at different locations
+INCORRECT: at no locations | at one-two locations | at the same location
+ANSWER: A crossover occurs on a chromosome between two non-sister chromatids, typically at a point called a crossover point or crossover site, which is usually located near the centromere.
+
+### 26b28a5c53
+Q: A solenoid wrapped around a bar of iron or other ferromagnetic material forms what?
+CORRECT: electromagnet
+INCORRECT: impoundment | compass | compress
+ANSWER: A solenoid wrapped around a bar of iron or other ferromagnetic material forms a permanent magnet.
+
+### c4c23e746f
+Q: Hydrogen atoms form only one covalent bond because they have only one have one of what to pair with it?
+CORRECT: valence electron
+INCORRECT: loops electron | modular electron | Water electron
+ANSWER: Hydrogen atoms form only one covalent bond because they have only one electron to pair with, which is typically a shared pair with another atom, usually a more electronegative atom like oxygen, nitrogen, or fluorine.
+
+### 1ba58d00f6
+Q: Speed, loudness, and pitch are properties of what?
+CORRECT: sound
+INCORRECT: metal | colour | light
+ANSWER: Speed, loudness, and pitch are properties of sound waves.
+
+### ab80cfa07b
+Q: What are the majority of solution properties dependent upon?
+CORRECT: chemical state of solute
+INCORRECT: similar state of solute | gas state of solute | acid state of solute
+ANSWER: The majority of solution properties, such as solubility, boiling point, and viscosity, are dependent upon the intermolecular forces present in the solution, specifically the type and strength of the intermolecular forces, which include hydrogen bonding, dipole-dipole interactions, and London dispersion forces.
+
+### 140f2ffb68
+Q: Parasites infect the host's what?
+CORRECT: red blood cells
+INCORRECT: platelets | plasma | white blood cells
+ANSWER: Parasites infect the host's cells.
+
+### 16795a4559
+Q: Movements in the mantle cause the plates to move over time in a process called what?
+CORRECT: continental drift
+INCORRECT: continental expansion | continental shift | boundary drift
+ANSWER: The movements in the mantle cause the plates to move over time in a process called plate tectonics.
+
+### c8aca73db3
+Q: If the water vapor condenses in liquid droplets as clouds form, what is released in the atmosphere?
+CORRECT: heat
+INCORRECT: oxygen | hydrogen | electricity
+ANSWER: The water vapor released in the atmosphere as clouds form is condensed into liquid droplets, which eventually become visible as precipitation, such as rain or snow.
+
+### f915f1d411
+Q: What type of reactions absorb heat from their surroundings?
+CORRECT: endothermic
+INCORRECT: geothermic | hypothermic | exothermic
+ANSWER: Conduction reactions absorb heat from their surroundings. These are chemical reactions where heat is transferred through direct contact between reactants, resulting in a temperature increase.
+
+### e3a6f23462
+Q: In our bodies, the chest cavity is a clear example of a system at what?
+CORRECT: resonance
+INCORRECT: rest | scale | default
+ANSWER: The chest cavity is a clear example of a system that is a closed, muscular, and hollow space that contains vital organs such as the heart, lungs, and esophagus.
+
+### 89b217cd0e
+Q: What anatomical feature is shared by all chordates?
+CORRECT: notochord
+INCORRECT: isochord | botachord | laxchord
+ANSWER: The pharyngeal slits, which are paired openings in the pharynx of chordates, are a shared anatomical feature among all chordates.
+
+### 6e010a2e6f
+Q: Chitin, also found in the exoskeleton of insects, gives structural strength to the cell walls of fungi. the cell wall protects the cell from what?
+CORRECT: desiccation and predators
+INCORRECT: fermentation and predators | entrainment and predators | starvation and predators
+ANSWER: The cell wall protects the cell from physical damage and mechanical stress, such as osmotic pressure and abrasion.
+
+### e14bafe55b
+Q: Somatic cells come from the body and are not what, like sperm or eggs are?
+CORRECT: gametes
+INCORRECT: spores | toxins | organic
+ANSWER: Somatic cells, also known as somatic nuclei, are the cells that make up the majority of the body's cells and are not reproductive cells like sperm or eggs. They are the non-reproductive cells that perform various functions, such as growth, maintenance, and repair, and are found in all tissues and organs of
+
+### 05c7995b53
+Q: Radioactive atoms, nuclear explosions, and stars produce what types of rays.
+CORRECT: gamma
+INCORRECT: plasma | neutron | beta
+ANSWER: Radioactive atoms, nuclear explosions, and stars produce alpha, beta, and gamma radiation.
+
+### 8cb0c10f62
+Q: What involves sensing and focusing light from people and objects?
+CORRECT: vision
+INCORRECT: echolocation | sensory perception | projection
+ANSWER: The process of sensing and focusing light from people and objects is known as "photography."
+
+### b6443587f2
+Q: Vultures, raccoons and blowflies are examples of what?
+CORRECT: scavengers
+INCORRECT: producer | predator | consumer
+ANSWER: Vultures, raccoons, and blowflies are examples of scavengers.
+
+### 19ec37196b
+Q: Excessive exposure to what is the main cause of skin cancer?
+CORRECT: uv light
+INCORRECT: LED light | fluorescent light | incandescent light
+ANSWER: Excessive exposure to ultraviolet (UV) radiation from the sun or tanning beds is the main cause of skin cancer. UV radiation can cause damage to the DNA in skin cells, leading to mutations that can result in skin cancer, including melanoma, basal cell carcinoma, and squamous cell carcinoma.
+
+### e76fc2ec91
+Q: Unlike prokaryotic chromosomes, eukaryotic chromosomes are what?
+CORRECT: linear
+INCORRECT: multiple | simple | expanding
+ANSWER: Eukaryotic chromosomes are larger and more complex than prokaryotic chromosomes, consisting of multiple linear chromosomes made up of DNA and proteins, and are typically found in the nucleus of eukaryotic cells.
+
+### 15c786690a
+Q: What navigation technology works on the same principle as echolocation?
+CORRECT: sonar
+INCORRECT: radar | GPS | topography
+ANSWER: The navigation technology that works on the same principle as echolocation is sonar (Sound Navigation and Ranging).
+
+### 12b41e2c4c
+Q: What are plants that are adapted to very dry environments called?
+CORRECT: xerophytes
+INCORRECT: succulents | pores | sporozoans
+ANSWER: Plants that are adapted to very dry environments are called succulents.
+
+### 6a2d4137c4
+Q: Specific antigens on the surface of red blood cells determine what, which is important in cases of transfusion?
+CORRECT: blood type
+INCORRECT: blood count | blood amount | blood form
+ANSWER: Specific antigens on the surface of red blood cells determine the compatibility of the blood with the recipient, which is important in cases of transfusion to prevent an immune response and ensure safe transfusion. The presence of certain antigens, such as ABO blood group antigens (e.g., A, B, AB,
+
+### 0c97865b4f
+Q: The flower is an angiosperm structure specialized for what function?
+CORRECT: sexual reproduction
+INCORRECT: asexual reproduction | nutrient production | protection from cold
+ANSWER: The flower is an angiosperm structure specialized for reproduction. It is a reproductive structure that contains the male and female reproductive organs, allowing for the fertilization and development of seeds.
+
+### f668885bdc
+Q: In humans, the only haploid cells are what reproductive cells?
+CORRECT: sperm and egg
+INCORRECT: dna and egg | sperm and dna | uteral and sperm
+ANSWER: In humans, the only haploid cells are the gametes, specifically the sperm and egg cells, which are the reproductive cells.
+
+### ec0fd45c4b
+Q: The cultivated forms of wheat, cotton, and tobacco plants are all what?
+CORRECT: allopolyploids
+INCORRECT: pores | sporozoans | bales
+ANSWER: The cultivated forms of wheat, cotton, and tobacco plants are all "monocots."
+
+### 97043efa2f
+Q: Prophase is preceded by a preprophase stage in what type of cells?
+CORRECT: plant cells
+INCORRECT: brain cells | hair and nail cells | egg cells
+ANSWER: Prophase is preceded by a preprophase stage in spermatocytes in male reproductive cells, specifically in spermatocytes.
+
+### b9f1b60ba0
+Q: What protects the brain and spinal cord in the central nervous system?
+CORRECT: meninges
+INCORRECT: neutrophils | dermis | Flexing
+ANSWER: The protective layers of the central nervous system (CNS) include the meninges, which are two layers of connective tissue that cover and protect the brain and spinal cord, and the dura mater, a tough, outer layer of connective tissue that surrounds and protects the CNS. The dura mater is further protected
+
+### 13e99641db
+Q: What is the term for an exact genetic copy?
+CORRECT: clone
+INCORRECT: genetic recreation | duplication | genetic repeat
+ANSWER: The term for an exact genetic copy is a "genomic twin."
+
+### 7521a32a50
+Q: Animal behavior can be said to be controlled by genetics and experiences, also known as nature and what?
+CORRECT: nurture
+INCORRECT: growth | evolution | interaction
+ANSWER: Animal behavior can be said to be controlled by genetics and experiences, also known as environment.
+
+### a071993ed4
+Q: What type of chemical reactions release energy?
+CORRECT: exothermic reactions
+INCORRECT: sulfuric reactions | endothermic reactions | biochemical reactions
+ANSWER: Chemical reactions that release energy are called exothermic reactions. These reactions involve the breaking or forming of chemical bonds, which releases heat energy into the surroundings.
+
+### 1d71f50e93
+Q: In multicellular organisms, essential biological functions are carried out by what?
+CORRECT: organs
+INCORRECT: atoms | cells | molecules
+ANSWER: In multicellular organisms, essential biological functions are carried out by cells, specifically by the plasma membrane, cytoplasm, and organelles such as mitochondria, ribosomes, and lysosomes.
+
+### 2e495117fd
+Q: What are biochemical catalysts that speed up biochemical reactions?
+CORRECT: enzymes
+INCORRECT: inhibitor | metabolites | polymers
+ANSWER: The biochemical catalysts that speed up biochemical reactions are enzymes, which are proteins that lower the activation energy required for a reaction to occur, allowing the reaction to proceed faster and more efficiently. Enzymes are highly specific to their substrates and can be found in nearly all living organisms.

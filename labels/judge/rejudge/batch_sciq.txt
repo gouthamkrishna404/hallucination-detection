@@ -1,0 +1,239 @@
+### 75a2bfec09
+Q: Population size is the number of what in a population?
+CORRECT: individuals
+INCORRECT: humans | subdivisions | proteins
+ANSWER: Population size is the number of individuals in a population.
+
+### 412796aac9
+Q: What kind of muscle is the heart mainly composed of?
+CORRECT: cardiac muscle
+INCORRECT: respiratory muscle | idealized muscle | nerve muscle
+ANSWER: The heart is mainly composed of cardiac muscle.
+
+### 14ccb40dd5
+Q: Nephrons, renal tubules and the loop of henle are part of the process of blood filtration by what organs?
+CORRECT: kidneys
+INCORRECT: bladder | lungs | liver
+ANSWER: Nephrons, renal tubules, and the loop of Henle are part of the process of blood filtration by the kidneys.
+
+### 1e7804bb46
+Q: What term is used to describe the development of new technology?
+CORRECT: technological design
+INCORRECT: mechanical engineering | technological expansion | industrial design
+ANSWER: The term used to describe the development of new technology is "innovation."
+
+### 92c0a29af5
+Q: A thermite reaction is thermodynamically spontaneous, and because it is associated with a significant release of heat, it is regarded as what?
+CORRECT: exothermic
+INCORRECT: biochemical | endotropic | endothermic
+ANSWER: A thermite reaction is regarded as exothermic.
+
+### 6c53ebeccf
+Q: What do you call the study of how organisms interact with their environment and each other?
+CORRECT: ecology
+INCORRECT: biology | biochemistry | climatology
+ANSWER: The study of how organisms interact with their environment and each other is called Ecology.
+
+### e6f9c54352
+Q: One important phenomenon related to the relative strength of cohesive and adhesive forces is capillary action—the tendency of a fluid to be raised or suppressed in a narrow tube, or called this?
+CORRECT: capillary tube
+INCORRECT: melting tube | cohesive tube | pressure tube
+ANSWER: Capillary action is the tendency of a fluid to be raised or suppressed in a narrow tube.
+
+### df8e219193
+Q: The chains in cellulose stack in parallel rows held together by hydrogen bonds between which groups?
+CORRECT: hydroxl groups
+INCORRECT: disc groups | carbon groups | soda groups
+ANSWER: The chains in cellulose stack in parallel rows held together by hydrogen bonds between the hydroxyl (-OH) groups of adjacent glucose units.
+
+### 9b0a375051
+Q: What organs are considered the female gonads?
+CORRECT: ovaries
+INCORRECT: testes | uterus | fallopian tubes
+ANSWER: The ovaries are the female gonads. They are the organs responsible for producing eggs (oocytes) and hormones such as estrogen and progesterone.
+
+### b976999b09
+Q: What crucial role does beneficial fungi play?
+CORRECT: balance of ecosystems
+INCORRECT: cleaning the soil | cleaning water | killing bacteria
+ANSWER: Beneficial fungi play a crucial role in decomposing organic matter, fixing nitrogen in soil, and producing antibiotics and other compounds that can help plants grow, making them a vital component of the ecosystem. They also help to break down complex organic compounds, making nutrients available to plants and other organisms.
+
+### 99413204d6
+Q: What is the blood in the body pumped with?
+CORRECT: heart
+INCORRECT: systolic pressure | respiratory | lung
+ANSWER: The heart pumps blood throughout the body.
+
+### f857234c1d
+Q: There are 20 different common amino acids needed to make what organic compound?
+CORRECT: proteins
+INCORRECT: lipids | nutron | cells
+ANSWER: There are 20 different common amino acids needed to make proteins.
+
+### 7de210af8c
+Q: What is the the process by which remains or traces of living things become fossils called?
+CORRECT: fossilization
+INCORRECT: extirpation | gentrification | fasciculation
+ANSWER: The process by which remains or traces of living things become fossils is called permineralization.
+
+### 7b8d2040e9
+Q: What is a large molecule with many repeating units?
+CORRECT: polymer
+INCORRECT: cells | supermolecule | plasma
+ANSWER: A large molecule with many repeating units is called a polymer.
+
+### 82cb38b341
+Q: What kind of weather can you expect if a center of low pressure is moving your way?
+CORRECT: stormy
+INCORRECT: rain | rough | sunny
+ANSWER: If a center of low pressure is moving your way, you can expect a change in weather conditions, typically including rain, thunderstorms, and possibly strong winds.
+
+### 828e627d92
+Q: Radiation, chemicals, and infectious agents are examples of what?
+CORRECT: mutagens
+INCORRECT: inhibitors | catalysts | pathogens
+ANSWER: Radiation, chemicals, and infectious agents are examples of biological and chemical hazards.
+
+### b609f26958
+Q: In the case of the moose, predation is an additional factor that regulates what?
+CORRECT: population
+INCORRECT: speed | color | weight
+ANSWER: In the case of the moose, predation is an additional factor that regulates population size.
+
+### bd7c7c64c6
+Q: What term describes the process of vesicles fusing with the plasma membrane and releasing their contents to the outside of the cell?
+CORRECT: exocytosis
+INCORRECT: biosynthesis | plasmosis | endocytosis
+ANSWER: The term that describes this process is exocytosis.
+
+### cb104357e2
+Q: Organs involved in digestion that do not have food pass through them are called?
+CORRECT: accessory organs
+INCORRECT: vestigial organs | layer organs | bypass organs
+ANSWER: The organs involved in digestion that do not have food pass through them are called the "glands".
+
+### b03c79c889
+Q: Proteins are polymers of what kind of acids?
+CORRECT: amino
+INCORRECT: lipids | lactic | acetic
+ANSWER: Proteins are polymers of amino acids.
+
+### d18e88a114
+Q: What is first stage of cellular respiration?
+CORRECT: glycolsis
+INCORRECT: electrolysis | hydrolisis | metabolism
+ANSWER: The first stage of cellular respiration is glycolysis, where glucose is broken down into pyruvate, producing a small amount of ATP and NADH. This stage occurs in the cytosol of the cell and is the rate-limiting step in cellular respiration.
+
+### 090b62674c
+Q: Traits controlled by genes on the sex chromosomes are called what?
+CORRECT: sex-linked traits
+INCORRECT: male-related traits | gender-linked traits | chromosome-linked traits
+ANSWER: Traits controlled by genes on the sex chromosomes are called sex-linked traits.
+
+### 7f8de0d116
+Q: What are the smallest structural and functional unit of all living organisms?
+CORRECT: cells
+INCORRECT: neutrons | lipids | proteins
+ANSWER: The smallest structural and functional unit of all living organisms is the cell.
+
+### e7c9700df5
+Q: What is the force that opposes motion between two surfaces that are touching?
+CORRECT: friction
+INCORRECT: tension | vibration | gravity
+ANSWER: The force that opposes motion between two surfaces that are touching is called friction.
+
+### b64335f466
+Q: What process takes place when plants release water vapor through pores in their leaves called stomata?
+CORRECT: transpiration
+INCORRECT: evaporation | expiration | propagation
+ANSWER: Transpiration is the process by which plants release water vapor through their stomata.
+
+### 046b87ce7d
+Q: About how tall can mid-ocean ridges be?
+CORRECT: about 2 km
+INCORRECT: about 2 meters | about 2 feet | 2 inches
+ANSWER: Mid-ocean ridges can be up to 3,000 kilometers (1,864 miles) long.
+
+### 02885babd7
+Q: The lithosphere is divided into a dozen major and several minor what?
+CORRECT: plates
+INCORRECT: zones | crystals | faults
+ANSWER: The lithosphere is divided into a dozen major and several minor tectonic plates.
+
+### 20a1d31a48
+Q: What part of the neuron is a large structure with a central nucleus?
+CORRECT: cell body
+INCORRECT: proteins body | Eye body | Environmental
+ANSWER: The cell body is a large structure with a central nucleus in a neuron.
+
+### 44864de65d
+Q: Water is considered a what since it is a polar molecule with slightly positive and slightly negative charges, so ions and polar molecules can readily dissolve in it?
+CORRECT: solvent
+INCORRECT: solute | pigment | osmotic
+ANSWER: Water is considered a solvent since it is a polar molecule with slightly positive and slightly negative charges, allowing ions and polar molecules to readily dissolve in it.
+
+### 50368e8446
+Q: What makes marginal lands unsuitable for farming?
+CORRECT: drought
+INCORRECT: flood | pestilence | disease
+ANSWER: Marginal lands are unsuitable for farming due to their low productivity, high erosion risk, and limited water availability, which can lead to soil degradation, reduced crop yields, and increased costs for irrigation and fertilizers. Additionally, marginal lands often have poor drainage, making it difficult to manage water and nutrients, and may be
+
+### 3d615580c7
+Q: What system of the body is responsible for transmitting, processing, and responding to most of the sensory information that is created by various stimuli?
+CORRECT: nervous system
+INCORRECT: respiratory system | circulatory system | attentive system
+ANSWER: The nervous system is responsible for transmitting, processing, and responding to most of the sensory information created by various stimuli.
+
+### d1606ee4e2
+Q: What is essential for population of all species to expand greatly?
+CORRECT: abundant resources
+INCORRECT: foliage resources | chemical resources | liquid resources
+ANSWER: The essential factor for the population of all species to expand greatly is a stable and sufficient food supply, which can be achieved through a balanced and diverse ecosystem, allowing for the growth and reproduction of the population. Additionally, a lack of predation, disease, and other threats to the population is also crucial for its expansion.
+
+### 8284861b53
+Q: The lens focuses light on the retina , which covers the back of the inside of the eye. the retina has light-sensing photoreceptor cells called?
+CORRECT: rods and cones
+INCORRECT: cones and tubes | holes and cones | tubes and rods
+ANSWER: The retina has light-sensing photoreceptor cells called rods and cones.
+
+### 818629269e
+Q: What is the term for the ability of an atom to emit, or give off, charged particles and energy from its nucleus?
+CORRECT: radioactivity
+INCORRECT: magnetism | electrical attraction | conductivity
+ANSWER: The term for the ability of an atom to emit, or give off, charged particles and energy from its nucleus is radioactivity.
+
+### 506b116fe0
+Q: What geologic era is also known as the age of mammals?
+CORRECT: cenozoic era
+INCORRECT: mesozoic era | paleozoic era | cretaceous period
+ANSWER: The geologic era also known as the age of mammals is the Paleogene.
+
+### 76368d6277
+Q: Mollusks have a true coelom and a complete what?
+CORRECT: digestive system
+INCORRECT: skeletal system | nerve system | tissues system
+ANSWER: Mollusks have a true coelom and a complete digestive system.
+
+### 4c9efcf43f
+Q: What phase does the cell make final preparations to divide?
+CORRECT: growth phase 2
+INCORRECT: growth phase 1 | carbonate phase 2 | dioxide phase 2
+ANSWER: The cell makes final preparations to divide in the **prophase** phase of the cell cycle.
+
+### 7313525273
+Q: What branch of science explains much of what you observe and do in your daily life?
+CORRECT: physical science
+INCORRECT: temperature science | psychology | astronomy
+ANSWER: Physics explains much of what you observe and do in your daily life.
+
+### 3f7bf17c00
+Q: What kind of organisms helps hold soil in place to slow erosion?
+CORRECT: plants
+INCORRECT: flowers | bacteria | animals
+ANSWER: Grasses and other plants help hold soil in place to slow erosion.
+
+### e72348e705
+Q: What 3 things do animals need to live and survive?
+CORRECT: air, water, and food
+INCORRECT: air, water, and socialization | sex, water, and sleep | water, food, and an ecosystem
+ANSWER: Animals need three essential things to live and survive: food, water, and shelter.
