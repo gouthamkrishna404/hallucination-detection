@@ -1,0 +1,239 @@
+### 5e4f76f981
+Q: Where in the target cells are intracellular receptor proteins found?
+CORRECT: cytoplasm or nucleus
+INCORRECT: mucus or nucleus | membrane or mitochondria | ribosomes or nucleus
+ANSWER: Intracellular receptor proteins are found in the target cells' cytoplasm.
+
+### b32e73489b
+Q: The amount of heat required to raise a single mass unit of a substance by a single temperature unit is known as what?
+CORRECT: specific heat
+INCORRECT: temperature variation | specific gravity | solitary heat
+ANSWER: The amount of heat required to raise a single mass unit of a substance by a single temperature unit is known as the specific heat capacity.
+
+### c05fc78e7f
+Q: Evaporation of moisture is greatest where it is?
+CORRECT: hot and sunny
+INCORRECT: cool and snowy | sunny and populated | rainy and hot
+ANSWER: Evaporation of moisture is greatest where the air is warmest and driest, typically near the ocean or in arid regions.
+
+### f2120bcf71
+Q: What do you call a chemical process used to treat water by destroying a contaminant?
+CORRECT: chemical remediation
+INCORRECT: basic remediation | toxic remediation | carbon remediation
+ANSWER: The term for a chemical process used to treat water by destroying a contaminant is "disinfection."
+
+### 772a0e1b43
+Q: What theory states that all matter consists of constantly moving particles?
+CORRECT: kinetic theory of matter
+INCORRECT: inertia theory | conservtion of matter | Big Bang theory
+ANSWER: The theory that states all matter consists of constantly moving particles is called the kinetic theory of matter.
+
+### 6ba06f559e
+Q: What do you call water that flows out of the ground where an aquifer meets the surface?
+CORRECT: spring
+INCORRECT: oasis | waterfall | stream
+ANSWER: You call water that flows out of the ground where an aquifer meets the surface a spring.
+
+### bb95abdd4f
+Q: What is the height above or below sea level called?
+CORRECT: elevation
+INCORRECT: depth | latitude | variation
+ANSWER: The height above or below sea level is called elevation or altitude.
+
+### 34b11e21b8
+Q: Upon death of an organism, during composition, what returns to the soil as ammonium ions?
+CORRECT: nitrogen
+INCORRECT: potasium | calcium | hydrogen
+ANSWER: Upon death of an organism, the soil returns ammonium ions.
+
+### e705678b66
+Q: On how many of the continents do birds live and breed?
+CORRECT: seven
+INCORRECT: three | four | eight
+ANSWER: Birds can be found on all continents except Antarctica.
+
+### 8f4ec36649
+Q: What is it called when sound is reflected off an object?
+CORRECT: echo
+INCORRECT: signal | amplification | reverberation
+ANSWER: It is called echo.
+
+### 77f43a7bfb
+Q: Only after implantation can an embryo develop into a what?
+CORRECT: fetus
+INCORRECT: mammal | humans | living thing
+ANSWER: An embryo can only develop into a fetus after implantation.
+
+### d3448526a3
+Q: What broad group of animals are the first true tetrapods, vertebrates with four limbs?
+CORRECT: amphibians
+INCORRECT: fish | reptiles | mammals
+ANSWER: The first true tetrapods are a group of animals that belong to the class Tetrapoda, which includes vertebrates with four limbs.
+
+### b4644d4f3a
+Q: Quarks are very tiny particles of matter that make up what?
+CORRECT: protons and neutrons
+INCORRECT: electrons and neutrons | protons and electrons | atoms and neutrons
+ANSWER: Quarks make up protons and neutrons, which are the building blocks of atomic nuclei.
+
+### 8e00aabbfd
+Q: Water found on the surface of the earth is referred to as what?
+CORRECT: surface water
+INCORRECT: groundwater | reservoir water | runoff
+ANSWER: Water found on the surface of the earth is referred to as freshwater.
+
+### 85e4950655
+Q: What kind of drugs are formulated to help deal with hiv and herpes as well as influenza and two types of hepatitis?
+CORRECT: antiviral drugs
+INCORRECT: antibacterial drugs | steroid drugs | herbal remedies
+ANSWER: Drugs formulated to help deal with HIV, herpes, influenza, and two types of hepatitis include antiretroviral medications, antiviral medications, and immunomodulatory medications.
+
+### d4974d25f0
+Q: Acidic hydrogen atoms are those which will be transferred to what?
+CORRECT: a base
+INCORRECT: water | a cup | another atom
+ANSWER: Acidic hydrogen atoms will be transferred to an electron pair in a molecule or a compound.
+
+### e0eab6685a
+Q: The first two electrons in lithium fill the 1s orbital and have the same sets of four what as the two electrons in helium?
+CORRECT: quantum numbers
+INCORRECT: decay numbers | gravity numbers | kinetic numbers
+ANSWER: The first two electrons in lithium fill the 1s orbital and have the same sets of four electrons as the two electrons in helium.
+
+### a65bde7699
+Q: What is the eighth planet from our sun?
+CORRECT: neptune
+INCORRECT: earth | mars | uranus
+ANSWER: The eighth planet from our sun is Neptune.
+
+### ac952e4a00
+Q: Traditionally, what preventative measure used weakened or inactive forms of microorganisms or viruses to stimulate the immune system?
+CORRECT: vaccine
+INCORRECT: infection | assimilation | pathogen
+ANSWER: Traditionally, a preventative measure used weakened or inactive forms of microorganisms or viruses to stimulate the immune system is vaccination.
+
+### d42eebd3e4
+Q: Hypersection by an endocrine gland is often caused by what?
+CORRECT: tumor
+INCORRECT: calcium | inflammation | viruses
+ANSWER: Hypersection by an endocrine gland is often caused by an overproduction of hormones.
+
+### 318f8f4e67
+Q: What arises due to crossing over, independent assortment, and the random union of gametes?
+CORRECT: genetic variation
+INCORRECT: susceptible variation | recessive variation | alternative variation
+ANSWER: The result of crossing over, independent assortment, and the random union of gametes is genetic variation.
+
+### 277b7da49f
+Q: There are many types of asexual spores. conidiospores are unicellular or multicellular spores that are released directly from the tip or side of this?
+CORRECT: hypha
+INCORRECT: ganglion | idioma | goychay
+ANSWER: Conidiospores are unicellular or multicellular spores that are released directly from the tip or side of a hypha.
+
+### fdaafb304e
+Q: What is the purpose of a bird using flashy displays?
+CORRECT: to attract mates
+INCORRECT: to protect their territory | to dissuade predators | to signal feeding
+ANSWER: The primary purpose of a bird using flashy displays is to attract a mate and signal reproductive fitness.
+
+### 57802147aa
+Q: In what stage of their life cycle do insects begin developing their wings?
+CORRECT: pupa
+INCORRECT: crystalline | larva | pupal
+ANSWER: Insects begin developing their wings during the larval stage, also known as the caterpillar stage.
+
+### dc33e8158e
+Q: If a lump of clay is dropped into water, what will occur?
+CORRECT: it will sink
+INCORRECT: Will float | Will dissolve | Will break up
+ANSWER: If a lump of clay is dropped into water, it will sink.
+
+### adc14cfc41
+Q: Because optics fibers are thin, entering light may strike the inside surface at greater than the critical angle, requiring attention to what?
+CORRECT: refractive index
+INCORRECT: reflective point | electromagnetic index | wavelength
+ANSWER: Optics fibers are thin, so entering light may strike the inside surface at greater than the critical angle, requiring attention to the angle of incidence and the refractive index of the materials involved.
+
+### fba17f924a
+Q: Where is the spinal trigeminal nucleus located?
+CORRECT: medulla
+INCORRECT: spinal cord | pons | cerebrum
+ANSWER: The spinal trigeminal nucleus is located in the dorsal horn of the spinal cord.
+
+### 109a43e9b0
+Q: Where on a jellyfish is the mouth opening located?
+CORRECT: underside
+INCORRECT: left side | right side | top
+ANSWER: The mouth opening on a jellyfish is located at the center of the bell, which is the umbrella-shaped body of the jellyfish.
+
+### 6fa5c8b6b0
+Q: Animals are heterotrophs, which means that they cannot make their own what?
+CORRECT: food
+INCORRECT: fuel | energy | habitat
+ANSWER: Animals are heterotrophs, which means they cannot make their own food.
+
+### 3334a210f7
+Q: What do methanogens act as in sewage treatment plants?
+CORRECT: as decomposers
+INCORRECT: creators | fertilizers | killers
+ANSWER: Methanogens act as a crucial component in sewage treatment plants, breaking down organic matter and producing methane gas as a byproduct.
+
+### 9aeb22a43a
+Q: Some types of minerals form balls called what?
+CORRECT: nodules
+INCORRECT: cancers | microbes | fistulas
+ANSWER: Some types of minerals form balls called geodes.
+
+### 6a8080916c
+Q: What is needed for a person to be affected by an autosomal dominant disorder?
+CORRECT: one mutated allele
+INCORRECT: extra alleles | one less chromosome | one isolated allele
+ANSWER: For a person to be affected by an autosomal dominant disorder, they must inherit one copy of the mutated gene from one parent, and they must not inherit the normal gene from the other parent.
+
+### 106c6cfc56
+Q: What does the inside of all cells also contain?
+CORRECT: cytosol
+INCORRECT: chloroplasm | protein | chromosomes
+ANSWER: The inside of all cells contains a nucleus, cytoplasm, and various organelles.
+
+### d94260ddf6
+Q: Natural gas is the predominately made up of?
+CORRECT: methane
+INCORRECT: hydrogen | carbon | sulfur
+ANSWER: Natural gas is primarily made up of methane, a hydrocarbon gas.
+
+### fe5c1ac949
+Q: What are the majority of solution properties dependent upon?
+CORRECT: chemical state of solute
+INCORRECT: similar state of solute | gas state of solute | acid state of solute
+ANSWER: The majority of solution properties are dependent upon the concentration of solute particles in the solution.
+
+### c9a6e33807
+Q: What do we call the visible part of the electromagnetic spectrum?
+CORRECT: light
+INCORRECT: weight | radio | electricity
+ANSWER: We call the visible part of the electromagnetic spectrum "light."
+
+### 0266b0b320
+Q: Exemplified by organisms that grow in geysers, hyperthermophiles "love" what?
+CORRECT: heat
+INCORRECT: humidity | cold | rainfall
+ANSWER: Hyperthermophiles are exemplified by organisms that grow in geysers, which are characterized by high temperatures.
+
+### 7fab02de75
+Q: In humans, fertilization occurs soon after the oocyte leaves this?
+CORRECT: ovary
+INCORRECT: egg | placenta | testes
+ANSWER: In humans, fertilization occurs soon after the oocyte leaves the ovary.
+
+### 8e49fca09f
+Q: Collateral ganglia controls organs in which cavity in the body?
+CORRECT: abdominal
+INCORRECT: cranial | pelvic | cardiac
+ANSWER: Collateral ganglia controls organs in the thoracic cavity in the body.
+
+### 56dd2bf9ba
+Q: All of the petals together are called what?
+CORRECT: corolla
+INCORRECT: stamen | anthers | stalk
+ANSWER: The all of the petals together are called a flower head or a flower head.

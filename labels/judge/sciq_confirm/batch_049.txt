@@ -1,0 +1,239 @@
+### 26e9ac574f
+Q: What is the purpose of bright colors on a flower's petals?
+CORRECT: to attract pollinators
+INCORRECT: to distract predators | to absorb light | to attract a mate
+ANSWER: The primary purpose of bright colors on a flower's petals is to attract pollinators, such as bees and butterflies, to facilitate cross-pollination.
+
+### 4db5188e4d
+Q: What kind of diffusion do small hydrophobic molecules squeeze through lipid molecules?
+CORRECT: simple
+INCORRECT: difficult | slippery | complex
+ANSWER: Small hydrophobic molecules can diffuse through lipid molecules through a process called simple diffusion.
+
+### 08d6387e0f
+Q: What is the name of the first stage of photosynthesis?
+CORRECT: light reactions
+INCORRECT: consumption | absorption | contamination
+ANSWER: The first stage of photosynthesis is the light-dependent reactions.
+
+### e6c6f2d3e0
+Q: Asteroids are not geologically active. which is the only way they can change?
+CORRECT: a collision
+INCORRECT: propulsion | combustion | expansion
+ANSWER: Asteroids can change through weathering, erosion, or collisions with other objects in space.
+
+### f5c8e19260
+Q: Assume a molecule must cross the plasma membrane into what?
+CORRECT: cell
+INCORRECT: circle | shell | atom
+ANSWER: A molecule must cross the plasma membrane into the cell's cytoplasm.
+
+### a719d9aeb6
+Q: The number of what subatomic particles determines an element’s atomic number and is used to distinguish one element from another?
+CORRECT: protons
+INCORRECT: neutrons | quarks | electrons
+ANSWER: The number of protons in an atom's nucleus determines an element's atomic number and distinguishes one element from another.
+
+### 735e334e9e
+Q: Radioactive atoms, nuclear explosions, and stars produce what types of rays.
+CORRECT: gamma
+INCORRECT: plasma | neutron | beta
+ANSWER: Radioactive atoms, nuclear explosions, and stars produce ionizing and non-ionizing radiation.
+
+### e43bc82b2b
+Q: Which has a higher metabolic rate, a mouse or an elephant?
+CORRECT: mouse
+INCORRECT: rat | rabbit | elephant
+ANSWER: An elephant has a higher metabolic rate compared to a mouse.
+
+### eea1e5e334
+Q: When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?
+CORRECT: diameter
+INCORRECT: surface | height | weight
+ANSWER: When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to dilate, or expand.
+
+### 47e899c1a2
+Q: Certain air pollutants form which liquid when dissolved in water droplets in the air?
+CORRECT: acid
+INCORRECT: water | base | citrus
+ANSWER: The certain air pollutants that form a liquid when dissolved in water droplets in the air are acids.
+
+### 14013c3893
+Q: What is the term for an exact genetic copy?
+CORRECT: clone
+INCORRECT: genetic recreation | duplication | genetic repeat
+ANSWER: The term for an exact genetic copy is "genetic twin."
+
+### 04ae057639
+Q: The majority of elements, including iron and copper, are of what type?
+CORRECT: metals
+INCORRECT: oils | acids | minerals
+ANSWER: The majority of elements, including iron and copper, are of the metallic type.
+
+### 9a1bbcad42
+Q: What does the gradient of bicoid protein determine?
+CORRECT: anterior-posterior axis
+INCORRECT: shallow - posterior axis | east-west axis | vertical-horizontal plane
+ANSWER: The gradient of bicoid protein determines the spatial distribution of genes in the developing Drosophila embryo, guiding the formation of the head and thorax regions.
+
+### bc31dd3441
+Q: Bees, wasps, ants, butterflies, moths, flies and beetles belong to what animal phylum?
+CORRECT: arthropods
+INCORRECT: insects | crustaceans | cephalopods
+ANSWER: The animal phylum to which bees, wasps, ants, butterflies, moths, flies, and beetles belong is the Arthropoda.
+
+### 3cef991544
+Q: What is a reptiles skin covered in to protect them from drying out?
+CORRECT: scales
+INCORRECT: bacteria | oil | dye
+ANSWER: Reptiles have a skin covered in scales to protect them from drying out.
+
+### eb6cac1173
+Q: Gymnamoebas constitute a large and varied group of what?
+CORRECT: amoebozoans
+INCORRECT: newborns | cells | sporozoans
+ANSWER: Gymnamoebas are a large and varied group of protozoa.
+
+### 8377549fc2
+Q: What is the most direct way of recovering a metal from its ores?
+CORRECT: electrolysis
+INCORRECT: drilling | molecules | osmosis
+ANSWER: The most direct way of recovering a metal from its ores is through smelting, which involves heating the ore in a furnace to extract the metal.
+
+### 6e9deabbeb
+Q: All cells have a jellylike substance in which subcellular components are suspended. what is that substance?
+CORRECT: cytosol
+INCORRECT: glycerol | plasma | cortisol
+ANSWER: The jellylike substance in cells is called cytoplasm.
+
+### 257ec9dda9
+Q: What is the term used to describe the minerals and vitamins that are not needed for providing the body with energy but are still essential for good health?
+CORRECT: micronutrients
+INCORRECT: salts | pigments | non-energetic nutrients
+ANSWER: The term used to describe the minerals and vitamins that are not needed for providing the body with energy but are still essential for good health is "non-essential nutrients."
+
+### 53776d98d2
+Q: What term in biotechnology means a genetically exact copy of an organism?
+CORRECT: clone
+INCORRECT: adult | male | phenotype
+ANSWER: The term in biotechnology that means a genetically exact copy of an organism is "cloning."
+
+### 7f4f30ebce
+Q: Bones, cartilage, and what other thing make up the skeletal system?
+CORRECT: ligaments
+INCORRECT: muscles | organs | lungs
+ANSWER: Bones, cartilage, and ligaments make up the skeletal system.
+
+### e990739735
+Q: What is a complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work?
+CORRECT: combustion engine
+INCORRECT: vapor engine | convection oven | battery
+ANSWER: A complex machine that burns fuel to produce thermal energy and then uses the thermal energy to do work is a steam engine.
+
+### df4da881c4
+Q: What navigation technology works on the same principle as echolocation?
+CORRECT: sonar
+INCORRECT: radar | GPS | topography
+ANSWER: The navigation technology that works on the same principle as echolocation is called Doppler radar.
+
+### a117c06bd4
+Q: Where do extrusive igneous rocks cool at?
+CORRECT: surface
+INCORRECT: underground | in volcanoes | in water
+ANSWER: Extrusive igneous rocks cool at the Earth's surface.
+
+### c2dacffec1
+Q: How many types of molecular orbitals can form from the overlap of two atomic s orbitals on adjacent atoms?
+CORRECT: two
+INCORRECT: three | six | ten
+ANSWER: Two types of molecular orbitals can form from the overlap of two atomic s orbitals on adjacent atoms: σ (sigma) and π (pi) orbitals.
+
+### 80c5767adf
+Q: What is a body of freshwater that flows downhill in a channel?
+CORRECT: a stream
+INCORRECT: a river | an eddy | a creek
+ANSWER: A body of freshwater that flows downhill in a channel is called a river.
+
+### fec97a83c5
+Q: What are used to indicate the number of atoms of an element that are in the compound?
+CORRECT: prefixes
+INCORRECT: indices | suffixes | digits
+ANSWER: The number of atoms of an element in a compound is typically indicated by a subscript number written after the element symbol in the chemical formula.
+
+### c829882d5c
+Q: Although magma once filled our moon's craters, what is thought to have ended there over a billion years ago?
+CORRECT: volcanic activity
+INCORRECT: mineral activity | oceanic activity | deserts activity
+ANSWER: Magma once filled the craters on the moon over a billion years ago, but it is believed to have ended due to the moon's cooling and solidification over time.
+
+### 7017ddcbcd
+Q: What contains positive protons and neutral neutrons?
+CORRECT: nucleus
+INCORRECT: electrons | ions | epidermis
+ANSWER: An atom contains positive protons and neutral neutrons in its nucleus.
+
+### c6c9afb2ce
+Q: Most diplomonads and parabasalids are found in what kind of environment?
+CORRECT: anaerobic
+INCORRECT: acidic | enzymatic | skeletal
+ANSWER: Most diplomonads and parabasalids are found in aquatic environments, such as freshwater and marine ecosystems.
+
+### 8f1de89113
+Q: What do waves deposit to form sandbars and barrier islands?
+CORRECT: sediments
+INCORRECT: magma | organisms | glaciers
+ANSWER: Waves deposit sand to form sandbars and barrier islands.
+
+### 52df039092
+Q: The hypothalamus in vertebrates integrates what two systems?
+CORRECT: endocrine and nervous
+INCORRECT: Pathway and nervous | marrow and nervous | connectors and nervous
+ANSWER: The hypothalamus integrates the autonomic nervous system and the endocrine system in vertebrates.
+
+### 4f06b79a35
+Q: Which system are the brain and spinal cord apart of?
+CORRECT: central nervous system
+INCORRECT: large nervous system | cerebral cortex | limbic system
+ANSWER: The brain and spinal cord are part of the nervous system.
+
+### 4cfb3ca2b0
+Q: What indicates horizontal distance and are also found on the map legend?
+CORRECT: scales
+INCORRECT: spikes | edges | variations
+ANSWER: Horizontal distance indicators and are found on the map legend.
+
+### 17359e43fb
+Q: What term is used to describe a cancer that has spread?
+CORRECT: metastasized
+INCORRECT: destabilized | galvanized | ostracized
+ANSWER: The term used to describe a cancer that has spread is metastatic cancer.
+
+### 2d0cc6acf4
+Q: Algae produce food using what process?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | cellular respiration | spermatogenesis
+ANSWER: Algae produce food using photosynthesis, a process in which they convert sunlight, water, and carbon dioxide into glucose and oxygen.
+
+### 44ea94a2aa
+Q: If a substance has a ph value greater than 7, what does it indicate?
+CORRECT: base
+INCORRECT: acidic | neutral | volatile
+ANSWER: A substance with a pH value greater than 7 indicates it is alkaline or basic.
+
+### a7dfa62640
+Q: Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as what?
+CORRECT: embryos
+INCORRECT: chromosomes | hormones | cells
+ANSWER: Invertebrates and higher animals can be classified into two groups based on their development as either radial or bilateral.
+
+### 99588d4122
+Q: Chemical reactions involve a transfer of heat energy. measured in what?
+CORRECT: joules
+INCORRECT: amps | amperes | thermals
+ANSWER: Chemical reactions involve a transfer of heat energy, measured in joules (J).
+
+### 0595504e7c
+Q: Calcium ion is an example of what kind of messenger?
+CORRECT: second
+INCORRECT: third | fourth | first
+ANSWER: Calcium ion is an example of a second messenger.

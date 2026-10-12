@@ -1,0 +1,239 @@
+### a94ba1a4c9
+Q: What compounds form crystals instead of molecules?
+CORRECT: ionic compounds
+INCORRECT: metallic compounds | soluble compounds | magnetic compounds
+ANSWER: Compounds form crystals instead of molecules.
+
+### c64849ded9
+Q: Chitin, also found in the exoskeleton of insects, gives structural strength to the cell walls of fungi. the cell wall protects the cell from what?
+CORRECT: desiccation and predators
+INCORRECT: fermentation and predators | entrainment and predators | starvation and predators
+ANSWER: The cell wall of fungi protects the cell from physical damage and provides structural support.
+
+### 3aac398315
+Q: What type of cells detect stimuli?
+CORRECT: sensory nerve cells
+INCORRECT: expressive nerve cells | grid nerve cells | muscle cells
+ANSWER: The type of cells that detect stimuli are sensory cells, which include photoreceptors, mechanoreceptors, thermoreceptors, and chemoreceptors.
+
+### c5dd44fb8d
+Q: In many places, small hills rise above the ocean floor. these hills are undersea volcanoes, called what?
+CORRECT: seamounts
+INCORRECT: reefs | corals | ridges
+ANSWER: In many places, small hills rising above the ocean floor are called seamounts.
+
+### d22b439a91
+Q: What involves sensing and focusing light from people and objects?
+CORRECT: vision
+INCORRECT: echolocation | sensory perception | projection
+ANSWER: Photography involves sensing and focusing light from people and objects.
+
+### 32ef6e40df
+Q: What is the study of water movement, including waves and ocean currents?
+CORRECT: physical oceanography
+INCORRECT: theoretical oceanography | experimental oceanography | thermal oceanography
+ANSWER: The study of water movement, including waves and ocean currents, is known as oceanography.
+
+### a56952858c
+Q: The earth's gravitational force causes the moon to do what?
+CORRECT: orbit the earth
+INCORRECT: overlap the earth | change size | lose orbit
+ANSWER: The Earth's gravitational force causes the moon to orbit around the Earth.
+
+### a66eb599fd
+Q: Monomers of condensation polymers must contain how many functional groups so that each monomer can link up with two other monomers?
+CORRECT: two
+INCORRECT: three | four | one
+ANSWER: Monomers of condensation polymers must contain two functional groups so that each monomer can link up with two other monomers.
+
+### 71177ec67c
+Q: In the grand canyon, the same rock layers are visible on opposite sides of the canyon and were deposited simultaneously, which is an example of what?
+CORRECT: lateral continuity
+INCORRECT: width continuity | bilateral continuity | directly continuity
+ANSWER: The same rock layers are visible on opposite sides of the Grand Canyon and were deposited simultaneously, demonstrating a process known as lateral continuity.
+
+### cde2c0cdfa
+Q: What separates one river system's basin from another river system's basin?
+CORRECT: a divide
+INCORRECT: a bend | a divert | a sink
+ANSWER: The separation between one river system's basin and another is typically defined by the watershed or drainage divide, which is the boundary between two river systems.
+
+### 5ac0d562f4
+Q: What are thought to have evolved at least 200 million years ago from gymnosperms like gnetae?
+CORRECT: flowering plants
+INCORRECT: yeasts | cone-bearing plants | deciduous trees
+ANSWER: Gymnosperms like gnetae are thought to have evolved at least 200 million years ago and are believed to have given rise to the first flowering plants.
+
+### efc32f68b7
+Q: What occurs when excess carbon dioxide in the atmosphere causes the oceans to become acidic?
+CORRECT: ocean acidification
+INCORRECT: ocean vaporization | acid rain | desalinization
+ANSWER: When excess carbon dioxide in the atmosphere causes the oceans to become acidic, it leads to a decrease in pH levels, making the water more acidic, which can harm marine life and ecosystems.
+
+### cce95d48c8
+Q: In the body, in which organ does chemical digestion mainly take place?
+CORRECT: small intestine
+INCORRECT: liver | kidneys | large intestine
+ANSWER: Chemical digestion mainly takes place in the small intestine.
+
+### 14ed960e67
+Q: Which fish has a round sucker used to suck the blood of other fish?
+CORRECT: lamprey
+INCORRECT: shark | abalone | moray
+ANSWER: The lionfish has a round sucker used to suck the blood of other fish.
+
+### 7d9436e967
+Q: What protects the pollen of seed plants and spores of seedless plants?
+CORRECT: sporopollenin
+INCORRECT: cystosol | cocklebur | chlorophyll
+ANSWER: The pollen of seed plants is protected by the exine, a tough outer layer, while the spores of seedless plants are typically protected by a tough, often multicellular covering called a sporangium.
+
+### cccdc3db52
+Q: What is defined as the act of contaminating the environment with waste?
+CORRECT: pollution
+INCORRECT: purifying | climate change | global warming
+ANSWER: The act of contaminating the environment with waste is defined as pollution.
+
+### 38c759cdd8
+Q: What are endothermic tetrapod vertebrates most commonly called?
+CORRECT: birds
+INCORRECT: insects | reptiles | mammals
+ANSWER: Endothermic tetrapod vertebrates are most commonly called "mammals."
+
+### ca603dfc41
+Q: What do seeds have that spores do not?
+CORRECT: a supply of stored food
+INCORRECT: DNA | pollenators | chlorophyll
+ANSWER: Seeds have a protective covering called a seed coat, which helps them survive until they germinate and grow into new plants. Seeds also contain stored food, such as starch and proteins, which are used for growth and development. Spores, on the other hand, are single cells that can survive harsh conditions and can grow into
+
+### 1eae6e2d78
+Q: Do vascular or nonvascular plants lack tracheids?
+CORRECT: nonvascular
+INCORRECT: vascular | neither do | both do
+ANSWER: Nonvascular plants lack tracheids.
+
+### 0ec01062e0
+Q: Both the forward reaction and the reverse reaction continue to occur, so chemical equilibrium is said to be what, rather than static?
+CORRECT: dynamic
+INCORRECT: abrasive | fluid | stable
+ANSWER: Chemical equilibrium is said to be dynamic rather than static, as both the forward reaction and the reverse reaction continue to occur simultaneously.
+
+### 2a82e74aa7
+Q: By exploding what the space probes get separated from their launchers?
+CORRECT: bolts
+INCORRECT: frames | doors | walls
+ANSWER: Space probes get separated from their launchers by explosive bolts or other separation mechanisms.
+
+### 35eede209b
+Q: What is written as systolic over diastolic?
+CORRECT: blood pressure
+INCORRECT: blood position | fractional pressure | brain pressure
+ANSWER: Systolic over diastolic is written as systolic pressure over diastolic pressure.
+
+### afb7cae65e
+Q: What break down dead organisms and other organic waste and release inorganic molecules back to the environment called?
+CORRECT: decomposers
+INCORRECT: detritivores | nematodes | carnivores
+ANSWER: Decomposers break down dead organisms and organic waste, releasing inorganic molecules back into the environment.
+
+### a39c07bd4e
+Q: Sounds are produced when muscles in what organ are tensed, stretching the cords so they vibrate?
+CORRECT: larnyx
+INCORRECT: throat | thorax | diaphragm
+ANSWER: Muscles in the larynx, or voice box, are tensed and stretched to vibrate, producing sounds when air passes through the vocal cords.
+
+### 429588345e
+Q: What do voltmeters measure across a resistor?
+CORRECT: the voltage drop
+INCORRECT: the vibration drop | amplitude | energy loss
+ANSWER: A voltmeter measures the voltage across a resistor.
+
+### a848ec9420
+Q: What do ecosystems absorb on the earth?
+CORRECT: energy
+INCORRECT: water | hydrogen | fuel
+ANSWER: Ecosystems absorb carbon dioxide, water, and other substances from the Earth's atmosphere and environment.
+
+### b9c6ca316e
+Q: What green cell structures of a leaf are visible under a high power microscope?
+CORRECT: chloroplasts
+INCORRECT: fibroblasts | golgi apparatus | veins
+ANSWER: Under a high power microscope, the green cell structures visible in a leaf are chloroplasts.
+
+### 1980c5c11c
+Q: Which planet is named after the roman goddess of love?
+CORRECT: venus
+INCORRECT: Neptune | Mercury | Jupiter
+ANSWER: The planet named after the Roman goddess of love is Venus.
+
+### f162306d52
+Q: What happens to light when it passed from air to water?
+CORRECT: it bends
+INCORRECT: it contracts | it brightens | it speeds up
+ANSWER: When light passes from air to water, it bends or refracts, causing it to change direction.
+
+### b4b937c551
+Q: If the buoyant force is greater than the force of gravity acting on a ship, what will happen to the ship?
+CORRECT: it will float
+INCORRECT: it will sink | it will bobble | it will explode
+ANSWER: If the buoyant force is greater than the force of gravity acting on a ship, it will float or rise in the water.
+
+### ada4ce80ee
+Q: What are the two terms that designate how well aqueous solutions conduct electricity?
+CORRECT: polar and nonpolar
+INCORRECT: secular and nonpolar | filter and nonpolar | hot and nonpolar
+ANSWER: The two terms that designate how well aqueous solutions conduct electricity are conductivity and specific conductivity.
+
+### b182ffbf85
+Q: What happens to air density and pressure when gas molecules are warm?
+CORRECT: they are lower
+INCORRECT: they are unchanged | they are equal | they are greater
+ANSWER: When gas molecules are warm, their kinetic energy increases, causing them to move faster and spread out, resulting in a decrease in air density and pressure.
+
+### 33af53ad9b
+Q: What record shows that dinosaurs originated 200-250 million years ago?
+CORRECT: fossil record
+INCORRECT: ancient record | biological record | species record
+ANSWER: The record showing that dinosaurs originated 200-250 million years ago is based on fossil evidence and geologic time scales.
+
+### 53e9266e6a
+Q: The similarities and differences between the genomes confirm patterns of what?
+CORRECT: evolution
+INCORRECT: phylum | fossils | variation
+ANSWER: The similarities and differences between the genomes confirm patterns of evolution and speciation.
+
+### dd68995a65
+Q: What is telomere shortening associated with?
+CORRECT: aging
+INCORRECT: sleeping | reducing | changing
+ANSWER: Telomere shortening is associated with aging and age-related diseases, such as cancer, cardiovascular disease, and neurodegenerative disorders.
+
+### c70fee013c
+Q: In relation to electrical current, what property will a narrow wire have more of than a wide wire?
+CORRECT: resistance
+INCORRECT: voltage | wattage | current
+ANSWER: A narrow wire will have more of the property of resistance than a wide wire.
+
+### 0dbda0b7e0
+Q: The nervous system has two main parts, called the central nervous system and the what?
+CORRECT: peripheral nervous system
+INCORRECT: functional nervious system | useful nervous system | obsolete nervous system
+ANSWER: The nervous system has two main parts: the central nervous system and the peripheral nervous system.
+
+### af10376097
+Q: With wavelengths from 400-700 nm, what kind of light represents only a very small portion of the spectrum?
+CORRECT: visible light
+INCORRECT: invisible light | sunlight | ultraviolet light
+ANSWER: Ultraviolet light represents only a very small portion of the spectrum, with wavelengths between 400-380 nm.
+
+### 286b04b844
+Q: Small nonprotein, water-soluble molecules or ions called second messengers often play a role in what kind of pathways?
+CORRECT: signaling
+INCORRECT: creating | creating | inhibiting
+ANSWER: Second messengers, such as cyclic AMP (cAMP) and calcium ions, often play a role in signaling pathways.
+
+### 70ba3c3d07
+Q: In an aqueous solution, what is the solvent?
+CORRECT: water
+INCORRECT: oil | any liquid | saltwater
+ANSWER: In an aqueous solution, the solvent is water.

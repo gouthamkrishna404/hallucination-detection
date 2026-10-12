@@ -1,0 +1,239 @@
+### 2a45880517
+Q: Compound forms when atoms of nonmetals form molecules that are held together by what?
+CORRECT: covalent bonds
+INCORRECT: phenotype bonds | magnetic bonds | dissonance bonds
+ANSWER: Compound forms when atoms of nonmetals form molecules held together by covalent bonds.
+
+### f673fd7b40
+Q: The development of the respiratory system in the fetus begins at about?
+CORRECT: 4 weeks
+INCORRECT: 2 weeks | 4 months | 4 days
+ANSWER: The development of the respiratory system in the fetus begins at about 6 weeks of gestation.
+
+### 323e8f7694
+Q: The gap between two dna fragments is sealed by what?
+CORRECT: by dna ligase
+INCORRECT: reductase | rna ligase | enzymes
+ANSWER: The gap between two DNA fragments is sealed by DNA ligase.
+
+### 6809c92c4c
+Q: What analytical technique, using stained gel, can separate dna fragments or rna molecules and proteins?
+CORRECT: gel electrophoresis
+INCORRECT: microwave electrophoresis | surface electrophoresis | static electrophoresis
+ANSWER: The analytical technique using stained gel to separate DNA fragments or RNA molecules and proteins is electrophoresis.
+
+### a003b803fc
+Q: The four basic types of tissue are epithelial, muscle, connective, and what?
+CORRECT: nervous
+INCORRECT: regulatory | digestive | circulatory
+ANSWER: The four basic types of tissue are epithelial, muscle, connective, and nervous tissue.
+
+### 1ef3fae182
+Q: What does an invertebrate, like a snail, not have?
+CORRECT: backbone
+INCORRECT: reproductive organs | eyes | a heart
+ANSWER: An invertebrate, like a snail, does not have a backbone.
+
+### 674b20a751
+Q: Plants go through seasonal changes after detecting differences in what?
+CORRECT: day length
+INCORRECT: temperature | weather | week length
+ANSWER: Plants detect changes in day length, temperature, and moisture levels to go through seasonal changes.
+
+### f4b771c552
+Q: What is the dinosaur genus that's closest to modern birds?
+CORRECT: deinonychus
+INCORRECT: sauropods | diplodocus | Rapter
+ANSWER: The dinosaur genus closest to modern birds is Archaeopteryx.
+
+### 66278906cd
+Q: What kind of hormones serve many functions in addition to promoting gamete production?
+CORRECT: sex hormones
+INCORRECT: Multifaceted hormones | reflection hormones | Utility hormones
+ANSWER: Hormones like insulin, growth hormone, and thyroid hormone serve many functions beyond promoting gamete production.
+
+### fe1ddf213e
+Q: What were the first plants to evolve?
+CORRECT: nonvascular plants
+INCORRECT: fungi | photoreactive plants | trees
+ANSWER: The first plants to evolve were likely simple, non-vascular organisms such as mosses and liverworts, which appeared around 480 million years ago during the Cambrian period.
+
+### 2ad4eab631
+Q: The strength of a base depends on the concentration of _______ it produces when dissolved in water?
+CORRECT: hydroxide ions
+INCORRECT: combustion ions | calcium ions | monoxide ions
+ANSWER: The strength of a base depends on the concentration of hydroxide ions it produces when dissolved in water.
+
+### ad9f24a6a3
+Q: In humans, the only haploid cells are what reproductive cells?
+CORRECT: sperm and egg
+INCORRECT: dna and egg | sperm and dna | uteral and sperm
+ANSWER: In humans, the only haploid cells are the reproductive cells, specifically the egg cells (oocytes) and sperm cells.
+
+### f5e3a7909e
+Q: The majority of animals belong to what category, characterized by the lack of a backbone?
+CORRECT: invertebrate
+INCORRECT: vertebrate | nematode | arthropod
+ANSWER: The majority of animals belong to the category characterized by the lack of a backbone, which is invertebrates.
+
+### cc897ca73a
+Q: While numerous elements can undergo fission, only a few can be used as fuels in what nuclear devices?
+CORRECT: reactors
+INCORRECT: colliders | laser beams | accelerators
+ANSWER: Only a few elements, primarily uranium-235 and plutonium-239, can be used as fuels in nuclear devices.
+
+### 44d43819bb
+Q: Each bond includes a sharing of electrons between atoms. two electrons are shared in a single bond; four electrons are shared in a double bond; and six electrons are shared in this?
+CORRECT: triple bond
+INCORRECT: ionic bond | quadruple bond | magnetic bond
+ANSWER: A triple bond is formed when six electrons are shared between atoms.
+
+### aaa50f3f03
+Q: Viruses replicate only in where?
+CORRECT: host cells
+INCORRECT: traitor cells | compromised cells | weak cells
+ANSWER: Viruses replicate only in living cells.
+
+### 0fd8717e36
+Q: What is the si unit for weight?
+CORRECT: newton (n)
+INCORRECT: kilograms (kg) | meters (m) | pounds (lbs)
+ANSWER: The SI unit for weight is the same as the unit for mass, which is the kilogram (kg).
+
+### 724dc33913
+Q: Paramecium possess tiny hair-like cilia that help them do what?
+CORRECT: move
+INCORRECT: fight | look | breed
+ANSWER: Paramecium use their tiny hair-like cilia to move, feed, and sense their environment.
+
+### 51b387460c
+Q: Which is one of the most frequently studied cartilaginous fish?
+CORRECT: sharks
+INCORRECT: whales | dolphins | manatees
+ANSWER: One of the most frequently studied cartilaginous fish is the shark.
+
+### 7a1efa5def
+Q: Ingestion and propulsion are the first two steps in which process that describes how humans process and consume food?
+CORRECT: digestion
+INCORRECT: absorption | regeneration | respiration
+ANSWER: Ingestion and propulsion are the first two steps in the process of digestion, which describes how humans process and consume food.
+
+### 29d734a7c3
+Q: What is the difference between oils and fats at room temperature?
+CORRECT: liquid and solid states
+INCORRECT: solid and gas states | saturated and unsaturated | liquid and gas states
+ANSWER: At room temperature, oils are generally liquid and fats are generally solid.
+
+### 1ccfc773f6
+Q: Repolarization occurs when the membrane potential begins to move back toward its resting what?
+CORRECT: voltage
+INCORRECT: charge | resistance | tension
+ANSWER: Repolarization occurs when the membrane potential begins to move back toward its resting membrane potential.
+
+### d4bfcc6df5
+Q: What kind of cells are polyribosomes found in?
+CORRECT: bacterial and eukaryotic
+INCORRECT: chloroplasts and nuclei | Prokaryotic and eukaryotic | yeast and prokaryotic
+ANSWER: Polyribosomes are found in eukaryotic cells, specifically in the cytoplasm.
+
+### 5ae23e953a
+Q: Who developed a classification system that divided living things into several groups that we still use today, including mammals, insects, and reptiles?
+CORRECT: aristotle
+INCORRECT: jung | darwin | harrold
+ANSWER: Charles Darwin developed a classification system that divided living things into several groups, including mammals, insects, and reptiles, which is still used today.
+
+### 6e9bdfdaa5
+Q: What causes the wheels of the car to turn?
+CORRECT: turning driveshaft
+INCORRECT: Wheel Line | once driveshaft | Gear Shift
+ANSWER: The wheels of a car turn due to the engine's rotation, which is transferred through the transmission and driveshaft to the wheels.
+
+### 865b1b6208
+Q: What are the best-known extinct vertebrates?
+CORRECT: dinosaurs
+INCORRECT: snakes | trees | trilobites
+ANSWER: The best-known extinct vertebrates include the dinosaurs, such as Tyrannosaurus Rex and Triceratops, and the woolly mammoths, giant sloths, and mastodons.
+
+### 6ef2c2255f
+Q: No charge is actually created or destroyed when charges are separated as we have been discussing. rather, existing charges are moved about. in fact, in all situations the total amount of charge is always this?
+CORRECT: constant
+INCORRECT: more | smaller | less
+ANSWER: The total amount of charge remains constant in all situations.
+
+### 3af0d44632
+Q: Habitat loss caused by human actions is a prime culprit in what phenomenon, which appears to be occurring for a sixth time?
+CORRECT: mass extinction
+INCORRECT: spontaneous mutation | mass migrations | Big Bang
+ANSWER: Habitat loss caused by human actions is a prime culprit in the sixth mass extinction event, also known as the Holocene extinction.
+
+### eae509ee8e
+Q: Angiosperm seed develops inside of what?
+CORRECT: an ovary
+INCORRECT: fallopian tubes | a kidney | the pancreas
+ANSWER: Angiosperm seeds develop inside a fruit or a capsule.
+
+### d5906acae5
+Q: The three units of kpa, atm or mmhg commonly measure what?
+CORRECT: pressure
+INCORRECT: resistance | weight | energy
+ANSWER: The three units of kPa, atm, and mmHg commonly measure pressure.
+
+### a01fac637e
+Q: When sediments settle out of water, what do they form?
+CORRECT: horizontal layers
+INCORRECT: separated layers | erosion | magnetic layers
+ANSWER: When sediments settle out of water, they form sedimentary rocks.
+
+### 6555d40f97
+Q: What process is used for cell growth, repair of cuts and replacement of worn out cells?
+CORRECT: cell division
+INCORRECT: reproduction | binary fission | pollination
+ANSWER: The process used for cell growth, repair of cuts, and replacement of worn out cells is called cell division.
+
+### 6a38d11b2e
+Q: What do induction cooktops have under their surface?
+CORRECT: electromagnets
+INCORRECT: Chambers | clumps | screws
+ANSWER: Induction cooktops have a flat, smooth surface with a magnetic field under it.
+
+### 2b4dede568
+Q: What is a thin membrane stretched tight across the end of the ear canal that vibrates when sound waves strike it?
+CORRECT: eardrum
+INCORRECT: earlobe | cerebrum | auricle
+ANSWER: The thin membrane stretched tight across the end of the ear canal that vibrates when sound waves strike it is called the eardrum.
+
+### 90243c99a5
+Q: What part of the sperm contains the nucleus?
+CORRECT: head
+INCORRECT: body | tail | nucleus
+ANSWER: The nucleus of a sperm cell is located in the sperm's head.
+
+### eb69ff74e7
+Q: Many plants respond to the days growing shorter in the fall by doing what?
+CORRECT: going dormant
+INCORRECT: turning to liquid | migrating | growing faster
+ANSWER: Many plants respond to the days growing shorter in the fall by preparing for winter dormancy by slowing down their growth, conserving water, and storing energy in their roots and stems.
+
+### 820f8d495a
+Q: Often represented by an arrow, a vector is a measurement that has both size and what?
+CORRECT: direction
+INCORRECT: pressure | location | reason
+ANSWER: A vector is often represented by an arrow and has both size (magnitude) and direction.
+
+### 3b2ec00804
+Q: After coming apart from the crystal, the individual ions are then surrounded by solvent particles in a process called what?
+CORRECT: solvation
+INCORRECT: osmosis | ionization | hydrolysis
+ANSWER: After coming apart from the crystal, the individual ions are surrounded by solvent particles in a process called hydration.
+
+### c5ef84aa00
+Q: How do animals obtain nitrogen?
+CORRECT: eating plants or organisms
+INCORRECT: eating plants or sediments | eating plants other animals | eating plants or bugs
+ANSWER: Animals obtain nitrogen through various methods, including consuming plants that have already absorbed nitrogen from the soil, consuming other animals that have consumed nitrogen, and through symbiotic relationships with nitrogen-fixing bacteria.
+
+### 3e76fdc515
+Q: What is the name for a tool commonly used by molecular biologists to place genetic material into cells?
+CORRECT: a viral vector
+INCORRECT: a embryonic vector | an rna vector | a dna vector
+ANSWER: The name for a tool commonly used by molecular biologists to place genetic material into cells is a "receptor-mediated viral vector."

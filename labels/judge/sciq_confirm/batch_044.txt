@@ -1,0 +1,239 @@
+### 7759c5d729
+Q: Vertebrate animals have two major body cavities, the dorsal and what is the other?
+CORRECT: spinal cavity
+INCORRECT: anterior cavity | proximal cavity | functional cavity
+ANSWER: The other major body cavity in vertebrate animals is the ventral cavity.
+
+### 31da36ce2b
+Q: Vivipary refers to the development and nourishment of a what?
+CORRECT: embryo
+INCORRECT: seed | egg | nucleus
+ANSWER: Vivipary refers to the development and nourishment of an embryo or fetus within the mother's womb.
+
+### 4652189ac8
+Q: What causes cells to divide if cytokinins are added to it?
+CORRECT: auxin
+INCORRECT: osmosis | apoptosis | hyptoxin
+ANSWER: If cytokinins are added to a cell, it causes the cell to divide due to the stimulation of cell division, which is a process called cytokinesis.
+
+### 01dfe78f92
+Q: Who wrote the book on the origin of species?
+CORRECT: darwin
+INCORRECT: Scopes | Sagan | cannon
+ANSWER: Charles Darwin wrote the book on the origin of species.
+
+### a27537e264
+Q: A sample of matter that has the same physical and chemical properties throughout itself is known as what?
+CORRECT: substance
+INCORRECT: antimatter | essence | molecule
+ANSWER: A sample of matter that has the same physical and chemical properties throughout itself is known as a homogeneous sample.
+
+### 4d770ccd00
+Q: Proteins are categorized according to shape and what property, which correlates with it?
+CORRECT: solubility
+INCORRECT: viscosity | size | salinity
+ANSWER: Proteins are categorized according to shape and their secondary structure, which correlates with it.
+
+### 9bb76591a0
+Q: What is equal to the angular acceleration multiplied by the radius of the rotating object?
+CORRECT: linear acceleration
+INCORRECT: equilibrium | peak velocity | momentum
+ANSWER: The angular acceleration multiplied by the radius of the rotating object is equal to the moment of inertia multiplied by the angular acceleration.
+
+### ef691f7694
+Q: If the water vapor condenses in liquid droplets as clouds form, what is released in the atmosphere?
+CORRECT: heat
+INCORRECT: oxygen | hydrogen | electricity
+ANSWER: When water vapor condenses into liquid droplets as clouds form, it releases heat energy into the atmosphere.
+
+### 97e94c147d
+Q: How do very massive stars end their lives?
+CORRECT: become red supergiants
+INCORRECT: become super novas | explode | consumed by black hole
+ANSWER: Very massive stars end their lives in a supernova explosion, either as a Type II supernova or a more massive star may end its life as a black hole.
+
+### c9d553184f
+Q: What type of matter makes up most of the universe?
+CORRECT: plasma
+INCORRECT: carbon | liquid | gas
+ANSWER: Most of the universe is composed of dark matter, which is a type of matter that does not emit, absorb, or reflect any electromagnetic radiation, making it invisible to our telescopes.
+
+### 2846616d5d
+Q: What determines how long a planet's orbit is around the sun?
+CORRECT: distance
+INCORRECT: size | age | direction
+ANSWER: A planet's orbit length is determined by its distance from the sun and the amount of energy it receives from the sun.
+
+### 236b1c7f19
+Q: What is the term for a series of biochemical reactions by which an organism converts a given reactant to a specific end product?
+CORRECT: metabolic pathway
+INCORRECT: internal pathway | direct pathway | hydrogen pathway
+ANSWER: The term for a series of biochemical reactions by which an organism converts a given reactant to a specific end product is a metabolic pathway.
+
+### 52fbae5e92
+Q: A high metabolic rate and hair are ways mammals generate and conserve what?
+CORRECT: heat
+INCORRECT: resources | energy | water
+ANSWER: A high metabolic rate and hair are ways mammals generate and conserve heat.
+
+### 3d9e377144
+Q: What type of energy is produced when two objects move together?
+CORRECT: mechanical
+INCORRECT: internal | kinetic | fluid
+ANSWER: When two objects move together, the energy produced is called kinetic energy.
+
+### be45b77c8f
+Q: Which sphincter is located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach?
+CORRECT: gastro-esophageal sphincter
+INCORRECT: pupillary sphincter | pyloric sphincter | urethral sphincter
+ANSWER: The lower esophageal sphincter (LES) is located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach.
+
+### 9130637a59
+Q: What process done by bacteria makes them important producers in aquatic ecosystems?
+CORRECT: photosynthesis
+INCORRECT: maturation | infection | reproduction
+ANSWER: Bacteria perform the process of photosynthesis, converting sunlight into energy, which makes them important producers in aquatic ecosystems.
+
+### 7a55fdfba2
+Q: Questioning claims based on their scientific verifiability rather than accepting claims based on faith or anecdotes is called what?
+CORRECT: scientific skepticism
+INCORRECT: scientific extreme | scientific mimicry | scientific fact
+ANSWER: Questioning claims based on their scientific verifiability rather than accepting claims based on faith or anecdotes is called skepticism.
+
+### 8fbfd4748e
+Q: What type of rocks form when an existing rock is changed by heat or pressure?
+CORRECT: metamorphic
+INCORRECT: Molten | igneous | sediments
+ANSWER: Igneous rocks form when an existing rock is changed by heat or pressure.
+
+### e177063bf4
+Q: The ladybug and the frog both start as eggs and go through what process?
+CORRECT: metamorphosis
+INCORRECT: transition | parthenogenesis | proboscis
+ANSWER: The ladybug and the frog both start as eggs and go through the process of embryogenesis, where they develop into larvae and eventually metamorphose into their adult forms.
+
+### 9969966a58
+Q: Oogenesis, which is gametogenesis in females, begins with what type of ste cells?
+CORRECT: ovarian
+INCORRECT: secretion | digestive | uterian
+ANSWER: Oogenesis, the process of gametogenesis in females, begins with oogonial cells, also known as primary oocytes.
+
+### 3af87177b3
+Q: What come together to create continents and supercontinents?
+CORRECT: microcontinents
+INCORRECT: islands | volcanic sediment | mountains
+ANSWER: Continents and supercontinents are formed by the movement of tectonic plates, which are large, rigid slabs of the Earth's lithosphere.
+
+### f31fb30b11
+Q: What protects the brain and spinal cord in the central nervous system?
+CORRECT: meninges
+INCORRECT: neutrophils | dermis | Flexing
+ANSWER: The brain and spinal cord are protected by the meninges, a protective layer of membranes surrounding the central nervous system.
+
+### 76bcc383d4
+Q: Pure carbon can exist in different forms, depending on how its atoms are arranged. the forms include diamond, graphite, and what else?
+CORRECT: fullerenes
+INCORRECT: calcites | lead | ligands
+ANSWER: Pure carbon can exist in different forms, including diamond, graphite, and fullerene.
+
+### c955fa0907
+Q: Highly reactive nonmetals, which only accept electrons and do not give them up, make poor what?
+CORRECT: electricity conductors
+INCORRECT: alloys | insulators | electromagnets
+ANSWER: Highly reactive nonmetals, which only accept electrons and do not give them up, make poor oxidizing agents.
+
+### 4d0c178999
+Q: What refers to the ability to change or move matter and is required by all life processes and living things?
+CORRECT: energy
+INCORRECT: fuel | gravity | enthalpy
+ANSWER: The ability to change or move matter is referred to as "metabolism."
+
+### 45bcca994b
+Q: The hypothalamus is actually part of the brain, but it also secretes what?
+CORRECT: hormones
+INCORRECT: enzymes | acids | electrolytes
+ANSWER: The hypothalamus is part of the brain, but it secretes hormones.
+
+### a6de5036db
+Q: What kind of viscosity is found in long-chain hydrocarbons?
+CORRECT: highly viscous
+INCORRECT: increased viscosity | low viscosity | intense viscosity
+ANSWER: Long-chain hydrocarbons typically have a high viscosity, meaning they have a thicker and more resistant to flow consistency compared to shorter-chain hydrocarbons.
+
+### d366f1883a
+Q: A collapsing nebula leads to what process?
+CORRECT: nuclear fusion
+INCORRECT: nuclear reaction | destructive fusion | chemical reaction
+ANSWER: A collapsing nebula leads to the formation of a protostar.
+
+### 09b7c2956f
+Q: What is the study of how forces affect the motion of objects?
+CORRECT: dynamics
+INCORRECT: behaviors | acceleration | kinematics
+ANSWER: The study of how forces affect the motion of objects is called physics.
+
+### a17028aff2
+Q: What do you call materials able to conduct electricity with 100% efficiency, meaning that no energy is lost during the electrical transmission?
+CORRECT: superconductors
+INCORRECT: poor conductors | electromagnets | super-insulators
+ANSWER: You call materials able to conduct electricity with 100% efficiency, meaning no energy is lost during the electrical transmission, superconductors.
+
+### efe0b610ea
+Q: What type of plants does human welfare depend greatly on?
+CORRECT: seed plants
+INCORRECT: mosses | ferns | fertilizer plants
+ANSWER: Human welfare depends greatly on various types of plants, including crops like wheat, rice, and corn, as well as medicinal plants like aloe vera and willow bark.
+
+### 0769becff2
+Q: What do humans and bats have physically in common?
+CORRECT: body hair
+INCORRECT: wing size | gland hair | body oder
+ANSWER: Humans and bats share physical characteristics such as wings, fur, and a skeleton structure.
+
+### 7dbcef3657
+Q: The goal of this is the understand how and why things happen?
+CORRECT: science
+INCORRECT: experience | inquiry | theory
+ANSWER: The goal of this is to understand the underlying causes and mechanisms of events or phenomena.
+
+### 87818cba30
+Q: What are the biggest groups of stars called?
+CORRECT: galaxies
+INCORRECT: cells | novas | orbits
+ANSWER: The biggest groups of stars are called constellations.
+
+### 5e262fb54b
+Q: Lichens are not a single organism, but rather an example of a what?
+CORRECT: mutualism
+INCORRECT: fusion | homogeneous mixture | symbiosis
+ANSWER: Lichens are not a single organism, but rather a symbiotic relationship between fungi and algae or cyanobacteria.
+
+### fd3f843040
+Q: What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?
+CORRECT: elephantiasis
+INCORRECT: pulmonary edema | gigantism | fibrosis
+ANSWER: Lymphangitis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.
+
+### 31e21dfb16
+Q: All of the populations that live in the same area make up what type of group, which includes populations of different organisms?
+CORRECT: community
+INCORRECT: environment | colony | hive
+ANSWER: The group that includes populations of different organisms living in the same area is called a community.
+
+### 71cfc5742a
+Q: What does the ovule mature into after double fertilization?
+CORRECT: a seed
+INCORRECT: a spore | a twin | a sister chromatid
+ANSWER: After double fertilization, the ovule matures into a seed.
+
+### 2dfdc12185
+Q: A bee will sometimes do a dance to tell other bees in the hive where to find what?
+CORRECT: food
+INCORRECT: enemies | water | honey
+ANSWER: A bee performs a dance to communicate the location of food sources, such as nectar-rich flowers, to other bees in the hive.
+
+### 48dd4b460e
+Q: Compounds that are capable of accepting electrons, such as o 2 or f2, are called what?
+CORRECT: oxidants
+INCORRECT: antioxidants | Oxygen | residues
+ANSWER: Compounds that are capable of accepting electrons are called oxidizing agents or oxidants.

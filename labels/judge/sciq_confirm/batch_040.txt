@@ -1,0 +1,239 @@
+### 47fe6e70ee
+Q: Circulating the air prevents ethylene from accumulating, and carbon dioxide inhibits synthesis of new what?
+CORRECT: ethylene
+INCORRECT: alcohol | sulfur | cellulose
+ANSWER: Circulating the air prevents ethylene from accumulating, and carbon dioxide inhibits the synthesis of ethylene.
+
+### 68be307d57
+Q: When we were dealing with electrical effects, it was very useful to speak of an electric field that surrounded what?
+CORRECT: electrical charge
+INCORRECT: liquid charge | stellar charge | sunlight charge
+ANSWER: When dealing with electrical effects, it was very useful to speak of an electric field that surrounded charged particles or objects.
+
+### f8675cae8b
+Q: The evaporative loss of the most energetic water molecules does what to a surface?
+CORRECT: cools it
+INCORRECT: heats it | vents it | charges it
+ANSWER: The evaporative loss of the most energetic water molecules causes the surface to cool down.
+
+### f35c1ee919
+Q: Why do snakes have venomous bites?
+CORRECT: to kill prey
+INCORRECT: to clean themselves | to kill rival snakes | to scare humans
+ANSWER: Snakes have venomous bites to immobilize and subdue their prey, ensuring they can consume it efficiently.
+
+### 98c28d99c3
+Q: What divide on their own by a process that resembles binary fission in prokaryotes?
+CORRECT: mitochondria
+INCORRECT: protazoa | proteins | bacteria
+ANSWER: Prokaryotes and eukaryotes divide by different processes. Prokaryotes undergo binary fission, while eukaryotes divide through mitosis and cytokinesis.
+
+### 35e938a704
+Q: Wearing personal protective equipment such as goggles and gloves during an experiment is an example of what?
+CORRECT: safety precaution
+INCORRECT: pollution precaution | lab organization | office politics
+ANSWER: Wearing personal protective equipment such as goggles and gloves during an experiment is an example of safety precautions.
+
+### 4c22fcc7ff
+Q: The glass hydrometer is filled with air and weighted with lead at the bottom. it floats highest in the densest fluids and has been calibrated and labeled so that you can read this from it?
+CORRECT: specific gravity
+INCORRECT: volume | mass | density
+ANSWER: The glass hydrometer is filled with air and weighted with lead at the bottom, allowing it to float highest in the densest fluids. It is calibrated and labeled so that you can read the reading from it.
+
+### 64551163f2
+Q: The products of what process are needed for cellular respiration, and vice versa?
+CORRECT: photosynthesis
+INCORRECT: digestion | spermatogenesis | circulation
+ANSWER: The products of glycolysis are needed for cellular respiration, and vice versa.
+
+### 05c3728b06
+Q: What process, which is analogous to mitosis, is a series of events that arrange and separate chromosomes and chromatids into daughter cells?
+CORRECT: meiosis
+INCORRECT: apoptosis | inhibition | digestion
+ANSWER: The process analogous to mitosis is meiosis, which involves the arrangement and separation of chromosomes and chromatids into daughter cells.
+
+### 470b463aea
+Q: What causes the alpine tundra to be so cold?
+CORRECT: high altitude above sea level
+INCORRECT: moderate altitude | low altitude | low air density
+ANSWER: The alpine tundra is cold due to its high elevation, resulting in limited solar radiation absorption and a short growing season.
+
+### ea1e9da977
+Q: In a solution what is the substance a solute dissolves in is called?
+CORRECT: solvent
+INCORRECT: particles | gas | atoms
+ANSWER: The substance a solute dissolves in is called a solvent.
+
+### 57ebf446ff
+Q: What type of fluid cushions the fetus and helps protect it from injury?
+CORRECT: amniotic
+INCORRECT: plasmid | epithelial | aqueous
+ANSWER: The fluid cushions the fetus and helps protect it from injury are amniotic fluid and the fluid surrounding the fetus in the womb.
+
+### 7ef65c3bbd
+Q: What are the small molecules or proteins produced by bacteria that regulate gene expression?
+CORRECT: autoinducers
+INCORRECT: fluxes | protazoas | sporozoans
+ANSWER: Small molecules or proteins produced by bacteria that regulate gene expression are known as regulatory molecules or regulatory proteins.
+
+### 679b2db916
+Q: Plants require air, water, nutrients, and what in order to live and survive?
+CORRECT: light
+INCORRECT: money | gravity | entertainment
+ANSWER: Plants require air, water, nutrients, and sunlight to live and survive.
+
+### 7d1598aab6
+Q: Connecting a magnesium rod to an underground steel pipeline protects the pipeline from corrosion. because magnesium (e° = −2.37 v) is much more easily oxidized than iron (e° = −0.45 v), the mg rod acts as the anode in a what?
+CORRECT: galvanic cell
+INCORRECT: anode cell | stimulation cell | voltaic cell
+ANSWER: The magnesium rod acts as the anode in a galvanic cell, where it is connected to an underground steel pipeline, protecting it from corrosion.
+
+### e74805c526
+Q: Horny ridges on the jaws serve the same function as what, for turtles?
+CORRECT: teeth
+INCORRECT: skin | taste buds | hairs
+ANSWER: Horny ridges on the jaws in turtles serve the same function as beaks, aiding in feeding and manipulation of food.
+
+### 85b36b1b3a
+Q: Schrödinger’s approach uses three quantum numbers (n, l, and ml) to specify any of what type of function, associated with a particular energy?
+CORRECT: wave function
+INCORRECT: shift function | green function | rush function
+ANSWER: Schrödinger's approach uses three quantum numbers (n, l, and ml) to specify an orbital function, associated with a particular energy.
+
+### c174e1c7bd
+Q: What is considered a good source of calcium?
+CORRECT: milk
+INCORRECT: wheat | egg | corn
+ANSWER: A good source of calcium is dairy products such as milk, cheese, and yogurt, as well as leafy green vegetables like spinach and kale, and fortified foods like orange juice and cereals.
+
+### b36c01a4d0
+Q: What is the name of microscopic channels which traverse the cell walls of plants?
+CORRECT: plasmodesmata
+INCORRECT: chloroplasts | sphenopalatine | notochord
+ANSWER: The name of microscopic channels that traverse the cell walls of plants is xylem and phloem.
+
+### 76d508b5a2
+Q: All organisms can be classified into one of three of this least specific grouping?
+CORRECT: domains
+INCORRECT: aspects | phlylum | species
+ANSWER: All organisms can be classified into one of three of the least specific grouping: Domain, Kingdom, or Phylum.
+
+### ca2940caaf
+Q: What type of molecules help the plasma membrane keep its shape?
+CORRECT: cholesterol
+INCORRECT: proteins | magnesium | metabolic
+ANSWER: The plasma membrane is composed of a phospholipid bilayer, which helps maintain its shape due to the amphipathic nature of phospholipids.
+
+### b52a52e1a5
+Q: Club mosses, horsetails, ferns, and whisk ferns are examples of what type of plants?
+CORRECT: seedless vascular plants
+INCORRECT: cycads | gymnosperms | angiosperms
+ANSWER: Club mosses, horsetails, ferns, and whisk ferns are examples of non-vascular plants.
+
+### 151d0757b2
+Q: What living creatures comprise the "rainforests of the oceans"?
+CORRECT: coral reefs
+INCORRECT: kelp | krill | algae
+ANSWER: The "rainforests of the oceans" refer to coral reefs, which are home to a diverse array of marine life.
+
+### 3e6c1c0e09
+Q: The relationship between a nucleotide codon and its corresponding amino acid is called what?
+CORRECT: genetic code
+INCORRECT: rna | dna | protein
+ANSWER: The relationship between a nucleotide codon and its corresponding amino acid is called a genetic code.
+
+### e794ab3631
+Q: What type of bonds are formed between atoms sharing electrons?
+CORRECT: covalent
+INCORRECT: neutron bonds | hydroxyl | ionic
+ANSWER: Atoms form covalent bonds by sharing electrons to achieve a stable electronic configuration.
+
+### 02db0246a0
+Q: Haversian canals contain blood vessels and what else?
+CORRECT: nerve fibers
+INCORRECT: muscle fibers | synovial fluid | collagen fibers
+ANSWER: Haversian canals contain blood vessels and connective tissue.
+
+### 241a9e43a6
+Q: Above the meristem, the rest of the root is covered with a single layer of what type of cells, which may have root hairs?
+CORRECT: epidermal
+INCORRECT: dermal | single celled | vegetative
+ANSWER: Above the meristem, the root is covered with a single layer of epidermal cells, which may have root hairs.
+
+### a3905ca0c3
+Q: What is the space between a neuron and the next cell?
+CORRECT: the synapse
+INCORRECT: neurotransmitter passage | dendritic gap | cell divide
+ANSWER: The space between a neuron and the next cell is called a synapse.
+
+### 02e99d6074
+Q: What cells are the basis of nervous tissue?
+CORRECT: neurons
+INCORRECT: erythrocytes | lipocytes | osteoclasts
+ANSWER: The cells that are the basis of nervous tissue are neurons and glial cells.
+
+### 36efd7ec93
+Q: While the goal of science is to increase knowledge, the goal of what is to use knowledge for practical purposes?
+CORRECT: technology
+INCORRECT: advancement | invention | industry
+ANSWER: The goal of science is to increase knowledge, while the goal of technology is to use knowledge for practical purposes.
+
+### 2f0cbf0663
+Q: How are the fetuses of eutherian mammals connected to their mothers during gestation?
+CORRECT: complex placenta
+INCORRECT: visual placenta | altered placenta | Movement Placenta
+ANSWER: During gestation, fetuses of eutherian mammals are connected to their mothers through the placenta, a specialized organ that provides oxygen, nutrients, and waste removal.
+
+### b5a78836f2
+Q: Chewing insects mechanically damage plants and lessen the surface area of leaves for what?
+CORRECT: photosynthesis
+INCORRECT: vegetation | tissues | nutrients
+ANSWER: Chewing insects mechanically damage plants and lessen the surface area of leaves to facilitate easier digestion and nutrient absorption.
+
+### 5b279a8829
+Q: In physics, when one subtracts the frictional force from the applied force what is the result?
+CORRECT: net force
+INCORRECT: rolled force | quarter force | kinetic force
+ANSWER: When one subtracts the frictional force from the applied force, the result is the net force acting on an object.
+
+### 8f1afbbbc1
+Q: What do you call the ancient cores of continents, where the earliest continental crust is now found?
+CORRECT: cratons
+INCORRECT: craters | escarpments | mantles
+ANSWER: The ancient cores of continents, where the earliest continental crust is now found, are called cratons.
+
+### bf6a8b8ff9
+Q: What is the phenotypic range of a particular genotype called?
+CORRECT: norm of reaction
+INCORRECT: diversity | natural selection | range of motion
+ANSWER: The phenotypic range of a particular genotype is called its "genotypic range" or "genetic range."
+
+### cca938210e
+Q: A dilute solution is one that has a relatively small amount of what?
+CORRECT: dissolved solute
+INCORRECT: density | saturated fat | pH level
+ANSWER: A dilute solution is one that has a relatively small amount of solute.
+
+### cac1fa5e7d
+Q: Paracrine signals move by what method through the extracellular matrix?
+CORRECT: diffusion
+INCORRECT: osmosis | deposition | transfusion
+ANSWER: Paracrine signals move through the extracellular matrix via diffusion.
+
+### 9f402b55bd
+Q: What system possesses a memory component that allows for an efficient and dramatic response upon reinvasion of the same pathogen?
+CORRECT: adaptive immune system
+INCORRECT: incorporate immune system | societal immune system | suggestive immune system
+ANSWER: The immune system possesses a memory component that allows for an efficient and dramatic response upon reinvasion of the same pathogen.
+
+### aac7e4c1e6
+Q: What is utilized to analyze simple mendelian inheritance?
+CORRECT: pedigree
+INCORRECT: origins | dna | trait
+ANSWER: The primary tool utilized to analyze simple mendelian inheritance is the Punnett square.
+
+### 56c21f4e1f
+Q: What are by far the most common type of invertebrate?
+CORRECT: insects
+INCORRECT: spiders | crustaceans | corals
+ANSWER: The most common type of invertebrate are insects, which make up about 60% of all known invertebrate species.

@@ -1,0 +1,239 @@
+### 53ec689b26
+Q: What is the term for when an embryo fixes itself to the side of the uterus?
+CORRECT: implantation
+INCORRECT: bacterial | parasite | exploration
+ANSWER: The term for when an embryo fixes itself to the side of the uterus is implantation.
+
+### 7493b73bb1
+Q: Which form of dialysis has a patient’s blood pass through a length of tubing that travels through an artificial kidney machine?
+CORRECT: hemodialysis
+INCORRECT: peritoneal dialysis | limbic dialysis | arterial dialysis
+ANSWER: Peritoneal dialysis has a patient's blood pass through a length of tubing that travels through an artificial kidney machine.
+
+### 8d96a750b1
+Q: The nucleus from a differentiated frog cell can direct development of what?
+CORRECT: tadpole
+INCORRECT: embryo | fetus | ovary
+ANSWER: The nucleus from a differentiated frog cell can direct the development of a new frog.
+
+### c6d8232580
+Q: The tissue that will become the scrotum in a male becomes the labia in a female, thus, they are regarded as having what relationship?
+CORRECT: homologous
+INCORRECT: opposite | symbiotic | mutual
+ANSWER: The tissue that will become the scrotum in a male and the labia in a female are regarded as having a homologous relationship, meaning they share a common embryonic origin.
+
+### ab07673854
+Q: What three parts is the earth divided into?
+CORRECT: crust, mantle, core
+INCORRECT: crust, core, magma | oceans, land, air | troposphere, atomosphere, xerosphere
+ANSWER: The Earth is divided into three main parts: the lithosphere, the hydrosphere, and the atmosphere.
+
+### 74457b32e6
+Q: What is the side to side movement of the mandible called?
+CORRECT: excursion
+INCORRECT: twitching | cycling | shifting
+ANSWER: The side-to-side movement of the mandible is called a lateral excursion.
+
+### 88818f39b4
+Q: Which science is an extension of genetics, evolution, anatomy, physiology, and other biological disciplines?
+CORRECT: ethology
+INCORRECT: microbiology | neurobiology | chronology
+ANSWER: Genetics is an extension of genetics, evolution, anatomy, physiology, and other biological disciplines.
+
+### 1da71c211f
+Q: If the dna from all 46 chromosomes in a human cell nucleus was laid out end to end, it would measure approximately how long?
+CORRECT: two meters
+INCORRECT: three meters | four meters | one meter
+ANSWER: If the DNA from all 46 chromosomes in a human cell nucleus were laid out end to end, it would measure approximately 2 meters (6.6 feet).
+
+### 42fe2e142a
+Q: Ionic compounds have strong electrostatic attractions between oppositely charged ions in this?
+CORRECT: regular array
+INCORRECT: incorrect array | normal array | occasional array
+ANSWER: Ionic compounds have strong electrostatic attractions between oppositely charged ions in a crystal lattice structure.
+
+### 9de0efdfca
+Q: What is the energy that matter possesses because of its location or structure?
+CORRECT: potential energy
+INCORRECT: kinetic energy | mechanical energy | thermal energy
+ANSWER: The energy that matter possesses due to its location or structure is called potential energy.
+
+### 2f51b22143
+Q: What type of biomes have water containing little or no salt?
+CORRECT: freshwater biomes
+INCORRECT: coastal biomes | aquatic biomes | marine biomes
+ANSWER: Freshwater biomes, such as rivers, lakes, and wetlands, have water containing little or no salt.
+
+### c6b93c42f2
+Q: What opens two strands of dna?
+CORRECT: helicase
+INCORRECT: replication | adenylate | chromosome
+ANSWER: The two strands of DNA are opened by the enzyme helicase.
+
+### 7adc6dd169
+Q: Where are b cells produced in the body?
+CORRECT: lymphocytes
+INCORRECT: keratinocytes | tumors | lungs
+ANSWER: B cells are produced in the bone marrow, a spongy tissue found in the long bones of the body.
+
+### 687c733c2b
+Q: What is the most important source of electromagnetic radiation on earth?
+CORRECT: the sun
+INCORRECT: the moon | volcanos | the oceans
+ANSWER: The most important source of electromagnetic radiation on Earth is the sun.
+
+### 59a7cdccf5
+Q: Anaerobic cellular respiration does not require the presence of what (by the very fact it is anaerobic, specifically)?
+CORRECT: oxygen
+INCORRECT: carbon | helium | nitrogen
+ANSWER: Anaerobic cellular respiration does not require the presence of oxygen.
+
+### 222494f14f
+Q: Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?
+CORRECT: skeletal muscle fibers
+INCORRECT: uplift muscle fibers | luminous muscle fibers | heart muscle fibers
+ANSWER: Myofibrils are long cylindrical structures that lie parallel to and run the entire length of skeletal muscle fibers.
+
+### e673402e7a
+Q: What type of crust is made of basalt lavas that flow onto the seafloor?
+CORRECT: oceanic
+INCORRECT: exotic | endotopic | warm
+ANSWER: The type of crust formed from basalt lava flows onto the seafloor is oceanic crust.
+
+### 01a471ad3d
+Q: Most hybrids are sterile because what genetic structures are not homologous and cannot pair during meiosis?
+CORRECT: chromosomes
+INCORRECT: zygotes | ribosomes | phenotypes
+ANSWER: Most hybrids are sterile because they lack homologous chromosomes, which are genetic structures that cannot pair during meiosis.
+
+### 0065e2eb6c
+Q: What patterns in trees can be used to determine its age?
+CORRECT: rings
+INCORRECT: bark ridges | colors | veins
+ANSWER: The patterns in trees that can be used to determine its age include the number of growth rings, the size and shape of the trunk, and the presence of specific types of knots or scars.
+
+### 07bce79f09
+Q: Oil and water do not mix, instead forming two distinct layers called what?
+CORRECT: phases
+INCORRECT: changes | stages | surfaces
+ANSWER: Oil and water do not mix, forming distinct layers called distinct layers.
+
+### ac5f6ba412
+Q: What ingredient has been used in brewing, winemaking and baking for thousands of years?
+CORRECT: yeast
+INCORRECT: flour | fruit | oils
+ANSWER: The ingredient used in brewing, winemaking, and baking for thousands of years is yeast.
+
+### 7f6ff891ba
+Q: What forms when nitrogen and oxygen combine at high temperatures?
+CORRECT: nitrogen oxides
+INCORRECT: hydrocarbons | nitric acid | calcium oxides
+ANSWER: When nitrogen and oxygen combine at high temperatures, they form nitrogen oxides.
+
+### 28b7825772
+Q: Skyscrapers and other large structures built on soft ground must be anchored to what, located below the ground surface?
+CORRECT: bedrock
+INCORRECT: ocean floor | groundwater | water table
+ANSWER: Skyscrapers and other large structures built on soft ground must be anchored to deep foundations, located below the ground surface, to transfer their weight and resist settlement.
+
+### 7a84bdf49f
+Q: What is the term for air moving over earth’s surface?
+CORRECT: wind
+INCORRECT: humidity | spin cycle | tidal
+ANSWER: The term for air moving over the Earth's surface is wind.
+
+### 9179a435ac
+Q: Which property of diamond makes it so hard?
+CORRECT: chemical bonds
+INCORRECT: non-covalent bonds | metal-metal bonds | carbon bonds
+ANSWER: Diamond's hardness is due to its unique crystal structure, which consists of a tetrahedral arrangement of carbon atoms bonded together in a strong, three-dimensional network.
+
+### 14ad469c23
+Q: What is defined as the ability to do work?
+CORRECT: energy
+INCORRECT: fuel | heating | momentum
+ANSWER: Energy is defined as the ability to do work.
+
+### bc164b8467
+Q: Prophase is preceded by a preprophase stage in what type of cells?
+CORRECT: plant cells
+INCORRECT: brain cells | hair and nail cells | egg cells
+ANSWER: Prophase is preceded by a preprophase stage in animal cells.
+
+### fae56949e7
+Q: What is it called when two plates slide past each other in opposite directions?
+CORRECT: transform plate boundary
+INCORRECT: plate divergence | transformation | tectonic movement
+ANSWER: It is called continental rifting or plate tectonics when two plates slide past each other in opposite directions.
+
+### 90e371ffad
+Q: A series of arches that support the gills of aquatic amphibians and fish are known as what?
+CORRECT: branchial arches
+INCORRECT: cochlear arches | aquatic arches | scythian arches
+ANSWER: The series of arches that support the gills of aquatic amphibians and fish are known as gill arches.
+
+### 1aea5e0fea
+Q: What do we call a simple machine that consists of a rope and grooved wheel?
+CORRECT: pulley
+INCORRECT: axle | lever | pedal
+ANSWER: We call a simple machine that consists of a rope and grooved wheel a pulley.
+
+### bb19109c5e
+Q: What are the specialized cells that sponges have?
+CORRECT: collar cells
+INCORRECT: tune cells | magnet cells | blood cells
+ANSWER: Sponges have specialized cells called choanocytes, which are used for filtering food particles from water and for creating the sponge's skeleton.
+
+### bdf17a3a5a
+Q: What percentage of the field is tilled in traditional plowing?
+CORRECT: 100%
+INCORRECT: 50 % | 60 % | 75%
+ANSWER: Traditional plowing accounts for approximately 80% of the field.
+
+### cc256d051c
+Q: When do gases and liquids become solids?
+CORRECT: at low temperatures
+INCORRECT: at relative temperatures | at hot temperatures | at high temperatures
+ANSWER: Gases and liquids can become solids when they are subjected to extremely high pressures, such as those found in the cores of planets or stars.
+
+### 3089bbd8d6
+Q: What are formed when cells from the male and female parts of the plant combine?
+CORRECT: seeds
+INCORRECT: varieties | trees | atoms.
+ANSWER: When cells from the male and female parts of the plant combine, they form pollen and ovules, respectively.
+
+### 8399acbbe6
+Q: Associated with hair follicles, what type of oil gland is found all over the body and helps to lubricate and waterproof the skin and hair?
+CORRECT: sebaceous gland
+INCORRECT: sweat gland | melanin gland | gametes gland
+ANSWER: The type of oil gland found all over the body and helps to lubricate and waterproof the skin and hair is the sebaceous gland.
+
+### 13a610850c
+Q: What happens when mammals raise their hair with tiny muscles in the skin?
+CORRECT: goosebumps
+INCORRECT: bleeding | balding | bruising
+ANSWER: When mammals raise their hair with tiny muscles in the skin, it causes the hairs to stand on end, creating a thicker layer of fur or pilosebaceous follicles.
+
+### 7170825f14
+Q: Only about one percent of plants have lost what ability, turning them into consumers and even predators, instead of producers?
+CORRECT: photosynthesis
+INCORRECT: flowering | rooting | growth
+ANSWER: Only about one percent of plants have lost the ability to produce their own food, turning them into consumers and even predators, instead of producers.
+
+### 4e9b8a1fa9
+Q: Cells that have a nucleus and other organelles which are membrane-bound are generally called what kinds of cells?
+CORRECT: eukaryotic
+INCORRECT: Monocyte | Megakaryocyte | Erythrocyte
+ANSWER: Cells that have a nucleus and other membrane-bound organelles are generally called eukaryotic cells.
+
+### c178919229
+Q: What is an estimation of all of the organic matter available as food, and involves measuring biomass in terrestrial environments?
+CORRECT: net primary productivity
+INCORRECT: food chain | decomposition energy | trophic level total
+ANSWER: An estimation of all organic matter available as food, and involves measuring biomass in terrestrial environments, is called Biomass Estimation.
+
+### 79468e4f40
+Q: On what lobe of the liver is the gallbladder near?
+CORRECT: right lobe
+INCORRECT: left lobe | central lobe | internal lobe
+ANSWER: The gallbladder is located on the right lobe of the liver.

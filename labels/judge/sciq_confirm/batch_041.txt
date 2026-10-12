@@ -1,0 +1,239 @@
+### 46ca8c5815
+Q: The spokes of what structures that distinguish saturn appear seasonally, with an origin as yet unknown?
+CORRECT: rings
+INCORRECT: moons | craters | satellites
+ANSWER: The spokes of Saturn's rings appear seasonally, with an origin as yet unknown.
+
+### 0084cae204
+Q: Honeybees doing the waggle dance or spiders spinning a web are examples of what type of behavior?
+CORRECT: innate
+INCORRECT: intuitive | genuine | learned
+ANSWER: Honeybees doing the waggle dance and spiders spinning a web are examples of complex, learned behaviors.
+
+### 9dd4a5c7ea
+Q: What are the simplest organic compounds?
+CORRECT: hydrocarbons
+INCORRECT: proteins | enzymes | carbohydrates
+ANSWER: The simplest organic compounds are hydrocarbons, which include methane (CH4), ethane (C2H6), propane (C3H8), and butane (C4H10).
+
+### ffd9fc0fcc
+Q: What term describes reproducing by external fertilization after the female sheds large numbers of small eggs?
+CORRECT: oviparous
+INCORRECT: glandular | glaucous | homozygous
+ANSWER: The term that describes reproducing by external fertilization after the female sheds large numbers of small eggs is spawning.
+
+### 3f4c438524
+Q: What kind of a disorder is tay-sachs disease?
+CORRECT: inherited disorder
+INCORRECT: vitamin difficiency | a type of cancer | accumulated disease
+ANSWER: Tay-Sachs disease is a rare genetic disorder that affects the nervous system, causing progressive damage and leading to severe disability or death.
+
+### cfb395c273
+Q: Two smaller isotopes, more neutrons, and heat energy are the products of what type of reaction?
+CORRECT: fission
+INCORRECT: Reaction | diffusion | fusion
+ANSWER: The two smaller isotopes, more neutrons, and heat energy are the products of a nuclear fission reaction.
+
+### fd9e6a68db
+Q: Rupture can cause fragments of what to travel via the bloodstream and become lodged in other arteries?
+CORRECT: plaque
+INCORRECT: enamel | red blood cells | white blood cells
+ANSWER: Rupture can cause fragments of blood clots to travel via the bloodstream and become lodged in other arteries.
+
+### 67c4acb82b
+Q: Vertebrata are characterized by the presence of what?
+CORRECT: backbone
+INCORRECT: Bones | Muscles | Thumbs
+ANSWER: Vertebrata are characterized by the presence of a backbone or vertebral column.
+
+### 3e4e1b8ef0
+Q: Area, volume, and speed are all examples of what type of units?
+CORRECT: derived units
+INCORRECT: fundamental units | calculated measure | known units
+ANSWER: Area, volume, and speed are examples of metric units.
+
+### eead96e2a2
+Q: What are fast moving rivers of air that are going in opposite directions called?
+CORRECT: jet streams
+INCORRECT: air streams | cause streams | burst streams
+ANSWER: Fast-moving rivers of air that are going in opposite directions are called jet streams.
+
+### 91f8287643
+Q: What is the process called where nitrogen is repeatedly recycled through the biosphere?
+CORRECT: nitrogen cycle
+INCORRECT: ammonia cycle | water cycle | nitrogen path
+ANSWER: The process where nitrogen is repeatedly recycled through the biosphere is called the nitrogen cycle.
+
+### d7609ae7bb
+Q: What adaptation helps prey hide and predators sneak up on prey?
+CORRECT: camouflage
+INCORRECT: scent | claws | variation
+ANSWER: The adaptation that helps prey hide and predators sneak up on prey is camouflage, which allows prey to blend into their surroundings, and stealth, which enables predators to move quietly and remain undetected.
+
+### a487195588
+Q: Spongy bone is found inside bones and is lighter and less dense than compact bone because it is what?
+CORRECT: porous
+INCORRECT: amorphous | pliable | fibrous
+ANSWER: Spongy bone is found inside bones and is lighter and less dense than compact bone because it is made up of a sponge-like structure with a large amount of open spaces.
+
+### 2f132eb33e
+Q: What is the term for viscous magmas that are high in silica and tend to stay below the surface or erupt explosively?
+CORRECT: felsic magmas
+INCORRECT: sedimentary magmas | compacted magmas | combustible magmas
+ANSWER: The term for viscous magmas that are high in silica and tend to stay below the surface or erupt explosively is rhyolite.
+
+### 962d2e7d76
+Q: What is the only animal phyla that does not consist exclusively of invertebrates?
+CORRECT: chordates
+INCORRECT: arthropods | bacteria | eukaryotes
+ANSWER: The only animal phyla that does not consist exclusively of invertebrates are the chordates, which include animals such as vertebrates like humans, fish, and mammals.
+
+### 77a6581092
+Q: What element is present in all organic molecules?
+CORRECT: carbon
+INCORRECT: oxygen | sodium | hydrogen
+ANSWER: All organic molecules contain the element carbon.
+
+### c468124b45
+Q: What happens to the pressure when more gas is added to a rigid container?
+CORRECT: increases
+INCORRECT: occurs | changes | Higher
+ANSWER: When more gas is added to a rigid container, the pressure increases.
+
+### 64013fff18
+Q: What bond is the force of attraction that holds together two atoms that share a pair of valence electrons?
+CORRECT: covalent
+INCORRECT: polar | hydrogen | metallic
+ANSWER: The force of attraction that holds together two atoms that share a pair of valence electrons is a covalent bond.
+
+### 14be7dfaee
+Q: What absorbs, scatters, or reflects most incoming solar radiation in the atmosphere?
+CORRECT: clouds and dust
+INCORRECT: clouds and sand | ice and dust | coulds and minerals
+ANSWER: Water vapor and clouds absorb, scatter, or reflect most incoming solar radiation in the atmosphere.
+
+### 63a57d9ec7
+Q: What is the most abundant of all vertebrate classes, and the most recent to evolve?
+CORRECT: birds
+INCORRECT: bony fishes | reptiles | mammals
+ANSWER: The most abundant of all vertebrate classes is mammals, and the most recent to evolve is mammals.
+
+### f99304de57
+Q: Reversible reactions are indicated by what kinds of arrows?
+CORRECT: opposite-headed
+INCORRECT: double-headed | resonance arrows | equilibrium arrows
+ANSWER: Reversible reactions are indicated by reversible arrows, which are typically curved or have a double-headed arrow.
+
+### 1bf5e1fbd2
+Q: What term describes the distance between two corresponding points on adjacent waves?
+CORRECT: wavelength
+INCORRECT: frequency | threshold | variation
+ANSWER: The term that describes the distance between two corresponding points on adjacent waves is wavelength.
+
+### 158a8b39ad
+Q: What term is used to describe  the variety of life and its processes, including the variety of living organisms, the genetic differences among them, and the communities and ecosystems in which they occur?
+CORRECT: biodiversity
+INCORRECT: biosphere | habitat | evolution
+ANSWER: The term used to describe the variety of life and its processes is biodiversity.
+
+### 13f9b093ed
+Q: Candida and trichophyton are examples of disease-causing types of what organisms, which become parasitic?
+CORRECT: fungi
+INCORRECT: yeast | bacteria | viruses
+ANSWER: Candida and trichophyton are examples of disease-causing types of fungi, which become parasitic.
+
+### 64e405bc93
+Q: At a synapse, what objects are released to carry a nerve impulse from one neuron to the next?
+CORRECT: neurotransmitters
+INCORRECT: viruses | receptors | microorganisms
+ANSWER: At a synapse, chemical messengers called neurotransmitters are released to carry a nerve impulse from one neuron to the next.
+
+### 5705b1b3a0
+Q: Fungi, such as black bread mold (rhizopus nigricans), have haploid-dominant what?
+CORRECT: life cycles
+INCORRECT: birth cycles | gene pools | mutations
+ANSWER: Fungi, such as black bread mold (rhizopus nigricans), have a haploid-dominant life cycle.
+
+### ddbae1c056
+Q: What is the term for something changing from water to ice?
+CORRECT: freezing
+INCORRECT: evaporation | boiling | melting
+ANSWER: The term for something changing from water to ice is "freezing."
+
+### f9f79bafba
+Q: The speed of sound depends on what?
+CORRECT: medium
+INCORRECT: light | volume | temperature
+ANSWER: The speed of sound depends on the medium it travels through, such as air, water, or solids.
+
+### 91c51043d5
+Q: What group was long considered part of the plant kingdom because of obvious similarities; both are immobile, have cell walls, and grow in soil?
+CORRECT: fungi
+INCORRECT: mosses | coral | bacteria
+ANSWER: The group considered part of the plant kingdom due to obvious similarities is the fungi.
+
+### c946e93090
+Q: What form of matter has a fixed volume but not a fixed shape?
+CORRECT: liquid
+INCORRECT: mixture | gas | solid
+ANSWER: The form of matter that has a fixed volume but not a fixed shape is a liquid.
+
+### 5b207a66f0
+Q: When the earth is between the moon and the sun, what type of moon shows?
+CORRECT: a full moon
+INCORRECT: waning moon | half moon | crescent moon
+ANSWER: When the Earth is between the Moon and the Sun, the Moon appears in the new moon phase.
+
+### b6bdf766b0
+Q: The ionic end of a detergent can either be a sulfate or what?
+CORRECT: sulfonate
+INCORRECT: molecule | calcite | phosphate
+ANSWER: The ionic end of a detergent can be either a sulfate or a phosphate.
+
+### dae28a0392
+Q: What system does addictive drugs affect?
+CORRECT: reward system
+INCORRECT: digestive system | honor system | checks and balances
+ANSWER: Addictive drugs affect the brain's reward system, leading to changes in behavior and the potential for addiction.
+
+### 2875082116
+Q: What is the radioactive process used in nuclear power plants and one type of nuclear bomb?
+CORRECT: fission
+INCORRECT: fusion | radiation | decay
+ANSWER: The radioactive process used in nuclear power plants is nuclear fission, where atomic nuclei split to release energy. In nuclear power plants, this energy is harnessed to generate electricity. In nuclear bombs, the process is nuclear fusion, where atomic nuclei combine to release energy.
+
+### 15384f092a
+Q: Approximately 20% of the atmosphere is made of which element?
+CORRECT: oxygen
+INCORRECT: hydrogen | carbon | nitrogen
+ANSWER: Approximately 20% of the atmosphere is made of oxygen.
+
+### e144fad676
+Q: What color is phosphate mineral turquoise?
+CORRECT: blue
+INCORRECT: white | green | purple
+ANSWER: Phosphate mineral turquoise is typically a blue-green color.
+
+### 18d606d28e
+Q: Water is used by the plant to move materials up from the roots to make what?
+CORRECT: food
+INCORRECT: light | chlorophyll | fruit
+ANSWER: Water is used by the plant to move materials up from the roots to make food through photosynthesis.
+
+### 4cd18cceb6
+Q: What are the only type of elements capable of changing into different elements?
+CORRECT: radioactive elements
+INCORRECT: noble gases | metalloids | adjacent elements
+ANSWER: The only type of elements capable of changing into different elements are radioactive elements.
+
+### 157dc16338
+Q: What type of waves transmit the energy of an earthquake?
+CORRECT: seismic waves
+INCORRECT: tectonic waves | sonic waves | volcanic waves
+ANSWER: Seismic waves transmit the energy of an earthquake.
+
+### 681164a8d9
+Q: Unlike prokaryotic chromosomes, eukaryotic chromosomes are what?
+CORRECT: linear
+INCORRECT: multiple | simple | expanding
+ANSWER: Unlike prokaryotic chromosomes, eukaryotic chromosomes are complex, multicellular structures composed of DNA and proteins.

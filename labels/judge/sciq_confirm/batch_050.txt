@@ -1,0 +1,239 @@
+### 3a56d325a5
+Q: What type of components of the biosphere do chemical elements and water pass through during ecosystem recycle?
+CORRECT: biotic and abiotic
+INCORRECT: photic and aphotic | tropic and subtropic | water and air
+ANSWER: Chemical elements and water pass through various components of the biosphere, including plants, animals, decomposers, and the atmosphere, during ecosystem recycling.
+
+### a2c4991c5a
+Q: What are living things that produce food for themselves and other organisms called?
+CORRECT: producers
+INCORRECT: growers | harvesters | refiners
+ANSWER: Living things that produce food for themselves and other organisms are called producers or autotrophs.
+
+### f99c7f1994
+Q: The bird ancestor that lived in trees developed what feature commonly associated with birds?
+CORRECT: wings
+INCORRECT: tails | webbed feet | beaks
+ANSWER: The bird ancestor that lived in trees developed feathers.
+
+### 7fe2b5cf24
+Q: Radioactive nuclei and particles are represented by which symbols?
+CORRECT: nuclear
+INCORRECT: energy | greek | compound
+ANSWER: Radioactive nuclei and particles are represented by the symbols "n" (for neutron) and "p" (for proton), and by the symbol "A" (for atomic mass number).
+
+### b6f4fcb57f
+Q: Bursitis is the inflammation of a bursa near what?
+CORRECT: joint
+INCORRECT: brain stem | lung | muscle
+ANSWER: Bursitis is the inflammation of a bursa near a joint.
+
+### d930f2bae4
+Q: What is the second largest class of elements?
+CORRECT: nonmetals
+INCORRECT: carbonates | silicates | metalloids
+ANSWER: The second largest class of elements is the metalloids.
+
+### 260f841516
+Q: What anatomical feature is shared by all chordates?
+CORRECT: notochord
+INCORRECT: isochord | botachord | laxchord
+ANSWER: All chordates share the anatomical feature of a notochord, a flexible rod of cells that runs along their length.
+
+### b5b6195b13
+Q: The bohr model works only for which atom?
+CORRECT: hydrogen
+INCORRECT: helium | carbon | boron
+ANSWER: The Bohr model works only for the hydrogen atom.
+
+### f1513ae6c1
+Q: Cysteine is a type of what fundamental building block of protein?
+CORRECT: amino acid
+INCORRECT: atoms acid | proteins acid | salts acid
+ANSWER: Cysteine is a type of amino acid, a fundamental building block of protein.
+
+### d728e88a64
+Q: What do nectar-feeding bats do to flowers?
+CORRECT: pollinate
+INCORRECT: defecate | illuminate | consume
+ANSWER: Nectar-feeding bats help pollinate flowers by transferring pollen from the flower's male reproductive organs to its female reproductive organs as they feed on the nectar.
+
+### 844af1de9b
+Q: What do you call a quantity of motion that has both size as well as direction?
+CORRECT: vector
+INCORRECT: wave | vibration | speed
+ANSWER: You call a quantity of motion that has both size and direction a vector quantity.
+
+### 11cbe329d6
+Q: Downhill skiiers gain little advantage from a running start because the initial kinetic energy is small compared with the gain in what other energy form?
+CORRECT: gravitational potential energy
+INCORRECT: gravitational kinetic energy | chemical energy | thermal energy
+ANSWER: Downhill skiiers gain little advantage from a running start because the initial kinetic energy is small compared with the gain in potential energy.
+
+### b076c888eb
+Q: What are classified by climatic factors and types of primary producers?
+CORRECT: terrestrial biomes
+INCORRECT: equivalent biomes | old biomes | fossil biomes
+ANSWER: Primary producers are classified by climatic factors such as temperature, precipitation, and sunlight, and include plants like algae, cyanobacteria, and green plants.
+
+### 7a4b77d2e2
+Q: When compared to anaerobic respiration, what does aerobic respiration release more of?
+CORRECT: energy
+INCORRECT: heat | carbon dioxide | pressure
+ANSWER: Aerobic respiration releases more energy and oxygen compared to anaerobic respiration.
+
+### 84fdab9dfb
+Q: Where do short period comets come from?
+CORRECT: kuiper belt
+INCORRECT: milky way | vesta belt | photon belt
+ANSWER: Short-period comets are believed to originate from the Kuiper Belt, a region of icy bodies beyond Neptune's orbit.
+
+### 0ecf313015
+Q: Under the right conditions, what energy source can be used to eject electrons from a solid material?
+CORRECT: light
+INCORRECT: force | weight | gravity
+ANSWER: Under the right conditions, a solid material can be used to eject electrons through the application of heat or light energy, which can cause electrons to be released from the material.
+
+### c0ccc2b0d3
+Q: Where is energy stored in a chemical substance?
+CORRECT: between atoms
+INCORRECT: on the surface | in molecules | inside atoms
+ANSWER: Energy is stored in a chemical substance as potential energy, which can be converted into other forms of energy such as kinetic energy or heat.
+
+### 17e60e8f8f
+Q: On what day of the cycle does ovulation usually occur?
+CORRECT: 14th
+INCORRECT: 17th | 7th | 1st
+ANSWER: Ovulation usually occurs on the 14th day of the cycle for a 28-day cycle.
+
+### f8d6b6a8d7
+Q: What regulates the time of flowering in many species?
+CORRECT: photoperiodism
+INCORRECT: wind patterns | spirogyra | pollenation
+ANSWER: The time of flowering in many species is regulated by environmental factors such as day length, temperature, and photoperiod, which are controlled by the plant's internal circadian clock and photoperiodic response.
+
+### 26dafeb306
+Q: What two types of tissue compose most of the non-pregnant and non-lactating female breast?
+CORRECT: adipose and collagenous
+INCORRECT: intestine and collagenous | silicone and collagenous | scar and collagenous
+ANSWER: The two types of tissue that compose most of the non-pregnant and non-lactating female breast are adipose tissue and fibrous connective tissue.
+
+### a16105075a
+Q: What begins with a diploid cell and ends with four haploid cells?
+CORRECT: meiosis
+INCORRECT: electrolysis | mitosis | urinalysis
+ANSWER: A diploid cell begins with a diploid cell and ends with four haploid cells through the process of meiosis.
+
+### 44839437c2
+Q: Presence of a cell wall, large central vacuole, and organelles called plastids distinguish what type of cell?
+CORRECT: plant
+INCORRECT: animal | reproductive | heterotroph
+ANSWER: The presence of a cell wall, a large central vacuole, and organelles called plastids distinguish plant cells.
+
+### b08bb704d2
+Q: A fever also causes the immune system to make more of what?
+CORRECT: white blood cells
+INCORRECT: insulin | red blood cells | urea
+ANSWER: A fever causes the immune system to make more white blood cells.
+
+### 616d4eb89f
+Q: What disease is unpreventable in the type one form but may be prevented by diet if it is of the second type?
+CORRECT: diabetes
+INCORRECT: Obesity | TB | Cancer
+ANSWER: Type 1 diabetes is an unpreventable disease, but type 2 diabetes can be prevented or managed through a healthy diet.
+
+### ac444c30ab
+Q: Each of what paired organs is enclosed within a cavity surrounded by the pleura?
+CORRECT: lungs
+INCORRECT: bones | ovaries | heart
+ANSWER: The paired organs enclosed within a cavity surrounded by the pleura are the lungs.
+
+### aea6f15c16
+Q: Where does most of the earth's energy come from?
+CORRECT: sun
+INCORRECT: cover | fire | heat
+ANSWER: Most of the Earth's energy comes from the Sun.
+
+### 43abeae6d5
+Q: In contrast with cnidarians, nematodes show a tubular morphology and circular cross-section. these animals are pseudocoelomates and show the presence of a complete digestive system with a distinct mouth and this?
+CORRECT: anus
+INCORRECT: mucus | hairs | stomach
+ANSWER: Nematodes are pseudocoelomates with a complete digestive system, featuring a distinct mouth and a complete digestive system.
+
+### 28a148ecdc
+Q: While ecosystems need a constant input of energy for their organisms, what do ecosystems recycle?
+CORRECT: matter
+INCORRECT: water | light | food
+ANSWER: Ecosystems recycle organic matter, nutrients, and energy through processes like decomposition and nutrient cycling.
+
+### c39d61bc34
+Q: What record provides evidence that new species develop to fill the habitats where old species lived following a mass extinction?
+CORRECT: fossil record
+INCORRECT: fossil fuels | erosion record | climate record
+ANSWER: The record that provides evidence that new species develop to fill the habitats where old species lived following a mass extinction is the fossil record, particularly during the Mesozoic Era, which includes the Triassic and Jurassic periods.
+
+### 2b1786de70
+Q: What cells does the skeletal system make?
+CORRECT: blood cells
+INCORRECT: Osteoclast | Dendritic cells | brain cells
+ANSWER: The skeletal system makes osteoblasts, osteocytes, and osteoclasts, which are types of cells involved in bone growth, maintenance, and remodeling.
+
+### b7b28ee5ff
+Q: What type of mirror is shaped like the outside of a bowl?
+CORRECT: convex
+INCORRECT: slope | concave | vertex
+ANSWER: The type of mirror shaped like the outside of a bowl is called a convex mirror.
+
+### 6eef5250c4
+Q: When mendel crossed purple flowered-plants and white flowered-plants, all the offspring had what color flowers?
+CORRECT: purple
+INCORRECT: blue | red | yellow
+ANSWER: When Mendel crossed purple-flowered plants and white-flowered plants, all the offspring had purple flowers.
+
+### bf9afd90e2
+Q: Does atmospheric pressure increase or decrease as the altitude increases?
+CORRECT: decreases
+INCORRECT: increase | stays the same | depends on other factors
+ANSWER: Atmospheric pressure decreases as the altitude increases.
+
+### 70a854b88f
+Q: What are the flattened, disk-shaped cells in blood that carry oxygen?
+CORRECT: red blood cells
+INCORRECT: plasma | platlets | white blood cells
+ANSWER: The flattened, disk-shaped cells in blood that carry oxygen are red blood cells.
+
+### c1d83d475e
+Q: What can we learn about a wave by finding the product of the wavelength and frequency?
+CORRECT: speed
+INCORRECT: decibels | volume | type
+ANSWER: We can learn about a wave by finding the product of the wavelength and frequency, as this product represents the wave's speed.
+
+### 5b4a1cdfcb
+Q: What are biochemical catalysts that speed up biochemical reactions?
+CORRECT: enzymes
+INCORRECT: inhibitor | metabolites | polymers
+ANSWER: Biochemical catalysts that speed up biochemical reactions are enzymes.
+
+### b46d9591a2
+Q: Do changes to rocks happen quickly or slowly?
+CORRECT: slowly
+INCORRECT: quickly then slowly | quickly | slowly then quickly
+ANSWER: Changes to rocks can happen slowly over long periods of time due to weathering and erosion.
+
+### d4a3c7fb12
+Q: What model describing atomic structure is often referred to as a planetary model?
+CORRECT: bohr model
+INCORRECT: Newton's model | kinetic model | Pascal model
+ANSWER: The model describing atomic structure often referred to as a planetary model is the Bohr model.
+
+### e23c743cf7
+Q: What symbol is used to indicate directionality in chemical reactions?
+CORRECT: arrow
+INCORRECT: triangle | circle | line
+ANSWER: The symbol used to indicate directionality in chemical reactions is an arrow, typically pointing from reactants to products.
+
+### b42fc35ac0
+Q: What is the term for the combined forces acting on an object?
+CORRECT: net force
+INCORRECT: total impact | blunt force | critical force
+ANSWER: The term for the combined forces acting on an object is net force.

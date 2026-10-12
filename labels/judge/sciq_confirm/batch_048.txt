@@ -1,0 +1,239 @@
+### e9c3313374
+Q: What are the two types of digestive systems invertebrates may have?
+CORRECT: complete and incomplete
+INCORRECT: complete and simple | complete and fluid | gastric and monogastric
+ANSWER: Invertebrates can have either a simple digestive system or a more complex one.
+
+### d1b5edbdad
+Q: The variety of cell shapes seen in prokaryotes and eukaryotes reflects the functions that each what has?
+CORRECT: cell
+INCORRECT: proteins | life | organ
+ANSWER: The variety of cell shapes seen in prokaryotes and eukaryotes reflects the functions that each cell type has.
+
+### 562f73b67f
+Q: Compounds containing which element are the basis of all known life?
+CORRECT: carbon
+INCORRECT: oxygen | helium | hydrogen
+ANSWER: The compounds containing the element carbon are the basis of all known life.
+
+### 81c1e04080
+Q: What system provides a major route for heat flow between the interior and exterior of the body?
+CORRECT: the circulatory system
+INCORRECT: excretory system | nervous system | respiratory system
+ANSWER: The system that provides a major route for heat flow between the interior and exterior of the body is the circulatory system.
+
+### aafefe1e68
+Q: What is the process of breaking an individual into parts followed by regeneration called?
+CORRECT: fragmentation
+INCORRECT: minimization | erosion | destruction
+ANSWER: The process of breaking an individual into parts followed by regeneration is called regeneration.
+
+### b719915e1a
+Q: In most fungi, the haploid nuclei contributed by each parent do not do what right away?
+CORRECT: fuse
+INCORRECT: filter | disperse | vaporize
+ANSWER: In most fungi, the haploid nuclei contributed by each parent do not immediately fuse to form a diploid nucleus.
+
+### 82db54fcb2
+Q: Recent evidence indicates some of what type of cells remain within the heart, continuing to divide and potentially replace dead cells?
+CORRECT: stem cells
+INCORRECT: osteoclast cells | human cells | dendritic cells
+ANSWER: Recent evidence suggests that some cardiac cells, such as cardiomyocytes, continue to divide and potentially replace dead cells within the heart.
+
+### ac02f341f5
+Q: When present in large volumes, what color hue can water emit?
+CORRECT: blue
+INCORRECT: white | pink | yellow
+ANSWER: When present in large volumes, water can emit a blue or green hue.
+
+### 98b7d42aa9
+Q: Exemplified by sea stars and sand dollars, echinoderms have a calcareous structure developed by pigment cells and made of ossicles, which is called what?
+CORRECT: endoskeleton
+INCORRECT: hydrostatic skeleton | exoskeleton | thorax
+ANSWER: Echinoderms have a calcareous structure developed by pigment cells and made of ossicles, which is called a test.
+
+### 1be644a6da
+Q: The pressure inside a container is dependent on the amount of what inside the container?
+CORRECT: gas
+INCORRECT: air | emissions | liquids
+ANSWER: The pressure inside a container is dependent on the amount of gas or vapor inside the container.
+
+### e78bc80683
+Q: Layers of what create a volcano?
+CORRECT: lava
+INCORRECT: rock | limestone | crust
+ANSWER: Layers of magma, ash, and other materials create a volcano.
+
+### 4296283714
+Q: Heating ice to its melting point (0°c) gives its molecules enough energy to do what?
+CORRECT: move
+INCORRECT: settle | evaporate | freeze
+ANSWER: Heating ice to its melting point (0°C) gives its molecules enough energy to change from solid to liquid state.
+
+### 5170b07b8a
+Q: The tibia is the larger, weight-bearing bone located on the medial side of the leg. the fibula is the slender bone of the lateral side of the leg and does not do what?
+CORRECT: bear weight
+INCORRECT: resist weight | support weight | drive weight
+ANSWER: The fibula does not bear weight or support the weight of the body.
+
+### 0435965565
+Q: What in roundworms is a partial body cavity filled with fluid?
+CORRECT: pseudocoelom
+INCORRECT: abdomen | cocklebur | spicule
+ANSWER: In roundworms, a partial body cavity filled with fluid is called a pseudocoelom.
+
+### d78893813e
+Q: How many mass extinctions have occurred throughout earth's history?
+CORRECT: five
+INCORRECT: six | four | three
+ANSWER: There have been five mass extinctions throughout Earth's history, including the most recent one, which occurred approximately 65 million years ago.
+
+### d45f4af430
+Q: On a global scale, plants and other photosynthetic organisms have generated all of what element in the air?
+CORRECT: oxygen
+INCORRECT: nitrogen | carbon dioxide | methane
+ANSWER: Plants and other photosynthetic organisms have generated all of the oxygen in the air.
+
+### 458a195135
+Q: What happens to water vapor as it rises?
+CORRECT: it cools
+INCORRECT: it warms | it vibrates | it disperses
+ANSWER: As water vapor rises, it cools and condenses into clouds, eventually leading to precipitation.
+
+### 7e67e65844
+Q: What term means the amount of water vapor in the air?
+CORRECT: humidity
+INCORRECT: temperature | pressure | ambient
+ANSWER: The term that means the amount of water vapor in the air is "humidity."
+
+### 04c5fc5568
+Q: What occur in arteries that can cause heart attacks and strokes?
+CORRECT: clots
+INCORRECT: toxins | tumors | lesions
+ANSWER: Arteries can cause heart attacks and strokes due to the buildup of plaque, which can lead to atherosclerosis.
+
+### 11053f0805
+Q: Oxygen, carbon dioxide, atp, and nadph are reactants in what process that plants use to produce food?
+CORRECT: photosynthesis
+INCORRECT: glycolysis | absorbtion | chlorophyll
+ANSWER: The process that plants use to produce food is photosynthesis, which involves the reactants oxygen, carbon dioxide, ATP, and NADPH.
+
+### d955dc8c20
+Q: What is stored mainly in liver and muscle cells by humans and other vertebrates?
+CORRECT: glycogen
+INCORRECT: glucose | protein | amylopectin
+ANSWER: Humans and other vertebrates store glycogen mainly in liver and muscle cells.
+
+### fc292df054
+Q: What type of diseases occur when the immune system attacks normal body cells?
+CORRECT: autoimmune
+INCORRECT: gastrointestinal | liver | inflammatory
+ANSWER: Autoimmune diseases occur when the immune system mistakenly attacks normal body cells, leading to inflammation and damage.
+
+### faf698a5d4
+Q: Three body segments, a hard exoskeleton, and jointed appendages are features of what invertebrate group, which includes spider and insects?
+CORRECT: arthropod
+INCORRECT: annelid | sauropod | crustacean
+ANSWER: The three body segments, a hard exoskeleton, and jointed appendages are features of the arthropod group, which includes spiders and insects.
+
+### b454dc38ee
+Q: An increase in what levels results in sound waves that are louder and of greater intensity?
+CORRECT: decibel levels
+INCORRECT: radiation levels | height levels | heat levels
+ANSWER: An increase in amplitude results in sound waves that are louder and of greater intensity.
+
+### 51e5fc89a9
+Q: Animals are classified according to morphological and developmental characteristics, such as a body plan. with the exception of sponges, the animal body plan is symmetrical. this means that their distribution of body parts is balanced along this?
+CORRECT: axis
+INCORRECT: skull | radius | ulna
+ANSWER: The animal body plan is symmetrical, with the exception of sponges, and their distribution of body parts is balanced along a vertical axis.
+
+### 5edd9a31c4
+Q: What are the two components of all solutions?
+CORRECT: solute and solvent
+INCORRECT: sodium and solvent | solute and cytosol | concentration and solvent
+ANSWER: All solutions consist of two components: solute and solvent.
+
+### 261296f9f0
+Q: Specific antigens on the surface of red blood cells determine what, which is important in cases of transfusion?
+CORRECT: blood type
+INCORRECT: blood count | blood amount | blood form
+ANSWER: Specific antigens on the surface of red blood cells determine blood type, which is important in cases of blood transfusions to prevent adverse reactions.
+
+### 603c7806a0
+Q: What is produced by the end of meiosis?
+CORRECT: four haploid cells
+INCORRECT: sixteen haploid cells | eight haploid cells | three haploid cells
+ANSWER: The end of meiosis produces haploid cells, which are genetically unique and contain half the number of chromosomes as somatic cells.
+
+### 7be825885c
+Q: What instrument is used to make very sensitive mass measurements in a laboratory, usually in grams?
+CORRECT: analytical balance
+INCORRECT: speedometer | thermometer | scale
+ANSWER: The instrument used to make very sensitive mass measurements in a laboratory, usually in grams, is a mass spectrometer.
+
+### 983ca3148f
+Q: What type of mechanical weathering occurs when one rock bumps against another rock?
+CORRECT: abrasion
+INCORRECT: absorption | refraction | disintegration
+ANSWER: Mechanical weathering occurs when one rock bumps against another rock, causing fragments to break off.
+
+### 0b8fc59734
+Q: Where are pressure receptors mainly found?
+CORRECT: the skin
+INCORRECT: the nerves | the tissue | the muscles
+ANSWER: Pressure receptors are mainly found in the skin, particularly in the dermis and in specialized sensory receptors called mechanoreceptors.
+
+### 039120083b
+Q: Exothermic reactions, like all chemical reactions, require what to get started?
+CORRECT: activation energy
+INCORRECT: surface energy | membrane energy | specific energy
+ANSWER: Exothermic reactions require activation energy to get started.
+
+### d269daf880
+Q: During the first year after birth, what is a baby called?
+CORRECT: infant
+INCORRECT: toddler | newborn | fetus
+ANSWER: A baby is called a newborn during the first year after birth.
+
+### de9c5506a2
+Q: The chemical and/or physical agents that cause mutations are called what?
+CORRECT: mutagens
+INCORRECT: dioxins | organelles | genes
+ANSWER: The chemical and/or physical agents that cause mutations are called mutagens.
+
+### 9e3d1d74a8
+Q: What are solids with high melting and boiling points?
+CORRECT: ionic compounds
+INCORRECT: magnetic compounds | superheated compounds | metal alloys
+ANSWER: Solids with high melting and boiling points include diamond, quartz, and ice.
+
+### 34040e9a48
+Q: What is the most common cause of down syndrome?
+CORRECT: trisomy 21
+INCORRECT: trisomy 22 | gametes 21 | chromosome 21
+ANSWER: The most common cause of Down syndrome is the presence of an extra copy of chromosome 21, which results in the condition.
+
+### d2d18437da
+Q: What do mammals have under the skin to help insulate the body?
+CORRECT: a layer of fat
+INCORRECT: bone | nerve cells | cartilage
+ANSWER: Mammals have fur or hair under their skin to help insulate the body.
+
+### 0a488a8343
+Q: The muscular layer is much thicker in which ventricle of the heart?
+CORRECT: left
+INCORRECT: middle | upper | right
+ANSWER: The muscular layer is thicker in the left ventricle of the heart.
+
+### a40668c41a
+Q: What gas is released when dead organisms and other organic materials decompose?
+CORRECT: carbon dioxide
+INCORRECT: hydrogen peroxide | carbon monoxide | nitrous oxide
+ANSWER: The gas released when dead organisms and other organic materials decompose is primarily carbon dioxide (CO2).
+
+### 4d33e85a9a
+Q: The speed of a wave through connected harmonic oscillators depends on the distance between them, the spring constant, and the what?
+CORRECT: mass
+INCORRECT: density | concentrations | temperature
+ANSWER: The speed of a wave through connected harmonic oscillators depends on the distance between them, the spring constant, and the mass of each oscillator.

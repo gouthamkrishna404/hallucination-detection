@@ -1,0 +1,239 @@
+### 23ca598ff4
+Q: Ants, termites, bees, and wasps live in what type of social structure that may include millions of individual insects?
+CORRECT: colony
+INCORRECT: family | habitat | community
+ANSWER: Ants, termites, bees, and wasps live in a social structure known as a colony, which may include millions of individual insects.
+
+### efcbd6f68f
+Q: What shape are the muscles that control the anus?
+CORRECT: circular
+INCORRECT: elliptical | irregular | triangular
+ANSWER: The muscles that control the anus are shaped like a ring or a sphincter, allowing for voluntary control over bowel movements.
+
+### 2d2b75726d
+Q: What structure collect fluid that leaks out from blood capillaries?
+CORRECT: lymph capillaries
+INCORRECT: pulmonary capillaries | varicose veins | alveoli
+ANSWER: The structure that collects fluid that leaks out from blood capillaries is the interstitium.
+
+### d020903699
+Q: Centrioles help organize the chromosomes before cell division so that each daughter cell has the correct number of what?
+CORRECT: chromosomes
+INCORRECT: ribosomes | cells | receptors
+ANSWER: Centrioles help organize chromosomes before cell division so that each daughter cell has the correct number of chromosomes.
+
+### 2e88ef2590
+Q: Ice cores, varves and what else indicate the environmental conditions at the time of their creation?
+CORRECT: tree rings
+INCORRECT: mountain ranges | fossils | magma
+ANSWER: Ice cores, varves, and tree rings indicate the environmental conditions at the time of their creation.
+
+### 2fe1574167
+Q: Fahrenheit, celsius, and kelvin are all units which measure what?
+CORRECT: temperature
+INCORRECT: brightness | radiation | precipitation
+ANSWER: Fahrenheit, Celsius, and Kelvin are units that measure temperature.
+
+### a519f45087
+Q: What do most living things use to make atp from glucose?
+CORRECT: oxygen
+INCORRECT: enzymes | carbon | nitrogen
+ANSWER: Most living things use the energy from glucose to produce ATP through cellular respiration, which involves the breakdown of glucose in the presence of oxygen.
+
+### 434d6e6947
+Q: What creates new seafloor in the rift valleys?
+CORRECT: seafloor spreading
+INCORRECT: sedimentation | crust spreading | continental drift
+ANSWER: New seafloor is created in the rift valleys through a process called seafloor spreading, where magma from the Earth's mantle rises to the surface and solidifies, creating new oceanic crust.
+
+### cb177d15af
+Q: Many species of flowering plants have coevolved with specific what?
+CORRECT: pollinators
+INCORRECT: predators | climates | spores
+ANSWER: Many species of flowering plants have coevolved with specific pollinators, such as bees, butterflies, or hummingbirds.
+
+### 0f706737c5
+Q: Which molecules are made of one carbon and four hydrogen atoms?
+CORRECT: hydrocarbons
+INCORRECT: fats | proteins | particles
+ANSWER: Ethane is a molecule made of one carbon and four hydrogen atoms.
+
+### 9552af11cf
+Q: There are about 6200 known species of what?
+CORRECT: amphibians
+INCORRECT: primates | mammals | reptiles
+ANSWER: There are about 6200 known species of insects.
+
+### 4a1e5aad67
+Q: Like the platypus, the echnida is a what?
+CORRECT: monotreme
+INCORRECT: prosauropod | Gives Live birth | dugongs
+ANSWER: The echidna is a mammal.
+
+### 1bee9d147f
+Q: What indicates the speed at which a reaction proceeds?
+CORRECT: the reaction rate
+INCORRECT: the transform rate | time zone | reaction scale
+ANSWER: The speed at which a reaction proceeds is indicated by the rate of the reaction, which can be measured by the change in concentration of reactants or products over time.
+
+### 75b003a0d1
+Q: In our bodies, the chest cavity is a clear example of a system at what?
+CORRECT: resonance
+INCORRECT: rest | scale | default
+ANSWER: The chest cavity is an example of a system in the human body.
+
+### 76d3ae35d5
+Q: The five human senses are taste, touch, vision, hearing and one more. what is it?
+CORRECT: smell
+INCORRECT: perception | audio | fear
+ANSWER: The five human senses are taste, touch, vision, hearing, and smell.
+
+### 0f4312d9ba
+Q: The efficiency of a machine is a measure of how well it reduces what force?
+CORRECT: friction
+INCORRECT: tension | vibration | sound
+ANSWER: The efficiency of a machine is a measure of how well it reduces the amount of work input into the machine.
+
+### 493d41165d
+Q: Vascular plants all have roots, stems, and what?
+CORRECT: leaves
+INCORRECT: beans | flowers | fruits
+ANSWER: Vascular plants all have roots, stems, and vascular tissues.
+
+### 866f9a46e4
+Q: The hydrogen is oxidized because it undergoes a partial loss of what?
+CORRECT: electrons
+INCORRECT: density | protons | ions
+ANSWER: The hydrogen undergoes a partial loss of electrons.
+
+### 545a6bc47b
+Q: Reactants may also be present in such low concentrations that it is unlikely they will meet and do what?
+CORRECT: collide
+INCORRECT: explode | depart | melt
+ANSWER: Reactants may also be present in such low concentrations that it is unlikely they will meet and react with each other.
+
+### e358a1c523
+Q: What is the cause of common mold allergies?
+CORRECT: airborne mold spores
+INCORRECT: immobile mold spores | bacteria | viruses
+ANSWER: Common mold allergies are caused by exposure to mold spores, which can trigger an immune response in some individuals.
+
+### 8c2cab69ae
+Q: The cultivated forms of wheat, cotton, and tobacco plants are all what?
+CORRECT: allopolyploids
+INCORRECT: pores | sporozoans | bales
+ANSWER: The cultivated forms of wheat, cotton, and tobacco plants are all annuals.
+
+### c8fab38223
+Q: What chemical signals in plants control different processes?
+CORRECT: plant hormones
+INCORRECT: produce hormones | nitrogen hormones | Human Hormones
+ANSWER: Chemical signals in plants control various processes such as growth, defense, and reproduction through hormones like auxins, gibberellins, cytokinins, abscisic acid, and ethylene.
+
+### e1068d6fc6
+Q: Ac is better than dc for doing what?
+CORRECT: transporting electrcal energy
+INCORRECT: cooking electrcal energy | storing electrical energy | stopping electrical ebergy
+ANSWER: Ac (Alternating Current) is better than DC (Direct Current) for doing tasks that require a high level of efficiency, such as powering electronic devices, because it can be easily converted to and from higher or lower voltages.
+
+### 1c16b2dad0
+Q: Farming practices leave some soil exposed and vulnerable to what natural process?
+CORRECT: erosion
+INCORRECT: migration | rust | sediment
+ANSWER: Farming practices can leave some soil exposed and vulnerable to erosion.
+
+### d1780c74e7
+Q: What do metals start out as?
+CORRECT: ore
+INCORRECT: Metal molecules | aluminum | nickel
+ANSWER: Metals start out as minerals or ores.
+
+### 41c1174bd9
+Q: What type of change is undergone when the physical properties of a substance are changed?
+CORRECT: physical
+INCORRECT: thermal | genetic | atmospheric
+ANSWER: When the physical properties of a substance are changed, it undergoes a type of change known as a physical change or a phase change.
+
+### bac09dedca
+Q: How many calories of energy does one gram of protein provide?
+CORRECT: 4
+INCORRECT: 2 | 1 | 5
+ANSWER: One gram of protein provides 4 calories of energy.
+
+### 260427feae
+Q: Chelicerae in spiders are often modified into fangs that perform what function?
+CORRECT: inject venom
+INCORRECT: courtship display | chewing | tearing flesh
+ANSWER: Chelicerae in spiders are often modified into fangs that perform the function of delivering venom to prey.
+
+### 397af2a156
+Q: What glands remove water, salts and other wastes from skin?
+CORRECT: sweat glands
+INCORRECT: sex glands | push glands | water glands
+ANSWER: The glands that remove water, salts, and other wastes from the skin are sweat glands.
+
+### 80ee079fe6
+Q: Where do t cells mature?
+CORRECT: thymus gland
+INCORRECT: liver | bone marrow | pituitary gland
+ANSWER: T cells mature in the thymus gland.
+
+### abe7b6c5dd
+Q: Which organelles, made of protein and ribosomal rna, build cellular proteins in the cytoplasm?
+CORRECT: ribosomes
+INCORRECT: chloroplasts | dna | chromosomes
+ANSWER: The organelles that build cellular proteins in the cytoplasm are ribosomes, made of protein and ribosomal RNA.
+
+### 1b699fff93
+Q: What is the adaptation that certain animals use to become less visible to predators and prey?
+CORRECT: camouflage
+INCORRECT: skeletons | speed | insulation
+ANSWER: Some animals use camouflage, coloration, or shape to become less visible to predators and prey.
+
+### 7980671b60
+Q: What is the term for groups of cells with a similar appearance and a common function, and describes how cells are organized?
+CORRECT: tissue
+INCORRECT: muscle | heart | kidney
+ANSWER: The term for groups of cells with a similar appearance and a common function is a tissue, and it describes how cells are organized in a specific structure or organ.
+
+### 01c1015d42
+Q: Each species has a particular way of making a living which is called its what?
+CORRECT: niche
+INCORRECT: habit | system | life-cycle
+ANSWER: Each species has a particular way of making a living, which is called its ecological niche.
+
+### 58c0d6d18c
+Q: Which  organs control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine?
+CORRECT: kidneys
+INCORRECT: lungs | tongue | ears
+ANSWER: The kidneys are the organs that control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine.
+
+### 69b7acb6e9
+Q: How many meters deep does the photic zone extend?
+CORRECT: 200
+INCORRECT: 400 | 100 | 900
+ANSWER: The photic zone extends approximately 200 meters deep.
+
+### 4eda65c7e1
+Q: What process can cause harmful alleles to become fixed?
+CORRECT: genetic drift
+INCORRECT: natural selection | migration | mutation
+ANSWER: Natural selection can cause harmful alleles to become fixed, as individuals with these alleles are less likely to survive and reproduce, leading to their eventual elimination from the population.
+
+### 0d65596409
+Q: Organisms that live deep in the ocean must be able to withstand what?
+CORRECT: extreme water pressure
+INCORRECT: the sun | significant water pressure | tsunamis
+ANSWER: Organisms that live deep in the ocean must be able to withstand high pressure and low light levels.
+
+### cb6fddbd09
+Q: What branch of science is concerned with matter and the changes that it can undergo?
+CORRECT: chemistry
+INCORRECT: geology | physiology | biology
+ANSWER: The branch of science concerned with matter and the changes it can undergo is chemistry.
+
+### 5b437942d4
+Q: What do experts estimate is the cause for the extinction of hundreds of species every year?
+CORRECT: human activities
+INCORRECT: migration | predation | intraspecies competition
+ANSWER: Experts estimate that the main cause for the extinction of hundreds of species every year is human activities, including habitat destruction, pollution, climate change, and overexploitation of resources.

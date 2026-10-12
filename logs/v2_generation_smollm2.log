@@ -1,0 +1,13 @@
+[smollm2-1.7b-instruct/truthfulqa/dev] n=200 device=cuda dtype=fp32
+greedy done 0s; truncated=0/200; chosen==argmax for 4763/4763 tokens (100.000%)
+done in 198s -> C:\Stuff\Hallucination\results_v2\smollm2-1.7b-instruct\truthfulqa\dev
+[smollm2-1.7b-instruct/truthfulqa/confirm] n=617 device=cuda dtype=fp32
+greedy done 0s; truncated=7/617; chosen==argmax for 15673/15673 tokens (100.000%)
+done in 554s -> C:\Stuff\Hallucination\results_v2\smollm2-1.7b-instruct\truthfulqa\confirm
+[smollm2-1.7b-instruct/sciq/dev] n=200 device=cuda dtype=fp32
+greedy done 432s; truncated=0/200; chosen==argmax for 3882/3882 tokens (100.000%)
+done in 1647s -> C:\Stuff\Hallucination\results_v2\smollm2-1.7b-instruct\sciq\dev
+[smollm2-1.7b-instruct/sciq/confirm] n=800 device=cuda dtype=fp32
+greedy done 779s; truncated=2/800; chosen==argmax for 15403/15403 tokens (100.000%)
+done in 4504s -> C:\Stuff\Hallucination\results_v2\smollm2-1.7b-instruct\sciq\confirm
+ALLDONE

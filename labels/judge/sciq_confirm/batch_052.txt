@@ -1,0 +1,239 @@
+### d3d4f60da9
+Q: What are different types of tissues organized into functional units called?
+CORRECT: organs
+INCORRECT: tendons | arteries | veins
+ANSWER: Different types of tissues are organized into functional units called organs.
+
+### 4f14f9e059
+Q: What makes up the dense outer layer of bones?
+CORRECT: compact bone
+INCORRECT: adipose tissue | ligaments | plasma
+ANSWER: The dense outer layer of bones is made up of compact bone tissue.
+
+### ffa5d4f7c7
+Q: What are reptiles unable to absorb through their skin because of scales?
+CORRECT: oxygen
+INCORRECT: food | water | carbon
+ANSWER: Reptiles are unable to absorb water and essential nutrients through their skin due to the presence of scales.
+
+### 005588291a
+Q: Most of the energy used by living things comes either directly or indirectly from where?
+CORRECT: sun
+INCORRECT: water | horizon | earth
+ANSWER: Most of the energy used by living things comes either directly or indirectly from the sun.
+
+### 90f4006170
+Q: What does scientific notation use to write very large or very small numbers?
+CORRECT: exponents
+INCORRECT: whole numbers | zeros | coefficients
+ANSWER: Scientific notation uses powers of 10 to write very large or very small numbers.
+
+### 6e5affeca3
+Q: Practitioners of what thought all matter was composed of different proportions of four basic elements, and that if you changed the proportions of these elements, you could change the substance itself?
+CORRECT: alchemy
+INCORRECT: chemistry | biology | phrenology
+ANSWER: Practitioners of ancient Greek philosophy believed that all matter was composed of four basic elements: earth, air, fire, and water.
+
+### 8d19d49c89
+Q: What part of the eye allows light to enter?
+CORRECT: pupil
+INCORRECT: eyelid | retina | iris
+ANSWER: The cornea, the transparent outer layer of the eye, allows light to enter.
+
+### f869449db7
+Q: The two simplest models of population growth use what to describe the rate of change in the size of a population over time?
+CORRECT: deterministic equations
+INCORRECT: predestination equations | analogous equations | wave function
+ANSWER: The two simplest models of population growth use exponential growth and logistic growth to describe the rate of change in the size of a population over time.
+
+### ae53120cb5
+Q: Where do recent rocks point towards on earth?
+CORRECT: north magnetic pole
+INCORRECT: space | equator | south magnetic pole
+ANSWER: Recent rocks point towards the Earth's surface, indicating the direction of the Earth's magnetic field at that time.
+
+### 9bab488000
+Q: What is an adaptation?
+CORRECT: favorable trait
+INCORRECT: harmful mutation | unfavorable trait | inherited gene
+ANSWER: An adaptation is a trait or characteristic that helps an organism survive and reproduce in its environment.
+
+### 68a199a9c9
+Q: Some bacteria cannot be cultured because they are obligate intracellular parasites and cannot be grown outside what?
+CORRECT: host cell
+INCORRECT: sponsor cell | anchor cell | brain cell
+ANSWER: Some bacteria are obligate intracellular parasites and cannot be grown outside living host cells.
+
+### fdf7989fd6
+Q: What element is the most abundant in the universe?
+CORRECT: hydrogen
+INCORRECT: oxygen | carbon | helium
+ANSWER: The most abundant element in the universe is hydrogen.
+
+### 09bbfa8458
+Q: Childbirth usually starts when which sac breaks?
+CORRECT: amniotic
+INCORRECT: umbilical | uterine | protein
+ANSWER: Childbirth usually starts when the amniotic sac breaks, releasing the amniotic fluid and signaling the start of labor.
+
+### 59dc57b6e0
+Q: What can slow down the increase of viruses in the blood?
+CORRECT: medications
+INCORRECT: platelets | infections | androgens
+ANSWER: Certain medications, such as interferons and antiviral drugs, can slow down the increase of viruses in the blood.
+
+### 90105bef4c
+Q: What are the most diverse organisms on earth, which are often classified by shape or how they react to gram stain?
+CORRECT: bacteria
+INCORRECT: cultures | pathogens | algae
+ANSWER: The most diverse organisms on Earth are often classified by shape or how they react to gram stain, with bacteria being the most diverse group.
+
+### e06f656481
+Q: Excessive exposure to what is the main cause of skin cancer?
+CORRECT: uv light
+INCORRECT: LED light | fluorescent light | incandescent light
+ANSWER: Excessive exposure to ultraviolet (UV) radiation from the sun or tanning beds is the main cause of skin cancer.
+
+### 2d6dd72dc6
+Q: What acids are the structural components of many lipids and may be saturated or unsaturated?
+CORRECT: fatty acids
+INCORRECT: fundamental acids | ionic acids | carbonic acids
+ANSWER: The structural components of many lipids, including fatty acids, are acids. These acids can be saturated or unsaturated.
+
+### cf253ce7b9
+Q: How frequently do high tides occur?
+CORRECT: every 12 hours
+INCORRECT: Every 96 hours | Every 24 hours | Every 48 hours
+ANSWER: High tides occur approximately twice a day, as the Earth rotates on its axis while the Moon orbits around it.
+
+### 4b6ea6ec7f
+Q: Arthropods today have two unusual hox genes, both of which influence what?
+CORRECT: segmentation
+INCORRECT: compression | reproduction | motility
+ANSWER: Arthropods have two unusual hox genes that influence the development of their body segments and appendages.
+
+### f5b06e56a3
+Q: Lenses that focus light are called what?
+CORRECT: converging lenses
+INCORRECT: active lenses | powering lenses | sensing lenses
+ANSWER: Lenses that focus light are called optical lenses.
+
+### 3a661c7224
+Q: What kind of a process is corrosion?
+CORRECT: galvanic
+INCORRECT: electrolysis | oxidation | electromagnetic
+ANSWER: Corrosion is a chemical process that occurs when a metal reacts with its environment, typically resulting in the degradation of the metal's surface.
+
+### 848b5983cb
+Q: What is the resultant waste product of photosynthesis?
+CORRECT: oxygen
+INCORRECT: carbon | argon | sulfur
+ANSWER: The resultant waste product of photosynthesis is carbon dioxide.
+
+### a0f42b2b4a
+Q: What is the star nearest the earth named?
+CORRECT: proxima centauri
+INCORRECT: apollinaris centauri | andromeda centauri | alpha centauri
+ANSWER: The star nearest to Earth is the Sun.
+
+### 513ef64f1b
+Q: Matter is made up of a mixture of things called what?
+CORRECT: elements
+INCORRECT: segments | compounds | structures
+ANSWER: Matter is made up of a mixture of things called elements.
+
+### d8e69cdd0d
+Q: What kind of reproduction generates most of the genetic variation that makes evolutionary adaptation possible?
+CORRECT: sexual reproduction
+INCORRECT: cloning | asexual reproduction | synthetic reproduction
+ANSWER: Most of the genetic variation that makes evolutionary adaptation possible is generated through sexual reproduction, which involves the combination of genetic material from two parents.
+
+### 5292e4a099
+Q: The cell walls of what organisms are strengthened by chitin, unlike plant cell walls, which contain cellulose?
+CORRECT: fungi
+INCORRECT: virus | bacterium | yeast
+ANSWER: The cell walls of fungi and some protozoa are strengthened by chitin, unlike plant cell walls which contain cellulose.
+
+### ff1c859cd3
+Q: Which type of tree is dominant in temperate forests?
+CORRECT: deciduous
+INCORRECT: vines | fungus | shrubs
+ANSWER: The dominant type of tree in temperate forests is usually an oak or beech tree.
+
+### 8dc2094ac0
+Q: What type of behaviors are rigid and predictable, and usually involve basic life functions?
+CORRECT: innate behaviors
+INCORRECT: diverse behaviors | protective behaviors | impulsive behaviors
+ANSWER: Rigid and predictable behaviors that usually involve basic life functions include repetitive actions, routine tasks, and instinctual responses.
+
+### 8a094da312
+Q: When water is aerated it can provide a plant's roots with what gas for cellular respiration?
+CORRECT: oxygen
+INCORRECT: nitrogen | carbon | carbon dioxide
+ANSWER: When water is aerated, it can provide a plant's roots with oxygen for cellular respiration.
+
+### 553ed622cf
+Q: What system consists of organs that break down food and absorb nutrients such as glucose?
+CORRECT: digestive system
+INCORRECT: cardiovascular system | physical system | skeletal system
+ANSWER: The system that consists of organs that break down food and absorb nutrients such as glucose is the digestive system.
+
+### 76f97295eb
+Q: What is most energy that is lost to the environment lost as?
+CORRECT: heat
+INCORRECT: gravity | vapor | precipitation
+ANSWER: Most of the energy lost to the environment is lost as heat.
+
+### 43a530291a
+Q: Yeasts, molds, and mushrooms are all different kinds of what?
+CORRECT: fungi
+INCORRECT: pollen | bacteria | fossil
+ANSWER: Yeasts, molds, and mushrooms are all types of fungi.
+
+### ab4037f5d5
+Q: In what type of animals may a body cavity be present or absent?
+CORRECT: triploblastic
+INCORRECT: vertebrate | bicellular | nonvascular
+ANSWER: In animals, a body cavity can be present or absent, depending on the type of animal.
+
+### 46930c56a2
+Q: What type of chemical reactions release energy?
+CORRECT: exothermic reactions
+INCORRECT: sulfuric reactions | endothermic reactions | biochemical reactions
+ANSWER: Chemical reactions that release energy are called exothermic reactions.
+
+### 3955a5e8ad
+Q: As the telencephalon enlarges and grows into the cranial cavity, it is limited by the space within what bone structure?
+CORRECT: skull
+INCORRECT: skeleton | spine | chest
+ANSWER: The telencephalon is limited by the space within the cranial cavity, which is bounded by the bones of the skull.
+
+### 83e4105159
+Q: What are alveoli?
+CORRECT: tiny air sacs in the lungs
+INCORRECT: tiny air natalensis in the lungs | sacs in the diaphragm | cilia in the throat
+ANSWER: Alveoli are tiny air sacs in the lungs where oxygen is exchanged for carbon dioxide during respiration.
+
+### fa1ab6ce0a
+Q: Animals with better fitness have a better chance of passing their genes onto the next generation, this process is known as?
+CORRECT: natural selection
+INCORRECT: survival selection | natural evolution | fitness selection
+ANSWER: The process of animals passing their genes onto the next generation with better fitness is known as natural selection.
+
+### 1e4ed95627
+Q: What happens to energy when work is done by a system?
+CORRECT: removed
+INCORRECT: stored | added | multiplied
+ANSWER: When work is done by a system, energy is transferred or transformed from one form to another.
+
+### 59b17d5632
+Q: What are groups of stars called that are smaller than a galaxy?
+CORRECT: star clusters
+INCORRECT: Milky Way | nebuli | constellations
+ANSWER: Groups of stars smaller than a galaxy are called star clusters.
+
+### 1d1ce1b51d
+Q: What must be combined with a halogen to give it a positive oxidation number?
+CORRECT: oxygen
+INCORRECT: nitrogen | calcium | carbon
+ANSWER: To give a halogen a positive oxidation number, it must be combined with a metal.

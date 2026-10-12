@@ -1,0 +1,239 @@
+### 8c16b1c26c
+Q: The full range of wavelengths and frequencies of electromagnetic radiation make up the ____________
+CORRECT: electromagnetic spectrum
+INCORRECT: electronic spectrum | mechanical spectrum | anomalous spectrum
+ANSWER: The full range of wavelengths and frequencies of electromagnetic radiation make up the electromagnetic spectrum.
+
+### 38521f29ec
+Q: What is a vector quantity with the same direction as the force called?
+CORRECT: impulse
+INCORRECT: accelerated | inverted | simple
+ANSWER: A vector quantity with the same direction as the force is called a force vector.
+
+### f2558fd130
+Q: Under what type of conditions can populations grow exponentially?
+CORRECT: ideal
+INCORRECT: pleasant | useful | lush
+ANSWER: Populations can grow exponentially under ideal conditions such as unlimited resources, no predation or disease, and no environmental constraints.
+
+### 03e5423da7
+Q: Most insects reproduce quickly and through what type of reproduction?
+CORRECT: sexual reproduction
+INCORRECT: spores | photosynthesis | asexual reproduction
+ANSWER: Most insects reproduce quickly and primarily through asexual reproduction, which involves the production of offspring without the involvement of a male.
+
+### 890760faaf
+Q: Where do plants take in air?
+CORRECT: their leaves
+INCORRECT: their flowers | their stems | their roots
+ANSWER: Plants take in air through their leaves, specifically through tiny openings called stomata.
+
+### 6309b45e56
+Q: What do you call health-promoting molecules that inhibit the oxidation of other molecules?
+CORRECT: antioxidants
+INCORRECT: neurotransmitters | nutrients | hormones
+ANSWER: You call health-promoting molecules that inhibit the oxidation of other molecules antioxidants.
+
+### 60d603162a
+Q: What broad group of organisms is characterized by sensory organs, the ability to move, internal digestion and sexual reproduction?
+CORRECT: animals
+INCORRECT: protists | plants | fungi
+ANSWER: The broad group of organisms characterized by sensory organs, the ability to move, internal digestion, and sexual reproduction is called animals.
+
+### 8ff85ca124
+Q: The inside of the small intestine has many folds, called villi. microvilli are lined with blood vessels as well as lymphatic vessels. the inside of the small intestine is called this?
+CORRECT: lumen
+INCORRECT: reticular | porous | osmotic
+ANSWER: The inside of the small intestine is called the intestinal villi.
+
+### bc3f661f20
+Q: While elements are represented by chemical symbols, chemical formulas represent what?
+CORRECT: compounds
+INCORRECT: extracts | pollutants | solutions
+ANSWER: Chemical formulas represent the composition of substances, showing the number and type of atoms of each element present in a compound.
+
+### 32457aaf49
+Q: What are the most successful phylum of plants?
+CORRECT: angiosperms
+INCORRECT: spores | gymnosperms | ferns
+ANSWER: The most successful phylum of plants is the Magnoliopsida, also known as the flowering plants.
+
+### 6bee469940
+Q: What type of cell function relies on microfilaments, which are the actin components of the cytoskeleton?
+CORRECT: muscle
+INCORRECT: neurons | skin cells | nephrons
+ANSWER: The type of cell function that relies on microfilaments, which are the actin components of the cytoskeleton, is muscle contraction.
+
+### ba8a9c9270
+Q: What is released to lubricate the vagina to facilitate intercourse?
+CORRECT: vaginal secretions
+INCORRECT: urine | blood | semen
+ANSWER: Lubrication is released to facilitate intercourse, primarily by the Bartholin's glands and Cowper's glands.
+
+### 6f52832234
+Q: A skydiver will reach what when the air drag equals their weight?
+CORRECT: terminal velocity
+INCORRECT: constant velocity | building velocity | ending velocity
+ANSWER: When the air drag equals the skydiver's weight, they will reach terminal velocity.
+
+### 07d0615553
+Q: Besides ingesting and photosynthesis how can protists get their food?
+CORRECT: absorption
+INCORRECT: digestion | accumulation | osmosis
+ANSWER: Besides ingesting and photosynthesis, protists can also obtain food through phagocytosis, where they engulf and digest other organisms, and through the consumption of organic matter.
+
+### 15a33d33e7
+Q: What is added to a measured portion of a more concentrated stock solution to achieve a particular concentration?
+CORRECT: solvent
+INCORRECT: water | yeast | pigment
+ANSWER: To achieve a particular concentration, a measured portion of a more concentrated stock solution is added to a measured portion of a less concentrated solution.
+
+### 71e655da29
+Q: What is the female reproductive structure of a flower?
+CORRECT: the pistil
+INCORRECT: the stamen | the seed | the flower
+ANSWER: The female reproductive structure of a flower is the stigma, style, and ovary.
+
+### 99da32d534
+Q: Digestion of proteins begins with acids in what organ?
+CORRECT: stomach
+INCORRECT: colon | liver | brain
+ANSWER: Digestion of proteins begins with acids in the stomach.
+
+### b605cb9684
+Q: What soil is common in deciduous forests?
+CORRECT: pedalfer
+INCORRECT: sandy soil | xerophyte | loam
+ANSWER: Deciduous forests are typically characterized by soil that is rich in organic matter, has a loamy texture, and is often acidic.
+
+### 3da20fcadc
+Q: What kind of rock layer makes up the bottom of an aquifer?
+CORRECT: impermeable
+INCORRECT: invisible | porous | crystalline
+ANSWER: The bottom layer of an aquifer is typically composed of permeable rock layers, such as sandstone or limestone, that allow water to flow through them easily.
+
+### 182b6eda0b
+Q: Electricity consists of a constant stream of what tiny particles?
+CORRECT: electrons
+INCORRECT: atoms | quarks | ions
+ANSWER: Electricity consists of a constant stream of tiny particles called electrons.
+
+### 95d5874d9c
+Q: What development is less risky for the mother?
+CORRECT: marsupial
+INCORRECT: gastrointestinal | atypical | mutation
+ANSWER: The development that is less risky for the mother is childbirth, as it is a natural process and poses fewer risks compared to other medical procedures.
+
+### fb0f026d7c
+Q: In photosynthesis, what process involving carbon dioxide and oxygen occurs through small, regulated openings called stomata?
+CORRECT: gas exchange
+INCORRECT: osmosis | fertilization | transpiration
+ANSWER: In photosynthesis, the process of carbon dioxide and oxygen exchange occurs through small, regulated openings called stomata.
+
+### 0f9f738bfd
+Q: What is the passing of traits from parents to offspring called?
+CORRECT: heredity
+INCORRECT: variability | cell division | mutation
+ANSWER: The passing of traits from parents to offspring is called heredity.
+
+### 8f6e27ddab
+Q: What force occurs because no surface is perfectly smooth?
+CORRECT: friction
+INCORRECT: vibration | gravity | tension
+ANSWER: The force that occurs because no surface is perfectly smooth is friction.
+
+### fcc12be4e5
+Q: What results from uncontrolled cell division?
+CORRECT: cancers
+INCORRECT: high blood pressure | obesity | diabetes
+ANSWER: Uncontrolled cell division results in uncontrolled cell growth, which can lead to the formation of tumors and potentially cause cancer.
+
+### d847e18e3a
+Q: Groups of three bases form codons, and each codon stands for one what?
+CORRECT: amino acid
+INCORRECT: compound acid | minimal acid | sulferic acid
+ANSWER: Groups of three bases form codons, and each codon stands for one amino acid.
+
+### ce06bbd71c
+Q: What artery takes blood to the brain?
+CORRECT: carotid
+INCORRECT: veins | pulmonary | coronary
+ANSWER: The carotid artery takes blood to the brain.
+
+### ab67e68a64
+Q: In phyisics, what is considered to be the rotational version of force?
+CORRECT: torque
+INCORRECT: work | energy | pressure
+ANSWER: In physics, the rotational version of force is torque.
+
+### 99b6051ef8
+Q: The invention of the wheel is an example of what, which has the goal of solving human problems?
+CORRECT: technology
+INCORRECT: industry | concept | evolution
+ANSWER: The invention of the wheel is an example of a technological innovation that aims to solve human problems by providing a more efficient and practical means of transportation, communication, and other tasks.
+
+### 40a0fa3c04
+Q: What do concentric circles on a topographic map indicate?
+CORRECT: a hill
+INCORRECT: a forest | a lake | a crater
+ANSWER: Concentric circles on a topographic map indicate the different elevations or contours of the land.
+
+### f27404fce8
+Q: What type of reactions absorb heat from their surroundings?
+CORRECT: endothermic
+INCORRECT: geothermic | hypothermic | exothermic
+ANSWER: Exothermic reactions absorb heat from their surroundings.
+
+### 76dfb944bc
+Q: Animal behavior can be said to be controlled by genetics and experiences, also known as nature and what?
+CORRECT: nurture
+INCORRECT: growth | evolution | interaction
+ANSWER: Animal behavior can be controlled by genetics and experiences, also known as nature and nurture.
+
+### 6f69098cea
+Q: How many atoms does water contain?
+CORRECT: 3
+INCORRECT: 4 | 6 | 9
+ANSWER: Water contains 2 atoms of hydrogen and 1 atom of oxygen.
+
+### 4bd7fdd6ca
+Q: What neurons carry nerve impulses from sense organs and internal organs to the central nervous system?
+CORRECT: sensory
+INCORRECT: vascular | autonomic | axons
+ANSWER: Afferent neurons carry nerve impulses from sense organs and internal organs to the central nervous system.
+
+### e10f536209
+Q: What do scientists think to be the oldest eukaryotes?
+CORRECT: protists
+INCORRECT: bivalves | arthropods | ciliate
+ANSWER: Scientists believe that the oldest known eukaryotes are likely to be the ancestors of modern red algae, which date back to around 1.2 billion years ago.
+
+### 3a70cf7890
+Q: What term always refers to acceleration in the direction opposite to the direction of the velocity and always reduces speed, unlike negative acceleration?
+CORRECT: deceleration
+INCORRECT: progression | extraction | calibration
+ANSWER: The term that always refers to acceleration in the direction opposite to the direction of the velocity and always reduces speed is deceleration.
+
+### 1c3729fa9d
+Q: Ions flow through atp synthase from the thylakoid space into the stroma in a process called known as what?
+CORRECT: chemiosmosis
+INCORRECT: oxidation | respiration | fertilization
+ANSWER: Ions flow through ATP synthase from the thylakoid space into the stroma during the process known as chemiosmosis.
+
+### 8fdece36ef
+Q: What is the name of the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals?
+CORRECT: milk
+INCORRECT: plasma | blood | sperm
+ANSWER: The name of the complex mixture that consists of water, proteins, fats, carbohydrates, and minerals is a human body's blood plasma.
+
+### 2c020a1a71
+Q: Besides the size of their crystals, how are igneous rocks grouped?
+CORRECT: minerals they contain
+INCORRECT: by shapes | impurities they contain | by color
+ANSWER: Igneous rocks are grouped based on their mineral composition and texture, with intrusive rocks like granite and basalt having coarse-grained crystals and extrusive rocks like obsidian and pumice having fine-grained or glassy textures.
+
+### 0152fbe8ab
+Q: What kind of waves are used in radar guns?
+CORRECT: microwaves
+INCORRECT: x-rays | WIFI | radio waves
+ANSWER: Radar guns use radio waves to measure the speed of objects.

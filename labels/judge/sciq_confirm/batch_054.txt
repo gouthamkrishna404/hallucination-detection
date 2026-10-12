@@ -1,0 +1,161 @@
+### b86f0aa629
+Q: What happens when ionic compounds are dissolved in water?
+CORRECT: conduct electricity
+INCORRECT: magnetize electricity | repel electricity | deflect electricity
+ANSWER: When ionic compounds are dissolved in water, the ions in the compound break free from each other and become free to move, resulting in the formation of a solution.
+
+### d6afcfc177
+Q: Which two major innovations allowed seed plants to reproduce in the absence of water?
+CORRECT: seed and pollen
+INCORRECT: bee and pollen | root and pollen | salt and pollen
+ANSWER: Two major innovations that allowed seed plants to reproduce in the absence of water are the development of seeds and the evolution of vascular tissues.
+
+### 7e8b231559
+Q: What occurs when competing species evolve different adaptations?
+CORRECT: specialization
+INCORRECT: evolution | urbanization | Rate Adaption
+ANSWER: When competing species evolve different adaptations, they may either coexist and coexist peacefully, or one species may outcompete the other, leading to the extinction of the less adapted species.
+
+### d7a47cd7e1
+Q: Channel proteins form what in the membrane?
+CORRECT: pores
+INCORRECT: walls | fibers | atoms
+ANSWER: Channel proteins form pores or channels in the cell membrane.
+
+### 6e93f6a172
+Q: Magnets have a "north" and a "south" what?
+CORRECT: pole
+INCORRECT: arch | grid | temperature
+ANSWER: Magnets have a "north" and a "south" pole.
+
+### 53668b4335
+Q: What is the cure of cancer known as?
+CORRECT: remission
+INCORRECT: metabolism | rejuvenation | regeneration
+ANSWER: The cure of cancer is known as cancer treatment.
+
+### da837bcb08
+Q: What part of the male reproductive system is involved with the most common disorders?
+CORRECT: the testes
+INCORRECT: the ureter | the penis | the glans
+ANSWER: The most common disorders in the male reproductive system are often related to the testes, epididymis, and vas deferens.
+
+### a4f0643973
+Q: Pairs of nitrogenous bases are attached to each other by?
+CORRECT: hydrogen bonds
+INCORRECT: potassium bonds | ionic bonds | magnetism
+ANSWER: Nitrogenous bases are attached to each other by hydrogen bonds.
+
+### f1a886d877
+Q: Most of the fresh water on earth is tied up in a solid form. what are they called?
+CORRECT: glaciers
+INCORRECT: sediments | lakes | oceans
+ANSWER: The majority of the Earth's fresh water is locked in glaciers and ice caps.
+
+### 31fa8a788e
+Q: Parasites infect the host's what?
+CORRECT: red blood cells
+INCORRECT: platelets | plasma | white blood cells
+ANSWER: Parasites infect the host's body tissues and organs.
+
+### fcf4df4a3f
+Q: What is the watery fluid that bathes tissues and organs and contains protective white blood cells but does not contain erythrocytes?
+CORRECT: lymph
+INCORRECT: stomach | basil | secretion
+ANSWER: The watery fluid that bathes tissues and organs and contains protective white blood cells but does not contain erythrocytes is called interstitial fluid.
+
+### ec397202e4
+Q: What is the only light that people can see?
+CORRECT: visible light
+INCORRECT: spectrum light | infrared light | UV light
+ANSWER: The only light that people can see is visible light, which is a form of electromagnetic radiation that is visible to the human eye.
+
+### 54cf88c753
+Q: A metarteriole is a type of vessel that has structural characteristics of both an arteriole and this?
+CORRECT: capillary
+INCORRECT: tendon | electron | layer
+ANSWER: A metarteriole is a type of vessel that has structural characteristics of both an arteriole and a venule.
+
+### 9271d03d96
+Q: Earthquakes cause longitudinal waves as well as which other waves?
+CORRECT: transverse
+INCORRECT: aural | irregular | electromagnetic
+ANSWER: Earthquakes cause both longitudinal waves and transverse waves.
+
+### a41daedc06
+Q: Unipolar, bipolar, multipolar, and pseudounipolar are the four basic types of what?
+CORRECT: neurons
+INCORRECT: ions | protons | electrons
+ANSWER: Unipolar, bipolar, multipolar, and pseudounipolar are the four basic types of political systems.
+
+### b01919cd31
+Q: Reptiles are described by what term that means their internal temperature depends on the temperature of their environment?
+CORRECT: ectothermic
+INCORRECT: zygomorphic | endothermic | actinomorphic
+ANSWER: Reptiles are described by the term "ectothermic," meaning their internal temperature depends on the temperature of their environment.
+
+### dd6b9cfac3
+Q: What sort of walls are helpful for keeping a slope stable?
+CORRECT: retaining walls
+INCORRECT: relocating walls | diverting walls | managing walls
+ANSWER: Walls made of compacted soil, gravel, or concrete blocks can help keep a slope stable.
+
+### 5a801d4b38
+Q: When statoliths settle to the low point in the chamber, they stimulate what in that location?
+CORRECT: mechanoreceptors
+INCORRECT: dendrites | axons | nociceptors
+ANSWER: When statoliths settle to the low point in the chamber, they stimulate the release of neurotransmitters that help the snail adjust its body position and orientation.
+
+### b98de23a5e
+Q: What happens to water when it freezes?
+CORRECT: it expands
+INCORRECT: changes to gas | it shrinks | changes volume
+ANSWER: When water freezes, it expands and becomes less dense, forming ice crystals.
+
+### 44b9cbc9a6
+Q: How many ways are there for a species to go extinct?
+CORRECT: two
+INCORRECT: four | eight | Ten
+ANSWER: There is no definitive number of ways a species can go extinct, as extinction can occur through various natural and human-induced processes.
+
+### 33e61c780f
+Q: How many openings do adult tunicates have that siphon water in and out of the body?
+CORRECT: two
+INCORRECT: three | four | one
+ANSWER: Adult tunicates have one opening, called the siphon, that they use to siphon water in and out of their body.
+
+### c058b58214
+Q: Temperature and precipitation determine the types of what that can grow in an area, in turn affecting the animals that live there?
+CORRECT: plants
+INCORRECT: roots | building | birds
+ANSWER: Temperature and precipitation determine the types of plants that can grow in an area, which in turn affect the animals that live there.
+
+### 69f57e131d
+Q: What is the process by which organisms give rise to offspring?
+CORRECT: reproduction
+INCORRECT: differentiation | evolution | photosynthesis
+ANSWER: The process by which organisms give rise to offspring is called reproduction.
+
+### 87a085607f
+Q: When a species changes in small ways over time, what is it called?
+CORRECT: microevolution
+INCORRECT: nanoevolution | minievolution | small evolution
+ANSWER: When a species changes in small ways over time, it is called microevolution.
+
+### 1ae8c111aa
+Q: What is a disease caused by the same virus that causes chicken pox?
+CORRECT: shingles
+INCORRECT: gout | diabetes | hepatitis
+ANSWER: Diseases caused by the same virus that causes chicken pox include shingles and herpes zoster.
+
+### d0499fc927
+Q: How can you prevent diseases such as whooping cough and flu?
+CORRECT: preventive vaccinations
+INCORRECT: nutrition | exercise | vacuuming
+ANSWER: To prevent diseases like whooping cough and flu, you can get vaccinated, practice good hygiene, and maintain a healthy lifestyle.
+
+### ee6ed376b1
+Q: Humans cannot digest what primary structural material of plants, which is one of the most abundant organic substances on earth?
+CORRECT: cellulose
+INCORRECT: sulfur | carbonate | zinc
+ANSWER: Humans cannot digest cellulose, a primary structural material of plants, which is one of the most abundant organic substances on earth.

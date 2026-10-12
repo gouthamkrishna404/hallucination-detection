@@ -1,0 +1,239 @@
+### bb8bedf805
+Q: A vector is any quantity that has magnitude and what?
+CORRECT: direction
+INCORRECT: length | longitude | latitude
+ANSWER: A vector is any quantity that has both magnitude (amount of movement or size) and direction.
+
+### 1dc9b09f73
+Q: What cycle occurs in women of reproductive age, as a long as a sperm does not enter an egg?
+CORRECT: menstrual cycle
+INCORRECT: extraction cycle | tissue cycle | menopausal cycle
+ANSWER: In women of reproductive age, a menstrual cycle occurs as a long as a sperm does not enter an egg.
+
+### 96e7b3c38d
+Q: Nerve cells that sense touch are found mainly where?
+CORRECT: skin
+INCORRECT: stomach | brain | lungs
+ANSWER: Nerve cells that sense touch are found mainly in the skin and other sensory organs.
+
+### 61c1b09aa0
+Q: What provides clear evidence of evolution?
+CORRECT: fossils
+INCORRECT: biologists | extinction | mutations
+ANSWER: The fossil record, comparative anatomy, and molecular biology provide clear evidence of evolution.
+
+### 4bdfeea8f5
+Q: What forms when secondary alcohols oxidize?
+CORRECT: ketones
+INCORRECT: chromosomes | ions | electrons
+ANSWER: When secondary alcohols oxidize, they form aldehydes or ketones.
+
+### 94a0a99b9d
+Q: Surging hormones will cause adolescents to have what?
+CORRECT: mood swings
+INCORRECT: blackouts | growth spurts | bulging muscles
+ANSWER: Adolescents experiencing surging hormones will likely experience physical and emotional changes, such as rapid growth, acne, and mood swings.
+
+### 07c9d67aa5
+Q: In multicellular organisms, essential biological functions are carried out by what?
+CORRECT: organs
+INCORRECT: atoms | cells | molecules
+ANSWER: In multicellular organisms, essential biological functions are carried out by specialized cells or tissues.
+
+### b9fedc938d
+Q: Meiosis is part of the process of gametogenesis, which is the production of what?
+CORRECT: sperm and eggs
+INCORRECT: chromosomes | egg only | sperm only
+ANSWER: Meiosis is part of the process of gametogenesis, which is the production of gametes, such as sperm and egg cells.
+
+### d6428e938e
+Q: What disease is the result of unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle?
+CORRECT: cancer
+INCORRECT: gout | dementia | diabetes
+ANSWER: The disease resulting from unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle is cancer.
+
+### 07798754c1
+Q: What holds together adenine and thymine?
+CORRECT: hydrogen bonds
+INCORRECT: covalent bonds | potassium bonds | helium bonds
+ANSWER: Adenine and thymine are paired together in DNA through hydrogen bonds.
+
+### 15aad01a58
+Q: Gabbro is a dark dense rock that can be found in what?
+CORRECT: oceanic crust
+INCORRECT: surface crust | mantle | soil
+ANSWER: Gabbro is a dark, dense rock commonly found in the Earth's crust, particularly in the oceanic crust.
+
+### 0eea6bc9e6
+Q: Inside female cones, female spores develop into female what?
+CORRECT: gametophytes
+INCORRECT: gymnosperms | filaments | tubules
+ANSWER: Inside female cones, female spores develop into female gametophytes.
+
+### e88f779c92
+Q: Known for its beautiful rings, what is the second largest planet in the solar system?
+CORRECT: saturn
+INCORRECT: Mars | jupiter | Venus
+ANSWER: The second largest planet in the solar system is Saturn.
+
+### 39a0e922ce
+Q: A fuel cell is a galvanic cell that requires a constant external supply of what?
+CORRECT: reactants
+INCORRECT: generators | electricity | complexes
+ANSWER: A fuel cell requires a constant external supply of hydrogen or another fuel to generate electricity.
+
+### a5871e5760
+Q: How often should women perform a breast self-exam?
+CORRECT: monthly
+INCORRECT: yearly | weekly | quarterly
+ANSWER: Women should perform a breast self-exam at least once a month, ideally during or right after their menstrual cycle.
+
+### b21d036b92
+Q: What allows some things to enter the cell while keeping other things out?
+CORRECT: cell membrane
+INCORRECT: cell substrate | cell center | cell vacuum
+ANSWER: The cell membrane allows some things to enter the cell while keeping other things out through a selective process involving various proteins and lipids.
+
+### 9aa1d2afb2
+Q: How does a neon light produce visible light?
+CORRECT: electroluminescence
+INCORRECT: luminescence | radiation | mitosis
+ANSWER: A neon light produces visible light through a process called electroluminescence, where an electric current excites electrons in a gas, causing them to release energy in the form of light.
+
+### 2b920aac98
+Q: What once most common bird in north america became extinct in the 1800s?
+CORRECT: the passenger piegon
+INCORRECT: the dodo | the homing piegon | the rock penguin
+ANSWER: The Carolina Parakeet, once the most common bird in North America, became extinct in the 1800s due to habitat loss and hunting.
+
+### 7b0fa3c552
+Q: The percent yield is determined by calculating the ratio of actual yield by what?
+CORRECT: theoretical yield
+INCORRECT: past balance | predicted return | actual loss
+ANSWER: The percent yield is determined by calculating the ratio of actual yield by the theoretical yield.
+
+### 99deb94ae9
+Q: What phenomenon, which is most important in small populations, occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation?
+CORRECT: genetic drift
+INCORRECT: genetic DNA | genetic mutation | genetic code
+ANSWER: The phenomenon most important in small populations is genetic drift, which occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation.
+
+### 11935ae555
+Q: What living species of bird is considered the  largest of the raptors?
+CORRECT: golden eagles
+INCORRECT: California condor | peregrine falcon | pteradactyl
+ANSWER: The largest living species of bird is the Harpy Eagle, which is a raptor.
+
+### 366eb383de
+Q: Carpal, metacarpal and phalanx bones comprise what part of the body?
+CORRECT: hand
+INCORRECT: thumb | pelvis | foot
+ANSWER: The carpal, metacarpal, and phalanx bones comprise the wrist, hand, and fingers of the human body.
+
+### a7e2c056a7
+Q: What system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex?
+CORRECT: vestibular system
+INCORRECT: vasculature system | ventrical system | lipids system
+ANSWER: The system that enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex is the reticular formation.
+
+### 1878ffc88d
+Q: Isotopes are named for their number of protons plus what?
+CORRECT: neutrons
+INCORRECT: isomers | electrons | nuclei
+ANSWER: Isotopes are named for their number of protons plus the number of neutrons in their atomic nuclei.
+
+### e448134f2a
+Q: What is the name of the process in which the nuclei of uranium atoms are split?
+CORRECT: nuclear fission
+INCORRECT: critical fission | atomic fusion | nuclear fusion
+ANSWER: The name of the process in which the nuclei of uranium atoms are split is nuclear fission.
+
+### af60fc01f1
+Q: Trees, which can be planted and harvested, are an example of what type of resource?
+CORRECT: renewable
+INCORRECT: electric | fossil | geothermal
+ANSWER: Trees are an example of renewable resources, as they can be planted and harvested again.
+
+### 7a8896d228
+Q: What causes symptoms associated with sickle-cell disease?
+CORRECT: pleiotropic effects
+INCORRECT: genetic drift | spontaneous mutation | transgene effects
+ANSWER: Sickle-cell disease is caused by a mutation in the HBB gene that affects the production of hemoglobin, a protein in red blood cells. This mutation leads to the formation of abnormal hemoglobin molecules, which cause red blood cells to become misshapen and break down prematurely, resulting in symptoms associated with the disease
+
+### 58a7506714
+Q: Which division of the peripheral nervous system interprets signals, while the motor division sends signals?
+CORRECT: sensory
+INCORRECT: kinetic | olfactory | automatic
+ANSWER: The sensory division interprets signals, while the motor division sends signals.
+
+### a294afa6e7
+Q: During evolution, something happened to increase the size of what organ in humans, relative to that of the chimpanzee?
+CORRECT: brain
+INCORRECT: stomach | lung | liver
+ANSWER: In humans, the size of the brain relative to the body size increased compared to chimpanzees.
+
+### 0944cd060a
+Q: Free fatty acids are carboxylic acids that contain long chains of what?
+CORRECT: hydrocarbons
+INCORRECT: vapors | lipds | particles
+ANSWER: Free fatty acids are carboxylic acids that contain long chains of fatty acids.
+
+### 4fea8fd155
+Q: Where is dna located in prokaryotic cells?
+CORRECT: cytoplasm
+INCORRECT: ribosomes | cytoskeleton | mitochondria
+ANSWER: In prokaryotic cells, DNA is located in the cell's cytoplasm, specifically in a region called the nucleoid.
+
+### b18df5c908
+Q: What is required to move or change matter from one state to another?
+CORRECT: energy
+INCORRECT: food | gravity | evolution
+ANSWER: To move or change matter from one state to another, energy is required.
+
+### b993fa783b
+Q: How do many mammals control their body temperature?
+CORRECT: sweating
+INCORRECT: dieting | homeostasis | itching
+ANSWER: Many mammals control their body temperature through a process called thermoregulation, which involves various physiological mechanisms such as sweating, shivering, and behavioral adaptations like seeking shade or shelter.
+
+### b7ed6e596e
+Q: What forms when nitrogen and sulfur oxides in air dissolve in rain?
+CORRECT: acid rain
+INCORRECT: carbon rain | dioxide rain | acid snow
+ANSWER: When nitrogen and sulfur oxides in air dissolve in rain, they form acid rain.
+
+### 56cbab6182
+Q: Sensory nerves carry nerve impulses from sensory receptors to what system?
+CORRECT: central nervous
+INCORRECT: MUSCULAR SYSTEM | ENDOCRINE SYSTEM | IRCULATORY SYSTEM
+ANSWER: Sensory nerves carry nerve impulses from sensory receptors to the nervous system.
+
+### d5fca71180
+Q: What is the union of the cytoplasms of two parent mycelia known as?
+CORRECT: plasmogamy
+INCORRECT: plasmology | spirogyra | xerophyte
+ANSWER: The union of the cytoplasms of two parent mycelia is known as a hybrid mycelium.
+
+### 943ef1d939
+Q: After a supernova, what part of a star remains?
+CORRECT: core
+INCORRECT: large | outer | superficial
+ANSWER: After a supernova, the remaining part of a star is a neutron star or a black hole.
+
+### 85cd62285e
+Q: What bonding is formed in polar amino acid side chains?
+CORRECT: hydrogen bonding
+INCORRECT: calcium bonding | carbon bonding | helium bonding
+ANSWER: In polar amino acid side chains, hydrogen bonding is formed.
+
+### b502f43851
+Q: What is a relationship where one species benefits and the other is unaffected?
+CORRECT: commensalism
+INCORRECT: pollenation | mutualism | parasitism
+ANSWER: A relationship where one species benefits and the other is unaffected is called a mutualistic relationship.
+
+### 201169d1be
+Q: What hormone secreted by the pineal gland controls sleep-wake cycles and several other processes?
+CORRECT: melatonin
+INCORRECT: testosterone | t3 | estrogen
+ANSWER: Melatonin, a hormone produced by the pineal gland, controls sleep-wake cycles and other processes.

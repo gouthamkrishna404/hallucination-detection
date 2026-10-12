@@ -1,0 +1,239 @@
+### 23f896c4a7
+Q: In both eukaryotes and prokaryotes, ribosomes are the non-membrane bound organelles where what main product of the cell is made?
+CORRECT: proteins
+INCORRECT: lipids | protons | sugars
+ANSWER: In both eukaryotes and prokaryotes, ribosomes are the non-membrane bound organelles where proteins are made.
+
+### 267a2df368
+Q: What is a form of cell division in prokaryotic organisms that produces identical offspring?
+CORRECT: binary fission
+INCORRECT: nuclear fission | germination | mitosis
+ANSWER: A form of cell division in prokaryotic organisms that produces identical offspring is binary fission.
+
+### bdd33cfe37
+Q: What is matter in the universe that does not emit light called?
+CORRECT: dark matter
+INCORRECT: cold matter | hidden matter | black matter
+ANSWER: Matter in the universe that does not emit light is called dark matter.
+
+### 638cce12cc
+Q: What is made of molecules of many different gases, and is something we usually can’t see, taste, or smell; we can only feel it when it moves?
+CORRECT: air
+INCORRECT: water | light | sound
+ANSWER: The answer is air.
+
+### 17e569eede
+Q: What kind of weather do psychrophiles need to grow and reproduce?
+CORRECT: cold temperatures
+INCORRECT: mixed temperatures | Hot temperatures | water temperatures
+ANSWER: Psychrophiles need cold weather to grow and reproduce.
+
+### 9eb8a7d070
+Q: What do ionic bonds form between?
+CORRECT: metals and nonmetals
+INCORRECT: metals and carbonates | metals and freshwaters | metals and organisms
+ANSWER: Ionic bonds form between atoms that have a difference in electronegativity, typically between metals and nonmetals.
+
+### d8ecd2e870
+Q: How does the water cycle end?
+CORRECT: it repeats itself
+INCORRECT: ocean evaporation | freezing glaciers | cloud precipitation
+ANSWER: The water cycle ends when water evaporates back into the atmosphere, condenses into clouds, and eventually falls back to the Earth as precipitation, such as rain or snow.
+
+### 9a2acbc0de
+Q: In what form is atmospheric sulfur found?
+CORRECT: sulfur dioxide (so2)
+INCORRECT: formaldehyde | sulfuric acid | sulfur monoxide
+ANSWER: Atmospheric sulfur is primarily found in the form of sulfur dioxide (SO2) and sulfur trioxide (SO3).
+
+### 074819d062
+Q: The body cannot sustain for very long the bursts of energy mediated by epinephrine and norepinephrine, hormones associated with what stress response?
+CORRECT: fight-or-flight
+INCORRECT: do-or-die | fainting | sink-or-swim
+ANSWER: The body cannot sustain the bursts of energy mediated by epinephrine and norepinephrine, hormones associated with the fight-or-flight stress response.
+
+### 79601efa27
+Q: Lymph vessels make up a circulatory system that is similar to the blood vessels of what system?
+CORRECT: cardiovascular
+INCORRECT: nervous | cardiac | gastrointestinal
+ANSWER: The lymph vessels make up a circulatory system similar to the blood vessels of the lymphatic system.
+
+### 23de505c5f
+Q: Matrix is the term for the fluid-filled interior of what structure, where most of the cell’s atp is made?
+CORRECT: mitochondria
+INCORRECT: nucleus | Golgi apparatus | enzyme
+ANSWER: The matrix is the fluid-filled interior of the mitochondria, where most of the cell's ATP (adenosine triphosphate) is made.
+
+### 7f17442aef
+Q: In what type of organisms are daughter cells individuals?
+CORRECT: unicellular organisms
+INCORRECT: multicellular organisms | macroscopic organisms | hematopoietic organisms
+ANSWER: In multicellular organisms, daughter cells are individuals.
+
+### d92cfa55ed
+Q: Where does a crossover occur on a chromosome?
+CORRECT: at different locations
+INCORRECT: at no locations | at one-two locations | at the same location
+ANSWER: A crossover occurs between non-sister chromatids of homologous chromosomes during meiosis.
+
+### b491744d04
+Q: Clubfoot, also known as talipes, is a congenital (present at birth) disorder of unknown cause and is the most common deformity of what?
+CORRECT: lower limb
+INCORRECT: upper limb | genitals | cranium
+ANSWER: Clubfoot, also known as talipes, is a congenital disorder of unknown cause and is the most common deformity of the feet.
+
+### 11a4ae9fd5
+Q: A solenoid wrapped around a bar of iron or other ferromagnetic material forms what?
+CORRECT: electromagnet
+INCORRECT: impoundment | compass | compress
+ANSWER: A solenoid wrapped around a bar of iron or other ferromagnetic material forms an electromagnet.
+
+### 42183d6cd7
+Q: The rocks athe mid-ocean ridge are nearly free of what?
+CORRECT: sediment
+INCORRECT: minerals | scratches | metals
+ANSWER: The rocks at the mid-ocean ridge are nearly free of fossils.
+
+### 35fc6ccf0f
+Q: Skeletal, cardiac, and smooth are all types of what?
+CORRECT: muscle
+INCORRECT: Nervous | Epithelial | Connective
+ANSWER: Skeletal, cardiac, and smooth are types of muscles.
+
+### f0895012cb
+Q: Which cavity, filled with lubricating serous fluid, lies between the epicardium and the pericardium?
+CORRECT: pericardial cavity
+INCORRECT: cranial cavity | oral cavity | thoracic cavity
+ANSWER: The pericardium cavity is filled with lubricating serous fluid.
+
+### 390befe5b6
+Q: How many bones does an adult skeleton have?
+CORRECT: 206
+INCORRECT: 208 | 196 | 192
+ANSWER: An adult human skeleton has 206 bones.
+
+### 3a5ed4bc12
+Q: What is the organ system that brings oxygen into the body and releases carbon dioxide?
+CORRECT: lungs
+INCORRECT: liver | brain | kidneys
+ANSWER: The organ system that brings oxygen into the body and releases carbon dioxide is the respiratory system.
+
+### e2cdf34e8e
+Q: What are plant structures that contain male and/or female reproductive organs?
+CORRECT: flowers
+INCORRECT: roots | stems | leaves
+ANSWER: Plant structures that contain male and/or female reproductive organs are flowers, which are composed of petals, sepals, stamens, and carpels.
+
+### 5c8c370936
+Q: Why is the life cycle of plants so complex?
+CORRECT: alternation of generation
+INCORRECT: metamorphosis | pollination process | asexual reproduction
+ANSWER: The life cycle of plants is complex due to the intricate balance of genetic information, environmental factors, and evolutionary pressures that have shaped their development over millions of years.
+
+### 6771dca80c
+Q: What is a fiber that is found only in mammals?
+CORRECT: hair
+INCORRECT: muscle | muscle | feathers
+ANSWER: The fiber found only in mammals is called collagen.
+
+### ccf7b7f7a2
+Q: Which chemist developed a process to remove carbon and dust particles in smoke?
+CORRECT: frederick cottrell
+INCORRECT: james carpenter | roger granger | harold black
+ANSWER: The chemist who developed a process to remove carbon and dust particles in smoke is Carl Bosch.
+
+### ed0ef9c5d8
+Q: The force of attraction between a positively charged metal ion and the valence electrons it shares with other ions of the metal is called?
+CORRECT: metallic bond
+INCORRECT: ionic bond | metallic yield | temporal bond
+ANSWER: The force of attraction between a positively charged metal ion and the valence electrons it shares with other ions of the metal is called the ionic bond.
+
+### e8a4cbba34
+Q: What is it called when ice changes to liquid water?
+CORRECT: melting
+INCORRECT: vaporizing | boiling | condensing
+ANSWER: It is called "melting" when ice changes to liquid water.
+
+### 6027ce8343
+Q: Solutions of nonelectrolytes such as ethanol do not contain dissolved ions and cannot conduct what?
+CORRECT: electricity
+INCORRECT: sound | current | light
+ANSWER: Solutions of non-electrolytes like ethanol do not contain dissolved ions and cannot conduct electricity.
+
+### 4d38775ba1
+Q: Most mercury compounds decompose when they are?
+CORRECT: heated
+INCORRECT: mixed | filled | cooled
+ANSWER: Most mercury compounds decompose when they are heated or exposed to high temperatures.
+
+### 4060ed96ad
+Q: An object attached to a spring sliding on a frictionless surface is an uncomplicated type of what device?
+CORRECT: simple harmonic oscillator
+INCORRECT: wheel and axle | pendulum | atomic watch
+ANSWER: An object attached to a spring sliding on a frictionless surface is an uncomplicated type of simple harmonic oscillator.
+
+### 2f7213d52f
+Q: What is the term for the preserved remains or traces of organisms that lived in the past?
+CORRECT: fossils
+INCORRECT: corals | bones | detritis
+ANSWER: The term for the preserved remains or traces of organisms that lived in the past is paleontology.
+
+### caed743161
+Q: What is another word for cellular drinking?
+CORRECT: pinocytosis
+INCORRECT: hypothalamus | cellular hydration | altostratus
+ANSWER: Another word for cellular drinking is cellular respiration.
+
+### d5cdf07cd3
+Q: Why is closed reduction simpler than open reduction in bone repair?
+CORRECT: no surgery needed
+INCORRECT: no medicine needed | no pain pills needed | no treatment needed
+ANSWER: Closed reduction is simpler than open reduction in bone repair because it does not require making an incision in the skin, reducing the risk of infection and promoting faster healing.
+
+### 3556605cff
+Q: Birds are thought to have evolved from a group of bipedal dinosaurs called what?
+CORRECT: therapods
+INCORRECT: pteradactyls | sporozoans | staurikosaurus
+ANSWER: Birds are thought to have evolved from a group of bipedal dinosaurs called theropod dinosaurs.
+
+### 842cf0b47f
+Q: The skin disease impetigo is caused by spread of what type of microorganism?
+CORRECT: bacteria
+INCORRECT: viruses | tumors | algae
+ANSWER: Impetigo is caused by the spread of bacteria, primarily Staphylococcus aureus or Streptococcus pyogenes.
+
+### 0af66fbc47
+Q: Railroad tracks and roadways can buckle on hot days if they lack sufficient what?
+CORRECT: expansion joints
+INCORRECT: cartilaginous joints | contraction joints | attraction joints
+ANSWER: Railroad tracks and roadways can buckle on hot days if they lack sufficient expansion joints.
+
+### c364c3adb6
+Q: What do astronomers term the stretching of space that causes the distance between galaxies to increase?
+CORRECT: expanding universe
+INCORRECT: maintaining universe | draining universe | contracting universe
+ANSWER: Astronomers term the stretching of space that causes the distance between galaxies to increase as "expansion."
+
+### 0aa414b69c
+Q: What is the physical transformation of an insect moving through stages of life?
+CORRECT: metamorphosis
+INCORRECT: Transition | Growth and Development | parthenogenesis
+ANSWER: An insect undergoes a series of physical transformations, known as metamorphosis, through different stages of life, including egg, larva, pupa, and adult.
+
+### 92df910a31
+Q: What term, calculated by multiplying heart contractions by stroke volume, means the volume of blood pumped by the heart in one minute?
+CORRECT: cardiac output
+INCORRECT: liver output | respiratory output | blood output
+ANSWER: The term for the volume of blood pumped by the heart in one minute is cardiac output.
+
+### 983be8c6cc
+Q: What is the name of the system that consists of a hierarchy of taxa, from the kingdom to the species?
+CORRECT: linnaean system
+INCORRECT: Bohr's law | Mendelian system | zoology
+ANSWER: The system that consists of a hierarchy of taxa, from the kingdom to the species, is called the Linnaean taxonomy.
+
+### fd9617f8e7
+Q: What unit of measurement is defined to be the number of atoms in 12g of carbon-12?
+CORRECT: one mole
+INCORRECT: one quark | one joule | one ohm
+ANSWER: The unit of measurement defined to be the number of atoms in 12g of carbon-12 is called a mole.
