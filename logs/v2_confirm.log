@@ -1,0 +1,7 @@
+== qwen2.5-1.5b-instruct|truthfulqa: dev n=200 confirm n=617 pos=352
+== llama-3.2-1b-instruct|truthfulqa: dev n=200 confirm n=617 pos=327
+== smollm2-1.7b-instruct|truthfulqa: dev n=200 confirm n=617 pos=383
+== qwen2.5-1.5b-instruct|sciq: dev n=200 confirm n=800 pos=220
+== llama-3.2-1b-instruct|sciq: dev n=200 confirm n=800 pos=303
+== smollm2-1.7b-instruct|sciq: dev n=200 confirm n=800 pos=186
+wrote C:\Stuff\Hallucination\analysis_v2\confirm.json

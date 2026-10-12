@@ -35,22 +35,28 @@ optimize for good-looking numbers.
 > record of how the investigation proceeded; where they disagree with
 > RESULTS.md, RESULTS.md is correct.
 
-**Bottom line** (corrected; full evidence in [RESULTS.md](RESULTS.md)):
-single-generation token-level uncertainty is **a strong, robust signal on
-ordinary factual recall** — on SciQ every one of the three models reaches
-AUROC 0.63–0.72 with permutation p ≤ 0.004, stable across 20 CV seeds and
-unaffected by removing answer length. It is **largely absent on
-TruthfulQA**, where roughly half of all wrong answers (50.8–52.4%) are
-produced with above-median confidence, i.e. as confidently as correct
-ones. Engineered features recover a replicable TruthfulQA signal for
-**exactly one of the three models** (Llama-3.2-1B: 0.653, p ≤ 0.002,
-significant under both labelers and after Bonferroni correction); for
-Qwen the earlier apparent gain was the decoding artifact described above,
-and for SmolLM2 there is nothing to recover. Nothing is significant on
-the original 60-question holdout, which is badly underpowered. The method
-is therefore useful but strongly model- and dataset-dependent, and cannot
-resolve confidently wrong factual claims without evidence external to the
-generating model.
+> ### Current results: v2, preregistered (supersedes everything below)
+>
+> The study was rebuilt from scratch with a clean protocol (raw greedy decoding,
+> fp32 teacher-forced scoring, blind LLM-judge labels), developed on the original
+> 200-question subsets and then tested **once**, as fixed in
+> [PREREGISTRATION.md](PREREGISTRATION.md), on 617 TruthfulQA and 800 SciQ
+> questions never used for any decision. Code: `scripts/v2_*.py`; outputs:
+> `results_v2/`, `analysis_v2/`; full results and assessment:
+> [RESULTS.md](RESULTS.md) Part A. Paper: `paper/`.
+
+**Bottom line (v2, held-out, Holm-corrected).** Mean token log-probability of a
+single greedy answer detects hallucinations on SciQ for all three models, but
+only weakly (AUROC 0.66–0.70), and most of that signal is shared question
+difficulty: another model's uncertainty predicts a model's errors almost as well
+as its own. On TruthfulQA it is at chance for Qwen and SmolLM2 and weak for
+Llama (0.65). The clearest finding is *which* errors it misses: falsehoods that
+repeat a popular misconception are produced as confidently as correct answers
+(AUROC 0.42–0.45 for Qwen and SmolLM2), while other errors remain detectable
+(0.58–0.63). Small logistic-regression detectors trained on the dev split
+transfer to the held-out questions (0.60–0.73) and beat the single feature;
+five-sample self-consistency never does. These are in-distribution results for
+three 1–2 B models and two datasets, with labels from one LLM judge.
 
 ## Pipeline
 
