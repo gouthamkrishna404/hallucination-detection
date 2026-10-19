@@ -1,0 +1,296 @@
+{
+ "qwen2.5-1.5b-instruct": {
+  "validation_on_greedy": {
+   "containment": {
+    "agree": 0.7782002534854245,
+    "kappa": 0.5515691426307294,
+    "false_wrong": 0.29947460595446584,
+    "false_correct": 0.01834862385321101
+   },
+   "hybrid": {
+    "agree": 0.8694550063371356,
+    "kappa": 0.7071976479828788,
+    "false_wrong": 0.16112084063047286,
+    "false_correct": 0.05045871559633028
+   }
+  },
+  "n_samples": 3922,
+  "sample_labels_changed": 0.15170831208567057,
+  "containment": {
+   "mean_logprob": {
+    "n_mixed_questions": 225,
+    "within_question_auroc": 0.5655555555555556,
+    "ci": [
+     0.5166574074074075,
+     0.6163055555555556
+    ],
+    "p_one_sided": 0.008198360327934412
+   },
+   "min_logprob": {
+    "n_mixed_questions": 225,
+    "within_question_auroc": 0.5703703703703703,
+    "ci": [
+     0.5192592592592592,
+     0.62
+    ],
+    "p_one_sided": 0.004599080183963208
+   }
+  },
+  "hybrid": {
+   "mean_logprob": {
+    "n_mixed_questions": 248,
+    "within_question_auroc": 0.6723790322580645,
+    "ci": [
+     0.6259996639784946,
+     0.7163978494623655
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 248,
+    "within_question_auroc": 0.6628024193548387,
+    "ci": [
+     0.6187668010752687,
+     0.7048051075268816
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  },
+  "hybrid_other_anchors": {
+   "mean_logprob": {
+    "n_mixed_questions": 234,
+    "within_question_auroc": 0.6118233618233619,
+    "ci": [
+     0.5637464387464388,
+     0.6595530626780626
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 234,
+    "within_question_auroc": 0.5957977207977208,
+    "ci": [
+     0.546999643874644,
+     0.6435185185185185
+    ],
+    "p_one_sided": 0.0003999200159968006
+   }
+  },
+  "agreed_only": {
+   "mean_logprob": {
+    "n_mixed_questions": 186,
+    "within_question_auroc": 0.6214157706093191,
+    "ci": [
+     0.5649417562724015,
+     0.67608646953405
+    ],
+    "p_one_sided": 0.0003999200159968006
+   },
+   "min_logprob": {
+    "n_mixed_questions": 186,
+    "within_question_auroc": 0.625,
+    "ci": [
+     0.5734767025089605,
+     0.6801075268817204
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  }
+ },
+ "llama-3.2-1b-instruct": {
+  "validation_on_greedy": {
+   "containment": {
+    "agree": 0.8033635187580854,
+    "kappa": 0.6161641240077096,
+    "false_wrong": 0.2968421052631579,
+    "false_correct": 0.03691275167785235
+   },
+   "hybrid": {
+    "agree": 0.8460543337645536,
+    "kappa": 0.6929273169738384,
+    "false_wrong": 0.2231578947368421,
+    "false_correct": 0.0436241610738255
+   }
+  },
+  "n_samples": 3855,
+  "sample_labels_changed": 0.06848249027237355,
+  "containment": {
+   "mean_logprob": {
+    "n_mixed_questions": 285,
+    "within_question_auroc": 0.5494152046783625,
+    "ci": [
+     0.508187134502924,
+     0.5915204678362572
+    ],
+    "p_one_sided": 0.019396120775844832
+   },
+   "min_logprob": {
+    "n_mixed_questions": 285,
+    "within_question_auroc": 0.5498538011695906,
+    "ci": [
+     0.5089144736842105,
+     0.5905043859649123
+    ],
+    "p_one_sided": 0.008398320335932814
+   }
+  },
+  "hybrid": {
+   "mean_logprob": {
+    "n_mixed_questions": 336,
+    "within_question_auroc": 0.6046626984126984,
+    "ci": [
+     0.5642361111111112,
+     0.6443452380952381
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 336,
+    "within_question_auroc": 0.6019345238095238,
+    "ci": [
+     0.5647321428571429,
+     0.6398809523809523
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  },
+  "hybrid_other_anchors": {
+   "mean_logprob": {
+    "n_mixed_questions": 323,
+    "within_question_auroc": 0.5828173374613003,
+    "ci": [
+     0.541279669762642,
+     0.6238454592363261
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 323,
+    "within_question_auroc": 0.5798503611971105,
+    "ci": [
+     0.5412667698658411,
+     0.6163570691434468
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  },
+  "agreed_only": {
+   "mean_logprob": {
+    "n_mixed_questions": 268,
+    "within_question_auroc": 0.558768656716418,
+    "ci": [
+     0.5152285447761193,
+     0.6063432835820896
+    ],
+    "p_one_sided": 0.009798040391921616
+   },
+   "min_logprob": {
+    "n_mixed_questions": 268,
+    "within_question_auroc": 0.566231343283582,
+    "ci": [
+     0.5253226057213931,
+     0.6088308457711442
+    ],
+    "p_one_sided": 0.0021995600879824036
+   }
+  }
+ },
+ "smollm2-1.7b-instruct": {
+  "validation_on_greedy": {
+   "containment": {
+    "agree": 0.7789072426937739,
+    "kappa": 0.528807377331223,
+    "false_wrong": 0.2802653399668325,
+    "false_correct": 0.02717391304347826
+   },
+   "hybrid": {
+    "agree": 0.8640406607369758,
+    "kappa": 0.678234221979374,
+    "false_wrong": 0.16749585406301823,
+    "false_correct": 0.03260869565217391
+   }
+  },
+  "n_samples": 3908,
+  "sample_labels_changed": 0.13050153531218014,
+  "containment": {
+   "mean_logprob": {
+    "n_mixed_questions": 235,
+    "within_question_auroc": 0.6312056737588652,
+    "ci": [
+     0.5865248226950355,
+     0.676595744680851
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 235,
+    "within_question_auroc": 0.5982269503546099,
+    "ci": [
+     0.5542553191489362,
+     0.6439804964539005
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  },
+  "hybrid": {
+   "mean_logprob": {
+    "n_mixed_questions": 278,
+    "within_question_auroc": 0.6870503597122302,
+    "ci": [
+     0.6462829736211031,
+     0.7269259592326139
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 278,
+    "within_question_auroc": 0.6765587529976019,
+    "ci": [
+     0.6372864208633093,
+     0.7159847122302158
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  },
+  "hybrid_other_anchors": {
+   "mean_logprob": {
+    "n_mixed_questions": 254,
+    "within_question_auroc": 0.6551837270341208,
+    "ci": [
+     0.6108923884514437,
+     0.7011154855643044
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 254,
+    "within_question_auroc": 0.6233595800524934,
+    "ci": [
+     0.577755905511811,
+     0.6668430118110236
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  },
+  "agreed_only": {
+   "mean_logprob": {
+    "n_mixed_questions": 198,
+    "within_question_auroc": 0.6582491582491582,
+    "ci": [
+     0.6056397306397306,
+     0.7096064814814814
+    ],
+    "p_one_sided": 0.0001999600079984003
+   },
+   "min_logprob": {
+    "n_mixed_questions": 198,
+    "within_question_auroc": 0.6268939393939394,
+    "ci": [
+     0.5769781144781144,
+     0.6759311868686868
+    ],
+    "p_one_sided": 0.0001999600079984003
+   }
+  }
+ }
+}

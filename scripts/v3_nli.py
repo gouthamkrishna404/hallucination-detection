@@ -14,10 +14,14 @@ standard implementation rather than a cheap one.
                                   token log-prob) (length-normalised likelihood)
                nli_greedy_support fraction of samples equivalent to the greedy answer
 
-Output: results_v3/<model>/<dataset>/<split>/nli_sc.csv
+`--types-only` instead writes an automatic TruthfulQA error type (does the answer entail a
+listed incorrect / correct answer?), an error typing independent of the Claude judge.
+
+Output: results_v3/<model>/<dataset>/<split>/nli_sc.csv, results_v3/<m>/truthfulqa/<s>/nli_type.csv
 
 Usage:
     python scripts/v3_nli.py --nli C:/Stuff/hf_models/deberta-large-mnli
+    python scripts/v3_nli.py --nli C:/Stuff/hf_models/deberta-large-mnli --types-only
 """
 import argparse
 import json
@@ -39,8 +43,12 @@ from scripts.v3_ptrue import V3_ROOT
 class NLI:
     def __init__(self, path):
         self.tok = AutoTokenizer.from_pretrained(path)
-        self.model = AutoModelForSequenceClassification.from_pretrained(path, dtype=torch.float16).cuda().eval()
+        self.model = AutoModelForSequenceClassification.from_pretrained(path, dtype=torch.float32).cuda().eval()
         self.ent = {v.upper(): k for k, v in self.model.config.id2label.items()}["ENTAILMENT"]
+        self.cache = {}
+        # the classifier head must have loaded: paraphrase entails, contradiction does not
+        assert self.entails([("Water boils at 100 degrees Celsius.", "At 100 degrees Celsius, water boils."),
+                             ("Paris is the capital of France.", "Paris is not the capital of France.")]) == [True, False]
         self.cache = {}
 
     @torch.no_grad()
@@ -115,10 +123,35 @@ def run_cell(nli, m, d, s):
     print(f"{m}/{d}/{s}: n={len(rows)} mean clusters={np.mean([r['nli_n_clusters'] for r in rows]):.2f}", flush=True)
 
 
+def type_cell(nli, m, s):
+    """Automatic error type for TruthfulQA greedy answers, independent of the Claude judge:
+    nli_imitative = the answer entails one of the dataset's listed incorrect answers;
+    nli_entails_correct = it entails one of the listed correct answers (both question-prefixed,
+    one direction: answer => reference)."""
+    q = load_split("truthfulqa", s).set_index("qid")
+    rows = []
+    for g in (json.loads(l) for l in open(V2_ROOT / m / "truthfulqa" / s / "greedy.jsonl", encoding="utf-8")):
+        r = q.loc[g["qid"]]
+        prem = f"{r['question']} {g['answer']}"
+        inc = nli.entails([(prem, f"{r['question']} {x}") for x in r["incorrect_answers"]])
+        cor = nli.entails([(prem, f"{r['question']} {x}") for x in dict.fromkeys([r["best_answer"], *r["correct_answers"]])])
+        rows.append({"qid": g["qid"], "nli_imitative": int(any(inc)), "nli_entails_correct": int(any(cor))})
+    out = V3_ROOT / m / "truthfulqa" / s
+    pd.DataFrame(rows).to_csv(out / "nli_type.csv", index=False)
+    print(f"{m}/truthfulqa/{s}: imitative share {np.mean([r['nli_imitative'] for r in rows]):.3f}", flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--nli", required=True)
-    nli = NLI(ap.parse_args().nli)
+    ap.add_argument("--types-only", action="store_true")
+    a = ap.parse_args()
+    nli = NLI(a.nli)
+    if a.types_only:
+        for m in MODELS:
+            for s in ["dev", "confirm"]:
+                type_cell(nli, m, s)
+        return
     for m in MODELS:
         for d in ["truthfulqa", "sciq"]:
             for s in ["dev", "confirm"]:

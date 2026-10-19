@@ -16,8 +16,11 @@ Sections (analysis_v3/extensions.json):
                (no negation cue, not a refusal), since correct answers are often negations
   transfer     D2 trained on one cell's dev split, scored on another cell's confirm
                split (cross-dataset and cross-model)
+  operating    PR-AUC, D2 calibration, precision/recall/F1 at thresholds fixed on dev
   labels       truth-judge vs Claude-judge agreement, and the main endpoints recomputed
                (a) with truth-judge labels and (b) on items where both judges agree
+  independent_h2  H2 with automatic NLI error types (results_v3/.../nli_type.csv), with Claude
+               labels and with truth-judge labels (the latter uses no Claude input)
 
 Usage:
     python scripts/v3_eval.py
@@ -30,7 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import cohen_kappa_score
+from sklearn.metrics import average_precision_score, brier_score_loss, cohen_kappa_score
 
 from src.features_v2 import ORIGINAL_THREE_FEATURES
 from src.v2_stats import auroc, clf, holm, paired_delta
@@ -51,7 +54,7 @@ NAMES = {"D0": "-mean log-prob", "D2": "3-feature LR (dev)", "D6": "P(True) self
 def load(m, d, s, label="judge"):
     """v2 cell + any v3 columns. label='judge' keeps v2 labels; 'tj' swaps in the truth-judge."""
     df = load_cell(m, d, s)
-    for f in {"ptrue.csv", "nli_sc.csv", "truthjudge.csv"}:
+    for f in ["ptrue.csv", "nli_sc.csv", "truthjudge.csv", "nli_type.csv"]:
         p = V3_ROOT / m / d / s / f
         if p.exists():
             df = df.merge(pd.read_csv(p), on="qid", how="left")
@@ -68,6 +71,37 @@ def all_scores(dev, conf):
     return s
 
 
+def operating(dev, conf, s):
+    """PR-AUC (random baseline = base rate), D2 calibration, and precision/recall/F1/specificity at
+    thresholds fixed on dev: D0 at the dev median risk, D2 at p = 0.5 and at the dev threshold with
+    20% false-positive rate. Nothing here is tuned on confirm."""
+    y = conf["label"].to_numpy()
+    out = {"base_rate": float(y.mean()), "pr_auc": {k: float(average_precision_score(y, v)) for k, v in s.items()}}
+    p = s["D2"]
+    bins = np.clip((p * 10).astype(int), 0, 9)
+    out["D2_calibration"] = {
+        "ece_10bin": float(sum(abs(p[bins == b].mean() - y[bins == b].mean()) * (bins == b).mean()
+                               for b in range(10) if (bins == b).any())),
+        "brier": float(brier_score_loss(y, p)), "brier_base_rate": float(brier_score_loss(y, np.full(len(y), y.mean()))),
+        "mean_predicted": float(p.mean())}
+    yd = dev["label"].to_numpy()
+    d0_dev = -dev["mean_logprob"].to_numpy()
+    d2_dev = clf().fit(dev[ORIGINAL_THREE_FEATURES].to_numpy(float), yd).predict_proba(
+        dev[ORIGINAL_THREE_FEATURES].to_numpy(float))[:, 1]
+    thr = {"D0@dev_median": ("D0", np.median(d0_dev)), "D2@0.5": ("D2", 0.5),
+           "D2@dev_fpr0.2": ("D2", np.quantile(d2_dev[yd == 0], 0.8))}
+    for name, (k, t) in thr.items():
+        pred = s[k] > t
+        tp, fp = int((pred & (y == 1)).sum()), int((pred & (y == 0)).sum())
+        fn, tn = int((~pred & (y == 1)).sum()), int((~pred & (y == 0)).sum())
+        prec = tp / (tp + fp) if tp + fp else float("nan")
+        rec = tp / (tp + fn)
+        out[name] = {"precision": prec, "recall": rec, "specificity": tn / (tn + fp),
+                     "f1": 2 * prec * rec / (prec + rec) if prec + rec else 0.0, "flagged": float(pred.mean()),
+                     "accuracy": (tp + tn) / len(y), "majority_accuracy": float(max(y.mean(), 1 - y.mean()))}
+    return out
+
+
 def detectors(res):
     for d in DATASETS:
         for m in MODELS:
@@ -79,6 +113,7 @@ def detectors(res):
             r["paired_vs_D0"] = {k: paired_delta(y, v, s["D0"], N_BOOT) for k, v in s.items() if k != "D0"}
             if d == "truthfulqa":
                 r["error_type"] = {k: error_type_gap(conf, v) for k, v in s.items()}
+            r["operating"] = operating(dev, conf, s)
             if "ptrue_risk" in conf:
                 f = ORIGINAL_THREE_FEATURES + ["ptrue_risk"]
                 p = clf().fit(dev[f].to_numpy(float), dev["label"]).predict_proba(conf[f].to_numpy(float))[:, 1]
@@ -116,6 +151,38 @@ def form(res):
                             "error_type": {k: error_type_gap(sub, v[aff]) for k, v in s.items()}},
             "negated_auroc": {k: auroc(conf["label"][neg & ~refusal], v[(neg & ~refusal).to_numpy()])
                               for k, v in s.items()}}
+
+
+def nli_types(conf):
+    """Same frame with the Claude error type replaced by the automatic NLI type."""
+    return conf.assign(judge_type=np.where(conf["nli_imitative"] == 1, "imitative", "other"))
+
+
+def independent_h2():
+    """H2 with error types that do not come from the Claude judge: (a) Claude labels + NLI types,
+    (b) truth-judge labels + NLI types (no Claude input at all). Also NLI-vs-Claude type agreement."""
+    out = {}
+    for m in MODELS:
+        if not (V3_ROOT / m / "truthfulqa" / "confirm" / "nli_type.csv").exists():
+            continue
+        r = out.setdefault(m, {})
+        dev, conf = load(m, "truthfulqa", "dev"), load(m, "truthfulqa", "confirm")
+        w = conf[conf["label"] == 1]
+        ct = (w["judge_type"] == "imitative").astype(int)
+        r["type_agreement_on_claude_errors"] = {"n": int(len(w)), "agree": float((ct == w["nli_imitative"]).mean()),
+                                                "kappa": float(cohen_kappa_score(ct, w["nli_imitative"])),
+                                                "nli_imitative_share": float(w["nli_imitative"].mean()),
+                                                "claude_imitative_share": float(ct.mean())}
+        s0 = all_scores(dev, conf)["D0"]
+        r["claude_labels_nli_types"] = error_type_gap(nli_types(conf), s0)
+        if "tj_label" in conf:
+            tconf = load(m, "truthfulqa", "confirm", "tj")
+            r["truthjudge_labels_nli_types"] = error_type_gap(nli_types(tconf), -tconf["mean_logprob"].to_numpy())
+    for name in ["claude_labels_nli_types", "truthjudge_labels_nli_types"]:
+        got = [out[m][name] for m in out if name in out[m] and "p_two_sided" in out[m][name]]
+        for x, p in zip(got, holm([x["p_two_sided"] for x in got])):
+            x["p_holm"] = p
+    return out
 
 
 def transfer():
@@ -185,6 +252,7 @@ def main():
     form(res)
     res["_transfer_D2"] = transfer()
     res["_labels"] = labels()
+    res["_independent_h2"] = independent_h2()
     OUT.mkdir(exist_ok=True)
     (OUT / "extensions.json").write_text(json.dumps(res, indent=1, default=float))
     print("wrote", OUT / "extensions.json")
