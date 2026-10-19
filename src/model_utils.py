@@ -83,9 +83,9 @@ class LLMGenerator:
         checkpoint = resolve_model(model_key)["checkpoint"]
         return cls(model_name=checkpoint, device=device, dtype=dtype)
 
-    def _build_prompt(self, question: str) -> str:
+    def _build_prompt(self, question: str, system_prompt: str | None = None) -> str:
         messages = [
-            {"role": "system", "content": CFG.system_prompt},
+            {"role": "system", "content": system_prompt or CFG.system_prompt},
             {"role": "user", "content": question},
         ]
         # date_string pins the "Today Date" line that the Llama-3.x template

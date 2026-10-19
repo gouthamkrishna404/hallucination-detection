@@ -34,6 +34,40 @@ with origin. Work happens on branch `v3-audit`.
 * D2 transfer: SciQ-trained D2 on TruthfulQA 0.53–0.72 (vs TruthfulQA-trained 0.60–0.73): the TruthfulQA gain is partly dataset-specific. D2 partly detects imitative errors (0.56–0.68) where D0 cannot.
 * Split integrity: no exact dev/confirm duplicates; 8 TruthfulQA template-variant pairs (e.g. "In France they speak French… In Austria/Australia…") and 3 SciQ paraphrase pairs at char-TF-IDF ≥ 0.8. Only the low-capacity D2/D3 were fitted on dev, so the leakage risk is negligible; reported.
 
+## 2026-10-19 — later findings
+
+* **Reproducibility:** `python scripts/v2_confirm.py` re-run from frozen data reproduces
+  `analysis_v2/confirm.json` byte for byte (git diff empty).
+* **NLI semantic entropy** (D7–D9): ties D0 on SciQ (n.s.), at chance on TruthfulQA for Qwen/SmolLM2,
+  below D0 for Llama. Corrects the v2 claim "self-consistency is worse than D0" → true only for the
+  cosine variant. Also misses imitative errors.
+* **D5 on Qwen/TruthfulQA is significantly better than D0** (+0.07, Holm p = 0.028) — only because D0
+  is slightly inverted there; D5 itself is at chance. v2 text "never better" was imprecise.
+* **Containment label** (F6): on the confirm split it accepts 2–4 % of wrong answers and rejects
+  28–30 % of correct ones (v2 said "never accepted a wrong answer… rejected 23 % of paraphrases";
+  the 23 was 23 of 100 audited items). Corrected in the paper from `within.json`.
+* **Within-question SciQ test**: containment 0.549–0.631; other-model-anchored hybrid 0.583–0.655;
+  agreed-only 0.559–0.658, all p ≤ 0.02. The own-greedy-anchored hybrid (0.605–0.687) is biased upward
+  by construction and is not used.
+* **NLI error typing** agrees with Claude typing 81–86 % (κ 0.60–0.69); H2 with NLI types:
+  −0.20 / −0.12 / −0.21, Holm p ≤ 0.002 for all three models.
+* **GPU contention lesson:** two GPU jobs on the 8 GB card silently spill into system memory (100 %
+  util at ~22 W) and run 5–10× slower. Run GPU jobs strictly one at a time.
+
+## Commands (v3)
+
+```bash
+python scripts/v3_audit.py                       # containment sensitivity, length/H2 controls, split, coverage
+python scripts/v3_ptrue.py --model <key>         # P(True), per model
+python scripts/v3_nli.py --nli <deberta-dir>     # NLI semantic entropy
+python scripts/v3_nli.py --nli <deberta-dir> --types-only     # automatic error types
+python scripts/v3_within.py --nli <deberta-dir>  # within-question test, corrected sample labels
+python scripts/v3_truthjudge.py --judge <judge-dir>           # independent labels
+python scripts/v2_generate.py --model <key> --dataset truthfulqa --split confirm --no-samples     --system-prompt "<neutral prompt>" --root results_v3/prompt2                # prompt variant
+python scripts/v3_eval.py && python scripts/v3_extra.py && python scripts/v3_constants.py
+python scripts/v3_figures.py && (cd paper && node build_paper.js)
+```
+
 ## Infrastructure notes
 
 * Network ~0.5–0.9 MB/s with resets; HF Xet stalls here. Models are fetched with a resumable

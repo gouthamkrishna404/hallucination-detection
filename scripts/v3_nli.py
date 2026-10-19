@@ -123,20 +123,21 @@ def run_cell(nli, m, d, s):
     print(f"{m}/{d}/{s}: n={len(rows)} mean clusters={np.mean([r['nli_n_clusters'] for r in rows]):.2f}", flush=True)
 
 
-def type_cell(nli, m, s):
+def type_cell(nli, m, s, root=V2_ROOT, out_root=V3_ROOT):
     """Automatic error type for TruthfulQA greedy answers, independent of the Claude judge:
     nli_imitative = the answer entails one of the dataset's listed incorrect answers;
     nli_entails_correct = it entails one of the listed correct answers (both question-prefixed,
     one direction: answer => reference)."""
     q = load_split("truthfulqa", s).set_index("qid")
     rows = []
-    for g in (json.loads(l) for l in open(V2_ROOT / m / "truthfulqa" / s / "greedy.jsonl", encoding="utf-8")):
+    for g in (json.loads(l) for l in open(Path(root) / m / "truthfulqa" / s / "greedy.jsonl", encoding="utf-8")):
         r = q.loc[g["qid"]]
         prem = f"{r['question']} {g['answer']}"
         inc = nli.entails([(prem, f"{r['question']} {x}") for x in r["incorrect_answers"]])
         cor = nli.entails([(prem, f"{r['question']} {x}") for x in dict.fromkeys([r["best_answer"], *r["correct_answers"]])])
         rows.append({"qid": g["qid"], "nli_imitative": int(any(inc)), "nli_entails_correct": int(any(cor))})
-    out = V3_ROOT / m / "truthfulqa" / s
+    out = Path(out_root) / m / "truthfulqa" / s
+    out.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(rows).to_csv(out / "nli_type.csv", index=False)
     print(f"{m}/truthfulqa/{s}: imitative share {np.mean([r['nli_imitative'] for r in rows]):.3f}", flush=True)
 
@@ -145,12 +146,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--nli", required=True)
     ap.add_argument("--types-only", action="store_true")
+    ap.add_argument("--root", default=str(V2_ROOT), help="--types-only: where greedy.jsonl files live")
+    ap.add_argument("--out", default=str(V3_ROOT), help="--types-only: output root")
+    ap.add_argument("--splits", nargs="+", default=["dev", "confirm"])
     a = ap.parse_args()
     nli = NLI(a.nli)
     if a.types_only:
         for m in MODELS:
-            for s in ["dev", "confirm"]:
-                type_cell(nli, m, s)
+            for s in a.splits:
+                if (Path(a.root) / m / "truthfulqa" / s / "greedy.jsonl").exists():
+                    type_cell(nli, m, s, a.root, a.out)
         return
     for m in MODELS:
         for d in ["truthfulqa", "sciq"]:

@@ -155,17 +155,25 @@ def main():
     # runs in bf16, all scoring stays fp32.
     ap.add_argument("--sample-bf16", action="store_true")
     ap.add_argument("--reuse-greedy", action="store_true", help="keep an existing fp32 greedy.jsonl")
+    # v3 prompt-sensitivity check only; the defaults reproduce the frozen v2 protocol exactly
+    ap.add_argument("--system-prompt", default=None, help="override CFG.system_prompt")
+    ap.add_argument("--root", default=str(V2_ROOT), help="output root")
+    # v3 scale check only (Qwen2.5-3B does not fit an 8 GB GPU in fp32)
+    ap.add_argument("--dtype", default="fp32", choices=["fp32", "bf16"])
+    ap.add_argument("--checkpoint", default=None, help="local path instead of the registry checkpoint")
     args = ap.parse_args()
 
     set_all_seeds()
     df = load_split(args.dataset, args.split)
-    out = V2_ROOT / args.model / args.dataset / args.split
+    out = Path(args.root) / args.model / args.dataset / args.split
     out.mkdir(parents=True, exist_ok=True)
-    gen = LLMGenerator.from_registry(args.model, dtype=torch.float32)
+    dtype = torch.float32 if args.dtype == "fp32" else torch.bfloat16
+    gen = (LLMGenerator(args.checkpoint, dtype=dtype) if args.checkpoint
+           else LLMGenerator.from_registry(args.model, dtype=dtype))
     tok = gen.tokenizer
-    prompts = [gen._build_prompt(q) for q in df["question"]]
+    prompts = [gen._build_prompt(q, args.system_prompt) for q in df["question"]]
     prompt_ids = [tok(p, add_special_tokens=False)["input_ids"] for p in prompts]
-    print(f"[{args.model}/{args.dataset}/{args.split}] n={len(df)} device={gen.device} dtype=fp32")
+    print(f"[{args.model}/{args.dataset}/{args.split}] n={len(df)} device={gen.device} dtype={args.dtype}")
 
     t0 = time.time()
     n_trunc, n_argmax, n_tok = 0, 0, 0
@@ -203,8 +211,9 @@ def main():
                 f.write(json.dumps(record(gen, df["qid"].iloc[q], prompt_ids[q], r, k=i % K_SAMPLES),
                                    ensure_ascii=False) + "\n")
     meta = {"model": args.model, "dataset": args.dataset, "split": args.split, "n": len(df),
-            "checkpoint": gen.model_name, "dtype": "float32", "max_new_tokens": MAX_NEW,
+            "checkpoint": gen.model_name, "dtype": args.dtype, "max_new_tokens": MAX_NEW,
             "greedy": {"repetition_penalty": 1.0, "do_sample": False},
+            "system_prompt": args.system_prompt or CFG.system_prompt,
             "samples": {"k": K_SAMPLES, "temperature": T_SAMPLE, "top_p": TOP_P, "seed": CFG.seed,
                         "compute_dtype": "bfloat16" if args.sample_bf16 else "float32"},
             "n_truncated": n_trunc, "argmax_agreement": n_argmax / max(n_tok, 1),

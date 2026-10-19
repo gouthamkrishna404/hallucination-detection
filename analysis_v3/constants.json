@@ -1,0 +1,39 @@
+{
+ "rejudge": {
+  "truthfulqa": {
+   "n": 60,
+   "agree": 0.9833333333333333,
+   "kappa": 0.9666666666666667
+  },
+  "sciq": {
+   "n": 40,
+   "agree": 0.925,
+   "kappa": 0.7761194029850746
+  }
+ },
+ "paraphrase": {
+  "n_judge_correct": 349,
+  "containment_rejects_correct": 0.36103151862464183,
+  "containment_accepts_wrong": 0.03763440860215054
+ },
+ "contamination": {
+  "n": 200,
+  "mean_abs_shift": 0.12465630061848429,
+  "max_abs_shift": 0.5951073958671518,
+  "class_separation_original": 0.01626290600352759,
+  "ratio": 7.665069243556169
+ },
+ "da1_original": {
+  "auroc": 0.48228571428571426,
+  "n": 60
+ },
+ "llama_untruncated": {
+  "n": 415,
+  "truncated_share": 0.3273905996758509,
+  "auroc": 0.6464230930135266,
+  "ci": [
+   0.5937391340529938,
+   0.6992374969613483
+  ]
+ }
+}

@@ -56,6 +56,9 @@ def main():
     ap.add_argument("--judge", required=True)
     ap.add_argument("--models", nargs="+", default=MODELS)
     ap.add_argument("--root", default=str(V2_ROOT), help="where greedy.jsonl files live")
+    ap.add_argument("--out", default=str(V3_ROOT))
+    ap.add_argument("--datasets", nargs="+", default=["truthfulqa", "sciq"])
+    ap.add_argument("--splits", nargs="+", default=["dev", "confirm"])
     a = ap.parse_args()
     tok = AutoTokenizer.from_pretrained(a.judge)
     tok.pad_token = tok.unk_token
@@ -63,8 +66,8 @@ def main():
         a.judge, device_map="cuda", dtype=torch.float16,
         quantization_config=BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4",
                                                bnb_4bit_compute_dtype=torch.float16)).eval()
-    for d in ["truthfulqa", "sciq"]:
-        for s in ["dev", "confirm"]:
+    for d in a.datasets:
+        for s in a.splits:
             q = load_split(d, s).set_index("qid")["question"]
             for m in a.models:
                 path = Path(a.root) / m / d / s / "greedy.jsonl"
@@ -72,7 +75,7 @@ def main():
                     continue
                 recs = [json.loads(l) for l in open(path, encoding="utf-8")]
                 res = judge(model, tok, [(q[r["qid"]], r["answer"]) for r in recs])
-                out = V3_ROOT / m / d / s
+                out = Path(a.out) / m / d / s
                 out.mkdir(parents=True, exist_ok=True)
                 pd.DataFrame([{"qid": r["qid"], "tj_p_true": p, "tj_mass": mass, "tj_label": int(p < 0.5)}
                               for r, (p, mass) in zip(recs, res)]).to_csv(out / "truthjudge.csv", index=False)
