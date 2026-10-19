@@ -28,6 +28,9 @@ optimize for good-looking numbers.
 > repeat a popular misconception are scored like correct answers, and so they are by the model's
 > own P(True) judgement and by entailment-based semantic entropy. The gap survives controls for
 > length, question familiarity and difficulty, topic, answer form, and automatic error typing.
+> With labels from an independent judge trained on human ratings (AllenAI truth-judge), the gap
+> replicates for Qwen and SmolLM2, under a second prompt, and in Qwen2.5-3B; it does not replicate
+> for Llama, whose one positive TruthfulQA result (0.653) drops to 0.522 under those labels.
 > v3 also corrected four earlier statements (see AUDIT_REPORT.md §2).
 >
 > v3 code: `scripts/v3_*.py`; outputs: `analysis_v3/`, `results_v3/`.

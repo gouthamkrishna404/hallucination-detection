@@ -9,7 +9,9 @@
 > than D0" holds for the cosine version only; the standard NLI semantic entropy ties D0 on SciQ;
 > (iv) D2 is mean log-prob + min log-prob + mean entropy (PREREGISTRATION §2's "std" is an erratum).
 > New, exploratory: the imitative-error blind spot is shared by P(True) and NLI semantic entropy and
-> survives length, question, topic, answer-form and NLI-typing controls.
+> survives length, question, topic, answer-form and NLI-typing controls; with independent truth-judge
+> labels it replicates for Qwen and SmolLM2, under a neutral prompt and in Qwen2.5-3B, but not for
+> Llama, whose TruthfulQA D0 detection (A2: 0.653) is 0.522 under those labels.
 
 **Read this first.** This file has two parts.
 

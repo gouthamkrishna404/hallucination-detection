@@ -164,9 +164,9 @@
   "claim": "Imitative gap with truth-judge labels and NLI types (no input from the primary judge).",
   "status": "exploratory",
   "values": {
-   "qwen2.5-1.5b-instruct": "pending",
-   "llama-3.2-1b-instruct": "pending",
-   "smollm2-1.7b-instruct": "pending"
+   "qwen2.5-1.5b-instruct": -0.2026,
+   "llama-3.2-1b-instruct": 0.0068,
+   "smollm2-1.7b-instruct": -0.1702
   },
   "source": "analysis_v3/extensions.json",
   "paths": {
@@ -181,9 +181,9 @@
   "claim": "Imitative gap under a neutral prompt, independent labels and types.",
   "status": "exploratory",
   "values": {
-   "qwen2.5-1.5b-instruct": "pending",
-   "llama-3.2-1b-instruct": "pending",
-   "smollm2-1.7b-instruct": "pending"
+   "qwen2.5-1.5b-instruct": -0.1903,
+   "llama-3.2-1b-instruct": -0.0578,
+   "smollm2-1.7b-instruct": -0.1367
   },
   "source": "analysis_v3/extra.json",
   "paths": {
@@ -198,7 +198,7 @@
   "claim": "Imitative gap for Qwen2.5-3B (bf16), independent labels and types.",
   "status": "exploratory",
   "values": {
-   "qwen2.5-3b-instruct": "pending"
+   "qwen2.5-3b-instruct": -0.1312
   },
   "source": "analysis_v3/extra.json",
   "paths": {
@@ -429,9 +429,9 @@
   "claim": "Agreement of the truth-judge with the primary judge (TruthfulQA confirm).",
   "status": "exploratory",
   "values": {
-   "qwen2.5-1.5b-instruct kappa": "pending",
-   "llama-3.2-1b-instruct kappa": "pending",
-   "smollm2-1.7b-instruct kappa": "pending"
+   "qwen2.5-1.5b-instruct kappa": 0.7362,
+   "llama-3.2-1b-instruct kappa": 0.585,
+   "smollm2-1.7b-instruct kappa": 0.6721
   },
   "source": "analysis_v3/extensions.json",
   "paths": {

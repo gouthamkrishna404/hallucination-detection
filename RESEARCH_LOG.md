@@ -80,11 +80,24 @@ python scripts/v3_figures.py && (cd paper && node build_paper.js)
 - [x] length / question controls for D2 and for H2 (imitative gap)
 - [x] split integrity (exact + near-duplicate questions dev vs confirm)
 - [x] confident-wrong composition; selective-prediction (risk–coverage) view
-- [ ] independent truth-judge labels (TruthfulQA), agreement + robustness of H1–H3
-- [ ] NLI semantic entropy baseline (running)
-- [ ] answer-form (negation) control for H2 and P(True)  → in v3_eval `form`
-- [ ] within-question test with hybrid NLI sample labels (v3_within.py)
-- [ ] calibration, PR-AUC, dev-fixed operating points (v3_eval `operating`)
+- [x] independent truth-judge labels (TruthfulQA), agreement + robustness of H1–H3
+- [x] NLI semantic entropy baseline
+- [x] answer-form (negation) control for H2 and P(True)  → in v3_eval `form`
+- [x] within-question test with hybrid NLI sample labels (v3_within.py)
+- [x] calibration, PR-AUC, dev-fixed operating points (v3_eval `operating`)
 - [x] P(True) self-evaluation baseline (does the blind spot extend beyond token probability?)
-- [ ] scale check (Qwen2.5-3B) — only if the above leaves time; labels from truth-judge
-- [ ] results registry, paper rebuild, render QC, audit report
+- [x] scale check (Qwen2.5-3B) — only if the above leaves time; labels from truth-judge
+- [x] results registry, paper rebuild, render QC, audit report
+
+## 2026-10-19 — final
+
+* Truth-judge (4-bit, checksums verified, smoke-tested) labels for all greedy, sampled and prompt-variant
+  answers. TruthfulQA agreement with the primary judge κ 0.74 / 0.59 / 0.67; SciQ κ ≈ 0.2 (not used).
+* Independent H2 (truth-judge + NLI types): −0.20 / +0.01 / −0.17; within question 0.45 / 0.40 / 0.42
+  (imitative) vs 0.45–0.56 (other); neutral prompt −0.19 / −0.06 / −0.14; Qwen2.5-3B −0.13 [−0.22, −0.04].
+* Llama's preregistered TruthfulQA D0 detection (0.653) is 0.522 under truth-judge labels (0.607 on
+  consensus items) — reported as label-dependent.
+* Paper: `paper/Learned_Falsehoods_Uncertainty_Paper.{docx,pdf}` (6 pages), all numbers from JSON,
+  `scripts/v3_constants.py --check` passes; v2 paper archived in `paper/archive_v2/`.
+* Not done: human labels; models ≥ 7 B (bandwidth ~0.5–0.9 MB/s made a 15 GB download impractical);
+  a second misconception dataset.
