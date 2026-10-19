@@ -21,6 +21,9 @@ Sections (analysis_v3/extensions.json):
                (a) with truth-judge labels and (b) on items where both judges agree
   independent_h2  H2 with automatic NLI error types (results_v3/.../nli_type.csv), with Claude
                labels and with truth-judge labels (the latter uses no Claude input)
+  within_tqa   H2 with the question held fixed: sampled answers of one TruthfulQA question
+               (truth-judge labels, NLI types)
+  examples     illustrative confidently wrong answers, fixed selection rule
 
 Usage:
     python scripts/v3_eval.py
@@ -33,10 +36,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import average_precision_score, brier_score_loss, cohen_kappa_score
+from sklearn.metrics import average_precision_score, brier_score_loss, cohen_kappa_score, roc_auc_score
 
 from src.features_v2 import ORIGINAL_THREE_FEATURES
-from src.v2_stats import auroc, clf, holm, paired_delta
+from src.v2_stats import SEED, auroc, clf, holm, paired_delta
 from scripts.v2_analysis import load_cell
 from scripts.v2_confirm import N_BOOT, confident_wrong, error_type_gap, scores, summary
 from scripts.v2_labels import MODELS
@@ -185,6 +188,100 @@ def independent_h2():
     return out
 
 
+def within_tqa(n=2000, seed=0):
+    """H2 with the question held fixed. Among the K=5 sampled answers to one TruthfulQA question
+    (truth-judge labels, NLI types: no input from the primary judge), is an imitative-wrong sample
+    scored riskier by D0 than a correct sample of the same question? And an other-wrong sample?
+    Per-question concordance, averaged over questions; sign-flip test against 0.5; bootstrap CI
+    over questions; difference by independent bootstrap of the two question sets."""
+    from src.features_v2 import extract_rich_features
+    from scripts.v2_labels import read_jsonl
+    from scripts.v2_generate import V2_ROOT
+    out = {}
+    for m in MODELS:
+        d = V3_ROOT / m / "truthfulqa" / "confirm"
+        if not ((d / "truthjudge_samples.csv").exists() and (d / "nli_type_samples.csv").exists()):
+            continue
+        s = pd.DataFrame([{"qid": r["qid"], "k": r["k"], "mean_logprob": extract_rich_features(
+            r["logprobs"], r["entropies"], r["margins"])["mean_logprob"]}
+            for r in read_jsonl(V2_ROOT / m / "truthfulqa" / "confirm" / "samples.jsonl")])
+        s = s.merge(pd.read_csv(d / "truthjudge_samples.csv"), on=["qid", "k"]).merge(
+            pd.read_csv(d / "nli_type_samples.csv"), on=["qid", "k"])
+        s["t"] = np.where(s["tj_label"] == 0, "correct", np.where(s["nli_imitative"] == 1, "imitative", "other"))
+        rng = np.random.RandomState(seed)
+        r = {"n_samples": int(len(s)), "type_share": s["t"].value_counts(normalize=True).to_dict()}
+        per = {}
+        for t in ["imitative", "other"]:
+            v = []
+            for _, g in s.groupby("qid"):
+                w, c = -g.loc[g["t"] == t, "mean_logprob"].to_numpy(), -g.loc[g["t"] == "correct", "mean_logprob"].to_numpy()
+                if len(w) and len(c):
+                    v.append((np.sum(w[:, None] > c[None, :]) + 0.5 * np.sum(w[:, None] == c[None, :])) / (len(w) * len(c)))
+            v = np.array(v)
+            per[t] = v
+            null = [np.mean(0.5 + (v - 0.5) * rng.choice([-1, 1], len(v))) for _ in range(5000)]
+            bs = [rng.choice(v, len(v)).mean() for _ in range(n)]
+            r[t] = {"n_questions": int(len(v)), "within_auroc": float(v.mean()),
+                    "ci": [float(np.percentile(bs, 2.5)), float(np.percentile(bs, 97.5))],
+                    "p_two_sided_vs_0.5": float(min(1.0, 2 * min((np.sum(np.array(null) >= v.mean()) + 1) / 5001,
+                                                                  (np.sum(np.array(null) <= v.mean()) + 1) / 5001)))}
+        diff = [rng.choice(per["imitative"], len(per["imitative"])).mean() - rng.choice(per["other"], len(per["other"])).mean()
+                for _ in range(n)]
+        r["delta"] = float(per["imitative"].mean() - per["other"].mean())
+        r["delta_ci"] = [float(np.percentile(diff, 2.5)), float(np.percentile(diff, 97.5))]
+        out[m] = r
+    return out
+
+
+def pooled_h2(n=2000, seed=SEED):
+    """Mean over the three models of the preregistered H2 gap (D0, judge labels and types), with a
+    bootstrap that resamples QUESTIONS jointly for all models, since the models answer the same
+    questions and their gaps are not independent."""
+    cells = {m: load(m, "truthfulqa", "confirm").set_index("qid") for m in MODELS}
+    qids = np.array(sorted(set.intersection(*(set(c.index) for c in cells.values()))))
+
+    def gap(df):
+        t = df["judge_type"].where(df["label"] == 1, "correct").fillna("other").to_numpy()
+        s = -df["mean_logprob"].to_numpy()
+        a = {}
+        for k in ["imitative", "other"]:
+            i = (t == "correct") | (t == k)
+            a[k] = roc_auc_score((t[i] == k).astype(int), s[i])
+        return a["imitative"] - a["other"]
+
+    obs = np.mean([gap(c.loc[qids]) for c in cells.values()])
+    rng = np.random.RandomState(seed)
+    bs = []
+    for _ in range(n):
+        q = rng.choice(qids, len(qids))
+        bs.append(np.mean([gap(c.loc[q]) for c in cells.values()]))
+    return {"mean_delta": float(obs), "ci": [float(np.percentile(bs, 2.5)), float(np.percentile(bs, 97.5))],
+            "p_two_sided": float(min(1.0, max(2 * min(np.mean(np.array(bs) >= 0), np.mean(np.array(bs) <= 0)), 1 / n)))}
+
+
+def examples(k=4):
+    """Illustrative confidently wrong answers, chosen by a fixed rule: TruthfulQA questions on which
+    all three models give a high-confidence imitative error in their own top 30% by mean log-prob,
+    ranked by the mean confidence percentile."""
+    frames = []
+    for m in MODELS:
+        df = load(m, "truthfulqa", "confirm").assign(model=m)
+        df["conf_pct"] = df["mean_logprob"].rank(pct=True)
+        frames.append(df)
+    a = pd.concat(frames)
+    imi = a[(a["label"] == 1) & (a["judge_type"] == "imitative") & (a["judge_conf"] == "high") & (a["conf_pct"] > 0.7)]
+    g = imi.groupby("qid").agg(n=("model", "nunique"), mean_pct=("conf_pct", "mean"))
+    q = pd.read_json(OUT.parent / "data" / "truthfulqa" / "confirm.jsonl", lines=True).set_index("qid")
+    out = []
+    qual = g[g["n"] == 3].sort_values("mean_pct", ascending=False)
+    for qid in qual.index[:k]:
+        rows = imi[imi["qid"] == qid].set_index("model")
+        out.append({"qid": qid, "question": q.loc[qid, "question"], "best_answer": q.loc[qid, "best_answer"],
+                    "answers": {m: rows.loc[m, "answer"] for m in MODELS},
+                    "conf_pct": {m: float(rows.loc[m, "conf_pct"]) for m in MODELS}})
+    return {"n_qualifying": int(len(qual)), "items": out}
+
+
 def transfer():
     """D2 fitted on a source cell's dev split, scored on a target cell's confirm split."""
     out = {}
@@ -253,6 +350,9 @@ def main():
     res["_transfer_D2"] = transfer()
     res["_labels"] = labels()
     res["_independent_h2"] = independent_h2()
+    res["_examples"] = examples()
+    res["_within_tqa"] = within_tqa()
+    res["_pooled_h2"] = pooled_h2()
     OUT.mkdir(exist_ok=True)
     (OUT / "extensions.json").write_text(json.dumps(res, indent=1, default=float))
     print("wrote", OUT / "extensions.json")

@@ -113,3 +113,15 @@ Reported alongside: the AUROC of a difficulty proxy that uses no uncertainty
 * If H1 fails in a cell, that is reported as a negative result for that cell; no
   alternative detector is promoted to "primary" after the fact.
 * Results contradicting the dev expectations above are reported as such.
+
+---
+
+## Erratum (added 2026-10-19, after registration; nothing above was changed)
+
+* §2 describes D2 as "mean, min, std log-prob". The code registered in the same commit
+  (`ORIGINAL_THREE_FEATURES` in `src/features_v2.py`) uses **mean log-prob, min log-prob and mean
+  entropy**, and that is what `scripts/v2_confirm.py` ran. Every reported D2 number refers to the
+  code; the description above is wrong.
+* §5's SciQ containment-label sensitivity analysis was not executed by `scripts/v2_confirm.py`.
+  It was run later, unchanged, by `scripts/v3_audit.py` (`analysis_v3/audit.json`, key
+  `containment`); see AUDIT_REPORT.md.

@@ -161,6 +161,7 @@ def main():
     # v3 scale check only (Qwen2.5-3B does not fit an 8 GB GPU in fp32)
     ap.add_argument("--dtype", default="fp32", choices=["fp32", "bf16"])
     ap.add_argument("--checkpoint", default=None, help="local path instead of the registry checkpoint")
+    ap.add_argument("--bs", type=int, default=16, help="greedy batch size (8 fits fp32 SmolLM2 in 8 GB)")
     args = ap.parse_args()
 
     set_all_seeds()
@@ -182,7 +183,7 @@ def main():
         recs = [json.loads(l) for l in open(out / "greedy.jsonl", encoding="utf-8")]
         assert [r["qid"] for r in recs] == list(df["qid"]), "stale greedy.jsonl"
     else:
-        raw = generate(gen, prompts, do_sample=False)
+        raw = generate(gen, prompts, do_sample=False, bs=args.bs)
         recs = [record(gen, qid, pid, r) for qid, pid, r in
                 tqdm(zip(df["qid"], prompt_ids, raw), total=len(df), desc="score greedy")]
         with open(out / "greedy.jsonl", "w", encoding="utf-8") as f:

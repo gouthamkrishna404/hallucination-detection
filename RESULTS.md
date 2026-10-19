@@ -1,5 +1,16 @@
 # Results
 
+> **v3 audit (2026-10-19).** The preregistered results below were audited and extended; the audit
+> report is [AUDIT_REPORT.md](AUDIT_REPORT.md) and every headline number with its source file is in
+> [RESULTS_REGISTRY.json](RESULTS_REGISTRY.json). Statements in Part A corrected by v3:
+> (i) the preregistered SciQ containment sensitivity analysis had not been run (now run: H1 holds);
+> (ii) the containment label accepts 2–4 % of wrong answers and rejects 28–30 % of correct ones
+> (not "never accepted a wrong answer… 23 % of paraphrases"); (iii) "self-consistency is never better
+> than D0" holds for the cosine version only; the standard NLI semantic entropy ties D0 on SciQ;
+> (iv) D2 is mean log-prob + min log-prob + mean entropy (PREREGISTRATION §2's "std" is an erratum).
+> New, exploratory: the imitative-error blind spot is shared by P(True) and NLI semantic entropy and
+> survives length, question, topic, answer-form and NLI-typing controls.
+
 **Read this first.** This file has two parts.
 
 * **Part A — v2, the current results.** A clean protocol rebuilt from scratch

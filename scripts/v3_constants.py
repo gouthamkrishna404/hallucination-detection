@@ -78,7 +78,7 @@ def llama_untruncated():
 def check_docx():
     xml = zipfile.ZipFile(PAPER).read("word/document.xml").decode("utf-8")
     text = re.sub(r"<[^>]+>", "", re.sub(r"</w:p>", "\n", xml))
-    assert "PLACEHOLDER" not in text and "undefined" not in text and "NaN" not in text, "unfilled value in paper"
+    assert all(x not in text for x in ["PLACEHOLDER", "undefined", "NaN", "${", "[@"]), "unfilled value in paper"
     body, refs = text.split("References\n", 1) if "References\n" in text else (text, "")
     cited = [int(n) for g in re.findall(r"\[(\d+(?:\], \[\d+)*)\]", body) for n in re.findall(r"\d+", g)]
     first = list(dict.fromkeys(cited))

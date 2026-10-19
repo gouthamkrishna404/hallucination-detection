@@ -60,6 +60,9 @@ def variants(m):
     ih = ext["_independent_h2"][m].get("truthjudge_labels_nli_types")
     if ih:
         v.append(("Truth-judge labels + NLI types", ih))
+    wq = ext.get("_within_tqa", {}).get(m)
+    if wq:
+        v.append(("Within question (independent)", {"delta": wq["delta"], "ci": wq["delta_ci"]}))
     p2 = extra.get("prompt2", {}).get(m, {}).get("H2")
     if p2:
         v.append(("Neutral prompt (independent)", p2))

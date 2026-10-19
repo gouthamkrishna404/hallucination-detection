@@ -123,22 +123,23 @@ def run_cell(nli, m, d, s):
     print(f"{m}/{d}/{s}: n={len(rows)} mean clusters={np.mean([r['nli_n_clusters'] for r in rows]):.2f}", flush=True)
 
 
-def type_cell(nli, m, s, root=V2_ROOT, out_root=V3_ROOT):
+def type_cell(nli, m, s, root=V2_ROOT, out_root=V3_ROOT, kind="greedy"):
     """Automatic error type for TruthfulQA greedy answers, independent of the Claude judge:
     nli_imitative = the answer entails one of the dataset's listed incorrect answers;
     nli_entails_correct = it entails one of the listed correct answers (both question-prefixed,
     one direction: answer => reference)."""
     q = load_split("truthfulqa", s).set_index("qid")
     rows = []
-    for g in (json.loads(l) for l in open(Path(root) / m / "truthfulqa" / s / "greedy.jsonl", encoding="utf-8")):
+    for g in (json.loads(l) for l in open(Path(root) / m / "truthfulqa" / s / f"{kind}.jsonl", encoding="utf-8")):
         r = q.loc[g["qid"]]
         prem = f"{r['question']} {g['answer']}"
         inc = nli.entails([(prem, f"{r['question']} {x}") for x in r["incorrect_answers"]])
         cor = nli.entails([(prem, f"{r['question']} {x}") for x in dict.fromkeys([r["best_answer"], *r["correct_answers"]])])
-        rows.append({"qid": g["qid"], "nli_imitative": int(any(inc)), "nli_entails_correct": int(any(cor))})
+        rows.append({"qid": g["qid"], **({"k": g["k"]} if "k" in g else {}),
+                     "nli_imitative": int(any(inc)), "nli_entails_correct": int(any(cor))})
     out = Path(out_root) / m / "truthfulqa" / s
     out.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(rows).to_csv(out / "nli_type.csv", index=False)
+    pd.DataFrame(rows).to_csv(out / ("nli_type.csv" if kind == "greedy" else "nli_type_samples.csv"), index=False)
     print(f"{m}/truthfulqa/{s}: imitative share {np.mean([r['nli_imitative'] for r in rows]):.3f}", flush=True)
 
 
@@ -149,13 +150,16 @@ def main():
     ap.add_argument("--root", default=str(V2_ROOT), help="--types-only: where greedy.jsonl files live")
     ap.add_argument("--out", default=str(V3_ROOT), help="--types-only: output root")
     ap.add_argument("--splits", nargs="+", default=["dev", "confirm"])
+    ap.add_argument("--samples", action="store_true", help="--types-only: type the K sampled answers instead")
+    ap.add_argument("--models", nargs="+", default=MODELS)
     a = ap.parse_args()
     nli = NLI(a.nli)
     if a.types_only:
-        for m in MODELS:
+        for m in a.models:
             for s in a.splits:
-                if (Path(a.root) / m / "truthfulqa" / s / "greedy.jsonl").exists():
-                    type_cell(nli, m, s, a.root, a.out)
+                kind = "samples" if a.samples else "greedy"
+                if (Path(a.root) / m / "truthfulqa" / s / f"{kind}.jsonl").exists():
+                    type_cell(nli, m, s, a.root, a.out, kind)
         return
     for m in MODELS:
         for d in ["truthfulqa", "sciq"]:

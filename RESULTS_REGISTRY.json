@@ -1,0 +1,482 @@
+[
+ {
+  "id": "H1.sciq",
+  "claim": "D0 (-mean token log-prob) detects SciQ errors in all three models (weak).",
+  "status": "preregistered",
+  "values": {
+   "qwen2.5-1.5b-instruct auroc": 0.6883,
+   "llama-3.2-1b-instruct auroc": 0.6581,
+   "smollm2-1.7b-instruct auroc": 0.7023,
+   "qwen2.5-1.5b-instruct p_holm": 0.0006,
+   "llama-3.2-1b-instruct p_holm": 0.0006,
+   "smollm2-1.7b-instruct p_holm": 0.0006
+  },
+  "source": "analysis_v2/confirm.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct auroc": "qwen2.5-1.5b-instruct|sciq/detectors/D0/auroc",
+   "llama-3.2-1b-instruct auroc": "llama-3.2-1b-instruct|sciq/detectors/D0/auroc",
+   "smollm2-1.7b-instruct auroc": "smollm2-1.7b-instruct|sciq/detectors/D0/auroc",
+   "qwen2.5-1.5b-instruct p_holm": "qwen2.5-1.5b-instruct|sciq/detectors/D0/p_holm",
+   "llama-3.2-1b-instruct p_holm": "llama-3.2-1b-instruct|sciq/detectors/D0/p_holm",
+   "smollm2-1.7b-instruct p_holm": "smollm2-1.7b-instruct|sciq/detectors/D0/p_holm"
+  },
+  "script": "scripts/v2_confirm.py"
+ },
+ {
+  "id": "H1.tqa",
+  "claim": "D0 on TruthfulQA: chance for Qwen and SmolLM2, weak for Llama.",
+  "status": "preregistered",
+  "values": {
+   "qwen2.5-1.5b-instruct auroc": 0.4662,
+   "llama-3.2-1b-instruct auroc": 0.6526,
+   "smollm2-1.7b-instruct auroc": 0.5002,
+   "qwen2.5-1.5b-instruct p_holm": 0.3012,
+   "llama-3.2-1b-instruct p_holm": 0.0006,
+   "smollm2-1.7b-instruct p_holm": 0.9947
+  },
+  "source": "analysis_v2/confirm.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct auroc": "qwen2.5-1.5b-instruct|truthfulqa/detectors/D0/auroc",
+   "llama-3.2-1b-instruct auroc": "llama-3.2-1b-instruct|truthfulqa/detectors/D0/auroc",
+   "smollm2-1.7b-instruct auroc": "smollm2-1.7b-instruct|truthfulqa/detectors/D0/auroc",
+   "qwen2.5-1.5b-instruct p_holm": "qwen2.5-1.5b-instruct|truthfulqa/detectors/D0/p_holm",
+   "llama-3.2-1b-instruct p_holm": "llama-3.2-1b-instruct|truthfulqa/detectors/D0/p_holm",
+   "smollm2-1.7b-instruct p_holm": "smollm2-1.7b-instruct|truthfulqa/detectors/D0/p_holm"
+  },
+  "script": "scripts/v2_confirm.py"
+ },
+ {
+  "id": "H1.containment",
+  "claim": "SciQ H1 holds under the containment label (preregistered sensitivity, first run in v3).",
+  "status": "preregistered",
+  "values": {
+   "qwen2.5-1.5b-instruct": 0.6781,
+   "llama-3.2-1b-instruct": 0.6508,
+   "smollm2-1.7b-instruct": 0.6923
+  },
+  "source": "analysis_v3/audit.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "containment/qwen2.5-1.5b-instruct/detectors/D0/auroc",
+   "llama-3.2-1b-instruct": "containment/llama-3.2-1b-instruct/detectors/D0/auroc",
+   "smollm2-1.7b-instruct": "containment/smollm2-1.7b-instruct/detectors/D0/auroc"
+  },
+  "script": "scripts/v3_audit.py"
+ },
+ {
+  "id": "H2.prereg",
+  "claim": "Imitative TruthfulQA errors are scored like correct answers; other errors partly detectable.",
+  "status": "preregistered",
+  "values": {
+   "qwen2.5-1.5b-instruct delta": -0.1576,
+   "llama-3.2-1b-instruct delta": -0.0862,
+   "smollm2-1.7b-instruct delta": -0.176,
+   "qwen2.5-1.5b-instruct p_holm": 0.005,
+   "llama-3.2-1b-instruct p_holm": 0.096,
+   "smollm2-1.7b-instruct p_holm": 0.003
+  },
+  "source": "analysis_v2/confirm.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct delta": "qwen2.5-1.5b-instruct|truthfulqa/H2_error_type/delta",
+   "llama-3.2-1b-instruct delta": "llama-3.2-1b-instruct|truthfulqa/H2_error_type/delta",
+   "smollm2-1.7b-instruct delta": "smollm2-1.7b-instruct|truthfulqa/H2_error_type/delta",
+   "qwen2.5-1.5b-instruct p_holm": "qwen2.5-1.5b-instruct|truthfulqa/H2_error_type/p_holm",
+   "llama-3.2-1b-instruct p_holm": "llama-3.2-1b-instruct|truthfulqa/H2_error_type/p_holm",
+   "smollm2-1.7b-instruct p_holm": "smollm2-1.7b-instruct|truthfulqa/H2_error_type/p_holm"
+  },
+  "script": "scripts/v2_confirm.py"
+ },
+ {
+  "id": "H2.length",
+  "claim": "Imitative gap within answer-length quintiles.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct": -0.1326,
+   "llama-3.2-1b-instruct": -0.0877,
+   "smollm2-1.7b-instruct": -0.1708
+  },
+  "source": "analysis_v3/audit.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "qwen2.5-1.5b-instruct|truthfulqa/h2_controls/length_quintile/delta",
+   "llama-3.2-1b-instruct": "llama-3.2-1b-instruct|truthfulqa/h2_controls/length_quintile/delta",
+   "smollm2-1.7b-instruct": "smollm2-1.7b-instruct|truthfulqa/h2_controls/length_quintile/delta"
+  },
+  "script": "scripts/v3_audit.py"
+ },
+ {
+  "id": "H2.regression",
+  "claim": "Imitative minus other, SD of D0, controlling length, truncation, question log-prob and length, others-wrong, category FE (negative = imitative more confident).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct": -0.4532,
+   "llama-3.2-1b-instruct": -0.3904,
+   "smollm2-1.7b-instruct": -0.651
+  },
+  "source": "analysis_v3/audit.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "qwen2.5-1.5b-instruct|truthfulqa/h2_controls/regression/diff",
+   "llama-3.2-1b-instruct": "llama-3.2-1b-instruct|truthfulqa/h2_controls/regression/diff",
+   "smollm2-1.7b-instruct": "smollm2-1.7b-instruct|truthfulqa/h2_controls/regression/diff"
+  },
+  "script": "scripts/v3_audit.py"
+ },
+ {
+  "id": "H2.affirmative",
+  "claim": "Imitative gap of D0 within affirmative (non-negated, non-refusal) answers.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct": -0.1665,
+   "llama-3.2-1b-instruct": -0.0642,
+   "smollm2-1.7b-instruct": -0.1599
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "qwen2.5-1.5b-instruct|truthfulqa/form/affirmative/error_type/D0/delta",
+   "llama-3.2-1b-instruct": "llama-3.2-1b-instruct|truthfulqa/form/affirmative/error_type/D0/delta",
+   "smollm2-1.7b-instruct": "smollm2-1.7b-instruct|truthfulqa/form/affirmative/error_type/D0/delta"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "H2.nli_types",
+  "claim": "Imitative gap with NLI error types instead of judge types.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct delta": -0.1975,
+   "llama-3.2-1b-instruct delta": -0.1166,
+   "smollm2-1.7b-instruct delta": -0.2133,
+   "qwen2.5-1.5b-instruct p_holm": 0.0015,
+   "llama-3.2-1b-instruct p_holm": 0.002,
+   "smollm2-1.7b-instruct p_holm": 0.0015
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct delta": "_independent_h2/qwen2.5-1.5b-instruct/claude_labels_nli_types/delta",
+   "llama-3.2-1b-instruct delta": "_independent_h2/llama-3.2-1b-instruct/claude_labels_nli_types/delta",
+   "smollm2-1.7b-instruct delta": "_independent_h2/smollm2-1.7b-instruct/claude_labels_nli_types/delta",
+   "qwen2.5-1.5b-instruct p_holm": "_independent_h2/qwen2.5-1.5b-instruct/claude_labels_nli_types/p_holm",
+   "llama-3.2-1b-instruct p_holm": "_independent_h2/llama-3.2-1b-instruct/claude_labels_nli_types/p_holm",
+   "smollm2-1.7b-instruct p_holm": "_independent_h2/smollm2-1.7b-instruct/claude_labels_nli_types/p_holm"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "H2.independent",
+  "claim": "Imitative gap with truth-judge labels and NLI types (no input from the primary judge).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct": "pending",
+   "llama-3.2-1b-instruct": "pending",
+   "smollm2-1.7b-instruct": "pending"
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "_independent_h2/qwen2.5-1.5b-instruct/truthjudge_labels_nli_types/delta",
+   "llama-3.2-1b-instruct": "_independent_h2/llama-3.2-1b-instruct/truthjudge_labels_nli_types/delta",
+   "smollm2-1.7b-instruct": "_independent_h2/smollm2-1.7b-instruct/truthjudge_labels_nli_types/delta"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "H2.prompt2",
+  "claim": "Imitative gap under a neutral prompt, independent labels and types.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct": "pending",
+   "llama-3.2-1b-instruct": "pending",
+   "smollm2-1.7b-instruct": "pending"
+  },
+  "source": "analysis_v3/extra.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "prompt2/qwen2.5-1.5b-instruct/H2/delta",
+   "llama-3.2-1b-instruct": "prompt2/llama-3.2-1b-instruct/H2/delta",
+   "smollm2-1.7b-instruct": "prompt2/smollm2-1.7b-instruct/H2/delta"
+  },
+  "script": "scripts/v3_extra.py"
+ },
+ {
+  "id": "H2.scale",
+  "claim": "Imitative gap for Qwen2.5-3B (bf16), independent labels and types.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-3b-instruct": "pending"
+  },
+  "source": "analysis_v3/extra.json",
+  "paths": {
+   "qwen2.5-3b-instruct": "scale/qwen2.5-3b-instruct/H2/delta"
+  },
+  "script": "scripts/v3_extra.py"
+ },
+ {
+  "id": "signals.ptrue",
+  "claim": "P(True) misses imitative errors too (AUROC imitative vs other, TruthfulQA).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct imitative": 0.3888,
+   "llama-3.2-1b-instruct imitative": 0.3563,
+   "smollm2-1.7b-instruct imitative": 0.4353,
+   "qwen2.5-1.5b-instruct other": 0.5229,
+   "llama-3.2-1b-instruct other": 0.4301,
+   "smollm2-1.7b-instruct other": 0.5878
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct imitative": "qwen2.5-1.5b-instruct|truthfulqa/error_type/D6/auroc_imitative",
+   "llama-3.2-1b-instruct imitative": "llama-3.2-1b-instruct|truthfulqa/error_type/D6/auroc_imitative",
+   "smollm2-1.7b-instruct imitative": "smollm2-1.7b-instruct|truthfulqa/error_type/D6/auroc_imitative",
+   "qwen2.5-1.5b-instruct other": "qwen2.5-1.5b-instruct|truthfulqa/error_type/D6/auroc_other",
+   "llama-3.2-1b-instruct other": "llama-3.2-1b-instruct|truthfulqa/error_type/D6/auroc_other",
+   "smollm2-1.7b-instruct other": "smollm2-1.7b-instruct|truthfulqa/error_type/D6/auroc_other"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "signals.nli_se",
+  "claim": "NLI semantic entropy misses imitative errors too.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct imitative": 0.4484,
+   "llama-3.2-1b-instruct imitative": 0.5444,
+   "smollm2-1.7b-instruct imitative": 0.4832,
+   "qwen2.5-1.5b-instruct other": 0.6067,
+   "llama-3.2-1b-instruct other": 0.6116,
+   "smollm2-1.7b-instruct other": 0.5965
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct imitative": "qwen2.5-1.5b-instruct|truthfulqa/error_type/D7/auroc_imitative",
+   "llama-3.2-1b-instruct imitative": "llama-3.2-1b-instruct|truthfulqa/error_type/D7/auroc_imitative",
+   "smollm2-1.7b-instruct imitative": "smollm2-1.7b-instruct|truthfulqa/error_type/D7/auroc_imitative",
+   "qwen2.5-1.5b-instruct other": "qwen2.5-1.5b-instruct|truthfulqa/error_type/D7/auroc_other",
+   "llama-3.2-1b-instruct other": "llama-3.2-1b-instruct|truthfulqa/error_type/D7/auroc_other",
+   "smollm2-1.7b-instruct other": "smollm2-1.7b-instruct|truthfulqa/error_type/D7/auroc_other"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "ptrue.negation",
+  "claim": "P(True) within negated TruthfulQA answers (negation bias).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct": 0.31,
+   "llama-3.2-1b-instruct": 0.3745,
+   "smollm2-1.7b-instruct": 0.3393
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "qwen2.5-1.5b-instruct|truthfulqa/form/negated_auroc/D6",
+   "llama-3.2-1b-instruct": "llama-3.2-1b-instruct|truthfulqa/form/negated_auroc/D6",
+   "smollm2-1.7b-instruct": "smollm2-1.7b-instruct|truthfulqa/form/negated_auroc/D6"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "D2.gain",
+  "claim": "Dev-trained 3-feature LR minus D0, paired.",
+  "status": "preregistered",
+  "values": {
+   "qwen2.5-1.5b-instruct|truthfulqa": 0.1337,
+   "qwen2.5-1.5b-instruct|sciq": 0.0394,
+   "llama-3.2-1b-instruct|truthfulqa": 0.0735,
+   "llama-3.2-1b-instruct|sciq": 0.0269,
+   "smollm2-1.7b-instruct|truthfulqa": 0.1109,
+   "smollm2-1.7b-instruct|sciq": 0.0247
+  },
+  "source": "analysis_v2/confirm.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct|truthfulqa": "qwen2.5-1.5b-instruct|truthfulqa/paired_vs_D0/D2/delta",
+   "qwen2.5-1.5b-instruct|sciq": "qwen2.5-1.5b-instruct|sciq/paired_vs_D0/D2/delta",
+   "llama-3.2-1b-instruct|truthfulqa": "llama-3.2-1b-instruct|truthfulqa/paired_vs_D0/D2/delta",
+   "llama-3.2-1b-instruct|sciq": "llama-3.2-1b-instruct|sciq/paired_vs_D0/D2/delta",
+   "smollm2-1.7b-instruct|truthfulqa": "smollm2-1.7b-instruct|truthfulqa/paired_vs_D0/D2/delta",
+   "smollm2-1.7b-instruct|sciq": "smollm2-1.7b-instruct|sciq/paired_vs_D0/D2/delta"
+  },
+  "script": "scripts/v2_confirm.py"
+ },
+ {
+  "id": "D2.length",
+  "claim": "D2 added to a dev-trained length model (paired delta).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct|truthfulqa": 0.0994,
+   "qwen2.5-1.5b-instruct|sciq": 0.1949,
+   "llama-3.2-1b-instruct|truthfulqa": 0.2217,
+   "llama-3.2-1b-instruct|sciq": 0.1229,
+   "smollm2-1.7b-instruct|truthfulqa": 0.0441,
+   "smollm2-1.7b-instruct|sciq": 0.1538
+  },
+  "source": "analysis_v3/audit.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct|truthfulqa": "qwen2.5-1.5b-instruct|truthfulqa/length/D2_plus_length_minus_length/delta",
+   "qwen2.5-1.5b-instruct|sciq": "qwen2.5-1.5b-instruct|sciq/length/D2_plus_length_minus_length/delta",
+   "llama-3.2-1b-instruct|truthfulqa": "llama-3.2-1b-instruct|truthfulqa/length/D2_plus_length_minus_length/delta",
+   "llama-3.2-1b-instruct|sciq": "llama-3.2-1b-instruct|sciq/length/D2_plus_length_minus_length/delta",
+   "smollm2-1.7b-instruct|truthfulqa": "smollm2-1.7b-instruct|truthfulqa/length/D2_plus_length_minus_length/delta",
+   "smollm2-1.7b-instruct|sciq": "smollm2-1.7b-instruct|sciq/length/D2_plus_length_minus_length/delta"
+  },
+  "script": "scripts/v3_audit.py"
+ },
+ {
+  "id": "SE.nli_vs_D0",
+  "claim": "NLI semantic entropy (D7) minus D0, paired; ties on SciQ (corrects v2 'SC worse').",
+  "status": "corrected",
+  "values": {
+   "qwen2.5-1.5b-instruct|truthfulqa": 0.0258,
+   "qwen2.5-1.5b-instruct|sciq": 0.0261,
+   "llama-3.2-1b-instruct|truthfulqa": -0.0856,
+   "llama-3.2-1b-instruct|sciq": -0.0339,
+   "smollm2-1.7b-instruct|truthfulqa": 0.0144,
+   "smollm2-1.7b-instruct|sciq": -0.0165
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct|truthfulqa": "qwen2.5-1.5b-instruct|truthfulqa/paired_vs_D0/D7/delta",
+   "qwen2.5-1.5b-instruct|sciq": "qwen2.5-1.5b-instruct|sciq/paired_vs_D0/D7/delta",
+   "llama-3.2-1b-instruct|truthfulqa": "llama-3.2-1b-instruct|truthfulqa/paired_vs_D0/D7/delta",
+   "llama-3.2-1b-instruct|sciq": "llama-3.2-1b-instruct|sciq/paired_vs_D0/D7/delta",
+   "smollm2-1.7b-instruct|truthfulqa": "smollm2-1.7b-instruct|truthfulqa/paired_vs_D0/D7/delta",
+   "smollm2-1.7b-instruct|sciq": "smollm2-1.7b-instruct|sciq/paired_vs_D0/D7/delta"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "H5.proxy",
+  "claim": "Others-wrong difficulty proxy AUROC (no uncertainty used).",
+  "status": "preregistered",
+  "values": {
+   "qwen2.5-1.5b-instruct|truthfulqa": 0.7178,
+   "qwen2.5-1.5b-instruct|sciq": 0.8183,
+   "llama-3.2-1b-instruct|truthfulqa": 0.6808,
+   "llama-3.2-1b-instruct|sciq": 0.768,
+   "smollm2-1.7b-instruct|truthfulqa": 0.7251,
+   "smollm2-1.7b-instruct|sciq": 0.8147
+  },
+  "source": "analysis_v2/confirm.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct|truthfulqa": "_H5_own_vs_other/truthfulqa/qwen2.5-1.5b-instruct<-others_wrong_count/auroc",
+   "qwen2.5-1.5b-instruct|sciq": "_H5_own_vs_other/sciq/qwen2.5-1.5b-instruct<-others_wrong_count/auroc",
+   "llama-3.2-1b-instruct|truthfulqa": "_H5_own_vs_other/truthfulqa/llama-3.2-1b-instruct<-others_wrong_count/auroc",
+   "llama-3.2-1b-instruct|sciq": "_H5_own_vs_other/sciq/llama-3.2-1b-instruct<-others_wrong_count/auroc",
+   "smollm2-1.7b-instruct|truthfulqa": "_H5_own_vs_other/truthfulqa/smollm2-1.7b-instruct<-others_wrong_count/auroc",
+   "smollm2-1.7b-instruct|sciq": "_H5_own_vs_other/sciq/smollm2-1.7b-instruct<-others_wrong_count/auroc"
+  },
+  "script": "scripts/v2_confirm.py"
+ },
+ {
+  "id": "within.sciq",
+  "claim": "Within-question AUROC of mean log-prob on SciQ samples (conservative corrected labels).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct containment": 0.5656,
+   "llama-3.2-1b-instruct containment": 0.5494,
+   "smollm2-1.7b-instruct containment": 0.6312,
+   "qwen2.5-1.5b-instruct other_anchors": 0.6118,
+   "llama-3.2-1b-instruct other_anchors": 0.5828,
+   "smollm2-1.7b-instruct other_anchors": 0.6552
+  },
+  "source": "analysis_v3/within.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct containment": "qwen2.5-1.5b-instruct/containment/mean_logprob/within_question_auroc",
+   "llama-3.2-1b-instruct containment": "llama-3.2-1b-instruct/containment/mean_logprob/within_question_auroc",
+   "smollm2-1.7b-instruct containment": "smollm2-1.7b-instruct/containment/mean_logprob/within_question_auroc",
+   "qwen2.5-1.5b-instruct other_anchors": "qwen2.5-1.5b-instruct/hybrid_other_anchors/mean_logprob/within_question_auroc",
+   "llama-3.2-1b-instruct other_anchors": "llama-3.2-1b-instruct/hybrid_other_anchors/mean_logprob/within_question_auroc",
+   "smollm2-1.7b-instruct other_anchors": "smollm2-1.7b-instruct/hybrid_other_anchors/mean_logprob/within_question_auroc"
+  },
+  "script": "scripts/v3_within.py"
+ },
+ {
+  "id": "practice.top20",
+  "claim": "Error rate among the 20% most confident TruthfulQA answers (D0).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct": 0.5968,
+   "llama-3.2-1b-instruct": 0.3226,
+   "smollm2-1.7b-instruct": 0.6129
+  },
+  "source": "analysis_v3/audit.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct": "qwen2.5-1.5b-instruct|truthfulqa/confident/top20pct_confident/error_rate",
+   "llama-3.2-1b-instruct": "llama-3.2-1b-instruct|truthfulqa/confident/top20pct_confident/error_rate",
+   "smollm2-1.7b-instruct": "smollm2-1.7b-instruct|truthfulqa/confident/top20pct_confident/error_rate"
+  },
+  "script": "scripts/v3_audit.py"
+ },
+ {
+  "id": "practice.risk80",
+  "claim": "Error rate at 80% coverage (D0) vs base rate, TruthfulQA.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct risk@0.8": 0.5749,
+   "llama-3.2-1b-instruct risk@0.8": 0.4879,
+   "smollm2-1.7b-instruct risk@0.8": 0.6032,
+   "qwen2.5-1.5b-instruct base": 0.5705,
+   "llama-3.2-1b-instruct base": 0.53,
+   "smollm2-1.7b-instruct base": 0.6207
+  },
+  "source": "analysis_v3/audit.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct risk@0.8": "qwen2.5-1.5b-instruct|truthfulqa/confident/risk_coverage_D0/risk@0.8",
+   "llama-3.2-1b-instruct risk@0.8": "llama-3.2-1b-instruct|truthfulqa/confident/risk_coverage_D0/risk@0.8",
+   "smollm2-1.7b-instruct risk@0.8": "smollm2-1.7b-instruct|truthfulqa/confident/risk_coverage_D0/risk@0.8",
+   "qwen2.5-1.5b-instruct base": "qwen2.5-1.5b-instruct|truthfulqa/confident/base_rate",
+   "llama-3.2-1b-instruct base": "llama-3.2-1b-instruct|truthfulqa/confident/base_rate",
+   "smollm2-1.7b-instruct base": "smollm2-1.7b-instruct|truthfulqa/confident/base_rate"
+  },
+  "script": "scripts/v3_audit.py"
+ },
+ {
+  "id": "labels.truthjudge",
+  "claim": "Agreement of the truth-judge with the primary judge (TruthfulQA confirm).",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct kappa": "pending",
+   "llama-3.2-1b-instruct kappa": "pending",
+   "smollm2-1.7b-instruct kappa": "pending"
+  },
+  "source": "analysis_v3/extensions.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct kappa": "_labels/qwen2.5-1.5b-instruct|truthfulqa/agreement_confirm/kappa",
+   "llama-3.2-1b-instruct kappa": "_labels/llama-3.2-1b-instruct|truthfulqa/agreement_confirm/kappa",
+   "smollm2-1.7b-instruct kappa": "_labels/smollm2-1.7b-instruct|truthfulqa/agreement_confirm/kappa"
+  },
+  "script": "scripts/v3_eval.py"
+ },
+ {
+  "id": "labels.containment",
+  "claim": "Containment label vs judge on SciQ confirm: false-correct and false-wrong rates (corrects v2 'never accepted a wrong answer').",
+  "status": "corrected",
+  "values": {
+   "qwen2.5-1.5b-instruct accepts_wrong": 0.0183,
+   "llama-3.2-1b-instruct accepts_wrong": 0.0369,
+   "smollm2-1.7b-instruct accepts_wrong": 0.0272,
+   "qwen2.5-1.5b-instruct rejects_correct": 0.2995,
+   "llama-3.2-1b-instruct rejects_correct": 0.2968,
+   "smollm2-1.7b-instruct rejects_correct": 0.2803
+  },
+  "source": "analysis_v3/within.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct accepts_wrong": "qwen2.5-1.5b-instruct/validation_on_greedy/containment/false_correct",
+   "llama-3.2-1b-instruct accepts_wrong": "llama-3.2-1b-instruct/validation_on_greedy/containment/false_correct",
+   "smollm2-1.7b-instruct accepts_wrong": "smollm2-1.7b-instruct/validation_on_greedy/containment/false_correct",
+   "qwen2.5-1.5b-instruct rejects_correct": "qwen2.5-1.5b-instruct/validation_on_greedy/containment/false_wrong",
+   "llama-3.2-1b-instruct rejects_correct": "llama-3.2-1b-instruct/validation_on_greedy/containment/false_wrong",
+   "smollm2-1.7b-instruct rejects_correct": "smollm2-1.7b-instruct/validation_on_greedy/containment/false_wrong"
+  },
+  "script": "scripts/v3_within.py"
+ },
+ {
+  "id": "contamination",
+  "claim": "Qwen repetition-penalty contamination of v1 scores (mean |shift| and ratio to class separation).",
+  "status": "corrected",
+  "values": {
+   "shift": 0.1247,
+   "ratio": 7.6651
+  },
+  "source": "analysis_v3/constants.json",
+  "paths": {
+   "shift": "contamination/mean_abs_shift",
+   "ratio": "contamination/ratio"
+  },
+  "script": "scripts/v3_constants.py"
+ }
+]

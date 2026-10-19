@@ -13,6 +13,25 @@ with an interactive demo. **Every result below is reported honestly,
 including where the detector does not work** — this project does not
 optimize for good-looking numbers.
 
+> ### Current state: v3 audit and paper (supersedes everything below)
+>
+> The preregistered v2 study was audited adversarially and extended (branch `v3-audit`).
+> **Read first:** [AUDIT_REPORT.md](AUDIT_REPORT.md) (findings, corrections, reviewer assessment),
+> [RESULTS_REGISTRY.json](RESULTS_REGISTRY.json) (every headline number with its source file and
+> status), [RESEARCH_LOG.md](RESEARCH_LOG.md) (progress log and exact commands).
+> Paper: `paper/Learned_Falsehoods_Uncertainty_Paper.docx` / `.pdf`, built by
+> `paper/build_paper.js`, which reads every number from the analysis files.
+>
+> **Bottom line.** Single-pass token uncertainty is a weak hallucination signal for these small
+> models: AUROC 0.66–0.70 on SciQ, mostly question difficulty, and chance on TruthfulQA for two of
+> three models (preregistered, 1,417 held-out questions). The failure is specific: answers that
+> repeat a popular misconception are scored like correct answers, and so they are by the model's
+> own P(True) judgement and by entailment-based semantic entropy. The gap survives controls for
+> length, question familiarity and difficulty, topic, answer form, and automatic error typing.
+> v3 also corrected four earlier statements (see AUDIT_REPORT.md §2).
+>
+> v3 code: `scripts/v3_*.py`; outputs: `analysis_v3/`, `results_v3/`.
+
 > ### ⚠️ Correction notice (supersedes parts of this README)
 >
 > A later audit found that **Qwen2.5 applies `repetition_penalty=1.1` during
@@ -35,7 +54,7 @@ optimize for good-looking numbers.
 > record of how the investigation proceeded; where they disagree with
 > RESULTS.md, RESULTS.md is correct.
 
-> ### Current results: v2, preregistered (supersedes everything below)
+> ### v2 results, preregistered (superseded in part by v3 above; see AUDIT_REPORT.md §2)
 >
 > The study was rebuilt from scratch with a clean protocol (raw greedy decoding,
 > fp32 teacher-forced scoring, blind LLM-judge labels), developed on the original
@@ -55,7 +74,8 @@ repeat a popular misconception are produced as confidently as correct answers
 (AUROC 0.42–0.45 for Qwen and SmolLM2), while other errors remain detectable
 (0.58–0.63). Small logistic-regression detectors trained on the dev split
 transfer to the held-out questions (0.60–0.73) and beat the single feature;
-five-sample self-consistency never does. These are in-distribution results for
+five-sample cosine self-consistency never does (v3: the standard NLI semantic entropy ties
+D0 on SciQ). These are in-distribution results for
 three 1–2 B models and two datasets, with labels from one LLM judge.
 
 ## Pipeline

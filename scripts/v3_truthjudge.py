@@ -59,6 +59,7 @@ def main():
     ap.add_argument("--out", default=str(V3_ROOT))
     ap.add_argument("--datasets", nargs="+", default=["truthfulqa", "sciq"])
     ap.add_argument("--splits", nargs="+", default=["dev", "confirm"])
+    ap.add_argument("--samples", action="store_true", help="judge the K sampled answers instead of greedy")
     a = ap.parse_args()
     tok = AutoTokenizer.from_pretrained(a.judge)
     tok.pad_token = tok.unk_token
@@ -70,15 +71,17 @@ def main():
         for s in a.splits:
             q = load_split(d, s).set_index("qid")["question"]
             for m in a.models:
-                path = Path(a.root) / m / d / s / "greedy.jsonl"
+                path = Path(a.root) / m / d / s / ("samples.jsonl" if a.samples else "greedy.jsonl")
                 if not path.exists():
                     continue
                 recs = [json.loads(l) for l in open(path, encoding="utf-8")]
                 res = judge(model, tok, [(q[r["qid"]], r["answer"]) for r in recs])
                 out = Path(a.out) / m / d / s
                 out.mkdir(parents=True, exist_ok=True)
-                pd.DataFrame([{"qid": r["qid"], "tj_p_true": p, "tj_mass": mass, "tj_label": int(p < 0.5)}
-                              for r, (p, mass) in zip(recs, res)]).to_csv(out / "truthjudge.csv", index=False)
+                name = "truthjudge_samples.csv" if a.samples else "truthjudge.csv"
+                pd.DataFrame([{"qid": r["qid"], **({"k": r["k"]} if "k" in r else {}), "tj_p_true": p,
+                               "tj_mass": mass, "tj_label": int(p < 0.5)}
+                              for r, (p, mass) in zip(recs, res)]).to_csv(out / name, index=False)
                 print(f"{m}/{d}/{s}: n={len(recs)} halluc rate={sum(p < 0.5 for p, _ in res) / len(res):.3f}",
                       flush=True)
 
