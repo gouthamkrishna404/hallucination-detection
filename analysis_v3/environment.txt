@@ -1,0 +1,16 @@
+accelerate==1.14.0
+bitsandbytes==0.50.2
+datasets==5.0.1
+huggingface_hub==1.30.0
+matplotlib==3.11.1
+numpy==2.4.6
+pandas==3.0.5
+protobuf==7.36.2
+scikit-learn==1.9.0
+scipy==1.17.1
+sentence-transformers==6.0.1
+sentencepiece==0.2.2
+torch==2.6.0+cu124
+transformers==5.16.1
+Python 3.11.9
+NVIDIA GeForce RTX 4060 Laptop GPU, 596.56

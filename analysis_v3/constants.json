@@ -35,5 +35,96 @@
    0.5937391340529938,
    0.6992374969613483
   ]
+ },
+ "judge_disagreement": {
+  "qwen2.5-1.5b-instruct": {
+   "00": {
+    "n": 241,
+    "answer_tokens": 20.91701244813278,
+    "mean_logprob": -0.3760548251032162,
+    "primary_low_conf": 0.23236514522821577
+   },
+   "01": {
+    "n": 24,
+    "answer_tokens": 23.041666666666668,
+    "mean_logprob": -0.4810625682059399,
+    "primary_low_conf": 0.9583333333333334
+   },
+   "10": {
+    "n": 57,
+    "answer_tokens": 23.80701754385965,
+    "mean_logprob": -0.4497582387521765,
+    "primary_low_conf": 0.5087719298245614
+   },
+   "11": {
+    "n": 295,
+    "answer_tokens": 19.505084745762712,
+    "mean_logprob": -0.35230438358989546,
+    "primary_low_conf": 0.10847457627118644
+   }
+  },
+  "llama-3.2-1b-instruct": {
+   "00": {
+    "n": 274,
+    "answer_tokens": 46.75547445255474,
+    "mean_logprob": -0.3531496352815329,
+    "primary_low_conf": 0.3175182481751825
+   },
+   "01": {
+    "n": 16,
+    "answer_tokens": 43.5625,
+    "mean_logprob": -0.33514280257688045,
+    "primary_low_conf": 0.625
+   },
+   "10": {
+    "n": 114,
+    "answer_tokens": 54.93859649122807,
+    "mean_logprob": -0.47420795033302404,
+    "primary_low_conf": 0.49122807017543857
+   },
+   "11": {
+    "n": 213,
+    "answer_tokens": 46.286384976525824,
+    "mean_logprob": -0.4038433172636586,
+    "primary_low_conf": 0.07042253521126761
+   }
+  },
+  "smollm2-1.7b-instruct": {
+   "00": {
+    "n": 214,
+    "answer_tokens": 24.364485981308412,
+    "mean_logprob": -0.37140234962887897,
+    "primary_low_conf": 0.2570093457943925
+   },
+   "01": {
+    "n": 20,
+    "answer_tokens": 21.7,
+    "mean_logprob": -0.3585762546506175,
+    "primary_low_conf": 0.95
+   },
+   "10": {
+    "n": 80,
+    "answer_tokens": 31.3125,
+    "mean_logprob": -0.4607875329906541,
+    "primary_low_conf": 0.475
+   },
+   "11": {
+    "n": 303,
+    "answer_tokens": 24.818481848184817,
+    "mean_logprob": -0.35337661581887375,
+    "primary_low_conf": 0.09900990099009901
+   }
+  }
+ },
+ "prompt2": {
+  "qwen2.5-1.5b-instruct": {
+   "identical_share": 0.3419773095623987
+  },
+  "llama-3.2-1b-instruct": {
+   "identical_share": 0.15721231766612642
+  },
+  "smollm2-1.7b-instruct": {
+   "identical_share": 0.26094003241491087
+  }
  }
 }

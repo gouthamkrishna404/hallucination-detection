@@ -14,3 +14,8 @@ pyyaml>=6.0
 joblib>=1.3.0
 gradio>=5.0.0
 sentence-transformers>=3.0.0
+scipy>=1.11.0
+# v3 audit: 4-bit truth-judge (Llama-2 SentencePiece tokenizer) and NLI baselines
+bitsandbytes>=0.45.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0

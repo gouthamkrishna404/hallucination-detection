@@ -25,6 +25,7 @@ from scripts.v2_analysis import V2_ROOT, load_cell
 
 ROOT = PROJECT_ROOT
 PAPER = ROOT / "paper" / "Learned_Falsehoods_Uncertainty_Paper.docx"
+MODELS = ["qwen2.5-1.5b-instruct", "llama-3.2-1b-instruct", "smollm2-1.7b-instruct"]
 
 
 def rejudge():
@@ -75,6 +76,29 @@ def llama_untruncated():
     return {"n": int(len(d)), "truncated_share": float(df["truncated"].mean()), "auroc": auroc(y, s), "ci": boot_ci(y, s)}
 
 
+def judge_disagreement():
+    """TruthfulQA confirm: answer length and confidence by (primary judge, truth-judge) label pair."""
+    out = {}
+    for m in MODELS:
+        df = load_cell(m, "truthfulqa", "confirm").merge(
+            pd.read_csv(ROOT / "results_v3" / m / "truthfulqa" / "confirm" / "truthjudge.csv"), on="qid")
+        g = df.groupby(df["label"].astype(str) + df["tj_label"].astype(str))
+        out[m] = {k: {"n": int(len(v)), "answer_tokens": float(v["answer_length"].mean()),
+                      "mean_logprob": float(v["mean_logprob"].mean()),
+                      "primary_low_conf": float((v["judge_conf"] == "low").mean())} for k, v in g}
+    return out
+
+
+def prompt2():
+    out = {}
+    for m in MODELS:
+        a = [json.loads(l)["answer"] for l in open(ROOT / "results_v3/prompt2" / m / "truthfulqa/confirm/greedy.jsonl",
+                                                   encoding="utf-8")]
+        b = [json.loads(l)["answer"] for l in open(V2_ROOT / m / "truthfulqa/confirm/greedy.jsonl", encoding="utf-8")]
+        out[m] = {"identical_share": float(np.mean([x == y for x, y in zip(a, b)]))}
+    return out
+
+
 def check_docx():
     xml = zipfile.ZipFile(PAPER).read("word/document.xml").decode("utf-8")
     text = re.sub(r"<[^>]+>", "", re.sub(r"</w:p>", "\n", xml))
@@ -93,7 +117,8 @@ if __name__ == "__main__":
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
     k = {"rejudge": rejudge(), "paraphrase": paraphrase_rejection(), "contamination": contamination(),
-         "da1_original": da1(), "llama_untruncated": llama_untruncated()}
+         "da1_original": da1(), "llama_untruncated": llama_untruncated(),
+         "judge_disagreement": judge_disagreement(), "prompt2": prompt2()}
     (ROOT / "analysis_v3" / "constants.json").write_text(json.dumps(k, indent=1))
     print(json.dumps(k, indent=1))
     if a.check:
