@@ -1,0 +1,25 @@
+{
+  "model": "smollm2-1.7b-instruct",
+  "dataset": "triviaqa",
+  "split": "confirm",
+  "n": 800,
+  "checkpoint": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "dtype": "fp32",
+  "max_new_tokens": 64,
+  "greedy": {
+    "repetition_penalty": 1.0,
+    "do_sample": false
+  },
+  "system_prompt": "You are a careful factual question-answering assistant. Answer the question directly and concisely in one or two sentences. If you are not sure, give your best specific answer anyway.",
+  "samples": {
+    "k": 5,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "seed": 42,
+    "compute_dtype": "float32"
+  },
+  "n_truncated": 1,
+  "argmax_agreement": 1.0,
+  "torch": "2.6.0+cu124",
+  "elapsed_sec": 278.1
+}

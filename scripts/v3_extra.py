@@ -6,7 +6,7 @@ computed for the original prompt / original models under the same independent la
 the comparison is like for like.
 
   prompt2  results_v3/prompt2/<model>/truthfulqa/confirm   neutral prompt that allows "I don't know"
-  scale    results_v3/scale/qwen2.5-3b-instruct/truthfulqa/{dev,confirm}   bf16, otherwise v2 protocol
+  scale    results_v3/scale/<model>/truthfulqa/{dev,confirm}   larger models (bf16 or bnb 4-bit), otherwise v2 protocol
   base     the v2 cells (results_v2 + results_v3 label/type files)
 
 Output: analysis_v3/extra.json
@@ -68,9 +68,10 @@ def main():
         p2 = V3_ROOT / "prompt2" / m / "truthfulqa" / "confirm"
         if (p2 / "truthjudge.csv").exists() and (p2 / "nli_type.csv").exists():
             res["prompt2"][m] = evaluate(cell(p2, p2))
-    sc = V3_ROOT / "scale" / "qwen2.5-3b-instruct" / "truthfulqa"
-    if (sc / "confirm" / "truthjudge.csv").exists():
-        res["scale"]["qwen2.5-3b-instruct"] = evaluate(cell(sc / "confirm", sc / "confirm"), cell(sc / "dev", sc / "dev"))
+    for d in sorted((V3_ROOT / "scale").glob("*")):
+        sc = d / "truthfulqa"
+        if (sc / "confirm" / "truthjudge.csv").exists() and (sc / "dev" / "truthjudge.csv").exists():
+            res["scale"][d.name] = evaluate(cell(sc / "confirm", sc / "confirm"), cell(sc / "dev", sc / "dev"))
     for group in res.values():
         for key in ["D0", "H2"]:
             got = [v[key] for v in group.values() if "p_two_sided" in v[key]]

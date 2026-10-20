@@ -31,7 +31,9 @@ optimize for good-looking numbers.
 > With labels from an independent judge trained on human ratings (AllenAI truth-judge), the gap
 > replicates for Qwen and SmolLM2, under a second prompt, and in Qwen2.5-3B; it does not replicate
 > for Llama, whose one positive TruthfulQA result (0.653) drops to 0.522 under those labels.
-> v3 also corrected four earlier statements (see AUDIT_REPORT.md §2).
+> On a second recall dataset with judge-free labels (TriviaQA) the signal is moderate (0.69–0.75).
+> v3 also corrected four earlier statements (see AUDIT_REPORT.md §2). Human validation kit:
+> `labels/human/README.md`.
 >
 > v3 code: `scripts/v3_*.py`; outputs: `analysis_v3/`, `results_v3/`.
 

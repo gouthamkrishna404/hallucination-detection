@@ -25,7 +25,8 @@ SRC = {"confirm": ("analysis_v2/confirm.json", "scripts/v2_confirm.py"),
        "ext": ("analysis_v3/extensions.json", "scripts/v3_eval.py"),
        "within": ("analysis_v3/within.json", "scripts/v3_within.py"),
        "extra": ("analysis_v3/extra.json", "scripts/v3_extra.py"),
-       "const": ("analysis_v3/constants.json", "scripts/v3_constants.py")}
+       "const": ("analysis_v3/constants.json", "scripts/v3_constants.py"),
+       "trivia": ("analysis_v3/triviaqa.json", "scripts/v3_trivia.py")}
 DATA = {k: json.loads((PROJECT_ROOT / f).read_text()) for k, (f, _) in SRC.items()}
 
 
@@ -117,6 +118,10 @@ R = [
           "(corrects v2 'never accepted a wrong answer').", "corrected", "within",
           {**{f"{m} accepts_wrong": (m, "validation_on_greedy", "containment", "false_correct") for m in MS},
            **{f"{m} rejects_correct": (m, "validation_on_greedy", "containment", "false_wrong") for m in MS}}),
+    entry("triviaqa.D0", "Second recall dataset (TriviaQA, judge-free alias labels): D0 detects errors moderately.",
+          "exploratory", "trivia", {**{f"{m} auroc": ("alias", m, "D0", "auroc") for m in MS},
+                                    **{f"{m} strict_label": ("strict", m, "D0", "auroc") for m in MS},
+                                    **{f"{m} difficulty_proxy": ("alias", m, "others_wrong_proxy", "auroc") for m in MS}}),
     entry("contamination", "Qwen repetition-penalty contamination of v1 scores (mean |shift| and ratio to class "
           "separation).", "corrected", "const", {"shift": ("contamination", "mean_abs_shift"),
                                                  "ratio": ("contamination", "ratio")}),

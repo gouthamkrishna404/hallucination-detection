@@ -116,8 +116,38 @@ def fig_coverage():
     fig.savefig(OUT / "fig_v3_coverage.png", dpi=300)
 
 
+SCALE = [("llama-3.2-1b-instruct", "Llama-3.2-1B", "#eb6834", "s"), ("qwen2.5-1.5b-instruct", "Qwen2.5-1.5B", "#2a78d6", "o"),
+         ("smollm2-1.7b-instruct", "SmolLM2-1.7B", "#1baf7a", "^"), ("qwen2.5-3b-instruct", "Qwen2.5-3B", "#2a78d6", "o"),
+         ("qwen2.5-7b-instruct-bnb4", "Qwen2.5-7B (4-bit)", "#2a78d6", "o"),
+         ("llama-3.1-8b-instruct-bnb4", "Llama-3.1-8B (4-bit)", "#eb6834", "s")]
+
+
+def fig_scale():
+    """Independent labels and types only: AUROC of D0 for imitative vs other errors, by model size."""
+    rows = [(n, c, mk, extra.get("base", {}).get(k) or extra.get("scale", {}).get(k)) for k, n, c, mk in SCALE]
+    rows = [r for r in rows if r[3]]
+    fig, ax = plt.subplots(figsize=(3.5, 0.3 * len(rows) + 0.9))
+    for i, (n, col, mk, r) in enumerate(rows):
+        im, ot = r["H2"]["auroc_imitative"], r["H2"]["auroc_other"]
+        ax.plot([im, ot], [i, i], color=GRID, lw=2, zorder=1)
+        ax.plot(im, i, mk, mfc="white", mec=col, mew=1.4, ms=5.5, zorder=2)
+        ax.plot(ot, i, mk, color=col, ms=5.5, zorder=2)
+    chance(ax)
+    ax.set_yticks(range(len(rows)), [r[0] for r in rows], fontsize=7.5)
+    ax.invert_yaxis()
+    ax.set_xlim(0.3, 0.75)
+    ax.set_xlabel("AUROC of −mean log-prob vs correct answers\n(TruthfulQA confirm, truth-judge labels, NLI types)", fontsize=8)
+    ax.plot([], [], "o", mfc="white", mec=MUTED, label="imitative errors")
+    ax.plot([], [], "o", color=MUTED, label="other errors")
+    fig.legend(fontsize=7, frameon=False, loc="lower center", ncol=2)
+    fig.tight_layout(rect=(0, 0.08, 1, 1))
+    fig.savefig(OUT / "fig_v3_scale.png", dpi=300)
+
+
 if __name__ == "__main__":
     fig_signals()
     fig_robust()
     fig_coverage()
+    if extra.get("scale"):
+        fig_scale()
     print("wrote v3 figures to", OUT)

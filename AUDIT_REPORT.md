@@ -76,6 +76,12 @@ applied to every greedy, sampled and prompt-variant TruthfulQA answer.
 imitative 0.403 vs other 0.534, gap −0.131 [−0.223, −0.040], p = 0.006. bf16 scoring matches the greedy
 argmax on 99.1 % of tokens (100 % in fp32), disclosed.
 
+**Second recall dataset (TriviaQA, 1,000 questions, judge-free alias labels; 7B/8B check dropped for
+bandwidth and replaced by this).** D0 0.753 / 0.694 / 0.730 (Holm p < 0.001; 0.749 / 0.706 / 0.741 with a
+strict canonical-answer label), D2 0.81 / 0.70 / 0.80, difficulty proxy 0.81–0.86, own − other D0
+−0.00 to +0.10. The SciQ conclusion generalises: a weak-to-moderate, largely question-level signal on
+recall errors. Detectability orders TriviaQA > SciQ > TruthfulQA.
+
 ## 5. What a detector buys in practice
 
 * Abstaining on the 20 % least-confident answers (D0) lowers SciQ error 0.275 → 0.244, 0.379 → 0.316,
@@ -113,7 +119,8 @@ Qwen's or SmolLM2's TruthfulQA error rate.
 than D0" (only for the cosine version). "Containment never accepts a wrong answer". The original DA1 Qwen
 result (contaminated decoding, proxy labels) — invalidated in v2, still invalid.
 
-**Unresolved.** Which judge is right on long multi-claim answers (needs human labels); why Llama differs
+**Unresolved.** Which judge is right on long multi-claim answers (needs human labels — a blind
+120-item annotation kit is ready in `labels/human/`, scored by `scripts/v3_human.py score`); why Llama differs
 (training data, alignment, length); whether the blind spot persists in models much larger than 3 B; what D2's
 positive weight on mean log-prob encodes beyond a TruthfulQA-specific "too fluent" contrast.
 

@@ -57,7 +57,8 @@ class LLMGenerator:
         # copy in CPU RAM (an fp32 1.7B model is ~7 GB).
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name, dtype=dtype, device_map=self.device if self.device == "cuda" else None)
-        self.model.to(self.device)
+        if not getattr(self.model, "is_quantized", False):  # bnb 4-bit models are placed at load and refuse .to()
+            self.model.to(self.device)
         self.model.eval()
 
         if self.tokenizer.pad_token_id is None:

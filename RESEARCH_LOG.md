@@ -101,3 +101,13 @@ python scripts/v3_figures.py && (cd paper && node build_paper.js)
   `scripts/v3_constants.py --check` passes; v2 paper archived in `paper/archive_v2/`.
 * Not done: human labels; models ≥ 7 B (bandwidth ~0.5–0.9 MB/s made a 15 GB download impractical);
   a second misconception dataset.
+
+## 2026-10-20 — scale check dropped, TriviaQA added, human-label kit
+
+* 4-bit Qwen2.5-7B / Llama-3.1-8B check abandoned at the user's request (≈ 6–7 h of download left at
+  ~0.35 MB/s); partial files deleted. `src/model_utils.py` keeps a guard so pre-quantized models load.
+* TriviaQA (rc.nocontext validation, 1,000 questions, seed 42; 200 dev / 800 confirm), frozen v2 protocol,
+  judge-free alias labels: D0 0.753 / 0.694 / 0.730, D2 0.81 / 0.70 / 0.80, difficulty proxy 0.81–0.86.
+  `python scripts/v3_trivia.py` → `analysis_v3/triviaqa.json`. Added to the paper as §IV-G.
+* Human validation kit: `labels/human/annotation_sheet.csv` (120 blind items: 90 judge-disagreement,
+  30 agreement), `key.csv`, `README.md`; score with `python scripts/v3_human.py score`.

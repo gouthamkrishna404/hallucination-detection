@@ -465,6 +465,35 @@
   "script": "scripts/v3_within.py"
  },
  {
+  "id": "triviaqa.D0",
+  "claim": "Second recall dataset (TriviaQA, judge-free alias labels): D0 detects errors moderately.",
+  "status": "exploratory",
+  "values": {
+   "qwen2.5-1.5b-instruct auroc": 0.753,
+   "llama-3.2-1b-instruct auroc": 0.6943,
+   "smollm2-1.7b-instruct auroc": 0.7305,
+   "qwen2.5-1.5b-instruct strict_label": 0.7485,
+   "llama-3.2-1b-instruct strict_label": 0.7064,
+   "smollm2-1.7b-instruct strict_label": 0.7408,
+   "qwen2.5-1.5b-instruct difficulty_proxy": 0.8614,
+   "llama-3.2-1b-instruct difficulty_proxy": 0.8083,
+   "smollm2-1.7b-instruct difficulty_proxy": 0.8592
+  },
+  "source": "analysis_v3/triviaqa.json",
+  "paths": {
+   "qwen2.5-1.5b-instruct auroc": "alias/qwen2.5-1.5b-instruct/D0/auroc",
+   "llama-3.2-1b-instruct auroc": "alias/llama-3.2-1b-instruct/D0/auroc",
+   "smollm2-1.7b-instruct auroc": "alias/smollm2-1.7b-instruct/D0/auroc",
+   "qwen2.5-1.5b-instruct strict_label": "strict/qwen2.5-1.5b-instruct/D0/auroc",
+   "llama-3.2-1b-instruct strict_label": "strict/llama-3.2-1b-instruct/D0/auroc",
+   "smollm2-1.7b-instruct strict_label": "strict/smollm2-1.7b-instruct/D0/auroc",
+   "qwen2.5-1.5b-instruct difficulty_proxy": "alias/qwen2.5-1.5b-instruct/others_wrong_proxy/auroc",
+   "llama-3.2-1b-instruct difficulty_proxy": "alias/llama-3.2-1b-instruct/others_wrong_proxy/auroc",
+   "smollm2-1.7b-instruct difficulty_proxy": "alias/smollm2-1.7b-instruct/others_wrong_proxy/auroc"
+  },
+  "script": "scripts/v3_trivia.py"
+ },
+ {
   "id": "contamination",
   "claim": "Qwen repetition-penalty contamination of v1 scores (mean |shift| and ratio to class separation).",
   "status": "corrected",

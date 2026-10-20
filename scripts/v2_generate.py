@@ -147,7 +147,7 @@ def record(gen, qid, prompt_ids, raw_ids, k=None):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
-    ap.add_argument("--dataset", required=True, choices=["truthfulqa", "sciq"])
+    ap.add_argument("--dataset", required=True, choices=["truthfulqa", "sciq", "triviaqa"])
     ap.add_argument("--split", required=True, choices=["dev", "confirm"])
     ap.add_argument("--no-samples", action="store_true")
     # 8 GB GPUs cannot hold SmolLM2-1.7B in fp32 plus a sampling KV cache. The checkpoints are stored in
