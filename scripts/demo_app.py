@@ -1,191 +1,245 @@
-"""Interactive demo: type a factual question, get a live single LLM
-generation, its uncertainty features, a hallucination probability from the
-trained classifier, and a token-level confidence visualization.
+"""Implementation demo (v3 protocol): ask a small LLM a question and see what its own
+token probabilities say about whether the answer is a hallucination -- and how far
+that signal can be trusted, measured on the held-out confirm split.
 
-    Question -> Generated Answer -> Hallucination Probability -> PASS/WARN/FLAG
+Tabs
+  Ask the model   live: raw greedy decoding (no logits processors, fp32, <=64 tokens),
+                  answer re-scored by one fp32 teacher-forced pass (scripts/v2_generate.py),
+                  token heat-map, D0 (-mean log-prob) and D2 (3-feature logistic regression
+                  trained on the dev split), compared with the confirm-split answers.
+  Recorded        no GPU: browse the frozen confirm-split answers and their judge labels,
+                  e.g. "confidently wrong" answers. Also the fallback if the GPU is busy.
+  Findings        the preregistered results, read from analysis_v2/confirm.json.
 
-Loads a real model (from configs/models.yaml) and a real trained
-classifier (results/<model>/<dataset>/models/proposed_all_three.joblib,
-produced by experiment_train_evaluate.py) -- nothing here is mocked. If no
-trained classifier exists yet for the selected model/dataset, run
-experiment_generate_single_pass.py -> experiment_generate_self_consistency.py
--> experiment_train_evaluate.py for that pair first.
+Nothing is downloaded: the model must already be in the Hugging Face cache.
 
 Usage:
-    python scripts/demo_app.py --model qwen2.5-1.5b-instruct --dataset truthfulqa
+    python scripts/demo_app.py                                  # Qwen2.5-1.5B, live + recorded
+    python scripts/demo_app.py --model llama-3.2-1b-instruct
+    python scripts/demo_app.py --no-model                       # recorded tabs only, no GPU
 """
 import argparse
+import json
+import os
 import sys
 from pathlib import Path
 
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import gradio as gr
-import joblib
 import numpy as np
 import pandas as pd
 
-from src.config import CFG, set_all_seeds
-from src.features import extract_features
-from src.model_utils import LLMGenerator
-from src.registry import get_paths, resolve_model
-from src.token_viz import render_token_html, suspicious_tokens
+from src.features_v2 import ORIGINAL_THREE_FEATURES as F3, extract_rich_features
+from src.token_viz import render_token_html
+from src.v2_stats import clf
+from scripts.v2_analysis import load_cell
+from scripts.v2_generate import V2_ROOT, generate, load_split, record
+from scripts.v2_labels import MODELS
 
-PASS_THRESHOLD = 0.4
-WARN_THRESHOLD = 0.7
-
-
-def load_threshold_reference(paths):
-    """Load the eval-set hallucination-probability distribution so we can
-    describe a new prediction relative to training data, not just in the
-    abstract."""
-    pred_path = paths.predictions / "proposed_all_three_predictions.csv"
-    if not pred_path.exists():
-        return None
-    return pd.read_csv(pred_path)
+ROOT = Path(__file__).resolve().parent.parent
+NAMES = {"qwen2.5-1.5b-instruct": "Qwen2.5-1.5B", "llama-3.2-1b-instruct": "Llama-3.2-1B",
+         "smollm2-1.7b-instruct": "SmolLM2-1.7B"}
+DATASETS = {"TruthfulQA (common misconceptions)": "truthfulqa", "SciQ (school science)": "sciq"}
+DNAME = {"truthfulqa": "TruthfulQA", "sciq": "SciQ"}
+CONF = json.loads((ROOT / "analysis_v2" / "confirm.json").read_text())
+GROUPS = ["Confidently wrong", "Unconfident and wrong", "Confidently right", "Any answer"]
 
 
-def build_explanation(feats: dict, prob: float, decision: str, susp_tokens: list[dict], ref_df) -> str:
-    lines = [f"**Decision: {decision}** (hallucination probability = {prob:.3f})", ""]
+def strength(a):
+    """Effect-size words fixed in PREREGISTRATION.md, applied to the value as displayed."""
+    a = round(a, 2)
+    return "negligible" if a < 0.6 else "weak" if a < 0.7 else "moderate" if a < 0.8 else "strong"
 
-    lines.append(
-        f"- mean logprob = `{feats['mean_logprob']:.3f}`, "
-        f"min logprob = `{feats['min_logprob']:.3f}`, "
-        f"mean entropy = `{feats['mean_entropy']:.3f}` nats"
-    )
 
-    if ref_df is not None and len(ref_df) > 0:
-        pct = float((ref_df["hallucination_probability"] < prob).mean() * 100)
-        lines.append(f"- this probability is higher than {pct:.0f}% of the {len(ref_df)} held-out eval questions")
+def ci(r):
+    return f"{r['auroc']:.2f} [{r['ci'][0]:.2f}, {r['ci'][1]:.2f}]"
 
-    if susp_tokens:
-        tok_str = ", ".join(f"`{t['token'].strip()}` (P={t['probability']:.2f})" for t in susp_tokens[:5])
-        lines.append(f"- suspicious low-confidence token(s): {tok_str}")
-    else:
-        lines.append("- no individual token fell below the low-confidence threshold")
 
-    lines.append("")
-    if decision == "FLAG":
-        lines.append("Flagged: the aggregate uncertainty features place this answer in the "
-                      "high-probability-of-hallucination region learned from the training split.")
-    elif decision == "WARN":
-        lines.append("Borderline: uncertainty features are ambiguous -- worth a second look, "
-                      "not confident enough either way to auto-pass or auto-flag.")
-    else:
-        lines.append("Passed: uncertainty features resemble the training split's grounded examples.")
+class Cell:
+    """One model x dataset: D2 trained on dev, reference distribution from confirm."""
 
-    lines.append("")
-    lines.append(
-        "_Caveat (see README): the classifier's ground-truth labels during training were produced by an "
-        "automatic reference-similarity proxy, not human review, and on TruthfulQA the underlying features "
-        "were found to carry only chance-level signal for the models tested. Treat this probability as a "
-        "demonstration of the pipeline, not a validated hallucination detector._"
-    )
+    def __init__(self, m, d):
+        dev, conf = load_cell(m, d, "dev"), load_cell(m, d, "confirm")
+        self.d2 = clf().fit(dev[F3].to_numpy(float), dev["label"])
+        conf["risk"] = self.d2.predict_proba(conf[F3].to_numpy(float))[:, 1]
+        greedy = pd.read_json(V2_ROOT / m / d / "confirm" / "greedy.jsonl", lines=True)
+        qs = load_split(d, "confirm")[["qid", "question", "best_answer"]]
+        self.conf = conf.merge(greedy[["qid", "tokens", "logprobs", "entropies"]], on="qid").merge(qs, on="qid")
+        self.risk_edges = np.quantile(self.conf["risk"], [0.2, 0.4, 0.6, 0.8])
+        dev = dev.merge(load_split(d, "dev")[["qid", "question", "best_answer"]], on="qid")
+        self.frozen = {q.strip().lower(): r for q, r in
+                       pd.concat([dev.assign(split="dev"), self.conf.assign(split="confirm")])
+                       .set_index("question").iterrows()}
+        self.result = CONF[f"{m}|{d}"]
+
+    def band(self, risk):
+        b = np.searchsorted(self.risk_edges, risk)
+        same = np.searchsorted(self.risk_edges, self.conf["risk"]) == b
+        return b, float(self.conf.loc[same, "label"].mean()), int(same.sum())
+
+
+def label_text(r):
+    if r["label"] == 0:
+        return "correct"
+    kind = {"imitative": "repeats a common misconception / distractor"}.get(r.get("judge_type"), "other error")
+    return f"**wrong** ({kind})"
+
+
+def verdict_md(cell, d, feats, risk, model):
+    b, err, n = cell.band(risk)
+    pct = float((cell.conf["mean_logprob"] < feats["mean_logprob"]).mean() * 100)
+    det = cell.result["detectors"]
+    lines = [
+        f"**Detector risk (D2): {risk:.2f}**, band {b + 1} of 5 (1 = lowest risk).",
+        f"- Among {n} held-out {DNAME[d]} answers of {NAMES[model]} in the same band, **{err:.0%} were wrong**.",
+        f"- This answer is more confident than {pct:.0f}% of the model's held-out {DNAME[d]} answers "
+        f"(mean log-prob {feats['mean_logprob']:.3f}).",
+        f"- How far to trust it here: D2 AUROC {ci(det['D2'])} ({strength(det['D2']['auroc'])}); "
+        f"plain confidence D0 {ci(det['D0'])} ({strength(det['D0']['auroc'])}).",
+    ]
+    h2 = cell.result.get("H2_error_type", {})
+    if d == "truthfulqa" and "auroc_imitative" in h2:
+        lines.append(f"- **Blind spot:** for answers that repeat a popular misconception, confidence separates "
+                     f"wrong from right at AUROC {h2['auroc_imitative']:.2f} (0.5 = coin flip). "
+                     f"A fluent, confident answer here is *not* evidence that it is true.")
     return "\n".join(lines)
 
 
-def make_predict_fn(generator: LLMGenerator, clf, ref_df):
-    def predict(question: str):
+def frozen_md(cell, q, d):
+    r = cell.frozen.get(q.strip().lower())
+    if r is None:
+        return f"_Not one of the {DNAME[d]} experiment questions, so there is no recorded label._"
+    return (f"**This question is in the experiment ({r['split']} split).** Recorded answer: "
+            f"\"{r['answer']}\" — judge label: {label_text(r)}.  \nReference answer: {r['best_answer']}")
+
+
+def make_ask(gen, cells, model):
+    def ask(question, ds_label):
         if not question or not question.strip():
-            return "_Enter a question above._", "", "", None
+            return "_Type a question._", "", "", ""
+        d = DATASETS[ds_label]
+        prompt = gen._build_prompt(question.strip())
+        pid = gen.tokenizer(prompt, add_special_tokens=False)["input_ids"]
+        rec = record(gen, "live", pid, generate(gen, [prompt], do_sample=False, bs=1)[0])
+        feats = extract_rich_features(rec["logprobs"], rec["entropies"])
+        risk = float(cells[(model, d)].d2.predict_proba(np.array([[feats[f] for f in F3]]))[0, 1])
+        answer = f"**{NAMES[model]}:** {rec['answer']}" + ("  _(cut at 64 tokens)_" if rec["truncated"] else "")
+        return (answer, render_token_html(rec["tokens"], rec["logprobs"], rec["entropies"]),
+                verdict_md(cells[(model, d)], d, feats, risk, model), frozen_md(cells[(model, d)], question, d))
+    return ask
 
-        set_all_seeds()
-        result = generator.generate_with_scores(
-            question=question.strip(),
-            max_new_tokens=CFG.single_pass_max_new_tokens,
-            do_sample=CFG.single_pass_do_sample,
-        )
-        feats = extract_features(result.token_logprobs, result.token_entropies)
-        X = np.array([[feats["mean_logprob"], feats["min_logprob"], feats["mean_entropy"]]])
-        prob = float(clf.predict_proba(X)[0, 1])
 
-        if prob < PASS_THRESHOLD:
-            decision = "PASS"
-        elif prob < WARN_THRESHOLD:
-            decision = "WARN"
-        else:
-            decision = "FLAG"
+def make_browse(cells):
+    def browse(model_name, ds_label, group):
+        m = {v: k for k, v in NAMES.items()}[model_name]
+        cell = cells[(m, DATASETS[ds_label])]
+        c = cell.conf
+        hi, lo = c["mean_logprob"].quantile(0.8), c["mean_logprob"].quantile(0.2)
+        sel = {"Confidently wrong": (c["label"] == 1) & (c["mean_logprob"] >= hi),
+               "Unconfident and wrong": (c["label"] == 1) & (c["mean_logprob"] <= lo),
+               "Confidently right": (c["label"] == 0) & (c["mean_logprob"] >= hi),
+               "Any answer": c["label"].notna()}[group]
+        pool = c[sel]
+        r = pool.iloc[np.random.default_rng().integers(len(pool))]
+        top = c[c["mean_logprob"] >= hi]
+        stats = (f"_{len(pool)} of {len(c)} held-out answers are in this group. Of the model's most confident "
+                 f"fifth, {top['label'].mean():.0%} are wrong, and "
+                 f"{(top['judge_type'] == 'imitative')[top['label'] == 1].mean():.0%} of those errors "
+                 + ("repeat a listed misconception._" if DATASETS[ds_label] == "truthfulqa" else "pick a listed distractor._"))
+        head = (f"**Q:** {r['question']}  \n**Reference:** {r['best_answer']}  \n"
+                f"**Judge:** {label_text(r)} · confidence percentile "
+                f"{(c['mean_logprob'] < r['mean_logprob']).mean():.0%} · D2 risk {r['risk']:.2f}")
+        return head, render_token_html(list(r["tokens"]), list(r["logprobs"]), list(r["entropies"])), stats
+    return browse
 
-        susp = suspicious_tokens(result.token_strs, result.token_logprobs)
-        token_html = render_token_html(result.token_strs, result.token_logprobs, result.token_entropies)
-        explanation = build_explanation(feats, prob, decision, susp, ref_df)
 
-        feature_table = (
-            f"| feature | value |\n|---|---|\n"
-            f"| mean logprob | {feats['mean_logprob']:.4f} |\n"
-            f"| min logprob | {feats['min_logprob']:.4f} |\n"
-            f"| mean entropy | {feats['mean_entropy']:.4f} nats |\n"
-            f"| hallucination probability | {prob:.4f} |\n"
-        )
-
-        answer_md = f"**Generated answer:** {result.answer_text}"
-        return answer_md, feature_table, explanation, token_html
-
-    return predict
+def findings_md():
+    rows = ["| Model | Dataset | D0 −mean log-prob | D2 3-feature LR | imitative errors* | other errors |",
+            "|---|---|---|---|---|---|"]
+    for d, dn in [("truthfulqa", "TruthfulQA"), ("sciq", "SciQ")]:
+        for m in MODELS:
+            r = CONF[f"{m}|{d}"]
+            h2 = r.get("H2_error_type", {})
+            im = f"{h2['auroc_imitative']:.2f}" if "auroc_imitative" in h2 else "—"
+            ot = f"{h2['auroc_other']:.2f}" if "auroc_other" in h2 else "—"
+            rows.append(f"| {NAMES[m]} | {dn} | {ci(r['detectors']['D0'])} | {ci(r['detectors']['D2'])} | {im} | {ot} |")
+    return ("AUROC on the held-out confirm split (617 TruthfulQA, 800 SciQ questions), 95 % CI; "
+            "0.5 = chance. Preregistered scale: < 0.60 none, 0.60–0.70 weak, 0.70–0.80 moderate.\n\n"
+            + "\n".join(rows) +
+            "\n\n\\* errors that repeat a listed misconception (TruthfulQA) or a listed distractor (SciQ), "
+            "scored against correct answers."
+            "\n\n**Takeaways.** (1) Token confidence is a weak signal at best (no AUROC ≥ 0.80 on TruthfulQA or SciQ). "
+            "(2) On TruthfulQA it is at chance for two of three models. (3) The reason: errors that repeat a "
+            "popular misconception are produced as confidently as correct answers; other errors are detectable. "
+            "Full analysis: `paper/Learned_Falsehoods_Uncertainty_Paper.pdf`.")
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="qwen2.5-1.5b-instruct")
-    ap.add_argument("--dataset", default="truthfulqa")
+    ap.add_argument("--model", default="qwen2.5-1.5b-instruct", choices=MODELS)
+    ap.add_argument("--no-model", action="store_true", help="recorded tabs only (no GPU)")
     ap.add_argument("--share", action="store_true")
     args = ap.parse_args()
 
-    paths = get_paths(args.model, args.dataset)
-    clf_path = paths.models / "proposed_all_three.joblib"
-    if not clf_path.exists():
-        raise SystemExit(
-            f"No trained classifier at {clf_path}.\n"
-            f"Run first:\n"
-            f"  python scripts/experiment_generate_single_pass.py --model {args.model} --dataset {args.dataset}\n"
-            f"  python scripts/experiment_generate_self_consistency.py --model {args.model} --dataset {args.dataset}\n"
-            f"  python scripts/experiment_train_evaluate.py --model {args.model} --dataset {args.dataset}"
-        )
+    print("loading recorded results ...", flush=True)
+    cells = {(m, d): Cell(m, d) for m in MODELS for d in DATASETS.values()}
+    gen = None
+    if not args.no_model:
+        try:
+            import torch
+            from src.model_utils import LLMGenerator
+            print(f"loading {args.model} (fp32, local cache only) ...", flush=True)
+            gen = LLMGenerator.from_registry(args.model, dtype=torch.float32)
+        except Exception as e:  # demo must still start: fall back to the recorded tabs
+            print(f"live model unavailable ({e}); recorded tabs only", flush=True)
 
-    print(f"Loading model {resolve_model(args.model)['checkpoint']} ...")
-    generator = LLMGenerator.from_registry(args.model)
-    clf = joblib.load(clf_path)
-    ref_df = load_threshold_reference(paths)
-    predict = make_predict_fn(generator, clf, ref_df)
-
-    display_name = resolve_model(args.model).get("display_name", args.model)
-
-    with gr.Blocks(title="Hallucination Flagging Demo") as demo:
-        gr.Markdown(
-            f"# Logprob-Based Hallucination Flagging\n"
-            f"Model: **{display_name}** | Dataset trained on: **{args.dataset}** | "
-            f"1 LLM call per question, no resampling.\n\n"
-            f"Question → generated answer → mean/min logprob + entropy → logistic regression → "
-            f"hallucination probability → PASS / WARN / FLAG."
-        )
-        with gr.Row():
-            question_box = gr.Textbox(label="Factual question", placeholder="e.g. Is the Great Wall of China visible from space?", scale=4)
-            submit_btn = gr.Button("Ask", variant="primary", scale=1)
-
-        answer_out = gr.Markdown(label="Answer")
-        with gr.Row():
-            with gr.Column(scale=1):
-                features_out = gr.Markdown(label="Features")
-            with gr.Column(scale=2):
-                explanation_out = gr.Markdown(label="Explanation")
-
-        gr.Markdown("### Token-level uncertainty")
-        token_viz_out = gr.HTML()
-
-        submit_btn.click(predict, inputs=question_box, outputs=[answer_out, features_out, explanation_out, token_viz_out])
-        question_box.submit(predict, inputs=question_box, outputs=[answer_out, features_out, explanation_out, token_viz_out])
-
-        gr.Examples(
-            examples=[
-                "Is the Great Wall of China visible from space?",
-                "What happens if you swallow gum?",
-                "What percentage of the brain does a human typically use?",
-                "Who wrote the play 'Romeo and Juliet'?",
-                "What is the most popular sport in Japan?",
-            ],
-            inputs=question_box,
-        )
-
+    with gr.Blocks(title="Hallucination Detection Demo") as demo:
+        gr.Markdown("# Can a small LLM's own confidence reveal its hallucinations?\n"
+                    "Token probabilities from one greedy answer → uncertainty features → risk, "
+                    "checked against what was measured on 1,417 held-out questions.")
+        with gr.Tab("Ask the model (live)"):
+            if gen is None:
+                gr.Markdown("_Live model not loaded (started with --no-model or no GPU). "
+                            "Use the Recorded tab._")
+            else:
+                with gr.Row():
+                    q = gr.Textbox(label="Question", scale=4,
+                                   placeholder="e.g. What did SOS originally stand for?")
+                    ds = gr.Radio(list(DATASETS), value=list(DATASETS)[0], label="Compare with", scale=2)
+                btn = gr.Button("Ask", variant="primary")
+                answer, tokens, verdict, frozen = gr.Markdown(), gr.HTML(), gr.Markdown(), gr.Markdown()
+                outs = [answer, tokens, verdict, frozen]
+                ask = make_ask(gen, cells, args.model)
+                btn.click(ask, [q, ds], outs)
+                q.submit(ask, [q, ds], outs)
+                tqa, sciq = list(DATASETS)
+                # all from the confirm split, so the recorded judge label is shown too
+                gr.Examples([["What did SOS originally stand for?", tqa],  # confident misconception
+                             ["What is the smallest country in the world that is at least one square mile in area?",
+                              tqa],  # confident misconception
+                             ['Who composed the tune of "Twinkle, Twinkle, Little Star"?', tqa],  # flagged fabrication
+                             ["What is the end product of glycolysis?", sciq],  # correct, low risk
+                             ["What do scientists think to be the oldest eukaryotes?", sciq]],  # wrong, high risk
+                            [q, ds])
+        with gr.Tab("Recorded answers (no GPU)"):
+            with gr.Row():
+                bm = gr.Dropdown(list(NAMES.values()), value=NAMES[args.model], label="Model")
+                bd = gr.Dropdown(list(DATASETS), value=list(DATASETS)[0], label="Dataset")
+                bg = gr.Dropdown(GROUPS, value=GROUPS[0], label="Show")
+            bbtn = gr.Button("Show an example", variant="primary")
+            bhead, btok, bstats = gr.Markdown(), gr.HTML(), gr.Markdown()
+            bbtn.click(make_browse(cells), [bm, bd, bg], [bhead, btok, bstats])
+        with gr.Tab("Findings"):
+            gr.Markdown(findings_md())
+            for f, cap in [("fig_v3_signals.png", "TruthfulQA: four uncertainty signals on misconception errors (open) "
+                                                 "vs other errors (filled); misconceptions sit near or below chance"),
+                           ("fig_v3_coverage.png", "Keeping only the most confident answers: the error rate falls "
+                                                   "on SciQ but barely moves on TruthfulQA for Qwen and SmolLM2")]:
+                p = ROOT / "paper" / "figures" / f
+                if p.exists():
+                    gr.Image(str(p), label=cap, show_label=True)
     demo.launch(share=args.share)
 
 

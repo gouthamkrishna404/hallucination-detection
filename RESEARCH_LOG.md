@@ -111,3 +111,21 @@ python scripts/v3_figures.py && (cd paper && node build_paper.js)
   `python scripts/v3_trivia.py` → `analysis_v3/triviaqa.json`. Added to the paper as §IV-G.
 * Human validation kit: `labels/human/annotation_sheet.csv` (120 blind items: 90 judge-disagreement,
   30 agreement), `key.csv`, `README.md`; score with `python scripts/v3_human.py score`.
+
+## 2026-10-25 — D2 mechanism, demo, reproducibility re-run (no downloads)
+
+* **D2 mechanism (exploratory, `scripts/v3_d2_mechanism.py` → `analysis_v3/d2_mechanism.json`).** D2's
+  weights are positive on mean log-prob *and* mean entropy and negative on min log-prob, so it scores a
+  contrast, not low confidence. The parameter-free contrast mean − min log-prob ("fluent overall, one
+  improbable token") detects non-imitative TruthfulQA errors at 0.74 / 0.76 / 0.70 (D0: 0.58 / 0.71 /
+  0.63); on imitative ones it is at chance for Qwen and SmolLM2 (0.49, 0.52) and weaker for Llama (0.67). For Qwen, mean + entropy gets a *negative* sign on
+  dev and then partly catches imitative errors (0.55 [0.50, 0.60]) while inverting on the others (0.36).
+  D2's own imitative-minus-other gap stays negative: −0.08 [−0.17, 0.00] Qwen (p = 0.05), −0.14 Llama,
+  −0.18 SmolLM2 (p < 0.001; unadjusted). Error rate by D0 quintile is flat on TruthfulQA for Qwen and
+  SmolLM2 (0.47–0.69) and monotone on SciQ and Llama/TruthfulQA. Contrasts are not length proxies
+  (length-stratified AUROCs within 0.03). One sentence added to the paper (§IV-C), marked post hoc.
+* **Demo rebuilt** (`scripts/demo_app.py`, `DEMO.md`) on the v2 protocol: live raw-greedy answer with
+  fp32 re-scoring, token map, D0/D2 against the confirm-split distribution, recorded-answer browser
+  (no GPU), findings tab. The v1 demo (proxy-label classifier, PASS/WARN/FLAG) is retired. All five
+  example questions reproduce their recorded confirm-split answers exactly.
+* `src/token_viz.py`: explicit dark text on the coloured token backgrounds (unreadable in dark mode).

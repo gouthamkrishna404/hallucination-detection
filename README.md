@@ -36,6 +36,9 @@ optimize for good-looking numbers.
 > `labels/human/README.md`.
 >
 > v3 code: `scripts/v3_*.py`; outputs: `analysis_v3/`, `results_v3/`.
+>
+> **Demo:** `python scripts/demo_app.py` (live model + recorded answers + findings; `--no-model`
+> runs without a GPU). Walkthrough and likely review questions: [DEMO.md](DEMO.md).
 
 > ### ⚠️ Correction notice (supersedes parts of this README)
 >
@@ -113,7 +116,7 @@ Benchmarked against:
 - Random Forest / XGBoost / Platt- and isotonic-calibrated classifier comparison against plain logistic regression
 - Confidently-wrong quadrant analysis with effect-size (Cohen's *d*) breakdown
 - Hybrid single-call + multi-call detector, cross-model transfer experiments, and bootstrap-CI statistical verification of any candidate improvement
-- Interactive Gradio demo: type a question, see the answer, features, hallucination probability, PASS/WARN/FLAG, token-level highlighting, and a plain-language explanation
+- Interactive Gradio demo (rebuilt on the v3 protocol, see [DEMO.md](DEMO.md)): live answer, token-level highlighting, D0/D2 risk compared with 1,417 held-out answers, and how far the signal can be trusted
 - Reproducible seeds, GPU/CPU support, batched inference option, cached generations, saved classifiers (joblib), append-only experiment log
 
 ## Project structure
@@ -210,10 +213,10 @@ python scripts/experiment_relabel_semantic.py --model <key> --dataset <key>
 python scripts/compare_models.py --dataset truthfulqa --models qwen2.5-1.5b-instruct llama-3.2-1b-instruct smollm2-1.7b-instruct
 ```
 
-**Interactive demo** (after `experiment_train_evaluate.py` has produced a classifier):
+**Interactive demo** (v3 protocol; reads the frozen `results_v2/` data, nothing is downloaded):
 
 ```bash
-python scripts/demo_app.py --model qwen2.5-1.5b-instruct --dataset truthfulqa
+python scripts/demo_app.py --model qwen2.5-1.5b-instruct   # or --no-model for the no-GPU tabs
 ```
 
 opens a local Gradio app: type a factual question, get a live 1-call
@@ -948,20 +951,21 @@ positional/percentile features, but not raw mean confidence, pick up on.
 
 ## Interactive demo
 
-`scripts/demo_app.py` loads a real model and a real trained classifier —
-nothing is mocked. Enter a question, get: the model's actual generated
-answer, its mean/min logprob and entropy, the hallucination probability
-from the trained logistic regression, a PASS/WARN/FLAG decision, a
-token-by-token confidence visualization (red = low confidence, outlined =
-suspicious), and a plain-language explanation that includes the same
-caveat about proxy labels stated above — the demo does not oversell the
-detector's reliability.
+`scripts/demo_app.py` (rebuilt for v3; the v1 demo with proxy-label
+classifiers and PASS/WARN/FLAG thresholds is retired) generates a live
+answer with the frozen v2 protocol (raw greedy, fp32 teacher-forced
+re-scoring), shows a token-by-token confidence map, and scores it with D0
+and the dev-trained D2. The risk is placed against the model's held-out
+confirm-split answers (error rate in the same risk band) together with the
+measured AUROC of that cell, so the demo shows how far the signal can be
+trusted rather than a bare verdict. A second tab browses recorded answers
+(e.g. confidently wrong ones) without a GPU. See [DEMO.md](DEMO.md).
 
 ## Engineering notes
 
 - **Batch inference**: `LLMGenerator.generate_batch_with_scores` (left-padded batched generation) is implemented and tested — verified to produce identical generated *text* to the non-batched path under greedy decoding for held-out questions. However, testing also found that per-token **logprobs** can drift by up to ~0.07 nats between the batched and single-example paths on some examples (floating-point reduction-order differences in batched fp16 matmuls, not a padding/masking bug — text output is unaffected). This is why the core DA1/Llama-comparison/SciQ runs all deliberately use the non-batched, single-example path: it keeps feature values exactly reproducible and procedurally identical across every model/dataset compared. Batching remains available as an opt-in throughput path for exploratory large-scale runs where this level of numerical noise is acceptable.
 - **Caching**: dataset subsets, generated features, and per-token detail (`single_pass_token_details.jsonl`) are all cached to disk; re-running a training/analysis script does not re-trigger LLM calls.
-- **Saved artifacts**: fitted classifiers are persisted via `joblib` to `results/<model>/<dataset>/models/*.joblib` (loaded directly by the demo, no retraining).
+- **Saved artifacts**: fitted classifiers are persisted via `joblib` to `results/<model>/<dataset>/models/*.joblib` (v1; the v3 demo refits D2 on the dev split at start-up, which takes seconds).
 - **Experiment log**: every generation/train/eval run appends one JSON line to `logs/experiment_log.jsonl` (script, model, dataset, status, timing, headline metrics) — a flat audit trail independent of the structured per-run `metrics.json` files.
 - **Gated checkpoints**: `meta-llama/Llama-3.2-1B-Instruct` requires an approved, authenticated HF token we don't have here; `configs/models.yaml` uses `unsloth/Llama-3.2-1B-Instruct`, a widely-used ungated re-upload of numerically identical weights, documented inline.
 

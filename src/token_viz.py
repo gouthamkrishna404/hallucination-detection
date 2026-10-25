@@ -54,16 +54,16 @@ def render_token_html(
 
         safe_tok = html.escape(tok).replace("\n", "<br/>")
         spans.append(
-            f'<span title="{title}" style="background:{color}; border:{border}; '
+            f'<span title="{title}" style="background:{color}; color:#111; border:{border}; '
             f'border-radius:3px; padding:1px 2px; margin:0 1px; white-space:pre-wrap; '
             f'font-family:ui-monospace,Consolas,monospace;">{safe_tok}</span>'
         )
 
     legend = (
-        '<div style="margin-top:8px; font-size:12px; color:#666;">'
-        '<span style="background:hsl(0,75%,80%); padding:1px 6px; border-radius:3px;">low confidence</span> '
-        '<span style="background:hsl(60,75%,80%); padding:1px 6px; border-radius:3px;">medium</span> '
-        '<span style="background:hsl(120,75%,80%); padding:1px 6px; border-radius:3px;">high confidence</span> '
+        '<div style="margin-top:8px; font-size:12px; color:#888;">'
+        '<span style="background:hsl(0,75%,80%); padding:1px 6px; border-radius:3px; color:#111;">low confidence</span> '
+        '<span style="background:hsl(60,75%,80%); padding:1px 6px; border-radius:3px; color:#111;">medium</span> '
+        '<span style="background:hsl(120,75%,80%); padding:1px 6px; border-radius:3px; color:#111;">high confidence</span> '
         '&nbsp;|&nbsp; red outline = suspicious token (logprob &le; '
         f'{suspicious_logprob_threshold:.1f})</div>'
     )

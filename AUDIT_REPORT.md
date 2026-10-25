@@ -121,8 +121,9 @@ result (contaminated decoding, proxy labels) — invalidated in v2, still invali
 
 **Unresolved.** Which judge is right on long multi-claim answers (needs human labels — a blind
 120-item annotation kit is ready in `labels/human/`, scored by `scripts/v3_human.py score`); why Llama differs
-(training data, alignment, length); whether the blind spot persists in models much larger than 3 B; what D2's
-positive weight on mean log-prob encodes beyond a TruthfulQA-specific "too fluent" contrast.
+(training data, alignment, length); whether the blind spot persists in models much larger than 3 B; why D2's contrast
+(fluent answer, one improbable token; `analysis_v3/d2_mechanism.json`, exploratory) transfers poorly across
+datasets.
 
 ## 7. Reviewer-style assessment
 
