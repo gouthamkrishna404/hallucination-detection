@@ -1,5 +1,10 @@
 # Implementation demo — DA3 review
 
+Presentation: `presentation/DA3_Hallucination_Detection.pptx` (16 slides, script in the speaker notes) and
+the full presenter script `presentation/DA3_Presenter_Script.{md,pdf,docx}` (timing, slide-by-slide words,
+demo clicks, plain-language account of the work, review questions). Rebuild with
+`python presentation/build_deck.py`.
+
 Paper (hard copy): `paper/Learned_Falsehoods_Uncertainty_Paper.pdf` — A4, 6 pages, IEEE two-column.
 Editable source: `paper/Learned_Falsehoods_Uncertainty_Paper.docx`.
 

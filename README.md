@@ -39,6 +39,8 @@ optimize for good-looking numbers.
 >
 > **Demo:** `python scripts/demo_app.py` (live model + recorded answers + findings; `--no-model`
 > runs without a GPU). Walkthrough and likely review questions: [DEMO.md](DEMO.md).
+> **DA3 review deck and script:** `presentation/DA3_Hallucination_Detection.pptx`,
+> `presentation/DA3_Presenter_Script.pdf`.
 
 > ### ⚠️ Correction notice (supersedes parts of this README)
 >

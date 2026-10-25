@@ -129,3 +129,10 @@ python scripts/v3_figures.py && (cd paper && node build_paper.js)
   (no GPU), findings tab. The v1 demo (proxy-label classifier, PASS/WARN/FLAG) is retired. All five
   example questions reproduce their recorded confirm-split answers exactly.
 * `src/token_viz.py`: explicit dark text on the coloured token backgrounds (unreadable in dark mode).
+* Reproducibility re-run from frozen data (2026-10-25/26): `v2_analysis`, `v2_confirm`, `v3_audit`,
+  `v3_constants`, `v3_registry` reproduce their committed outputs byte for byte. `v3_eval` was stopped twice by
+  the system for low memory (≈ 2 GB free on the 15 GB laptop), so `v3_eval`, `v3_extra`, `v3_trivia` were not
+  re-checked.
+* DA3 presentation: `presentation/build_deck.py` builds `DA3_Hallucination_Detection.pptx` (16 slides on the
+  DA1 template, numbers from the analysis JSON, script in speaker notes) and the presenter script HTML; Word
+  exports `DA3_Presenter_Script.{docx,pdf}`.
