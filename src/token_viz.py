@@ -2,10 +2,7 @@
 confident the model was in it, so a reader can see *which* tokens drove a
 low mean/min logprob rather than just the aggregate number.
 
-Used by both the static per-model analysis reports (scripts/experiment_analysis.py)
-and the interactive demo (scripts/demo_app.py) -- one rendering function, two
-call sites, so the demo shows exactly the same visualization logic that was
-used to build the report figures.
+Used by the interactive demo (scripts/demo_app.py).
 """
 import html
 import math

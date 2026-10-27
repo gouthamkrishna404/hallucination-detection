@@ -3,10 +3,8 @@
     qid, question, best_answer, correct_answers (list[str]),
     incorrect_answers (list[str]), category
 
-which src/labeling.py, src/features.py-consuming scripts, and
-src/train_eval.py all depend on -- this is what lets the exact same
-generation/labeling/feature/classifier code run over any dataset in the
-registry (configs/datasets.yaml) unmodified.
+so the same generation, labelling and feature code runs over every dataset in
+configs/datasets.yaml unmodified.
 
 Subsets are selected once (fixed seed, fixed size) and cached to
 data/<dataset_key>/subset_<n>.jsonl so every script and every model run
@@ -16,7 +14,7 @@ import json
 
 import pandas as pd
 
-from ..registry import get_paths, resolve_dataset
+from ..registry import resolve_dataset
 
 
 def _cache_path(dataset_key: str, subset_size: int):

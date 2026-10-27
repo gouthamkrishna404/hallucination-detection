@@ -53,9 +53,9 @@ def paraphrase_rejection():
 
 
 def contamination():
-    d = ROOT / "results/qwen2.5-1.5b-instruct/truthfulqa/features"
-    a = pd.read_csv(d / "single_pass_features.csv").set_index("qid")
-    b = pd.read_csv(d / "single_pass_features_clean.csv").set_index("qid")
+    d = ROOT / "evidence_da1"
+    a = pd.read_csv(d / "qwen_truthfulqa_features_penalised.csv").set_index("qid")
+    b = pd.read_csv(d / "qwen_truthfulqa_features_clean.csv").set_index("qid")
     q = a.index.intersection(b.index)
     shift = (b.loc[q, "mean_logprob"] - a.loc[q, "mean_logprob"]).abs()
     y = a.loc[q, "label"]
@@ -65,7 +65,7 @@ def contamination():
 
 
 def da1():
-    m = json.loads((ROOT / "outputs/metrics/all_metrics.json").read_text())["proposed_all_three"]
+    m = json.loads((ROOT / "evidence_da1/da1_all_metrics.json").read_text())["proposed_all_three"]
     return {"auroc": m["auroc"], "n": m["n"]}
 
 

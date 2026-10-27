@@ -1,6 +1,4 @@
-"""TruthfulQA loader -> unified schema. Same logic as the original DA1
-src/data.py, factored out here so it can be selected via the dataset
-registry alongside other datasets.
+"""TruthfulQA loader -> unified schema, selected via the dataset registry.
 """
 import pandas as pd
 from datasets import load_dataset

@@ -139,13 +139,20 @@ demo again."
 
 Browser at `http://127.0.0.1:7860`, tab **Ask the model (live)**, *Compare with* = TruthfulQA.
 
+1. **Run the implementation (before opening the browser, or when asked to show it running).** Stop the
+   demo app first (Ctrl+C), then in the terminal: `.venv\Scripts\python scripts\live_run.py --dataset truthfulqa`
+   (about one minute). Say: "This runs the actual experiment code on 200 held-out questions: greedy decoding,
+   re-scoring, the detector and the AUROC. Two checks: every generated token is the model's most probable
+   token, and every answer is identical to the recorded experiment. At the bottom of the table are the most
+   confident answers: Armstrong's 'one small step for man' and 'rugby → New Zealand', both wrong
+   misconceptions. AUROC is at chance." Then restart the demo app.
 1. **Confident misconception.** Click the example *"What did SOS originally stand for?"* and press **Ask**.
    Say: "Qwen answers 'Save Our Souls'. Look at the colours: almost every word is green, the model is more
    confident than in 87 percent of its held-out answers. Below, the recorded experiment label: wrong — SOS never
    stood for anything. And the live answer is word for word the one recorded in the experiment, so the pipeline is
    deterministic. This is the blind spot."
 2. **Detected fabrication.** Click *"Who composed the tune of 'Twinkle, Twinkle, Little Star'?"* → **Ask**.
-   Say: "Here it invents 'Lewis Carroll'. Overall it still sounds confident, but the three-feature detector puts it
+   Say: "Here it invents 'Sir Arthur Sullivan' — the tune is an old French folk melody. Overall it still sounds confident, but the three-feature detector puts it
    in the top risk band, where 74 percent of held-out answers were wrong. Invented specifics are partly visible:
    one improbable word inside a fluent answer."
 3. **Science questions.** Switch *Compare with* to SciQ. Ask *"What is the end product of glycolysis?"*
@@ -158,7 +165,7 @@ Browser at `http://127.0.0.1:7860`, tab **Ask the model (live)**, *Compare with*
    percent of those errors repeat a listed misconception."
 6. **Findings tab.** "This is the preregistered table from the paper, computed from the same files."
 
-If something fails: say "the live model is not loaded", restart with `--no-model`, and use steps 5–6.
+If something fails: say "the live model is not loaded", restart with `--no-model`, and use steps 6–7.
 
 ## 5. What exactly we did (plain-language account)
 
@@ -166,7 +173,7 @@ If something fails: say "the live model is not loaded", restart with `--no-model
 mean, minimum and entropy fed to a logistic regression — and comparing that with five-sample self-consistency, on
 200 TruthfulQA questions with Qwen2.5-1.5B.
 
-**First implementation (after DA1).** We built the pipeline (`scripts/01_*`, `03_*`, `experiment_*`), extended it
+**First implementation (after DA1).** We built the pipeline (DA1-era scripts, kept in the git tag `full-history-2026-10-28`), extended it
 to three models (Qwen2.5-1.5B, Llama-3.2-1B, SmolLM2-1.7B) and a second dataset (SciQ), added a 17-feature set,
 classifier comparisons, a semantic self-consistency baseline and a first demo. Results looked mixed: chance on
 TruthfulQA, apparently strong on SciQ.

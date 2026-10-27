@@ -12,15 +12,6 @@ import numpy as np
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
-OUTPUTS_DIR = PROJECT_ROOT / "outputs"
-CACHE_DIR = OUTPUTS_DIR / "cache"
-FEATURES_DIR = OUTPUTS_DIR / "features"
-PREDICTIONS_DIR = OUTPUTS_DIR / "predictions"
-METRICS_DIR = OUTPUTS_DIR / "metrics"
-PLOTS_DIR = OUTPUTS_DIR / "plots"
-
-for d in (DATA_DIR, OUTPUTS_DIR, CACHE_DIR, FEATURES_DIR, PREDICTIONS_DIR, METRICS_DIR, PLOTS_DIR):
-    d.mkdir(parents=True, exist_ok=True)
 
 
 @dataclass(frozen=True)

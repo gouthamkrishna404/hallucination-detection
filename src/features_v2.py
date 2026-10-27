@@ -1,13 +1,12 @@
 """Expanded uncertainty feature set, built on top of the per-token
-logprob/entropy/margin arrays cached by
-scripts/backfill_rich_token_details.py.
+logprob/entropy/margin arrays written by scripts/v2_generate.py.
 
 This is an ADDITIVE investigation, not a replacement: the original
 3-feature detector (mean logprob, min logprob, mean entropy) stays
 exactly as reported in the DA1/matrix results. Every feature here is
 computed from data already available after ONE greedy generation --
 nothing here needs extra LLM calls (multi-call, self-consistency-derived
-features live in src/self_consistency.py / src/semantic_similarity.py and
+features live in scripts/v2_features.py / src/semantic_similarity.py and
 are kept separate on purpose, per the investigation's own requirement to
 distinguish 1-call from N-call signals).
 

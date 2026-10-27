@@ -24,6 +24,54 @@ cd C:\Stuff\Hallucination
   (SmolLM2 in fp32 is tight on 8 GB).
 * If the GPU or the model fails, the app still starts and the *Recorded* and *Findings* tabs work.
 
+## Running the implementation live (about 1 minute)
+
+```bash
+.venv\Scripts\python scripts\live_run.py                       # Qwen, 200 held-out SciQ questions
+.venv\Scripts\python scripts\live_run.py --dataset truthfulqa  # the misconception blind spot
+```
+
+The script prints each pipeline step with the function that does it: load questions → load the model in
+fp32 → raw greedy decoding → teacher-forced re-scoring → D0 → comparison with the recorded experiment →
+AUROC with a 95 % CI. What to point out:
+
+* "generated token == most probable token for 100.0 %": the probabilities are the model's own (the
+  bug found in DA1 broke exactly this).
+* "live answer identical to the recorded experiment for 200/200": the pipeline is deterministic, so
+  the paper's results can be regenerated.
+* SciQ AUROC ≈ 0.65 (weak signal). On TruthfulQA, AUROC ≈ 0.49, and the *most confident* rows at the
+  bottom of the table are wrong misconceptions (Armstrong's "one small step for man", "rugby → New
+  Zealand"): the blind spot, live.
+
+Close the demo app first; running both at once exceeds the 8 GB of GPU memory.
+
+## Live coding in front of the reviewer (about 5 minutes, tested)
+
+Each change is one line, then one command. Undo each change before the next one.
+
+**1. Run the method as it is.**
+`.venv\Scripts\python scripts\live_run.py` → 200/200 answers identical to the recorded run, 100.0 % of
+tokens = argmax, AUROC ≈ 0.650.
+
+**2. Change the detector.** In `scripts/live_run.py`, step 5, replace `-np.mean(r["logprobs"])` with
+`-np.min(r["logprobs"])` (D1, the least confident token instead of the average). Run again → AUROC
+≈ 0.674 [0.60, 0.75]. Say: "The weakest token carries a bit more signal than the average, but the
+intervals overlap; the paper tests this properly on 800 questions." Change it back.
+
+**3. Re-create the DA1 bug.** In `scripts/v2_generate.py`, function `generate`, change
+`repetition_penalty=1.0` to `repetition_penalty=1.1` (what Qwen's default config silently applied in
+DA1). Run `.venv\Scripts\python scripts\live_run.py --n 100` → argmax agreement falls to **90.1 %**,
+and only **29/100** answers match the recorded run. Say: "This is the bug we found in our own DA1 work.
+The penalty changes which words the model picks, so the probabilities we read were no longer the
+model's own. Our pipeline now checks this on every run." Change it back (or `git checkout
+scripts/v2_generate.py`).
+
+**4. Show the blind spot.** `.venv\Scripts\python scripts\live_run.py --dataset truthfulqa` → AUROC ≈ 0.49;
+the most confident answers at the bottom of the table are wrong misconceptions.
+
+**5. Let the reviewer ask a question** in the demo app (`scripts\demo_app.py`; close it before running
+`live_run.py`, both together do not fit in 8 GB).
+
 ## Five-minute walkthrough
 
 1. **The question (30 s).** An LLM's own token probabilities are free with every answer. Can they tell
@@ -34,7 +82,7 @@ cd C:\Stuff\Hallucination
    87 % of its held-out answers. The answer is wrong (SOS stands for nothing; the recorded judge label
    appears below). This is the main finding: errors that repeat a popular misconception look like knowledge.
 3. **Live, a fabrication — "Who composed the tune of 'Twinkle, Twinkle, Little Star'?"**
-   Qwen invents "Lewis Carroll". Overall confidence is high, but the 3-feature detector (D2) puts it in
+   Qwen invents "Sir Arthur Sullivan" (the tune is a French folk melody). Overall confidence is high, but the 3-feature detector (D2) puts it in
    the top risk band, where 74 % of held-out answers were wrong. Fabricated specifics *are* partly
    detectable.
 4. **Live, SciQ — "What is the end product of glycolysis?"** (correct, low risk) and
@@ -59,6 +107,7 @@ reproduces the recorded answer word for word, which shows the pipeline is determ
 | Preregistered evaluation (H1–H5, Holm) | `scripts/v2_confirm.py` | `analysis_v2/confirm.json` |
 | Audit: controls, P(True), NLI semantic entropy, independent judge, TriviaQA, 3B model | `scripts/v3_*.py` | `analysis_v3/` |
 | Paper (all numbers read from the JSON files) | `paper/build_paper.js` | `paper/*.docx`, `*.pdf` |
+| Live run of the whole method | `scripts/live_run.py` | printed |
 | Demo | `scripts/demo_app.py`, `src/token_viz.py` | — |
 
 ## Questions a reviewer is likely to ask

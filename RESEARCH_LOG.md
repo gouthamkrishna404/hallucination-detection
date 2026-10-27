@@ -136,3 +136,19 @@ python scripts/v3_figures.py && (cd paper && node build_paper.js)
 * DA3 presentation: `presentation/build_deck.py` builds `DA3_Hallucination_Detection.pptx` (16 slides on the
   DA1 template, numbers from the analysis JSON, script in speaker notes) and the presenter script HTML; Word
   exports `DA3_Presenter_Script.{docx,pdf}`.
+
+## 2026-10-28 — public repository cleanup and live run
+
+* Tagged the previous state as `full-history-2026-10-28`, then removed the DA1/v1 material the final
+  work replaced from the tree: 37 scripts (`01_*`–`03_*`, `experiment_*` and helpers), `results/`,
+  `comparison/`, `outputs/`, `paper/archive_v2/`, the v1 paper figures and six unused `src/` modules.
+  Nothing was lost: it is all in the tag and in git history.
+* The three DA1 files the audit cites (penalised and clean Qwen features, DA1 metrics) moved to
+  `evidence_da1/`; `scripts/v3_constants.py` reads them there and reproduces `analysis_v3/constants.json`
+  byte for byte. `src/config.py` and `src/registry.py` no longer create the old output folders on import.
+* Added `scripts/live_run.py`: the whole method on 200 held-out questions in about a minute, using the
+  experiment's own functions. Checked: Qwen SciQ 200/200 answers identical to the recorded run, 100 %
+  argmax agreement, AUROC 0.650; TruthfulQA 200/200 identical, AUROC 0.487 [0.41, 0.57].
+* README rewritten as a short overview of the final project; RESULTS.md Part B (v1) removed.
+* Demo example fix: Qwen answers the Twinkle Twinkle question with "Sir Arthur Sullivan" (checked twice);
+  the script said "Lewis Carroll". Corrected in DEMO.md and the presenter script.

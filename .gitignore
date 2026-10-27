@@ -2,7 +2,6 @@
 .claude/
 __pycache__/
 *.pyc
-outputs/cache/
 .cache/
 *.egg-info/
 gradio_cached_examples/
