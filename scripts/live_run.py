@@ -20,11 +20,13 @@ Usage:
 """
 import argparse
 import json
+import os
 import sys
 import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+os.environ.setdefault("HF_HUB_OFFLINE", "1")  # models are cached; never wait on the network during a demo
 
 import numpy as np
 import pandas as pd

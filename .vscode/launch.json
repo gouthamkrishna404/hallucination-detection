@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "1. Live run: SciQ (200 questions, ~1 min)", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/scripts/live_run.py", "args": [],
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal", "env": { "HF_HUB_OFFLINE": "1" } },
+    { "name": "2. Live run: TruthfulQA (blind spot)", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/scripts/live_run.py", "args": ["--dataset", "truthfulqa"],
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal", "env": { "HF_HUB_OFFLINE": "1" } },
+    { "name": "3. Live run: 100 questions (after a code edit)", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/scripts/live_run.py", "args": ["--n", "100"],
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal", "env": { "HF_HUB_OFFLINE": "1" } },
+    { "name": "4. Demo app (live model)", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/scripts/demo_app.py", "args": [],
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal", "env": { "HF_HUB_OFFLINE": "1" } },
+    { "name": "5. Demo app (no GPU fallback)", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/scripts/demo_app.py", "args": ["--no-model"],
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal", "env": { "HF_HUB_OFFLINE": "1" } }
+  ]
+}
