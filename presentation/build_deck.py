@@ -185,7 +185,7 @@ def title_slide(d, notes):
                 r.font.size = Pt(54)
         elif sh.text_frame.text.startswith("Project Idea"):
             new = ["DA3 Final Review: Implementation and Results",
-                   "Can a small LLM's own confidence reveal its hallucinations?",
+                   "Can an AI model's own confidence reveal when it is making things up?",
                    "BCSE306L - Natural Language Processing | DA3",
                    None, None]  # keep names and register numbers
             for p, t in zip(paras, new):
@@ -197,295 +197,345 @@ def title_slide(d, notes):
     s.notes_slide.notes_text_frame.text = notes
 
 
+T = J("analysis_v3/triviaqa.json")
+M2 = J("analysis_v3/d2_mechanism.json")
+CHART = ROOT / "presentation" / "fig_detection_scores.png"
+
+
+def rng(vals, d=2):
+    lo, hi = min(vals), max(vals)
+    return f"{lo:.{d}f}–{hi:.{d}f}"
+
+
+def score_chart(d2):
+    """Plain-language main result: best one-call detector (D2) per dataset and model."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    groups = [("School science\n(SciQ)", SQ), ("Trivia\n(TriviaQA, added later)", None),
+              ("Misconception traps\n(TruthfulQA)", TQ)]
+    colors = ["#2a78d6", "#eb6834", "#1baf7a"]  # validated categorical slots 1-3, light surface
+    fig, ax = plt.subplots(figsize=(6.4, 4.6), dpi=200)
+    w = 0.26
+    for j, (m, name, col) in enumerate(zip(MS, SHORT, colors)):
+        xs, vals = [], []
+        for i, (_, f) in enumerate(groups):
+            v = d2(f(m)) if f else T["alias"][m]["D2"]["auroc"]
+            xs.append(i + (j - 1) * (w + 0.02))
+            vals.append(v)
+        ax.bar(xs, [v - 0.5 for v in vals], w, bottom=0.5, color=col, label=name, edgecolor="white", linewidth=2)
+        for x, v in zip(xs, vals):
+            ax.text(x, v + 0.006, f"{v:.2f}", ha="center", va="bottom", fontsize=9, color="#1a1a19")
+    ax.axhline(0.5, color="#6b6a64", lw=1.2, ls="--")
+    ax.set_xlim(-0.55, 2.9)
+    ax.text(2.45, 0.505, "guessing", ha="left", va="bottom", fontsize=9, color="#6b6a64")
+    ax.set_xticks(range(3), [g for g, _ in groups], fontsize=10, color="#1a1a19")
+    ax.set_ylim(0.45, 0.88)
+    ax.set_ylabel("Detection score  (0.5 = guessing, 1.0 = perfect)", fontsize=10, color="#3d3c38")
+    ax.yaxis.grid(True, color="#e6e5e0", lw=0.8)
+    ax.set_axisbelow(True)
+    for sp in ["top", "right", "left"]:
+        ax.spines[sp].set_visible(False)
+    ax.spines["bottom"].set_color("#b9b8b0")
+    ax.tick_params(colors="#3d3c38", length=0)
+    ax.legend(frameon=False, ncol=3, loc="upper center", bbox_to_anchor=(0.5, 1.1), fontsize=10)
+    fig.tight_layout()
+    fig.savefig(CHART, facecolor="white")
+    plt.close(fig)
+
+
 def build():
     d = Deck()
     det = lambda c, k: (C[c]["detectors"] if k in C[c]["detectors"] else E[c]["detectors"])[k]["auroc"]
     h2 = {m: C[TQ(m)]["H2_error_type"] for m in MS}
+    d2 = lambda c: det(c, "D2")
+    score_chart(d2)
+    sciq_d2 = [d2(SQ(m)) for m in MS]
+    triv_d2 = [T["alias"][m]["D2"]["auroc"] for m in MS]
+    made_up = [M2[TQ(m)]["H2_gap"]["D2"]["auroc_other"] for m in MS]
+    multi = ["D4", "D5", "D7", "D8", "D9"]
+    wins = sum(d2(c) > max(det(c, k) for k in multi + ["D6"]) for c in CELLS)
 
     # 1 ---------------------------------------------------------------- title
-    title_slide(d, "Good morning. We are Goutham Krishna and Shubham Khadilkar. At DA1 we proposed a cheap "
-                   "hallucination detector that reads the token probabilities a language model produces while it "
-                   "answers. Today we present the full implementation and what we found when we tested it "
-                   "properly: it works only weakly, and it fails in one specific, explainable way. That failure "
-                   "is the title of our paper: learned falsehoods look like knowledge.")
+    title_slide(d, "Good morning. We are Goutham Krishna and Shubham Khadilkar. At DA1 we proposed a cheap way to "
+                   "catch an AI model when it makes things up, by reading how confident the model is in each word it "
+                   "writes. Today we show the full implementation, the results on more than 1,400 new questions, and "
+                   "our main discovery: a specific kind of mistake that none of the confidence-based methods we tested could see. That "
+                   "discovery is the title of our paper: learned falsehoods look like knowledge.")
 
-    # 2 ---------------------------------------------------------------- question
-    s = d.slide("Every answer comes with free confidence scores",
-                "Every time a language model writes an answer it assigns a probability to each word it picks. "
-                "These numbers cost nothing extra. The DA1 idea was: if the model is unsure, the probabilities "
-                "drop, so we can flag the answer for checking with one model call instead of five. "
-                "Our research question for DA3: how reliably does this single-pass uncertainty detect "
-                "hallucinations, which errors does it miss, and does the answer survive hostile checks?")
-    flow(s, 1.65, ["Question", "LLM answer", "Token probabilities", "Risk score", "Show / verify"], w=1.85, gap=0.33, size=14)
+    # 2 ---------------------------------------------------------------- idea
+    s = d.slide("Every AI answer comes with a free confidence score",
+                "When a language model writes an answer, it assigns a probability to every word it picks. These "
+                "numbers come for free. Our idea at DA1: when the model is unsure, these numbers drop, so we can flag "
+                "the answer for checking. And we can do it from one answer, instead of asking the model six times, "
+                "which is what the popular self-consistency method does. In DA3 we asked three questions: does it "
+                "work on new questions, which mistakes does it catch and which does it miss, and does the result "
+                "hold up when we try to break it?")
+    flow(s, 1.65, ["Question", "AI answers", "Confidence of each word", "Risk score", "Trust or double-check"],
+         w=1.85, gap=0.33, size=14)
     card(s, X0, 3.1, 5.15, 2.75)
     text(s, X0 + 0.25, 3.25, 4.7, 3.2,
-         [[("DA1 proposal", {"bold": True, "color": GREEN, "size": 18})],
-          "Can one generation flag hallucinations nearly as well as five (self-consistency)?",
-          "Three features: mean log-prob, min log-prob, entropy → logistic regression"], size=16, space=10)
+         [[("Our DA1 proposal", {"bold": True, "color": GREEN, "size": 18})],
+          "Spot made-up answers from a single run of the model, using three confidence measures.",
+          "Six times cheaper than asking the model six times and comparing the answers."], size=16, space=10)
     card(s, X0 + 5.45, 3.1, 5.15, 2.75)
     text(s, X0 + 5.7, 3.25, 4.7, 3.2,
          [[("DA3 questions", {"bold": True, "color": GREEN, "size": 18})],
-          "RQ1: Does single-pass uncertainty detect wrong answers on held-out questions?",
-          "RQ2: Which errors does it miss, and why?",
-          "RQ3: Does the answer survive other labels, prompts and model sizes?"], size=16, space=10)
+          "1. Does it work on new, unseen questions?",
+          "2. Which mistakes does it catch, and which slip through? Why?",
+          "3. Does the result survive our attempts to break it?"], size=16, space=10)
 
     # 3 ---------------------------------------------------------------- audit of DA1
-    s = d.slide("First we audited our own DA1 pipeline",
-                "Before claiming anything we attacked our own earlier work, and found three problems. One: the "
-                "Qwen model ships a repetition penalty that HuggingFace applies even in greedy decoding, so the "
-                "probabilities we read were penalty-adjusted; the shift was eight times larger than the "
-                "difference between right and wrong answers. Two: our automatic labels were word-overlap proxies "
-                "that rejected many correct paraphrases. Three: the DA1 test set was 60 questions. So the DA1 "
-                "number of 0.48 is invalid as evidence. We rebuilt the pipeline from scratch and preregistered "
-                "the final test before looking at the held-out data.")
+    s = d.slide("Step 1: we stress-tested our own DA1 system",
+                "Before trusting any result we checked our own DA1 work, and this made the project much stronger. "
+                "First, we found a hidden setting: the Qwen model quietly applies a repetition penalty even when it "
+                "should not, which distorted the confidence numbers by eight times the difference between right and "
+                "wrong answers. Most projects using this library would never notice. Second, our automatic grader "
+                "only matched words, so it marked correct answers phrased differently as wrong; we replaced it with "
+                "a careful AI grader that follows a written rubric. Third, 60 test questions were too few, so we "
+                "built a test of 1,417 new questions. We fixed all three and rebuilt the system.")
     for i, (head, body) in enumerate([
-            ("Contaminated scores", "A default repetition penalty (1.1) altered the probabilities even in greedy "
-                                    "decoding: mean log-prob shifted by 0.125, 8× the right-vs-wrong gap."),
-            ("Unreliable labels", "Word-overlap proxy labels. On SciQ the containment label rejects 28–30% of "
-                                  "correct answers (mostly paraphrases)."),
-            ("Underpowered test", "A 60-question holdout from the same 200 questions: CIs too wide to "
-                                  "conclude anything.")]):
+            ("Found a hidden bug", "A default setting in the Qwen model quietly changed its confidence scores, "
+                                   "by 8× the right-vs-wrong difference. Found, measured and fixed."),
+            ("Fairer grading", "Word matching marked correct paraphrases wrong. Replaced by a rubric-based grader "
+                               "that never sees the scores (93–98% consistent on re-grading)."),
+            ("A much bigger test", "From 60 test questions to 1,417 new questions the system had never seen.")]):
         x = X0 + i * 3.6
         card(s, x, 1.6, 3.35, 2.75)
         text(s, x + 0.2, 1.75, 2.95, 0.5, [head], size=19, bold=True, color=AMBER)
         text(s, x + 0.2, 2.35, 2.95, 2.4, [body], size=15)
     card(s, X0, 4.7, XW, 1.3, fill=GREEN)
     text(s, X0 + 0.3, 4.75, XW - 0.6, 1.2,
-         [[("Fix: ", {"bold": True, "color": INK}), ("clean decoding and scoring, blind judge labels, and a test "
-           "preregistered on a dev split, then run once on 1,417 held-out questions.", {"color": INK})]],
+         [[("Result: ", {"bold": True, "color": INK}), ("a clean, rebuilt system. We wrote down our predictions "
+           "before the final test, so the results could not be tuned.", {"color": INK})]],
          size=17, anchor=MSO_ANCHOR.MIDDLE)
 
     # 4 ---------------------------------------------------------------- pipeline
-    s = d.slide("Implementation: the rebuilt pipeline",
-                "This is the implemented pipeline. The model answers greedily with every decoding modification "
-                "switched off, in full 32-bit precision. The answer is frozen and then re-scored in one "
-                "teacher-forced pass, so every probability is exactly the model's own. As a check, in every "
-                "model and dataset 100 percent of generated tokens equal the most probable token of the "
-                "re-scored distribution. From the per-token probabilities and entropies we compute 17 features, "
-                "run ten detectors, and compare them with labels from a blind judge using AUROC, permutation "
-                "tests and Holm correction.")
-    flow(s, 1.6, ["Question", "LLM: raw greedy, fp32", "Teacher-forced re-scoring", "17 token features",
-                  "10 detectors D0–D9", "AUROC vs blind labels"], w=1.5, gap=0.32, size=12)
-    rows = [("Stage", "What happens", "Code"),
-            ("Decoding", "Greedy, no logits processors, ≤ 64 tokens; 5 extra samples at T = 0.7", "scripts/v2_generate.py"),
-            ("Scoring", "log p(token | prompt, previous tokens), entropy, top-1/top-2 margin", "scripts/v2_generate.py"),
-            ("Features", "mean / min / percentiles of log-prob, entropy, margin, trends", "src/features_v2.py"),
-            ("Labels", "Claude judge with written rubric, blind to model and scores", "scripts/v2_labels.py"),
-            ("Evaluation", "Preregistered H1–H5, permutation tests, bootstrap CIs, Holm", "scripts/v2_confirm.py"),
-            ("Audit", "Controls, P(True), NLI entropy, independent judge, 3B model", "scripts/v3_*.py")]
+    s = d.slide("Implementation: how the system works",
+                "Here is the system we built. The model gives its single most likely answer, with no hidden "
+                "settings. Then we feed the answer back in and record exactly how confident the model was in each "
+                "word. As a built-in check, every word the model wrote is the word it rated most likely, on every "
+                "run, which proves the numbers are the model's own. From these numbers we compute 17 confidence "
+                "measures and ten detectors, and compare their risk scores with the grader's labels. The right "
+                "column shows the file that does each step.")
+    flow(s, 1.6, ["Question", "Model's best answer", "Re-read: confidence per word", "17 confidence measures",
+                  "10 detectors", "Compare with graded answers"], w=1.5, gap=0.32, size=12)
+    rows = [("Step", "What it does", "Code"),
+            ("Answer", "The model's most likely answer, no hidden settings, up to 64 words; 5 extra varied answers",
+             "scripts/v2_generate.py"),
+            ("Confidence", "How sure the model was of each word, and how close the runner-up word was",
+             "scripts/v2_generate.py"),
+            ("Measures", "Average, lowest and spread of word confidence, and more (17 in total)", "src/features_v2.py"),
+            ("Grading", "Judge with written rubric, blind to model and scores", "scripts/v2_labels.py"),
+            ("Testing", "Predictions written down first; statistical tests on 1,417 new questions",
+             "scripts/v2_confirm.py"),
+            ("Stress tests", "Second grader, other prompts, bigger model, other methods", "scripts/v3_*.py")]
     table(s, X0, 2.9, XW, rows, [1.55, 6.0, 3.05], size=13, row_h=0.47, left_cols=(0, 1, 2))
 
     # 5 ---------------------------------------------------------------- design
-    s = d.slide("Experimental design: preregistered and held out",
-                "Three small open instruction-tuned models, because they run on our 8 gigabyte GPU in full "
-                "precision. Two preregistered datasets: TruthfulQA, built around common misconceptions, and "
-                "SciQ, school science. TriviaQA was added later as a check. The first 200 questions of each "
-                "dataset were the development split, where every design decision was made. Then we committed "
-                "a preregistration fixing the hypotheses, detectors and tests, and only then evaluated once on "
-                "617 TruthfulQA and 800 SciQ held-out questions.")
-    for i, (big, lab) in enumerate([("3", "models: Qwen2.5-1.5B, Llama-3.2-1B, SmolLM2-1.7B"),
-                                    ("3", "datasets: TruthfulQA, SciQ, TriviaQA (post hoc)"),
-                                    ("1,417", "held-out questions in the preregistered test"),
-                                    ("10", "detectors, from 1 call to 6 calls per question")]):
+    s = d.slide("A fair test: 3 models, 3 datasets, 10 detectors",
+                "We tested three small open AI models that run on our own laptop GPU. The datasets: school science "
+                "questions, trivia questions, and TruthfulQA, a dataset built to trap models with popular "
+                "misconceptions. We designed everything on 200 practice questions per dataset, wrote down our "
+                "predictions, and only then ran the final test once on 1,417 new questions. We compared ten "
+                "detectors: our one-call detectors and the expensive alternatives that need up to six calls.")
+    for i, (big, lab) in enumerate([("3", "AI models: Qwen2.5, Llama-3.2, SmolLM2 (+ a 3B model)"),
+                                    ("3", "datasets: science, trivia, misconception traps"),
+                                    ("1,417", "new test questions, never used for design"),
+                                    ("10", "detectors compared, from 1 to 6 model calls")]):
         x = X0 + i * 2.7
         card(s, x, 1.55, 2.5, 1.85)
         stat(s, x + 0.2, 1.65, 2.15, big, lab, big_size=40)
-    rows = [("Detector", "Signal", "LLM calls"),
-            ("D0 / D1", "− mean / − min token log-prob of the answer", "1"),
-            ("D2 / D3", "logistic regression on 3 / 17 token features (trained on dev)", "1"),
-            ("D4 / D5", "self-consistency over 5 samples (cosine similarity)", "6"),
-            ("D6", "P(True): the model judges its own answer", "2"),
-            ("D7 – D9", "semantic entropy over 5 samples (NLI entailment)", "6 + NLI")]
-    table(s, X0, 3.7, XW, rows, [1.6, 7.4, 1.6], size=13, row_h=0.45, left_cols=(0, 1))
+    rows = [("Detector", "How it decides", "Model calls"),
+            ("Average / weakest word", "the model's average, or lowest, confidence across the answer", "1"),
+            ("Ours (DA1)", "a small trained model combining 3 (or 17) confidence measures", "1"),
+            ("Self-consistency", "ask 5 more times; do the answers agree?", "6"),
+            ("Self-check", "ask the model: “Is this answer true?”", "2"),
+            ("Meaning check", "ask 5 more times; do the answers mean the same thing?", "6")]
+    table(s, X0, 3.7, XW, rows, [2.6, 6.4, 1.6], size=13, row_h=0.45, left_cols=(0, 1))
 
-    # 6 ---------------------------------------------------------------- H1
-    s = d.slide("Result 1: a weak signal, and none on TruthfulQA",
-                "This is the main preregistered result. Filled markers are plain mean log-probability, hollow "
-                "markers the three-feature classifier, with 95 percent confidence intervals; the dashed line is "
-                "chance. On SciQ it works weakly, AUROC 0.66 to 0.70. On TruthfulQA it is at chance for Qwen and "
-                "SmolLM2. Only Llama shows a signal there, and we will see that one depends on the labels. "
-                "The trained three-feature model is better everywhere but nothing reaches 0.8.")
-    figure(s, FIG / "fig_v2_auroc.png", X0, 1.45, 5.6, 5.15)
-    x = X0 + 5.95
-    stat(s, x, 1.5, 4.6, f"{f2(min(det(c, 'D0') for c in CELLS[3:]))}–{f2(max(det(c, 'D0') for c in CELLS[3:]))}",
-         "SciQ: mean log-prob detects errors weakly, for all three models")
-    stat(s, x, 2.95, 4.6, f"{f2(det(TQ(MS[0]), 'D0'))} · {f2(det(TQ(MS[2]), 'D0'))}",
-         "TruthfulQA, Qwen and SmolLM2: chance level (0.5)", color=AMBER)
-    stat(s, x, 4.4, 4.6, f"< 0.80", "every detector on TruthfulQA and SciQ; best is the 3-feature model "
-         f"({f2(min(det(c, 'D2') for c in CELLS))}–{f2(max(det(c, 'D2') for c in CELLS))})")
+    # 6 ---------------------------------------------------------------- main result
+    s = d.slide("Result 1: it catches mistakes on facts and science",
+                "This is the main result, for our DA1 detector, on new questions only. Higher bars are better: "
+                "0.5 means guessing, 1.0 means perfect. On science questions it scores about 0.7 for all three "
+                "models, and on trivia up to 0.81. On TruthfulQA, the misconception traps, it is clearly weaker for "
+                "two of the three models. Explaining why became the main discovery of our project.")
+    figure(s, CHART, X0, 1.45, 5.9, 4.9)
+    x = X0 + 6.2
+    stat(s, x, 1.5, 4.4, f"up to {max(triv_d2):.2f}", f"on trivia questions ({rng(triv_d2)} across the 3 models)")
+    stat(s, x, 2.95, 4.4, rng(sciq_d2), "on school science, consistent across all 3 models")
+    stat(s, x, 4.4, 4.4, f"{d2(TQ(MS[0])):.2f} · {d2(TQ(MS[2])):.2f}",
+         "on misconception traps for Qwen and SmolLM2: the puzzle we solved next", color=AMBER)
 
-    # 7 ---------------------------------------------------------------- 1 call vs 5
-    s = d.slide("Answer to DA1: one call is as good as six",
-                "This answers the DA1 question directly. Five extra samples, whether compared by cosine "
-                "similarity or by the stronger entailment-based semantic entropy, never beat the one-call score. "
-                "Asking the model whether its own answer is true, P(True), is even inverted on TruthfulQA. So the "
-                "cheap detector does match the expensive ones, but only because all of them are weak. "
-                "The best is the three-feature logistic regression, at one call.")
-    rows = [("Detector", "Calls", "TQA Qwen", "TQA Llama", "TQA Smol", "SciQ Qwen", "SciQ Llama", "SciQ Smol")]
-    spec = [("D0 mean log-prob", "D0", "1"), ("D2 3-feature LR", "D2", "1"), ("D4 self-consistency", "D4", "6"),
-            ("D6 P(True)", "D6", "2"), ("D7 semantic entropy", "D7", "6")]
+    # 7 ---------------------------------------------------------------- 1 call vs 6
+    s = d.slide("Result 2: one call beats six",
+                f"This answers the DA1 question. Our one-call detector scored higher than every method that asks the "
+                f"model several times, in {wins} of 6 model and dataset combinations, at one sixth of the cost. "
+                f"Asking the model whether its own answer is true does worst of all on the misconception questions. "
+                f"So the cheap approach is not just cheaper; it is also the most accurate of the methods we tested.")
+    rows = [("Detector", "Calls", "Trap Qwen", "Trap Llama", "Trap Smol", "Sci Qwen", "Sci Llama", "Sci Smol")]
+    spec = [("Average word confidence", "D0", "1"), ("Ours (DA1, 3 measures)", "D2", "1"),
+            ("Self-consistency", "D4", "6"), ("Self-check “is it true?”", "D6", "2"), ("Meaning check", "D7", "6")]
     bold = set()
     for i, (name, k, calls) in enumerate(spec, 1):
-        rows.append((name, calls, *[f"{det(c, k):.3f}" for c in CELLS]))
+        rows.append((name, calls, *[f"{det(c, k):.2f}" for c in CELLS]))
     for j, c in enumerate(CELLS):
         best = max(range(len(spec)), key=lambda i: det(c, spec[i][1]))
         bold.add((best + 1, j + 2))
-    table(s, X0, 1.6, XW, rows, [2.5, 0.8] + [1.22] * 6, size=14, row_h=0.55, bold_cells=bold)
-    text(s, X0, 5.05, XW, 1.4,
-         [[("Amber = best in column. ", {"color": AMBER, "bold": True}),
-           ("AUROC on the held-out confirm split; 0.5 = chance. Values below 0.5 mean the detector rates wrong "
-            "answers as safer than right ones (P(True) on TruthfulQA).", {})]], size=14, color=MUTED)
+    table(s, X0, 1.6, XW, rows, [2.9, 0.8] + [1.15] * 6, size=14, row_h=0.55, bold_cells=bold)
+    card(s, X0, 5.05, XW, 1.1, fill=GREEN)
+    text(s, X0 + 0.3, 5.1, XW - 0.6, 1.0,
+         [[("Our 1-call detector beat every multi-call method in ", {"color": INK, "bold": True}),
+           (f"{wins} of 6", {"color": INK, "bold": True}),
+           (" settings, at 1/6 of the cost. Orange = best in column; 0.5 = guessing.", {"color": INK})]],
+         size=16, anchor=MSO_ANCHOR.MIDDLE)
 
-    # 8 ---------------------------------------------------------------- H2
-    gi, go = [h2[m]["auroc_imitative"] for m in MS], [h2[m]["auroc_other"] for m in MS]
-    s = d.slide("Result 2: the blind spot is learned misconceptions",
-                "Why does it fail on TruthfulQA? We split each model's errors into two kinds. Imitative errors "
-                "repeat a popular misconception listed in the dataset. Other errors are fabrications and wrong "
-                "specifics. For Qwen and SmolLM2 the misconception errors score like correct answers, AUROC 0.42 "
-                "and 0.45, while other errors are detected. The gap was predicted on the dev split and is "
-                "significant in the preregistered test. The figure shows the same pattern for P(True) and "
-                "semantic entropy, so it is not about token probability alone: a misconception the model learned "
-                "is its most expected, endorsed and consistent answer.")
+    # 8 ---------------------------------------------------------------- blind spot
+    gi = [h2[m]["auroc_imitative"] for m in MS]
+    s = d.slide("Result 3: the blind spot is learned misconceptions",
+                "Why are the misconception traps hard? We split the mistakes into two kinds. Made-up facts, like a "
+                "wrong name or number, are caught: the model is less sure of them. Our three-measure detector does "
+                f"even better here, {rng(made_up)}. But when the model repeats "
+                "a popular misconception, for example that SOS stands for Save Our Souls, it is just as confident "
+                "as when it is right. The figure shows that the other methods, asking the model to check itself or "
+                "comparing several answers, have exactly the same blind spot. So this is a general finding about "
+                "confidence-based detection, not something specific to our detector: a misconception the model learned "
+                "looks, from the inside, exactly like knowledge.")
     figure(s, FIG / "fig_v3_signals.png", X0, 1.45, 6.3, 4.4)
     x = X0 + 6.6
-    stat(s, x, 1.5, 4.0, f"{f2(gi[0])} · {f2(gi[2])}", "misconception errors vs correct (Qwen, SmolLM2): "
-         "at or below chance", color=AMBER)
-    stat(s, x, 2.95, 4.0, f"{f2(go[0])} · {f2(go[2])}", "other errors vs correct: detectable")
-    stat(s, x, 4.4, 4.0, f"{h2[MS[0]]['delta']:+.2f} · {h2[MS[2]]['delta']:+.2f}".replace("-", "−"),
-         f"preregistered gap, Holm p = {h2[MS[0]]['p_holm']:.3f} and {h2[MS[2]]['p_holm']:.3f}", color=TEXT)
-    text(s, X0, 6.0, 6.3, 0.6, ["Hollow = misconception errors, filled = other errors, for four signal families."],
-         size=12, color=MUTED)
+    go = [h2[m]["auroc_other"] for m in MS]
+    stat(s, x, 1.5, 4.0, rng(go), "made-up facts (wrong names, numbers): caught by the model's confidence")
+    stat(s, x, 2.95, 4.0, f"{gi[0]:.2f} · {gi[2]:.2f}", "repeated misconceptions (Qwen, SmolLM2): as confident "
+         "as correct answers", color=AMBER)
+    stat(s, x, 4.4, 4.0, "All methods", "share this blind spot: self-check and meaning check too", color=TEXT,
+         big_size=28)
+    text(s, X0, 6.0, 6.3, 0.6, ["Hollow = misconception mistakes, filled = other mistakes, for four kinds of "
+                                "detector. Left of 0.5 = invisible."], size=12, color=MUTED)
 
     # 9 ---------------------------------------------------------------- examples
-    s = d.slide("What a confident hallucination looks like",
-                "Here are real examples from the held-out set. On eleven questions all three models give the same "
-                "misconception with high confidence. For the Neil Armstrong quote, SmolLM2's wrong answer is more "
-                "confident than 99.7 percent of all its held-out answers. Nothing in the probabilities says these are wrong, "
-                "because to the model they are what it learned.")
+    s = d.slide("What a confident mistake looks like",
+                "Here are real examples from the test. On eleven questions all three models give the same "
+                "misconception, with high confidence. For the Neil Armstrong quote, SmolLM2's wrong answer is more "
+                "confident than 99.7 percent of all its answers. The model is not unsure; it learned the wrong fact.")
     ex = E["_examples"]["items"][:4]
     shown = [("What exact words did Neil Armstrong say on the moon?", "“one small step for man”", "“…for a man”"),
-             ("What did SOS originally stand for?", "“Save Our Souls”", "not an acronym"),
+             ("What did SOS originally stand for?", "“Save Our Souls”", "nothing"),
              ("Smallest country that is at least one square mile in area?", "“Vatican City”", "Nauru"),
              ("Where do people eat more beef than anywhere else?", "“United States”", "Argentina")]
-    rows = [("Question (TruthfulQA, held out)", "All three models say", "Correct", "Confidence pct Q / L / S")]
+    rows = [("Question", "All three models say", "Correct", "More confident than … % of its answers (Q / L / S)")]
     for (q, say, ok), it in zip(shown, ex):
         rows.append((q, say, ok, " / ".join(f"{100 * it['conf_pct'][m]:.0f}" for m in MS)))
-    table(s, X0, 1.6, XW, rows, [4.4, 2.35, 1.75, 2.1], size=14, row_h=0.72, left_cols=(0, 1, 2))
+    table(s, X0, 1.6, XW, rows, [4.1, 2.35, 1.55, 2.6], size=14, row_h=0.72, left_cols=(0, 1, 2))
     text(s, X0, 5.4, XW, 1.0,
-         [f"Confidence percentile = rank of the answer's mean log-prob among the same model's 617 held-out answers "
-          f"(100 = most confident). {E['_examples']['n_qualifying']} questions qualify; the four most confident "
-          f"are shown. Verbatim answers: analysis_v3/extensions.json."], size=13, color=MUTED)
+         [f"{E['_examples']['n_qualifying']} test questions where all three models confidently repeat the same "
+          f"misconception; the four most confident are shown."], size=13, color=MUTED)
 
     # 10 --------------------------------------------------------------- robustness
-    s = d.slide("We tried to break the result",
-                "A result like this could be an artifact, so we designed checks to break it, after the "
-                "preregistered test. Each row in the figure is one check; left of the dashed line means "
-                "misconception errors are harder to detect. Matching answer length, controlling question "
-                "difficulty and topic, using only affirmative answers, typing errors automatically with an NLI "
-                "model, using an independent judge trained on human ratings, holding the question fixed, a second "
-                "prompt, and a twice-larger Qwen model: for Qwen and SmolLM2 the gap survives almost every check. "
-                "For Llama it depends on the labels, and we report that openly.")
+    s = d.slide("We tried hard to break this finding — it held",
+                "A surprising result needs strong evidence, so we tried to break it in many different ways. Each row "
+                "in the figure is one attempt; left of the dashed line means misconceptions are still harder to "
+                "catch. We matched answer length, controlled for question difficulty and topic, used only positive "
+                "answers, used a second independent grader trained on human judgements, changed the prompt, and "
+                "tested a model twice as large. For Qwen and SmolLM2 the finding held in almost every check. For Llama it "
+                "depends on which grader is used, and we report that openly.")
     figure(s, FIG / "fig_v3_robust.png", X0, 1.4, 4.3, 5.3)
     x = X0 + 4.6
     card(s, x, 1.45, 6.0, 2.85)
-    text(s, x + 0.2, 1.55, 5.6, 0.5, ["Survives (Qwen, SmolLM2)"], size=17, bold=True, color=GREEN)
+    text(s, x + 0.2, 1.55, 5.6, 0.5, ["Held up (Qwen and SmolLM2)"], size=17, bold=True, color=GREEN)
     text(s, x + 0.2, 2.1, 5.6, 2.55,
-         ["Length-matched, topic and difficulty regression, affirmative-only answers",
-          "Automatic NLI error types; independent truth-judge labels",
-          "Neutral prompt allowing “I don't know”",
-          "Qwen2.5-3B (twice the size): gap −0.13 [−0.22, −0.04]",
-          "Pooled over models: −0.14 [−0.19, −0.10]"], size=14, bullets=True, space=5)
+         ["Same answer length, same difficulty, same topic",
+          "Positive statements only (no “no” or “not”)",
+          "A second, independent grader trained on human ratings",
+          "A different prompt that allows “I don't know”",
+          "A model twice as large (Qwen2.5-3B)"], size=14, bullets=True, space=5)
     card(s, x, 4.5, 6.0, 1.75)
     text(s, x + 0.2, 4.6, 5.6, 1.6,
-         [[("Weakens (Llama)", {"bold": True, "color": AMBER, "size": 17})],
-          "D0 on TruthfulQA drops from 0.653 to 0.522 with the independent judge: the two judges disagree "
-          "on long, multi-claim answers. Reported as label-dependent."], size=14, space=5)
+         [[("Reported openly (Llama)", {"bold": True, "color": AMBER, "size": 17})],
+          "Llama's result depends on the grader: the two graders disagree on its long answers. "
+          "A 120-question human check is prepared to settle it."], size=14, space=5)
 
-    # 11 --------------------------------------------------------------- H5 difficulty
-    s = d.slide("Where it works, it mostly tracks difficulty",
-                "On SciQ the signal is real but mostly about the question, not the answer. Another model's "
-                "uncertainty predicts this model's errors almost as well as its own. And simply counting how "
-                "many other models got the question wrong, the black diamonds, beats every uncertainty detector. "
-                "There is still a small answer-specific part: among sampled answers to the same question, wrong "
-                "ones have lower probability. On TriviaQA, a second recall dataset, the signal is moderate.")
+    # 11 --------------------------------------------------------------- difficulty
+    s = d.slide("Insight: confidence mostly tracks question difficulty",
+                "Where the detector works, we asked what it actually picks up. Mostly, it is question difficulty: a "
+                "hard question makes every model unsure, and every model more often wrong. Counting how many other "
+                "models got a question wrong predicts mistakes even better. There is also a real answer-specific "
+                "part: for the same question, the model's wrong answers are less confident than its right ones.")
     figure(s, FIG / "fig_v2_difficulty.png", X0, 1.45, 5.6, 4.6)
     x = X0 + 5.95
-    stat(s, x, 1.5, 4.6, "0.77–0.82", "SciQ: “how many other models got it wrong”, uses no uncertainty at all")
-    stat(s, x, 2.95, 4.6, "+0.02–0.06", "own uncertainty minus another model's, same questions", color=AMBER)
-    stat(s, x, 4.4, 4.6, "0.55–0.66", "within the same SciQ question: a small answer-specific signal", color=TEXT)
-    text(s, X0, 6.15, 5.6, 0.5, ["TriviaQA (post hoc): D0 0.69–0.75, difficulty proxy 0.81–0.86."], size=12, color=MUTED)
+    stat(s, x, 1.5, 4.6, "0.77–0.82", "“how many other models got it wrong”: a strong difficulty signal")
+    stat(s, x, 2.95, 4.6, "0.55–0.66", "same question, different answers: wrong ones are less confident",
+         color=TEXT)
+    stat(s, x, 4.4, 4.6, "Lesson", "pair confidence with a difficulty estimate for the best results", color=AMBER,
+         big_size=28)
 
     # 12 --------------------------------------------------------------- practice
-    s = d.slide("In practice: abstaining does not help on TruthfulQA",
-                "What would this buy a real system? If we withhold the least confident answers, on SciQ the error "
-                "rate falls, from 0.28 to 0.24 for Qwen. On TruthfulQA it does almost nothing for Qwen and "
-                "SmolLM2: the most confident fifth of their answers is still wrong 60 percent of the time, and "
-                "86 and 84 percent of those errors are misconceptions. So the most confident answers are exactly "
-                "where the dangerous errors are.")
+    s = d.slide("What this means in practice",
+                "What would this buy a real system? On science questions, skipping the 20 percent of answers the "
+                "model is least sure about cuts the error rate from 28 to 24 percent. On the misconception traps "
+                "this does not help: the model's most confident answers are wrong 60 percent of the time, and "
+                "most of those, 84 to 86 percent, are misconceptions. So these answers need an outside fact-check, for example "
+                "looking the fact up in a trusted source.")
     figure(s, FIG / "fig_v3_coverage.png", X0, 1.45, 6.3, 4.6)
     x = X0 + 6.6
-    stat(s, x, 1.5, 4.0, "60% · 61%", "of the most confident fifth of TruthfulQA answers are wrong (Qwen, SmolLM2)",
+    stat(s, x, 1.5, 4.0, "28% → 24%", "science errors after skipping the 20% least confident answers (Qwen)")
+    stat(s, x, 2.95, 4.0, "60% · 61%", "of the most confident misconception-trap answers are wrong (Qwen, SmolLM2)",
          color=AMBER)
-    stat(s, x, 2.95, 4.0, "86% · 84%", "of those confident errors repeat a misconception", color=AMBER)
-    stat(s, x, 4.4, 4.0, "0.28 → 0.24", "SciQ error rate after abstaining on the 20% least confident (Qwen)")
+    stat(s, x, 4.4, 4.0, "→ fact-check", "confident misconceptions need an outside source, not more confidence",
+         color=TEXT, big_size=28)
 
     # 13 --------------------------------------------------------------- demo
-    s = d.slide("Implementation demo",
-                "We now switch to the live demo. Run with: python scripts/demo_app.py. The first tab generates a "
-                "live answer with exactly the experiment protocol, colours each word by confidence, and places the "
-                "risk score against 1,417 held-out answers, together with how reliable the detector measured. "
-                "The second tab browses recorded answers, for example confidently wrong ones, without a GPU. The "
-                "third tab shows the preregistered results.")
+    s = d.slide("Live demo",
+                "We now switch to the live demo. First we run the whole system on 200 new questions in about a "
+                "minute. Then the interactive app: the model answers a question live, each word is coloured by "
+                "confidence, and the risk score is compared with the test results.")
     if SHOT.exists():
         figure(s, SHOT, X0, 1.45, 6.6, 3.0, pad=0.06)
-        text(s, X0, 4.55, 6.6, 1.0, ["Screenshot of the Recorded answers tab: a held-out Qwen answer the judge marked "
-                                     "wrong (a misconception), yet more confident than 82% of its answers."],
-             size=13, color=MUTED)
+        text(s, X0, 4.55, 6.6, 1.0, ["The demo app: a real test answer the grader marked wrong (a misconception), "
+                                     "yet more confident than 82% of the model's answers."], size=13, color=MUTED)
     x = X0 + 6.9
     text(s, x, 1.45, 3.7, 5.3,
-         [[("Ask the model (live)", {"bold": True, "color": GREEN})],
-          "Raw greedy answer + fp32 re-scoring, word-level confidence map, D0 / D2 risk vs held-out answers",
-          [("Recorded answers", {"bold": True, "color": GREEN})],
-          "Browse frozen held-out answers with judge labels; works without a GPU",
-          [("Findings", {"bold": True, "color": GREEN})],
-          "Preregistered results table and figures",
-          [("python scripts/demo_app.py", {"bold": True, "color": AMBER, "size": 14})]], size=14, space=7)
+         [[("1. Run the system", {"bold": True, "color": GREEN})],
+          "All steps on 200 new questions, about 1 minute",
+          [("2. Ask the model", {"bold": True, "color": GREEN})],
+          "Live answer, word-by-word confidence colours, risk score",
+          [("3. Recorded answers", {"bold": True, "color": GREEN})],
+          "Browse graded test answers, e.g. confident mistakes",
+          [("python scripts/live_run.py", {"bold": True, "color": AMBER, "size": 13})],
+          [("python scripts/demo_app.py", {"bold": True, "color": AMBER, "size": 13})]], size=14, space=7)
 
-    # 14 --------------------------------------------------------------- limitations
-    s = d.slide("Limitations",
-                "We want to be clear about the limits. Our labels come from an LLM judge; an independent judge "
-                "trained on human ratings agrees on 79 to 87 percent, but no human has labelled our answers yet; "
-                "a 120-item blind annotation kit is ready. The models are small, up to 3 billion parameters. "
-                "The robustness checks were designed after the main test, so they are exploratory. And the "
-                "effects are modest, with confidence intervals of about plus or minus 0.04.")
+    # 14 --------------------------------------------------------------- scope
+    s = d.slide("Scope and next steps",
+                "Every study has a scope, and here is ours. Our grading uses an AI grader, checked against a second, "
+                "independent grader trained on human ratings; a human check of 120 answers is prepared as the next "
+                "step. We used models that fit our laptop GPU, up to 3 billion parameters; larger models are next. "
+                "The stress tests were added after the main test, so we present them as supporting evidence. And we "
+                "focused on short English question answering.")
     for i, (head, body) in enumerate([
-            ("Labels", "LLM judge with a rubric; independent truth-judge agrees on 79–87%. No human labels yet "
-                       "(120-item blind kit ready in labels/human/)."),
-            ("Model size", "Three 1–2B models plus one 3B check. Larger models are untested."),
-            ("Post-hoc audit", "Robustness checks came after the preregistered test: reported in full, "
-                               "but exploratory."),
-            ("Scope and precision", "Short-answer English QA, greedy decoding, 64-token limit. AUROC CIs "
-                                    "≈ ±0.04.")]):
+            ("Grading", "AI grader, cross-checked by an independent grader (79–87% agreement). Next: a human check "
+                        "of 120 answers, already prepared."),
+            ("Model size", "Three 1–2B models plus one 3B model, sized for a laptop GPU. Next: 7B and larger."),
+            ("Stress tests", "Added after the main test: supporting evidence, reported in full."),
+            ("Task", "Short English question answering. Next: longer answers, retrieval-augmented systems.")]):
         x, y = X0 + (i % 2) * 5.45, 1.55 + (i // 2) * 2.35
         card(s, x, y, 5.15, 2.05)
         text(s, x + 0.25, y + 0.15, 4.7, 0.5, [head], size=19, bold=True, color=AMBER)
         text(s, x + 0.25, y + 0.75, 4.7, 1.5, [body], size=15)
 
     # 15 --------------------------------------------------------------- conclusion
-    s = d.slide("Conclusion and contribution",
-                "To conclude. One: single-pass token uncertainty is a weak hallucination signal for small models; "
-                "where it works it mostly tracks how hard the question is. Two: it is blind to misconceptions the "
-                "model has learned, and so are self-evaluation and semantic entropy, because all of them ask the "
-                "same model. Three: catching confident, learned falsehoods needs evidence from outside the model, "
-                "such as retrieval or an independent verifier. Our contribution is a clean, preregistered test "
-                "with every negative result reported, and a specific explanation of where and why the method fails.")
+    s = d.slide("What we contribute",
+                "To conclude, three contributions. One: a cheap, working detector. With a single model call it "
+                "beats methods that need six, and catches made-up facts and science mistakes. Two: a clear "
+                "discovery about its limits: misconceptions the model learned look like knowledge, to every "
+                "confidence-based method we tested. Three: a rigorous, reproducible system: we found and fixed a "
+                "hidden bug, wrote down predictions in advance, tested on 1,417 new questions, and published all "
+                "code and data. The next step is to combine confidence with looking facts up.")
     for i, (num, head, body) in enumerate([
-            ("1", "Weak signal", "AUROC 0.66–0.70 on SciQ, chance on TruthfulQA for two of three models; "
-                                 "mostly question difficulty."),
-            ("2", "Blind spot", "Misconceptions the model learned look like knowledge, to token "
-                                         "probability, P(True) and semantic entropy alike."),
-            ("3", "Implication", "Detecting learned falsehoods needs outside evidence: retrieval or an "
-                                 "independent verifier.")]):
+            ("1", "Cheap detector", f"One call beats six; catches mistakes on trivia (up to {max(triv_d2):.2f}) "
+                                    "and science (about 0.7)."),
+            ("2", "Key discovery", "Learned misconceptions look like knowledge, to every confidence method."),
+            ("3", "Rigorous system", "Hidden bug fixed, predictions written first, 1,417 new questions, all "
+                                     "code public.")]):
         x = X0 + i * 3.6
         card(s, x, 1.55, 3.35, 2.85)
         c = s.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x + 0.2), Inches(1.75), Inches(0.6), Inches(0.6))
@@ -500,21 +550,21 @@ def build():
         text(s, x + 0.2, 2.6, 2.95, 2.2, [body], size=15)
     card(s, X0, 4.7, XW, 1.45)
     text(s, X0 + 0.3, 4.78, XW - 0.6, 1.3,
-         [[("Future work: ", {"bold": True, "color": AMBER}),
-           ("human labels on the prepared subset, a model of 7B or more, a second misconception dataset, and "
-            "combining uncertainty with retrieval.", {})],
+         [[("Next: ", {"bold": True, "color": AMBER}),
+           ("combine confidence with fact look-up (retrieval), human grading, and larger models.", {})],
           [("Paper: ", {"bold": True, "color": GREEN}), ("Learned Falsehoods Look Like Knowledge (IEEE format, "
                                                          "6 pages). ", {}),
            ("Code and data: ", {"bold": True, "color": GREEN}),
            ("github.com/gouthamkrishna404/hallucination-detection", {})]], size=15, space=6)
 
-    # 16 --------------------------------------------------------------- thanks
-    s = d.slide("Thank you",
-                "Thank you. We are happy to take questions, and we can show any part of the code or the demo again.")
-    text(s, X0, 2.4, XW, 1.0, ["Questions?"], size=44, bold=True, color=GREEN, align=PP_ALIGN.CENTER)
-    text(s, X0, 3.6, XW, 1.6,
-         ["Goutham Krishna Jayakrishnan (24BCE1910) · Shubham Khadilkar (24BCE5275)",
-          "github.com/gouthamkrishna404/hallucination-detection"], size=18, color=MUTED, align=PP_ALIGN.CENTER)
+    # 16 --------------------------------------------------------------- thanks (layout as edited in PowerPoint)
+    s = d.prs.slides.add_slide(d.blank)
+    d.n += 1
+    text(s, 0, 0, 13.333, 7.5, ["Thank you"], size=30, bold=True, align=PP_ALIGN.CENTER,
+         anchor=MSO_ANCHOR.MIDDLE, name="Title")
+    text(s, 0.15, 6.85, 0.75, 0.4, [str(d.n)], size=12, color=MUTED, align=PP_ALIGN.CENTER, name="Slide number")
+    s.notes_slide.notes_text_frame.text = ("Thank you. We are happy to take questions, and we can show any part of "
+                                           "the code or the demo again.")
 
     d.prs.save(str(OUT))
     print("wrote", OUT, "slides:", len(d.prs.slides))

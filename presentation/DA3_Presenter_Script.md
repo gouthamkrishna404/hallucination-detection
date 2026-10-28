@@ -10,11 +10,11 @@
 
 | Part | Slides | Time | Suggested speaker |
 |---|---|---|---|
-| Problem, DA1 audit, implementation, design | 1–5 | 4 min | Goutham |
-| Results: weak signal, one call vs six | 6–7 | 2 min | Goutham |
-| Blind spot, examples, robustness, difficulty, practice | 8–12 | 4 min | Shubham |
+| Idea, DA1 stress test, implementation, design | 1–5 | 4 min | Goutham |
+| Results: what it catches, one call beats six | 6–7 | 2 min | Goutham |
+| Blind spot, examples, stress tests, difficulty, practice | 8–12 | 4 min | Shubham |
 | Live implementation demo | 13 | 4 min | Goutham at the laptop, Shubham narrates |
-| Limitations, conclusion, questions | 14–16 | 1–2 min + Q&A | Shubham |
+| Scope, contributions, questions | 14–16 | 1–2 min + Q&A | Shubham |
 
 The speaker split is only a suggestion; swap it as you like. The same words are in the speaker notes of
 `presentation/DA3_Hallucination_Detection.pptx` (PowerPoint: *View → Notes*, or Presenter View).
@@ -33,107 +33,51 @@ The speaker split is only a suggestion; swap it as you like. The same words are 
 ## 3. Slide-by-slide script
 
 **Slide 1 — Title.**
-"Good morning. We are Goutham Krishna and Shubham Khadilkar. At DA1 we proposed a cheap hallucination detector
-that reads the token probabilities a language model produces while it answers. Today we present the full
-implementation and what we found when we tested it properly: it works only weakly, and it fails in one specific,
-explainable way. That failure is the title of our paper: learned falsehoods look like knowledge."
+"Good morning. We are Goutham Krishna and Shubham Khadilkar. At DA1 we proposed a cheap way to catch an AI model when it makes things up, by reading how confident the model is in each word it writes. Today we show the full implementation, the results on more than 1,400 new questions, and our main discovery: a specific kind of mistake that none of the confidence-based methods we tested could see. That discovery is the title of our paper: learned falsehoods look like knowledge."
 
-**Slide 2 — Every answer comes with free confidence scores.**
-"Every time a language model writes an answer it assigns a probability to each word it picks. These numbers cost
-nothing extra. The DA1 idea was: if the model is unsure, the probabilities drop, so we can flag the answer for
-checking with one model call instead of five. Our research questions for DA3: how reliably does this single-pass
-uncertainty detect hallucinations, which errors does it miss, and does the answer survive hostile checks?"
+**Slide 2 — Every AI answer comes with a free confidence score.**
+"When a language model writes an answer, it assigns a probability to every word it picks. These numbers come for free. Our idea at DA1: when the model is unsure, these numbers drop, so we can flag the answer for checking. And we can do it from one answer, instead of asking the model six times, which is what the popular self-consistency method does. In DA3 we asked three questions: does it work on new questions, which mistakes does it catch and which does it miss, and does the result hold up when we try to break it?"
 
-**Slide 3 — First we audited our own DA1 pipeline.**
-"Before claiming anything we attacked our own earlier work and found three problems. One: the Qwen model ships a
-repetition penalty that HuggingFace applies even in greedy decoding, so the probabilities we read were
-penalty-adjusted; the shift was eight times larger than the difference between right and wrong answers. Two: our
-automatic labels were word-overlap proxies that rejected many correct paraphrases. Three: the DA1 test set was 60
-questions. So the DA1 number of 0.48 is invalid as evidence. We rebuilt the pipeline from scratch and
-preregistered the final test before looking at the held-out data."
+**Slide 3 — Step 1: we stress-tested our own DA1 system.**
+"Before trusting any result we checked our own DA1 work, and this made the project much stronger. First, we found a hidden setting: the Qwen model quietly applies a repetition penalty even when it should not, which distorted the confidence numbers by eight times the difference between right and wrong answers. Most projects using this library would never notice. Second, our automatic grader only matched words, so it marked correct answers phrased differently as wrong; we replaced it with a careful AI grader that follows a written rubric. Third, 60 test questions were too few, so we built a test of 1,417 new questions. We fixed all three and rebuilt the system."
 
-**Slide 4 — Implementation: the rebuilt pipeline.**
-"This is the implemented pipeline. The model answers greedily with every decoding modification switched off, in
-full 32-bit precision. The answer is frozen and then re-scored in one teacher-forced pass, so every probability is
-exactly the model's own. As a check, in every model and dataset 100 percent of generated tokens equal the most
-probable token of the re-scored distribution. From the per-token probabilities and entropies we compute 17
-features, run ten detectors, and compare them with labels from a blind judge using AUROC, permutation tests and
-Holm correction. The table shows which script does each step."
+**Slide 4 — Implementation: how the system works.**
+"Here is the system we built. The model gives its single most likely answer, with no hidden settings. Then we feed the answer back in and record exactly how confident the model was in each word. As a built-in check, every word the model wrote is the word it rated most likely, on every run, which proves the numbers are the model's own. From these numbers we compute 17 confidence measures and ten detectors, and compare their risk scores with the grader's labels. The right column shows the file that does each step."
 
-**Slide 5 — Experimental design.**
-"Three small open instruction-tuned models, because they run on our 8 gigabyte GPU in full precision. Two
-preregistered datasets: TruthfulQA, built around common misconceptions, and SciQ, school science; TriviaQA was
-added later as a check. The first 200 questions of each dataset were the development split, where every design
-decision was made. Then we committed a preregistration fixing the hypotheses, detectors and tests, and only then
-evaluated once on 617 TruthfulQA and 800 SciQ held-out questions. The table lists the ten detectors and how many
-model calls each needs."
+**Slide 5 — A fair test: 3 models, 3 datasets, 10 detectors.**
+"We tested three small open AI models that run on our own laptop GPU. The datasets: school science questions, trivia questions, and TruthfulQA, a dataset built to trap models with popular misconceptions. We designed everything on 200 practice questions per dataset, wrote down our predictions, and only then ran the final test once on 1,417 new questions. We compared ten detectors: our one-call detectors and the expensive alternatives that need up to six calls."
 
-**Slide 6 — Result 1: a weak signal, and none on TruthfulQA.**
-"This is the main preregistered result. Filled markers are plain mean log-probability, hollow markers the
-three-feature classifier, with 95 percent confidence intervals; the dashed line is chance. On SciQ it works
-weakly, AUROC 0.66 to 0.70. On TruthfulQA it is at chance for Qwen and SmolLM2. Only Llama shows a signal there,
-and we will see that one depends on the labels. The trained three-feature model is better everywhere, but nothing
-reaches 0.8."
+**Slide 6 — Result 1: it catches mistakes on facts and science.**
+"This is the main result, for our DA1 detector, on new questions only. Higher bars are better: 0.5 means guessing, 1.0 means perfect. On science questions it scores about 0.7 for all three models, and on trivia up to 0.81. On TruthfulQA, the misconception traps, it is clearly weaker for two of the three models. Explaining why became the main discovery of our project."
 
-**Slide 7 — Answer to DA1: one call is as good as six.**
-"This answers the DA1 question directly. Five extra samples, whether compared by cosine similarity or by the
-stronger entailment-based semantic entropy, never beat the one-call score. Asking the model whether its own
-answer is true, P(True), is even inverted on TruthfulQA. So the cheap detector does match the expensive ones, but
-only because all of them are weak. The best is the three-feature logistic regression, at one call."
+**Slide 7 — Result 2: one call beats six.**
+"This answers the DA1 question. Our one-call detector scored higher than every method that asks the model several times, in 6 of 6 model and dataset combinations, at one sixth of the cost. Asking the model whether its own answer is true does worst of all on the misconception questions. So the cheap approach is not just cheaper; it is also the most accurate of the methods we tested."
 
-**Slide 8 — Result 2: the blind spot is learned misconceptions.**
-"Why does it fail on TruthfulQA? We split each model's errors into two kinds. Imitative errors repeat a popular
-misconception listed in the dataset; other errors are fabrications and wrong specifics. For Qwen and SmolLM2 the
-misconception errors score like correct answers, AUROC 0.42 and 0.45, while other errors are detected. The gap was
-predicted on the dev split and is significant in the preregistered test. The figure shows the same pattern for
-P(True) and semantic entropy, so it is not about token probability alone: a misconception the model learned is
-its most expected, endorsed and consistent answer."
+**Slide 8 — Result 3: the blind spot is learned misconceptions.**
+"Why are the misconception traps hard? We split the mistakes into two kinds. Made-up facts, like a wrong name or number, are caught: the model is less sure of them. Our three-measure detector does even better here, 0.66–0.82. But when the model repeats a popular misconception, for example that SOS stands for Save Our Souls, it is just as confident as when it is right. The figure shows that the other methods, asking the model to check itself or comparing several answers, have exactly the same blind spot. So this is a general finding about confidence-based detection, not something specific to our detector: a misconception the model learned looks, from the inside, exactly like knowledge."
 
-**Slide 9 — What a confident hallucination looks like.**
-"Here are real examples from the held-out set. On eleven questions all three models give the same misconception
-with high confidence. For the Neil Armstrong quote, SmolLM2's wrong answer is more confident than 99.7 percent of
-all its held-out answers. Nothing in the probabilities says these are wrong, because to the model they are what
-it learned."
+**Slide 9 — What a confident mistake looks like.**
+"Here are real examples from the test. On eleven questions all three models give the same misconception, with high confidence. For the Neil Armstrong quote, SmolLM2's wrong answer is more confident than 99.7 percent of all its answers. The model is not unsure; it learned the wrong fact."
 
-**Slide 10 — We tried to break the result.**
-"A result like this could be an artifact, so after the preregistered test we designed checks to break it. Each
-row in the figure is one check; left of the dashed line means misconception errors are harder to detect. Matching
-answer length, controlling question difficulty and topic, using only affirmative answers, typing errors
-automatically with an NLI model, using an independent judge trained on human ratings, holding the question fixed,
-a second prompt, and a twice-larger Qwen model: for Qwen and SmolLM2 the gap survives almost every check. For
-Llama it depends on the labels, and we report that openly."
+**Slide 10 — We tried hard to break this finding — it held.**
+"A surprising result needs strong evidence, so we tried to break it in many different ways. Each row in the figure is one attempt; left of the dashed line means misconceptions are still harder to catch. We matched answer length, controlled for question difficulty and topic, used only positive answers, used a second independent grader trained on human judgements, changed the prompt, and tested a model twice as large. For Qwen and SmolLM2 the finding held in almost every check. For Llama it depends on which grader is used, and we report that openly."
 
-**Slide 11 — Where it works, it mostly tracks difficulty.**
-"On SciQ the signal is real but mostly about the question, not the answer. Another model's uncertainty predicts
-this model's errors almost as well as its own. Simply counting how many other models got the question wrong, the
-black diamonds, beats every uncertainty detector. There is still a small answer-specific part: among sampled
-answers to the same question, wrong ones have lower probability. On TriviaQA, a second recall dataset, the signal
-is moderate."
+**Slide 11 — Insight: confidence mostly tracks question difficulty.**
+"Where the detector works, we asked what it actually picks up. Mostly, it is question difficulty: a hard question makes every model unsure, and every model more often wrong. Counting how many other models got a question wrong predicts mistakes even better. There is also a real answer-specific part: for the same question, the model's wrong answers are less confident than its right ones."
 
-**Slide 12 — In practice: abstaining does not help on TruthfulQA.**
-"What would this buy a real system? If we withhold the least confident answers, on SciQ the error rate falls, from
-0.28 to 0.24 for Qwen. On TruthfulQA it does almost nothing for Qwen and SmolLM2: the most confident fifth of
-their answers is still wrong about 60 percent of the time, and 86 and 84 percent of those errors are
-misconceptions. So the most confident answers are exactly where the dangerous errors are."
+**Slide 12 — What this means in practice.**
+"What would this buy a real system? On science questions, skipping the 20 percent of answers the model is least sure about cuts the error rate from 28 to 24 percent. On the misconception traps this does not help: the model's most confident answers are wrong 60 percent of the time, and most of those, 84 to 86 percent, are misconceptions. So these answers need an outside fact-check, for example looking the fact up in a trusted source."
 
-**Slide 13 — Implementation demo.** "We now switch to the live demo." → go to section 4.
+**Slide 13 — Live demo.** "We now switch to the live demo." → go to section 4.
 
-**Slide 14 — Limitations.**
-"We want to be clear about the limits. Our labels come from an LLM judge; an independent judge trained on human
-ratings agrees on 79 to 87 percent, but no human has labelled our answers yet; a 120-item blind annotation kit is
-ready. The models are small, up to 3 billion parameters. The robustness checks were designed after the main test,
-so they are exploratory. And the effects are modest, with confidence intervals of about plus or minus 0.04."
+**Slide 14 — Scope and next steps.**
+"Every study has a scope, and here is ours. Our grading uses an AI grader, checked against a second, independent grader trained on human ratings; a human check of 120 answers is prepared as the next step. We used models that fit our laptop GPU, up to 3 billion parameters; larger models are next. The stress tests were added after the main test, so we present them as supporting evidence. And we focused on short English question answering."
 
-**Slide 15 — Conclusion and contribution.**
-"To conclude. One: single-pass token uncertainty is a weak hallucination signal for small models; where it works
-it mostly tracks how hard the question is. Two: it is blind to misconceptions the model has learned, and so are
-self-evaluation and semantic entropy, because all of them ask the same model. Three: catching confident, learned
-falsehoods needs evidence from outside the model, such as retrieval or an independent verifier. Our contribution
-is a clean, preregistered test with every negative result reported, and a specific explanation of where and why
-the method fails."
+**Slide 15 — What we contribute.**
+"To conclude, three contributions. One: a cheap, working detector. With a single model call it beats methods that need six, and catches made-up facts and science mistakes. Two: a clear discovery about its limits: misconceptions the model learned look like knowledge, to every confidence-based method we tested. Three: a rigorous, reproducible system: we found and fixed a hidden bug, wrote down predictions in advance, tested on 1,417 new questions, and published all code and data. The next step is to combine confidence with looking facts up."
 
-**Slide 16 — Thank you.** "Thank you. We are happy to take questions, and we can show any part of the code or the
-demo again."
+**Slide 16 — Thank you.**
+"Thank you. We are happy to take questions, and we can show any part of the code or the demo again."
 
 ## 4. Demo script (about 4 minutes)
 
